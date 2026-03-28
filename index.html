@@ -89,10 +89,24 @@
   .dp-apply:hover { background:var(--accent-dark); }
 
   /* ── Filter row ── */
-  .filter-row { padding:0.55rem 1.5rem; background:var(--bg); border-bottom:0.5px solid var(--border); display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
-  .chip { font-size:12px; padding:4px 13px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
-  .chip:hover { background:var(--bg2); }
-  .chip.active { background:var(--green); border-color:var(--green); color:#fff; }
+  .filter-row { padding:0.55rem 1.5rem; background:var(--bg); border-bottom:0.5px solid var(--border); display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+
+  /* ── Dropdown pills ── */
+  .pill-wrap { position:relative; }
+  .filter-pill { display:flex; align-items:center; gap:5px; font-size:12px; padding:4px 10px 4px 12px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.15s; line-height:1.4; }
+  .filter-pill:hover { background:var(--bg2); border-color:var(--text3); }
+  .filter-pill.open { border-color:var(--text3); background:var(--bg2); }
+  .filter-pill.filtered { background:var(--green); border-color:var(--green); color:#fff; }
+  .filter-pill.filtered:hover { background:var(--accent-dark); border-color:var(--accent-dark); }
+  .pill-chev { width:10px; height:10px; transition:transform 0.2s; flex-shrink:0; }
+  .filter-pill.open .pill-chev { transform:rotate(180deg); }
+  .pill-menu { display:none; position:absolute; top:calc(100% + 4px); left:0; background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:4px; min-width:150px; z-index:100; max-height:260px; overflow-y:auto; box-shadow:0 8px 24px rgba(0,0,0,0.3); }
+  .pill-menu.open { display:block; }
+  .pill-menu.align-right { left:auto; right:0; }
+  .pill-option { display:block; width:100%; text-align:left; font-size:12px; padding:6px 10px; border:none; background:none; color:var(--text2); cursor:pointer; border-radius:var(--radius-sm); transition:background 0.1s,color 0.1s; white-space:nowrap; }
+  .pill-option:hover { background:var(--bg2); color:var(--text); }
+  .pill-option.selected { color:var(--green); font-weight:600; }
+  .pill-option.selected::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--green); margin-right:6px; vertical-align:middle; }
   .search-wrap { display:flex; align-items:center; }
   .search-icon-btn { background:none; border:0.5px solid var(--border2); border-radius:var(--radius-sm); width:28px; height:28px; cursor:pointer; color:var(--text2); display:flex; align-items:center; justify-content:center; transition:background 0.1s,color 0.1s,border-radius 0.15s; flex-shrink:0; }
   .search-icon-btn:hover { background:var(--bg2); color:var(--text); }
@@ -198,19 +212,12 @@
   .site-footer a { color:var(--green); text-decoration:none; }
   .site-footer a:hover { text-decoration:underline; }
 
-  /* ── Type filter chips ── */
-  .type-chip { font-size:11px; padding:3px 10px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
-  .type-chip:hover { background:var(--bg2); }
-  .type-chip.active { background:var(--green); border-color:var(--green); color:#fff; }
-  .filter-sep { width:1px; height:18px; background:var(--border2); margin:0 2px; flex-shrink:0; }
-  .filter-select { font-size:12px; padding:3px 8px; border-radius:var(--radius-sm); border:0.5px solid var(--border2); background:var(--bg2); color:var(--text2); cursor:pointer; outline:none; appearance:none; -webkit-appearance:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%23a8a8a2' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 6px center; padding-right:20px; }
-  .filter-select:focus { border-color:var(--accent); }
-  .filter-select option { background:var(--bg); color:var(--text); }
+  /* (old chip/select styles removed — using pill-wrap system now) */
 
   /* ── Bottom sheet (mobile filters) ── */
   .mobile-filter-btn { display:none; font-size:12px; padding:4px 12px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
   .mobile-filter-btn:hover { background:var(--bg2); }
-  .mobile-filter-btn.has-filters { border-color:var(--accent); color:var(--accent); }
+  .mobile-filter-btn.has-filters { border-color:var(--green); background:var(--green); color:#fff; }
   .bottomsheet-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:300; }
   .bottomsheet-overlay.open { display:block; }
   .bottomsheet { position:fixed; bottom:0; left:0; right:0; background:var(--bg); border-top:0.5px solid var(--border2); border-radius:16px 16px 0 0; padding:1.25rem 1.25rem 2rem; z-index:301; transform:translateY(100%); transition:transform 0.25s ease; max-height:70vh; overflow-y:auto; }
@@ -218,10 +225,10 @@
   .bs-handle { width:36px; height:4px; border-radius:2px; background:var(--border2); margin:0 auto 16px; }
   .bs-section { margin-bottom:16px; }
   .bs-label { font-size:11px; font-weight:600; color:var(--text3); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px; }
-  .bs-chips { display:flex; flex-wrap:wrap; gap:6px; }
-  .bs-chips .chip, .bs-chips .type-chip { font-size:12px; padding:6px 14px; }
-  .bs-row { display:flex; gap:8px; }
-  .bs-row .filter-select { flex:1; font-size:13px; padding:8px 10px; padding-right:24px; }
+  .bs-options { display:flex; flex-wrap:wrap; gap:6px; }
+  .bs-opt { font-size:12px; padding:6px 14px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
+  .bs-opt:hover { background:var(--bg2); }
+  .bs-opt.active { background:var(--green); border-color:var(--green); color:#fff; }
 
   /* ── Responsive ── */
   @media (max-width:640px) {
@@ -237,11 +244,8 @@
     .card-grid.row-view { gap:10px; }
     .event-row { display:none; }
     .view-toggle { display:none; }
-    /* hide inline filters, show mobile filter button */
-    .filter-row .chip,
-    .filter-row .type-chip,
-    .filter-row .filter-select,
-    .filter-row .filter-sep { display:none; }
+    /* hide pill dropdowns on mobile, show filter button */
+    .filter-row .pill-wrap { display:none; }
     .mobile-filter-btn { display:inline-flex; align-items:center; gap:4px; }
   }
 </style>
@@ -305,24 +309,50 @@
     </button>
     <input class="search-box" type="search" placeholder="Artist or venue…" oninput="debouncedSearch()" id="search">
   </div>
-  <button class="chip active" onclick="setRegion('all',this)">All regions</button>
-  <button class="chip" onclick="setRegion('Medford',this)">Medford</button>
-  <button class="chip" onclick="setRegion('Ashland',this)">Ashland</button>
-  <button class="chip" onclick="setRegion('GrantsPass',this)">Grants Pass</button>
-  <button class="chip" onclick="setRegion('RogueRiver',this)">Rogue River</button>
-  <span class="filter-sep"></span>
-  <button class="type-chip active" onclick="setType('all',this)">All types</button>
-  <button class="type-chip" onclick="setType('Band',this)">Band</button>
-  <button class="type-chip" onclick="setType('Solo',this)">Solo</button>
-  <button class="type-chip" onclick="setType('Jam',this)">Jam</button>
-  <button class="type-chip" onclick="setType('Open Mic',this)">Open Mic</button>
-  <span class="filter-sep"></span>
-  <select class="filter-select" id="genre-filter" onchange="setGenre(this.value)">
-    <option value="all">All genres</option>
-  </select>
-  <select class="filter-select" id="venuetype-filter" onchange="setVenueType(this.value)">
-    <option value="all">All venues</option>
-  </select>
+  <div class="pill-wrap">
+    <button class="filter-pill" id="pill-region" onclick="togglePill('region')">
+      <span id="pill-region-label">Region</span>
+      <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="pill-menu" id="pill-region-menu">
+      <button class="pill-option selected" onclick="pickFilter('region','all','Region')">All regions</button>
+      <button class="pill-option" onclick="pickFilter('region','Medford','Medford')">Medford</button>
+      <button class="pill-option" onclick="pickFilter('region','Ashland','Ashland')">Ashland</button>
+      <button class="pill-option" onclick="pickFilter('region','GrantsPass','Grants Pass')">Grants Pass</button>
+      <button class="pill-option" onclick="pickFilter('region','RogueRiver','Rogue River')">Rogue River</button>
+    </div>
+  </div>
+  <div class="pill-wrap">
+    <button class="filter-pill" id="pill-type" onclick="togglePill('type')">
+      <span id="pill-type-label">Type</span>
+      <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="pill-menu" id="pill-type-menu">
+      <button class="pill-option selected" onclick="pickFilter('type','all','Type')">All types</button>
+      <button class="pill-option" onclick="pickFilter('type','Band','Band')">Band</button>
+      <button class="pill-option" onclick="pickFilter('type','Solo','Solo')">Solo</button>
+      <button class="pill-option" onclick="pickFilter('type','Jam','Jam')">Jam</button>
+      <button class="pill-option" onclick="pickFilter('type','Open Mic','Open Mic')">Open Mic</button>
+    </div>
+  </div>
+  <div class="pill-wrap">
+    <button class="filter-pill" id="pill-genre" onclick="togglePill('genre')">
+      <span id="pill-genre-label">Genre</span>
+      <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="pill-menu" id="pill-genre-menu">
+      <button class="pill-option selected" onclick="pickFilter('genre','all','Genre')">All genres</button>
+    </div>
+  </div>
+  <div class="pill-wrap">
+    <button class="filter-pill" id="pill-venue" onclick="togglePill('venue')">
+      <span id="pill-venue-label">Venue type</span>
+      <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="pill-menu align-right" id="pill-venue-menu">
+      <button class="pill-option selected" onclick="pickFilter('venue','all','Venue type')">All venue types</button>
+    </div>
+  </div>
   <button class="mobile-filter-btn" id="mobile-filter-btn" onclick="openBottomSheet()">
     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>Filters
   </button>
@@ -352,34 +382,31 @@
   <div class="bs-handle"></div>
   <div class="bs-section">
     <div class="bs-label">Region</div>
-    <div class="bs-chips" id="bs-region-chips">
-      <button class="chip active" onclick="setRegion('all',this);syncBsState()">All</button>
-      <button class="chip" onclick="setRegion('Medford',this);syncBsState()">Medford</button>
-      <button class="chip" onclick="setRegion('Ashland',this);syncBsState()">Ashland</button>
-      <button class="chip" onclick="setRegion('GrantsPass',this);syncBsState()">Grants Pass</button>
-      <button class="chip" onclick="setRegion('RogueRiver',this);syncBsState()">Rogue River</button>
+    <div class="bs-options" id="bs-region">
+      <button class="bs-opt active" onclick="bsPick('region','all','Region',this)">All</button>
+      <button class="bs-opt" onclick="bsPick('region','Medford','Medford',this)">Medford</button>
+      <button class="bs-opt" onclick="bsPick('region','Ashland','Ashland',this)">Ashland</button>
+      <button class="bs-opt" onclick="bsPick('region','GrantsPass','Grants Pass',this)">Grants Pass</button>
+      <button class="bs-opt" onclick="bsPick('region','RogueRiver','Rogue River',this)">Rogue River</button>
     </div>
   </div>
   <div class="bs-section">
     <div class="bs-label">Type</div>
-    <div class="bs-chips" id="bs-type-chips">
-      <button class="type-chip active" onclick="setType('all',this);syncBsState()">All</button>
-      <button class="type-chip" onclick="setType('Band',this);syncBsState()">Band</button>
-      <button class="type-chip" onclick="setType('Solo',this);syncBsState()">Solo</button>
-      <button class="type-chip" onclick="setType('Jam',this);syncBsState()">Jam</button>
-      <button class="type-chip" onclick="setType('Open Mic',this);syncBsState()">Open Mic</button>
+    <div class="bs-options" id="bs-type">
+      <button class="bs-opt active" onclick="bsPick('type','all','Type',this)">All</button>
+      <button class="bs-opt" onclick="bsPick('type','Band','Band',this)">Band</button>
+      <button class="bs-opt" onclick="bsPick('type','Solo','Solo',this)">Solo</button>
+      <button class="bs-opt" onclick="bsPick('type','Jam','Jam',this)">Jam</button>
+      <button class="bs-opt" onclick="bsPick('type','Open Mic','Open Mic',this)">Open Mic</button>
     </div>
   </div>
   <div class="bs-section">
-    <div class="bs-label">More filters</div>
-    <div class="bs-row">
-      <select class="filter-select" id="bs-genre-filter" onchange="setGenre(this.value);syncBsState()">
-        <option value="all">All genres</option>
-      </select>
-      <select class="filter-select" id="bs-venuetype-filter" onchange="setVenueType(this.value);syncBsState()">
-        <option value="all">All venues</option>
-      </select>
-    </div>
+    <div class="bs-label">Genre</div>
+    <div class="bs-options" id="bs-genre"></div>
+  </div>
+  <div class="bs-section">
+    <div class="bs-label">Venue type</div>
+    <div class="bs-options" id="bs-venue"></div>
   </div>
 </div>
 
@@ -680,16 +707,66 @@ function updateDpLabel(){
   }
 }
 
-function setRegion(r,el){
-  activeRegion=r;
-  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
-  el.classList.add('active');syncUrl();render();
+/* ── Pill dropdown filters ── */
+const FILTER_STATE={region:'all',type:'all',genre:'all',venue:'all'};
+const FILTER_DEFAULTS={region:'Region',type:'Type',genre:'Genre',venue:'Venue type'};
+
+function togglePill(name){
+  closeAllPills(name);
+  const menu=document.getElementById('pill-'+name+'-menu');
+  const pill=document.getElementById('pill-'+name);
+  const open=menu.classList.toggle('open');
+  pill.classList.toggle('open',open);
+}
+function closeAllPills(except){
+  ['region','type','genre','venue'].forEach(n=>{
+    if(n===except)return;
+    const m=document.getElementById('pill-'+n+'-menu');
+    const p=document.getElementById('pill-'+n);
+    if(m)m.classList.remove('open');
+    if(p)p.classList.remove('open');
+  });
 }
 
-function setType(t,el){
-  activeType=t;
-  document.querySelectorAll('.type-chip').forEach(c=>c.classList.remove('active'));
-  el.classList.add('active');syncUrl();render();
+function pickFilter(name,value,label){
+  FILTER_STATE[name]=value;
+  if(name==='region')activeRegion=value;
+  else if(name==='type')activeType=value;
+  else if(name==='genre')activeGenre=value;
+  else if(name==='venue')activeVenueType=value;
+  // update pill label + filtered state
+  const pill=document.getElementById('pill-'+name);
+  const lbl=document.getElementById('pill-'+name+'-label');
+  const isDefault=value==='all';
+  lbl.textContent=isDefault?FILTER_DEFAULTS[name]:label;
+  pill.classList.toggle('filtered',!isDefault);
+  // update selected option
+  document.querySelectorAll('#pill-'+name+'-menu .pill-option').forEach(o=>o.classList.remove('selected'));
+  event.target.classList.add('selected');
+  // close menu
+  pill.classList.remove('open');
+  document.getElementById('pill-'+name+'-menu').classList.remove('open');
+  syncUrl();render();
+}
+
+/* keep old function signatures for URL restore compatibility */
+function setRegion(r){activeRegion=r;FILTER_STATE.region=r;syncPillUi('region',r);syncUrl();render();}
+function setType(t){activeType=t;FILTER_STATE.type=t;syncPillUi('type',t);syncUrl();render();}
+function setGenre(v){activeGenre=v;FILTER_STATE.genre=v;syncPillUi('genre',v);syncUrl();render();}
+function setVenueType(v){activeVenueType=v;FILTER_STATE.venue=v;syncPillUi('venue',v);syncUrl();render();}
+
+function syncPillUi(name,value){
+  const pill=document.getElementById('pill-'+name);
+  const lbl=document.getElementById('pill-'+name+'-label');
+  if(!pill||!lbl)return;
+  const isDefault=value==='all';
+  pill.classList.toggle('filtered',!isDefault);
+  // find the matching option label
+  const opt=[...document.querySelectorAll('#pill-'+name+'-menu .pill-option')].find(o=>o.textContent.trim()===value||
+    (isDefault&&o.textContent.trim().startsWith('All')));
+  lbl.textContent=isDefault?FILTER_DEFAULTS[name]:(opt?opt.textContent.trim():value);
+  document.querySelectorAll('#pill-'+name+'-menu .pill-option').forEach(o=>o.classList.remove('selected'));
+  if(opt)opt.classList.add('selected');
 }
 
 /* ── Filter ── */
@@ -876,6 +953,8 @@ document.getElementById('modal').addEventListener('click',function(e){if(e.targe
 document.addEventListener('click',function(e){
   const wrap=document.getElementById('dp-wrap');
   if(wrap&&!wrap.contains(e.target))closeDatePicker();
+  // close pill menus if click is outside any pill-wrap
+  if(!e.target.closest('.pill-wrap'))closeAllPills();
 });
 document.addEventListener('keydown',e=>{
   if(e.key==='Escape'){
@@ -899,12 +978,23 @@ function populateFilterDropdowns(){
     if(e.genre)genres.add(e.genre);
     if(e.venueType)vtypes.add(e.venueType);
   });
-  const gSel=document.getElementById('genre-filter');
-  const vSel=document.getElementById('venuetype-filter');
-  gSel.innerHTML='<option value="all">All genres</option>'+[...genres].sort().map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join('');
-  vSel.innerHTML='<option value="all">All venues</option>'+[...vtypes].sort().map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
-  gSel.value=activeGenre;
-  vSel.value=activeVenueType;
+  // populate pill menus
+  const gMenu=document.getElementById('pill-genre-menu');
+  const vMenu=document.getElementById('pill-venue-menu');
+  gMenu.innerHTML='<button class="pill-option'+(activeGenre==='all'?' selected':'')+'" onclick="pickFilter(\'genre\',\'all\',\'Genre\')">All genres</button>'+
+    [...genres].sort().map(g=>'<button class="pill-option'+(activeGenre===g?' selected':'')+'" onclick="pickFilter(\'genre\',\''+esc(g)+'\',\''+esc(g)+'\')">'+esc(g)+'</button>').join('');
+  vMenu.innerHTML='<button class="pill-option'+(activeVenueType==='all'?' selected':'')+'" onclick="pickFilter(\'venue\',\'all\',\'Venue type\')">All venue types</button>'+
+    [...vtypes].sort().map(v=>'<button class="pill-option'+(activeVenueType===v?' selected':'')+'" onclick="pickFilter(\'venue\',\''+esc(v)+'\',\''+esc(v)+'\')">'+esc(v)+'</button>').join('');
+  // sync pill UI state
+  syncPillUi('genre',activeGenre);
+  syncPillUi('venue',activeVenueType);
+  // populate bottom sheet genre/venue options
+  const bsGenre=document.getElementById('bs-genre');
+  const bsVenue=document.getElementById('bs-venue');
+  if(bsGenre)bsGenre.innerHTML='<button class="bs-opt'+(activeGenre==='all'?' active':'')+'" onclick="bsPick(\'genre\',\'all\',\'Genre\',this)">All</button>'+
+    [...genres].sort().map(g=>'<button class="bs-opt'+(activeGenre===g?' active':'')+'" onclick="bsPick(\'genre\',\''+esc(g)+'\',\''+esc(g)+'\',this)">'+esc(g)+'</button>').join('');
+  if(bsVenue)bsVenue.innerHTML='<button class="bs-opt'+(activeVenueType==='all'?' active':'')+'" onclick="bsPick(\'venue\',\'all\',\'Venue type\',this)">All</button>'+
+    [...vtypes].sort().map(v=>'<button class="bs-opt'+(activeVenueType===v?' active':'')+'" onclick="bsPick(\'venue\',\''+esc(v)+'\',\''+esc(v)+'\',this)">'+esc(v)+'</button>').join('');
 }
 
 /* ── Event slug for deep linking ── */
@@ -950,25 +1040,18 @@ function restoreFromUrl(){
   // region
   if(p.has('region')){
     activeRegion=p.get('region');
-    document.querySelectorAll('.chip').forEach(c=>{
-      c.classList.toggle('active',c.textContent.replace(/\s/g,'')===activeRegion||
-        (activeRegion==='GrantsPass'&&c.textContent==='Grants Pass')||
-        (activeRegion==='RogueRiver'&&c.textContent==='Rogue River'));
-    });
-    // deactivate 'all' if a specific region is set
-    document.querySelector('.chip').classList.remove('active');
+    FILTER_STATE.region=activeRegion;
+    syncPillUi('region',activeRegion);
   }
   // type
   if(p.has('type')){
     activeType=p.get('type');
-    document.querySelectorAll('.type-chip').forEach(c=>{
-      c.classList.toggle('active',c.textContent===activeType);
-    });
-    document.querySelector('.type-chip').classList.toggle('active',false);
+    FILTER_STATE.type=activeType;
+    syncPillUi('type',activeType);
   }
-  // genre, venue type
-  if(p.has('genre'))activeGenre=p.get('genre');
-  if(p.has('venue'))activeVenueType=p.get('venue');
+  // genre, venue type (pill UI synced after data loads in populateFilterDropdowns)
+  if(p.has('genre')){activeGenre=p.get('genre');FILTER_STATE.genre=activeGenre;}
+  if(p.has('venue')){activeVenueType=p.get('venue');FILTER_STATE.venue=activeVenueType;}
   // search
   if(p.has('q')){
     const box=document.getElementById('search');
@@ -1053,35 +1136,48 @@ function closeBottomSheet(){
   document.getElementById('bs-panel').classList.remove('open');
   setTimeout(()=>document.getElementById('bs-overlay').classList.remove('open'),250);
 }
+
+function bsPick(name,value,label,el){
+  // update state
+  if(name==='region')activeRegion=value;
+  else if(name==='type')activeType=value;
+  else if(name==='genre')activeGenre=value;
+  else if(name==='venue')activeVenueType=value;
+  FILTER_STATE[name]=value;
+  // update active class in this section
+  el.closest('.bs-options').querySelectorAll('.bs-opt').forEach(o=>o.classList.remove('active'));
+  el.classList.add('active');
+  // sync desktop pills
+  syncPillUi(name,value);
+  syncBsBtn();
+  syncUrl();render();
+}
+
 function syncBsFromState(){
-  // sync region chips in bottom sheet
-  document.querySelectorAll('#bs-region-chips .chip').forEach(c=>{
-    const val=c.textContent.trim().replace(/\s/g,'');
+  // sync region
+  document.querySelectorAll('#bs-region .bs-opt').forEach(c=>{
+    const txt=c.textContent.trim();
     c.classList.toggle('active',
-      (activeRegion==='all'&&val==='All')||val===activeRegion||
-      (activeRegion==='GrantsPass'&&c.textContent.trim()==='Grants Pass')||
-      (activeRegion==='RogueRiver'&&c.textContent.trim()==='Rogue River'));
+      (activeRegion==='all'&&txt==='All')||
+      (activeRegion==='GrantsPass'&&txt==='Grants Pass')||
+      (activeRegion==='RogueRiver'&&txt==='Rogue River')||
+      txt===activeRegion);
   });
-  // sync type chips
-  document.querySelectorAll('#bs-type-chips .type-chip').forEach(c=>{
+  // sync type
+  document.querySelectorAll('#bs-type .bs-opt').forEach(c=>{
     c.classList.toggle('active',
       (activeType==='all'&&c.textContent.trim()==='All')||c.textContent.trim()===activeType);
   });
-  // sync selects
-  const gSel=document.getElementById('bs-genre-filter');
-  const vSel=document.getElementById('bs-venuetype-filter');
-  // clone options from desktop selects
-  gSel.innerHTML=document.getElementById('genre-filter').innerHTML;
-  vSel.innerHTML=document.getElementById('venuetype-filter').innerHTML;
-  gSel.value=activeGenre;
-  vSel.value=activeVenueType;
+  // sync genre + venue (re-populate to get correct active states)
+  populateFilterDropdowns();
 }
-function syncBsState(){
-  // update mobile filter button indicator
+
+function syncBsBtn(){
   const hasFilters=activeRegion!=='all'||activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all';
-  document.getElementById('mobile-filter-btn').classList.toggle('has-filters',hasFilters);
+  const btn=document.getElementById('mobile-filter-btn');
+  btn.classList.toggle('has-filters',hasFilters);
   const count=[activeRegion!=='all',activeType!=='all',activeGenre!=='all',activeVenueType!=='all'].filter(Boolean).length;
-  document.getElementById('mobile-filter-btn').innerHTML=
+  btn.innerHTML=
     '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>Filters'+(count?' ('+count+')':'');
 }
 
