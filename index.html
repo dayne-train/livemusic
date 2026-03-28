@@ -584,7 +584,7 @@ function startIconCycle(){
     if(el){el.style.transition='opacity 0.15s';el.style.opacity='0';
       setTimeout(()=>{el.innerHTML=LOADING_ICONS[_loadIconIdx];el.style.opacity='1';},150);
     }else clearInterval(_loadIconTimer);
-  },600);
+  },2000);
 }
 function stopIconCycle(){clearInterval(_loadIconTimer);}
 
