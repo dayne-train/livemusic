@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTAwIj4KICA8cGF0aCBmaWxsPSIjMUQ5RTc1IiBkPSIKICAgIE0gMTAsMTQKICAgIEwgMTAsMTgKICAgIEwgNiwyMAogICAgTCA2LDI0CiAgICBMIDEwLDI0CiAgICBMIDEwLDI4CiAgICBMIDcsMzAKICAgIEwgNyw3MgogICAgTCAxNCw3NwogICAgTCAyMiw3NQogICAgTCAzMCw3OAogICAgTCA0Miw4MAogICAgTCA1NSw3OAogICAgTCA2OCw4MAogICAgTCA3OCw3NgogICAgTCA4NCw3MAogICAgTCA4OCw2MgogICAgTCA5NCw1MgogICAgTCAxMDAsNDIKICAgIEwgMTA0LDM0CiAgICBMIDEwNywyNgogICAgTCAxMDcsMTgKICAgIEwgMTAyLDEzCiAgICBMIDkyLDEwCiAgICBMIDc4LDgKICAgIEwgNjAsNwogICAgTCA0MCw3CiAgICBMIDIyLDkKICAgIEwgMTAsMTQKICAgIFoKICAiLz4KPC9zdmc+">
+<title>Rogue Live</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:#1c1c1a; --bg2:#252523; --bg3:#141412;
+    --text:#f0f0ec; --text2:#a8a8a2; --text3:#5f5e5a;
+    --border:rgba(255,255,255,0.08); --border2:rgba(255,255,255,0.16);
+    --accent:#1D9E75; --accent-dark:#0F6E56;
+    --green:#1D9E75; --green-dark:#0F6E56;
+    --radius:10px; --radius-sm:6px;
+  }
+  @media (prefers-color-scheme:light) {
+    :root {
+      --bg:#1c1c1a; --bg2:#252523; --bg3:#141412;
+      --text:#f0f0ec; --text2:#a8a8a2; --text3:#5f5e5a;
+    }
+  }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; background:var(--bg3); color:var(--text); font-size:16px; line-height:1.5; min-height:100vh; }
+
+  /* ── Header — title left, nav right, wraps on mobile ── */
+  .site-header {
+    background:var(--bg); border-bottom:0.5px solid var(--border);
+    padding:0.75rem 1.5rem;
+    display:flex; align-items:center; justify-content:space-between;
+    gap:0.75rem; flex-wrap:wrap;
+    position:sticky; top:0; z-index:50;
+  }
+  .header-brand { flex-shrink:0; }
+  .site-title { font-size:18px; font-weight:600; }
+  .site-tagline { font-size:11px; color:var(--text3); margin-top:2px; }
+  .site-sub { font-size:11px; color:var(--text3); margin-top:2px; display:flex; align-items:center; gap:5px; }
+  .source-dot { width:6px; height:6px; border-radius:50%; background:var(--green); display:inline-block; animation:pulse 2.5s infinite; flex-shrink:0; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+  /* nav cluster — sits right of title on desktop, wraps to its own row on mobile */
+  .header-nav {
+    display:flex; align-items:center; gap:7px; flex-wrap:wrap;
+    /* on mobile this will wrap below the brand naturally */
+  }
+
+  .nav-chip { font-size:12px; padding:4px 11px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); transition:all 0.1s; white-space:nowrap; line-height:1.4; }
+  .nav-chip:hover { background:var(--bg2); }
+  .nav-chip.active { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .nav-sep { width:1px; height:18px; background:var(--border2); margin:0 1px; flex-shrink:0; }
+
+  /* ── Date picker dropdown ── */
+  .date-picker-wrap { position:relative; }
+  .date-picker-btn { display:flex; align-items:center; gap:6px; background:var(--bg2); border:0.5px solid var(--border2); border-radius:var(--radius-sm); padding:5px 11px; font-size:13px; font-weight:500; color:var(--text); cursor:pointer; white-space:nowrap; transition:border-color 0.1s; }
+  .date-picker-btn:hover { border-color:var(--accent); }
+  .date-picker-btn.open { border-color:var(--accent); }
+  .date-picker-btn svg { width:13px; height:13px; color:var(--text3); transition:transform 0.2s; flex-shrink:0; }
+  .date-picker-btn.open svg { transform:rotate(180deg); }
+  .date-picker-panel { display:none; position:absolute; right:0; top:calc(100% + 6px); background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:14px; min-width:260px; z-index:100; }
+  .date-picker-panel.open { display:block; }
+  .dp-mode-toggle { display:flex; border:0.5px solid var(--border2); border-radius:var(--radius-sm); overflow:hidden; margin-bottom:14px; }
+  .dp-mode-btn { flex:1; background:none; border:none; padding:6px 0; font-size:12px; cursor:pointer; color:var(--text2); transition:background 0.1s,color 0.1s; }
+  .dp-mode-btn.active { background:var(--accent); color:#fff; }
+  .dp-fields { display:flex; flex-direction:column; gap:8px; }
+  .dp-row { display:flex; align-items:center; gap:8px; }
+  .dp-label { font-size:11px; color:var(--text3); width:32px; flex-shrink:0; }
+  .dp-input { flex:1; font-size:12px; padding:5px 8px; border:0.5px solid var(--border2); border-radius:var(--radius-sm); background:var(--bg2); color:var(--text); outline:none; }
+  .dp-input:focus { border-color:var(--accent); }
+  .dp-apply { width:100%; margin-top:12px; padding:7px; border-radius:var(--radius-sm); border:none; background:var(--accent); color:#fff; font-size:13px; font-weight:500; cursor:pointer; }
+  .dp-apply:hover { background:var(--accent-dark); }
+
+  /* ── Filter row ── */
+  .filter-row { padding:0.55rem 1.5rem; background:var(--bg); border-bottom:0.5px solid var(--border); display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .chip { font-size:12px; padding:4px 13px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
+  .chip:hover { background:var(--bg2); }
+  .chip.active { background:var(--green); border-color:var(--green); color:#fff; }
+  .search-wrap { display:flex; align-items:center; }
+  .search-icon-btn { background:none; border:0.5px solid var(--border2); border-radius:var(--radius-sm); width:28px; height:28px; cursor:pointer; color:var(--text2); display:flex; align-items:center; justify-content:center; transition:background 0.1s,color 0.1s,border-radius 0.15s; flex-shrink:0; }
+  .search-icon-btn:hover { background:var(--bg2); color:var(--text); }
+  .search-icon-btn.open { border-radius:var(--radius-sm) 0 0 var(--radius-sm); background:var(--green); border-color:var(--green); color:#fff; }
+  .search-box { width:0; height:28px; padding:0; font-size:13px; border:0.5px solid var(--border2); border-left:none; border-radius:0 var(--radius-sm) var(--radius-sm) 0; background:var(--bg2); color:var(--text); outline:none; overflow:hidden; transition:width 0.2s ease,padding 0.2s ease; }
+  .search-box.open { width:200px; padding:0 10px; }
+  .search-box:focus { border-color:var(--green); }
+  .count-label { font-size:12px; color:var(--text3); margin-left:auto; }
+  .view-toggle { display:flex; border:0.5px solid var(--border2); border-radius:var(--radius-sm); overflow:hidden; flex-shrink:0; }
+  .view-btn { background:none; border:none; width:28px; height:28px; cursor:pointer; color:var(--text3); display:flex; align-items:center; justify-content:center; transition:background 0.1s,color 0.1s; }
+  .view-btn:not(:last-child) { border-right:0.5px solid var(--border2); }
+  .view-btn.active { background:var(--bg2); color:var(--accent); }
+  .view-btn:hover:not(.active) { background:var(--bg2); color:var(--text2); }
+
+  /* row view */
+  /* ── Row view ── */
+  .card-grid.row-view { grid-template-columns:1fr; gap:2px; }
+  .event-row { position:relative; display:flex; align-items:center; background:var(--bg); border:0.5px solid var(--border); border-radius:var(--radius-sm); padding:0.3rem 1rem; cursor:pointer; transition:border-color 0.15s,background 0.15s; min-height:36px; }
+  .event-row:hover { border-color:var(--border2); background:rgba(29,158,117,0.06); }
+  .row-col { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; flex-shrink:0; }
+  .row-col-name  { flex:0 0 28%; font-size:12px; font-weight:600; color:var(--text); padding-right:16px; }
+  .row-col-venue { flex:0 0 26%; font-size:12px; color:var(--text2); padding-right:16px; }
+  .row-col-time  { flex:0 0 16%; font-size:11px; color:var(--text3); }
+  .row-col-extra { flex:1; min-width:0; font-size:11px; color:var(--text3); overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding-left:12px; transition:opacity 0.15s; }
+  .event-row:hover .row-col-extra { opacity:0; pointer-events:none; }
+  /* hover action overlay — slides in from right, covers extra cols */
+  .row-actions { position:absolute; right:1rem; display:flex; gap:6px; opacity:0; transition:opacity 0.15s; pointer-events:none; background:linear-gradient(to right, transparent 0%, rgba(29,29,26,0.95) 30%); padding-left:32px; }
+  .event-row:hover .row-actions { opacity:1; pointer-events:auto; }
+  .cover-badge { font-size:10px; padding:1px 6px; border-radius:999px; background:#2a1f00; color:#f9a846; border:0.5px solid #6b4010; white-space:nowrap; margin-left:8px; flex-shrink:0; }
+
+  /* ── Main ── */
+  .main { padding:1.25rem 1.5rem; max-width:1140px; margin:0 auto; }
+  .time-block { margin-bottom:1.75rem; }
+  .time-block-header { font-size:11px; font-weight:600; color:var(--text3); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:0.6rem; padding-left:2px; }
+  .day-section { margin-bottom:1.25rem; }
+  .day-header { font-size:15px; font-weight:600; padding:9px 14px; background:var(--bg); border:0.5px solid var(--border); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:space-between; cursor:pointer; user-select:none; transition:background 0.1s; }
+  .day-header:hover { background:var(--bg2); }
+  .day-header.past { opacity:0.45; }
+  .day-header-left { display:flex; align-items:center; gap:10px; }
+  .day-count { font-size:12px; font-weight:400; color:var(--text3); }
+  .day-today-marker { font-size:10px; font-weight:500; background:var(--accent); color:#fff; padding:1px 7px; border-radius:999px; }
+  .day-chevron { color:var(--text3); transition:transform 0.2s ease; flex-shrink:0; }
+  .day-chevron.closed { transform:rotate(-90deg); }
+  .day-body { margin-top:10px; }
+  .day-body.hidden { display:none; }
+  .card-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+
+  /* ── Cards ── */
+  .event-card { background:var(--bg); border:0.5px solid var(--border); border-radius:var(--radius); padding:0.9rem 1rem 0.6rem; cursor:pointer; transition:border-color 0.15s,background 0.15s; display:flex; flex-direction:column; }
+  .event-card:hover { border-color:var(--border2); background:rgba(29,158,117,0.06); }
+  .card-content { flex:1; }
+  .card-actions { display:flex; gap:6px; margin-top:10px; padding-top:8px; padding-bottom:4px; border-top:0.5px solid var(--border); opacity:0; transform:translateY(3px); transition:opacity 0.15s,transform 0.15s; pointer-events:none; }
+  .event-card:hover .card-actions { opacity:1; transform:translateY(0); pointer-events:auto; }
+  .card-action-btn { font-size:11px; padding:4px 10px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg2); color:var(--text2); cursor:pointer; white-space:nowrap; text-decoration:none; display:inline-flex; align-items:center; gap:4px; transition:background 0.1s,color 0.1s,border-color 0.1s; }
+  .card-action-btn:hover { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .card-action-btn svg { width:11px; height:11px; flex-shrink:0; }
+  .card-top { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; margin-bottom:5px; }
+  .artist { font-size:14px; font-weight:600; line-height:1.3; }
+  .type-badge { font-size:10px; padding:2px 7px; border-radius:999px; white-space:nowrap; flex-shrink:0; background:var(--bg2); color:var(--text2); border:0.5px solid var(--border2); }
+  .type-badge.jam     { background:#0e2e22; color:#5DCAA5; border-color:#1D9E75; }
+  .type-badge.solo    { background:#1a2040; color:#93adf8; border-color:#3451d1; }
+  .type-badge.openmic { background:#2a1800; color:#EF9F27; border-color:#BA7517; }
+  .genre-tag  { font-size:11px; color:var(--text3); margin-bottom:3px; font-style:italic; }
+  .venue-name { font-size:13px; margin-bottom:2px; }
+  .venue-name-link { color:var(--text2); text-decoration:none; }
+  .venue-name-link:hover { color:var(--green); }
+
+  /* location line: city | type */
+  .location-line { font-size:11px; color:var(--text3); }
+  .location-text { white-space:nowrap; }
+
+  .card-meta  { font-size:12px; color:var(--text3); margin-top:7px; }
+  .price-note { margin-top:5px; font-size:12px; font-weight:500; color:var(--accent); }
+
+  /* ── States ── */
+  .state-msg { text-align:center; padding:3rem 1rem; color:var(--text2); font-size:14px; }
+  .state-msg small { display:block; margin-top:6px; font-size:12px; color:var(--text3); }
+  .error-box { background:var(--bg); border:0.5px solid var(--border); border-radius:var(--radius); padding:1.5rem; margin:1.5rem 0; text-align:center; font-size:13px; color:var(--text2); }
+
+  function rowHtml(e){
+  const idx=allEvents.indexOf(e);
+  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
+  const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
+  const pm=e.notes.match(/\$[\d,]+/);
+  const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
+  const extraParts=[e.genre,e.venueType].filter(Boolean).join(' · ');
+  return `<article class="event-row" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
+    <div class="row-col row-col-name">${esc(e.musician)}</div>
+    <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
+    <div class="row-col row-col-time">&#9200; ${esc(tS)}${tE?' – '+esc(tE):''}</div>
+    <div class="row-col-extra">${extraParts}${pm?' · <span class="cover-badge">Cover '+esc(pm[0])+'</span>':''}</div>
+    <div class="row-actions">
+      <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Details</button>
+      ${dirUrl?dirBtn:''}
+    </div>
+  </article>`;
+}
+
+/* ── Modal ── */
+  .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:1rem; }
+  .modal-overlay.open { display:flex; }
+  .modal { background:var(--bg); border-radius:var(--radius); border:0.5px solid var(--border); max-width:460px; width:100%; padding:1.5rem; position:relative; max-height:90vh; overflow-y:auto; }
+  .modal-close { position:absolute; top:1rem; right:1rem; background:none; border:none; font-size:20px; cursor:pointer; color:var(--text3); width:28px; height:28px; display:flex; align-items:center; justify-content:center; border-radius:var(--radius-sm); transition:background 0.1s; }
+  .modal-close:hover { background:var(--bg2); }
+  .modal-artist { font-size:20px; font-weight:600; padding-right:2.5rem; margin-bottom:3px; line-height:1.3; }
+  .modal-genre { font-size:13px; color:var(--text3); margin-bottom:4px; font-style:italic; }
+  .modal-date-line { font-size:13px; color:var(--text2); margin-bottom:1rem; }
+  .modal-rows { display:flex; flex-direction:column; gap:12px; margin-top:0.75rem; }
+  .modal-row { display:flex; gap:12px; align-items:flex-start; }
+  .modal-icon { font-size:15px; width:22px; flex-shrink:0; padding-top:1px; }
+  .modal-row-label { font-size:10px; color:var(--text3); text-transform:uppercase; letter-spacing:0.07em; margin-bottom:2px; }
+  .modal-row-value { font-size:14px; color:var(--text); }
+  .modal-link { display:inline-block; font-size:13px; color:var(--green); text-decoration:none; margin-top:2px; }
+  .modal-link:hover { text-decoration:underline; }
+  .modal-directions { display:inline-flex; align-items:center; gap:4px; font-size:13px; color:var(--accent); text-decoration:none; margin-top:4px; }
+  .modal-directions:hover { text-decoration:underline; }
+  .modal-directions svg { width:13px; height:13px; fill:currentColor; }
+
+  /* ── Footer ── */
+  .site-footer { text-align:center; padding:2rem 1rem; font-size:11px; color:var(--text3); border-top:0.5px solid var(--border); margin-top:2rem; }
+  .site-footer a { color:var(--green); text-decoration:none; }
+  .site-footer a:hover { text-decoration:underline; }
+
+  /* ── Responsive ── */
+  @media (max-width:640px) {
+    .site-header { padding:0.75rem 1rem; }
+    /* header wraps: brand goes full width, nav starts new row left-aligned */
+    .header-brand { width:100%; }
+    .header-nav { width:100%; justify-content:flex-start; }
+    .filter-row { padding:0.5rem 1rem; }
+    .main { padding:1rem; }
+    .card-grid { grid-template-columns:1fr; }
+    .search-box { max-width:100%; }
+    .date-picker-btn { font-size:12px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-brand">
+    <div class="site-title">Rogue Live</div>
+    <div class="site-tagline">Live music in the heart of the Rogue Valley</div>
+  </div>
+
+  <div class="header-nav">
+    <div id="quick-chips" style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;">
+      <button class="nav-chip"        id="chip-today"    onclick="applyQuick(this,'today')">Today</button>
+      <button class="nav-chip"        id="chip-tomorrow" onclick="applyQuick(this,'tomorrow')">Tomorrow</button>
+      <button class="nav-chip"        id="chip-weekend"  onclick="applyQuick(this,'weekend')">Weekend</button>
+      <button class="nav-chip"        id="chip-week"     onclick="applyQuick(this,'week')">This week</button>
+      <button class="nav-chip active" id="chip-next7"    onclick="applyQuick(this,'next7')">Next 7 days</button>
+      <button class="nav-chip"        id="chip-month"    onclick="applyQuick(this,'month')">This month</button>
+    </div>
+
+    <div class="nav-sep"></div>
+
+    <!-- Date picker dropdown -->
+    <div class="date-picker-wrap" id="dp-wrap">
+      <button class="date-picker-btn" id="dp-btn" onclick="toggleDatePicker()">
+        <span id="dp-label">Today</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="date-picker-panel" id="dp-panel">
+        <div class="dp-mode-toggle">
+          <button class="dp-mode-btn active" id="dp-single-btn" onclick="setDpMode('single')">Single day</button>
+          <button class="dp-mode-btn" id="dp-range-btn" onclick="setDpMode('range')">Date range</button>
+        </div>
+        <div class="dp-fields">
+          <div class="dp-row">
+            <span class="dp-label" id="dp-from-label">Date</span>
+            <input class="dp-input" type="date" id="dp-from">
+          </div>
+          <div class="dp-row" id="dp-to-row" style="display:none;">
+            <span class="dp-label">To</span>
+            <input class="dp-input" type="date" id="dp-to">
+          </div>
+        </div>
+        <button class="dp-apply" onclick="applyDatePicker()">Apply</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="filter-row">
+  <div class="search-wrap">
+    <button class="search-icon-btn" id="search-btn" onclick="toggleSearch()" aria-label="Search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <input class="search-box" type="search" placeholder="Artist or venue…" oninput="render()" id="search">
+  </div>
+  <button class="chip active" onclick="setRegion('all',this)">All regions</button>
+  <button class="chip" onclick="setRegion('Medford',this)">Medford</button>
+  <button class="chip" onclick="setRegion('Ashland',this)">Ashland</button>
+  <button class="chip" onclick="setRegion('GrantsPass',this)">Grants Pass</button>
+  <button class="chip" onclick="setRegion('RogueRiver',this)">Rogue River</button>
+  <span class="count-label" id="count-label"></span>
+  <div class="view-toggle">
+    <button class="view-btn active" id="view-card-btn" onclick="setView('card')" title="Card view" aria-label="Card view">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+    </button>
+    <button class="view-btn" id="view-row-btn" onclick="setView('row')" title="Row view" aria-label="Row view">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</div>
+
+<main class="main" id="listing">
+  <div class="state-msg">Loading shows&#8230;</div>
+</main>
+
+<footer class="site-footer">
+  Data sourced from <a href="http://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a> &mdash; maintained by local volunteers.
+</footer>
+
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">&times;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script>
+const PROXY='https://api.allorigins.win/get?url='+encodeURIComponent('http://roguevalleylivemusicnightlife.com/musiclist.txt');
+
+let allEvents=[], rangeStart, rangeEnd, activeRegion='all', viewMode='card';
+
+/* ── Utils ── */
+function midnight(d){const x=new Date(d);x.setHours(0,0,0,0);return x;}
+function addDays(d,n){const x=new Date(d);x.setDate(x.getDate()+n);return x;}
+function fmtISO(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+
+function dayLabel(d){
+  const t=midnight(new Date()),diff=Math.round((midnight(d)-t)/86400000);
+  const base=d.toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
+  if(diff===0)return'Today — '+base;
+  if(diff===1)return'Tomorrow — '+base;
+  if(diff===-1)return'Yesterday — '+base;
+  return base;
+}
+function shortDay(d){return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});}
+
+function parseTime(t){
+  if(!t||!t.trim())return'TBD';
+  const s=t.trim().padStart(4,'0'),h=parseInt(s.slice(0,s.length-2),10),m=s.slice(-2);
+  return(h===0?12:h>12?h-12:h)+':'+m+(h>=12?' PM':' AM');
+}
+function parseEntryDate(d){
+  if(!d)return null;
+  const p=d.trim().split('/');
+  if(p.length!==3)return null;
+  const yr=parseInt(p[2],10);
+  return new Date(yr<100?2000+yr:yr,parseInt(p[0],10)-1,parseInt(p[1],10));
+}
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+/* directions link — uses venue name + city for Google Maps */
+function mapsUrl(venue,city,address){
+  const q=address?address:(venue+(city?', '+city+', OR':''));
+  return'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(q);
+}
+
+const NAV_SVG=`<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`;
+const ARROW_SVG=`<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>`;
+
+/* ── Parser ── */
+function parseTxt(txt){
+  const lines=txt.split('\n');let section='';
+  const venues={},events=[];
+  for(let raw of lines){
+    const line=raw.trim();
+    if(!line)continue;
+    if(line==='--venues'){section='venues';continue;}
+    if(line==='--events'){section='events';continue;}
+    if(line.startsWith('--')||line.startsWith('*'))continue;
+    if(section==='venues'){
+      const p=line.split('|');
+      if(p.length>=6){
+        const n=p[0].trim();
+        venues[n]={url:p[1]?.trim()||'',city:p[2]?.trim()||'',notes:p[3]?.trim()||'',region:p[5]?.trim()||'',type:p[6]?.trim()||''};
+      }
+    } else if(section==='events'){
+      const p=line.split('|');
+      if(p.length<11)continue;
+      const dateObj=parseEntryDate(p[6]?.trim());
+      if(!dateObj)continue;
+      const vname=p[4]?.trim()||'',v=venues[vname]||{};
+      // extract address from venue notes if it looks like one
+      const addrMatch=v.notes&&/\d+\s+\w/.test(v.notes)?v.notes:'';
+      events.push({
+        musician:p[0]?.trim()||'Unknown',genre:p[1]?.trim()||'',
+        link:p[2]?.trim()||'',linkName:p[3]?.trim()||'',
+        venue:vname,venueUrl:v.url||'',city:v.city||'',
+        region:v.region||'',venueType:v.type||'',venueAddress:addrMatch,
+        date:dateObj,dateStr:fmtISO(dateObj),
+        startRaw:p[7]?.trim()||'',endRaw:p[8]?.trim()||'',
+        notes:p[9]?.trim()||'',eventType:p[10]?.trim()||'Band'
+      });
+    }
+  }
+  return events;
+}
+
+/* ── Load ── */
+async function loadData(){
+  try{
+    const res=await fetch(PROXY);
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    const json=await res.json();
+    allEvents=parseTxt(json.contents||'');
+    render();
+  }catch(err){
+    document.getElementById('listing').innerHTML=`<div class="error-box"><p style="font-weight:600;margin-bottom:6px">Could not load live data</p><p>The source site may be temporarily unavailable. Try refreshing.</p><p style="margin-top:8px;font-size:11px;color:var(--text3)">${esc(err.message)}</p></div>`;
+  }
+}
+
+/* ── Nav ── */
+function clearQuickChips(){document.querySelectorAll('.nav-chip:not(#chip-range)').forEach(b=>b.classList.remove('active'));}
+
+let dpMode='single'; // 'single' | 'range'
+
+function applyQuick(btn,q){
+  clearQuickChips();btn.classList.add('active');
+  const t=midnight(new Date());
+  if(q==='today')        {rangeStart=t;rangeEnd=t;}
+  else if(q==='tomorrow'){rangeStart=addDays(t,1);rangeEnd=addDays(t,1);}
+  else if(q==='weekend') {const dow=t.getDay(),toSat=dow===6?0:6-dow;rangeStart=addDays(t,toSat);rangeEnd=addDays(rangeStart,1);}
+  else if(q==='week')    {const dow=t.getDay();rangeStart=addDays(t,-dow);rangeEnd=addDays(rangeStart,6);}
+  else if(q==='next7')   {rangeStart=t;rangeEnd=addDays(t,6);}
+  else if(q==='month')   {rangeStart=new Date(t.getFullYear(),t.getMonth(),1);rangeEnd=new Date(t.getFullYear(),t.getMonth()+1,0);}
+  syncDpInputsFromRange();
+  updateDpLabel();
+  render();
+}
+
+function toggleDatePicker(){
+  const panel=document.getElementById('dp-panel');
+  const btn=document.getElementById('dp-btn');
+  const open=panel.classList.toggle('open');
+  btn.classList.toggle('open',open);
+  if(open) syncDpInputsFromRange();
+}
+
+function closeDatePicker(){
+  document.getElementById('dp-panel').classList.remove('open');
+  document.getElementById('dp-btn').classList.remove('open');
+}
+
+function setDpMode(mode){
+  dpMode=mode;
+  document.getElementById('dp-single-btn').classList.toggle('active',mode==='single');
+  document.getElementById('dp-range-btn').classList.toggle('active',mode==='range');
+  document.getElementById('dp-to-row').style.display=mode==='range'?'flex':'none';
+  document.getElementById('dp-from-label').textContent=mode==='range'?'From':'Date';
+}
+
+function syncDpInputsFromRange(){
+  document.getElementById('dp-from').value=fmtISO(rangeStart);
+  document.getElementById('dp-to').value=fmtISO(rangeEnd);
+  setDpMode(fmtISO(rangeStart)===fmtISO(rangeEnd)?'single':'range');
+}
+
+function applyDatePicker(){
+  const from=document.getElementById('dp-from').value;
+  if(!from)return;
+  rangeStart=midnight(new Date(from+'T12:00:00'));
+  if(dpMode==='range'){
+    const to=document.getElementById('dp-to').value;
+    rangeEnd=to?midnight(new Date(to+'T12:00:00')):rangeStart;
+    if(rangeEnd<rangeStart)rangeEnd=rangeStart;
+  } else {
+    rangeEnd=rangeStart;
+  }
+  clearQuickChips();
+  updateDpLabel();
+  closeDatePicker();
+  render();
+}
+
+function updateDpLabel(){
+  const s=rangeStart,e=rangeEnd;
+  const el=document.getElementById('dp-label');
+  if(fmtISO(s)===fmtISO(e)){
+    const t=midnight(new Date()),diff=Math.round((midnight(s)-t)/86400000);
+    el.textContent=diff===0?'Today':diff===1?'Tomorrow':shortDay(s);
+  } else {
+    el.textContent=shortDay(s)+' – '+shortDay(e);
+  }
+}
+
+function setRegion(r,el){
+  activeRegion=r;
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');render();
+}
+
+/* ── Filter ── */
+function getFiltered(){
+  const q=document.getElementById('search').value.toLowerCase();
+  const s=midnight(rangeStart),e=midnight(rangeEnd);
+  return allEvents.filter(ev=>{
+    const d=midnight(ev.date);
+    if(d<s||d>e)return false;
+    if(activeRegion!=='all'&&ev.region!==activeRegion)return false;
+    if(q&&!ev.musician.toLowerCase().includes(q)&&!ev.venue.toLowerCase().includes(q)&&!ev.city.toLowerCase().includes(q))return false;
+    return true;
+  });
+}
+
+const BUCKETS=['Morning','Afternoon','Early evening','Evening','Late night'];
+function timeBucket(r){const h=r?parseInt(r.padStart(4,'0').slice(0,2),10):20;return h<12?'Morning':h<17?'Afternoon':h<20?'Early evening':h<22?'Evening':'Late night';}
+
+/* ── Render ── */
+
+
+function render(){
+  const filtered=getFiltered();
+  const listing=document.getElementById('listing');
+  document.getElementById('count-label').textContent=filtered.length+' show'+(filtered.length!==1?'s':'');
+  if(allEvents.length===0){listing.innerHTML='<div class="state-msg">Loading&#8230;</div>';return;}
+  if(filtered.length===0){listing.innerHTML='<div class="state-msg">No shows in this date range.<small>Try adjusting the dates or region filter.</small></div>';return;}
+
+  if(fmtISO(rangeStart)===fmtISO(rangeEnd)){
+    const buckets={};
+    filtered.forEach(e=>{const b=timeBucket(e.startRaw);if(!buckets[b])buckets[b]=[];buckets[b].push(e);});
+    listing.innerHTML=BUCKETS.filter(k=>buckets[k]).map(k=>`
+      <section class="time-block">
+        <div class="time-block-header">${esc(k)}</div>
+        <div class="card-grid${viewMode==='row'?' row-view':''}">${buckets[k].map(e=>viewMode==='row'?rowHtml(e):cardHtml(e)).join('')}</div>
+      </section>`).join('');
+  } else {
+    const byDay={};
+    filtered.forEach(e=>{if(!byDay[e.dateStr])byDay[e.dateStr]=[];byDay[e.dateStr].push(e);});
+    const chevronSvg=`<svg class="day-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
+    const todayStr=fmtISO(midnight(new Date()));
+    listing.innerHTML=Object.keys(byDay).sort().map((ds,i)=>{
+      const evts=byDay[ds],d=new Date(ds+'T12:00:00'),n=evts.length;
+      const id='day-'+ds.replace(/-/g,'');
+      const isPast=ds<todayStr,isToday=ds===todayStr;
+      const pastCls=isPast?' past':'';
+      const todayBadge=isToday?'<span class="day-today-marker">Today</span>':''; 
+      return `<section class="day-section" data-date="${ds}">
+        <div class="day-header${pastCls}" onclick="toggleDay('${id}')" aria-expanded="${isPast?'false':'true'}">
+          <div class="day-header-left"><span>${esc(dayLabel(d))}</span>${todayBadge}<span class="day-count">${n} show${n!==1?'s':''}</span></div>
+          <svg class="day-chevron${isPast?' closed':''}" id="chev-${id}" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="day-body${isPast?' hidden':''}" id="${id}">
+          <div class="card-grid${viewMode==='row'?' row-view':''}">${evts.map(e=>viewMode==='row'?rowHtml(e):cardHtml(e)).join('')}</div>
+        </div>
+      </section>`;
+    }).join('');
+    // scroll to today or first future day
+    requestAnimationFrame(()=>{
+      const target=listing.querySelector('[data-date="'+todayStr+'"]') ||
+                    listing.querySelector('section.day-section:not([data-date])') ||
+                    [...listing.querySelectorAll('[data-date]')].find(el=>el.dataset.date>=todayStr);
+      if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+    });
+  }
+}
+
+function locationLine(e){
+  const parts=[];
+  if(e.city)parts.push(esc(e.city));
+  if(e.venueType)parts.push(esc(e.venueType));
+  if(e.genre)parts.push(esc(e.genre));
+  const locText=parts.join(' | ');
+  return locText?`<div class="location-line"><span class="location-text">${locText}</span></div>`:'';
+}
+
+function cardHtml(e){
+  const idx=allEvents.indexOf(e);
+  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
+  const t=e.eventType.toLowerCase(),bc=t==='jam'?'jam':t==='open mic'?'openmic':t==='solo'?'solo':'';
+  const pm=e.notes.match(/\$[\d,]+/);
+  const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
+  const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
+  return `<article class="event-card" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
+    <div class="card-content">
+      <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
+      <div class="venue-name"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
+      ${locationLine(e)}
+      <div class="card-meta">&#9200; ${esc(tS)}${tE?' – '+esc(tE):''}</div>
+      ${pm?`<div class="price-note">Cover: ${esc(pm[0])}</div>`:''}
+    </div>
+    <div class="card-actions">
+      <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>View details</button>
+      ${dirUrl?dirBtn:''}
+    </div>
+  </article>`;
+}
+
+/* ── Modal ── */
+function openDetail(idx){
+  const e=allEvents[idx];if(!e)return;
+  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
+  const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
+  document.getElementById('modal-body').innerHTML=`
+    <div class="modal-artist">${esc(e.musician)}</div>
+    ${e.genre?`<div class="modal-genre">${esc(e.genre)}</div>`:''}
+    <div class="modal-date-line">${esc(e.date.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'}))}</div>
+    <div class="modal-rows">
+      <div class="modal-row"><span class="modal-icon">&#127968;</span><div>
+        <div class="modal-row-label">Venue</div>
+        <div class="modal-row-value">${esc(e.venue)}${e.city?', '+esc(e.city):''}${e.venueType?' | '+esc(e.venueType):''}</div>
+        <a class="modal-directions" href="${esc(dirUrl)}" target="_blank" rel="noopener">${ARROW_SVG} Get directions</a>
+      </div></div>
+      <div class="modal-row"><span class="modal-icon">&#9200;</span><div>
+        <div class="modal-row-label">Time</div>
+        <div class="modal-row-value">${esc(tS)}${tE?' – '+esc(tE):''}</div>
+      </div></div>
+      ${e.notes?`<div class="modal-row"><span class="modal-icon">&#8505;</span><div>
+        <div class="modal-row-label">Notes</div>
+        <div class="modal-row-value">${esc(e.notes)}</div>
+      </div></div>`:''}
+      ${(e.link||e.venueUrl)?`<div class="modal-row"><span class="modal-icon">&#128279;</span><div>
+        <div class="modal-row-label">Links</div>
+        ${e.link?`<a class="modal-link" href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.linkName||e.musician)}</a><br>`:''}
+        ${e.venueUrl?`<a class="modal-link" href="${esc(e.venueUrl)}" target="_blank" rel="noopener">${esc(e.venue)} website</a>`:''}
+      </div></div>`:''}
+    </div>`;
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+function toggleSearch(){
+  const btn=document.getElementById('search-btn');
+  const box=document.getElementById('search');
+  const opening=!box.classList.contains('open');
+  box.classList.toggle('open',opening);
+  btn.classList.toggle('open',opening);
+  if(opening){box.focus();}
+  else{box.value='';render();}
+}
+
+function setView(mode){
+  viewMode=mode;
+  document.getElementById('view-card-btn').classList.toggle('active',mode==='card');
+  document.getElementById('view-row-btn').classList.toggle('active',mode==='row');
+  document.querySelectorAll('.card-grid').forEach(g=>g.classList.toggle('row-view',mode==='row'));
+}
+
+function toggleDay(id){
+  const body=document.getElementById(id);
+  const chev=document.getElementById('chev-'+id);
+  const isOpen=!body.classList.contains('hidden');
+  body.classList.toggle('hidden',isOpen);
+  chev.classList.toggle('closed',isOpen);
+}
+
+function closeModal(){document.getElementById('modal').classList.remove('open');document.body.style.overflow='';}
+document.getElementById('modal').addEventListener('click',function(e){if(e.target===this)closeModal();});
+document.addEventListener('click',function(e){
+  const wrap=document.getElementById('dp-wrap');
+  if(wrap&&!wrap.contains(e.target))closeDatePicker();
+});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){
+    const box=document.getElementById('search');
+    if(box.classList.contains('open')){toggleSearch();return;}
+    closeModal();
+  }
+});
+
+/* ── Init ── */
+rangeStart=midnight(new Date());rangeEnd=addDays(rangeStart,6);
+updateDpLabel();
+loadData();
+</script>
+</body>
+</html>
