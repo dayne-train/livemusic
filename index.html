@@ -43,12 +43,12 @@
   body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; background:var(--bg3); color:var(--text); font-size:16px; line-height:1.5; min-height:100vh; }
 
   /* ── Header — title left, nav right, wraps on mobile ── */
+  .sticky-top { position:sticky; top:0; z-index:50; }
   .site-header {
     background:var(--bg); border-bottom:0.5px solid var(--border);
     padding:0.75rem 1.5rem;
     display:flex; align-items:center; justify-content:space-between;
     gap:0.75rem; flex-wrap:wrap;
-    position:sticky; top:0; z-index:50;
   }
   .header-brand { flex-shrink:0; }
   .site-title { font-size:18px; font-weight:600; }
@@ -107,19 +107,20 @@
   .view-btn.active { background:var(--bg2); color:var(--accent); }
   .view-btn:hover:not(.active) { background:var(--bg2); color:var(--text2); }
 
-  /* row view */
   /* ── Row view ── */
-  .card-grid.row-view { grid-template-columns:1fr; gap:2px; }
-  .event-row { position:relative; display:flex; align-items:center; background:var(--bg); border:0.5px solid var(--border); border-radius:var(--radius-sm); padding:0.3rem 1rem; cursor:pointer; transition:border-color 0.15s,background 0.15s; min-height:36px; }
-  .event-row:hover { border-color:var(--border2); background:rgba(29,158,117,0.06); }
+  .card-grid.row-view { grid-template-columns:1fr; gap:0; }
+  .event-row { position:relative; display:flex; align-items:center; background:var(--bg); border-bottom:0.5px solid var(--border); padding:6px 12px; cursor:pointer; transition:background 0.1s; min-height:0; line-height:1.3; }
+  .event-row:first-child { border-top:0.5px solid var(--border); border-radius:var(--radius-sm) var(--radius-sm) 0 0; }
+  .event-row:last-child { border-radius:0 0 var(--radius-sm) var(--radius-sm); }
+  .event-row:only-child { border-radius:var(--radius-sm); }
+  .event-row:hover { background:rgba(29,158,117,0.06); }
   .row-col { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; flex-shrink:0; }
-  .row-col-name  { flex:0 0 28%; font-size:12px; font-weight:600; color:var(--text); padding-right:16px; }
-  .row-col-venue { flex:0 0 26%; font-size:12px; color:var(--text2); padding-right:16px; }
-  .row-col-time  { flex:0 0 16%; font-size:11px; color:var(--text3); }
-  .row-col-extra { flex:1; min-width:0; font-size:11px; color:var(--text3); overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding-left:12px; transition:opacity 0.15s; }
+  .row-col-name  { flex:0 0 25%; font-size:13px; font-weight:600; color:var(--text); padding-right:12px; }
+  .row-col-venue { flex:0 0 25%; font-size:12px; color:var(--text2); padding-right:12px; }
+  .row-col-time  { flex:0 0 14%; font-size:11px; color:var(--text3); }
+  .row-col-extra { flex:1; min-width:0; font-size:11px; color:var(--text3); overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding-left:8px; transition:opacity 0.1s; }
   .event-row:hover .row-col-extra { opacity:0; pointer-events:none; }
-  /* hover action overlay — slides in from right, covers extra cols */
-  .row-actions { position:absolute; right:1rem; display:flex; gap:6px; opacity:0; transition:opacity 0.15s; pointer-events:none; background:linear-gradient(to right, transparent 0%, rgba(29,29,26,0.95) 30%); padding-left:32px; }
+  .row-actions { position:absolute; right:12px; display:flex; gap:6px; opacity:0; transition:opacity 0.1s; pointer-events:none; background:linear-gradient(to right, transparent 0%, rgba(29,29,26,0.95) 30%); padding-left:24px; }
   .event-row:hover .row-actions { opacity:1; pointer-events:auto; }
   .cover-badge { font-size:10px; padding:1px 6px; border-radius:999px; background:#2a1f00; color:#f9a846; border:0.5px solid #6b4010; white-space:nowrap; margin-left:8px; flex-shrink:0; }
 
@@ -197,10 +198,18 @@
   .site-footer a { color:var(--green); text-decoration:none; }
   .site-footer a:hover { text-decoration:underline; }
 
+  /* ── Type filter chips ── */
+  .type-chip { font-size:11px; padding:3px 10px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
+  .type-chip:hover { background:var(--bg2); }
+  .type-chip.active { background:var(--green); border-color:var(--green); color:#fff; }
+  .filter-sep { width:1px; height:18px; background:var(--border2); margin:0 2px; flex-shrink:0; }
+  .filter-select { font-size:12px; padding:3px 8px; border-radius:var(--radius-sm); border:0.5px solid var(--border2); background:var(--bg2); color:var(--text2); cursor:pointer; outline:none; appearance:none; -webkit-appearance:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%23a8a8a2' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 6px center; padding-right:20px; }
+  .filter-select:focus { border-color:var(--accent); }
+  .filter-select option { background:var(--bg); color:var(--text); }
+
   /* ── Responsive ── */
   @media (max-width:640px) {
     .site-header { padding:0.75rem 1rem; }
-    /* header wraps: brand goes full width, nav starts new row left-aligned */
     .header-brand { width:100%; }
     .header-nav { width:100%; justify-content:flex-start; }
     .filter-row { padding:0.5rem 1rem; }
@@ -208,11 +217,16 @@
     .card-grid { grid-template-columns:1fr; }
     .search-box { max-width:100%; }
     .date-picker-btn { font-size:12px; }
+    /* force card view on mobile */
+    .card-grid.row-view { gap:10px; }
+    .event-row { display:none; }
+    .view-toggle { display:none; }
   }
 </style>
 </head>
 <body>
 
+<div class="sticky-top">
 <header class="site-header">
   <div class="header-brand">
     <h1 class="site-title">Rogue Live</h1>
@@ -267,13 +281,26 @@
     <button class="search-icon-btn" id="search-btn" onclick="toggleSearch()" aria-label="Search">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
     </button>
-    <input class="search-box" type="search" placeholder="Artist or venue…" oninput="render()" id="search">
+    <input class="search-box" type="search" placeholder="Artist or venue…" oninput="debouncedSearch()" id="search">
   </div>
   <button class="chip active" onclick="setRegion('all',this)">All regions</button>
   <button class="chip" onclick="setRegion('Medford',this)">Medford</button>
   <button class="chip" onclick="setRegion('Ashland',this)">Ashland</button>
   <button class="chip" onclick="setRegion('GrantsPass',this)">Grants Pass</button>
   <button class="chip" onclick="setRegion('RogueRiver',this)">Rogue River</button>
+  <span class="filter-sep"></span>
+  <button class="type-chip active" onclick="setType('all',this)">All types</button>
+  <button class="type-chip" onclick="setType('Band',this)">Band</button>
+  <button class="type-chip" onclick="setType('Solo',this)">Solo</button>
+  <button class="type-chip" onclick="setType('Jam',this)">Jam</button>
+  <button class="type-chip" onclick="setType('Open Mic',this)">Open Mic</button>
+  <span class="filter-sep"></span>
+  <select class="filter-select" id="genre-filter" onchange="setGenre(this.value)">
+    <option value="all">All genres</option>
+  </select>
+  <select class="filter-select" id="venuetype-filter" onchange="setVenueType(this.value)">
+    <option value="all">All venues</option>
+  </select>
   <span class="count-label" id="count-label"></span>
   <div class="view-toggle">
     <button class="view-btn active" id="view-card-btn" onclick="setView('card')" title="Card view" aria-label="Card view">
@@ -284,13 +311,15 @@
     </button>
   </div>
 </div>
+</div><!-- /sticky-top -->
 
 <main class="main" id="listing">
   <div class="state-msg">Loading shows&#8230;</div>
 </main>
 
 <footer class="site-footer">
-  Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a> &mdash; maintained by local volunteers.
+  <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a> &mdash; maintained by local volunteers.</div>
+  <div style="margin-top:6px;">Made with love in Medford &copy; 2026 &middot; <a href="mailto:hello@dayne.design">Contact</a></div>
 </footer>
 
 <div class="modal-overlay" id="modal">
@@ -311,7 +340,7 @@ const CACHE_KEY='rogue_live_cache';
 const CACHE_TS_KEY='rogue_live_cache_ts';
 const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
 
-let allEvents=[], rangeStart, rangeEnd, activeRegion='all', viewMode='card';
+let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='card';
 
 /* ── Utils ── */
 function midnight(d){const x=new Date(d);x.setHours(0,0,0,0);return x;}
@@ -348,7 +377,6 @@ function mapsUrl(venue,city,address){
   return'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(q);
 }
 
-const NAV_SVG=`<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`;
 const ARROW_SVG=`<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>`;
 
 /* ── Parser ── */
@@ -386,6 +414,7 @@ function parseTxt(txt){
       });
     }
   }
+  events.forEach((e,i)=>e._idx=i);
   return events;
 }
 
@@ -450,6 +479,7 @@ async function loadData(){
   const cached=loadCache();
   if(cached){
     allEvents=parseTxt(cached.txt);
+    populateFilterDropdowns();
     render();
   }
 
@@ -459,7 +489,9 @@ async function loadData(){
     saveCache(txt);
     hideStaleNotice();
     allEvents=parseTxt(txt);
+    populateFilterDropdowns();
     render();
+    openFromUrl();
   }catch(err){
     if(cached){
       /* We already rendered cached data — just show the stale notice */
@@ -493,6 +525,7 @@ function applyQuick(btn,q){
   else if(q==='month')   {rangeStart=new Date(t.getFullYear(),t.getMonth(),1);rangeEnd=new Date(t.getFullYear(),t.getMonth()+1,0);}
   syncDpInputsFromRange();
   updateDpLabel();
+  syncUrl();
   render();
 }
 
@@ -537,6 +570,7 @@ function applyDatePicker(){
   clearQuickChips();
   updateDpLabel();
   closeDatePicker();
+  syncUrl();
   render();
 }
 
@@ -554,7 +588,13 @@ function updateDpLabel(){
 function setRegion(r,el){
   activeRegion=r;
   document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
-  el.classList.add('active');render();
+  el.classList.add('active');syncUrl();render();
+}
+
+function setType(t,el){
+  activeType=t;
+  document.querySelectorAll('.type-chip').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');syncUrl();render();
 }
 
 /* ── Filter ── */
@@ -565,6 +605,9 @@ function getFiltered(){
     const d=midnight(ev.date);
     if(d<s||d>e)return false;
     if(activeRegion!=='all'&&ev.region!==activeRegion)return false;
+    if(activeType!=='all'&&ev.eventType!==activeType)return false;
+    if(activeGenre!=='all'&&ev.genre!==activeGenre)return false;
+    if(activeVenueType!=='all'&&ev.venueType!==activeVenueType)return false;
     if(q&&!ev.musician.toLowerCase().includes(q)&&!ev.venue.toLowerCase().includes(q)&&!ev.city.toLowerCase().includes(q))return false;
     return true;
   });
@@ -589,12 +632,11 @@ function render(){
     listing.innerHTML=BUCKETS.filter(k=>buckets[k]).map(k=>`
       <section class="time-block">
         <div class="time-block-header">${esc(k)}</div>
-        <div class="card-grid${viewMode==='row'?' row-view':''}">${buckets[k].map(e=>viewMode==='row'?rowHtml(e):cardHtml(e)).join('')}</div>
+        <div class="card-grid${viewMode==='row'?' row-view':''}">${buckets[k].map(e=>viewMode==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
       </section>`).join('');
   } else {
     const byDay={};
     filtered.forEach(e=>{if(!byDay[e.dateStr])byDay[e.dateStr]=[];byDay[e.dateStr].push(e);});
-    const chevronSvg=`<svg class="day-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
     const todayStr=fmtISO(midnight(new Date()));
     listing.innerHTML=Object.keys(byDay).sort().map((ds,i)=>{
       const evts=byDay[ds],d=new Date(ds+'T12:00:00'),n=evts.length;
@@ -608,7 +650,7 @@ function render(){
           <svg class="day-chevron${isPast?' closed':''}" id="chev-${id}" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
         <div class="day-body${isPast?' hidden':''}" id="${id}">
-          <div class="card-grid${viewMode==='row'?' row-view':''}">${evts.map(e=>viewMode==='row'?rowHtml(e):cardHtml(e)).join('')}</div>
+          <div class="card-grid${viewMode==='row'?' row-view':''}">${evts.map(e=>viewMode==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
         </div>
       </section>`;
     }).join('');
@@ -631,8 +673,7 @@ function locationLine(e){
   return locText?`<div class="location-line"><span class="location-text">${locText}</span></div>`:'';
 }
 
-function rowHtml(e){
-  const idx=allEvents.indexOf(e);
+function rowHtml(e,idx){
   const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
   const pm=e.notes.match(/\$[\d,]+/);
@@ -650,8 +691,7 @@ function rowHtml(e){
   </article>`;
 }
 
-function cardHtml(e){
-  const idx=allEvents.indexOf(e);
+function cardHtml(e,idx){
   const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
   const t=e.eventType.toLowerCase(),bc=t==='jam'?'jam':t==='open mic'?'openmic':t==='solo'?'solo':'';
   const pm=e.notes.match(/\$[\d,]+/);
@@ -700,6 +740,10 @@ function openDetail(idx){
         ${e.link?`<a class="modal-link" href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.linkName||e.musician)}</a><br>`:''}
         ${e.venueUrl?`<a class="modal-link" href="${esc(e.venueUrl)}" target="_blank" rel="noopener">${esc(e.venue)} website</a>`:''}
       </div></div>`:''}
+    </div>
+    <div style="display:flex;gap:8px;margin-top:16px;padding-top:12px;border-top:0.5px solid var(--border);">
+      <button class="card-action-btn" onclick="downloadIcs(${idx})" style="flex:1;justify-content:center;padding:8px 12px;font-size:12px;"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Add to calendar</button>
+      <button class="card-action-btn" id="share-btn" onclick="shareEvent(${idx})" style="flex:1;justify-content:center;padding:8px 12px;font-size:12px;"><svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>Share</button>
     </div>`;
   document.getElementById('modal').classList.add('open');
   document.body.style.overflow='hidden';
@@ -720,6 +764,7 @@ function setView(mode){
   document.getElementById('view-card-btn').classList.toggle('active',mode==='card');
   document.getElementById('view-row-btn').classList.toggle('active',mode==='row');
   document.querySelectorAll('.card-grid').forEach(g=>g.classList.toggle('row-view',mode==='row'));
+  syncUrl();
 }
 
 function toggleDay(id){
@@ -744,8 +789,167 @@ document.addEventListener('keydown',e=>{
   }
 });
 
+/* ── Debounce ── */
+let _searchTimer;
+function debouncedSearch(){clearTimeout(_searchTimer);_searchTimer=setTimeout(()=>{syncUrl();render();},150);}
+
+/* ── Genre / Venue type filters ── */
+function setGenre(v){activeGenre=v;syncUrl();render();}
+function setVenueType(v){activeVenueType=v;syncUrl();render();}
+
+function populateFilterDropdowns(){
+  const genres=new Set(), vtypes=new Set();
+  allEvents.forEach(e=>{
+    if(e.genre)genres.add(e.genre);
+    if(e.venueType)vtypes.add(e.venueType);
+  });
+  const gSel=document.getElementById('genre-filter');
+  const vSel=document.getElementById('venuetype-filter');
+  gSel.innerHTML='<option value="all">All genres</option>'+[...genres].sort().map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join('');
+  vSel.innerHTML='<option value="all">All venues</option>'+[...vtypes].sort().map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
+  gSel.value=activeGenre;
+  vSel.value=activeVenueType;
+}
+
+/* ── Event slug for deep linking ── */
+function eventSlug(e){
+  return(e.musician+'-at-'+e.venue+'-'+e.dateStr).toLowerCase().replace(/[^a-z0-9-]/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'');
+}
+function findBySlug(slug){return allEvents.find(e=>eventSlug(e)===slug);}
+
+/* ── URL state ── */
+function syncUrl(){
+  const p=new URLSearchParams();
+  // detect which quick chip is active
+  const activeChip=document.querySelector('.nav-chip.active');
+  if(activeChip){
+    const q=activeChip.id.replace('chip-','');
+    p.set('range',q);
+  }else{
+    p.set('from',fmtISO(rangeStart));
+    p.set('to',fmtISO(rangeEnd));
+  }
+  if(activeRegion!=='all')p.set('region',activeRegion);
+  if(activeType!=='all')p.set('type',activeType);
+  if(activeGenre!=='all')p.set('genre',activeGenre);
+  if(activeVenueType!=='all')p.set('venue',activeVenueType);
+  const q=document.getElementById('search').value;
+  if(q)p.set('q',q);
+  if(viewMode!=='card')p.set('view',viewMode);
+  const str=p.toString();
+  history.replaceState(null,'',str?'?'+str:location.pathname);
+}
+
+function restoreFromUrl(){
+  const p=new URLSearchParams(location.search);
+  // date range
+  if(p.has('range')){
+    const chip=document.getElementById('chip-'+p.get('range'));
+    if(chip)applyQuick(chip,p.get('range'));
+  }else if(p.has('from')){
+    rangeStart=midnight(new Date(p.get('from')+'T12:00:00'));
+    rangeEnd=p.has('to')?midnight(new Date(p.get('to')+'T12:00:00')):rangeStart;
+    clearQuickChips();updateDpLabel();
+  }
+  // region
+  if(p.has('region')){
+    activeRegion=p.get('region');
+    document.querySelectorAll('.chip').forEach(c=>{
+      c.classList.toggle('active',c.textContent.replace(/\s/g,'')===activeRegion||
+        (activeRegion==='GrantsPass'&&c.textContent==='Grants Pass')||
+        (activeRegion==='RogueRiver'&&c.textContent==='Rogue River'));
+    });
+    // deactivate 'all' if a specific region is set
+    document.querySelector('.chip').classList.remove('active');
+  }
+  // type
+  if(p.has('type')){
+    activeType=p.get('type');
+    document.querySelectorAll('.type-chip').forEach(c=>{
+      c.classList.toggle('active',c.textContent===activeType);
+    });
+    document.querySelector('.type-chip').classList.toggle('active',false);
+  }
+  // genre, venue type
+  if(p.has('genre'))activeGenre=p.get('genre');
+  if(p.has('venue'))activeVenueType=p.get('venue');
+  // search
+  if(p.has('q')){
+    const box=document.getElementById('search');
+    box.value=p.get('q');
+    box.classList.add('open');
+    document.getElementById('search-btn').classList.add('open');
+  }
+  // view
+  if(p.get('view')==='row')setView('row');
+}
+
+/* ── Add to calendar (.ics) ── */
+function padIcs(n){return String(n).padStart(2,'0');}
+function icsDate(date,timeRaw){
+  const y=date.getFullYear(),mo=date.getMonth()+1,d=date.getDate();
+  if(!timeRaw||!timeRaw.trim()){
+    return y+padIcs(mo)+padIcs(d);
+  }
+  const s=timeRaw.trim().padStart(4,'0');
+  const h=parseInt(s.slice(0,s.length-2),10),m=s.slice(-2);
+  return y+padIcs(mo)+padIcs(d)+'T'+padIcs(h)+padIcs(m)+'00';
+}
+function makeIcs(e){
+  const dtStart=icsDate(e.date,e.startRaw);
+  let dtEnd;
+  if(e.endRaw&&e.endRaw.trim()){
+    dtEnd=icsDate(e.date,e.endRaw);
+  }else{
+    // default 2 hours later
+    const s=e.startRaw?e.startRaw.trim().padStart(4,'0'):'2000';
+    let h=parseInt(s.slice(0,s.length-2),10)+2,m=s.slice(-2);
+    dtEnd=e.date.getFullYear()+padIcs(e.date.getMonth()+1)+padIcs(e.date.getDate())+'T'+padIcs(h)+padIcs(m)+'00';
+  }
+  const loc=e.venue+(e.city?', '+e.city+', OR':'');
+  return['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RogueLive//EN','BEGIN:VEVENT',
+    'DTSTART:'+dtStart,'DTEND:'+dtEnd,
+    'SUMMARY:'+e.musician+' at '+e.venue,
+    'LOCATION:'+loc,
+    'DESCRIPTION:'+(e.genre?e.genre+'. ':'')+(e.notes||e.eventType),
+    'END:VEVENT','END:VCALENDAR'].join('\r\n');
+}
+function downloadIcs(idx){
+  const e=allEvents[idx];if(!e)return;
+  const blob=new Blob([makeIcs(e)],{type:'text/calendar'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=(e.musician+'-'+e.venue).replace(/[^a-z0-9]/gi,'-').toLowerCase()+'.ics';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+/* ── Share ── */
+function shareEvent(idx){
+  const e=allEvents[idx];if(!e)return;
+  const url=location.origin+location.pathname+'?show='+encodeURIComponent(eventSlug(e));
+  if(navigator.share){
+    navigator.share({title:e.musician+' at '+e.venue,url:url}).catch(()=>{});
+  }else{
+    navigator.clipboard.writeText(url).then(()=>{
+      const btn=document.getElementById('share-btn');
+      if(btn){btn.textContent='Copied!';setTimeout(()=>{btn.innerHTML='<svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>Share';},1500);}
+    });
+  }
+}
+
+/* ── Deep link to show ── */
+function openFromUrl(){
+  const p=new URLSearchParams(location.search);
+  if(p.has('show')){
+    const e=findBySlug(p.get('show'));
+    if(e)openDetail(e._idx);
+  }
+}
+
 /* ── Init ── */
 rangeStart=midnight(new Date());rangeEnd=addDays(rangeStart,6);
+restoreFromUrl();
 updateDpLabel();
 loadData();
 </script>
