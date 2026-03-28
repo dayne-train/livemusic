@@ -120,6 +120,7 @@
   .pill-option:hover { background:var(--bg2); color:var(--text); }
   .pill-option.selected { color:var(--green); font-weight:600; }
   .pill-option.selected::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--green); margin-right:6px; vertical-align:middle; }
+  .mobile-date-pill { display:none; }
   .clear-filters-btn { display:none; align-items:center; gap:4px; font-size:11px; padding:4px 10px; border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; transition:all 0.15s; }
   .clear-filters-btn:hover { background:rgba(239,79,95,0.2); border-color:rgba(239,79,95,0.6); }
   .search-wrap { display:flex; align-items:center; }
@@ -144,12 +145,12 @@
   .event-row:only-child { border-radius:var(--radius-sm); }
   .event-row:hover { background:rgba(29,158,117,0.06); }
   .row-col { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; flex-shrink:0; font-size:12px; padding-right:10px; }
-  .row-col-name   { flex:0 0 20%; font-weight:600; color:var(--text); }
-  .row-col-genre  { flex:0 0 12%; color:var(--text3); font-style:italic; font-size:11px; }
-  .row-col-venue  { flex:0 0 18%; color:var(--text2); }
-  .row-col-vtype  { flex:0 0 10%; color:var(--text3); font-size:11px; }
-  .row-col-time   { flex:0 0 13%; color:var(--text3); font-size:11px; }
-  .row-col-cover  { flex:0 0 8%; padding-right:0; }
+  .row-col-name   { flex:1 1 0; min-width:0; font-weight:600; color:var(--text); }
+  .row-col-genre  { flex:0 0 10%; color:var(--text3); font-style:italic; font-size:11px; }
+  .row-col-venue  { flex:0 0 16%; color:var(--text2); }
+  .row-col-vtype  { flex:0 0 9%; color:var(--text3); font-size:11px; }
+  .row-col-time   { flex:0 0 12%; color:var(--text3); font-size:11px; }
+  .row-col-cover  { flex:0 0 7%; padding-right:0; }
   .cover-badge { font-size:10px; padding:1px 6px; border-radius:999px; background:#2a1f00; color:#f9a846; border:0.5px solid #6b4010; white-space:nowrap; }
   .row-actions { position:absolute; right:12px; display:flex; gap:6px; opacity:0; transition:opacity 0.1s; pointer-events:none; background:linear-gradient(to right, transparent 0%, rgba(29,29,26,0.95) 30%); padding-left:24px; }
   .event-row:hover .row-actions { opacity:1; pointer-events:auto; }
@@ -262,8 +263,13 @@
     .view-toggle { display:none; }
     /* always show card actions on mobile (no hover) */
     .event-card .card-actions { opacity:1; transform:translateY(0); pointer-events:auto; }
-    /* hide pill dropdowns on mobile, show filter button */
-    .filter-row .pill-wrap, .filter-row .search-divider, .filter-row .clear-filters-btn { display:none !important; }
+    /* hide header date nav on mobile */
+    .header-nav { display:none !important; }
+    .nav-sep { display:none !important; }
+    /* hide most pill dropdowns on mobile, keep date + region visible */
+    .filter-row .pill-wrap { display:none !important; }
+    .filter-row .pill-wrap.mobile-show { display:block !important; }
+    .filter-row .search-divider, .filter-row .clear-filters-btn { display:none !important; }
     .mobile-filter-btn { display:inline-flex; align-items:center; gap:4px; }
   }
 </style>
@@ -329,7 +335,21 @@
     <input class="search-box" type="search" placeholder="Artist or venue…" oninput="debouncedSearch()" id="search" aria-label="Search artists or venues">
   </div>
   <span style="width:1px;height:18px;background:var(--border2);margin:0 2px;flex-shrink:0;" class="search-divider"></span>
-  <div class="pill-wrap">
+  <div class="pill-wrap mobile-show mobile-date-pill">
+    <button class="filter-pill" id="pill-date" onclick="togglePill('date')" aria-haspopup="true" aria-expanded="false">
+      <span id="pill-date-label">Next 7 days</span>
+      <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="pill-menu" id="pill-date-menu" role="menu">
+      <button class="pill-option selected" role="menuitem" onclick="pickDate('today','Today')">Today</button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('tomorrow','Tomorrow')">Tomorrow</button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('weekend','Weekend')">Weekend</button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('week','This week')">This week</button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('next7','Next 7 days')">Next 7 days</button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('month','This month')">This month</button>
+    </div>
+  </div>
+  <div class="pill-wrap mobile-show">
     <button class="filter-pill" id="pill-region" onclick="togglePill('region')" aria-haspopup="true" aria-expanded="false">
       <span id="pill-region-label">Region</span>
       <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
@@ -403,16 +423,6 @@
 <div class="bottomsheet-overlay" id="bs-overlay" onclick="closeBottomSheet()"></div>
 <div class="bottomsheet" id="bs-panel" role="dialog" aria-modal="true" aria-label="Filter options">
   <div class="bs-handle"></div>
-  <div class="bs-section">
-    <div class="bs-label">Region</div>
-    <div class="bs-options" id="bs-region">
-      <button class="bs-opt active" onclick="bsPick('region','all','Region',this)">All</button>
-      <button class="bs-opt" onclick="bsPick('region','Medford','Medford',this)">Medford</button>
-      <button class="bs-opt" onclick="bsPick('region','Ashland','Ashland',this)">Ashland</button>
-      <button class="bs-opt" onclick="bsPick('region','GrantsPass','Grants Pass',this)">Grants Pass</button>
-      <button class="bs-opt" onclick="bsPick('region','RogueRiver','Rogue River',this)">Rogue River</button>
-    </div>
-  </div>
   <div class="bs-section">
     <div class="bs-label">Type</div>
     <div class="bs-options" id="bs-type">
@@ -670,8 +680,28 @@ function applyQuick(btn,q){
   else if(q==='month')   {rangeStart=new Date(t.getFullYear(),t.getMonth(),1);rangeEnd=new Date(t.getFullYear(),t.getMonth()+1,0);}
   syncDpInputsFromRange();
   updateDpLabel();
+  // sync mobile date pill label
+  const labels={today:'Today',tomorrow:'Tomorrow',weekend:'Weekend',week:'This week',next7:'Next 7 days',month:'This month'};
+  const dpLbl=document.getElementById('pill-date-label');
+  if(dpLbl)dpLbl.textContent=labels[q]||'Custom';
   syncUrl();
   render();
+}
+
+function pickDate(q,label){
+  // reuse applyQuick logic
+  const chip=document.getElementById('chip-'+q);
+  if(chip)applyQuick(chip,q);
+  // update date pill label
+  document.getElementById('pill-date-label').textContent=label;
+  // update selected state in menu
+  document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.remove('selected'));
+  if(event&&event.target)event.target.classList.add('selected');
+  // close menu
+  const pill=document.getElementById('pill-date');
+  const menu=document.getElementById('pill-date-menu');
+  if(pill){pill.classList.remove('open');pill.setAttribute('aria-expanded','false');}
+  if(menu)menu.classList.remove('open');
 }
 
 function toggleDatePicker(){
@@ -746,7 +776,7 @@ function togglePill(name){
   pill.setAttribute('aria-expanded',open);
 }
 function closeAllPills(except){
-  ['region','type','genre','venue'].forEach(n=>{
+  ['date','region','type','genre','venue'].forEach(n=>{
     if(n===except)return;
     const m=document.getElementById('pill-'+n+'-menu');
     const p=document.getElementById('pill-'+n);
@@ -1214,15 +1244,6 @@ function bsPick(name,value,label,el){
 }
 
 function syncBsFromState(){
-  // sync region
-  document.querySelectorAll('#bs-region .bs-opt').forEach(c=>{
-    const txt=c.textContent.trim();
-    c.classList.toggle('active',
-      (activeRegion==='all'&&txt==='All')||
-      (activeRegion==='GrantsPass'&&txt==='Grants Pass')||
-      (activeRegion==='RogueRiver'&&txt==='Rogue River')||
-      txt===activeRegion);
-  });
   // sync type
   document.querySelectorAll('#bs-type .bs-opt').forEach(c=>{
     c.classList.toggle('active',
@@ -1233,10 +1254,10 @@ function syncBsFromState(){
 }
 
 function syncBsBtn(){
-  const hasFilters=activeRegion!=='all'||activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all';
+  const bsFilters=activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all';
   const btn=document.getElementById('mobile-filter-btn');
-  btn.classList.toggle('has-filters',hasFilters);
-  const count=[activeRegion!=='all',activeType!=='all',activeGenre!=='all',activeVenueType!=='all'].filter(Boolean).length;
+  btn.classList.toggle('has-filters',bsFilters);
+  const count=[activeType!=='all',activeGenre!=='all',activeVenueType!=='all'].filter(Boolean).length;
   btn.innerHTML=
     '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>Filters'+(count?' ('+count+')':'');
 }
