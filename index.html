@@ -314,7 +314,7 @@
 </div><!-- /sticky-top -->
 
 <main class="main" id="listing">
-  <div class="state-msg">Loading shows&#8230;</div>
+  <div class="state-msg">Tuning up&#8230;</div>
 </main>
 
 <footer class="site-footer">
@@ -419,6 +419,23 @@ function parseTxt(txt){
 }
 
 /* ── Load ── */
+const LOADING_MESSAGES=[
+  "Tuning up&#8230;",
+  "Warming up the amps&#8230;",
+  "Checking the setlist&#8230;",
+  "Rolling up to the venue&#8230;",
+  "Grabbing a spot up front&#8230;",
+  "Waiting for the opener&#8230;",
+  "Asking around for shows&#8230;",
+  "Scanning the marquee&#8230;",
+  "Plugging in&#8230;",
+  "Mic check, one two&#8230;",
+  "Loading the van&#8230;",
+  "Taping up the setlist&#8230;",
+  "Dimming the house lights&#8230;",
+];
+function loadingMsg(){return LOADING_MESSAGES[Math.floor(Math.random()*LOADING_MESSAGES.length)];}
+
 const FAIL_MESSAGES=[
   {title:"The band's on break",sub:"Even the internet needs a smoke break sometimes."},
   {title:"Feedback loop",sub:"Not the good kind. Our data source hit a sour note."},
@@ -623,7 +640,7 @@ function render(){
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   document.getElementById('count-label').textContent=filtered.length+' show'+(filtered.length!==1?'s':'');
-  if(allEvents.length===0){listing.innerHTML='<div class="state-msg">Loading&#8230;</div>';return;}
+  if(allEvents.length===0){listing.innerHTML='<div class="state-msg">'+loadingMsg()+'</div>';return;}
   if(filtered.length===0){listing.innerHTML='<div class="state-msg">No shows in this date range.<small>Try adjusting the dates or region filter.</small></div>';return;}
 
   if(fmtISO(rangeStart)===fmtISO(rangeEnd)){
