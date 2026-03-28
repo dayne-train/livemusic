@@ -107,6 +107,8 @@
   .pill-option:hover { background:var(--bg2); color:var(--text); }
   .pill-option.selected { color:var(--green); font-weight:600; }
   .pill-option.selected::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--green); margin-right:6px; vertical-align:middle; }
+  .clear-filters-btn { display:none; align-items:center; gap:4px; font-size:11px; padding:4px 10px; border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; transition:all 0.15s; }
+  .clear-filters-btn:hover { background:rgba(239,79,95,0.2); border-color:rgba(239,79,95,0.6); }
   .search-wrap { display:flex; align-items:center; }
   .search-icon-btn { background:none; border:0.5px solid var(--border2); border-radius:var(--radius-sm); width:28px; height:28px; cursor:pointer; color:var(--text2); display:flex; align-items:center; justify-content:center; transition:background 0.1s,color 0.1s,border-radius 0.15s; flex-shrink:0; }
   .search-icon-btn:hover { background:var(--bg2); color:var(--text); }
@@ -246,7 +248,7 @@
     .event-row { display:none; }
     .view-toggle { display:none; }
     /* hide pill dropdowns on mobile, show filter button */
-    .filter-row .pill-wrap { display:none; }
+    .filter-row .pill-wrap, .filter-row .search-divider, .filter-row .clear-filters-btn { display:none !important; }
     .mobile-filter-btn { display:inline-flex; align-items:center; gap:4px; }
   }
 </style>
@@ -310,6 +312,7 @@
     </button>
     <input class="search-box" type="search" placeholder="Artist or venue…" oninput="debouncedSearch()" id="search">
   </div>
+  <span style="width:1px;height:18px;background:var(--border2);margin:0 2px;flex-shrink:0;" class="search-divider"></span>
   <div class="pill-wrap">
     <button class="filter-pill" id="pill-region" onclick="togglePill('region')">
       <span id="pill-region-label">Region</span>
@@ -354,6 +357,9 @@
       <button class="pill-option selected" onclick="pickFilter('venue','all','Venue type')">All venue types</button>
     </div>
   </div>
+  <button class="clear-filters-btn" id="clear-filters-btn" onclick="clearAllFilters()" style="display:none;">
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Clear filters
+  </button>
   <button class="mobile-filter-btn" id="mobile-filter-btn" onclick="openBottomSheet()">
     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>Filters
   </button>
@@ -747,14 +753,26 @@ function pickFilter(name,value,label){
   // close menu
   pill.classList.remove('open');
   document.getElementById('pill-'+name+'-menu').classList.remove('open');
-  syncUrl();render();
+  updateClearBtn();syncUrl();render();
+}
+
+function hasActiveFilters(){return activeRegion!=='all'||activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all';}
+function updateClearBtn(){
+  const btn=document.getElementById('clear-filters-btn');
+  if(btn)btn.style.display=hasActiveFilters()?'inline-flex':'none';
+}
+function clearAllFilters(){
+  activeRegion='all';activeType='all';activeGenre='all';activeVenueType='all';
+  FILTER_STATE.region='all';FILTER_STATE.type='all';FILTER_STATE.genre='all';FILTER_STATE.venue='all';
+  syncPillUi('region','all');syncPillUi('type','all');syncPillUi('genre','all');syncPillUi('venue','all');
+  updateClearBtn();syncBsBtn();syncUrl();render();
 }
 
 /* keep old function signatures for URL restore compatibility */
-function setRegion(r){activeRegion=r;FILTER_STATE.region=r;syncPillUi('region',r);syncUrl();render();}
-function setType(t){activeType=t;FILTER_STATE.type=t;syncPillUi('type',t);syncUrl();render();}
-function setGenre(v){activeGenre=v;FILTER_STATE.genre=v;syncPillUi('genre',v);syncUrl();render();}
-function setVenueType(v){activeVenueType=v;FILTER_STATE.venue=v;syncPillUi('venue',v);syncUrl();render();}
+function setRegion(r){activeRegion=r;FILTER_STATE.region=r;syncPillUi('region',r);updateClearBtn();syncUrl();render();}
+function setType(t){activeType=t;FILTER_STATE.type=t;syncPillUi('type',t);updateClearBtn();syncUrl();render();}
+function setGenre(v){activeGenre=v;FILTER_STATE.genre=v;syncPillUi('genre',v);updateClearBtn();syncUrl();render();}
+function setVenueType(v){activeVenueType=v;FILTER_STATE.venue=v;syncPillUi('venue',v);updateClearBtn();syncUrl();render();}
 
 function syncPillUi(name,value){
   const pill=document.getElementById('pill-'+name);
