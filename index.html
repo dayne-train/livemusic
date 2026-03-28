@@ -258,6 +258,10 @@
   </div>
 </header>
 
+<div id="stale-bar" style="display:none;align-items:center;justify-content:center;gap:8px;padding:6px 1rem;background:#2a1f00;border-bottom:0.5px solid #6b4010;font-size:12px;color:#f9a846;">
+  <span></span>
+  <button onclick="hideStaleNotice();loadData()" style="background:none;border:0.5px solid #6b4010;border-radius:999px;padding:2px 10px;font-size:11px;color:#f9a846;cursor:pointer;">Retry</button>
+</div>
 <div class="filter-row">
   <div class="search-wrap">
     <button class="search-icon-btn" id="search-btn" onclick="toggleSearch()" aria-label="Search">
@@ -297,7 +301,15 @@
 </div>
 
 <script>
-const PROXY='https://api.allorigins.win/get?url='+encodeURIComponent('http://roguevalleylivemusicnightlife.com/musiclist.txt');
+const SOURCE_URL='http://roguevalleylivemusicnightlife.com/musiclist.txt';
+const PROXIES=[
+  {url:'https://api.allorigins.win/get?url='+encodeURIComponent(SOURCE_URL), json:true, extract:j=>j.contents},
+  {url:'https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
+  {url:'https://corsproxy.io/?url='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
+];
+const CACHE_KEY='rogue_live_cache';
+const CACHE_TS_KEY='rogue_live_cache_ts';
+const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
 
 let allEvents=[], rangeStart, rangeEnd, activeRegion='all', viewMode='card';
 
@@ -393,22 +405,75 @@ const FAIL_MESSAGES=[
 
 function failMsg(){return FAIL_MESSAGES[Math.floor(Math.random()*FAIL_MESSAGES.length)];}
 
-async function loadData(){
+function fetchWithTimeout(url,ms=8000){
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),ms);
+  return fetch(url,{signal:ctrl.signal}).finally(()=>clearTimeout(timer));
+}
+
+function saveCache(txt){
+  try{localStorage.setItem(CACHE_KEY,txt);localStorage.setItem(CACHE_TS_KEY,Date.now().toString());}catch(e){}
+}
+function loadCache(){
   try{
-    const res=await fetch(PROXY);
-    if(!res.ok)throw new Error('HTTP '+res.status);
-    const json=await res.json();
-    allEvents=parseTxt(json.contents||'');
+    const txt=localStorage.getItem(CACHE_KEY),ts=parseInt(localStorage.getItem(CACHE_TS_KEY)||'0',10);
+    if(!txt)return null;
+    return{txt,ts,stale:Date.now()-ts>CACHE_MAX_AGE};
+  }catch(e){return null;}
+}
+
+function showStaleNotice(ts){
+  const ago=Math.round((Date.now()-ts)/60000);
+  const label=ago<60?ago+'m ago':Math.round(ago/60)+'h ago';
+  const bar=document.getElementById('stale-bar');
+  if(bar){bar.style.display='flex';bar.querySelector('span').textContent='Showing cached data ('+label+'). Live source unavailable.';}
+}
+function hideStaleNotice(){const bar=document.getElementById('stale-bar');if(bar)bar.style.display='none';}
+
+async function fetchFromProxies(){
+  const errors=[];
+  for(const p of PROXIES){
+    try{
+      const res=await fetchWithTimeout(p.url);
+      if(!res.ok)throw new Error('HTTP '+res.status);
+      const body=p.json?await res.json():await res.text();
+      const txt=p.extract(body);
+      if(!txt||txt.length<50)throw new Error('Empty response');
+      return txt;
+    }catch(e){errors.push(e.message);}
+  }
+  throw new Error('All sources failed: '+errors.join('; '));
+}
+
+async function loadData(){
+  /* Show cached data instantly if available */
+  const cached=loadCache();
+  if(cached){
+    allEvents=parseTxt(cached.txt);
+    render();
+  }
+
+  /* Fetch fresh data in parallel */
+  try{
+    const txt=await fetchFromProxies();
+    saveCache(txt);
+    hideStaleNotice();
+    allEvents=parseTxt(txt);
     render();
   }catch(err){
-    const m=failMsg();
-    document.getElementById('listing').innerHTML=`<div class="error-box">
-      <p style="font-size:22px;margin-bottom:4px">&#127928;</p>
-      <p style="font-weight:600;font-size:15px;margin-bottom:6px">${esc(m.title)}</p>
-      <p>${esc(m.sub)}</p>
-      <button onclick="location.reload()" style="margin-top:14px;padding:7px 20px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:13px;cursor:pointer;">Try again</button>
-      <p style="margin-top:12px;font-size:11px;color:var(--text3)">${esc(err.message)}</p>
-    </div>`;
+    if(cached){
+      /* We already rendered cached data — just show the stale notice */
+      showStaleNotice(cached.ts);
+    }else{
+      const m=failMsg();
+      document.getElementById('listing').innerHTML=`<div class="error-box">
+        <p style="font-size:22px;margin-bottom:4px">&#127928;</p>
+        <p style="font-weight:600;font-size:15px;margin-bottom:6px">${esc(m.title)}</p>
+        <p>${esc(m.sub)}</p>
+        <button onclick="loadData()" style="margin-top:14px;padding:7px 20px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:13px;cursor:pointer;">Try again</button>
+        <p style="margin-top:12px;font-size:11px;color:var(--text3)">${esc(err.message)}</p>
+      </div>`;
+    }
   }
 }
 
