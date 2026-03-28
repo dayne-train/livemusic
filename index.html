@@ -207,6 +207,22 @@
   .filter-select:focus { border-color:var(--accent); }
   .filter-select option { background:var(--bg); color:var(--text); }
 
+  /* ── Bottom sheet (mobile filters) ── */
+  .mobile-filter-btn { display:none; font-size:12px; padding:4px 12px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
+  .mobile-filter-btn:hover { background:var(--bg2); }
+  .mobile-filter-btn.has-filters { border-color:var(--accent); color:var(--accent); }
+  .bottomsheet-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:300; }
+  .bottomsheet-overlay.open { display:block; }
+  .bottomsheet { position:fixed; bottom:0; left:0; right:0; background:var(--bg); border-top:0.5px solid var(--border2); border-radius:16px 16px 0 0; padding:1.25rem 1.25rem 2rem; z-index:301; transform:translateY(100%); transition:transform 0.25s ease; max-height:70vh; overflow-y:auto; }
+  .bottomsheet.open { transform:translateY(0); }
+  .bs-handle { width:36px; height:4px; border-radius:2px; background:var(--border2); margin:0 auto 16px; }
+  .bs-section { margin-bottom:16px; }
+  .bs-label { font-size:11px; font-weight:600; color:var(--text3); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px; }
+  .bs-chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .bs-chips .chip, .bs-chips .type-chip { font-size:12px; padding:6px 14px; }
+  .bs-row { display:flex; gap:8px; }
+  .bs-row .filter-select { flex:1; font-size:13px; padding:8px 10px; padding-right:24px; }
+
   /* ── Responsive ── */
   @media (max-width:640px) {
     .site-header { padding:0.75rem 1rem; }
@@ -221,6 +237,12 @@
     .card-grid.row-view { gap:10px; }
     .event-row { display:none; }
     .view-toggle { display:none; }
+    /* hide inline filters, show mobile filter button */
+    .filter-row .chip,
+    .filter-row .type-chip,
+    .filter-row .filter-select,
+    .filter-row .filter-sep { display:none; }
+    .mobile-filter-btn { display:inline-flex; align-items:center; gap:4px; }
   }
 </style>
 </head>
@@ -301,6 +323,9 @@
   <select class="filter-select" id="venuetype-filter" onchange="setVenueType(this.value)">
     <option value="all">All venues</option>
   </select>
+  <button class="mobile-filter-btn" id="mobile-filter-btn" onclick="openBottomSheet()">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>Filters
+  </button>
   <span class="count-label" id="count-label"></span>
   <div class="view-toggle">
     <button class="view-btn active" id="view-card-btn" onclick="setView('card')" title="Card view" aria-label="Card view">
@@ -314,13 +339,49 @@
 </div><!-- /sticky-top -->
 
 <main class="main" id="listing">
-  <div class="state-msg">Tuning up&#8230;</div>
+  <div class="state-msg"><span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">&#127928;</span>Tuning up&#8230;</div>
 </main>
 
 <footer class="site-footer">
   <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a> &mdash; maintained by local volunteers.</div>
   <div style="margin-top:6px;">Made with love in Medford &copy; 2026 &middot; <a href="mailto:hello@dayne.design">Contact</a></div>
 </footer>
+
+<div class="bottomsheet-overlay" id="bs-overlay" onclick="closeBottomSheet()"></div>
+<div class="bottomsheet" id="bs-panel">
+  <div class="bs-handle"></div>
+  <div class="bs-section">
+    <div class="bs-label">Region</div>
+    <div class="bs-chips" id="bs-region-chips">
+      <button class="chip active" onclick="setRegion('all',this);syncBsState()">All</button>
+      <button class="chip" onclick="setRegion('Medford',this);syncBsState()">Medford</button>
+      <button class="chip" onclick="setRegion('Ashland',this);syncBsState()">Ashland</button>
+      <button class="chip" onclick="setRegion('GrantsPass',this);syncBsState()">Grants Pass</button>
+      <button class="chip" onclick="setRegion('RogueRiver',this);syncBsState()">Rogue River</button>
+    </div>
+  </div>
+  <div class="bs-section">
+    <div class="bs-label">Type</div>
+    <div class="bs-chips" id="bs-type-chips">
+      <button class="type-chip active" onclick="setType('all',this);syncBsState()">All</button>
+      <button class="type-chip" onclick="setType('Band',this);syncBsState()">Band</button>
+      <button class="type-chip" onclick="setType('Solo',this);syncBsState()">Solo</button>
+      <button class="type-chip" onclick="setType('Jam',this);syncBsState()">Jam</button>
+      <button class="type-chip" onclick="setType('Open Mic',this);syncBsState()">Open Mic</button>
+    </div>
+  </div>
+  <div class="bs-section">
+    <div class="bs-label">More filters</div>
+    <div class="bs-row">
+      <select class="filter-select" id="bs-genre-filter" onchange="setGenre(this.value);syncBsState()">
+        <option value="all">All genres</option>
+      </select>
+      <select class="filter-select" id="bs-venuetype-filter" onchange="setVenueType(this.value);syncBsState()">
+        <option value="all">All venues</option>
+      </select>
+    </div>
+  </div>
+</div>
 
 <div class="modal-overlay" id="modal">
   <div class="modal">
@@ -434,7 +495,24 @@ const LOADING_MESSAGES=[
   "Taping up the setlist&#8230;",
   "Dimming the house lights&#8230;",
 ];
-function loadingMsg(){return LOADING_MESSAGES[Math.floor(Math.random()*LOADING_MESSAGES.length)];}
+const LOADING_ICONS=["&#127928;","&#127911;","&#127926;","&#127927;","&#127930;","&#127929;","&#127931;","&#119070;","&#127932;","&#128266;"];
+let _loadIconIdx=0,_loadIconTimer;
+function loadingMsg(){
+  const msg=LOADING_MESSAGES[Math.floor(Math.random()*LOADING_MESSAGES.length)];
+  return'<span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">'+LOADING_ICONS[0]+'</span>'+msg;
+}
+function startIconCycle(){
+  clearInterval(_loadIconTimer);
+  _loadIconIdx=0;
+  _loadIconTimer=setInterval(()=>{
+    _loadIconIdx=(_loadIconIdx+1)%LOADING_ICONS.length;
+    const el=document.getElementById('load-icon');
+    if(el){el.style.transition='opacity 0.15s';el.style.opacity='0';
+      setTimeout(()=>{el.innerHTML=LOADING_ICONS[_loadIconIdx];el.style.opacity='1';},150);
+    }else clearInterval(_loadIconTimer);
+  },600);
+}
+function stopIconCycle(){clearInterval(_loadIconTimer);}
 
 const FAIL_MESSAGES=[
   {title:"The band's on break",sub:"Even the internet needs a smoke break sometimes."},
@@ -640,7 +718,8 @@ function render(){
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   document.getElementById('count-label').textContent=filtered.length+' show'+(filtered.length!==1?'s':'');
-  if(allEvents.length===0){listing.innerHTML='<div class="state-msg">'+loadingMsg()+'</div>';return;}
+  if(allEvents.length===0){listing.innerHTML='<div class="state-msg">'+loadingMsg()+'</div>';startIconCycle();return;}
+  stopIconCycle();
   if(filtered.length===0){listing.innerHTML='<div class="state-msg">No shows in this date range.<small>Try adjusting the dates or region filter.</small></div>';return;}
 
   if(fmtISO(rangeStart)===fmtISO(rangeEnd)){
@@ -964,10 +1043,53 @@ function openFromUrl(){
   }
 }
 
+/* ── Bottom sheet (mobile filters) ── */
+function openBottomSheet(){
+  syncBsFromState();
+  document.getElementById('bs-overlay').classList.add('open');
+  requestAnimationFrame(()=>document.getElementById('bs-panel').classList.add('open'));
+}
+function closeBottomSheet(){
+  document.getElementById('bs-panel').classList.remove('open');
+  setTimeout(()=>document.getElementById('bs-overlay').classList.remove('open'),250);
+}
+function syncBsFromState(){
+  // sync region chips in bottom sheet
+  document.querySelectorAll('#bs-region-chips .chip').forEach(c=>{
+    const val=c.textContent.trim().replace(/\s/g,'');
+    c.classList.toggle('active',
+      (activeRegion==='all'&&val==='All')||val===activeRegion||
+      (activeRegion==='GrantsPass'&&c.textContent.trim()==='Grants Pass')||
+      (activeRegion==='RogueRiver'&&c.textContent.trim()==='Rogue River'));
+  });
+  // sync type chips
+  document.querySelectorAll('#bs-type-chips .type-chip').forEach(c=>{
+    c.classList.toggle('active',
+      (activeType==='all'&&c.textContent.trim()==='All')||c.textContent.trim()===activeType);
+  });
+  // sync selects
+  const gSel=document.getElementById('bs-genre-filter');
+  const vSel=document.getElementById('bs-venuetype-filter');
+  // clone options from desktop selects
+  gSel.innerHTML=document.getElementById('genre-filter').innerHTML;
+  vSel.innerHTML=document.getElementById('venuetype-filter').innerHTML;
+  gSel.value=activeGenre;
+  vSel.value=activeVenueType;
+}
+function syncBsState(){
+  // update mobile filter button indicator
+  const hasFilters=activeRegion!=='all'||activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all';
+  document.getElementById('mobile-filter-btn').classList.toggle('has-filters',hasFilters);
+  const count=[activeRegion!=='all',activeType!=='all',activeGenre!=='all',activeVenueType!=='all'].filter(Boolean).length;
+  document.getElementById('mobile-filter-btn').innerHTML=
+    '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>Filters'+(count?' ('+count+')':'');
+}
+
 /* ── Init ── */
 rangeStart=midnight(new Date());rangeEnd=addDays(rangeStart,6);
 restoreFromUrl();
 updateDpLabel();
+startIconCycle();
 loadData();
 </script>
 </body>
