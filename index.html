@@ -378,6 +378,21 @@ function parseTxt(txt){
 }
 
 /* ── Load ── */
+const FAIL_MESSAGES=[
+  {title:"The band's on break",sub:"Even the internet needs a smoke break sometimes."},
+  {title:"Feedback loop",sub:"Not the good kind. Our data source hit a sour note."},
+  {title:"Lost the setlist",sub:"We had all the shows, then the wind took 'em."},
+  {title:"Sound check... failed",sub:"One-two, one-two\u2014nope, nothing's coming through."},
+  {title:"The venue cancelled",sub:"Just kidding, but our data source really did ghost us."},
+  {title:"Amp blew out",sub:"The signal's fried. We'll get a new tube in a sec."},
+  {title:"Stuck in the green room",sub:"The data is in there somewhere, just not coming out."},
+  {title:"Wrong chord",sub:"We reached for the data and hit a clunker instead."},
+  {title:"Encore denied",sub:"The crowd wants more, but the server walked offstage."},
+  {title:"Guitar string snapped",sub:"Give us a moment to re-tune and try again."},
+];
+
+function failMsg(){return FAIL_MESSAGES[Math.floor(Math.random()*FAIL_MESSAGES.length)];}
+
 async function loadData(){
   try{
     const res=await fetch(PROXY);
@@ -386,7 +401,14 @@ async function loadData(){
     allEvents=parseTxt(json.contents||'');
     render();
   }catch(err){
-    document.getElementById('listing').innerHTML=`<div class="error-box"><p style="font-weight:600;margin-bottom:6px">Could not load live data</p><p>The source site may be temporarily unavailable. Try refreshing.</p><p style="margin-top:8px;font-size:11px;color:var(--text3)">${esc(err.message)}</p></div>`;
+    const m=failMsg();
+    document.getElementById('listing').innerHTML=`<div class="error-box">
+      <p style="font-size:22px;margin-bottom:4px">&#127928;</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px">${esc(m.title)}</p>
+      <p>${esc(m.sub)}</p>
+      <button onclick="location.reload()" style="margin-top:14px;padding:7px 20px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:13px;cursor:pointer;">Try again</button>
+      <p style="margin-top:12px;font-size:11px;color:var(--text3)">${esc(err.message)}</p>
+    </div>`;
   }
 }
 
