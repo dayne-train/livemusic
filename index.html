@@ -128,15 +128,16 @@
   .event-row:last-child { border-radius:0 0 var(--radius-sm) var(--radius-sm); }
   .event-row:only-child { border-radius:var(--radius-sm); }
   .event-row:hover { background:rgba(29,158,117,0.06); }
-  .row-col { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; flex-shrink:0; }
-  .row-col-name  { flex:0 0 25%; font-size:13px; font-weight:600; color:var(--text); padding-right:12px; }
-  .row-col-venue { flex:0 0 25%; font-size:12px; color:var(--text2); padding-right:12px; }
-  .row-col-time  { flex:0 0 14%; font-size:11px; color:var(--text3); }
-  .row-col-extra { flex:1; min-width:0; font-size:11px; color:var(--text3); overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding-left:8px; transition:opacity 0.1s; }
-  .event-row:hover .row-col-extra { opacity:0; pointer-events:none; }
+  .row-col { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; flex-shrink:0; font-size:12px; padding-right:10px; }
+  .row-col-name   { flex:0 0 20%; font-weight:600; color:var(--text); }
+  .row-col-genre  { flex:0 0 12%; color:var(--text3); font-style:italic; font-size:11px; }
+  .row-col-venue  { flex:0 0 18%; color:var(--text2); }
+  .row-col-vtype  { flex:0 0 10%; color:var(--text3); font-size:11px; }
+  .row-col-time   { flex:0 0 13%; color:var(--text3); font-size:11px; }
+  .row-col-cover  { flex:0 0 8%; padding-right:0; }
+  .cover-badge { font-size:10px; padding:1px 6px; border-radius:999px; background:#2a1f00; color:#f9a846; border:0.5px solid #6b4010; white-space:nowrap; }
   .row-actions { position:absolute; right:12px; display:flex; gap:6px; opacity:0; transition:opacity 0.1s; pointer-events:none; background:linear-gradient(to right, transparent 0%, rgba(29,29,26,0.95) 30%); padding-left:24px; }
   .event-row:hover .row-actions { opacity:1; pointer-events:auto; }
-  .cover-badge { font-size:10px; padding:1px 6px; border-radius:999px; background:#2a1f00; color:#f9a846; border:0.5px solid #6b4010; white-space:nowrap; margin-left:8px; flex-shrink:0; }
 
   /* ── Main ── */
   .main { padding:1.25rem 1.5rem; max-width:1140px; margin:0 auto; }
@@ -851,12 +852,13 @@ function rowHtml(e,idx){
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
   const pm=e.notes.match(/\$[\d,]+/);
   const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
-  const extraParts=[e.genre,e.venueType].filter(Boolean).join(' · ');
   return `<article class="event-row" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
     <div class="row-col row-col-name">${esc(e.musician)}</div>
+    <div class="row-col row-col-genre">${esc(e.genre)}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
-    <div class="row-col row-col-time">&#9200; ${esc(tS)}${tE?' – '+esc(tE):''}</div>
-    <div class="row-col-extra">${extraParts}${pm?' · <span class="cover-badge">Cover '+esc(pm[0])+'</span>':''}</div>
+    <div class="row-col row-col-vtype">${esc(e.venueType)}</div>
+    <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}</div>
+    <div class="row-col row-col-cover">${pm?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
     <div class="row-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Details</button>
       ${dirUrl?dirBtn:''}
