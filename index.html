@@ -4,7 +4,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTAwIj4KICA8cGF0aCBmaWxsPSIjMUQ5RTc1IiBkPSIKICAgIE0gMTAsMTQKICAgIEwgMTAsMTgKICAgIEwgNiwyMAogICAgTCA2LDI0CiAgICBMIDEwLDI0CiAgICBMIDEwLDI4CiAgICBMIDcsMzAKICAgIEwgNyw3MgogICAgTCAxNCw3NwogICAgTCAyMiw3NQogICAgTCAzMCw3OAogICAgTCA0Miw4MAogICAgTCA1NSw3OAogICAgTCA2OCw4MAogICAgTCA3OCw3NgogICAgTCA4NCw3MAogICAgTCA4OCw2MgogICAgTCA5NCw1MgogICAgTCAxMDAsNDIKICAgIEwgMTA0LDM0CiAgICBMIDEwNywyNgogICAgTCAxMDcsMTgKICAgIEwgMTAyLDEzCiAgICBMIDkyLDEwCiAgICBMIDc4LDgKICAgIEwgNjAsNwogICAgTCA0MCw3CiAgICBMIDIyLDkKICAgIEwgMTAsMTQKICAgIFoKICAiLz4KPC9zdmc+">
-<title>Rogue Live</title>
+<title>Rogue Live — Live Music in the Rogue Valley, Southern Oregon</title>
+<meta name="description" content="Find live music, open mics, and jam sessions in Medford, Ashland, Grants Pass, and the Rogue Valley. Updated daily with local shows and venues.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dayne-train.github.io/livemusic/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rogue Live — Live Music in the Rogue Valley">
+<meta property="og:description" content="Find live music, open mics, and jam sessions in Medford, Ashland, Grants Pass, and the Rogue Valley. Updated daily.">
+<meta property="og:url" content="https://dayne-train.github.io/livemusic/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Rogue Live — Live Music in the Rogue Valley">
+<meta name="twitter:description" content="Find live music, open mics, and jam sessions in Medford, Ashland, Grants Pass, and the Rogue Valley.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Rogue Live",
+  "url": "https://dayne-train.github.io/livemusic/",
+  "description": "Live music listings for the Rogue Valley — Medford, Ashland, Grants Pass, and surrounding areas in Southern Oregon.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://dayne-train.github.io/livemusic/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
@@ -15,12 +39,7 @@
     --green:#1D9E75; --green-dark:#0F6E56;
     --radius:10px; --radius-sm:6px;
   }
-  @media (prefers-color-scheme:light) {
-    :root {
-      --bg:#1c1c1a; --bg2:#252523; --bg3:#141412;
-      --text:#f0f0ec; --text2:#a8a8a2; --text3:#5f5e5a;
-    }
-  }
+  /* dark-only for now — light theme intentionally omitted */
   body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; background:var(--bg3); color:var(--text); font-size:16px; line-height:1.5; min-height:100vh; }
 
   /* ── Header — title left, nav right, wraps on mobile ── */
@@ -153,25 +172,6 @@
   .state-msg small { display:block; margin-top:6px; font-size:12px; color:var(--text3); }
   .error-box { background:var(--bg); border:0.5px solid var(--border); border-radius:var(--radius); padding:1.5rem; margin:1.5rem 0; text-align:center; font-size:13px; color:var(--text2); }
 
-  function rowHtml(e){
-  const idx=allEvents.indexOf(e);
-  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
-  const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
-  const pm=e.notes.match(/\$[\d,]+/);
-  const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
-  const extraParts=[e.genre,e.venueType].filter(Boolean).join(' · ');
-  return `<article class="event-row" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
-    <div class="row-col row-col-name">${esc(e.musician)}</div>
-    <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
-    <div class="row-col row-col-time">&#9200; ${esc(tS)}${tE?' – '+esc(tE):''}</div>
-    <div class="row-col-extra">${extraParts}${pm?' · <span class="cover-badge">Cover '+esc(pm[0])+'</span>':''}</div>
-    <div class="row-actions">
-      <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Details</button>
-      ${dirUrl?dirBtn:''}
-    </div>
-  </article>`;
-}
-
 /* ── Modal ── */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:1rem; }
   .modal-overlay.open { display:flex; }
@@ -215,8 +215,8 @@
 
 <header class="site-header">
   <div class="header-brand">
-    <div class="site-title">Rogue Live</div>
-    <div class="site-tagline">Live music in the heart of the Rogue Valley</div>
+    <h1 class="site-title">Rogue Live</h1>
+    <p class="site-tagline">Live music in the heart of the Rogue Valley</p>
   </div>
 
   <div class="header-nav">
@@ -286,7 +286,7 @@
 </main>
 
 <footer class="site-footer">
-  Data sourced from <a href="http://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a> &mdash; maintained by local volunteers.
+  Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a> &mdash; maintained by local volunteers.
 </footer>
 
 <div class="modal-overlay" id="modal">
@@ -542,6 +542,25 @@ function locationLine(e){
   if(e.genre)parts.push(esc(e.genre));
   const locText=parts.join(' | ');
   return locText?`<div class="location-line"><span class="location-text">${locText}</span></div>`:'';
+}
+
+function rowHtml(e){
+  const idx=allEvents.indexOf(e);
+  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
+  const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
+  const pm=e.notes.match(/\$[\d,]+/);
+  const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
+  const extraParts=[e.genre,e.venueType].filter(Boolean).join(' · ');
+  return `<article class="event-row" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
+    <div class="row-col row-col-name">${esc(e.musician)}</div>
+    <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
+    <div class="row-col row-col-time">&#9200; ${esc(tS)}${tE?' – '+esc(tE):''}</div>
+    <div class="row-col-extra">${extraParts}${pm?' · <span class="cover-badge">Cover '+esc(pm[0])+'</span>':''}</div>
+    <div class="row-actions">
+      <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Details</button>
+      ${dirUrl?dirBtn:''}
+    </div>
+  </article>`;
 }
 
 function cardHtml(e){
