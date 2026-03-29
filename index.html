@@ -171,8 +171,10 @@
   [data-theme="dark"] .header-theme-toggle .htt-sun  { opacity:0; transform:rotate(180deg) scale(0.5); }
   [data-theme="dark"] .header-theme-toggle .htt-moon { opacity:1; transform:rotate(0deg) scale(1); }
   .header-theme-toggle.toggling svg { transition:none !important; }
-  .header-contact-btn { color:var(--text3); display:flex; align-items:center; padding:4px; transition:color 0.2s; text-decoration:none; }
-  .header-contact-btn:hover { color:var(--text); text-decoration:none; }
+  .header-actions { display:flex; align-items:center; gap:6px; flex-shrink:0; }
+  .header-contact-btn { color:var(--text3); display:inline-flex; align-items:center; gap:5px; padding:4px 10px; font-size:11px; border-radius:999px; border:0.5px solid var(--border2); background:none; text-decoration:none; transition:color 0.15s,border-color 0.15s; white-space:nowrap; cursor:pointer; }
+  .header-contact-btn:hover { color:var(--accent); border-color:var(--accent); text-decoration:none; }
+  .header-contact-btn .contact-word { display:inline-block; transition:width 0.3s ease; }
   .clear-filters-btn { display:none; align-items:center; gap:4px; font-size:11px; padding:4px 10px; border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; transition:all 0.15s; }
   .clear-filters-btn:hover { background:rgba(239,79,95,0.2); border-color:rgba(239,79,95,0.6); }
   .search-wrap { display:flex; align-items:center; }
@@ -397,13 +399,16 @@
     </a>
   </div>
 
-  <a class="header-contact-btn" href="mailto:hello@dayne.design" aria-label="Contact">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-  </a>
-  <button class="header-theme-toggle" id="header-theme-btn" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
-    <svg class="htt-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-    <svg class="htt-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-  </button>
+  <div class="header-actions">
+    <a class="header-contact-btn" id="header-contact" href="mailto:roguevalleylivemusic@gmail.com" aria-label="Contact">
+      <span class="contact-word" id="contact-word">updates</span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    </a>
+    <button class="header-theme-toggle" id="header-theme-btn" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
+      <svg class="htt-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="htt-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
 
   <div class="header-nav">
     <nav id="quick-chips" aria-label="Date range" style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;">
@@ -525,14 +530,9 @@
     <button class="view-btn active" id="view-card-btn" onclick="setView('card')" title="Card view" aria-label="Card view">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
     </button>
-    <button class="view-btn" id="view-cal-btn" onclick="setView('calendar')" title="Calendar view" aria-label="Calendar view">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-    </button>
+    <!-- calendar and map views hidden for now -->
     <button class="view-btn" id="view-row-btn" onclick="setView('row')" title="Row view" aria-label="Row view">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <button class="view-btn" id="view-map-btn" onclick="setView('map')" title="Map view" aria-label="Map view">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
     </button>
   </div>
 </div>
@@ -543,16 +543,15 @@
 </main>
 
 <footer class="site-footer">
-  <div class="footer-left" style="display:flex;flex-direction:column;gap:6px;align-items:flex-start;">
-    <a class="footer-contact-btn" href="mailto:hello@dayne.design">
+  <div class="footer-left">
+    <a class="footer-contact-btn" href="mailto:roguevalleylivemusic@gmail.com">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      Contact
+      Updates, comments, concerns, or sponsorships
     </a>
-    <span style="font-size:11px;color:var(--text3);">Suggestions, comments, or sponsorships: <span style="color:var(--text2);">roguevalleylivemusic@gmail.com</span></span>
   </div>
   <div class="footer-right">
     <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a></div>
-    <div style="margin-top:4px;">Made with love in Medford &copy; 2026</div>
+    <div style="margin-top:4px;"><a href="mailto:hello@dayne.design" style="color:var(--text3);text-decoration:none;">Made with love in Medford</a> &copy; 2026</div>
   </div>
 </footer>
 
@@ -844,7 +843,7 @@ function applyQuick(btn,q){
 }
 
 function pickDate(q,label){
-  const defaultRange=isMobile()?'today':'next7';
+  const defaultRange='today';
   // reuse applyQuick logic
   const chip=document.getElementById('chip-'+q);
   if(chip)applyQuick(chip,q);
@@ -970,7 +969,7 @@ function updateClearBtn(){
 }
 function resetHome(){
   // reset date to default
-  const defaultRange=isMobile()?'today':'next7';
+  const defaultRange='today';
   const chip=document.getElementById('chip-'+defaultRange);
   if(chip)applyQuick(chip,defaultRange);
   const labels={today:'Today',next7:'Next 7 days'};
@@ -1410,9 +1409,9 @@ function setView(mode){
   viewMode=mode;
   savePref('viewMode',mode);
   document.getElementById('view-card-btn').classList.toggle('active',mode==='card');
-  document.getElementById('view-cal-btn').classList.toggle('active',mode==='calendar');
   document.getElementById('view-row-btn').classList.toggle('active',mode==='row');
-  document.getElementById('view-map-btn').classList.toggle('active',mode==='map');
+  const calBtn=document.getElementById('view-cal-btn');if(calBtn)calBtn.classList.toggle('active',mode==='calendar');
+  const mapBtn=document.getElementById('view-map-btn');if(mapBtn)mapBtn.classList.toggle('active',mode==='map');
   syncUrl();
   render();
 }
@@ -1714,18 +1713,25 @@ function toggleTheme(){
 function savePref(k,v){try{localStorage.setItem('rvlm_'+k,v);}catch(e){}}
 function loadPref(k){try{return localStorage.getItem('rvlm_'+k);}catch(e){return null;}}
 
+/* ── Contact word cycle ── */
+const CONTACT_WORDS=['updates','comments','concerns','sponsorships'];
+let _contactIdx=0;
+setInterval(()=>{
+  _contactIdx=(_contactIdx+1)%CONTACT_WORDS.length;
+  const el=document.getElementById('contact-word');
+  if(el)el.textContent=CONTACT_WORDS[_contactIdx];
+},2500);
+
 /* ── Init ── */
 applyTheme(getPreferredTheme());
 // restore view mode: default to row, save on change
 const savedView=loadPref('viewMode');
 viewMode=savedView||'row';
 document.getElementById('view-card-btn').classList.toggle('active',viewMode==='card');
-document.getElementById('view-cal-btn').classList.toggle('active',viewMode==='calendar');
 document.getElementById('view-row-btn').classList.toggle('active',viewMode==='row');
-document.getElementById('view-map-btn').classList.toggle('active',viewMode==='map');
 
-if(isMobile()&&!location.search){
-  // mobile default: Today
+if(!location.search){
+  // default: Today
   rangeStart=midnight(new Date());rangeEnd=midnight(new Date());
   document.getElementById('pill-date-label').textContent='Today';
   document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.remove('selected'));
