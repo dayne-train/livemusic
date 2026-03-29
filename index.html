@@ -154,7 +154,7 @@
   .filter-pill.filtered:hover { background:var(--accent-dark); border-color:var(--accent-dark); }
   .pill-chev { width:10px; height:10px; transition:transform 0.2s; flex-shrink:0; }
   .filter-pill.open .pill-chev { transform:rotate(180deg); }
-  .pill-menu { display:none; position:absolute; top:calc(100% + 4px); left:0; background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:4px; min-width:220px; z-index:100; max-height:260px; overflow-y:auto; box-shadow:0 8px 24px rgba(0,0,0,0.3); }
+  .pill-menu { display:none; position:absolute; top:calc(100% + 4px); left:0; background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:4px; min-width:220px; z-index:100; max-height:calc(100vh - 200px); overflow-y:auto; box-shadow:0 8px 24px rgba(0,0,0,0.3); }
   .pill-menu.open { display:block; }
   .pill-menu.align-right { left:auto; right:0; }
   .pill-option { display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%; text-align:left; font-size:12px; padding:6px 10px; border:none; background:none; color:var(--text2); cursor:pointer; border-radius:var(--radius-sm); transition:background 0.1s,color 0.1s; flex-wrap:wrap; }
@@ -162,7 +162,7 @@
   .pill-option:hover { background:var(--bg2); color:var(--text); }
   .pill-option.selected { color:var(--green); font-weight:600; }
   .pill-option.selected::after { content:''; display:block; width:14px; height:14px; flex-shrink:0; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%231D9E75' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E"); background-size:contain; background-repeat:no-repeat; }
-  .pill-hint { display:block; font-size:10px; color:var(--text3); font-weight:400; margin-top:1px; white-space:nowrap; }
+  .pill-hint { display:block; font-size:10px; color:var(--text3); font-weight:400; margin-top:-1px; white-space:nowrap; line-height:1.2; }
   /* header theme toggle */
   @keyframes toggle-cw-out { from{opacity:1;transform:rotate(0deg) scale(1);} to{opacity:0;transform:rotate(180deg) scale(0.5);} }
   @keyframes toggle-cw-in { from{opacity:0;transform:rotate(-180deg) scale(0.5);} to{opacity:1;transform:rotate(0deg) scale(1);} }
@@ -423,10 +423,8 @@
     .header-theme-toggle:hover { color:var(--text3); }
     .pill-option:hover { background:none; color:var(--text2); }
     .bs-opt:hover { background:none; }
-    /* larger dropdown menus + tap targets on mobile */
-    .pill-menu { padding:6px; }
-    .pill-option { font-size:15px; padding:12px 14px; }
-    .pill-hint { font-size:12px; }
+    /* on mobile, pill menus use bottomsheet instead of dropdown */
+    .pill-menu { display:none !important; }
     .bs-opt { font-size:14px; padding:8px 16px; }
   }
 </style>
@@ -605,7 +603,7 @@
   <div class="bs-header" id="bs-header">
     <div class="bs-handle"></div>
     <div class="bs-title-row">
-      <span class="bs-title">Filters</span>
+      <span class="bs-title">More filters</span>
       <button class="bs-close" onclick="closeBottomSheet()" aria-label="Close filters">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
@@ -629,6 +627,20 @@
     <div class="bs-label">Venue type</div>
     <div class="bs-options" id="bs-venue"></div>
   </div>
+</div>
+
+<div class="bottomsheet-overlay" id="bs-pill-overlay" onclick="closePillSheet()"></div>
+<div class="bottomsheet" id="bs-pill-panel" role="dialog" aria-modal="true" aria-label="Filter selection">
+  <div class="bs-header">
+    <div class="bs-handle"></div>
+    <div class="bs-title-row">
+      <span class="bs-title" id="bs-pill-title">Select</span>
+      <button class="bs-close" onclick="closePillSheet()" aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="bs-options" id="bs-pill-body" style="flex-wrap:wrap;"></div>
 </div>
 
 <div class="modal-overlay" id="modal" role="dialog" aria-modal="true" aria-label="Event details">
@@ -987,12 +999,45 @@ const FILTER_STATE={region:'all',type:'all',genre:'all',venue:'all'};
 const FILTER_DEFAULTS={region:'Region',type:'Type',genre:'Genre',venue:'Venue type'};
 
 function togglePill(name){
+  if(isMobile()){
+    openPillSheet(name);
+    return;
+  }
   closeAllPills(name);
   const menu=document.getElementById('pill-'+name+'-menu');
   const pill=document.getElementById('pill-'+name);
   const open=menu.classList.toggle('open');
   pill.classList.toggle('open',open);
   pill.setAttribute('aria-expanded',open);
+}
+
+/* ── Pill bottomsheet for mobile ── */
+function openPillSheet(name){
+  const menu=document.getElementById('pill-'+name+'-menu');
+  if(!menu)return;
+  const titles={date:'Date range',region:'Region',type:'Type',genre:'Genre',venue:'Venue type'};
+  const bsBody=document.getElementById('bs-pill-body');
+  const bsTitle=document.getElementById('bs-pill-title');
+  if(!bsBody)return;
+  bsTitle.textContent=titles[name]||name;
+  // clone options as bs-opt buttons
+  const options=menu.querySelectorAll('.pill-option');
+  bsBody.innerHTML='';
+  options.forEach(opt=>{
+    const btn=document.createElement('button');
+    btn.className='bs-opt'+(opt.classList.contains('selected')?' active':'');
+    btn.textContent=opt.textContent.trim().split('\n')[0]; // just the label, not hint
+    btn.onclick=()=>{opt.click();closePillSheet();};
+    bsBody.appendChild(btn);
+  });
+  document.getElementById('bs-pill-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+  requestAnimationFrame(()=>document.getElementById('bs-pill-panel').classList.add('open'));
+}
+function closePillSheet(){
+  document.getElementById('bs-pill-panel').classList.remove('open');
+  document.body.style.overflow='';
+  setTimeout(()=>document.getElementById('bs-pill-overlay').classList.remove('open'),250);
 }
 function closeAllPills(except){
   ['date','region','type','genre','venue'].forEach(n=>{
