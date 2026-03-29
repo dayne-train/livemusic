@@ -797,6 +797,8 @@ async function fetchFromProxies(){
   throw new Error('All sources failed: '+errors.join('; '));
 }
 
+const CACHE_FRESH=30*60*1000; // 30 minutes — skip API if cache is this fresh
+
 async function loadData(){
   /* Show cached data instantly if available */
   const cached=loadCache();
@@ -804,9 +806,12 @@ async function loadData(){
     allEvents=parseTxt(cached.txt);
     populateFilterDropdowns();
     render();
+    openFromUrl();
+    // skip API call if cache is fresh enough
+    if(Date.now()-cached.ts<CACHE_FRESH)return;
   }
 
-  /* Fetch fresh data in parallel */
+  /* Fetch fresh data */
   try{
     const txt=await fetchFromProxies();
     saveCache(txt);
