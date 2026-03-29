@@ -283,9 +283,10 @@
   .mobile-filter-btn.has-filters { border-color:var(--green); background:var(--green); color:#fff; }
   .bottomsheet-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:300; }
   .bottomsheet-overlay.open { display:block; }
-  .bottomsheet { position:fixed; bottom:0; left:0; right:0; background:var(--bg); border-top:0.5px solid var(--border2); border-radius:16px 16px 0 0; padding:1.25rem 1.25rem 2rem; z-index:301; transform:translateY(100%); transition:transform 0.25s ease; max-height:70vh; overflow-y:auto; }
+  .bottomsheet { position:fixed; bottom:0; left:0; right:0; background:var(--bg); border-top:0.5px solid var(--border2); border-radius:16px 16px 0 0; padding:0 1.25rem 2rem; z-index:301; transform:translateY(100%); transition:transform 0.25s ease; max-height:70vh; overflow-y:auto; overscroll-behavior:contain; -webkit-overflow-scrolling:touch; }
   .bottomsheet.open { transform:translateY(0); }
-  .bs-handle { width:36px; height:4px; border-radius:2px; background:var(--border2); margin:0 auto 16px; }
+  .bs-header { padding:12px 0 8px; cursor:grab; touch-action:none; }
+  .bs-handle { width:36px; height:4px; border-radius:2px; background:var(--border2); margin:0 auto 0; }
   .bs-section { margin-bottom:16px; }
   .bs-label { font-size:11px; font-weight:600; color:var(--text3); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px; }
   .bs-options { display:flex; flex-wrap:wrap; gap:6px; }
@@ -481,7 +482,9 @@
 
 <div class="bottomsheet-overlay" id="bs-overlay" onclick="closeBottomSheet()"></div>
 <div class="bottomsheet" id="bs-panel" role="dialog" aria-modal="true" aria-label="Filter options">
-  <div class="bs-handle"></div>
+  <div class="bs-header" id="bs-header">
+    <div class="bs-handle"></div>
+  </div>
   <div class="bs-section">
     <div class="bs-label">Type</div>
     <div class="bs-options" id="bs-type">
@@ -1339,12 +1342,39 @@ function openFromUrl(){
 function openBottomSheet(){
   syncBsFromState();
   document.getElementById('bs-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
   requestAnimationFrame(()=>document.getElementById('bs-panel').classList.add('open'));
 }
 function closeBottomSheet(){
   document.getElementById('bs-panel').classList.remove('open');
+  document.body.style.overflow='';
   setTimeout(()=>document.getElementById('bs-overlay').classList.remove('open'),250);
 }
+
+/* swipe-to-dismiss on bottom sheet header */
+(function(){
+  const header=document.getElementById('bs-header');
+  const panel=document.getElementById('bs-panel');
+  let startY=0,currentY=0,dragging=false;
+  header.addEventListener('touchstart',function(e){
+    startY=e.touches[0].clientY;currentY=startY;dragging=true;
+    panel.style.transition='none';
+  },{passive:true});
+  header.addEventListener('touchmove',function(e){
+    if(!dragging)return;
+    currentY=e.touches[0].clientY;
+    const dy=Math.max(0,currentY-startY);
+    panel.style.transform='translateY('+dy+'px)';
+  },{passive:true});
+  header.addEventListener('touchend',function(){
+    if(!dragging)return;
+    dragging=false;
+    panel.style.transition='';
+    const dy=currentY-startY;
+    if(dy>60){closeBottomSheet();}
+    else{panel.style.transform='';}
+  });
+})();
 
 function bsPick(name,value,label,el){
   // update state
