@@ -1201,14 +1201,36 @@ function render(){
   if(effectiveView==='calendar'){renderCalendar(filtered,listing);return;}
   if(effectiveView==='map'){renderMap(filtered,listing);return;}
   if(filtered.length===0){
-    const noResults=[
-      {icon:'&#127925;',msg:'No shows match those filters',sub:'Try loosening the date range or clearing a filter.'},
-      {icon:'&#128580;',msg:'Nothing here yet',sub:'The stage is empty for this combination. Try broadening your search.'},
-      {icon:'&#127926;',msg:'All quiet on this front',sub:'No gigs found — maybe try a different date or region?'},
-      {icon:'&#128566;',msg:'Crickets',sub:'No shows to display. Adjust filters or check back later.'},
-    ];
-    const nr=noResults[Math.floor(Math.random()*noResults.length)];
-    listing.innerHTML=`<div class="state-msg"><span style="font-size:28px;display:block;margin-bottom:8px;">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>${hasActiveFilters()?'<br><button onclick="clearAllFilters()" style="margin-top:12px;padding:6px 16px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:12px;cursor:pointer;">Clear all filters</button>':''}</div>`;
+    const isSingleDay=fmtISO(rangeStart)===fmtISO(rangeEnd);
+    const filtersActive=hasActiveFilters()||document.getElementById('search').value;
+    let html;
+    if(filtersActive){
+      const noResults=[
+        {icon:'&#127925;',msg:'No shows match those filters',sub:'Try loosening the date range or clearing a filter.'},
+        {icon:'&#128580;',msg:'Nothing here yet',sub:'The stage is empty for this combination. Try broadening your search.'},
+        {icon:'&#127926;',msg:'All quiet on this front',sub:'No gigs found — maybe try a different date or region?'},
+        {icon:'&#128566;',msg:'Crickets',sub:'No shows to display. Adjust filters or check back later.'},
+      ];
+      const nr=noResults[Math.floor(Math.random()*noResults.length)];
+      html=`<span style="font-size:28px;display:block;margin-bottom:8px;">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
+        <br><button onclick="clearAllFilters()" style="margin-top:12px;padding:6px 16px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:12px;cursor:pointer;">Clear all filters</button>`;
+    }else if(isSingleDay){
+      const dayOff=[
+        {icon:'&#127964;',msg:'No shows today',sub:'Even musicians need a day off.'},
+        {icon:'&#128564;',msg:'The valley is resting',sub:'No live music scheduled for this one.'},
+        {icon:'&#127748;',msg:'Quiet night ahead',sub:'Nothing on the calendar — but tomorrow might be different.'},
+        {icon:'&#9749;',msg:'Coffee, not concerts',sub:'No gigs today. Check out the weekend?'},
+      ];
+      const nr=dayOff[Math.floor(Math.random()*dayOff.length)];
+      html=`<span style="font-size:28px;display:block;margin-bottom:8px;">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
+        <div style="display:flex;gap:8px;justify-content:center;margin-top:14px;">
+          <button onclick="pickDate('tomorrow','Tomorrow')" style="padding:6px 16px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:12px;cursor:pointer;">Try tomorrow</button>
+          <button onclick="pickDate('weekend','Weekend')" style="padding:6px 16px;border-radius:999px;border:0.5px solid var(--border2);background:none;color:var(--text2);font-size:12px;cursor:pointer;">This weekend</button>
+        </div>`;
+    }else{
+      html='<span style="font-size:28px;display:block;margin-bottom:8px;">&#127926;</span>No shows in this date range<small>Try a different range or check back later.</small>';
+    }
+    listing.innerHTML='<div class="state-msg">'+html+'</div>';
     return;
   }
 
