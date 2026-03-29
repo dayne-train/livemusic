@@ -1186,7 +1186,7 @@ function render(){
   const stickyTop=document.querySelector('.sticky-top');
   if(stickyTop)document.documentElement.style.setProperty('--sticky-h',stickyTop.offsetHeight+'px');
   // hide next-day badge by default, multi-day view will re-enable
-  document.getElementById('next-day-fab').classList.remove('visible');
+  const _fab=document.getElementById('next-day-fab');if(_fab)_fab.classList.remove('visible');
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   const effectiveView=isMobile()&&viewMode!=='map'?'card':viewMode;
