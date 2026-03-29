@@ -277,12 +277,12 @@
   .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:6px; letter-spacing:0; text-transform:none; }
 
   /* ── Floating next-day badge ── */
-  /* ── Floating next-day badge (mobile only) ── */
-  .next-day-fab { display:none; }
-  @media (max-width:640px) {
-    .next-day-fab.visible { display:flex; position:sticky; top:0; z-index:40; margin:-1rem -1rem 0.75rem; padding:8px 0; justify-content:center; background:var(--bg3); border-bottom:0.5px solid var(--border); }
-    .next-day-fab.visible .next-day-pill { display:flex; align-items:center; gap:5px; padding:5px 14px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 1px 4px rgba(0,0,0,0.1); }
-  }
+  /* ── Floating next-day pill (mobile only) ── */
+  .next-day-fab { display:none; position:fixed; left:50%; z-index:90; transform:translateX(-50%) translateY(calc(-100% - 1rem)); opacity:0; pointer-events:none; transition:transform 0.4s cubic-bezier(0.34,1.4,0.64,1),opacity 0.3s ease; border:none; background:none; cursor:pointer; }
+  .next-day-fab.visible { transform:translateX(-50%) translateY(0); opacity:1; pointer-events:auto; }
+  .next-day-pill { display:flex; align-items:center; gap:5px; padding:6px 14px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 4px 16px rgba(0,0,0,0.12); white-space:nowrap; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); }
+  @media (min-width:641px) { .next-day-fab { display:none !important; } }
+  @media (max-width:640px) { .next-day-fab { display:block; top:95px; } }
 
 /* ── Modal ── */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:1rem; }
@@ -545,12 +545,6 @@
 </div>
 </div><!-- /sticky-top -->
 
-<button class="next-day-fab" id="next-day-fab" onclick="scrollToNextDay()">
-  <span class="next-day-pill">
-    <span id="next-day-label">Next day</span>
-    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-  </span>
-</button>
 <main class="main" id="listing" aria-live="polite">
   <div class="state-msg"><span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">&#127928;</span>Tuning up<span id="load-dots">.</span></div>
 </main>
@@ -1793,5 +1787,11 @@ startIconCycle();
 loadData();
 </script>
 
+<button class="next-day-fab" id="next-day-fab" onclick="scrollToNextDay()">
+  <span class="next-day-pill">
+    <span id="next-day-label">Next day</span>
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+  </span>
+</button>
 </body>
 </html>
