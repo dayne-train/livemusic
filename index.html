@@ -152,13 +152,14 @@
   .filter-pill.filtered:hover { background:var(--accent-dark); border-color:var(--accent-dark); }
   .pill-chev { width:10px; height:10px; transition:transform 0.2s; flex-shrink:0; }
   .filter-pill.open .pill-chev { transform:rotate(180deg); }
-  .pill-menu { display:none; position:absolute; top:calc(100% + 4px); left:0; background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:4px; min-width:150px; z-index:100; max-height:260px; overflow-y:auto; box-shadow:0 8px 24px rgba(0,0,0,0.3); }
+  .pill-menu { display:none; position:absolute; top:calc(100% + 4px); left:0; background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:4px; min-width:150px; max-width:280px; z-index:100; max-height:260px; overflow-y:auto; box-shadow:0 8px 24px rgba(0,0,0,0.3); }
   .pill-menu.open { display:block; }
   .pill-menu.align-right { left:auto; right:0; }
-  .pill-option { display:block; width:100%; text-align:left; font-size:12px; padding:6px 10px; border:none; background:none; color:var(--text2); cursor:pointer; border-radius:var(--radius-sm); transition:background 0.1s,color 0.1s; white-space:nowrap; }
+  .pill-option { display:block; width:100%; text-align:left; font-size:12px; padding:6px 10px; border:none; background:none; color:var(--text2); cursor:pointer; border-radius:var(--radius-sm); transition:background 0.1s,color 0.1s; }
   .pill-option:hover { background:var(--bg2); color:var(--text); }
   .pill-option.selected { color:var(--green); font-weight:600; }
   .pill-option.selected::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--green); margin-right:6px; vertical-align:middle; }
+  .pill-hint { display:block; font-size:10px; color:var(--text3); font-weight:400; margin-top:1px; }
   /* header theme toggle */
   @keyframes toggle-cw-out { from{opacity:1;transform:rotate(0deg) scale(1);} to{opacity:0;transform:rotate(180deg) scale(0.5);} }
   @keyframes toggle-cw-in { from{opacity:0;transform:rotate(-180deg) scale(0.5);} to{opacity:1;transform:rotate(0deg) scale(1);} }
@@ -494,10 +495,10 @@
     </button>
     <div class="pill-menu" id="pill-region-menu" role="menu">
       <button class="pill-option selected" role="menuitem" onclick="pickFilter('region','all','Region')">All regions</button>
-      <button class="pill-option" role="menuitem" onclick="pickFilter('region','Medford','Medford')">Medford</button>
-      <button class="pill-option" role="menuitem" onclick="pickFilter('region','Ashland','Ashland')">Ashland</button>
-      <button class="pill-option" role="menuitem" onclick="pickFilter('region','GrantsPass','Grants Pass')">Grants Pass</button>
-      <button class="pill-option" role="menuitem" onclick="pickFilter('region','RogueRiver','Rogue River')">Rogue River</button>
+      <button class="pill-option" role="menuitem" onclick="pickFilter('region','Medford','Medford')">Medford <span class="pill-hint">Jacksonville, Central Point, Phoenix, Eagle Point</span></button>
+      <button class="pill-option" role="menuitem" onclick="pickFilter('region','Ashland','Ashland')">Ashland <span class="pill-hint">Talent</span></button>
+      <button class="pill-option" role="menuitem" onclick="pickFilter('region','GrantsPass','Grants Pass')">Grants Pass <span class="pill-hint">Cave Junction, Merlin, Williams</span></button>
+      <button class="pill-option" role="menuitem" onclick="pickFilter('region','RogueRiver','Rogue River')">Rogue River <span class="pill-hint">Gold Hill, Shady Cove</span></button>
     </div>
   </div>
   <div class="pill-wrap">
