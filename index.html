@@ -258,7 +258,7 @@
   .row-col-venue  { flex:0 0 20%; color:var(--text2); }
   .row-col-city   { flex:0 0 6%; overflow:visible; }
   .row-col-time   { flex:1 1 0; min-width:0; overflow:visible; color:var(--text3); font-size:11px; display:flex; align-items:center; gap:0; flex-wrap:nowrap; }
-  .row-col-cover  { flex:none; margin-left:auto; padding-right:0; }
+  .row-col-cover  { flex:0 0 5%; text-align:right; }
   @media (max-width:1000px) {
     .row-col-city { display:none; }
     .row-col-genre { display:none; }
@@ -332,7 +332,7 @@
   .live-dot { width:6px; height:6px; border-radius:50%; background:var(--red); animation:pulse 2s infinite; flex-shrink:0; }
   .starts-in { font-size:10px; color:var(--text3); font-weight:500; margin-left:var(--sp-2); white-space:nowrap; background:var(--border); padding:1px var(--sp-4); border-radius:999px; opacity:0; transition:opacity 0.15s; }
   .event-card:hover .starts-in, .event-row:hover .starts-in, .event-card:focus-within .starts-in, .event-row:focus-within .starts-in { opacity:1; }
-  .ended-badge { font-size:10px; color:var(--text3); font-weight:500; margin-left:var(--sp-2); white-space:nowrap; background:var(--border2); padding:1px var(--sp-4); border-radius:999px; }
+  .ended-badge { font-size:10px; color:var(--text3); font-weight:500; margin-left:var(--sp-2); white-space:nowrap; background:var(--border); padding:1px var(--sp-4); border-radius:999px; }
   .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:var(--sp-2); letter-spacing:0; text-transform:none; }
 
   /* ── Floating next-day badge ── */
@@ -1435,8 +1435,8 @@ function rowHtml(e,idx){
     <div class="row-col row-col-genre">${esc(e.genre)}</div>
     <div class="row-col row-col-city">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
-    <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
     <div class="row-col row-col-cover">${pm&&status!=='past'?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
+    <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
     <div class="row-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})">View</button>
       <button class="card-action-btn" onclick="event.stopPropagation();downloadIcs(${idx})">Save</button>
@@ -1456,8 +1456,8 @@ function cardHtml(e,idx){
   return `<article class="event-card${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="card-content">
       <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
-      <div class="card-meta">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}${pm&&status!=='past'?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
-      <div class="card-venue-line">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}<a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
+      <div class="card-meta">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
+      <div class="card-venue-line">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}<a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a>${pm&&status!=='past'?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
     </div>
     <div class="card-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})">View</button>
