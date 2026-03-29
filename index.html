@@ -241,7 +241,7 @@
   /* ── Event status ── */
   .event-past { opacity:0.4; }
   .event-past:hover { opacity:0.65; }
-  .live-badge { display:inline-flex; align-items:center; gap:4px; font-size:10px; font-weight:600; color:#ef4f4f; white-space:nowrap; }
+  .live-badge { display:inline-flex; align-items:center; gap:4px; font-size:10px; font-weight:600; color:#ef4f4f; white-space:nowrap; margin-left:6px; }
   .live-dot { width:6px; height:6px; border-radius:50%; background:#ef4f4f; animation:pulse 2s infinite; flex-shrink:0; }
   .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:6px; letter-spacing:0; text-transform:none; }
 
@@ -1014,7 +1014,7 @@ function rowHtml(e,idx){
     <div class="row-col row-col-genre">${esc(e.genre)}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     <div class="row-col row-col-vtype">${esc(e.venueType)}</div>
-    <div class="row-col row-col-time">${statusHtml(e)}${status!=='live'?esc(tS)+(tE?' – '+esc(tE):''):''}</div>
+    <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
     <div class="row-col row-col-cover">${pm?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
     <div class="row-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Details</button>
@@ -1036,7 +1036,7 @@ function cardHtml(e,idx){
       <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
       <div class="venue-name"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
       ${locationLine(e)}
-      <div class="card-meta">${statusHtml(e)}${status!=='live'?'&#9200; ':''} ${esc(tS)}${tE?' – '+esc(tE):''}</div>
+      <div class="card-meta">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
       ${pm?`<div class="price-note">Cover: ${esc(pm[0])}</div>`:''}
     </div>
     <div class="card-actions">
