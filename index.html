@@ -10,7 +10,7 @@
   gtag('js', new Date());
   gtag('config', 'G-B7H3YQNGBY');
 </script>
-<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTAwIj4KICA8cGF0aCBmaWxsPSIjMUQ5RTc1IiBkPSIKICAgIE0gMTAsMTQKICAgIEwgMTAsMTgKICAgIEwgNiwyMAogICAgTCA2LDI0CiAgICBMIDEwLDI0CiAgICBMIDEwLDI4CiAgICBMIDcsMzAKICAgIEwgNyw3MgogICAgTCAxNCw3NwogICAgTCAyMiw3NQogICAgTCAzMCw3OAogICAgTCA0Miw4MAogICAgTCA1NSw3OAogICAgTCA2OCw4MAogICAgTCA3OCw3NgogICAgTCA4NCw3MAogICAgTCA4OCw2MgogICAgTCA5NCw1MgogICAgTCAxMDAsNDIKICAgIEwgMTA0LDM0CiAgICBMIDEwNywyNgogICAgTCAxMDcsMTgKICAgIEwgMTAyLDEzCiAgICBMIDkyLDEwCiAgICBMIDc4LDgKICAgIEwgNjAsNwogICAgTCA0MCw3CiAgICBMIDIyLDkKICAgIEwgMTAsMTQKICAgIFoKICAiLz4KPC9zdmc+">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 <title>Rogue Valley Live Music — Shows in Medford, Ashland, Grants Pass & Southern Oregon</title>
 <meta name="description" content="Find live music, open mics, and jam sessions in Medford, Ashland, Grants Pass, and the Rogue Valley. Updated daily with local shows and venues.">
 <meta name="robots" content="index, follow">
@@ -47,7 +47,7 @@
     --green:#1D9E75; --green-dark:#0F6E56;
     --radius:10px; --radius-sm:6px;
     --hover-tint:rgba(29,158,117,0.06);
-    --row-fade-rgb:29,29,26;
+    --row-fade-rgb:28,28,26;
   }
   [data-theme="light"] {
     --bg:#ffffff; --bg2:#f5f5f4; --bg3:#eaeae8;
@@ -222,9 +222,9 @@
   .card-top { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; margin-bottom:5px; }
   .artist { font-size:14px; font-weight:600; line-height:1.3; }
   .type-badge { font-size:10px; padding:2px 7px; border-radius:999px; white-space:nowrap; flex-shrink:0; background:var(--bg2); color:var(--text2); border:0.5px solid var(--border2); }
-  .type-badge.jam     { background:rgba(29,158,117,0.15); color:#5DCAA5; border-color:var(--green); }
-  .type-badge.solo    { background:rgba(52,81,209,0.15); color:#93adf8; border-color:#3451d1; }
-  .type-badge.openmic { background:rgba(186,117,23,0.15); color:#EF9F27; border-color:#BA7517; }
+  .type-badge.jam     { background:rgba(29,158,117,0.12); color:var(--green); border-color:var(--green); }
+  .type-badge.solo    { background:rgba(52,81,209,0.12); color:#6378e0; border-color:#5066d4; }
+  .type-badge.openmic { background:rgba(186,117,23,0.12); color:#c48418; border-color:#b07316; }
   .genre-tag  { font-size:11px; color:var(--text3); margin-bottom:3px; font-style:italic; }
   .venue-name { font-size:13px; margin-bottom:2px; }
   .venue-name-link { color:var(--text2); text-decoration:none; }
@@ -414,11 +414,11 @@
       <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
     </button>
     <div class="pill-menu" id="pill-date-menu" role="menu">
-      <button class="pill-option selected" role="menuitem" onclick="pickDate('today','Today')">Today</button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('today','Today')">Today</button>
       <button class="pill-option" role="menuitem" onclick="pickDate('tomorrow','Tomorrow')">Tomorrow</button>
       <button class="pill-option" role="menuitem" onclick="pickDate('weekend','Weekend')">Weekend</button>
       <button class="pill-option" role="menuitem" onclick="pickDate('week','This week')">This week</button>
-      <button class="pill-option" role="menuitem" onclick="pickDate('next7','Next 7 days')">Next 7 days</button>
+      <button class="pill-option selected" role="menuitem" onclick="pickDate('next7','Next 7 days')">Next 7 days</button>
       <button class="pill-option" role="menuitem" onclick="pickDate('month','This month')">This month</button>
     </div>
   </div>
@@ -556,9 +556,20 @@ function dayLabel(d){
 }
 function shortDay(d){return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});}
 
-function parseTime(t){
+function parseTime(t,startRaw){
   if(!t||!t.trim())return'TBD';
-  const s=t.trim().padStart(4,'0'),h=parseInt(s.slice(0,s.length-2),10),m=s.slice(-2);
+  const s=t.trim().padStart(4,'0');
+  let h=parseInt(s.slice(0,s.length-2),10);
+  const m=s.slice(-2);
+  // handle 24:00 as midnight
+  if(h>=24)h=0;
+  // if this is an end time and it looks like it wrapped past midnight
+  // (e.g. start=2000, end=1200 — they mean midnight not noon)
+  if(startRaw){
+    const ss=startRaw.trim().padStart(4,'0');
+    const sh=parseInt(ss.slice(0,ss.length-2),10);
+    if(sh>=17&&h>0&&h<=12&&h<sh)h=0; // treat as midnight
+  }
   return(h===0?12:h>12?h-12:h)+':'+m+(h>=12?' PM':' AM');
 }
 function parseEntryDate(d){
@@ -1102,7 +1113,7 @@ function locationLine(e){
 }
 
 function rowHtml(e,idx){
-  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
+  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw,e.startRaw):'';
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
   const pm=e.notes.match(/\$[\d,]+/);
   const status=eventStatus(e);
@@ -1123,7 +1134,7 @@ function rowHtml(e,idx){
 }
 
 function cardHtml(e,idx){
-  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
+  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw,e.startRaw):'';
   const t=e.eventType.toLowerCase(),bc=t==='jam'?'jam':t==='open mic'?'openmic':t==='solo'?'solo':'';
   const pm=e.notes.match(/\$[\d,]+/);
   const status=eventStatus(e);
@@ -1148,7 +1159,7 @@ function cardHtml(e,idx){
 /* ── Modal ── */
 function openDetail(idx){
   const e=allEvents[idx];if(!e)return;
-  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
+  const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw,e.startRaw):'';
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
   document.getElementById('modal-body').innerHTML=`
     <div class="modal-artist">${esc(e.musician)}</div>
