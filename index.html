@@ -866,7 +866,7 @@ function clearQuickChips(){document.querySelectorAll('.nav-chip:not(#chip-range)
 let dpMode='single'; // 'single' | 'range'
 
 function applyQuick(btn,q){
-  clearQuickChips();btn.classList.add('active');
+  clearQuickChips();if(btn)btn.classList.add('active');
   const t=midnight(new Date());
   if(q==='today')        {rangeStart=t;rangeEnd=t;}
   else if(q==='tomorrow'){rangeStart=addDays(t,1);rangeEnd=addDays(t,1);}
@@ -1206,7 +1206,8 @@ function render(){
   if(stickyTop)document.documentElement.style.setProperty('--sticky-h',stickyTop.offsetHeight+'px');
   // hide next-day badge by default, multi-day view will re-enable
   const _fab=document.getElementById('next-day-fab');if(_fab)_fab.classList.remove('visible');
-  if(_dayBadgeScroll){window.removeEventListener('scroll',_dayBadgeScroll);_dayBadgeScroll=null;}_dayBadgeActive=false;
+  if(_dayBadgeScroll){window.removeEventListener('scroll',_dayBadgeScroll);_dayBadgeScroll=null;}
+  _dayBadgeActive=false;
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   const effectiveView=isMobile()&&viewMode!=='map'?'card':viewMode;
@@ -1792,41 +1793,31 @@ function savePref(k,v){try{localStorage.setItem('rvlm_'+k,v);}catch(e){}}
 function loadPref(k){try{return localStorage.getItem('rvlm_'+k);}catch(e){return null;}}
 
 /* ── Floating day pill (multi-day views) ── */
-let _dayBadgeObserver=null,_dayBadgeScroll=null,_dayBadgeActive=false;
+let _dayBadgeScroll=null,_dayBadgeActive=false;
 function setupNextDayBadge(){
   const fab=document.getElementById('next-day-fab');
   const label=document.getElementById('next-day-label');
   if(!fab)return;
-  if(_dayBadgeObserver){_dayBadgeObserver.disconnect();_dayBadgeObserver=null;}
   if(_dayBadgeScroll){window.removeEventListener('scroll',_dayBadgeScroll);_dayBadgeScroll=null;}
   _dayBadgeActive=false;
   const sections=[...document.querySelectorAll('.day-section')];
   if(sections.length<2){fab.classList.remove('visible');return;}
   const todayStr=fmtISO(midnight(new Date()));
-  let currentIdx=0;
-  function updateLabel(){
-    const ds=sections[currentIdx].dataset.date;
+  _dayBadgeActive=true;
+  _dayBadgeScroll=()=>{
+    if(!_dayBadgeActive)return;
+    // show after scrolling 200px
+    fab.classList.toggle('visible',window.scrollY>200);
+    // find which section is at the top of the viewport
+    const offset=window.scrollY+150;
+    let current=sections[0];
+    for(let i=sections.length-1;i>=0;i--){
+      if(sections[i].offsetTop<=offset){current=sections[i];break;}
+    }
+    const ds=current.dataset.date;
     const d=new Date(ds+'T12:00:00');
     const dayText=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
     label.textContent=ds===todayStr?dayText+' (Today)':dayText;
-  }
-  // track which day section is visible
-  _dayBadgeObserver=new IntersectionObserver(entries=>{
-    entries.forEach(en=>{
-      if(en.isIntersecting){
-        const idx=sections.indexOf(en.target);
-        if(idx>=0){currentIdx=idx;updateLabel();}
-      }
-    });
-  },{rootMargin:'-120px 0px -60% 0px',threshold:0});
-  sections.forEach(s=>_dayBadgeObserver.observe(s));
-  updateLabel();
-  _dayBadgeActive=true;
-  // show/hide based on scroll: visible when scrolled down, hidden at top
-  const showThreshold=200;
-  _dayBadgeScroll=()=>{
-    if(!_dayBadgeActive)return;
-    fab.classList.toggle('visible',window.scrollY>showThreshold);
   };
   window.addEventListener('scroll',_dayBadgeScroll,{passive:true});
   _dayBadgeScroll();
@@ -1842,19 +1833,21 @@ function scrollToNextDay(){
 
 /* ── Hide header on scroll down (mobile) ── */
 (function(){
-  let lastY=0;
+  let lastY=0,lastDir=0;
   const header=document.querySelector('.site-header');
   if(!header)return;
   window.addEventListener('scroll',function(){
     if(!isMobile()){header.classList.remove('header-hidden');return;}
     const y=window.scrollY;
-    if(y>80&&y>lastY){
-      // scrolling down
+    const dy=y-lastY;
+    // ignore tiny movements (prevents jitter at page bottom)
+    if(Math.abs(dy)<5){lastY=y;return;}
+    if(dy>0&&y>80){
       if(!header.classList.contains('header-hidden')){
         header.style.setProperty('--header-h-neg','-'+header.offsetHeight+'px');
         header.classList.add('header-hidden');
       }
-    }else if(y<lastY){
+    }else if(dy<0){
       header.classList.remove('header-hidden');
     }
     lastY=y;
