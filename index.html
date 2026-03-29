@@ -1463,7 +1463,7 @@ function rowHtml(e,idx){
     <div class="row-col row-col-city">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
-    <div class="row-col row-col-cover">${pm?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
+    <div class="row-col row-col-cover">${pm&&status!=='past'?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
     <div class="row-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Details</button>
       ${dirUrl?dirBtn:''}
@@ -1482,7 +1482,7 @@ function cardHtml(e,idx){
   return `<article class="event-card${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="card-content">
       <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
-      <div class="card-meta">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}${pm?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
+      <div class="card-meta">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}${pm&&status!=='past'?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
       <div class="card-venue-line">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}<a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     </div>
     <div class="card-actions">
