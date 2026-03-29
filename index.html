@@ -288,7 +288,7 @@
   /* ── Floating day pill ── */
   .next-day-fab { display:block; position:fixed; left:50%; top:calc(var(--sticky-h, 95px) + 12px); z-index:90; transform:translateX(-50%) translateY(calc(-100% - 2rem)); opacity:0; pointer-events:none; transition:transform 0.4s cubic-bezier(0.34,1.4,0.64,1),opacity 0.3s ease; }
   .next-day-fab.visible { transform:translateX(-50%) translateY(0); opacity:1; pointer-events:auto; }
-  .next-day-pill { display:flex; align-items:center; gap:var(--sp-2); padding:var(--sp-2) var(--sp-6); border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 4px 16px rgba(0,0,0,0.12); white-space:nowrap; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); cursor:pointer; border:none; }
+  .next-day-pill { display:flex; align-items:center; gap:var(--sp-2); padding:var(--sp-2) var(--sp-6); border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 4px 16px rgba(0,0,0,0.12); white-space:nowrap; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); cursor:pointer; }
   .day-jump-strip { display:none; position:absolute; top:calc(100% + var(--sp-2)); left:50%; transform:translateX(-50%); background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:var(--sp-2); box-shadow:0 4px 16px rgba(0,0,0,0.15); white-space:nowrap; max-width:90vw; overflow-x:auto; scrollbar-width:none; }
   .day-jump-strip::-webkit-scrollbar { display:none; }
   .day-jump-strip.open { display:flex; gap:var(--sp-1); }
