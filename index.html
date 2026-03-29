@@ -460,7 +460,7 @@
 </div><!-- /sticky-top -->
 
 <main class="main" id="listing" aria-live="polite">
-  <div class="state-msg"><span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">&#127928;</span>Tuning up&#8230;</div>
+  <div class="state-msg"><span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">&#127928;</span>Tuning up<span id="load-dots">.</span></div>
 </main>
 
 <footer class="site-footer">
@@ -589,29 +589,29 @@ function parseTxt(txt){
 
 /* ── Load ── */
 const LOADING_MESSAGES=[
-  "Tuning up&#8230;",
-  "Warming up the amps&#8230;",
-  "Checking the setlist&#8230;",
-  "Rolling up to the venue&#8230;",
-  "Grabbing a spot up front&#8230;",
-  "Waiting for the opener&#8230;",
-  "Asking around for shows&#8230;",
-  "Scanning the marquee&#8230;",
-  "Plugging in&#8230;",
-  "Mic check, one two&#8230;",
-  "Loading the van&#8230;",
-  "Taping up the setlist&#8230;",
-  "Dimming the house lights&#8230;",
+  "Tuning up",
+  "Warming up the amps",
+  "Checking the setlist",
+  "Rolling up to the venue",
+  "Grabbing a spot up front",
+  "Waiting for the opener",
+  "Asking around for shows",
+  "Scanning the marquee",
+  "Plugging in",
+  "Mic check, one two",
+  "Loading the van",
+  "Taping up the setlist",
+  "Dimming the house lights",
 ];
 const LOADING_ICONS=["&#127928;","&#127911;","&#127926;","&#127927;","&#127930;","&#127929;","&#127931;","&#119070;","&#127932;","&#128266;"];
-let _loadIconIdx=0,_loadIconTimer;
+let _loadIconIdx=0,_loadIconTimer,_loadDotsTimer,_loadDotCount=0;
 function loadingMsg(){
   const msg=LOADING_MESSAGES[Math.floor(Math.random()*LOADING_MESSAGES.length)];
-  return'<span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">'+LOADING_ICONS[0]+'</span>'+msg;
+  return'<span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">'+LOADING_ICONS[0]+'</span>'+msg+'<span id="load-dots">.</span>';
 }
 function startIconCycle(){
-  clearInterval(_loadIconTimer);
-  _loadIconIdx=0;
+  clearInterval(_loadIconTimer);clearInterval(_loadDotsTimer);
+  _loadIconIdx=0;_loadDotCount=0;
   _loadIconTimer=setInterval(()=>{
     _loadIconIdx=(_loadIconIdx+1)%LOADING_ICONS.length;
     const el=document.getElementById('load-icon');
@@ -619,8 +619,14 @@ function startIconCycle(){
       setTimeout(()=>{el.innerHTML=LOADING_ICONS[_loadIconIdx];el.style.opacity='1';},150);
     }else clearInterval(_loadIconTimer);
   },2000);
+  _loadDotsTimer=setInterval(()=>{
+    _loadDotCount=(_loadDotCount+1)%4;
+    const el=document.getElementById('load-dots');
+    if(el)el.textContent='.'.repeat(_loadDotCount||1);
+    else clearInterval(_loadDotsTimer);
+  },500);
 }
-function stopIconCycle(){clearInterval(_loadIconTimer);}
+function stopIconCycle(){clearInterval(_loadIconTimer);clearInterval(_loadDotsTimer);}
 
 const FAIL_MESSAGES=[
   {title:"The band's on break",sub:"Even the internet needs a smoke break sometimes."},
