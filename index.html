@@ -171,6 +171,8 @@
   [data-theme="dark"] .header-theme-toggle .htt-sun  { opacity:0; transform:rotate(180deg) scale(0.5); }
   [data-theme="dark"] .header-theme-toggle .htt-moon { opacity:1; transform:rotate(0deg) scale(1); }
   .header-theme-toggle.toggling svg { transition:none !important; }
+  .header-contact-btn { color:var(--text3); display:flex; align-items:center; padding:4px; transition:color 0.2s; text-decoration:none; }
+  .header-contact-btn:hover { color:var(--text); text-decoration:none; }
   .clear-filters-btn { display:none; align-items:center; gap:4px; font-size:11px; padding:4px 10px; border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; transition:all 0.15s; }
   .clear-filters-btn:hover { background:rgba(239,79,95,0.2); border-color:rgba(239,79,95,0.6); }
   .search-wrap { display:flex; align-items:center; }
@@ -364,6 +366,7 @@
     /* always show card actions on mobile (no hover) */
     .event-card .card-actions { opacity:1; transform:translateY(0); pointer-events:auto; }
     .nav-sep { display:none !important; }
+    .header-contact-btn { display:none !important; }
     .view-toggle { display:none !important; }
     /* hide most pill dropdowns on mobile, keep date + region visible */
     .filter-row .pill-wrap { display:none !important; }
@@ -393,6 +396,9 @@
     </a>
   </div>
 
+  <a class="header-contact-btn" href="mailto:hello@dayne.design" aria-label="Contact">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+  </a>
   <button class="header-theme-toggle" id="header-theme-btn" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
     <svg class="htt-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
     <svg class="htt-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -536,13 +542,16 @@
 </main>
 
 <footer class="site-footer">
-  <a class="footer-contact-btn" href="mailto:roguevalleylivemusic@gmail.com">
-    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-    Suggestions, comments, or sponsorships
-  </a>
+  <div class="footer-left" style="display:flex;flex-direction:column;gap:6px;align-items:flex-start;">
+    <a class="footer-contact-btn" href="mailto:hello@dayne.design">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Contact
+    </a>
+    <span style="font-size:11px;color:var(--text3);">Suggestions, comments, or sponsorships: <span style="color:var(--text2);">roguevalleylivemusic@gmail.com</span></span>
+  </div>
   <div class="footer-right">
     <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a></div>
-    <div style="margin-top:4px;">Made with love in Medford &copy; 2026 &middot; <a href="mailto:hello@dayne.design">hello@dayne.design</a></div>
+    <div style="margin-top:4px;">Made with love in Medford &copy; 2026</div>
   </div>
 </footer>
 
