@@ -332,7 +332,7 @@
   .live-dot { width:6px; height:6px; border-radius:50%; background:var(--red); animation:pulse 2s infinite; flex-shrink:0; }
   .starts-in { font-size:10px; color:var(--text3); font-weight:500; margin-left:var(--sp-2); white-space:nowrap; background:var(--border); padding:1px var(--sp-4); border-radius:999px; opacity:0; transition:opacity 0.15s; }
   .event-card:hover .starts-in, .event-row:hover .starts-in, .event-card:focus-within .starts-in, .event-row:focus-within .starts-in { opacity:1; }
-  .ended-badge { font-size:10px; color:var(--text3); font-weight:400; margin-left:var(--sp-2); white-space:nowrap; opacity:0.7; }
+  .ended-badge { font-size:10px; color:var(--text3); font-weight:500; margin-left:var(--sp-2); white-space:nowrap; background:var(--border2); padding:1px var(--sp-4); border-radius:999px; }
   .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:var(--sp-2); letter-spacing:0; text-transform:none; }
 
   /* ── Floating next-day badge ── */
@@ -596,7 +596,7 @@
     <div class="pill-menu" id="pill-date-menu" role="menu">
       <button class="pill-option" role="menuitem" onclick="pickDate('today','Today')">Today<span class="pill-hint" id="dh-today"></span></button>
       <button class="pill-option" role="menuitem" onclick="pickDate('tomorrow','Tomorrow')">Tomorrow<span class="pill-hint" id="dh-tomorrow"></span></button>
-      <button class="pill-option" role="menuitem" onclick="pickDate('weekend','Weekend')">This weekend<span class="pill-hint" id="dh-weekend"></span></button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('weekend','This weekend')">This weekend<span class="pill-hint" id="dh-weekend"></span></button>
       <button class="pill-option" role="menuitem" id="opt-nextweekend" onclick="pickDate('nextweekend','Next weekend')">Next weekend<span class="pill-hint" id="dh-nextweekend"></span></button>
       <button class="pill-option" role="menuitem" onclick="pickDate('week','This week')">This week<span class="pill-hint" id="dh-week"></span></button>
       <button class="pill-option selected" role="menuitem" onclick="pickDate('next7','Next 7 days')">Next 7 days<span class="pill-hint" id="dh-next7"></span></button>
@@ -1354,7 +1354,7 @@ function render(){
       html=`<span class="state-icon">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
         <div class="state-btn-row">
           <button onclick="pickDate('tomorrow','Tomorrow')" class="state-btn">Try tomorrow</button>
-          <button onclick="pickDate('weekend','Weekend')" class="state-btn-ghost">This weekend</button>
+          <button onclick="pickDate('weekend','This weekend')" class="state-btn-ghost">This weekend</button>
         </div>`;
     }else{
       html='<span class="state-icon">&#127926;</span>No shows in this date range<small>Try a different range or check back later.</small>';
