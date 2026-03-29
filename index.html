@@ -226,7 +226,8 @@
   .header-actions { display:flex; align-items:center; gap:var(--sp-4); flex-shrink:0; }
   .header-contact-btn { color:var(--text3); display:inline-flex; align-items:center; gap:var(--sp-2); padding:var(--sp-2) var(--sp-4); font-size:11px; border-radius:999px; border:0.5px solid var(--border2); background:none; text-decoration:none; transition:color 0.15s,border-color 0.15s; white-space:nowrap; cursor:pointer; }
   .header-contact-btn:hover { color:var(--accent); border-color:var(--accent); text-decoration:none; }
-  .header-contact-btn .contact-word { display:inline-block; transition:width 0.3s ease; }
+  .header-contact-btn .contact-word { display:inline-block; transition:opacity 0.3s ease,transform 0.3s ease; }
+  .header-contact-btn .contact-word.fading { opacity:0; transform:translateY(-4px); }
   .clear-filters-btn { display:none; align-items:center; gap:var(--sp-2); font-size:12px; padding:var(--sp-2) var(--sp-6) var(--sp-2) var(--sp-4); border-radius:999px; border:0.5px solid var(--red-border); background:var(--red-bg); color:var(--red); cursor:pointer; white-space:nowrap; transition:all 0.15s; }
   .mobile-clear-pill { display:none !important; font-size:12px; padding:var(--sp-4) var(--sp-6); border-radius:999px; border:0.5px solid var(--red-border); background:var(--red-bg); color:var(--red); cursor:pointer; white-space:nowrap; flex-shrink:0; }
   .clear-filters-btn:hover { background:var(--red-hover); border-color:var(--red); }
@@ -1936,9 +1937,14 @@ function jumpToDay(ds){
 const CONTACT_WORDS=['Updates','Comments','Concerns','Sponsorships'];
 let _contactIdx=0;
 setInterval(()=>{
-  _contactIdx=(_contactIdx+1)%CONTACT_WORDS.length;
   const el=document.getElementById('contact-word');
-  if(el)el.textContent=CONTACT_WORDS[_contactIdx];
+  if(!el)return;
+  el.classList.add('fading');
+  setTimeout(()=>{
+    _contactIdx=(_contactIdx+1)%CONTACT_WORDS.length;
+    el.textContent=CONTACT_WORDS[_contactIdx];
+    el.classList.remove('fading');
+  },300);
 },2500);
 
 /* ── Date hint labels ── */
