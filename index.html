@@ -149,8 +149,9 @@
 
   /* ── Filter row ── */
   .filter-bar { background:var(--bg3); }
-  .filter-row { padding:var(--sp-6) var(--sp-10); display:flex; gap:var(--sp-4); flex-wrap:wrap; align-items:center; max-width:1140px; margin:0 auto; position:relative; }
-  .filter-row::after { content:''; position:absolute; bottom:0; left:var(--sp-10); right:var(--sp-10); height:0.5px; background:var(--border); }
+  .filter-bar { position:relative; }
+  .filter-bar::after { content:''; position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:min(calc(1140px - var(--sp-10) - var(--sp-10)),calc(100% - var(--sp-10) - var(--sp-10))); height:0.5px; background:var(--border); }
+  .filter-row { padding:var(--sp-6) var(--sp-10); display:flex; gap:var(--sp-4); flex-wrap:wrap; align-items:center; max-width:1140px; margin:0 auto; }
 
   /* ── Dropdown pills ── */
   .pill-wrap { position:relative; }
