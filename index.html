@@ -243,6 +243,7 @@
   .event-past:hover { opacity:0.65; }
   .live-badge { display:inline-flex; align-items:center; gap:4px; font-size:10px; font-weight:600; color:#ef4f4f; white-space:nowrap; margin-left:6px; }
   .live-dot { width:6px; height:6px; border-radius:50%; background:#ef4f4f; animation:pulse 2s infinite; flex-shrink:0; }
+  .starts-in { font-size:10px; color:var(--text3); font-weight:500; margin-left:6px; white-space:nowrap; }
   .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:6px; letter-spacing:0; text-transform:none; }
 
   /* (FAB removed — theme toggle in header) */
@@ -927,8 +928,22 @@ function eventStatus(e){
 }
 function statusHtml(e){
   const s=eventStatus(e);
-  if(s==='live')return'<span class="live-badge"><span class="live-dot"></span>Live</span>';
-  return'';
+  if(s==='live')return' <span class="live-badge"><span class="live-dot"></span>Live</span>';
+  if(s==='past')return'';
+  // upcoming — compute time until start
+  const now=new Date();
+  function toMin(raw){if(!raw||!raw.trim())return null;const s=raw.trim().padStart(4,'0');return parseInt(s.slice(0,s.length-2),10)*60+parseInt(s.slice(-2),10);}
+  const startMin=toMin(e.startRaw);
+  if(startMin===null)return'';
+  const eventStart=new Date(e.date);eventStart.setHours(Math.floor(startMin/60),startMin%60,0,0);
+  const diffMs=eventStart-now;
+  if(diffMs<0)return'';
+  const diffMin=Math.round(diffMs/60000);
+  let label;
+  if(diffMin<60)label=diffMin+'m';
+  else if(diffMin<60*24){const h=Math.round(diffMin/60);label=h+'h';}
+  else{const d=Math.round(diffMin/1440);if(d<=7)label=d+'d';else label='Later';}
+  return' <span class="starts-in">'+label+'</span>';
 }
 
 /* ── Render ── */
