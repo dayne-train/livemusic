@@ -326,7 +326,7 @@
   .modal-directions svg { width:13px; height:13px; fill:currentColor; }
 
   /* ── Footer ── */
-  .site-footer { display:flex; align-items:center; justify-content:space-between; padding:var(--sp-6) var(--sp-10); font-size:11px; color:var(--text3); margin-top:0; gap:var(--sp-8); flex-wrap:wrap; max-width:1140px; margin:0 auto; position:relative; }
+  .site-footer { display:flex; align-items:center; justify-content:space-between; padding:var(--sp-6) var(--sp-10); font-size:11px; color:var(--text3); gap:var(--sp-8); flex-wrap:wrap; max-width:1140px; width:100%; margin:0 auto; position:relative; }
   .site-footer::before { content:''; position:absolute; top:0; left:var(--sp-10); right:var(--sp-10); height:0.5px; background:var(--border); }
   .site-footer a { color:var(--green); text-decoration:none; }
   .site-footer a:hover { text-decoration:underline; }
@@ -984,7 +984,7 @@ function applyQuick(btn,q){
   const labels={today:'Today',tomorrow:'Tomorrow',weekend:'This weekend',nextweekend:'Next weekend',week:'This week',next7:'Next 7 days',month:'This month'};
   const dpLbl=document.getElementById('pill-date-label');
   if(dpLbl)dpLbl.textContent=labels[q]||'Custom';
-  syncUrl();
+  updateClearBtn();syncUrl();
   render();
 }
 
@@ -1160,7 +1160,10 @@ function pickFilter(name,value,label){
 function hasActiveFilters(){return activeRegion!=='all'||activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all';}
 function updateClearBtn(){
   const btn=document.getElementById('clear-filters-btn');
-  if(btn)btn.style.display=hasActiveFilters()?'inline-flex':'none';
+  if(!btn)return;
+  const dateDefault=fmtISO(rangeStart)===fmtISO(midnight(new Date()))&&fmtISO(rangeEnd)===fmtISO(midnight(new Date()));
+  const searchActive=document.getElementById('search').value;
+  btn.style.display=(hasActiveFilters()||!dateDefault||searchActive)?'inline-flex':'none';
 }
 function resetHome(){
   // reset date to default
