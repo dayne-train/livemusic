@@ -401,7 +401,7 @@
     .pill-option:hover { background:none; color:var(--text2); }
     .bs-opt:hover { background:none; }
     /* larger dropdown menus + tap targets on mobile */
-    .pill-menu { position:fixed !important; left:1rem !important; right:1rem !important; top:auto !important; bottom:auto !important; min-width:0; max-width:none; width:auto; padding:6px; }
+    .pill-menu { padding:6px; }
     .pill-option { font-size:15px; padding:12px 14px; }
     .pill-hint { font-size:12px; }
     .bs-opt { font-size:14px; padding:8px 16px; }
@@ -970,11 +970,6 @@ function togglePill(name){
   const open=menu.classList.toggle('open');
   pill.classList.toggle('open',open);
   pill.setAttribute('aria-expanded',open);
-  // on mobile, position menu below the sticky nav
-  if(open&&isMobile()){
-    const sticky=document.querySelector('.sticky-top');
-    if(sticky)menu.style.top=(sticky.offsetHeight+8)+'px';
-  }
 }
 function closeAllPills(except){
   ['date','region','type','genre','venue'].forEach(n=>{
