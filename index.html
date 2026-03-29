@@ -387,6 +387,8 @@
     .filter-row .pill-wrap { display:none !important; }
     .filter-row .pill-wrap.mobile-show { display:block !important; }
     .filter-row .search-divider, .filter-row .clear-filters-btn { display:none !important; }
+    .mobile-clear-btn { display:none; }
+    .mobile-clear-btn.visible { display:flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:50%; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; flex-shrink:0; }
     .mobile-filter-btn { display:inline-flex; align-items:center; gap:4px; }
     .count-label { display:none; }
     /* disable hover effects on touch devices */
@@ -537,6 +539,9 @@
   </button>
   <button class="mobile-filter-btn" id="mobile-filter-btn" onclick="openBottomSheet()">
     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>Filters
+  </button>
+  <button class="mobile-clear-btn" id="mobile-clear-btn" onclick="resetHome()" aria-label="Clear all filters">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
   </button>
   <span class="count-label" id="count-label" aria-live="polite"></span>
   <div class="view-toggle">
@@ -1182,6 +1187,11 @@ function render(){
   if(stickyTop)document.documentElement.style.setProperty('--sticky-h',stickyTop.offsetHeight+'px');
   // hide next-day badge by default, multi-day view will re-enable
   document.getElementById('next-day-fab').classList.remove('visible');
+  // mobile clear button: show if any filter/date/search is non-default
+  const mcb=document.getElementById('mobile-clear-btn');
+  if(mcb){const hasAny=hasActiveFilters()||document.getElementById('search').value||
+    (fmtISO(rangeStart)!==fmtISO(midnight(new Date()))||fmtISO(rangeEnd)!==fmtISO(midnight(new Date())));
+    mcb.classList.toggle('visible',hasAny);}
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   const effectiveView=isMobile()&&viewMode!=='map'?'card':viewMode;
