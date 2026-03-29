@@ -280,7 +280,8 @@
   /* ── Floating next-day badge (mobile only) ── */
   .next-day-fab { display:none; }
   @media (max-width:640px) {
-    .next-day-fab.visible { display:flex; position:fixed; top:90px; left:50%; transform:translateX(-50%); z-index:90; padding:6px 16px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; cursor:pointer; box-shadow:0 2px 10px rgba(0,0,0,0.15); white-space:nowrap; align-items:center; gap:5px; }
+    .next-day-fab.visible { display:flex; position:sticky; top:0; z-index:40; margin:-1rem -1rem 0.75rem; padding:8px 0; justify-content:center; background:var(--bg3); border-bottom:0.5px solid var(--border); }
+    .next-day-fab.visible .next-day-pill { display:flex; align-items:center; gap:5px; padding:5px 14px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 1px 4px rgba(0,0,0,0.1); }
   }
 
 /* ── Modal ── */
@@ -545,8 +546,10 @@
 </div><!-- /sticky-top -->
 
 <button class="next-day-fab" id="next-day-fab" onclick="scrollToNextDay()">
-  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-  <span id="next-day-label">Next day</span>
+  <span class="next-day-pill">
+    <span id="next-day-label">Next day</span>
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+  </span>
 </button>
 <main class="main" id="listing" aria-live="polite">
   <div class="state-msg"><span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">&#127928;</span>Tuning up<span id="load-dots">.</span></div>
@@ -1208,13 +1211,13 @@ function render(){
       const id='day-'+ds.replace(/-/g,'');
       const isPast=ds<todayStr,isToday=ds===todayStr;
       const pastCls=isPast?' past':'';
-      const todayBadge=isToday?'<span class="day-today-marker">Today</span>':''; 
+      const todayBadge=isToday?'<span class="day-today-marker">Today</span>':'';
       return `<section class="day-section" data-date="${ds}">
-        <div class="day-header${pastCls}" onclick="toggleDay('${id}')" aria-expanded="${isPast?'false':'true'}">
+        <div class="day-header${pastCls}" onclick="toggleDay('${id}')" aria-expanded="true">
           <div class="day-header-left"><span>${esc(dayLabel(d))}</span>${todayBadge}<span class="day-count">${n} show${n!==1?'s':''}</span></div>
-          <svg class="day-chevron${isPast?' closed':''}" id="chev-${id}" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          <svg class="day-chevron" id="chev-${id}" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
-        <div class="day-body${isPast?' hidden':''}" id="${id}">
+        <div class="day-body" id="${id}">
           <div class="card-grid${effectiveView==='row'?' row-view':''}">${evts.map(e=>effectiveView==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
         </div>
       </section>`;
