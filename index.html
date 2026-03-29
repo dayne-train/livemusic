@@ -152,14 +152,14 @@
   .filter-pill.filtered:hover { background:var(--accent-dark); border-color:var(--accent-dark); }
   .pill-chev { width:10px; height:10px; transition:transform 0.2s; flex-shrink:0; }
   .filter-pill.open .pill-chev { transform:rotate(180deg); }
-  .pill-menu { display:none; position:absolute; top:calc(100% + 4px); left:0; background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:4px; min-width:150px; max-width:280px; z-index:100; max-height:260px; overflow-y:auto; box-shadow:0 8px 24px rgba(0,0,0,0.3); }
+  .pill-menu { display:none; position:absolute; top:calc(100% + 4px); left:0; background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:4px; min-width:220px; z-index:100; max-height:260px; overflow-y:auto; box-shadow:0 8px 24px rgba(0,0,0,0.3); }
   .pill-menu.open { display:block; }
   .pill-menu.align-right { left:auto; right:0; }
-  .pill-option { display:block; width:100%; text-align:left; font-size:12px; padding:6px 10px; border:none; background:none; color:var(--text2); cursor:pointer; border-radius:var(--radius-sm); transition:background 0.1s,color 0.1s; }
+  .pill-option { display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%; text-align:left; font-size:12px; padding:6px 10px; border:none; background:none; color:var(--text2); cursor:pointer; border-radius:var(--radius-sm); transition:background 0.1s,color 0.1s; }
   .pill-option:hover { background:var(--bg2); color:var(--text); }
   .pill-option.selected { color:var(--green); font-weight:600; }
-  .pill-option.selected::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--green); margin-right:6px; vertical-align:middle; }
-  .pill-hint { display:block; font-size:10px; color:var(--text3); font-weight:400; margin-top:1px; }
+  .pill-option.selected::after { content:''; display:block; width:14px; height:14px; flex-shrink:0; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%231D9E75' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E"); background-size:contain; background-repeat:no-repeat; }
+  .pill-hint { display:block; font-size:10px; color:var(--text3); font-weight:400; margin-top:1px; white-space:nowrap; }
   /* header theme toggle */
   @keyframes toggle-cw-out { from{opacity:1;transform:rotate(0deg) scale(1);} to{opacity:0;transform:rotate(180deg) scale(0.5);} }
   @keyframes toggle-cw-in { from{opacity:0;transform:rotate(-180deg) scale(0.5);} to{opacity:1;transform:rotate(0deg) scale(1);} }
@@ -333,7 +333,8 @@
   .bs-close:active { background:var(--border); }
   .bs-section { margin-bottom:16px; }
   .bs-label { font-size:11px; font-weight:600; color:var(--text3); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px; }
-  .bs-options { display:flex; flex-wrap:wrap; gap:6px; }
+  .bs-options { display:flex; flex-wrap:nowrap; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; padding-bottom:2px; }
+  .bs-options::-webkit-scrollbar { display:none; }
   .bs-opt { font-size:12px; padding:6px 14px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
   .bs-opt:hover { background:var(--bg2); }
   .bs-opt.active { background:var(--green); border-color:var(--green); color:#fff; }
@@ -400,8 +401,8 @@
     .pill-option:hover { background:none; color:var(--text2); }
     .bs-opt:hover { background:none; }
     /* larger dropdown menus + tap targets on mobile */
-    .pill-menu { min-width:200px; padding:6px; }
-    .pill-option { font-size:15px; padding:10px 14px; }
+    .pill-menu { position:fixed !important; left:1rem !important; right:1rem !important; top:auto !important; bottom:auto !important; min-width:0; max-width:none; width:auto; padding:6px; }
+    .pill-option { font-size:15px; padding:12px 14px; }
     .pill-hint { font-size:12px; }
     .bs-opt { font-size:14px; padding:8px 16px; }
   }
@@ -969,6 +970,11 @@ function togglePill(name){
   const open=menu.classList.toggle('open');
   pill.classList.toggle('open',open);
   pill.setAttribute('aria-expanded',open);
+  // on mobile, position menu below the sticky nav
+  if(open&&isMobile()){
+    const sticky=document.querySelector('.sticky-top');
+    if(sticky)menu.style.top=(sticky.offsetHeight+8)+'px';
+  }
 }
 function closeAllPills(except){
   ['date','region','type','genre','venue'].forEach(n=>{
