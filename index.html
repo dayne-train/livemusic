@@ -108,8 +108,10 @@
     gap:var(--sp-6); flex-wrap:wrap;
   }
   .header-brand { flex-shrink:0; }
-  .site-title { font-size:18px; font-weight:600; }
-  .site-tagline { font-size:11px; color:var(--text3); margin-top:var(--sp-1); }
+  .home-link { display:flex; align-items:center; gap:var(--sp-4); }
+  .site-logo { width:28px; height:28px; border-radius:var(--radius-sm); }
+  .site-title { font-size:16px; font-weight:800; text-transform:uppercase; letter-spacing:0.06em; line-height:1.2; }
+  .site-tagline { font-size:10px; color:var(--text3); margin-top:1px; letter-spacing:0.02em; }
   .site-sub { font-size:11px; color:var(--text3); margin-top:var(--sp-1); display:flex; align-items:center; gap:var(--sp-2); }
   .source-dot { width:6px; height:6px; border-radius:50%; background:var(--green); display:inline-block; animation:pulse 2.5s infinite; flex-shrink:0; }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
@@ -454,8 +456,11 @@
 <header class="site-header" role="banner">
   <div class="header-brand">
     <a href="/" onclick="event.preventDefault();resetHome();" class="home-link">
-      <h1 class="site-title">Rogue Valley Live Music</h1>
-      <p class="site-tagline">Live music in the heart of the Rogue Valley</p>
+      <img src="/rvlm_logo.svg" alt="RVLM" class="site-logo">
+      <div>
+        <h1 class="site-title">Rogue Valley Live Music</h1>
+        <p class="site-tagline">Live music in the heart of the Rogue Valley</p>
+      </div>
     </a>
   </div>
 
@@ -1810,41 +1815,37 @@ function closeBottomSheet(){
   setTimeout(()=>document.getElementById('bs-overlay').classList.remove('open'),250);
 }
 
-/* swipe-to-dismiss on bottom sheet header */
-(function(){
-  const header=document.getElementById('bs-header');
-  const panel=document.getElementById('bs-panel');
+/* swipe-to-dismiss on all bottom sheets */
+function initSheetDrag(headerEl,panelEl,closeFn){
   let startY=0,currentY=0,dragging=false;
-  header.addEventListener('touchstart',function(e){
+  headerEl.addEventListener('touchstart',function(e){
     startY=e.touches[0].clientY;currentY=startY;dragging=true;
-    panel.style.transition='none';
+    panelEl.style.transition='none';
   },{passive:true});
-  header.addEventListener('touchmove',function(e){
+  headerEl.addEventListener('touchmove',function(e){
     if(!dragging)return;
     currentY=e.touches[0].clientY;
-    const dy=Math.max(0,currentY-startY);
-    panel.style.transform='translateY('+dy+'px)';
+    panelEl.style.transform='translateY('+Math.max(0,currentY-startY)+'px)';
   },{passive:true});
-  header.addEventListener('touchend',function(){
+  headerEl.addEventListener('touchend',function(){
     if(!dragging)return;
     dragging=false;
-    const dy=currentY-startY;
-    if(dy>50){
-      // animate out then close
-      panel.style.transition='transform 0.2s ease';
-      panel.style.transform='translateY(100%)';
-      setTimeout(()=>{
-        panel.style.transition='';
-        panel.style.transform='';
-        closeBottomSheet();
-      },200);
+    if(currentY-startY>50){
+      panelEl.style.transition='transform 0.2s ease';
+      panelEl.style.transform='translateY(100%)';
+      setTimeout(()=>{panelEl.style.transition='';panelEl.style.transform='';closeFn();},200);
     }else{
-      // snap back
-      panel.style.transition='transform 0.2s ease';
-      panel.style.transform='translateY(0)';
-      setTimeout(()=>{panel.style.transition='';panel.style.transform='';},200);
+      panelEl.style.transition='transform 0.2s ease';
+      panelEl.style.transform='translateY(0)';
+      setTimeout(()=>{panelEl.style.transition='';panelEl.style.transform='';},200);
     }
   });
+}
+initSheetDrag(document.getElementById('bs-header'),document.getElementById('bs-panel'),closeBottomSheet);
+// pill sheet also gets drag
+(function(){
+  const h=document.querySelector('#bs-pill-panel .bs-header');
+  if(h)initSheetDrag(h,document.getElementById('bs-pill-panel'),closePillSheet);
 })();
 
 function bsPick(name,value,label,el){
