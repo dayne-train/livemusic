@@ -640,7 +640,7 @@ function parseEntryDate(d){
   return new Date(yr<100?2000+yr:yr,parseInt(p[0],10)-1,parseInt(p[1],10));
 }
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-function cityAbbr(c){const m={'Medford':'MED','Ashland':'ASH','Grants Pass':'GP','Jacksonville':'JVL','Rogue River':'RR','Central Point':'CP','Talent':'TLT','Phoenix':'PHX','Eagle Point':'EP','Gold Hill':'GH','White City':'WC'};return m[c]||c.slice(0,3).toUpperCase();}
+function cityAbbr(c){const m={'Medford':'MED','Ashland':'ASH','Grants Pass':'GP','Jacksonville':'JVL','Rogue River':'RR','Central Point':'CP','Talent':'TLN','Phoenix':'PHX','Eagle Point':'EP','Gold Hill':'GH','White City':'WC'};return m[c]||c.slice(0,3).toUpperCase();}
 
 /* directions link — uses venue name + city for Google Maps */
 function mapsUrl(venue,city,address){
