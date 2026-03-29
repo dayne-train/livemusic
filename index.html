@@ -1159,18 +1159,6 @@ function addVenueMarker(map,coords,venueName,events){
 
 
 function isMobile(){return window.innerWidth<=640;}
-function mobileScrollToNext(listing){
-  requestAnimationFrame(()=>{
-    const live=listing.querySelector('.live-badge');
-    if(live){live.closest('article').scrollIntoView({behavior:'smooth',block:'center'});return;}
-    const cards=[...listing.querySelectorAll('article')];
-    const hasPast=cards.some(c=>c.classList.contains('event-past'));
-    if(!hasPast)return;
-    const first=cards.find(c=>!c.classList.contains('event-past'));
-    if(first)first.scrollIntoView({behavior:'smooth',block:'start'});
-  });
-}
-
 function render(){
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
@@ -1200,8 +1188,6 @@ function render(){
         <div class="time-block-header">${esc(k)}<span class="time-range-hint">${BUCKET_HINTS[k]||''}</span></div>
         <div class="card-grid${effectiveView==='row'?' row-view':''}">${buckets[k].map(e=>effectiveView==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
       </section>`).join('');
-    // on mobile, gently scroll to live or next upcoming event
-    if(isMobile())mobileScrollToNext(listing);
   } else {
     const byDay={};
     filtered.forEach(e=>{if(!byDay[e.dateStr])byDay[e.dateStr]=[];byDay[e.dateStr].push(e);});
@@ -1222,13 +1208,6 @@ function render(){
         </div>
       </section>`;
     }).join('');
-    // scroll to today or first future day
-    requestAnimationFrame(()=>{
-      const target=listing.querySelector('[data-date="'+todayStr+'"]') ||
-                    listing.querySelector('section.day-section:not([data-date])') ||
-                    [...listing.querySelectorAll('[data-date]')].find(el=>el.dataset.date>=todayStr);
-      if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
-    });
   }
 }
 
