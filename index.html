@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,17 +14,23 @@
 <link rel="dns-prefetch" href="https://api.allorigins.win">
 <link rel="dns-prefetch" href="https://api.codetabs.com">
 <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon">
-<title>Rogue Valley Live Music — Shows in Medford, Ashland, Grants Pass & Southern Oregon</title>
-<meta name="description" content="Find live music, open mics, and jam sessions in Medford, Ashland, Grants Pass, and the Rogue Valley. Updated daily with local shows and venues.">
+<title>Live Music in Medford, Ashland & Grants Pass | Rogue Valley Live Music</title>
+<meta name="description" content="Find live music tonight in Medford, Ashland, Grants Pass, Jacksonville, and the Rogue Valley. Browse shows, open mics, and jam sessions across Southern Oregon. Updated daily.">
+<meta name="keywords" content="live music, Medford, Ashland, Grants Pass, Jacksonville, Rogue Valley, Southern Oregon, concerts, shows, open mic, jam sessions, tonight, this weekend, local music, venues, bands">
+<meta name="geo.region" content="US-OR">
+<meta name="geo.placename" content="Medford, Oregon">
+<meta name="geo.position" content="42.33;-122.87">
+<meta name="ICBM" content="42.33, -122.87">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://rvlivemusic.com/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Rogue Valley Live Music — Shows in Southern Oregon">
-<meta property="og:description" content="Find live music, open mics, and jam sessions in Medford, Ashland, Grants Pass, and the Rogue Valley. Updated daily.">
+<meta property="og:title" content="Live Music in Medford, Ashland & Grants Pass | RVLM">
+<meta property="og:description" content="Find live music tonight in Medford, Ashland, Grants Pass, Jacksonville, and the Rogue Valley. Browse shows, open mics, and jam sessions across Southern Oregon. Updated daily.">
 <meta property="og:url" content="https://rvlivemusic.com/">
+<meta property="og:site_name" content="Rogue Valley Live Music">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Rogue Valley Live Music — Shows in Southern Oregon">
-<meta name="twitter:description" content="Find live music, open mics, and jam sessions in Medford, Ashland, Grants Pass, and the Rogue Valley.">
+<meta name="twitter:title" content="Live Music in Medford, Ashland & Grants Pass | RVLM">
+<meta name="twitter:description" content="Find live music tonight in Medford, Ashland, Grants Pass, Jacksonville, and the Rogue Valley. Browse shows, open mics, and jam sessions across Southern Oregon. Updated daily.">
 <meta property="og:image" content="https://rvlivemusic.com/rvlm_logo.png">
 <meta name="twitter:image" content="https://rvlivemusic.com/rvlm_logo.png">
 <script type="application/ld+json">
@@ -38,6 +44,32 @@
     "@type": "SearchAction",
     "target": "https://rvlivemusic.com/?q={search_term_string}",
     "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Rogue Valley Live Music",
+  "alternateName": "RVLM",
+  "url": "https://rvlivemusic.com/",
+  "description": "Live music listings for Medford, Ashland, Grants Pass, Jacksonville, and the Rogue Valley in Southern Oregon",
+  "applicationCategory": "EntertainmentApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Rogue Valley, Southern Oregon",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.33,
+      "longitude": -122.87
+    }
   }
 }
 </script>
@@ -93,6 +125,7 @@
   body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; background:var(--bg3); color:var(--text); font-size:16px; line-height:1.5; }
 
   /* ── Accessibility ── */
+  .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
   .skip-link { position:absolute; top:-100%; left:var(--sp-8); background:var(--accent); color:#fff; padding:var(--sp-4) var(--sp-8); border-radius:var(--radius-sm); font-size:13px; z-index:999; text-decoration:none; }
   .skip-link:focus { top:var(--sp-4); }
   :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
@@ -482,6 +515,7 @@
       <img src="/rvlm_logo.png" alt="RVLM" class="site-logo">
       <div>
         <h1 class="site-title">Rogue Valley Live Music</h1>
+        <h2 class="sr-only">Live music shows, concerts, and events in Medford, Ashland, Grants Pass, Jacksonville, and Southern Oregon</h2>
         <p class="site-tagline">Live music in the heart of the Rogue Valley</p>
       </div>
     </a>
@@ -631,6 +665,14 @@
 </div><!-- /sticky-top -->
 
 <main class="main" id="listing" aria-live="polite">
+<noscript>
+  <div style="text-align:center;padding:2rem;">
+    <h2>Rogue Valley Live Music</h2>
+    <p>Find live music in Medford, Ashland, Grants Pass, and Southern Oregon.</p>
+    <p>This site requires JavaScript to display live music listings.</p>
+    <p>Visit <a href="https://roguevalleylivemusicnightlife.com/">roguevalleylivemusicnightlife.com</a> for the source data.</p>
+  </div>
+</noscript>
   <div class="state-msg"><span id="load-icon" class="load-icon">&#127928;</span>Tuning up<span id="load-dots">.</span></div>
 </main>
 
