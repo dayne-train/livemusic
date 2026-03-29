@@ -148,8 +148,7 @@
   .pill-option:hover { background:var(--bg2); color:var(--text); }
   .pill-option.selected { color:var(--green); font-weight:600; }
   .pill-option.selected::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--green); margin-right:6px; vertical-align:middle; }
-  .theme-toggle { background:none; border:0.5px solid var(--border2); border-radius:var(--radius-sm); width:28px; height:28px; cursor:pointer; color:var(--text2); display:flex; align-items:center; justify-content:center; transition:background 0.1s,color 0.1s; flex-shrink:0; }
-  .theme-toggle:hover { background:var(--bg2); color:var(--text); }
+  /* (theme toggle moved to floating fab) */
   .mobile-date-pill { display:none; }
   .clear-filters-btn { display:none; align-items:center; gap:4px; font-size:11px; padding:4px 10px; border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; transition:all 0.15s; }
   .clear-filters-btn:hover { background:rgba(239,79,95,0.2); border-color:rgba(239,79,95,0.6); }
@@ -221,9 +220,9 @@
   .card-top { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; margin-bottom:5px; }
   .artist { font-size:14px; font-weight:600; line-height:1.3; }
   .type-badge { font-size:10px; padding:2px 7px; border-radius:999px; white-space:nowrap; flex-shrink:0; background:var(--bg2); color:var(--text2); border:0.5px solid var(--border2); }
-  .type-badge.jam     { background:#0e2e22; color:#5DCAA5; border-color:#1D9E75; }
-  .type-badge.solo    { background:#1a2040; color:#93adf8; border-color:#3451d1; }
-  .type-badge.openmic { background:#2a1800; color:#EF9F27; border-color:#BA7517; }
+  .type-badge.jam     { background:rgba(29,158,117,0.15); color:#5DCAA5; border-color:var(--green); }
+  .type-badge.solo    { background:rgba(52,81,209,0.15); color:#93adf8; border-color:#3451d1; }
+  .type-badge.openmic { background:rgba(186,117,23,0.15); color:#EF9F27; border-color:#BA7517; }
   .genre-tag  { font-size:11px; color:var(--text3); margin-bottom:3px; font-style:italic; }
   .venue-name { font-size:13px; margin-bottom:2px; }
   .venue-name-link { color:var(--text2); text-decoration:none; }
@@ -240,6 +239,17 @@
   .state-msg { text-align:center; padding:3rem 1rem; color:var(--text2); font-size:14px; }
   .state-msg small { display:block; margin-top:6px; font-size:12px; color:var(--text3); }
   .error-box { background:var(--bg); border:0.5px solid var(--border); border-radius:var(--radius); padding:1.5rem; margin:1.5rem 0; text-align:center; font-size:13px; color:var(--text2); }
+
+  /* ── Event status ── */
+  .event-past { opacity:0.4; }
+  .event-past:hover { opacity:0.65; }
+  .live-badge { display:inline-flex; align-items:center; gap:4px; font-size:10px; font-weight:600; color:#ef4f4f; white-space:nowrap; }
+  .live-dot { width:6px; height:6px; border-radius:50%; background:#ef4f4f; animation:pulse 2s infinite; flex-shrink:0; }
+  .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:6px; letter-spacing:0; text-transform:none; }
+
+  /* ── Floating theme toggle ── */
+  .theme-fab { position:fixed; bottom:1.25rem; right:1.25rem; z-index:100; width:36px; height:36px; border-radius:50%; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); cursor:pointer; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 10px rgba(0,0,0,0.2); transition:background 0.1s,color 0.1s,transform 0.15s; }
+  .theme-fab:hover { background:var(--bg2); color:var(--text); transform:scale(1.1); }
 
 /* ── Modal ── */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:1rem; }
@@ -290,6 +300,8 @@
     .header-brand { width:100%; }
     .header-nav { width:100%; justify-content:flex-start; }
     .filter-row { padding:0.5rem 1rem; }
+    .search-wrap.search-open { width:100%; order:-1; }
+    .search-wrap.search-open .search-box.open { width:100%; flex:1; }
     .main { padding:1rem; }
     .card-grid { grid-template-columns:1fr; }
     .search-box { max-width:100%; }
@@ -445,10 +457,6 @@
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </button>
   </div>
-  <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
-    <svg id="theme-icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-    <svg id="theme-icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-  </button>
 </div>
 </div><!-- /sticky-top -->
 
@@ -896,7 +904,27 @@ function getFiltered(){
 }
 
 const BUCKETS=['Morning','Afternoon','Early evening','Evening','Late night'];
+const BUCKET_HINTS={Morning:'before noon',Afternoon:'12 – 5 PM','Early evening':'5 – 8 PM',Evening:'8 – 10 PM','Late night':'after 10 PM'};
 function timeBucket(r){const h=r?parseInt(r.padStart(4,'0').slice(0,2),10):20;return h<12?'Morning':h<17?'Afternoon':h<20?'Early evening':h<22?'Evening':'Late night';}
+
+/* ── Event status (live / past) ── */
+function eventStatus(e){
+  const now=new Date();
+  if(fmtISO(e.date)!==fmtISO(now))return e.date<midnight(now)?'past':'upcoming';
+  const nowMin=now.getHours()*60+now.getMinutes();
+  function toMin(raw){if(!raw||!raw.trim())return null;const s=raw.trim().padStart(4,'0');return parseInt(s.slice(0,s.length-2),10)*60+parseInt(s.slice(-2),10);}
+  const start=toMin(e.startRaw),end=toMin(e.endRaw);
+  if(start===null)return'upcoming';
+  if(end!==null&&nowMin>end)return'past';
+  if(nowMin>=start&&(end===null||nowMin<=end))return'live';
+  if(end===null&&nowMin>start+120)return'past'; // assume 2h if no end
+  return'upcoming';
+}
+function statusHtml(e){
+  const s=eventStatus(e);
+  if(s==='live')return'<span class="live-badge"><span class="live-dot"></span>Live</span>';
+  return'';
+}
 
 /* ── Render ── */
 
@@ -910,14 +938,24 @@ function render(){
   document.getElementById('count-label').textContent=filtered.length+' show'+(filtered.length!==1?'s':'');
   if(allEvents.length===0){listing.innerHTML='<div class="state-msg">'+loadingMsg()+'</div>';startIconCycle();return;}
   stopIconCycle();
-  if(filtered.length===0){listing.innerHTML='<div class="state-msg">No shows in this date range.<small>Try adjusting the dates or region filter.</small></div>';return;}
+  if(filtered.length===0){
+    const noResults=[
+      {icon:'&#127925;',msg:'No shows match those filters',sub:'Try loosening the date range or clearing a filter.'},
+      {icon:'&#128580;',msg:'Nothing here yet',sub:'The stage is empty for this combination. Try broadening your search.'},
+      {icon:'&#127926;',msg:'All quiet on this front',sub:'No gigs found — maybe try a different date or region?'},
+      {icon:'&#128566;',msg:'Crickets',sub:'No shows to display. Adjust filters or check back later.'},
+    ];
+    const nr=noResults[Math.floor(Math.random()*noResults.length)];
+    listing.innerHTML=`<div class="state-msg"><span style="font-size:28px;display:block;margin-bottom:8px;">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>${hasActiveFilters()?'<br><button onclick="clearAllFilters()" style="margin-top:12px;padding:6px 16px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:12px;cursor:pointer;">Clear all filters</button>':''}</div>`;
+    return;
+  }
 
   if(fmtISO(rangeStart)===fmtISO(rangeEnd)){
     const buckets={};
     filtered.forEach(e=>{const b=timeBucket(e.startRaw);if(!buckets[b])buckets[b]=[];buckets[b].push(e);});
     listing.innerHTML=BUCKETS.filter(k=>buckets[k]).map(k=>`
       <section class="time-block">
-        <div class="time-block-header">${esc(k)}</div>
+        <div class="time-block-header">${esc(k)}<span class="time-range-hint">${BUCKET_HINTS[k]||''}</span></div>
         <div class="card-grid${effectiveView==='row'?' row-view':''}">${buckets[k].map(e=>effectiveView==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
       </section>`).join('');
   } else {
@@ -963,13 +1001,15 @@ function rowHtml(e,idx){
   const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
   const pm=e.notes.match(/\$[\d,]+/);
+  const status=eventStatus(e);
+  const pastCls=status==='past'?' event-past':'';
   const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
-  return `<article class="event-row" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
+  return `<article class="event-row${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
     <div class="row-col row-col-name">${esc(e.musician)}</div>
     <div class="row-col row-col-genre">${esc(e.genre)}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     <div class="row-col row-col-vtype">${esc(e.venueType)}</div>
-    <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}</div>
+    <div class="row-col row-col-time">${statusHtml(e)}${status!=='live'?esc(tS)+(tE?' – '+esc(tE):''):''}</div>
     <div class="row-col row-col-cover">${pm?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
     <div class="row-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Details</button>
@@ -982,14 +1022,16 @@ function cardHtml(e,idx){
   const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw):'';
   const t=e.eventType.toLowerCase(),bc=t==='jam'?'jam':t==='open mic'?'openmic':t==='solo'?'solo':'';
   const pm=e.notes.match(/\$[\d,]+/);
+  const status=eventStatus(e);
+  const pastCls=status==='past'?' event-past':'';
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
   const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
-  return `<article class="event-card" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
+  return `<article class="event-card${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
     <div class="card-content">
       <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
       <div class="venue-name"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
       ${locationLine(e)}
-      <div class="card-meta">&#9200; ${esc(tS)}${tE?' – '+esc(tE):''}</div>
+      <div class="card-meta">${statusHtml(e)}${status!=='live'?'&#9200; ':''} ${esc(tS)}${tE?' – '+esc(tE):''}</div>
       ${pm?`<div class="price-note">Cover: ${esc(pm[0])}</div>`:''}
     </div>
     <div class="card-actions">
@@ -1052,9 +1094,11 @@ document.getElementById('modal').addEventListener('keydown',function(e){
 function toggleSearch(){
   const btn=document.getElementById('search-btn');
   const box=document.getElementById('search');
+  const wrap=btn.closest('.search-wrap');
   const opening=!box.classList.contains('open');
   box.classList.toggle('open',opening);
   btn.classList.toggle('open',opening);
+  wrap.classList.toggle('search-open',opening);
   if(opening){box.focus();}
   else{box.value='';render();}
 }
@@ -1343,5 +1387,10 @@ updateDpLabel();
 startIconCycle();
 loadData();
 </script>
+
+<button class="theme-fab" id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
+  <svg id="theme-icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+  <svg id="theme-icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+</button>
 </body>
 </html>
