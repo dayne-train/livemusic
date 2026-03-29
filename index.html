@@ -1456,7 +1456,7 @@ function rowHtml(e,idx){
   const pm=e.notes.match(/\$[\d,]+/);
   const status=eventStatus(e);
   const pastCls=status==='past'?' event-past':'';
-  const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
+  const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Directions</a>`;
   return `<article class="event-row${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="row-col row-col-name">${esc(e.musician)}</div>
     <div class="row-col row-col-genre">${esc(e.genre)}</div>
@@ -1465,7 +1465,8 @@ function rowHtml(e,idx){
     <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
     <div class="row-col row-col-cover">${pm&&status!=='past'?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
     <div class="row-actions">
-      <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Details</button>
+      <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})">View</button>
+      <button class="card-action-btn" onclick="event.stopPropagation();downloadIcs(${idx})">Save</button>
       ${dirUrl?dirBtn:''}
     </div>
   </article>`;
@@ -1478,7 +1479,7 @@ function cardHtml(e,idx){
   const status=eventStatus(e);
   const pastCls=status==='past'?' event-past':'';
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
-  const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
+  const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Directions</a>`;
   return `<article class="event-card${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="card-content">
       <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
@@ -1486,7 +1487,8 @@ function cardHtml(e,idx){
       <div class="card-venue-line">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}<a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     </div>
     <div class="card-actions">
-      <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>View details</button>
+      <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})">View</button>
+      <button class="card-action-btn" onclick="event.stopPropagation();downloadIcs(${idx})">Save</button>
       ${dirUrl?dirBtn:''}
     </div>
   </article>`;
