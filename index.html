@@ -401,7 +401,7 @@
 
   <div class="header-actions">
     <a class="header-contact-btn" id="header-contact" href="mailto:roguevalleylivemusic@gmail.com" aria-label="Contact">
-      <span class="contact-word" id="contact-word">updates</span>
+      <span class="contact-word" id="contact-word">Updates</span>
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
     </a>
     <button class="header-theme-toggle" id="header-theme-btn" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
@@ -1714,7 +1714,7 @@ function savePref(k,v){try{localStorage.setItem('rvlm_'+k,v);}catch(e){}}
 function loadPref(k){try{return localStorage.getItem('rvlm_'+k);}catch(e){return null;}}
 
 /* ── Contact word cycle ── */
-const CONTACT_WORDS=['updates','comments','concerns','sponsorships'];
+const CONTACT_WORDS=['Updates','Comments','Concerns','Sponsorships'];
 let _contactIdx=0;
 setInterval(()=>{
   _contactIdx=(_contactIdx+1)%CONTACT_WORDS.length;
