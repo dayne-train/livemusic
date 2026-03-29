@@ -1272,10 +1272,9 @@ function cardHtml(e,idx){
   return `<article class="event-card${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
     <div class="card-content">
       <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
-      <div class="venue-name"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
+      <div class="venue-name"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a>${pm?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
       ${locationLine(e)}
       <div class="card-meta">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
-      ${pm?`<div class="price-note">Cover: ${esc(pm[0])}</div>`:''}
     </div>
     <div class="card-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>View details</button>
