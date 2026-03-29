@@ -874,9 +874,12 @@ function timeBucket(r){const h=r?parseInt(r.padStart(4,'0').slice(0,2),10):20;re
 /* ── Render ── */
 
 
+function isMobile(){return window.innerWidth<=640;}
+
 function render(){
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
+  const effectiveView=isMobile()?'card':viewMode;
   document.getElementById('count-label').textContent=filtered.length+' show'+(filtered.length!==1?'s':'');
   if(allEvents.length===0){listing.innerHTML='<div class="state-msg">'+loadingMsg()+'</div>';startIconCycle();return;}
   stopIconCycle();
@@ -888,7 +891,7 @@ function render(){
     listing.innerHTML=BUCKETS.filter(k=>buckets[k]).map(k=>`
       <section class="time-block">
         <div class="time-block-header">${esc(k)}</div>
-        <div class="card-grid${viewMode==='row'?' row-view':''}">${buckets[k].map(e=>viewMode==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
+        <div class="card-grid${effectiveView==='row'?' row-view':''}">${buckets[k].map(e=>effectiveView==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
       </section>`).join('');
   } else {
     const byDay={};
@@ -906,7 +909,7 @@ function render(){
           <svg class="day-chevron${isPast?' closed':''}" id="chev-${id}" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
         <div class="day-body${isPast?' hidden':''}" id="${id}">
-          <div class="card-grid${viewMode==='row'?' row-view':''}">${evts.map(e=>viewMode==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
+          <div class="card-grid${effectiveView==='row'?' row-view':''}">${evts.map(e=>effectiveView==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
         </div>
       </section>`;
     }).join('');
