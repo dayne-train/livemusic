@@ -454,6 +454,12 @@
     .header-theme-toggle:hover { color:var(--text3); }
     .pill-option:hover { background:none; color:var(--text2); }
     .bs-opt:hover { background:none; }
+    [data-theme="light"] .filter-pill:not(.filtered),
+    :root:not([data-theme="dark"]) .filter-pill:not(.filtered) { background:var(--bg); }
+    [data-theme="light"] .search-icon-btn:not(.open),
+    :root:not([data-theme="dark"]) .search-icon-btn:not(.open) { background:var(--bg) !important; }
+    [data-theme="light"] .mobile-filter-btn:not(.has-filters),
+    :root:not([data-theme="dark"]) .mobile-filter-btn:not(.has-filters) { background:var(--bg); }
     /* on mobile, pill menus use bottomsheet instead of dropdown */
     .pill-menu { display:none !important; }
     .bs-opt { font-size:14px; padding:var(--sp-4) var(--sp-8); }
