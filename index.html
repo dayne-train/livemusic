@@ -561,7 +561,8 @@ const CACHE_KEY='rogue_live_cache';
 const CACHE_TS_KEY='rogue_live_cache_ts';
 const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
 
-let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='card', _mobileScrolled=false;
+let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='card';
+let _mobileScrolled=!!sessionStorage.getItem('rvlm_scrolled');
 
 /* ── Utils ── */
 function midnight(d){const x=new Date(d);x.setHours(0,0,0,0);return x;}
@@ -981,8 +982,10 @@ function eventStatus(e){
   if(fmtISO(e.date)!==fmtISO(now))return e.date<midnight(now)?'past':'upcoming';
   const nowMin=now.getHours()*60+now.getMinutes();
   function toMin(raw){if(!raw||!raw.trim())return null;const s=raw.trim().padStart(4,'0');return parseInt(s.slice(0,s.length-2),10)*60+parseInt(s.slice(-2),10);}
-  const start=toMin(e.startRaw),end=toMin(e.endRaw);
+  let start=toMin(e.startRaw),end=toMin(e.endRaw);
   if(start===null)return'upcoming';
+  // if end time wraps past midnight (e.g. start=2000, end=1200), treat end as next-day
+  if(end!==null&&start>=1020&&end<=720)end=1440; // clamp to midnight
   if(end!==null&&nowMin>end)return'past';
   if(nowMin>=start&&(end===null||nowMin<=end))return'live';
   if(end===null&&nowMin>start+120)return'past'; // assume 2h if no end
@@ -1133,6 +1136,7 @@ function render(){
     // on mobile first load, scroll past ended events to the current/next one
     if(isMobile()&&!_mobileScrolled){
       _mobileScrolled=true;
+      try{sessionStorage.setItem('rvlm_scrolled','1');}catch(e){}
       requestAnimationFrame(()=>{
         const live=listing.querySelector('.live-badge');
         if(live){live.closest('article').scrollIntoView({behavior:'smooth',block:'center'});return;}
