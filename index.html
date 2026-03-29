@@ -1693,9 +1693,7 @@ document.addEventListener('keydown',e=>{
 let _searchTimer;
 function debouncedSearch(){clearTimeout(_searchTimer);_searchTimer=setTimeout(()=>{syncUrl();render();},150);}
 
-/* ── Genre / Venue type filters ── */
-function setGenre(v){activeGenre=v;syncUrl();render();}
-function setVenueType(v){activeVenueType=v;syncUrl();render();}
+/* ── Genre / Venue type filters (defined above with full state sync) ── */
 
 function populateFilterDropdowns(){
   const genres=new Set(), vtypes=new Set();
