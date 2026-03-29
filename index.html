@@ -277,12 +277,10 @@
   .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:6px; letter-spacing:0; text-transform:none; }
 
   /* ── Floating next-day badge ── */
-  /* ── Floating next-day pill (mobile only) ── */
-  .next-day-fab { display:none; position:fixed; left:50%; z-index:90; transform:translateX(-50%) translateY(calc(-100% - 1rem)); opacity:0; pointer-events:none; transition:transform 0.4s cubic-bezier(0.34,1.4,0.64,1),opacity 0.3s ease; border:none; background:none; cursor:pointer; }
+  /* ── Floating day pill ── */
+  .next-day-fab { display:block; position:fixed; left:50%; top:calc(var(--sticky-h, 95px) + 12px); z-index:90; transform:translateX(-50%) translateY(calc(-100% - 2rem)); opacity:0; pointer-events:none; transition:transform 0.4s cubic-bezier(0.34,1.4,0.64,1),opacity 0.3s ease; border:none; background:none; cursor:pointer; }
   .next-day-fab.visible { transform:translateX(-50%) translateY(0); opacity:1; pointer-events:auto; }
   .next-day-pill { display:flex; align-items:center; gap:5px; padding:6px 14px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 4px 16px rgba(0,0,0,0.12); white-space:nowrap; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); }
-  @media (min-width:641px) { .next-day-fab { display:none !important; } }
-  @media (max-width:640px) { .next-day-fab { display:block; top:calc(var(--sticky-h, 95px) + 16px); } }
 
 /* ── Modal ── */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:1rem; }
@@ -1187,6 +1185,7 @@ function render(){
   if(stickyTop)document.documentElement.style.setProperty('--sticky-h',stickyTop.offsetHeight+'px');
   // hide next-day badge by default, multi-day view will re-enable
   const _fab=document.getElementById('next-day-fab');if(_fab)_fab.classList.remove('visible');
+  if(_dayBadgeScroll){window.removeEventListener('scroll',_dayBadgeScroll);_dayBadgeScroll=null;}_dayBadgeActive=false;
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   const effectiveView=isMobile()&&viewMode!=='map'?'card':viewMode;
@@ -1759,12 +1758,15 @@ function toggleTheme(){
 function savePref(k,v){try{localStorage.setItem('rvlm_'+k,v);}catch(e){}}
 function loadPref(k){try{return localStorage.getItem('rvlm_'+k);}catch(e){return null;}}
 
-/* ── Floating day badge (mobile, multi-day) ── */
-let _dayBadgeObserver=null;
+/* ── Floating day pill (multi-day views) ── */
+let _dayBadgeObserver=null,_dayBadgeScroll=null,_dayBadgeActive=false;
 function setupNextDayBadge(){
   const fab=document.getElementById('next-day-fab');
   const label=document.getElementById('next-day-label');
+  if(!fab)return;
   if(_dayBadgeObserver){_dayBadgeObserver.disconnect();_dayBadgeObserver=null;}
+  if(_dayBadgeScroll){window.removeEventListener('scroll',_dayBadgeScroll);_dayBadgeScroll=null;}
+  _dayBadgeActive=false;
   const sections=[...document.querySelectorAll('.day-section')];
   if(sections.length<2){fab.classList.remove('visible');return;}
   const todayStr=fmtISO(midnight(new Date()));
@@ -1775,6 +1777,7 @@ function setupNextDayBadge(){
     const dayText=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
     label.textContent=ds===todayStr?dayText+' (Today)':dayText;
   }
+  // track which day section is visible
   _dayBadgeObserver=new IntersectionObserver(entries=>{
     entries.forEach(en=>{
       if(en.isIntersecting){
@@ -1785,7 +1788,15 @@ function setupNextDayBadge(){
   },{rootMargin:'-120px 0px -60% 0px',threshold:0});
   sections.forEach(s=>_dayBadgeObserver.observe(s));
   updateLabel();
-  fab.classList.add('visible');
+  _dayBadgeActive=true;
+  // show/hide based on scroll: visible when scrolled down, hidden at top
+  const showThreshold=200;
+  _dayBadgeScroll=()=>{
+    if(!_dayBadgeActive)return;
+    fab.classList.toggle('visible',window.scrollY>showThreshold);
+  };
+  window.addEventListener('scroll',_dayBadgeScroll,{passive:true});
+  _dayBadgeScroll();
 }
 function scrollToNextDay(){
   const sections=[...document.querySelectorAll('.day-section')];
