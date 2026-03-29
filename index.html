@@ -950,6 +950,13 @@ function clearQuickChips(){document.querySelectorAll('.nav-chip:not(#chip-range)
 
 let dpMode='single'; // 'single' | 'range'
 
+function datePillLabel(name){
+  const fmt=d=>d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+  const s=rangeStart,e=rangeEnd;
+  const dateStr=fmtISO(s)===fmtISO(e)?fmt(s):fmt(s)+' – '+fmt(e);
+  return name+' ('+dateStr+')';
+}
+
 function applyQuick(btn,q){
   clearQuickChips();if(btn)btn.classList.add('active');
   _currentRange=q;
@@ -966,7 +973,7 @@ function applyQuick(btn,q){
   // sync mobile date pill label
   const labels={today:'Today',tomorrow:'Tomorrow',weekend:'This weekend',nextweekend:'Next weekend',week:'This week',next7:'Next 7 days',month:'This month'};
   const dpLbl=document.getElementById('pill-date-label');
-  if(dpLbl)dpLbl.textContent=labels[q]||'Custom';
+  if(dpLbl)dpLbl.textContent=datePillLabel(labels[q]||'Custom');
   updateClearBtn();syncUrl();
   render();
 }
@@ -978,7 +985,7 @@ function pickDate(q,label){
   applyQuick(chip,q);
   // update date pill label + filtered state
   const pill=document.getElementById('pill-date');
-  document.getElementById('pill-date-label').textContent=label;
+  document.getElementById('pill-date-label').textContent=datePillLabel(label);
   if(pill)pill.classList.toggle('filtered',q!==defaultRange);
   // update selected state in menu
   document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.remove('selected'));
@@ -1156,7 +1163,7 @@ function resetHome(){
   _currentRange='today';
   const defaultRange='today';
   applyQuick(document.getElementById('chip-'+defaultRange),defaultRange);
-  document.getElementById('pill-date-label').textContent='Today';
+  document.getElementById('pill-date-label').textContent=datePillLabel('Today');
   document.getElementById('pill-date').classList.remove('filtered');
   // sync date menu selected state
   document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.toggle('selected',o.textContent.trim()==='Today'));
@@ -1587,7 +1594,7 @@ function restoreFromUrl(){
     applyQuick(document.getElementById('chip-'+r),r);
     const labels={today:'Today',tomorrow:'Tomorrow',weekend:'This weekend',nextweekend:'Next weekend',week:'This week',next7:'Next 7 days',month:'This month'};
     const dpill=document.getElementById('pill-date');
-    document.getElementById('pill-date-label').textContent=labels[r]||r;
+    document.getElementById('pill-date-label').textContent=datePillLabel(labels[r]||r);
     if(dpill)dpill.classList.toggle('filtered',r!=='today');
     document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>{
       const label=o.childNodes[0].textContent.trim();
@@ -1931,7 +1938,7 @@ document.getElementById('view-row-btn').classList.toggle('active',viewMode==='ro
 if(!location.search){
   // default: Today
   rangeStart=midnight(new Date());rangeEnd=midnight(new Date());
-  document.getElementById('pill-date-label').textContent='Today';
+  document.getElementById('pill-date-label').textContent=datePillLabel('Today');
   document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.remove('selected'));
   document.querySelector('#pill-date-menu .pill-option').classList.add('selected');
 }else{
