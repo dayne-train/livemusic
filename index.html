@@ -180,7 +180,8 @@
   .header-contact-btn { color:var(--text3); display:inline-flex; align-items:center; gap:var(--sp-2); padding:var(--sp-2) var(--sp-4); font-size:11px; border-radius:999px; border:0.5px solid var(--border2); background:none; text-decoration:none; transition:color 0.15s,border-color 0.15s; white-space:nowrap; cursor:pointer; }
   .header-contact-btn:hover { color:var(--accent); border-color:var(--accent); text-decoration:none; }
   .header-contact-btn .contact-word { display:inline-block; transition:width 0.3s ease; }
-  .clear-filters-btn { display:none; align-items:center; gap:var(--sp-2); font-size:11px; padding:var(--sp-2) var(--sp-4); border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; transition:all 0.15s; }
+  .clear-filters-btn { display:none; align-items:center; gap:var(--sp-2); font-size:12px; padding:var(--sp-2) var(--sp-6) var(--sp-2) var(--sp-4); border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; transition:all 0.15s; }
+  .mobile-clear-pill { display:none !important; font-size:12px; padding:var(--sp-4) var(--sp-6); border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; flex-shrink:0; }
   .clear-filters-btn:hover { background:rgba(239,79,95,0.2); border-color:rgba(239,79,95,0.6); }
   .search-wrap { display:flex; align-items:center; }
   .search-icon-btn { background:none; border:0.5px solid var(--border2); border-radius:var(--radius-sm); width:28px; height:28px; cursor:pointer; color:var(--text2); display:flex; align-items:center; justify-content:center; transition:background 0.1s,color 0.1s,border-radius 0.15s; flex-shrink:0; }
@@ -409,8 +410,10 @@
   @media (max-width:640px) {
     .site-header { padding:var(--sp-6) var(--sp-8); flex-wrap:nowrap; }
     .header-brand { flex:1; min-width:0; }
-    .filter-row { padding:var(--sp-6) var(--sp-8); gap:var(--sp-4); }
-    .search-wrap.search-open { width:100%; order:-1; }
+    .filter-row { padding:var(--sp-4) var(--sp-8); gap:var(--sp-4); flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+    .filter-row::-webkit-scrollbar { display:none; }
+    .filter-row .search-wrap { position:sticky; left:0; z-index:2; background:var(--bg); }
+    .search-wrap.search-open { width:100%; order:-1; flex-shrink:0; }
     .search-wrap.search-open .search-box.open { width:100%; flex:1; }
     .main { padding:var(--sp-8); }
     .card-grid { grid-template-columns:1fr; }
@@ -433,6 +436,8 @@
     .filter-row .pill-wrap { display:none !important; }
     .filter-row .pill-wrap.mobile-show { display:block !important; }
     .filter-row .search-divider, .filter-row .clear-filters-btn { display:none !important; }
+    .mobile-clear-pill { font-size:14px !important; padding:var(--sp-4) var(--sp-6) !important; display:none !important; }
+    .mobile-clear-pill[style*="block"] { display:block !important; }
     .mobile-filter-btn { display:inline-flex; align-items:center; gap:var(--sp-2); }
     .count-label { display:none; }
     /* disable hover effects on touch devices */
@@ -591,6 +596,7 @@
   <button class="mobile-filter-btn" id="mobile-filter-btn" onclick="openBottomSheet()">
     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>Filters
   </button>
+  <button class="mobile-clear-pill" id="mobile-clear-pill" onclick="resetHome()" aria-label="Clear">Clear</button>
   <span class="count-label" id="count-label" aria-live="polite"></span>
   <div class="view-toggle">
     <button class="view-btn active" id="view-card-btn" onclick="setView('card')" title="Card view" aria-label="Card view">
@@ -1319,6 +1325,11 @@ function render(){
   // show "Next weekend" only on Sat/Sun
   const _nw=document.getElementById('opt-nextweekend');
   if(_nw){const dow=new Date().getDay();_nw.style.display=(dow===0||dow===6)?'':'none';}
+  // mobile clear pill visibility
+  const _mcp=document.getElementById('mobile-clear-pill');
+  const _isDefault=fmtISO(rangeStart)===fmtISO(midnight(new Date()))&&fmtISO(rangeEnd)===fmtISO(midnight(new Date()));
+  const _anyActive=hasActiveFilters()||document.getElementById('search').value||!_isDefault;
+  if(_mcp)_mcp.style.display=_anyActive?'block':'none';
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   const effectiveView=isMobile()&&viewMode!=='map'?'card':viewMode;
