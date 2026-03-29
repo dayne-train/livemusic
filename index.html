@@ -453,8 +453,7 @@
     .card-action-btn:hover { background:var(--bg2); border-color:var(--border2); color:var(--text2); }
     .header-theme-toggle:hover { color:var(--text3); }
     .pill-option:hover { background:none; color:var(--text2); }
-    .bs-opt:hover { background:none; }
-    .bs-opt.active { background:var(--green) !important; color:#fff !important; }
+    .bs-opt:not(.active):hover { background:none; }
     .bs-opt:active { opacity:0.7; }
     .bs-row-opt:active { background:var(--bg2); }
     [data-theme="light"] .filter-pill:not(.filtered),
