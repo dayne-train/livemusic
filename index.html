@@ -326,7 +326,11 @@
   .bottomsheet { position:fixed; bottom:-1px; left:0; right:0; background:var(--bg); border-top:0.5px solid var(--border2); border-radius:16px 16px 0 0; padding:0 1.25rem calc(2rem + env(safe-area-inset-bottom,0px)); padding-bottom:calc(2rem + env(safe-area-inset-bottom,0px)); z-index:301; transform:translateY(100%); transition:transform 0.25s ease; max-height:85vh; overflow-y:auto; overscroll-behavior:contain; -webkit-overflow-scrolling:touch; }
   .bottomsheet.open { transform:translateY(0); }
   .bs-header { padding:12px 0 8px; cursor:grab; touch-action:none; }
-  .bs-handle { width:36px; height:4px; border-radius:2px; background:var(--border2); margin:0 auto 0; }
+  .bs-handle { width:36px; height:4px; border-radius:2px; background:var(--border2); margin:0 auto; }
+  .bs-title-row { display:flex; align-items:center; justify-content:space-between; padding:8px 0 4px; }
+  .bs-title { font-size:15px; font-weight:600; color:var(--text); }
+  .bs-close { background:none; border:none; cursor:pointer; color:var(--text3); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; transition:color 0.1s; }
+  .bs-close:active { background:var(--border); }
   .bs-section { margin-bottom:16px; }
   .bs-label { font-size:11px; font-weight:600; color:var(--text3); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px; }
   .bs-options { display:flex; flex-wrap:wrap; gap:6px; }
@@ -576,6 +580,12 @@
 <div class="bottomsheet" id="bs-panel" role="dialog" aria-modal="true" aria-label="Filter options">
   <div class="bs-header" id="bs-header">
     <div class="bs-handle"></div>
+    <div class="bs-title-row">
+      <span class="bs-title">Filters</span>
+      <button class="bs-close" onclick="closeBottomSheet()" aria-label="Close filters">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
   </div>
   <div class="bs-section">
     <div class="bs-label">Type</div>
@@ -1694,10 +1704,22 @@ function closeBottomSheet(){
   header.addEventListener('touchend',function(){
     if(!dragging)return;
     dragging=false;
-    panel.style.transition='';
     const dy=currentY-startY;
-    if(dy>60){closeBottomSheet();}
-    else{panel.style.transform='';}
+    if(dy>50){
+      // animate out then close
+      panel.style.transition='transform 0.2s ease';
+      panel.style.transform='translateY(100%)';
+      setTimeout(()=>{
+        panel.style.transition='';
+        panel.style.transform='';
+        closeBottomSheet();
+      },200);
+    }else{
+      // snap back
+      panel.style.transition='transform 0.2s ease';
+      panel.style.transform='translateY(0)';
+      setTimeout(()=>{panel.style.transition='';panel.style.transform='';},200);
+    }
   });
 })();
 
