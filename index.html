@@ -611,7 +611,7 @@ const CACHE_KEY='rogue_live_cache';
 const CACHE_TS_KEY='rogue_live_cache_ts';
 const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
 
-let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='card';
+let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='card', _didScrollToday=false;
 
 /* ── Utils ── */
 function midnight(d){const x=new Date(d);x.setHours(0,0,0,0);return x;}
@@ -1223,6 +1223,15 @@ function render(){
       </section>`;
     }).join('');
     requestAnimationFrame(setupNextDayBadge);
+    // one-time scroll to today on initial load
+    if(!_didScrollToday){
+      _didScrollToday=true;
+      requestAnimationFrame(()=>{
+        const target=listing.querySelector('[data-date="'+todayStr+'"]')||
+          [...listing.querySelectorAll('[data-date]')].find(el=>el.dataset.date>=todayStr);
+        if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+      });
+    }
   }
 }
 
