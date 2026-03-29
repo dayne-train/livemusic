@@ -1933,8 +1933,10 @@ function scrollToNextDay(){
     if(dy>0&&y>100){
       stickyTop.style.setProperty('--header-h-neg','-'+header.offsetHeight+'px');
       stickyTop.classList.add('nav-hidden');
+      document.documentElement.style.setProperty('--sticky-h',(stickyTop.offsetHeight-header.offsetHeight)+'px');
     }else if(dy<0){
       stickyTop.classList.remove('nav-hidden');
+      document.documentElement.style.setProperty('--sticky-h',stickyTop.offsetHeight+'px');
     }
     lastY=y;
   },{passive:true});
