@@ -83,7 +83,7 @@
       --stale-bg:#fff3d6; --stale-text:#8a6100; --stale-border:#d4a84a;
     }
   }
-  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; background:var(--bg3); color:var(--text); font-size:16px; line-height:1.5; min-height:100vh; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; background:var(--bg3); color:var(--text); font-size:16px; line-height:1.5; }
 
   /* ── Accessibility ── */
   .skip-link { position:absolute; top:-100%; left:var(--sp-8); background:var(--accent); color:#fff; padding:var(--sp-4) var(--sp-8); border-radius:var(--radius-sm); font-size:13px; z-index:999; text-decoration:none; }
@@ -230,7 +230,8 @@
   .event-row:hover .row-actions { opacity:1; pointer-events:auto; }
 
   /* ── Main ── */
-  .main { padding:var(--sp-9) var(--sp-10); max-width:1140px; margin:0 auto; min-height:calc(100vh - 160px); }
+  .page-wrap { display:flex; flex-direction:column; min-height:100vh; }
+  .main { padding:var(--sp-9) var(--sp-10); max-width:1140px; margin:0 auto; flex:1; width:100%; }
   .time-block { margin-bottom:var(--sp-11); }
   .time-block-header { font-size:11px; font-weight:600; color:var(--text3); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:var(--sp-6); padding-left:var(--sp-1); }
   .day-section { margin-bottom:var(--sp-9); }
@@ -488,6 +489,7 @@
 <body>
 
 <a class="skip-link" href="#listing">Skip to shows</a>
+<div class="page-wrap">
 <div class="sticky-top">
 <div class="header-bar">
 <header class="site-header" role="banner">
@@ -665,6 +667,7 @@
     <div class="footer-credit"><a href="mailto:hello@dayne.design">Made with love in Medford</a> &copy; 2026</div>
   </div>
 </footer>
+</div><!-- /page-wrap -->
 
 <div class="bottomsheet-overlay" id="bs-overlay" onclick="closeBottomSheet()"></div>
 <div class="bottomsheet" id="bs-panel" role="dialog" aria-modal="true" aria-label="Filter options">
