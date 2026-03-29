@@ -619,7 +619,7 @@
 </div>
 
 <script>
-const SOURCE_URL='http://roguevalleylivemusicnightlife.com/musiclist.txt';
+const SOURCE_URL='https://roguevalleylivemusicnightlife.com/musiclist.txt';
 const PROXIES=[
   {url:'https://api.allorigins.win/raw?url='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
   {url:'https://api.codetabs.com/v1/proxy/?quest='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
@@ -1361,7 +1361,7 @@ function rowHtml(e,idx){
   const status=eventStatus(e);
   const pastCls=status==='past'?' event-past':'';
   const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
-  return `<article class="event-row${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
+  return `<article class="event-row${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="row-col row-col-name">${esc(e.musician)}</div>
     <div class="row-col row-col-genre">${esc(e.genre)}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
@@ -1383,7 +1383,7 @@ function cardHtml(e,idx){
   const pastCls=status==='past'?' event-past':'';
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
   const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
-  return `<article class="event-card${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter')openDetail(${idx})" role="button">
+  return `<article class="event-card${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="card-content">
       <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
       <div class="venue-name"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a>${e.city?' <span class="city-abbr">'+esc(cityAbbr(e.city))+'</span>':''}${pm?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
@@ -1864,6 +1864,10 @@ setInterval(()=>{
 },2500);
 
 /* ── Init ── */
+// mark all inline SVGs as decorative for screen readers
+new MutationObserver(()=>{document.querySelectorAll('svg:not([aria-hidden])').forEach(s=>s.setAttribute('aria-hidden','true'));}).observe(document.body,{childList:true,subtree:true});
+document.querySelectorAll('svg:not([aria-hidden])').forEach(s=>s.setAttribute('aria-hidden','true'));
+
 applyTheme(getPreferredTheme());
 // restore view mode: default to row, save on change
 const savedView=loadPref('viewMode');
