@@ -1454,7 +1454,7 @@ function rowHtml(e,idx){
   return `<article class="event-row${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="row-col row-col-name">${esc(e.musician)}</div>
     <div class="row-col row-col-genre">${esc(e.genre)}</div>
-    <div class="row-col row-col-city">${e.city?'<span class="city-abbr">'+esc(cityAbbr(e.city))+'</span>':''}</div>
+    <div class="row-col row-col-city">${e.city?'<span class="city-abbr" title="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
     <div class="row-col row-col-cover">${pm?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
