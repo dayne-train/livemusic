@@ -101,12 +101,13 @@
   /* ── Header — title left, nav right, wraps on mobile ── */
   .sticky-top { position:sticky; top:0; z-index:50; transition:transform 0.3s ease; }
   .sticky-top.nav-hidden { transform:translateY(var(--header-h-neg,0)); }
-  .header-bar { background:var(--bg); border-bottom:0.5px solid var(--border); }
+  .header-bar { background:var(--bg); }
   .site-header {
     padding:var(--sp-6) var(--sp-10);
     display:flex; align-items:center; justify-content:space-between;
     gap:var(--sp-6); flex-wrap:wrap;
     max-width:1140px; margin:0 auto;
+    border-bottom:0.5px solid var(--border);
   }
   .header-brand { flex-shrink:0; }
   .home-link { display:flex; align-items:center; gap:var(--sp-4); }
@@ -146,8 +147,8 @@
   .dp-apply:hover { background:var(--accent-dark); }
 
   /* ── Filter row ── */
-  .filter-bar { background:var(--bg3); border-bottom:0.5px solid var(--border); }
-  .filter-row { padding:var(--sp-6) var(--sp-10); display:flex; gap:var(--sp-4); flex-wrap:wrap; align-items:center; max-width:1140px; margin:0 auto; }
+  .filter-bar { background:var(--bg3); }
+  .filter-row { padding:var(--sp-6) var(--sp-10); display:flex; gap:var(--sp-4); flex-wrap:wrap; align-items:center; max-width:1140px; margin:0 auto; border-bottom:0.5px solid var(--border); }
 
   /* ── Dropdown pills ── */
   .pill-wrap { position:relative; }
