@@ -523,7 +523,7 @@
       <button class="pill-option" role="menuitem" onclick="pickDate('today','Today')">Today</button>
       <button class="pill-option" role="menuitem" onclick="pickDate('tomorrow','Tomorrow')">Tomorrow</button>
       <button class="pill-option" role="menuitem" onclick="pickDate('weekend','Weekend')">This weekend</button>
-      <button class="pill-option" role="menuitem" onclick="pickDate('nextweekend','Next weekend')">Next weekend</button>
+      <button class="pill-option" role="menuitem" id="opt-nextweekend" onclick="pickDate('nextweekend','Next weekend')">Next weekend</button>
       <button class="pill-option" role="menuitem" onclick="pickDate('week','This week')">This week</button>
       <button class="pill-option selected" role="menuitem" onclick="pickDate('next7','Next 7 days')">Next 7 days</button>
       <button class="pill-option" role="menuitem" onclick="pickDate('month','This month')">This month</button>
@@ -917,8 +917,8 @@ function applyQuick(btn,q){
   const t=midnight(new Date());
   if(q==='today')        {rangeStart=t;rangeEnd=t;}
   else if(q==='tomorrow'){rangeStart=addDays(t,1);rangeEnd=addDays(t,1);}
-  else if(q==='weekend') {const dow=t.getDay(),toSat=dow===6?0:6-dow;rangeStart=addDays(t,toSat);rangeEnd=addDays(rangeStart,1);}
-  else if(q==='nextweekend') {const dow=t.getDay(),toSat=dow===6?7:6-dow+7;rangeStart=addDays(t,toSat);rangeEnd=addDays(rangeStart,1);}
+  else if(q==='weekend') {const dow=t.getDay();let toSat;if(dow===6)toSat=0;else if(dow===0)toSat=-1;else toSat=6-dow;rangeStart=addDays(t,toSat);rangeEnd=addDays(rangeStart,1);}
+  else if(q==='nextweekend') {const dow=t.getDay();let toSat;if(dow===6)toSat=7;else if(dow===0)toSat=6;else toSat=6-dow;rangeStart=addDays(t,toSat);rangeEnd=addDays(rangeStart,1);}
   else if(q==='week')    {const dow=t.getDay();rangeStart=addDays(t,-dow);rangeEnd=addDays(rangeStart,6);}
   else if(q==='next7')   {rangeStart=t;rangeEnd=addDays(t,6);}
   else if(q==='month')   {rangeStart=new Date(t.getFullYear(),t.getMonth(),1);rangeEnd=new Date(t.getFullYear(),t.getMonth()+1,0);}
@@ -1304,6 +1304,9 @@ function render(){
   const _fab=document.getElementById('next-day-fab');if(_fab)_fab.classList.remove('visible');
   if(_dayBadgeScroll){window.removeEventListener('scroll',_dayBadgeScroll);_dayBadgeScroll=null;}
   _dayBadgeActive=false;
+  // show "Next weekend" only on Sat/Sun
+  const _nw=document.getElementById('opt-nextweekend');
+  if(_nw){const dow=new Date().getDay();_nw.style.display=(dow===0||dow===6)?'':'none';}
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   const effectiveView=isMobile()&&viewMode!=='map'?'card':viewMode;
