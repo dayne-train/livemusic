@@ -162,7 +162,7 @@
   .pill-option:hover { background:var(--bg2); color:var(--text); }
   .pill-option.selected { color:var(--green); font-weight:600; }
   .pill-option.selected::after { content:''; display:block; width:14px; height:14px; flex-shrink:0; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%231D9E75' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E"); background-size:contain; background-repeat:no-repeat; }
-  .pill-hint { display:block; font-size:10px; color:var(--text3); font-weight:400; margin-top:-1px; white-space:nowrap; line-height:1.2; }
+  .pill-hint { display:block; font-size:10px; color:var(--text3); font-weight:400; margin-top:-2px; white-space:nowrap; line-height:1; }
   /* header theme toggle */
   @keyframes toggle-cw-out { from{opacity:1;transform:rotate(0deg) scale(1);} to{opacity:0;transform:rotate(180deg) scale(0.5);} }
   @keyframes toggle-cw-in { from{opacity:0;transform:rotate(-180deg) scale(0.5);} to{opacity:1;transform:rotate(0deg) scale(1);} }
@@ -361,6 +361,14 @@
   .bs-opt { font-size:12px; padding:6px 14px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
   .bs-opt:hover { background:var(--bg2); }
   .bs-opt.active { background:var(--green); border-color:var(--green); color:#fff; }
+  .bs-row-opt { display:flex; align-items:center; gap:8px; width:100%; text-align:left; padding:12px 14px; border:none; border-bottom:0.5px solid var(--border); background:none; color:var(--text); cursor:pointer; font-size:14px; transition:background 0.1s; }
+  .bs-row-opt:last-child { border-bottom:none; }
+  .bs-row-opt:active { background:var(--bg2); }
+  .bs-row-opt.active { color:var(--green); }
+  .bs-row-opt.active svg { color:var(--green); }
+  .bs-row-label { font-weight:500; flex-shrink:0; }
+  .bs-row-hint { font-size:11px; color:var(--text3); flex:1; text-align:right; }
+  .bs-row-opt svg { flex-shrink:0; margin-left:auto; }
 
   /* ── Calendar strip ── */
   .cal-strip { display:flex; gap:6px; overflow-x:auto; padding:4px 0 12px; -ms-overflow-style:none; scrollbar-width:none; }
@@ -1020,15 +1028,31 @@ function openPillSheet(name){
   const bsTitle=document.getElementById('bs-pill-title');
   if(!bsBody)return;
   bsTitle.textContent=titles[name]||name;
-  // clone options as bs-opt buttons
   const options=menu.querySelectorAll('.pill-option');
   bsBody.innerHTML='';
+  const useRows=name==='region';
+  bsBody.style.flexWrap=useRows?'nowrap':'wrap';
+  bsBody.style.flexDirection=useRows?'column':'row';
+  bsBody.style.gap=useRows?'0':'6px';
   options.forEach(opt=>{
-    const btn=document.createElement('button');
-    btn.className='bs-opt'+(opt.classList.contains('selected')?' active':'');
-    btn.textContent=opt.textContent.trim().split('\n')[0]; // just the label, not hint
-    btn.onclick=()=>{opt.click();closePillSheet();};
-    bsBody.appendChild(btn);
+    const isSelected=opt.classList.contains('selected');
+    const hint=opt.querySelector('.pill-hint');
+    if(useRows){
+      const row=document.createElement('button');
+      row.className='bs-row-opt'+(isSelected?' active':'');
+      const label=opt.childNodes[0].textContent.trim();
+      row.innerHTML='<span class="bs-row-label">'+esc(label)+'</span>'
+        +(hint?'<span class="bs-row-hint">'+hint.textContent+'</span>':'')
+        +(isSelected?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>':'');
+      row.onclick=()=>{opt.click();closePillSheet();};
+      bsBody.appendChild(row);
+    }else{
+      const btn=document.createElement('button');
+      btn.className='bs-opt'+(isSelected?' active':'');
+      btn.textContent=opt.childNodes[0].textContent.trim();
+      btn.onclick=()=>{opt.click();closePillSheet();};
+      bsBody.appendChild(btn);
+    }
   });
   document.getElementById('bs-pill-overlay').classList.add('open');
   document.body.style.overflow='hidden';
