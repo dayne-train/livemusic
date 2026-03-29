@@ -148,6 +148,8 @@
   /* header theme toggle */
   .header-theme-toggle { background:none; border:none; cursor:pointer; color:var(--text3); display:flex; align-items:center; justify-content:center; padding:4px; transition:color 0.1s; }
   .header-theme-toggle:hover { color:var(--text); }
+  .header-theme-toggle svg { transition:transform 0.4s ease; }
+  .header-theme-toggle.spin svg { transform:rotate(360deg); }
   .clear-filters-btn { display:none; align-items:center; gap:4px; font-size:11px; padding:4px 10px; border-radius:999px; border:0.5px solid rgba(239,79,95,0.4); background:rgba(239,79,95,0.1); color:#ef4f5f; cursor:pointer; white-space:nowrap; transition:all 0.15s; }
   .clear-filters-btn:hover { background:rgba(239,79,95,0.2); border-color:rgba(239,79,95,0.6); }
   .search-wrap { display:flex; align-items:center; }
@@ -315,6 +317,14 @@
     .filter-row .pill-wrap.mobile-show { display:block !important; }
     .filter-row .search-divider, .filter-row .clear-filters-btn { display:none !important; }
     .mobile-filter-btn { display:inline-flex; align-items:center; gap:4px; }
+    /* disable hover effects on touch devices */
+    .event-card:hover { border-color:var(--border); background:var(--bg); }
+    .day-header:hover { color:inherit; }
+    .filter-pill:hover { background:none; border-color:var(--border2); }
+    .card-action-btn:hover { background:var(--bg2); border-color:var(--border2); color:var(--text2); }
+    .header-theme-toggle:hover { color:var(--text3); }
+    .pill-option:hover { background:none; color:var(--text2); }
+    .bs-opt:hover { background:none; }
   }
 </style>
 </head>
@@ -1386,6 +1396,9 @@ function toggleTheme(){
   const cur=document.documentElement.getAttribute('data-theme')||getPreferredTheme();
   const next=cur==='dark'?'light':'dark';
   localStorage.setItem('rvlm_theme',next);
+  const btn=document.getElementById('header-theme-btn');
+  if(btn){btn.classList.remove('spin');void btn.offsetWidth;btn.classList.add('spin');
+    setTimeout(()=>btn.classList.remove('spin'),400);}
   applyTheme(next);
 }
 
