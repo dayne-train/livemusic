@@ -10,6 +10,8 @@
   gtag('js', new Date());
   gtag('config', 'G-B7H3YQNGBY');
 </script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <title>Rogue Valley Live Music — Shows in Medford, Ashland, Grants Pass & Southern Oregon</title>
 <meta name="description" content="Find live music, open mics, and jam sessions in Medford, Ashland, Grants Pass, and the Rogue Valley. Updated daily with local shows and venues.">
@@ -313,6 +315,18 @@
   .cal-day.empty { opacity:0.35; }
   .cal-day-count { font-size:9px; opacity:0.7; }
 
+  /* ── Map view ── */
+  #map-container { height:calc(100vh - 140px); border-radius:var(--radius); overflow:hidden; }
+  .leaflet-popup-content-wrapper { background:var(--bg); color:var(--text); border:0.5px solid var(--border2); border-radius:var(--radius); box-shadow:0 4px 16px rgba(0,0,0,0.25); }
+  .leaflet-popup-tip { background:var(--bg); }
+  .leaflet-popup-content { font-family:inherit; font-size:13px; line-height:1.5; margin:12px 14px; }
+  .leaflet-popup-content .map-popup-venue { font-size:14px; font-weight:600; margin-bottom:6px; color:var(--text); }
+  .leaflet-popup-content .map-popup-show { padding:4px 0; border-bottom:0.5px solid var(--border); }
+  .leaflet-popup-content .map-popup-show:last-child { border-bottom:none; }
+  .leaflet-popup-content .map-popup-artist { font-weight:500; color:var(--text); }
+  .leaflet-popup-content .map-popup-time { font-size:11px; color:var(--text3); }
+  .leaflet-popup-content .map-popup-badge { font-size:9px; padding:1px 6px; border-radius:999px; background:var(--bg2); color:var(--text2); border:0.5px solid var(--border2); margin-left:4px; vertical-align:middle; }
+
   /* ── Responsive ── */
   @media (max-width:640px) {
     .site-header { padding:0.75rem 1rem; }
@@ -325,10 +339,9 @@
     .card-grid { grid-template-columns:1fr; }
     .search-box { max-width:100%; }
     .date-picker-btn { font-size:12px; }
-    /* force card view on mobile */
+    /* force card view on mobile (unless map) */
     .card-grid.row-view { gap:10px; }
     .event-row { display:none; }
-    .view-toggle { display:none; }
     /* always show card actions on mobile (no hover) */
     .event-card .card-actions { opacity:1; transform:translateY(0); pointer-events:auto; }
     .nav-sep { display:none !important; }
@@ -488,6 +501,9 @@
     </button>
     <button class="view-btn" id="view-row-btn" onclick="setView('row')" title="Row view" aria-label="Row view">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <button class="view-btn" id="view-map-btn" onclick="setView('map')" title="Map view" aria-label="Map view">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
     </button>
   </div>
 </div>
@@ -992,6 +1008,93 @@ function statusHtml(e){
   return' <span class="starts-in">'+label+'</span>';
 }
 
+/* ── Map view ── */
+let leafletMap=null;
+
+function renderMap(filtered,listing){
+  // clean up previous map instance
+  if(leafletMap){try{leafletMap.remove();}catch(e){}leafletMap=null;}
+  listing.innerHTML='<div id="map-container" style="height:calc(100vh - 140px);border-radius:10px;overflow:hidden;"></div>';
+  leafletMap=L.map('map-container').setView([42.33,-122.87],11);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom:19
+  }).addTo(leafletMap);
+
+  // group events by venue
+  const byVenue={};
+  filtered.forEach(e=>{
+    const key=e.venue||'Unknown';
+    if(!byVenue[key])byVenue[key]={events:[],city:e.city,address:e.venueAddress};
+    byVenue[key].events.push(e);
+  });
+
+  // load geocache
+  let geocache={};
+  try{geocache=JSON.parse(localStorage.getItem('rvlm_geocache')||'{}');}catch(e){}
+
+  const venueNames=Object.keys(byVenue);
+  const toGeocode=[];
+  const cached=[];
+
+  venueNames.forEach(name=>{
+    const cacheKey=name+','+(byVenue[name].city||'')+',OR';
+    if(geocache[cacheKey]){
+      cached.push({name,coords:geocache[cacheKey],cacheKey});
+    }else{
+      toGeocode.push({name,cacheKey,city:byVenue[name].city,address:byVenue[name].address});
+    }
+  });
+
+  // add cached markers immediately
+  const map=leafletMap;
+  cached.forEach(item=>{
+    if(!map)return;
+    addVenueMarker(map,item.coords,item.name,byVenue[item.name].events);
+  });
+
+  // geocode remaining venues with rate limiting (1 per second)
+  async function geocodeAll(){
+    for(let i=0;i<toGeocode.length;i++){
+      if(!leafletMap||leafletMap!==map)return; // map was removed
+      const item=toGeocode[i];
+      const q=item.address?item.address+','+item.city+',OR':item.name+','+item.city+',OR';
+      try{
+        const res=await fetch('https://nominatim.openstreetmap.org/search?format=json&q='+encodeURIComponent(q));
+        const data=await res.json();
+        if(data&&data.length>0){
+          const coords=[parseFloat(data[0].lat),parseFloat(data[0].lon)];
+          geocache[item.cacheKey]=coords;
+          try{localStorage.setItem('rvlm_geocache',JSON.stringify(geocache));}catch(e){}
+          if(leafletMap===map){
+            addVenueMarker(map,coords,item.name,byVenue[item.name].events);
+          }
+        }
+      }catch(e){/* silently skip */}
+      // rate limit: wait 1 second between requests
+      if(i<toGeocode.length-1){
+        await new Promise(r=>setTimeout(r,1000));
+      }
+    }
+  }
+  if(toGeocode.length>0)geocodeAll();
+}
+
+function addVenueMarker(map,coords,venueName,events){
+  let popupHtml='<div class="map-popup-venue">'+esc(venueName)+'</div>';
+  events.forEach(e=>{
+    const tS=parseTime(e.startRaw);
+    const t=e.eventType.toLowerCase();
+    const bc=t==='jam'?'jam':t==='open mic'?'openmic':t==='solo'?'solo':'';
+    popupHtml+='<div class="map-popup-show">';
+    popupHtml+='<span class="map-popup-artist">'+esc(e.musician)+'</span>';
+    popupHtml+='<span class="map-popup-badge '+bc+'">'+esc(e.eventType)+'</span>';
+    popupHtml+='<div class="map-popup-time">'+esc(tS)+'</div>';
+    popupHtml+='</div>';
+  });
+  L.marker(coords).addTo(map).bindPopup(popupHtml,{maxWidth:280});
+}
+
 /* ── Render ── */
 
 
@@ -1000,11 +1103,12 @@ function isMobile(){return window.innerWidth<=640;}
 function render(){
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
-  const effectiveView=isMobile()?'card':viewMode;
+  const effectiveView=isMobile()&&viewMode!=='map'?'card':viewMode;
   document.getElementById('count-label').textContent=filtered.length+' show'+(filtered.length!==1?'s':'');
   if(allEvents.length===0){listing.innerHTML='<div class="state-msg">'+loadingMsg()+'</div>';startIconCycle();return;}
   stopIconCycle();
   if(effectiveView==='calendar'){renderCalendar(filtered,listing);return;}
+  if(effectiveView==='map'){renderMap(filtered,listing);return;}
   if(filtered.length===0){
     const noResults=[
       {icon:'&#127925;',msg:'No shows match those filters',sub:'Try loosening the date range or clearing a filter.'},
@@ -1236,11 +1340,14 @@ function toggleSearch(){
 
 let calSelectedDate=null;
 function setView(mode){
+  // clean up map if switching away
+  if(viewMode==='map'&&mode!=='map'&&leafletMap){try{leafletMap.remove();}catch(e){}leafletMap=null;}
   viewMode=mode;
   savePref('viewMode',mode);
   document.getElementById('view-card-btn').classList.toggle('active',mode==='card');
   document.getElementById('view-cal-btn').classList.toggle('active',mode==='calendar');
   document.getElementById('view-row-btn').classList.toggle('active',mode==='row');
+  document.getElementById('view-map-btn').classList.toggle('active',mode==='map');
   syncUrl();
   render();
 }
@@ -1374,6 +1481,7 @@ function restoreFromUrl(){
   // view
   if(p.get('view')==='row')setView('row');
   else if(p.get('view')==='calendar')setView('calendar');
+  else if(p.get('view')==='map')setView('map');
 }
 
 /* ── Add to calendar (.ics) ── */
@@ -1549,6 +1657,7 @@ viewMode=savedView||'row';
 document.getElementById('view-card-btn').classList.toggle('active',viewMode==='card');
 document.getElementById('view-cal-btn').classList.toggle('active',viewMode==='calendar');
 document.getElementById('view-row-btn').classList.toggle('active',viewMode==='row');
+document.getElementById('view-map-btn').classList.toggle('active',viewMode==='map');
 
 if(isMobile()&&!location.search){
   // mobile default: Today
