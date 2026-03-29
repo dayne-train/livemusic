@@ -339,14 +339,15 @@
   /* ── Floating day pill ── */
   .next-day-fab { display:block; position:fixed; left:50%; top:calc(var(--sticky-h, 95px) + 12px); z-index:90; transform:translateX(-50%) translateY(calc(-100% - 2rem)); opacity:0; pointer-events:none; transition:transform 0.4s cubic-bezier(0.34,1.4,0.64,1),opacity 0.3s ease; }
   .next-day-fab.visible { transform:translateX(-50%) translateY(0); opacity:1; pointer-events:auto; }
-  .next-day-pill { display:flex; align-items:center; gap:var(--sp-2); padding:var(--sp-2) var(--sp-6); border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 4px 16px rgba(0,0,0,0.12); white-space:nowrap; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); cursor:pointer; }
+  .next-day-pill { display:flex; align-items:center; gap:var(--sp-2); padding:var(--sp-2) var(--sp-6); border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 4px 16px rgba(0,0,0,0.12); white-space:nowrap; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); cursor:pointer; transition:background 0.15s; }
   .day-jump-strip { display:none; position:absolute; top:calc(100% + var(--sp-2)); left:50%; transform:translateX(-50%); background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:var(--sp-2); box-shadow:0 4px 16px rgba(0,0,0,0.15); white-space:nowrap; max-width:90vw; overflow-x:auto; scrollbar-width:none; }
   .day-jump-strip::-webkit-scrollbar { display:none; }
   .day-jump-strip.open { display:flex; gap:var(--sp-1); }
-  .day-jump-btn { padding:var(--sp-2) var(--sp-4); border-radius:var(--radius-sm); border:none; background:none; color:var(--text2); font-size:11px; cursor:pointer; white-space:nowrap; transition:background 0.1s; }
+  .day-jump-btn { padding:var(--sp-2) var(--sp-4); border-radius:999px; border:none; background:none; color:var(--text2); font-size:11px; cursor:pointer; white-space:nowrap; transition:background 0.15s,color 0.15s; }
   .day-jump-btn:hover { background:var(--bg2); }
-  .day-jump-btn.current { color:var(--accent); font-weight:600; }
-  .day-jump-btn.today-marker { background:var(--accent); color:#fff; border-radius:999px; }
+  .day-jump-btn.today-marker { border:1px solid var(--accent); color:var(--accent); font-weight:600; }
+  .day-jump-btn.current { background:var(--accent); color:#fff; font-weight:600; }
+  .day-jump-btn.today-marker.current { background:var(--accent); color:#fff; border-color:var(--accent); }
 
 /* ── Modal ── */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:var(--sp-8); }
@@ -490,6 +491,10 @@
     .venue-name-link:hover { color:var(--text3); }
     .event-past:hover { opacity:0.4; }
     .modal-close:hover { background:none; }
+    .next-day-pill { font-size:14px; padding:var(--sp-4) var(--sp-8); gap:var(--sp-3); }
+    .next-day-pill svg { width:12px; height:12px; }
+    .day-jump-strip { padding:var(--sp-4); }
+    .day-jump-btn { font-size:14px; padding:var(--sp-4) var(--sp-6); }
     .day-jump-btn:hover { background:none; }
     .mobile-filter-btn:hover { background:none; }
     .clear-filters-btn:hover { background:var(--red-bg); }
