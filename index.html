@@ -284,9 +284,16 @@
 
   /* ── Floating next-day badge ── */
   /* ── Floating day pill ── */
-  .next-day-fab { display:block; position:fixed; left:50%; top:calc(var(--sticky-h, 95px) + 12px); z-index:90; transform:translateX(-50%) translateY(calc(-100% - 2rem)); opacity:0; pointer-events:none; transition:transform 0.4s cubic-bezier(0.34,1.4,0.64,1),opacity 0.3s ease; border:none; background:none; cursor:pointer; }
+  .next-day-fab { display:block; position:fixed; left:50%; top:calc(var(--sticky-h, 95px) + 12px); z-index:90; transform:translateX(-50%) translateY(calc(-100% - 2rem)); opacity:0; pointer-events:none; transition:transform 0.4s cubic-bezier(0.34,1.4,0.64,1),opacity 0.3s ease; }
   .next-day-fab.visible { transform:translateX(-50%) translateY(0); opacity:1; pointer-events:auto; }
-  .next-day-pill { display:flex; align-items:center; gap:var(--sp-2); padding:var(--sp-4) var(--sp-6); border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 4px 16px rgba(0,0,0,0.12); white-space:nowrap; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); }
+  .next-day-pill { display:flex; align-items:center; gap:var(--sp-2); padding:var(--sp-2) var(--sp-6); border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; box-shadow:0 4px 16px rgba(0,0,0,0.12); white-space:nowrap; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); cursor:pointer; border:none; }
+  .day-jump-strip { display:none; position:absolute; top:calc(100% + var(--sp-2)); left:50%; transform:translateX(-50%); background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:var(--sp-2); box-shadow:0 4px 16px rgba(0,0,0,0.15); white-space:nowrap; max-width:90vw; overflow-x:auto; scrollbar-width:none; }
+  .day-jump-strip::-webkit-scrollbar { display:none; }
+  .day-jump-strip.open { display:flex; gap:var(--sp-1); }
+  .day-jump-btn { padding:var(--sp-2) var(--sp-4); border-radius:var(--radius-sm); border:none; background:none; color:var(--text2); font-size:11px; cursor:pointer; white-space:nowrap; transition:background 0.1s; }
+  .day-jump-btn:hover { background:var(--bg2); }
+  .day-jump-btn.current { color:var(--accent); font-weight:600; }
+  .day-jump-btn.today-marker { background:var(--accent); color:#fff; border-radius:999px; }
 
 /* ── Modal ── */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:var(--sp-8); }
@@ -1609,6 +1616,7 @@ document.addEventListener('click',function(e){
   if(wrap&&!wrap.contains(e.target))closeDatePicker();
   // close pill menus if click is outside any pill-wrap
   if(!e.target.closest('.pill-wrap'))closeAllPills();
+  if(!e.target.closest('.next-day-fab')){const s=document.getElementById('day-jump-strip');if(s)s.classList.remove('open');}
 });
 document.addEventListener('keydown',e=>{
   if(e.key==='Escape'){
@@ -1903,43 +1911,64 @@ function toggleTheme(){
 function savePref(k,v){try{localStorage.setItem('rvlm_'+k,v);}catch(e){}}
 function loadPref(k){try{return localStorage.getItem('rvlm_'+k);}catch(e){return null;}}
 
-/* ── Floating day pill (multi-day views) ── */
-let _dayBadgeScroll=null,_dayBadgeActive=false;
+/* ── Floating day picker (multi-day views) ── */
+let _dayBadgeScroll=null,_dayBadgeActive=false,_dayBadgeSections=[];
 function setupNextDayBadge(){
   const fab=document.getElementById('next-day-fab');
   const label=document.getElementById('next-day-label');
-  if(!fab)return;
+  const strip=document.getElementById('day-jump-strip');
+  if(!fab||!strip)return;
   if(_dayBadgeScroll){window.removeEventListener('scroll',_dayBadgeScroll);_dayBadgeScroll=null;}
   _dayBadgeActive=false;
-  const sections=[...document.querySelectorAll('.day-section')];
-  if(sections.length<2){fab.classList.remove('visible');return;}
+  strip.classList.remove('open');
+  _dayBadgeSections=[...document.querySelectorAll('.day-section')];
+  if(_dayBadgeSections.length<2){fab.classList.remove('visible');return;}
   const todayStr=fmtISO(midnight(new Date()));
+  // build day strip buttons
+  strip.innerHTML=_dayBadgeSections.map(s=>{
+    const ds=s.dataset.date;
+    const d=new Date(ds+'T12:00:00');
+    const txt=d.toLocaleDateString('en-US',{weekday:'short',day:'numeric'});
+    const isToday=ds===todayStr;
+    return'<button class="day-jump-btn'+(isToday?' today-marker':'')+'" data-date="'+ds+'" onclick="jumpToDay(\''+ds+'\')">'+txt+'</button>';
+  }).join('');
   _dayBadgeActive=true;
+  let currentDs='';
   _dayBadgeScroll=()=>{
     if(!_dayBadgeActive)return;
-    // show after scrolling 200px
     fab.classList.toggle('visible',window.scrollY>200);
-    // find which section is at the top of the viewport
     const offset=window.scrollY+150;
-    let current=sections[0];
-    for(let i=sections.length-1;i>=0;i--){
-      if(sections[i].offsetTop<=offset){current=sections[i];break;}
+    let current=_dayBadgeSections[0];
+    for(let i=_dayBadgeSections.length-1;i>=0;i--){
+      if(_dayBadgeSections[i].offsetTop<=offset){current=_dayBadgeSections[i];break;}
     }
     const ds=current.dataset.date;
-    const d=new Date(ds+'T12:00:00');
-    const dayText=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
-    label.textContent=ds===todayStr?dayText+' (Today)':dayText;
+    if(ds!==currentDs){
+      currentDs=ds;
+      const d=new Date(ds+'T12:00:00');
+      const dayText=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+      label.textContent=ds===todayStr?dayText+' (Today)':dayText;
+      strip.querySelectorAll('.day-jump-btn').forEach(b=>b.classList.toggle('current',b.dataset.date===ds));
+    }
   };
   window.addEventListener('scroll',_dayBadgeScroll,{passive:true});
   _dayBadgeScroll();
 }
-function scrollToNextDay(){
-  const sections=[...document.querySelectorAll('.day-section')];
-  const scrollY=window.scrollY+180;
-  const next=sections.find(s=>s.offsetTop>scrollY);
-  if(next){next.scrollIntoView({behavior:'smooth',block:'start'});
+function toggleDayStrip(){
+  const strip=document.getElementById('day-jump-strip');
+  if(strip){strip.classList.toggle('open');
+    if(strip.classList.contains('open')){
+      const cur=strip.querySelector('.current')||strip.querySelector('.today-marker');
+      if(cur)cur.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
+    }
+  }
+}
+function jumpToDay(ds){
+  const section=document.querySelector('[data-date="'+ds+'"]');
+  if(section){section.scrollIntoView({behavior:'smooth',block:'start'});
     setTimeout(()=>window.scrollBy(0,-120),400);
   }
+  document.getElementById('day-jump-strip').classList.remove('open');
 }
 
 /* ── Hide header on scroll down, show on scroll up (mobile) ── */
@@ -2001,11 +2030,12 @@ startIconCycle();
 loadData();
 </script>
 
-<button class="next-day-fab" id="next-day-fab" onclick="scrollToNextDay()">
-  <span class="next-day-pill">
-    <span id="next-day-label">Next day</span>
+<div class="next-day-fab" id="next-day-fab">
+  <button class="next-day-pill" onclick="toggleDayStrip()">
+    <span id="next-day-label">Today</span>
     <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-  </span>
-</button>
+  </button>
+  <div class="day-jump-strip" id="day-jump-strip"></div>
+</div>
 </body>
 </html>
