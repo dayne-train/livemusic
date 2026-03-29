@@ -573,13 +573,13 @@
       <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
     </button>
     <div class="pill-menu" id="pill-date-menu" role="menu">
-      <button class="pill-option" role="menuitem" onclick="pickDate('today','Today')">Today</button>
-      <button class="pill-option" role="menuitem" onclick="pickDate('tomorrow','Tomorrow')">Tomorrow</button>
-      <button class="pill-option" role="menuitem" onclick="pickDate('weekend','Weekend')">This weekend</button>
-      <button class="pill-option" role="menuitem" id="opt-nextweekend" onclick="pickDate('nextweekend','Next weekend')">Next weekend</button>
-      <button class="pill-option" role="menuitem" onclick="pickDate('week','This week')">This week</button>
-      <button class="pill-option selected" role="menuitem" onclick="pickDate('next7','Next 7 days')">Next 7 days</button>
-      <button class="pill-option" role="menuitem" onclick="pickDate('month','This month')">This month</button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('today','Today')">Today<span class="pill-hint" id="dh-today"></span></button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('tomorrow','Tomorrow')">Tomorrow<span class="pill-hint" id="dh-tomorrow"></span></button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('weekend','Weekend')">This weekend<span class="pill-hint" id="dh-weekend"></span></button>
+      <button class="pill-option" role="menuitem" id="opt-nextweekend" onclick="pickDate('nextweekend','Next weekend')">Next weekend<span class="pill-hint" id="dh-nextweekend"></span></button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('week','This week')">This week<span class="pill-hint" id="dh-week"></span></button>
+      <button class="pill-option selected" role="menuitem" onclick="pickDate('next7','Next 7 days')">Next 7 days<span class="pill-hint" id="dh-next7"></span></button>
+      <button class="pill-option" role="menuitem" onclick="pickDate('month','This month')">This month<span class="pill-hint" id="dh-month"></span></button>
     </div>
   </div>
   <div class="pill-wrap mobile-show">
@@ -2055,6 +2055,31 @@ setInterval(()=>{
   const el=document.getElementById('contact-word');
   if(el)el.textContent=CONTACT_WORDS[_contactIdx];
 },2500);
+
+/* ── Date hint labels ── */
+(function(){
+  const t=midnight(new Date());
+  const fmt=(d)=>d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+  const fmtRange=(a,b)=>fmt(a)+' – '+fmt(b);
+  const dow=t.getDay();
+  const todaySat=dow===6,todaySun=dow===0;
+  const wkndStart=todaySat?t:todaySun?addDays(t,-1):addDays(t,6-dow);
+  const nwStart=todaySat?addDays(t,7):todaySun?addDays(t,6):addDays(t,6-dow);
+  const weekStart=addDays(t,-dow),weekEnd=addDays(weekStart,6);
+  const monthStart=new Date(t.getFullYear(),t.getMonth(),1);
+  const monthEnd=new Date(t.getFullYear(),t.getMonth()+1,0);
+  const monthName=t.toLocaleDateString('en-US',{month:'long'});
+  const h={
+    'dh-today':fmt(t),
+    'dh-tomorrow':fmt(addDays(t,1)),
+    'dh-weekend':fmtRange(wkndStart,addDays(wkndStart,1)),
+    'dh-nextweekend':fmtRange(nwStart,addDays(nwStart,1)),
+    'dh-week':fmtRange(weekStart,weekEnd),
+    'dh-next7':fmtRange(t,addDays(t,6)),
+    'dh-month':monthName+' '+monthStart.getDate()+'–'+monthEnd.getDate()
+  };
+  Object.keys(h).forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=h[id];});
+})();
 
 /* ── Init ── */
 // mark all inline SVGs as decorative for screen readers
