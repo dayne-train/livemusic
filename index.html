@@ -217,7 +217,7 @@
     .row-col-cover { display:none; }
   }
   .cover-badge { font-size:10px; padding:1px 6px; border-radius:999px; background:var(--cover-bg); color:var(--cover-text); border:0.5px solid var(--cover-border); white-space:nowrap; }
-  .row-actions { position:absolute; right:12px; display:flex; gap:6px; opacity:0; transition:opacity 0.1s; pointer-events:none; background:linear-gradient(to right, transparent 0%, rgba(var(--row-fade-rgb),0.95) 30%); padding-left:24px; }
+  .row-actions { position:absolute; right:12px; display:flex; gap:6px; opacity:0; transition:opacity 0.1s; pointer-events:none; padding-left:8px; }
   .event-row:hover .row-actions { opacity:1; pointer-events:auto; }
 
   /* ── Main ── */
@@ -318,7 +318,27 @@
     .footer-left, .footer-right { text-align:center; }
   }
 
-  /* (old chip/select styles removed — using pill-wrap system now) */
+  /* ── Utility classes (replacing inline styles) ── */
+  .search-divider { width:1px; height:18px; background:var(--border2); margin:0 2px; flex-shrink:0; }
+  .home-link { text-decoration:none; color:inherit; }
+  .nav-chips-wrap { display:flex; align-items:center; gap:7px; flex-wrap:wrap; }
+  .stale-bar { display:none; align-items:center; justify-content:center; gap:8px; padding:6px 1rem; background:var(--stale-bg); border-bottom:0.5px solid var(--stale-border); font-size:12px; color:var(--stale-text); }
+  .stale-retry { background:none; border:0.5px solid var(--stale-border); border-radius:999px; padding:2px 10px; font-size:11px; color:var(--stale-text); cursor:pointer; }
+  .load-icon { font-size:22px; display:block; margin-bottom:6px; }
+  .state-icon { font-size:28px; display:block; margin-bottom:8px; }
+  .state-btn { margin-top:12px; padding:6px 16px; border-radius:999px; border:0.5px solid var(--border2); background:var(--accent); color:#fff; font-size:12px; cursor:pointer; }
+  .state-btn-ghost { padding:6px 16px; border-radius:999px; border:0.5px solid var(--border2); background:none; color:var(--text2); font-size:12px; cursor:pointer; }
+  .state-btn-row { display:flex; gap:8px; justify-content:center; margin-top:14px; }
+  .error-title { font-weight:600; font-size:15px; margin-bottom:6px; }
+  .error-detail { margin-top:12px; font-size:11px; color:var(--text3); }
+  .error-icon { font-size:22px; margin-bottom:4px; }
+  .modal-actions { display:flex; gap:8px; margin-top:16px; padding-top:12px; border-top:0.5px solid var(--border); }
+  .modal-action { flex:1; justify-content:center; padding:8px 12px; font-size:12px; }
+  .venue-type-hint { color:var(--text3); }
+  .genre-hint { font-style:italic; color:var(--text2); }
+  .cal-day-header { cursor:default; margin-bottom:8px; }
+  .footer-credit { margin-top:4px; }
+  .footer-credit a { color:var(--text3); }
 
   /* ── Bottom sheet (mobile filters) ── */
   .mobile-filter-btn { display:none; font-size:12px; padding:4px 12px; border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; color:var(--text2); white-space:nowrap; transition:all 0.1s; }
@@ -417,7 +437,7 @@
 <div class="sticky-top">
 <header class="site-header" role="banner">
   <div class="header-brand">
-    <a href="/" onclick="event.preventDefault();resetHome();" style="text-decoration:none;color:inherit;">
+    <a href="/" onclick="event.preventDefault();resetHome();" class="home-link">
       <h1 class="site-title">Rogue Valley Live Music</h1>
       <p class="site-tagline">Live music in the heart of the Rogue Valley</p>
     </a>
@@ -435,7 +455,7 @@
   </div>
 
   <div class="header-nav">
-    <nav id="quick-chips" aria-label="Date range" style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;">
+    <nav id="quick-chips" aria-label="Date range" class="nav-chips-wrap">
       <button class="nav-chip"        id="chip-today"    onclick="applyQuick(this,'today')">Today</button>
       <button class="nav-chip"        id="chip-tomorrow" onclick="applyQuick(this,'tomorrow')">Tomorrow</button>
       <button class="nav-chip"        id="chip-weekend"  onclick="applyQuick(this,'weekend')">Weekend</button>
@@ -473,9 +493,9 @@
   </div>
 </header>
 
-<div id="stale-bar" style="display:none;align-items:center;justify-content:center;gap:8px;padding:6px 1rem;background:var(--stale-bg);border-bottom:0.5px solid var(--stale-border);font-size:12px;color:var(--stale-text);">
+<div id="stale-bar" class="stale-bar">
   <span></span>
-  <button onclick="hideStaleNotice();loadData()" style="background:none;border:0.5px solid var(--stale-border);border-radius:999px;padding:2px 10px;font-size:11px;color:var(--stale-text);cursor:pointer;">Retry</button>
+  <button onclick="hideStaleNotice();loadData()" class="stale-retry">Retry</button>
 </div>
 <div class="filter-row" role="toolbar" aria-label="Filters">
   <div class="search-wrap">
@@ -484,7 +504,7 @@
     </button>
     <input class="search-box" type="search" placeholder="Artist or venue…" oninput="debouncedSearch()" id="search" aria-label="Search artists or venues">
   </div>
-  <span style="width:1px;height:18px;background:var(--border2);margin:0 2px;flex-shrink:0;" class="search-divider"></span>
+  <span class="search-divider"></span>
   <div class="pill-wrap mobile-show">
     <button class="filter-pill" id="pill-date" onclick="togglePill('date')" aria-haspopup="true" aria-expanded="false">
       <span id="pill-date-label">Next 7 days</span>
@@ -564,7 +584,7 @@
 </div><!-- /sticky-top -->
 
 <main class="main" id="listing" aria-live="polite">
-  <div class="state-msg"><span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">&#127928;</span>Tuning up<span id="load-dots">.</span></div>
+  <div class="state-msg"><span id="load-icon" class="load-icon">&#127928;</span>Tuning up<span id="load-dots">.</span></div>
 </main>
 
 <footer class="site-footer">
@@ -576,7 +596,7 @@
   </div>
   <div class="footer-right">
     <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a></div>
-    <div style="margin-top:4px;"><a href="mailto:hello@dayne.design" style="color:var(--text3);">Made with love in Medford</a> &copy; 2026</div>
+    <div class="footer-credit"><a href="mailto:hello@dayne.design">Made with love in Medford</a> &copy; 2026</div>
   </div>
 </footer>
 
@@ -739,7 +759,7 @@ const LOADING_ICONS=["&#127928;","&#127911;","&#127926;","&#127927;","&#127930;"
 let _loadIconIdx=0,_loadIconTimer,_loadDotsTimer,_loadDotCount=0;
 function loadingMsg(){
   const msg=LOADING_MESSAGES[Math.floor(Math.random()*LOADING_MESSAGES.length)];
-  return'<span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">'+LOADING_ICONS[0]+'</span>'+msg+'<span id="load-dots">.</span>';
+  return'<span id="load-icon" class="load-icon">'+LOADING_ICONS[0]+'</span>'+msg+'<span id="load-dots">.</span>';
 }
 function startIconCycle(){
   clearInterval(_loadIconTimer);clearInterval(_loadDotsTimer);
@@ -850,11 +870,11 @@ async function loadData(){
     }else{
       const m=failMsg();
       document.getElementById('listing').innerHTML=`<div class="error-box">
-        <p style="font-size:22px;margin-bottom:4px">&#127928;</p>
-        <p style="font-weight:600;font-size:15px;margin-bottom:6px">${esc(m.title)}</p>
+        <p class="error-icon">&#127928;</p>
+        <p class="error-title">${esc(m.title)}</p>
         <p>${esc(m.sub)}</p>
-        <button onclick="loadData()" style="margin-top:14px;padding:7px 20px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:13px;cursor:pointer;">Try again</button>
-        <p style="margin-top:12px;font-size:11px;color:var(--text3)">${esc(err.message)}</p>
+        <button onclick="loadData()" class="state-btn" style="margin-top:14px;">Try again</button>
+        <p class="error-detail">${esc(err.message)}</p>
       </div>`;
     }
   }
@@ -1228,8 +1248,8 @@ function render(){
         {icon:'&#128566;',msg:'Crickets',sub:'No shows to display. Adjust filters or check back later.'},
       ];
       const nr=noResults[Math.floor(Math.random()*noResults.length)];
-      html=`<span style="font-size:28px;display:block;margin-bottom:8px;">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
-        <br><button onclick="clearAllFilters()" style="margin-top:12px;padding:6px 16px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:12px;cursor:pointer;">Clear all filters</button>`;
+      html=`<span class="state-icon">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
+        <br><button onclick="clearAllFilters()" class="state-btn">Clear all filters</button>`;
     }else if(isSingleDay){
       const dayOff=[
         {icon:'&#127964;',msg:'No shows today',sub:'Even musicians need a day off.'},
@@ -1238,13 +1258,13 @@ function render(){
         {icon:'&#9749;',msg:'Coffee, not concerts',sub:'No gigs today. Check out the weekend?'},
       ];
       const nr=dayOff[Math.floor(Math.random()*dayOff.length)];
-      html=`<span style="font-size:28px;display:block;margin-bottom:8px;">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
-        <div style="display:flex;gap:8px;justify-content:center;margin-top:14px;">
-          <button onclick="pickDate('tomorrow','Tomorrow')" style="padding:6px 16px;border-radius:999px;border:0.5px solid var(--border2);background:var(--accent);color:#fff;font-size:12px;cursor:pointer;">Try tomorrow</button>
-          <button onclick="pickDate('weekend','Weekend')" style="padding:6px 16px;border-radius:999px;border:0.5px solid var(--border2);background:none;color:var(--text2);font-size:12px;cursor:pointer;">This weekend</button>
+      html=`<span class="state-icon">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
+        <div class="state-btn-row">
+          <button onclick="pickDate('tomorrow','Tomorrow')" class="state-btn">Try tomorrow</button>
+          <button onclick="pickDate('weekend','Weekend')" class="state-btn-ghost">This weekend</button>
         </div>`;
     }else{
-      html='<span style="font-size:28px;display:block;margin-bottom:8px;">&#127926;</span>No shows in this date range<small>Try a different range or check back later.</small>';
+      html='<span class="state-icon">&#127926;</span>No shows in this date range<small>Try a different range or check back later.</small>';
     }
     listing.innerHTML='<div class="state-msg">'+html+'</div>';
     return;
@@ -1334,7 +1354,7 @@ function renderCalendar(filtered,listing){
     eventsHtml='<div class="state-msg">No shows on this day</div>';
   }
   listing.innerHTML=`<div class="cal-strip">${stripHtml}</div>
-    <div class="day-header" style="cursor:default;margin-bottom:8px;">
+    <div class="day-header cal-day-header">
       <div class="day-header-left"><span>${esc(dayTitle)}</span>${calSelectedDate===todayStr?'<span class="day-today-marker">Today</span>':''}<span class="day-count">${selEvts.length} show${selEvts.length!==1?'s':''}</span></div>
     </div>${eventsHtml}`;
   // scroll active day into view in strip
@@ -1408,7 +1428,7 @@ function openDetail(idx){
     <div class="modal-rows">
       <div class="modal-row"><span class="modal-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div>
         <div class="modal-row-label">Venue</div>
-        <div class="modal-row-value">${esc(e.venue)}${e.city?', '+esc(e.city):''}${e.venueType?' <span style="color:var(--text3)">· '+esc(e.venueType)+'</span>':''}</div>
+        <div class="modal-row-value">${esc(e.venue)}${e.city?', '+esc(e.city):''}${e.venueType?' <span class="venue-type-hint">· '+esc(e.venueType)+'</span>':''}</div>
       </div></div>
       <div class="modal-row"><span class="modal-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><div>
         <div class="modal-row-label">Time</div>
@@ -1416,7 +1436,7 @@ function openDetail(idx){
       </div></div>
       ${e.eventType?`<div class="modal-row"><span class="modal-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span><div>
         <div class="modal-row-label">Type</div>
-        <div class="modal-row-value">${esc(e.eventType)}${e.genre?' · <span style="font-style:italic;color:var(--text2)">'+esc(e.genre)+'</span>':''}</div>
+        <div class="modal-row-value">${esc(e.eventType)}${e.genre?' · <span class="genre-hint">'+esc(e.genre)+'</span>':''}</div>
       </div></div>`:''}
       ${e.notes?`<div class="modal-row"><span class="modal-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span><div>
         <div class="modal-row-label">Notes</div>
@@ -1428,10 +1448,10 @@ function openDetail(idx){
         ${e.venueUrl?`<a class="modal-link" href="${esc(e.venueUrl)}" target="_blank" rel="noopener">${esc(e.venue)} website</a>`:''}
       </div></div>`:''}
     </div>
-    <div style="display:flex;gap:8px;margin-top:16px;padding-top:12px;border-top:0.5px solid var(--border);">
-      <a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" style="flex:1;justify-content:center;padding:8px 12px;font-size:12px;">Directions <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a>
-      <button class="card-action-btn" onclick="downloadIcs(${idx})" style="flex:1;justify-content:center;padding:8px 12px;font-size:12px;">Save <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></button>
-      <button class="card-action-btn" id="share-btn" onclick="shareEvent(${idx})" style="flex:1;justify-content:center;padding:8px 12px;font-size:12px;">Share <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></button>
+    <div class="modal-actions">
+      <a class="card-action-btn modal-action" href="${esc(dirUrl)}" target="_blank" rel="noopener">Directions <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a>
+      <button class="card-action-btn modal-action" onclick="downloadIcs(${idx})">Save <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></button>
+      <button class="card-action-btn modal-action" id="share-btn" onclick="shareEvent(${idx})">Share <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></button>
     </div>`;
   _modalReturnFocus=document.activeElement;
   document.getElementById('modal').classList.add('open');
