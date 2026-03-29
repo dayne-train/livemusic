@@ -276,7 +276,10 @@
   .ended-badge { font-size:10px; color:var(--text3); font-weight:400; margin-left:6px; white-space:nowrap; opacity:0.7; }
   .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:6px; letter-spacing:0; text-transform:none; }
 
-  /* (FAB removed — theme toggle in header) */
+  /* ── Floating next-day badge ── */
+  .next-day-fab { display:none; position:fixed; top:100px; left:50%; transform:translateX(-50%); z-index:90; padding:6px 16px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; cursor:pointer; box-shadow:0 2px 10px rgba(0,0,0,0.15); transition:opacity 0.2s,transform 0.2s; white-space:nowrap; }
+  .next-day-fab:hover { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .next-day-fab.visible { display:flex; align-items:center; gap:5px; }
 
 /* ── Modal ── */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:1rem; }
@@ -539,6 +542,10 @@
 </div>
 </div><!-- /sticky-top -->
 
+<button class="next-day-fab" id="next-day-fab" onclick="scrollToNextDay()">
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+  <span id="next-day-label">Next day</span>
+</button>
 <main class="main" id="listing" aria-live="polite">
   <div class="state-msg"><span id="load-icon" style="font-size:22px;display:block;margin-bottom:6px;">&#127928;</span>Tuning up<span id="load-dots">.</span></div>
 </main>
@@ -1160,6 +1167,8 @@ function addVenueMarker(map,coords,venueName,events){
 
 function isMobile(){return window.innerWidth<=640;}
 function render(){
+  // hide next-day badge by default, multi-day view will re-enable
+  document.getElementById('next-day-fab').classList.remove('visible');
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   const effectiveView=isMobile()&&viewMode!=='map'?'card':viewMode;
@@ -1208,6 +1217,7 @@ function render(){
         </div>
       </section>`;
     }).join('');
+    requestAnimationFrame(setupNextDayBadge);
   }
 }
 
@@ -1692,6 +1702,43 @@ function toggleTheme(){
 /* ── Preferences ── */
 function savePref(k,v){try{localStorage.setItem('rvlm_'+k,v);}catch(e){}}
 function loadPref(k){try{return localStorage.getItem('rvlm_'+k);}catch(e){return null;}}
+
+/* ── Next day floating badge ── */
+let _nextDayObserver=null;
+function setupNextDayBadge(){
+  const fab=document.getElementById('next-day-fab');
+  const label=document.getElementById('next-day-label');
+  if(_nextDayObserver){_nextDayObserver.disconnect();_nextDayObserver=null;}
+  const sections=[...document.querySelectorAll('.day-section')];
+  if(sections.length<2){fab.classList.remove('visible');return;}
+  let currentIdx=0;
+  _nextDayObserver=new IntersectionObserver(entries=>{
+    entries.forEach(en=>{
+      if(en.isIntersecting){
+        const idx=sections.indexOf(en.target);
+        if(idx>=0)currentIdx=idx;
+      }
+    });
+    const nextIdx=currentIdx+1;
+    if(nextIdx<sections.length){
+      const ds=sections[nextIdx].dataset.date;
+      const d=new Date(ds+'T12:00:00');
+      label.textContent=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+      fab.classList.add('visible');
+    }else{fab.classList.remove('visible');}
+  },{rootMargin:'-120px 0px 0px 0px',threshold:0.1});
+  sections.forEach(s=>_nextDayObserver.observe(s));
+}
+function scrollToNextDay(){
+  const fab=document.getElementById('next-day-fab');
+  const sections=[...document.querySelectorAll('.day-section')];
+  const scrollY=window.scrollY+150;
+  const next=sections.find(s=>s.offsetTop>scrollY);
+  if(next){next.scrollIntoView({behavior:'smooth',block:'start'});
+    // offset for sticky header
+    setTimeout(()=>window.scrollBy(0,-120),400);
+  }
+}
 
 /* ── Contact word cycle ── */
 const CONTACT_WORDS=['Updates','Comments','Concerns','Sponsorships'];
