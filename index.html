@@ -412,8 +412,10 @@
     .header-brand { flex:1; min-width:0; }
     .filter-row { padding:var(--sp-4) var(--sp-8); gap:var(--sp-4); flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
     .filter-row::-webkit-scrollbar { display:none; }
-    .filter-row .search-wrap { position:sticky; left:0; z-index:2; background:var(--bg); padding-right:var(--sp-4); }
-    .filter-row .search-wrap::after { content:''; position:absolute; top:0; bottom:0; right:0; width:var(--sp-8); background:linear-gradient(to right,var(--bg),transparent); pointer-events:none; }
+    .filter-row .search-wrap { position:sticky; left:0; z-index:2; padding-right:var(--sp-6); }
+    .filter-row .search-wrap::before { content:''; position:absolute; top:0; bottom:0; left:calc(-1 * var(--sp-8)); width:var(--sp-8); background:var(--bg); z-index:1; }
+    .filter-row .search-wrap::after { content:''; position:absolute; top:0; bottom:0; right:0; width:var(--sp-8); background:linear-gradient(to right,var(--bg),transparent); pointer-events:none; z-index:1; }
+    .search-icon-btn { background:var(--bg); position:relative; z-index:2; }
     .search-wrap.search-open { width:100%; order:-1; flex-shrink:0; }
     .search-wrap.search-open .search-box.open { width:100%; flex:1; }
     .main { padding:var(--sp-8); }
@@ -1128,16 +1130,16 @@ function updateClearBtn(){
 function resetHome(){
   // reset date to default
   const defaultRange='today';
-  const chip=document.getElementById('chip-'+defaultRange);
-  if(chip)applyQuick(chip,defaultRange);
-  const labels={today:'Today',next7:'Next 7 days'};
-  document.getElementById('pill-date-label').textContent=labels[defaultRange];
+  applyQuick(document.getElementById('chip-'+defaultRange),defaultRange);
+  document.getElementById('pill-date-label').textContent='Today';
   document.getElementById('pill-date').classList.remove('filtered');
-  // reset all filters
+  // sync date menu selected state
+  document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.toggle('selected',o.textContent.trim()==='Today'));
+  // reset all filters + bottom sheet
   clearAllFilters();
   // clear search
   const box=document.getElementById('search');
-  if(box.classList.contains('open')){box.value='';box.classList.remove('open');document.getElementById('search-btn').classList.remove('open');box.closest('.search-wrap').classList.remove('search-open');}
+  if(box.value||box.classList.contains('open')){box.value='';box.classList.remove('open');document.getElementById('search-btn').classList.remove('open');box.closest('.search-wrap').classList.remove('search-open');}
   // clean URL
   history.replaceState(null,'',location.pathname);
 }
@@ -1145,7 +1147,7 @@ function clearAllFilters(){
   activeRegion='all';activeType='all';activeGenre='all';activeVenueType='all';
   FILTER_STATE.region='all';FILTER_STATE.type='all';FILTER_STATE.genre='all';FILTER_STATE.venue='all';
   syncPillUi('region','all');syncPillUi('type','all');syncPillUi('genre','all');syncPillUi('venue','all');
-  updateClearBtn();syncBsBtn();syncUrl();render();
+  syncBsFromState();updateClearBtn();syncBsBtn();syncUrl();render();
 }
 
 /* keep old function signatures for URL restore compatibility */
