@@ -330,14 +330,14 @@
   .site-footer::before { display:none; }
   .site-footer a { color:var(--green); text-decoration:none; }
   .site-footer a:hover { text-decoration:underline; }
-  .footer-left { text-align:left; display:flex; gap:var(--sp-6); flex-wrap:wrap; }
-  .footer-right { text-align:right; }
+  .footer-left { text-align:left; }
+  .footer-right { text-align:right; display:flex; gap:var(--sp-6); flex-wrap:wrap; justify-content:flex-end; }
   .footer-contact-btn { display:inline-flex; align-items:center; gap:var(--sp-2); font-size:11px; padding:var(--sp-2) var(--sp-4); border-radius:999px; border:0.5px solid var(--border2); background:none; color:var(--text2); cursor:pointer; text-decoration:none; transition:all 0.15s; }
   .site-footer .footer-contact-btn:hover { border-color:var(--accent); color:var(--accent); text-decoration:none; }
   @media (max-width:640px) {
     .site-footer { flex-direction:column; text-align:center; }
     .footer-left, .footer-right { text-align:center; }
-    .footer-left { justify-content:center; }
+    .footer-right { justify-content:center; }
   }
 
   /* ── Utility classes (replacing inline styles) ── */
@@ -390,6 +390,7 @@
   .bs-row-opt.active svg { color:var(--green); }
   .bs-row-label { font-weight:500; flex-shrink:0; }
   .bs-row-hint { font-size:11px; color:var(--text3); flex:1; text-align:right; }
+  .bs-row-hint-below { display:block; font-size:11px; color:var(--text3); font-weight:400; margin-top:1px; }
   .bs-row-opt svg { flex-shrink:0; margin-left:auto; }
 
   /* ── Calendar strip ── */
@@ -653,6 +654,10 @@
 
 <footer class="site-footer">
   <div class="footer-left">
+    <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a></div>
+    <div class="footer-credit"><a href="mailto:hello@dayne.design">Made with love in Medford</a> &copy; 2026</div>
+  </div>
+  <div class="footer-right">
     <a class="footer-contact-btn" href="mailto:roguevalleylivemusic@gmail.com">
       Updates, comments, concerns, or sponsorships
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -661,10 +666,6 @@
       Site questions
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
     </a>
-  </div>
-  <div class="footer-right">
-    <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a></div>
-    <div class="footer-credit"><a href="mailto:hello@dayne.design">Made with love in Medford</a> &copy; 2026</div>
   </div>
 </footer>
 </div><!-- /page-wrap -->
@@ -1093,19 +1094,21 @@ function openPillSheet(name){
   bsTitle.textContent=titles[name]||name;
   const options=menu.querySelectorAll('.pill-option');
   bsBody.innerHTML='';
-  const useRows=name==='region';
+  const useRows=name==='region'||name==='date';
   bsBody.style.flexWrap=useRows?'nowrap':'wrap';
   bsBody.style.flexDirection=useRows?'column':'row';
-  bsBody.style.gap=useRows?'0':'6px';
+  bsBody.style.gap=useRows?'0':String(parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sp-4'))||8)+'px';
   options.forEach(opt=>{
+    if(opt.style.display==='none')return; // skip hidden (e.g. next weekend on weekdays)
     const isSelected=opt.classList.contains('selected');
     const hint=opt.querySelector('.pill-hint');
     if(useRows){
       const row=document.createElement('button');
       row.className='bs-row-opt'+(isSelected?' active':'');
       const label=opt.childNodes[0].textContent.trim();
-      row.innerHTML='<span class="bs-row-label">'+esc(label)+'</span>'
-        +(hint?'<span class="bs-row-hint">'+hint.textContent+'</span>':'')
+      row.innerHTML='<div><span class="bs-row-label">'+esc(label)+'</span>'
+        +(hint?'<span class="bs-row-hint-below">'+hint.textContent+'</span>':'')
+        +'</div>'
         +(isSelected?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>':'');
       row.onclick=()=>{opt.click();closePillSheet();};
       bsBody.appendChild(row);
