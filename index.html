@@ -293,9 +293,17 @@
   .modal-directions svg { width:13px; height:13px; fill:currentColor; }
 
   /* ── Footer ── */
-  .site-footer { text-align:center; padding:2rem 1rem; font-size:11px; color:var(--text3); border-top:0.5px solid var(--border); margin-top:2rem; }
+  .site-footer { display:flex; align-items:center; justify-content:space-between; padding:2rem 1.5rem; font-size:11px; color:var(--text3); border-top:0.5px solid var(--border); margin-top:2rem; gap:1rem; flex-wrap:wrap; }
   .site-footer a { color:var(--green); text-decoration:none; }
   .site-footer a:hover { text-decoration:underline; }
+  .footer-left { text-align:left; }
+  .footer-right { text-align:right; }
+  .footer-contact-btn { display:inline-flex; align-items:center; gap:5px; font-size:11px; padding:6px 16px; border-radius:999px; border:0.5px solid var(--border2); background:none; color:var(--text2); cursor:pointer; text-decoration:none; transition:all 0.15s; }
+  .footer-contact-btn:hover { border-color:var(--accent); color:var(--accent); text-decoration:none; }
+  @media (max-width:640px) {
+    .site-footer { flex-direction:column; text-align:center; }
+    .footer-left, .footer-right { text-align:center; }
+  }
 
   /* (old chip/select styles removed — using pill-wrap system now) */
 
@@ -379,8 +387,10 @@
 <div class="sticky-top">
 <header class="site-header" role="banner">
   <div class="header-brand">
-    <h1 class="site-title">Rogue Valley Live Music</h1>
-    <p class="site-tagline">Live music in the heart of the Rogue Valley</p>
+    <a href="/" onclick="event.preventDefault();resetHome();" style="text-decoration:none;color:inherit;">
+      <h1 class="site-title">Rogue Valley Live Music</h1>
+      <p class="site-tagline">Live music in the heart of the Rogue Valley</p>
+    </a>
   </div>
 
   <button class="header-theme-toggle" id="header-theme-btn" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
@@ -526,9 +536,14 @@
 </main>
 
 <footer class="site-footer">
-  <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a> &mdash; maintained by local volunteers.</div>
-  <div style="margin-top:6px;">Made with love in Medford &copy; 2026 &middot; <a href="mailto:hello@dayne.design">Contact</a></div>
-  <div style="margin-top:4px;">Suggestions, comments, or sponsorships: <a href="mailto:roguevalleylivemusic@gmail.com">roguevalleylivemusic@gmail.com</a></div>
+  <a class="footer-contact-btn" href="mailto:roguevalleylivemusic@gmail.com">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    Suggestions, comments, or sponsorships
+  </a>
+  <div class="footer-right">
+    <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a></div>
+    <div style="margin-top:4px;">Made with love in Medford &copy; 2026 &middot; <a href="mailto:hello@dayne.design">hello@dayne.design</a></div>
+  </div>
 </footer>
 
 <div class="bottomsheet-overlay" id="bs-overlay" onclick="closeBottomSheet()"></div>
@@ -942,6 +957,22 @@ function hasActiveFilters(){return activeRegion!=='all'||activeType!=='all'||act
 function updateClearBtn(){
   const btn=document.getElementById('clear-filters-btn');
   if(btn)btn.style.display=hasActiveFilters()?'inline-flex':'none';
+}
+function resetHome(){
+  // reset date to default
+  const defaultRange=isMobile()?'today':'next7';
+  const chip=document.getElementById('chip-'+defaultRange);
+  if(chip)applyQuick(chip,defaultRange);
+  const labels={today:'Today',next7:'Next 7 days'};
+  document.getElementById('pill-date-label').textContent=labels[defaultRange];
+  document.getElementById('pill-date').classList.remove('filtered');
+  // reset all filters
+  clearAllFilters();
+  // clear search
+  const box=document.getElementById('search');
+  if(box.classList.contains('open')){box.value='';box.classList.remove('open');document.getElementById('search-btn').classList.remove('open');box.closest('.search-wrap').classList.remove('search-open');}
+  // clean URL
+  history.replaceState(null,'',location.pathname);
 }
 function clearAllFilters(){
   activeRegion='all';activeType='all';activeGenre='all';activeVenueType='all';
