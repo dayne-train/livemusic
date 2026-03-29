@@ -246,7 +246,7 @@
   .card-action-btn { font-size:11px; padding:var(--sp-2) var(--sp-4); border-radius:999px; border:0.5px solid var(--border2); background:var(--bg2); color:var(--text2); cursor:pointer; white-space:nowrap; text-decoration:none; display:inline-flex; align-items:center; gap:var(--sp-2); transition:background 0.1s,color 0.1s,border-color 0.1s; }
   .card-action-btn:hover { background:var(--accent); border-color:var(--accent); color:#fff; }
   .card-action-btn svg { width:11px; height:11px; flex-shrink:0; }
-  .card-top { display:flex; justify-content:space-between; align-items:flex-start; gap:var(--sp-4); margin-bottom:var(--sp-4); }
+  .card-top { display:flex; justify-content:space-between; align-items:center; gap:var(--sp-4); margin-bottom:var(--sp-2); }
   .artist { font-size:14px; font-weight:600; line-height:1.3; }
   .type-badge { font-size:10px; padding:var(--sp-1) var(--sp-4); border-radius:999px; white-space:nowrap; flex-shrink:0; background:var(--bg2); color:var(--text2); border:0.5px solid var(--border2); }
   .type-badge.jam     { background:rgba(29,158,117,0.12); color:var(--green); border-color:var(--green); }
@@ -1474,8 +1474,8 @@ function cardHtml(e,idx){
   const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>`;
   return `<article class="event-card${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="card-content">
-      <div class="venue-name">${e.city?'<span class="city-abbr">'+esc(cityAbbr(e.city))+'</span> ':''}<a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a>${pm?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
-      <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
+      <div class="card-top">${e.city?'<span class="city-abbr">'+esc(cityAbbr(e.city))+'</span>':''}<a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a>${pm?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}<span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
+      <div class="artist">${esc(e.musician)}</div>
       <div class="card-meta">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
     </div>
     <div class="card-actions">
