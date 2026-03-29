@@ -602,9 +602,9 @@
 <script>
 const SOURCE_URL='http://roguevalleylivemusicnightlife.com/musiclist.txt';
 const PROXIES=[
+  {url:'https://api.allorigins.win/raw?url='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
+  {url:'https://api.codetabs.com/v1/proxy/?quest='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
   {url:'https://api.allorigins.win/get?url='+encodeURIComponent(SOURCE_URL), json:true, extract:j=>j.contents},
-  {url:'https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
-  {url:'https://corsproxy.io/?url='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
 ];
 const CACHE_KEY='rogue_live_cache';
 const CACHE_TS_KEY='rogue_live_cache_ts';
