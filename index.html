@@ -255,7 +255,9 @@
   .genre-tag  { font-size:11px; color:var(--text3); margin-bottom:var(--sp-2); font-style:italic; }
   .venue-name { font-size:13px; margin-bottom:var(--sp-1); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .card-venue-line { display:flex; align-items:center; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin-top:var(--sp-2); font-size:12px; }
-  .city-abbr { font-size:9px; font-weight:600; color:var(--text3); background:var(--border); padding:1px var(--sp-2); border-radius:3px; letter-spacing:0.04em; vertical-align:1px; margin-right:var(--sp-2); }
+  .city-abbr { font-size:9px; font-weight:600; color:var(--text3); background:var(--border); padding:1px var(--sp-2); border-radius:3px; letter-spacing:0.04em; vertical-align:1px; margin-right:var(--sp-2); position:relative; cursor:default; }
+  .city-abbr:hover::after { content:attr(data-city); position:absolute; bottom:calc(100% + 4px); left:50%; transform:translateX(-50%); padding:var(--sp-2) var(--sp-4); background:var(--bg); color:var(--text); font-size:11px; font-weight:400; letter-spacing:0; border-radius:var(--radius-sm); border:0.5px solid var(--border2); box-shadow:0 2px 8px rgba(0,0,0,0.15); white-space:nowrap; z-index:10; pointer-events:none; }
+  .city-abbr[data-city]:hover { z-index:11; }
   .venue-name-link { font-size:13px; color:var(--text2); text-decoration:none; }
   .venue-name-link:hover { color:var(--green); }
 
@@ -1458,7 +1460,7 @@ function rowHtml(e,idx){
   return `<article class="event-row${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="row-col row-col-name">${esc(e.musician)}</div>
     <div class="row-col row-col-genre">${esc(e.genre)}</div>
-    <div class="row-col row-col-city">${e.city?'<span class="city-abbr" title="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}</div>
+    <div class="row-col row-col-city">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
     <div class="row-col row-col-cover">${pm?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
@@ -1481,7 +1483,7 @@ function cardHtml(e,idx){
     <div class="card-content">
       <div class="card-top"><div class="artist">${esc(e.musician)}</div><span class="type-badge ${bc}">${esc(e.eventType)}</span></div>
       <div class="card-meta">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}${pm?' <span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>
-      <div class="card-venue-line">${e.city?'<span class="city-abbr">'+esc(cityAbbr(e.city))+'</span>':''}<a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
+      <div class="card-venue-line">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}<a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     </div>
     <div class="card-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>View details</button>
