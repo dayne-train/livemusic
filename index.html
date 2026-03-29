@@ -155,7 +155,8 @@
   .pill-menu { display:none; position:absolute; top:calc(100% + 4px); left:0; background:var(--bg); border:0.5px solid var(--border2); border-radius:var(--radius); padding:4px; min-width:220px; z-index:100; max-height:260px; overflow-y:auto; box-shadow:0 8px 24px rgba(0,0,0,0.3); }
   .pill-menu.open { display:block; }
   .pill-menu.align-right { left:auto; right:0; }
-  .pill-option { display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%; text-align:left; font-size:12px; padding:6px 10px; border:none; background:none; color:var(--text2); cursor:pointer; border-radius:var(--radius-sm); transition:background 0.1s,color 0.1s; }
+  .pill-option { display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%; text-align:left; font-size:12px; padding:6px 10px; border:none; background:none; color:var(--text2); cursor:pointer; border-radius:var(--radius-sm); transition:background 0.1s,color 0.1s; flex-wrap:wrap; }
+  .pill-option .pill-hint { flex-basis:100%; }
   .pill-option:hover { background:var(--bg2); color:var(--text); }
   .pill-option.selected { color:var(--green); font-weight:600; }
   .pill-option.selected::after { content:''; display:block; width:14px; height:14px; flex-shrink:0; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%231D9E75' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E"); background-size:contain; background-repeat:no-repeat; }
