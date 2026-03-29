@@ -528,6 +528,7 @@
 <footer class="site-footer">
   <div>Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a> &mdash; maintained by local volunteers.</div>
   <div style="margin-top:6px;">Made with love in Medford &copy; 2026 &middot; <a href="mailto:hello@dayne.design">Contact</a></div>
+  <div style="margin-top:4px;">Suggestions, comments, or sponsorships: <a href="mailto:roguevalleylivemusic@gmail.com">roguevalleylivemusic@gmail.com</a></div>
 </footer>
 
 <div class="bottomsheet-overlay" id="bs-overlay" onclick="closeBottomSheet()"></div>
@@ -574,7 +575,6 @@ const CACHE_TS_KEY='rogue_live_cache_ts';
 const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
 
 let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='card';
-let _mobileScrolled=!!sessionStorage.getItem('rvlm_scrolled');
 
 /* ── Utils ── */
 function midnight(d){const x=new Date(d);x.setHours(0,0,0,0);return x;}
@@ -1117,6 +1117,17 @@ function addVenueMarker(map,coords,venueName,events){
 
 
 function isMobile(){return window.innerWidth<=640;}
+function mobileScrollToNext(listing){
+  requestAnimationFrame(()=>{
+    const live=listing.querySelector('.live-badge');
+    if(live){live.closest('article').scrollIntoView({behavior:'smooth',block:'center'});return;}
+    const cards=[...listing.querySelectorAll('article')];
+    const hasPast=cards.some(c=>c.classList.contains('event-past'));
+    if(!hasPast)return;
+    const first=cards.find(c=>!c.classList.contains('event-past'));
+    if(first)first.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+}
 
 function render(){
   const filtered=getFiltered();
@@ -1147,20 +1158,8 @@ function render(){
         <div class="time-block-header">${esc(k)}<span class="time-range-hint">${BUCKET_HINTS[k]||''}</span></div>
         <div class="card-grid${effectiveView==='row'?' row-view':''}">${buckets[k].map(e=>effectiveView==='row'?rowHtml(e,e._idx):cardHtml(e,e._idx)).join('')}</div>
       </section>`).join('');
-    // on mobile first load, scroll past ended events to the current/next one
-    if(isMobile()&&!_mobileScrolled){
-      _mobileScrolled=true;
-      try{sessionStorage.setItem('rvlm_scrolled','1');}catch(e){}
-      requestAnimationFrame(()=>{
-        const live=listing.querySelector('.live-badge');
-        if(live){live.closest('article').scrollIntoView({behavior:'smooth',block:'center'});return;}
-        const cards=[...listing.querySelectorAll('article')];
-        const hasPast=cards.some(c=>c.classList.contains('event-past'));
-        if(!hasPast)return; // nothing to skip past
-        const first=cards.find(c=>!c.classList.contains('event-past'));
-        if(first)first.scrollIntoView({behavior:'smooth',block:'start'});
-      });
-    }
+    // on mobile, gently scroll to live or next upcoming event
+    if(isMobile())mobileScrollToNext(listing);
   } else {
     const byDay={};
     filtered.forEach(e=>{if(!byDay[e.dateStr])byDay[e.dateStr]=[];byDay[e.dateStr].push(e);});
