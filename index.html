@@ -936,7 +936,7 @@ function pickDate(q,label){
   const defaultRange='today';
   // reuse applyQuick logic
   const chip=document.getElementById('chip-'+q);
-  if(chip)applyQuick(chip,q);
+  applyQuick(chip,q);
   // update date pill label + filtered state
   const pill=document.getElementById('pill-date');
   document.getElementById('pill-date-label').textContent=label;
