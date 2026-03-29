@@ -782,18 +782,23 @@ function showStaleNotice(ts){
 function hideStaleNotice(){const bar=document.getElementById('stale-bar');if(bar)bar.style.display='none';}
 
 async function fetchFromProxies(){
-  const errors=[];
-  for(const p of PROXIES){
-    try{
-      const res=await fetchWithTimeout(p.url);
-      if(!res.ok)throw new Error('HTTP '+res.status);
-      const body=p.json?await res.json():await res.text();
-      const txt=p.extract(body);
-      if(!txt||txt.length<50)throw new Error('Empty response');
-      return txt;
-    }catch(e){errors.push(e.message);}
-  }
-  throw new Error('All sources failed: '+errors.join('; '));
+  // race all proxies in parallel — first success wins
+  return new Promise((resolve,reject)=>{
+    let resolved=false,errors=0;
+    PROXIES.forEach(p=>{
+      fetchWithTimeout(p.url).then(res=>{
+        if(!res.ok)throw new Error('HTTP '+res.status);
+        return p.json?res.json():res.text();
+      }).then(body=>{
+        const txt=p.json?p.extract(body):body;
+        if(!txt||txt.length<50)throw new Error('Empty response');
+        if(!resolved){resolved=true;resolve(txt);}
+      }).catch(()=>{
+        errors++;
+        if(errors===PROXIES.length&&!resolved)reject(new Error('All sources failed'));
+      });
+    });
+  });
 }
 
 const CACHE_FRESH=30*60*1000; // 30 minutes — skip API if cache is this fresh
