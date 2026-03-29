@@ -104,7 +104,9 @@
     padding:0.75rem 1.5rem;
     display:flex; align-items:center; justify-content:space-between;
     gap:0.75rem; flex-wrap:wrap;
+    transition:margin-top 0.3s ease;
   }
+  .site-header.header-hidden { margin-top:var(--header-h-neg,0); }
   .header-brand { flex-shrink:0; }
   .site-title { font-size:18px; font-weight:600; }
   .site-tagline { font-size:11px; color:var(--text3); margin-top:2px; }
@@ -1837,6 +1839,27 @@ function scrollToNextDay(){
     setTimeout(()=>window.scrollBy(0,-120),400);
   }
 }
+
+/* ── Hide header on scroll down (mobile) ── */
+(function(){
+  let lastY=0;
+  const header=document.querySelector('.site-header');
+  if(!header)return;
+  window.addEventListener('scroll',function(){
+    if(!isMobile()){header.classList.remove('header-hidden');return;}
+    const y=window.scrollY;
+    if(y>80&&y>lastY){
+      // scrolling down
+      if(!header.classList.contains('header-hidden')){
+        header.style.setProperty('--header-h-neg','-'+header.offsetHeight+'px');
+        header.classList.add('header-hidden');
+      }
+    }else if(y<lastY){
+      header.classList.remove('header-hidden');
+    }
+    lastY=y;
+  },{passive:true});
+})();
 
 /* ── Contact word cycle ── */
 const CONTACT_WORDS=['Updates','Comments','Concerns','Sponsorships'];
