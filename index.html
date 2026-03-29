@@ -971,6 +971,7 @@ let dpMode='single'; // 'single' | 'range'
 
 function applyQuick(btn,q){
   clearQuickChips();if(btn)btn.classList.add('active');
+  _currentRange=q;
   const t=midnight(new Date());
   if(q==='today')        {rangeStart=t;rangeEnd=t;}
   else if(q==='tomorrow'){rangeStart=addDays(t,1);rangeEnd=addDays(t,1);}
@@ -1048,6 +1049,7 @@ function applyDatePicker(){
   } else {
     rangeEnd=rangeStart;
   }
+  _currentRange=null;
   clearQuickChips();
   updateDpLabel();
   closeDatePicker();
@@ -1170,6 +1172,7 @@ function updateClearBtn(){
 }
 function resetHome(){
   // reset date to default
+  _currentRange='today';
   const defaultRange='today';
   applyQuick(document.getElementById('chip-'+defaultRange),defaultRange);
   document.getElementById('pill-date-label').textContent='Today';
@@ -1726,13 +1729,11 @@ function eventSlug(e){
 function findBySlug(slug){return allEvents.find(e=>eventSlug(e)===slug);}
 
 /* ── URL state ── */
+let _currentRange='today'; // track which named range is active
 function syncUrl(){
   const p=new URLSearchParams();
-  // detect which quick chip is active
-  const activeChip=document.querySelector('.nav-chip.active');
-  if(activeChip){
-    const q=activeChip.id.replace('chip-','');
-    p.set('range',q);
+  if(_currentRange){
+    p.set('range',_currentRange);
   }else{
     p.set('from',fmtISO(rangeStart));
     p.set('to',fmtISO(rangeEnd));
@@ -1753,14 +1754,17 @@ function restoreFromUrl(){
   // date range
   if(p.has('range')){
     const r=p.get('range');
-    const chip=document.getElementById('chip-'+r);
-    if(chip)applyQuick(chip,r);
+    applyQuick(document.getElementById('chip-'+r),r);
     const labels={today:'Today',tomorrow:'Tomorrow',weekend:'This weekend',nextweekend:'Next weekend',week:'This week',next7:'Next 7 days',month:'This month'};
     const dpill=document.getElementById('pill-date');
     document.getElementById('pill-date-label').textContent=labels[r]||r;
     if(dpill)dpill.classList.toggle('filtered',r!=='today');
-    document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>{o.classList.toggle('selected',o.textContent===labels[r]);});
+    document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>{
+      const label=o.childNodes[0].textContent.trim();
+      o.classList.toggle('selected',label===(labels[r]||r));
+    });
   }else if(p.has('from')){
+    _currentRange=null;
     rangeStart=midnight(new Date(p.get('from')+'T12:00:00'));
     rangeEnd=p.has('to')?midnight(new Date(p.get('to')+'T12:00:00')):rangeStart;
     clearQuickChips();updateDpLabel();
