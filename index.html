@@ -277,9 +277,11 @@
   .time-range-hint { font-size:10px; color:var(--text3); font-weight:400; margin-left:6px; letter-spacing:0; text-transform:none; }
 
   /* ── Floating next-day badge ── */
-  .next-day-fab { display:none; position:fixed; top:100px; left:50%; transform:translateX(-50%); z-index:90; padding:6px 16px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; cursor:pointer; box-shadow:0 2px 10px rgba(0,0,0,0.15); transition:opacity 0.2s,transform 0.2s; white-space:nowrap; }
-  .next-day-fab:hover { background:var(--accent); border-color:var(--accent); color:#fff; }
-  .next-day-fab.visible { display:flex; align-items:center; gap:5px; }
+  /* ── Floating next-day badge (mobile only) ── */
+  .next-day-fab { display:none; }
+  @media (max-width:640px) {
+    .next-day-fab.visible { display:flex; position:fixed; top:90px; left:50%; transform:translateX(-50%); z-index:90; padding:6px 16px; border-radius:999px; border:0.5px solid var(--border2); background:var(--bg); color:var(--text2); font-size:12px; font-weight:500; cursor:pointer; box-shadow:0 2px 10px rgba(0,0,0,0.15); white-space:nowrap; align-items:center; gap:5px; }
+  }
 
 /* ── Modal ── */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:200; align-items:center; justify-content:center; padding:1rem; }
@@ -1503,8 +1505,14 @@ function restoreFromUrl(){
   const p=new URLSearchParams(location.search);
   // date range
   if(p.has('range')){
-    const chip=document.getElementById('chip-'+p.get('range'));
-    if(chip)applyQuick(chip,p.get('range'));
+    const r=p.get('range');
+    const chip=document.getElementById('chip-'+r);
+    if(chip)applyQuick(chip,r);
+    const labels={today:'Today',tomorrow:'Tomorrow',weekend:'Weekend',week:'This week',next7:'Next 7 days',month:'This month'};
+    const dpill=document.getElementById('pill-date');
+    document.getElementById('pill-date-label').textContent=labels[r]||r;
+    if(dpill)dpill.classList.toggle('filtered',r!=='today');
+    document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>{o.classList.toggle('selected',o.textContent===labels[r]);});
   }else if(p.has('from')){
     rangeStart=midnight(new Date(p.get('from')+'T12:00:00'));
     rangeEnd=p.has('to')?midnight(new Date(p.get('to')+'T12:00:00')):rangeStart;
@@ -1536,6 +1544,7 @@ function restoreFromUrl(){
   if(p.get('view')==='row')setView('row');
   else if(p.get('view')==='calendar')setView('calendar');
   else if(p.get('view')==='map')setView('map');
+  updateClearBtn();
 }
 
 /* ── Add to calendar (.ics) ── */
