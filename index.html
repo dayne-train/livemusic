@@ -798,7 +798,7 @@ function parseEntryDate(d){
   return new Date(yr<100?2000+yr:yr,parseInt(p[0],10)-1,parseInt(p[1],10));
 }
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-function cityAbbr(c){const m={'Grants Pass':'GP','Rogue River':'RR','Phoenix':'PHX','Gold Hill':'GLD'};return m[c]||c.slice(0,3).toUpperCase();}
+function cityAbbr(c){const m={'Grants Pass':'GP','Rogue River':'RR','Phoenix':'PHX','Gold Hill':'GLD','Shady Cove':'SHD'};return m[c]||c.slice(0,3).toUpperCase();}
 
 /* directions link — uses venue name + city for Google Maps */
 function mapsUrl(venue,city,address){
