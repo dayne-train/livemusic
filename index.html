@@ -1430,14 +1430,15 @@ function render(){
       </section>`;
     }).join('');
     requestAnimationFrame(setupNextDayBadge);
-    // one-time scroll to today on initial load
+    // one-time scroll to today on initial load — only if today has shows
     if(!_didScrollToday){
       _didScrollToday=true;
-      requestAnimationFrame(()=>{
-        const target=listing.querySelector('[data-date="'+todayStr+'"]')||
-          [...listing.querySelectorAll('[data-date]')].find(el=>el.dataset.date>=todayStr);
-        if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
-      });
+      if(byDay[todayStr]&&byDay[todayStr].length){
+        requestAnimationFrame(()=>{
+          const target=listing.querySelector('[data-date="'+todayStr+'"]');
+          if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+        });
+      }
     }
   }
 }
