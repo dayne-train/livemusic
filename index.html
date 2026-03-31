@@ -393,7 +393,8 @@
   .load-icon { font-size:22px; display:block; margin-bottom:var(--sp-4); }
   .state-icon { font-size:28px; display:block; margin-bottom:var(--sp-4); }
   .state-btn { margin-top:var(--sp-6); padding:var(--sp-4) var(--sp-8); border-radius:999px; border:0.5px solid var(--border2); background:var(--accent); color:#fff; font-size:12px; cursor:pointer; }
-  .state-btn-ghost { padding:var(--sp-4) var(--sp-8); border-radius:999px; border:0.5px solid var(--border2); background:none; color:var(--text2); font-size:12px; cursor:pointer; }
+  .state-btn-ghost { margin-top:var(--sp-6); padding:var(--sp-4) var(--sp-8); border-radius:999px; border:0.5px solid var(--border2); background:none; color:var(--text2); font-size:12px; cursor:pointer; }
+  .state-btn-row .state-btn, .state-btn-row .state-btn-ghost { margin-top:0; }
   .state-btn-row { display:flex; gap:var(--sp-4); justify-content:center; margin-top:var(--sp-8); }
   .error-title { font-weight:600; font-size:15px; margin-bottom:var(--sp-4); }
   .error-detail { margin-top:var(--sp-6); font-size:11px; color:var(--text3); }
@@ -1348,21 +1349,32 @@ function render(){
       const nr=noResults[Math.floor(Math.random()*noResults.length)];
       html=`<span class="state-icon">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
         <br><button onclick="clearAllFilters()" class="state-btn">Clear all filters</button>`;
-    }else if(isSingleDay){
-      const dayOff=[
-        {icon:'&#127964;',msg:'No shows today',sub:'Even musicians need a day off.'},
-        {icon:'&#128564;',msg:'The valley is resting',sub:'No live music scheduled for this one.'},
-        {icon:'&#127748;',msg:'Quiet night ahead',sub:'Nothing on the calendar — but tomorrow might be different.'},
-        {icon:'&#9749;',msg:'Coffee, not concerts',sub:'No gigs today. Check out the weekend?'},
-      ];
-      const nr=dayOff[Math.floor(Math.random()*dayOff.length)];
-      html=`<span class="state-icon">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
-        <div class="state-btn-row">
-          <button onclick="pickDate('tomorrow','Tomorrow')" class="state-btn">Try tomorrow</button>
-          <button onclick="pickDate('weekend','This weekend')" class="state-btn-ghost">This weekend</button>
-        </div>`;
     }else{
-      html='<span class="state-icon">&#127926;</span>No shows in this date range<small>Try a different range or check back later.</small>';
+      // Build smart quick-action suggestions excluding the current range
+      const cur=_currentRange;
+      const allOpts=[
+        {key:'today',label:'Today'},
+        {key:'tomorrow',label:'Tomorrow'},
+        {key:'weekend',label:'This weekend'},
+        {key:'next7',label:'Next 7 days'},
+        {key:'month',label:'This month'},
+      ];
+      const suggestions=allOpts.filter(o=>o.key!==cur).slice(0,2);
+      const btnHtml=suggestions.length?`<div class="state-btn-row">${suggestions.map((s,i)=>
+        `<button onclick="pickDate('${s.key}','${s.label}')" class="${i===0?'state-btn':'state-btn-ghost'}">${s.label}</button>`
+      ).join('')}</div>`:'';
+      if(isSingleDay){
+        const dayOff=[
+          {icon:'&#127964;',msg:'No shows today',sub:'Even musicians need a day off.'},
+          {icon:'&#128564;',msg:'The valley is resting',sub:'No live music scheduled for this one.'},
+          {icon:'&#127748;',msg:'Quiet night ahead',sub:'Nothing on the calendar — but tomorrow might be different.'},
+          {icon:'&#9749;',msg:'Coffee, not concerts',sub:'No gigs today. Check out the weekend?'},
+        ];
+        const nr=dayOff[Math.floor(Math.random()*dayOff.length)];
+        html=`<span class="state-icon">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>${btnHtml}`;
+      }else{
+        html=`<span class="state-icon">&#127926;</span>No shows in this date range<small>Try a different range or check back later.</small>${btnHtml}`;
+      }
     }
     listing.innerHTML='<div class="state-msg">'+html+'</div>';
     return;
