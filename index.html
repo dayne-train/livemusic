@@ -541,7 +541,7 @@
       <button class="nav-chip"        id="chip-tomorrow" onclick="applyQuick(this,'tomorrow')">Tomorrow</button>
       <button class="nav-chip"        id="chip-weekend"  onclick="applyQuick(this,'weekend')">Weekend</button>
       <button class="nav-chip"        id="chip-week"     onclick="applyQuick(this,'week')">This week</button>
-      <button class="nav-chip active" id="chip-next7"    onclick="applyQuick(this,'next7')">Next 7 days</button>
+      <button class="nav-chip"        id="chip-next7"    onclick="applyQuick(this,'next7')">Next 7 days</button>
       <button class="nav-chip"        id="chip-month"    onclick="applyQuick(this,'month')">This month</button>
     </nav>
 
@@ -1041,14 +1041,14 @@ function applyQuick(btn,q){
 }
 
 function pickDate(q,label){
-  const defaultRange='today';
+  const dr=defaultRange();
   // reuse applyQuick logic
   const chip=document.getElementById('chip-'+q);
   applyQuick(chip,q);
   // update date pill label + filtered state
   const pill=document.getElementById('pill-date');
   document.getElementById('pill-date-label').innerHTML=datePillLabel(label);
-  if(pill)pill.classList.toggle('filtered',q!==defaultRange);
+  if(pill)pill.classList.toggle('filtered',q!==dr);
   // update selected state in menu
   document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.remove('selected'));
   if(event&&event.target){const t=event.target.closest('.pill-option')||event.target;t.classList.add('selected');}
@@ -1212,23 +1212,25 @@ function pickFilter(name,value,label){
   updateClearBtn();syncUrl();render();
 }
 
+function defaultRange(){return isMobile()?'today':'next7';}
+function defaultRangeLabel(){return isMobile()?'Today':'Next 7 days';}
+function isDefaultDateRange(){const dr=defaultRange();const t=midnight(new Date());if(dr==='today')return fmtISO(rangeStart)===fmtISO(t)&&fmtISO(rangeEnd)===fmtISO(t);if(dr==='next7')return fmtISO(rangeStart)===fmtISO(t)&&fmtISO(rangeEnd)===fmtISO(addDays(t,6));return false;}
 function hasActiveFilters(){return activeRegion!=='all'||activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all';}
 function updateClearBtn(){
   const btn=document.getElementById('clear-filters-btn');
   if(!btn)return;
-  const dateDefault=fmtISO(rangeStart)===fmtISO(midnight(new Date()))&&fmtISO(rangeEnd)===fmtISO(midnight(new Date()));
   const searchActive=document.getElementById('search').value;
-  btn.style.display=(hasActiveFilters()||!dateDefault||searchActive)?'inline-flex':'none';
+  btn.style.display=(hasActiveFilters()||!isDefaultDateRange()||searchActive)?'inline-flex':'none';
 }
 function resetHome(){
   // reset date to default
-  _currentRange='today';
-  const defaultRange='today';
-  applyQuick(document.getElementById('chip-'+defaultRange),defaultRange);
-  document.getElementById('pill-date-label').innerHTML=datePillLabel('Today');
+  const dr=defaultRange(),drl=defaultRangeLabel();
+  _currentRange=dr;
+  applyQuick(document.getElementById('chip-'+dr),dr);
+  document.getElementById('pill-date-label').innerHTML=datePillLabel(drl);
   document.getElementById('pill-date').classList.remove('filtered');
   // sync date menu selected state
-  document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.toggle('selected',o.childNodes[0].textContent.trim()==='Today'));
+  document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.toggle('selected',o.childNodes[0].textContent.trim()===drl));
   // reset all filters + bottom sheet
   clearAllFilters();
   // clear search
@@ -1336,8 +1338,7 @@ function render(){
   if(_nw){const dow=new Date().getDay();_nw.style.display=(dow===0||dow===6)?'':'none';}
   // mobile clear pill visibility
   const _mcp=document.getElementById('mobile-clear-pill');
-  const _isDefault=fmtISO(rangeStart)===fmtISO(midnight(new Date()))&&fmtISO(rangeEnd)===fmtISO(midnight(new Date()));
-  const _anyActive=hasActiveFilters()||document.getElementById('search').value||!_isDefault;
+  const _anyActive=hasActiveFilters()||document.getElementById('search').value||!isDefaultDateRange();
   if(_mcp)_mcp.style.display=_anyActive?'block':'none';
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
@@ -2014,11 +2015,17 @@ document.getElementById('view-card-btn').classList.toggle('active',viewMode==='c
 document.getElementById('view-row-btn').classList.toggle('active',viewMode==='row');
 
 if(!location.search){
-  // default: Today
-  rangeStart=midnight(new Date());rangeEnd=midnight(new Date());
-  document.getElementById('pill-date-label').innerHTML=datePillLabel('Today');
+  const dr=defaultRange(),drl=defaultRangeLabel();
+  _currentRange=dr;
+  const t=midnight(new Date());
+  if(dr==='next7'){rangeStart=t;rangeEnd=addDays(t,6);}
+  else{rangeStart=t;rangeEnd=t;}
+  document.getElementById('pill-date-label').innerHTML=datePillLabel(drl);
   document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.remove('selected'));
-  document.querySelector('#pill-date-menu .pill-option').classList.add('selected');
+  document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>{if(o.childNodes[0].textContent.trim()===drl)o.classList.add('selected');});
+  // sync desktop nav chip
+  const chip=document.getElementById('chip-'+dr);
+  if(chip){document.querySelectorAll('.nav-chip').forEach(c=>c.classList.remove('active'));chip.classList.add('active');}
 }else{
   rangeStart=midnight(new Date());rangeEnd=addDays(rangeStart,6);
 }
