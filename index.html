@@ -757,7 +757,7 @@ const CACHE_KEY='rogue_live_cache';
 const CACHE_TS_KEY='rogue_live_cache_ts';
 const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
 
-let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='card', _didScrollToday=false;
+let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='row', _didScrollToday=false;
 
 /* ── Utils ── */
 function midnight(d){const x=new Date(d);x.setHours(0,0,0,0);return x;}
