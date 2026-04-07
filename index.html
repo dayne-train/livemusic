@@ -87,6 +87,7 @@
     --sp-1:2px; --sp-2:4px; --sp-4:8px; --sp-6:12px; --sp-8:16px; --sp-9:20px; --sp-10:24px; --sp-11:28px; --sp-12:32px; --sp-14:40px; --sp-16:48px;
     --hover-tint:rgba(29,158,117,0.06);
     --row-fade-rgb:28,28,26;
+    --bg3-rgb:20,20,18;
     --cover-bg:#2a1f00; --cover-text:#f9a846; --cover-border:#6b4010;
     --solo-text:#93adf8; --solo-border:#5066d4;
     --openmic-text:#e8992a; --openmic-border:#b07316;
@@ -101,6 +102,7 @@
     --green:#158a64; --green-dark:#0e6e50;
     --hover-tint:rgba(21,138,100,0.06);
     --row-fade-rgb:255,255,255;
+    --bg3-rgb:234,234,232;
     --cover-bg:#fff3d6; --cover-text:#8a6100; --cover-border:#d4a84a;
     --solo-text:#3451d1; --solo-border:#6378e0;
     --openmic-text:#9a6800; --openmic-border:#c48418;
@@ -116,6 +118,7 @@
       --green:#158a64; --green-dark:#0e6e50;
       --hover-tint:rgba(21,138,100,0.06);
       --row-fade-rgb:255,255,255;
+      --bg3-rgb:234,234,232;
       --cover-bg:#fff3d6; --cover-text:#8a6100; --cover-border:#d4a84a;
       --solo-text:#3451d1; --solo-border:#6378e0;
       --openmic-text:#9a6800; --openmic-border:#c48418;
@@ -191,7 +194,9 @@
   /* ── Filter row ── */
   .filter-bar { background:var(--bg3); }
   .filter-bar { position:relative; }
-  .filter-bar::after { content:''; position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:min(calc(1140px - var(--sp-10) - var(--sp-10)),calc(100% - var(--sp-10) - var(--sp-10))); height:0.5px; background:var(--border); }
+  .filter-bar::after { content:''; position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:min(calc(1140px - var(--sp-10) - var(--sp-10)),calc(100% - var(--sp-10) - var(--sp-10))); height:0.5px; background:var(--border); transition:opacity 0.2s; }
+  .filter-bar.scrolled::after { opacity:0; }
+  .filter-bar::before { content:''; position:absolute; left:0; right:0; top:100%; height:24px; background:linear-gradient(to bottom,rgba(var(--bg3-rgb),0.7),rgba(var(--bg3-rgb),0)); pointer-events:none; z-index:1; }
   .filter-row { padding:var(--sp-6) var(--sp-10); display:flex; gap:var(--sp-4); flex-wrap:wrap; align-items:center; max-width:1140px; margin:0 auto; }
 
   /* ── Dropdown pills ── */
@@ -1962,6 +1967,31 @@ function jumpToDay(ds){
     }
     lastY=y;
   },{passive:true});
+})();
+
+/* toggle filter-bar bottom line off when scrolled */
+(function(){
+  const fb=document.querySelector('.filter-bar');
+  if(!fb)return;
+  const update=()=>fb.classList.toggle('scrolled',window.scrollY>4);
+  window.addEventListener('scroll',update,{passive:true});
+  update();
+})();
+
+/* re-render when crossing mobile breakpoint so view switches between row/card */
+(function(){
+  let wasMobile=isMobile();
+  let _t;
+  window.addEventListener('resize',function(){
+    clearTimeout(_t);
+    _t=setTimeout(function(){
+      const nowMobile=isMobile();
+      if(nowMobile!==wasMobile){
+        wasMobile=nowMobile;
+        if(allEvents&&allEvents.length)render();
+      }
+    },120);
+  });
 })();
 
 /* ── Contact word cycle ── */
