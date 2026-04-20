@@ -405,15 +405,25 @@
   /* ── Calendar picker interstitial ── */
   .calpicker-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:250; align-items:center; justify-content:center; padding:var(--sp-8); }
   .calpicker-overlay.open { display:flex; }
-  .calpicker { background:var(--bg); border-radius:var(--radius); border:0.5px solid var(--border); max-width:320px; width:100%; padding:var(--sp-10); position:relative; }
-  .calpicker-title { font-size:15px; font-weight:600; margin-bottom:var(--sp-2); }
-  .calpicker-sub { font-size:12px; color:var(--text3); margin-bottom:var(--sp-8); }
-  .calpicker-options { display:flex; flex-direction:column; gap:var(--sp-3); }
-  .calpicker-btn { display:flex; align-items:center; gap:var(--sp-6); padding:var(--sp-5) var(--sp-6); border-radius:var(--radius-sm); border:0.5px solid var(--border2); background:none; cursor:pointer; font-size:13px; color:var(--text); text-decoration:none; transition:all 0.1s; text-align:left; font-family:inherit; width:100%; }
-  .calpicker-btn:hover { background:var(--bg2); border-color:var(--green); }
-  .calpicker-btn svg { flex-shrink:0; }
-  .calpicker-cancel { margin-top:var(--sp-6); padding:var(--sp-3) var(--sp-6); border:none; background:none; cursor:pointer; font-size:12px; color:var(--text3); width:100%; text-align:center; font-family:inherit; }
-  .calpicker-cancel:hover { color:var(--text); }
+  .calpicker { background:var(--bg); border-radius:var(--radius); border:0.5px solid var(--border); max-width:340px; width:100%; padding:var(--sp-10); position:relative; }
+  .calpicker-close { position:absolute; top:var(--sp-8); right:var(--sp-8); background:none; border:none; font-size:20px; cursor:pointer; color:var(--text3); width:28px; height:28px; display:flex; align-items:center; justify-content:center; border-radius:var(--radius-sm); transition:background 0.1s; }
+  .calpicker-close:hover { background:var(--bg2); }
+  .calpicker-title { font-size:15px; font-weight:600; margin-bottom:var(--sp-1); padding-right:var(--sp-14); }
+  .calpicker-sub { font-size:11px; color:var(--text3); margin-bottom:var(--sp-8); }
+  .calpicker-options { display:flex; flex-direction:column; gap:0; border-top:0.5px solid var(--border); }
+  .calpicker-btn { display:flex; align-items:center; gap:var(--sp-6); padding:var(--sp-6) var(--sp-2); border-bottom:0.5px solid var(--border); background:none; cursor:pointer; font-size:13px; color:var(--text); text-decoration:none; transition:all 0.15s; text-align:left; font-family:inherit; width:100%; border-left:none; border-right:none; border-top:none; }
+  .calpicker-btn:last-child { border-bottom:none; }
+  .calpicker-btn:hover { background:var(--hover-tint); }
+  .calpicker-btn:hover .calpicker-icon { color:var(--green); }
+  .calpicker-icon { width:22px; flex-shrink:0; color:var(--text3); display:flex; align-items:center; justify-content:center; transition:color 0.15s; }
+  .calpicker-label { display:flex; flex-direction:column; gap:1px; }
+  .calpicker-label-main { font-size:13px; font-weight:500; color:var(--text); }
+  .calpicker-label-hint { font-size:10px; color:var(--text3); letter-spacing:0.02em; }
+  .calpicker-chev { margin-left:auto; color:var(--text3); opacity:0; transition:opacity 0.15s; flex-shrink:0; }
+  .calpicker-btn:hover .calpicker-chev { opacity:1; }
+  .calpicker-footer { margin-top:var(--sp-6); text-align:center; }
+  .calpicker-cancel { padding:var(--sp-2) var(--sp-6); border-radius:999px; border:0.5px solid var(--border2); background:none; cursor:pointer; font-size:11px; color:var(--text3); font-family:inherit; transition:all 0.1s; }
+  .calpicker-cancel:hover { background:var(--bg2); color:var(--text2); border-color:var(--text3); }
   .venue-type-hint { color:var(--text3); }
   .genre-hint { font-style:italic; color:var(--text2); }
   .footer-meta a:last-of-type { color:var(--text3); }
@@ -766,10 +776,11 @@
 
 <div class="calpicker-overlay" id="calpicker" role="dialog" aria-modal="true" aria-label="Choose calendar">
   <div class="calpicker">
+    <button class="calpicker-close" onclick="closeCalPicker()" aria-label="Close">&times;</button>
     <div class="calpicker-title">Add to Calendar</div>
     <div class="calpicker-sub">Choose your preferred calendar</div>
     <div class="calpicker-options" id="calpicker-options"></div>
-    <button class="calpicker-cancel" onclick="closeCalPicker()">Cancel</button>
+    <div class="calpicker-footer"><button class="calpicker-cancel" onclick="closeCalPicker()">Cancel</button></div>
   </div>
 </div>
 
@@ -1801,26 +1812,27 @@ function calendarUrls(e){
 function openCalPicker(idx){
   const e=allEvents[idx];if(!e)return;
   const urls=calendarUrls(e);
+  const chev='<svg class="calpicker-chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>';
   document.getElementById('calpicker-options').innerHTML=`
     <a class="calpicker-btn" href="${urls.google}" target="_blank" rel="noopener" onclick="closeCalPicker()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="16" r="1.5" fill="#34a853"/></svg>
-      Google Calendar
+      <span class="calpicker-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+      <span class="calpicker-label"><span class="calpicker-label-main">Google Calendar</span><span class="calpicker-label-hint">Opens in browser</span></span>${chev}
     </a>
     <button class="calpicker-btn" onclick="downloadIcs(${idx});closeCalPicker()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 15l2 2 4-4" stroke="#007aff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Apple Calendar
+      <span class="calpicker-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 15l2 2 4-4"/></svg></span>
+      <span class="calpicker-label"><span class="calpicker-label-main">Apple Calendar</span><span class="calpicker-label-hint">Downloads .ics file</span></span>${chev}
     </button>
     <a class="calpicker-btn" href="${urls.outlook}" target="_blank" rel="noopener" onclick="closeCalPicker()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><rect x="9" y="13" width="6" height="6" rx="1" fill="#0078d4" opacity="0.7"/></svg>
-      Outlook
+      <span class="calpicker-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><rect x="9.5" y="13" width="5" height="5" rx="1"/></svg></span>
+      <span class="calpicker-label"><span class="calpicker-label-main">Outlook</span><span class="calpicker-label-hint">Opens in browser</span></span>${chev}
     </a>
     <a class="calpicker-btn" href="${urls.yahoo}" target="_blank" rel="noopener" onclick="closeCalPicker()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M10 14l2 3 2-3" stroke="#6001d2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Yahoo Calendar
+      <span class="calpicker-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M10 14l2 3 2-3"/></svg></span>
+      <span class="calpicker-label"><span class="calpicker-label-main">Yahoo Calendar</span><span class="calpicker-label-hint">Opens in browser</span></span>${chev}
     </a>
     <button class="calpicker-btn" onclick="downloadIcs(${idx});closeCalPicker()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7 10 12 15 17 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      Download .ics file
+      <span class="calpicker-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span>
+      <span class="calpicker-label"><span class="calpicker-label-main">Download .ics</span><span class="calpicker-label-hint">For any calendar app</span></span>${chev}
     </button>`;
   document.getElementById('calpicker').classList.add('open');
 }
