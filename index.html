@@ -401,6 +401,19 @@
   .error-icon { font-size:22px; margin-bottom:var(--sp-2); }
   .modal-actions { display:flex; gap:var(--sp-4); margin-top:var(--sp-8); padding-top:var(--sp-6); border-top:0.5px solid var(--border); }
   .modal-action { flex:1; justify-content:center; padding:var(--sp-4) var(--sp-6); font-size:12px; }
+
+  /* ── Calendar picker interstitial ── */
+  .calpicker-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.45); z-index:250; align-items:center; justify-content:center; padding:var(--sp-8); }
+  .calpicker-overlay.open { display:flex; }
+  .calpicker { background:var(--bg); border-radius:var(--radius); border:0.5px solid var(--border); max-width:320px; width:100%; padding:var(--sp-10); position:relative; }
+  .calpicker-title { font-size:15px; font-weight:600; margin-bottom:var(--sp-2); }
+  .calpicker-sub { font-size:12px; color:var(--text3); margin-bottom:var(--sp-8); }
+  .calpicker-options { display:flex; flex-direction:column; gap:var(--sp-3); }
+  .calpicker-btn { display:flex; align-items:center; gap:var(--sp-6); padding:var(--sp-5) var(--sp-6); border-radius:var(--radius-sm); border:0.5px solid var(--border2); background:none; cursor:pointer; font-size:13px; color:var(--text); text-decoration:none; transition:all 0.1s; text-align:left; font-family:inherit; width:100%; }
+  .calpicker-btn:hover { background:var(--bg2); border-color:var(--green); }
+  .calpicker-btn svg { flex-shrink:0; }
+  .calpicker-cancel { margin-top:var(--sp-6); padding:var(--sp-3) var(--sp-6); border:none; background:none; cursor:pointer; font-size:12px; color:var(--text3); width:100%; text-align:center; font-family:inherit; }
+  .calpicker-cancel:hover { color:var(--text); }
   .venue-type-hint { color:var(--text3); }
   .genre-hint { font-style:italic; color:var(--text2); }
   .footer-meta a:last-of-type { color:var(--text3); }
@@ -748,6 +761,15 @@
   <div class="modal">
     <button class="modal-close" onclick="closeModal()" aria-label="Close dialog">&times;</button>
     <div id="modal-body"></div>
+  </div>
+</div>
+
+<div class="calpicker-overlay" id="calpicker" role="dialog" aria-modal="true" aria-label="Choose calendar">
+  <div class="calpicker">
+    <div class="calpicker-title">Add to Calendar</div>
+    <div class="calpicker-sub">Choose your preferred calendar</div>
+    <div class="calpicker-options" id="calpicker-options"></div>
+    <button class="calpicker-cancel" onclick="closeCalPicker()">Cancel</button>
   </div>
 </div>
 
@@ -1473,7 +1495,7 @@ function rowHtml(e,idx){
     <div class="row-col row-col-time">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
     <div class="row-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})">View</button>
-      <button class="card-action-btn" onclick="event.stopPropagation();downloadIcs(${idx})">Save</button>
+      <button class="card-action-btn" onclick="event.stopPropagation();openCalPicker(${idx})">Save</button>
       ${dirUrl?dirBtn:''}
     </div>
   </article>`;
@@ -1495,7 +1517,7 @@ function cardHtml(e,idx){
     </div>
     <div class="card-actions">
       <button class="card-action-btn" onclick="event.stopPropagation();openDetail(${idx})">View</button>
-      <button class="card-action-btn" onclick="event.stopPropagation();downloadIcs(${idx})">Save</button>
+      <button class="card-action-btn" onclick="event.stopPropagation();openCalPicker(${idx})">Save</button>
       ${dirUrl?dirBtn:''}
     </div>
   </article>`;
@@ -1534,7 +1556,7 @@ function openDetail(idx){
       </div></div>`:''}
     </div>
     <div class="modal-actions">
-      <button class="card-action-btn modal-action" onclick="downloadIcs(${idx})">Save <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></button>
+      <button class="card-action-btn modal-action" onclick="openCalPicker(${idx})">Save <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></button>
       <a class="card-action-btn modal-action" href="${esc(dirUrl)}" target="_blank" rel="noopener">Directions <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a>
       <button class="card-action-btn modal-action" id="share-btn" onclick="shareEvent(${idx})">Share <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></button>
     </div>`;
@@ -1752,6 +1774,77 @@ function downloadIcs(idx){
   a.click();
   URL.revokeObjectURL(a.href);
 }
+
+/* ── Calendar picker interstitial ── */
+function gcalDate(date,timeRaw){
+  const y=date.getFullYear(),mo=padIcs(date.getMonth()+1),d=padIcs(date.getDate());
+  if(!timeRaw||!timeRaw.trim()) return y+mo+d;
+  const s=timeRaw.trim().padStart(4,'0');
+  const h=padIcs(parseInt(s.slice(0,s.length-2),10)),m=padIcs(s.slice(-2));
+  return y+mo+d+'T'+h+m+'00';
+}
+function calendarUrls(e){
+  const title=encodeURIComponent(e.musician+' at '+e.venue);
+  const loc=encodeURIComponent(e.venue+(e.city?', '+e.city+', OR':''));
+  const desc=encodeURIComponent((e.genre?e.genre+'. ':'')+(e.notes||e.eventType));
+  const dtStart=gcalDate(e.date,e.startRaw);
+  let dtEnd;
+  if(e.endRaw&&e.endRaw.trim()){
+    dtEnd=gcalDate(e.date,e.endRaw);
+  }else{
+    const s=e.startRaw?e.startRaw.trim().padStart(4,'0'):'2000';
+    let h=parseInt(s.slice(0,s.length-2),10)+2,m=s.slice(-2);
+    dtEnd=e.date.getFullYear()+padIcs(e.date.getMonth()+1)+padIcs(e.date.getDate())+'T'+padIcs(h)+padIcs(m)+'00';
+  }
+  // ISO format for Outlook
+  const isoStart=e.date.getFullYear()+'-'+padIcs(e.date.getMonth()+1)+'-'+padIcs(e.date.getDate());
+  const startTime=e.startRaw?e.startRaw.trim().padStart(4,'0'):'2000';
+  const endTime=e.endRaw&&e.endRaw.trim()?e.endRaw.trim().padStart(4,'0'):String(parseInt(startTime.slice(0,startTime.length-2),10)+2).padStart(2,'0')+startTime.slice(-2);
+  const isoS=isoStart+'T'+padIcs(parseInt(startTime.slice(0,startTime.length-2),10))+':'+padIcs(startTime.slice(-2))+':00';
+  const isoE=isoStart+'T'+padIcs(parseInt(endTime.slice(0,endTime.length-2),10))+':'+padIcs(endTime.slice(-2))+':00';
+  return {
+    google:'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+title+'&dates='+dtStart+'/'+dtEnd+'&location='+loc+'&details='+desc,
+    outlook:'https://outlook.live.com/calendar/0/action/compose?subject='+title+'&startdt='+encodeURIComponent(isoS)+'&enddt='+encodeURIComponent(isoE)+'&location='+loc+'&body='+desc+'&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent',
+    yahoo:'https://calendar.yahoo.com/?v=60&title='+title+'&st='+dtStart+'&et='+dtEnd+'&in_loc='+loc+'&desc='+desc
+  };
+}
+function openCalPicker(idx){
+  const e=allEvents[idx];if(!e)return;
+  const urls=calendarUrls(e);
+  document.getElementById('calpicker-options').innerHTML=`
+    <a class="calpicker-btn" href="${urls.google}" target="_blank" rel="noopener" onclick="closeCalPicker()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="16" r="1.5" fill="#34a853"/></svg>
+      Google Calendar
+    </a>
+    <button class="calpicker-btn" onclick="downloadIcs(${idx});closeCalPicker()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 15l2 2 4-4" stroke="#007aff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Apple Calendar
+    </button>
+    <a class="calpicker-btn" href="${urls.outlook}" target="_blank" rel="noopener" onclick="closeCalPicker()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><rect x="9" y="13" width="6" height="6" rx="1" fill="#0078d4" opacity="0.7"/></svg>
+      Outlook
+    </a>
+    <a class="calpicker-btn" href="${urls.yahoo}" target="_blank" rel="noopener" onclick="closeCalPicker()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M10 14l2 3 2-3" stroke="#6001d2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Yahoo Calendar
+    </a>
+    <button class="calpicker-btn" onclick="downloadIcs(${idx});closeCalPicker()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7 10 12 15 17 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      Download .ics file
+    </button>`;
+  document.getElementById('calpicker').classList.add('open');
+}
+function closeCalPicker(){
+  document.getElementById('calpicker').classList.remove('open');
+}
+// Close on overlay click
+document.getElementById('calpicker').addEventListener('click',function(ev){
+  if(ev.target===this) closeCalPicker();
+});
+// Close on Escape
+document.getElementById('calpicker').addEventListener('keydown',function(ev){
+  if(ev.key==='Escape') closeCalPicker();
+});
 
 /* ── Share ── */
 function shareEvent(idx){
