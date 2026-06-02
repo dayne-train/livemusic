@@ -21,24 +21,67 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Fetch + validate snapshot
         id: fetch
         run: |
-          set -euo pipefail
+          set -uo pipefail
           mkdir -p data
           TMP="$(mktemp)"
 
-          # The source serves valid data but with an expired, self-signed cert,
-          # so trust verification is intentionally disabled here (server-side only).
-          # Try HTTPS (-k) first, then fall back to plain HTTP.
-          fetch() {
-            curl -fsSL -k --retry 3 --retry-delay 5 --max-time 45 \
-              -A "rvlivemusic-refresh-bot" "$1" -o "$TMP"
+          # The source has two problems we need to work around server-side:
+          #  - expired self-signed TLS cert (so we disable trust verification)
+          #  - WAF that returns HTTP 415 to bot-ish requests from datacenter IPs
+          # We try several fetchers with different TCP/TLS fingerprints and a
+          # browser-like header set. First one to land valid bytes wins.
+          UA='Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0'
+          HDRS=(
+            -H "User-Agent: $UA"
+            -H "Accept: text/plain,text/html;q=0.9,*/*;q=0.8"
+            -H "Accept-Language: en-US,en;q=0.9"
+            -H "Accept-Encoding: gzip, deflate, br"
+          )
+
+          try_curl() {
+            local url="$1" extra="${2:-}"
+            curl -fsSL -k --compressed \
+              --retry 2 --retry-delay 4 --max-time 45 \
+              "${HDRS[@]}" $extra "$url" -o "$TMP"
           }
-          fetch "https://roguevalleylivemusicnightlife.com/musiclist.txt" \
-            || fetch "http://roguevalleylivemusicnightlife.com/musiclist.txt"
+          try_wget() {
+            local url="$1"
+            wget --quiet --no-check-certificate --tries=2 --timeout=45 \
+              --user-agent="$UA" \
+              --header="Accept: text/plain,text/html;q=0.9,*/*;q=0.8" \
+              --header="Accept-Language: en-US,en;q=0.9" \
+              -O "$TMP" "$url"
+          }
+
+          URL_HTTPS="https://roguevalleylivemusicnightlife.com/musiclist.txt"
+          URL_HTTP="http://roguevalleylivemusicnightlife.com/musiclist.txt"
+          OK=""
+          for attempt in \
+            "curl-https-h2:try_curl $URL_HTTPS" \
+            "curl-https-h1:try_curl $URL_HTTPS --http1.1" \
+            "curl-http:    try_curl $URL_HTTP" \
+            "wget-https:   try_wget $URL_HTTPS" \
+            "wget-http:    try_wget $URL_HTTP" ; do
+            LABEL="${attempt%%:*}"
+            CMD="${attempt#*:}"
+            echo "::group::Attempt $LABEL"
+            if eval "$CMD" ; then echo "OK ($LABEL)"; OK="$LABEL"; echo "::endgroup::"; break ; fi
+            echo "failed"
+            echo "::endgroup::"
+          done
+
+          if [ -z "$OK" ]; then
+            echo "::error::All fetchers failed — keeping last good snapshot"
+            exit 1
+          fi
+          echo "fetch_strategy=$OK" >> "$GITHUB_OUTPUT"
+
+          set -e  # re-enable fail-fast for validation / write steps below
 
           # Validate: non-trivial size and the expected section markers must
           # be present, otherwise we keep the last known-good snapshot.
