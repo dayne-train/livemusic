@@ -1,0 +1,86 @@
+name: Refresh music data snapshot
+
+# Fetches the upstream music list server-side (where we can tolerate the
+# source's expired self-signed TLS cert), validates it, and commits a
+# same-origin snapshot the site can fall back to when the live proxies fail.
+
+on:
+  schedule:
+    - cron: '0 14 * * *'   # daily ~06:00 America/Los_Angeles (14:00 UTC)
+  workflow_dispatch: {}      # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch + validate snapshot
+        id: fetch
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          TMP="$(mktemp)"
+
+          # The source serves valid data but with an expired, self-signed cert,
+          # so trust verification is intentionally disabled here (server-side only).
+          # Try HTTPS (-k) first, then fall back to plain HTTP.
+          fetch() {
+            curl -fsSL -k --retry 3 --retry-delay 5 --max-time 45 \
+              -A "rvlivemusic-refresh-bot" "$1" -o "$TMP"
+          }
+          fetch "https://roguevalleylivemusicnightlife.com/musiclist.txt" \
+            || fetch "http://roguevalleylivemusicnightlife.com/musiclist.txt"
+
+          # Validate: non-trivial size and the expected section markers must
+          # be present, otherwise we keep the last known-good snapshot.
+          BYTES="$(wc -c < "$TMP" | tr -d ' ')"
+          if [ "$BYTES" -lt 1000 ]; then
+            echo "::error::Fetched file too small ($BYTES bytes) — keeping last good snapshot"
+            exit 1
+          fi
+          for marker in -- '--events' '--musicians' '--venues'; do :; done
+          if ! grep -q '^--events' "$TMP" \
+             || ! grep -q '^--musicians' "$TMP" \
+             || ! grep -q '^--venues' "$TMP"; then
+            echo "::error::Fetched file missing expected section markers — keeping last good snapshot"
+            exit 1
+          fi
+          # Reject the codetabs/CDN "One moment, please..." bot-challenge page.
+          if grep -qi 'One moment, please' "$TMP"; then
+            echo "::error::Got a bot-challenge page instead of data — keeping last good snapshot"
+            exit 1
+          fi
+
+          # Source's own timestamp lives on the line after the --timestamp marker.
+          SRC_TS="$(awk '/^--timestamp/{getline; print; exit}' "$TMP" | tr -d '\r')"
+
+          mv "$TMP" data/musiclist.txt
+          printf '{\n  "fetched_at": "%s",\n  "source_timestamp": "%s",\n  "bytes": %s\n}\n' \
+            "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "${SRC_TS:-unknown}" "$BYTES" > data/meta.json
+
+          echo "Snapshot OK: $BYTES bytes, source timestamp: ${SRC_TS:-unknown}"
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/musiclist.txt data/meta.json
+          # data/meta.json changes every run (fetched_at); only commit when the
+          # actual music list changed, then refresh meta alongside it.
+          if git diff --cached --quiet -- data/musiclist.txt; then
+            echo "No change in music list — skipping commit."
+            git reset -q
+          else
+            git commit -m "Refresh music data snapshot"
+            git push
+          fi

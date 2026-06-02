@@ -791,6 +791,10 @@ const PROXIES=[
   {url:'https://api.codetabs.com/v1/proxy/?quest='+encodeURIComponent(SOURCE_URL), json:false, extract:t=>t},
   {url:'https://api.allorigins.win/get?url='+encodeURIComponent(SOURCE_URL), json:true, extract:j=>j.contents},
 ];
+/* Same-origin snapshot refreshed daily by GitHub Actions — the fallback that
+   works for first-time visitors when the live proxies are all down. */
+const SNAPSHOT_URL='data/musiclist.txt';
+const SNAPSHOT_META_URL='data/meta.json';
 const CACHE_KEY='rogue_live_cache';
 const CACHE_TS_KEY='rogue_live_cache_ts';
 const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
@@ -967,12 +971,21 @@ function fetchWithTimeout(url,ms=8000){
 }
 
 function saveCache(txt){
+  /* Refuse to persist anything that isn't a real music list — guards against
+     re-poisoning the cache with proxy bot-challenge pages or other junk. */
+  if(!looksLikeMusicList(txt))return;
   try{localStorage.setItem(CACHE_KEY,txt);localStorage.setItem(CACHE_TS_KEY,Date.now().toString());}catch(e){}
 }
 function loadCache(){
   try{
     const txt=localStorage.getItem(CACHE_KEY),ts=parseInt(localStorage.getItem(CACHE_TS_KEY)||'0',10);
     if(!txt)return null;
+    /* Reject poisoned cache (e.g. a bot-challenge HTML page saved by a prior
+       version) and clear it so the live/snapshot fetch path can run. */
+    if(!looksLikeMusicList(txt)){
+      try{localStorage.removeItem(CACHE_KEY);localStorage.removeItem(CACHE_TS_KEY);}catch(e){}
+      return null;
+    }
     return{txt,ts,stale:Date.now()-ts>CACHE_MAX_AGE};
   }catch(e){return null;}
 }
@@ -985,22 +998,49 @@ function showStaleNotice(ts){
 }
 function hideStaleNotice(){const bar=document.getElementById('stale-bar');if(bar)bar.style.display='none';}
 
+/* Self-hosted snapshot fallback (same-origin, no proxy/CORS) */
+async function fetchSnapshot(){
+  const res=await fetchWithTimeout(SNAPSHOT_URL,8000);
+  if(!res.ok)throw new Error('Snapshot HTTP '+res.status);
+  const txt=await res.text();
+  if(!txt||txt.length<50||txt.indexOf('--events')===-1)throw new Error('Snapshot invalid');
+  return txt;
+}
+async function fetchSnapshotMeta(){
+  try{const r=await fetchWithTimeout(SNAPSHOT_META_URL,4000);if(!r.ok)return null;return await r.json();}catch(e){return null;}
+}
+function showSnapshotNotice(meta){
+  const bar=document.getElementById('stale-bar');if(!bar)return;
+  let label='a saved copy';
+  if(meta&&meta.source_timestamp&&meta.source_timestamp!=='unknown')label='data updated '+meta.source_timestamp;
+  else if(meta&&meta.fetched_at)label='a copy saved '+new Date(meta.fetched_at).toLocaleDateString();
+  bar.style.display='flex';
+  bar.querySelector('span').textContent='Showing '+label+'. Live source temporarily unavailable.';
+}
+
+/* A real music list has these section markers. Proxies sometimes return a
+   200 with a CDN/bot-challenge page (e.g. "One moment, please...") instead of
+   the data — that must count as a failure so the snapshot fallback can fire. */
+function looksLikeMusicList(txt){
+  return !!txt && txt.length>=200 && txt.indexOf('--events')!==-1 && txt.indexOf('--musicians')!==-1;
+}
+
 async function fetchFromProxies(){
-  // race all proxies in parallel — first success wins
+  // race all proxies in parallel — first VALID response wins
   return new Promise((resolve,reject)=>{
     let resolved=false,errors=0;
+    const fail=()=>{ if(++errors===PROXIES.length&&!resolved)reject(new Error('All sources failed or returned invalid data')); };
+    // overall guard: never hang past the per-request timeout if a proxy stalls
+    setTimeout(()=>{ if(!resolved){resolved=true;reject(new Error('Sources timed out'));} }, 10000);
     PROXIES.forEach(p=>{
       fetchWithTimeout(p.url).then(res=>{
         if(!res.ok)throw new Error('HTTP '+res.status);
         return p.json?res.json():res.text();
       }).then(body=>{
         const txt=p.json?p.extract(body):body;
-        if(!txt||txt.length<50)throw new Error('Empty response');
+        if(!looksLikeMusicList(txt))throw new Error('Invalid/non-data response');
         if(!resolved){resolved=true;resolve(txt);}
-      }).catch(()=>{
-        errors++;
-        if(errors===PROXIES.length&&!resolved)reject(new Error('All sources failed'));
-      });
+      }).catch(fail);
     });
   });
 }
@@ -1029,6 +1069,19 @@ async function loadData(){
     render();
     openFromUrl();
   }catch(err){
+    /* All live proxies failed — fall back to the same-origin daily snapshot.
+       This is the path that works for first-time visitors with no local cache. */
+    try{
+      const txt=await fetchSnapshot();
+      saveCache(txt);
+      allEvents=parseTxt(txt);
+      populateFilterDropdowns();
+      render();
+      openFromUrl();
+      showSnapshotNotice(await fetchSnapshotMeta());
+      return;
+    }catch(snapErr){/* snapshot unavailable too — fall through */}
+
     if(cached){
       /* We already rendered cached data — just show the stale notice */
       showStaleNotice(cached.ts);

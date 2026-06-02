@@ -1,0 +1,787 @@
+--timestamp
+06/01/2026 12:34
+--news
+* date | notes
+--musicians
+* musician | link | notes
+100 Watt Mind|Rock|https://www.facebook.com/100wattmind/||Band|
+Aaron Carter||https://www.facebook.com/AaronCartermusic||Band|
+Adam Gabriel||https://www.facebook.com/adamgabrielmusic||Band|
+Allison and Victor||https://allisonandvictor.com/||Band|
+Alquimistas||https://www.facebook.com/reel/1136931026877304||Band|
+Anna Tutor||https://annatutor.com/||Band|
+Ashland Blues Society Blues Jam|blues|http://www.ashlandblues.org/||Jam|
+Band Du Pays|Swing|http://www.banddupays.com/BandduPays/Home.html||Band|
+Bathtub Gin Serenaders|swing|https://www.facebook.com/TBTGS/||Band|
+Ben Rice Band||http://www.benricelive.com/||Band|
+Billy Lund|country rock|||Band|
+Bim Jeam and the Sadness||https://bimjeamandthesadness.com/||Band|
+Bishop Mayfield|Blues / Jazz & Gospel / Originals, Blues, Funk & Soul|https://www.facebook.com/bishop.mayfield1||Band|
+Black Cadilliac Kings|Rockabilly / Blues|https://www.reverbnation.com/blackcadillackings||Band|
+Blades of Grass|blue grass, folk, pop|https://www.facebook.com/Blades-of-Grass-526373397477320/||Band|
+Blowin Smoke|country rock|https://www.facebook.com/blowinsmokebeth||Band|
+Blu Egyptian|variety, original|http://bluegyptianband.com||Band|
+Blue Lightning|classic rock|https://bluelightningrocks.com||Band|
+Bob Haworth|Folk, Pop|http://www.bobhaworth.com/||Band|
+Brass Alibi||https://www.facebook.com/pg/brassalibi/events||Band|
+Broadway Phil and the Shouters||https://www.facebook.com/broadwayphil||Band|
+Brother|Celtic|http://www.brothermusic.com/||Band|
+Brothers Reed|Folk|http://www.thebrothersreed.com||Band|
+Canto Sol|Latin|https://cantosolmusic.com/||Band|
+Cathy Bolton||https://cathybolton.com/||Solo|
+Cherry and the Lowboys|Rockabilly / Blues|https://www.facebook.com/Cherry-and-the-Lowboys-657846237602620/||Band|
+Colonel Mustard||https://www.facebook.com/Colonel-Mustard-118779488320123/||Band|
+Cover 3||https://www.cover3band.com/about-us||Band|
+DJ Coco|latin|||DJ|
+Daniel Nickels||https://danielnickelsmusic.com/||Band|
+Danielle Kelly Soul Project|Jazz, Soul|https://www.daniellekellymusic.com/||Band|
+David Cahalan||https://davidcahalan.com/||Band|
+David Pinsky|blues|http://www.davidpinsky.com||Band|
+Deluxe|classic rock, blues|https://www.facebook.com/deluxesouthernoregon/||Band|
+Derek Washington|Piano, Harp, Guitar|||Solo|
+Dr Pain and the Remedy|classic rock|https://www.drpainandtheremedy.com/||Band|
+Duke Street||https://www.facebook.com/Duke-Street-195553187215996/||Band|
+Encore Five||https://encorefivemusic.com/||Band|
+Enoch and David||https://www.facebook.com/profile.php?id=100086643115629||Band|
+Flat Patty|hard rock|http://flatpatty.com/google-calendar/||Band|
+Fogline|country rock|http://www.foglinemusic.com/||Band|
+Folias Duo||https://www.foliasmusic.com/||Band|
+Fork In The Road||https://forkintheroadband.org/||Band|
+Fortunes Folly|rock|https://fortunesfolly.bandcamp.com||Band|
+Frankie Hernandez|soul, funk, reggae|https://www.facebook.com/frankiehernandezmusic/||Band|
+Free Creatures||https://www.freecreaturesmusic.com/||Band|
+Fret Drifters||https://www.facebook.com/TheFretDrifters||Band|
+Gil René|||By the way...the easiest way to get the accent mark over an e is "Alt 130"|Band|
+Guitar Society||https://guitarsocietyso.org/||Jam|
+Gypsy Gillis Band|classic rock, variety|https://www.reverbnation.com/thegypsygillisband||Band|
+Haunted Troubadour||https://www.facebook.com/HauntedTroubadour||Band|
+Hog Wild|classic rock|http://hogwildmusic.com||Band|
+Hot Gossip|classic rock, variety|https://www.facebook.com/events/143140786056695/||Band|
+Identity Crisis|classic rock, variety|https://www.facebook.com/Identity-Crisis-157472690948243/events/||Band|
+J Brothers||https://www.facebook.com/jbrothersmusic||Band|
+Jeff Kloetzel|Rhythmic Guitar|https://www.jeffkloetzelmusic.com/|calendar|Band|
+Jeff Pevar||https://pevar.com/events||Band|
+Jen Ambrose|blues|http://www.jenambrose.org/||Band|
+Jimmy Limo||https://www.facebook.com/jimmylimo||Band|
+Jive Coulis|Rock, Blues, Funk|https://www.facebook.com/JiveCoulisBand||Band|
+Jon Galfano|classic rock, variety|https://www.facebook.com/p/Jon-Galfano-Music-100063127604206/|https://www.youtube.com/watch?v=fdwVmXVcj5M|Band|
+Jonathan Foster|Folk,Country,Americana|https://jonathanfoster.bandcamp.com/album/roadside-attraction||Band|
+Joshua Paul||https://www.joshuapaulmusic.com/||Band|
+JustaDuo|easy listening|https://www.facebook.com/JustaDuo.rvso/||Band|
+Kristen Calvin||https://www.kristencalvinmusic.com/||Band|
+LEFT|classic rock|https://www.facebook.com/leftband||Band|
+Leonard Griffie|blues|http://www.leonardgriffie.com||Band|
+LoGee|looping|https://li.sten.to/LoGee||Band|
+Love Notes||https://lovenotesduet.com/||Band|
+Malinka||https://malinkamusic.com/||Band|
+Malinka World Music||https://malinkamusic.com/||Band|
+Marshall (Stack) Thompson||||Band|
+Matthew Tayvis-Johnson|Keyboard/Piano|||Band|
+Melissa Fairy||https://www.facebook.com/missfairyart/||Solo|
+Mercy|blues, soul, classic rock|http://mercylynda.com||Band|
+Michal Palzewicz|cello|https://palzewicz.com/||Solo|
+Midnight Party Band|classic rock|https://www.facebook.com/themidnightpartyband||Band|
+Mister Bee||https://www.facebook.com/misterbeemusic/||Band|
+Neon Chrome|heavy metal,hard rock|https://www.facebook.com/NeonChromeBand?mibextid=ZbWKwL||Band|
+Nick Garrett-Powell||https://www.nickgpmusic.com/||Band|
+Omiza River|Acoustic Folk|https://www.facebook.com/OmizaRiver||Band|
+Paul Turnipseed|Jazz, Soul|https://www.daniellekellymusic.com/meet-the-musicians||Band|
+Perry Road|country rock|https://www.facebook.com/PerryRoad/events/||Band|
+Pinsky|blues|http://www.davidpinsky.com||Band|
+Pozitronics|Rock variety|https://www.facebook.com/Pozitronics||Band|
+ROC Tour||https://soundshala.com/roc-tour||Band|
+Rebekka Swan||https://www.facebook.com/rebekkaswansong/||Solo|
+Rick Millward||https://www.facebook.com/rick.millward.1||Band|
+Rickishane|classic rock, variety|https://www.facebook.com/Rickishane-147207555902683/||Band|
+Ring Of Trees|classic rock, variety|https://www.facebook.com/Ring-Of-Trees-142289939139096/||Band|
+Robbie Dacosta|blues, classic rock, pop, variety|https://www.facebook.com/RobbieDacostaBand/||Band|
+Rock Candy|classic rock, variety|https://www.facebook.com/Tbradley65||Band|
+Rogue Blues Society|blues|https://www.rogueblues.org/||Jam|
+Rogue Suspects|classic rock|http://www.roguesuspects.com||Band|
+SO Jazz Orchestra|jazz|http://www.sojazzorchestra.com||Band|
+SUNQ|electronic space rock|https://sunq.bandcamp.com/||Band|
+Salsa Brava|latin|https://www.reverbnation.com/dancesalsabrava||Band|
+Saucy|classic rock, variety|https://www.facebook.com/Saucy5/||Band|
+Shine On||https://www.facebook.com/StevenASchein/||Band|
+Simple Dreams||https://simpledreamsoregon.com/||Band|
+Son Ravello|indie rock|https://www.facebook.com/sonravello/||Band|
+Sophia Pfister|blues|https://www.sophiapfister.com||Band|
+Steve Keim|pop / light rock|http://orba.us/?page_id=1164||Band|
+Steve Shine Swing|jazz, swing|https://www.facebook.com/Steve-Shine-Jazz-115025196533449/||Band|
+TJ Elton||https://www.facebook.com/profile.php?id=100000853315160||Band|
+TJ Elton Open Jam||https://www.facebook.com/events/1543555222621962||Jam|
+The Genevieve Predmore Band||https://www.facebook.com/profile.php?id=61550250332780||Band|
+The Giantess||https://www.facebook.com/thegiantess||Band|
+The James Consortium||https://www.facebook.com/TheJamesConsortium/||Band|
+The Reverberays||https://thereverberays.com||Band|
+The Roadsters|country rock|https://www.reverbnation.com/theroadsters||Band|
+The Valley Duo|classic rock|http://www.valleyduo.com/default.html||Band|
+This Machine Starts Automatically||https://thismachinestartsautomatically.bandcamp.com/album/demos-2024||Band|
+Three Rivers Community Orchestra|orchestra|https://threeriversorchestra.org/||Band|
+Tim Mitchell||https://www.facebook.com/Tim-Mitchell-Beatsworkn-Band-517344884943520/||Band|
+Tina and the Mix|classic rock, variety|https://www.facebook.com/events/938243379557971/||Band|
+Total Strangers|classic rock|||Band|
+Tres Palomas||https://www.ashlandjazz.com/tres-palomas/|Events Listed|Band|
+Ukelele Jam|ukulele|https://www.facebook.com/groups/ukegetaway/||Jam|
+Valley Duo||http://www.valleyduo.com||Band|
+Vanessa Finney|bossa nova|https://www.patreon.com/cw/VanessaFinney||Band|
+Waxin' Moon||https://www.facebook.com/profile.php?id=61584442702320||Band|
+--venues
+* venue | link | city | notes | region code
+2Hawks Winery|http://www.2hawk.wine/welcome/|Phoenix|N||Medford|Winery||
+4 Daughters|https://www.facebook.com/4DaughtersIrishPub|Medford|N||Medford|Bar||
+Agate Ridge Winery|http://agateridgevineyard.com/|Eagle Point|N||Medford|Winery||
+Agora Artisan Eatery|https://www.facebook.com/p/Agora-Artisan-Eatery-61567309891360/|Grants Pass|N||GrantsPass|Other||
+Alibi Tavern|https://www.facebook.com/Alibi-Tavern-195519737166550/|Grants Pass|N||GrantsPass|Bar||
+Anchor Valley Wine Cellar|https://anchorvalleywine.com/|Jacksonville|N||Medford|Winery||
+Anchor Valley at the White House|https://anchorvalleywine.com/|Phoenix|N||Medford|Winery||
+Annual Eagle Point Street Dance||Eagle Point|N||Medford|Other||
+Apple Outlaw Taproom|https://www.appleoutlaw.com/|Jacksonville|N||Medford|Bar||
+Applegate Country Club|http://www.applegatecountryclub.com/|Applegate|N||Medford|Other||
+Applegate Evening Market|https://www.facebook.com/applegateeveningmarket/|Applegate|N||GrantsPass|Other||
+Applegate Lodge|https://www.applegateriverlodge.com/|Applegate|N||Medford|Other||
+Apricity Vineyard|https://www.apricityvineyard.com/|Grants Pass|N||GrantsPass|Winery||
+Area 61 Taphouse|https://www.facebook.com/p/Area-61-Taphouse-Grants-Pass-Or-100094586757282|Grants Pass|N||GrantsPass|Other||
+Art Along the Rogue|https://visitgrantspass.com/art-along-the-rogue/|Grants Pass|N||GrantsPass|Other||
+Art Bop Beer Co|https://www.facebook.com/artbopbeerco/|Talent|N||Ashland|Bar|1|
+Ashland Armory|https://www.liveatthearmory.com/|Ashland|N||Ashland|Other||
+Ashland Plaza||Ashland|N||Ashland|Other||
+Ashland World Music Festival|https://www.rogueworldmusic.org/events/awmfmainstage|Ashland|N||Ashland|Other||
+Augustino Estate & Vineyard|https://augustinoestate.com/|Applegate|N||Medford|Winery||
+Awen Winecraft|https://www.awenwinecraft.com/|Jacksonville|N||Medford|Winery||
+Bar Juillet|https://www.barjuillet.com/|Ashland|N||Ashland|Other||
+Bayer Family Estate|https://www.bayerfamilyestate.com/|Eagle Point|N||Medford|Winery||
+Bear Creek Golf Center|https://www.golfbearcreek.com/|Medford|N||Medford|Other||
+Bear Creek Park|http://medfordmom.com/2017/04/07/summer-concert-series/|Medford|N||Medford|Other||
+Belita Space|https://www.belitaspace.com/events|Jacksonville|N||Medford|Other||
+Bella Union|https://www.bellau.com/|Jacksonville|Y||Medford|Bar|1|
+Belle Fiore|https://www.bellefiorewine.com/|Ashland|Y||Ashland|Winery|1|
+Bellview Grange|https://www.grange.org/bellviewor759/|Ashland|N||Ashland|Other||
+Bigham Knoll||Jacksonville|N||Medford|Other||
+Bird & Rye|https://www.birdandrye.com/|Ashland|N||Ashland|Bar||
+Blackbird Taproom Phoenix|https://theblackbird.com/|Phoenix|N||Medford|Other||
+Blissful Being Wellness|https://soundshala.com/roc-tour|Grants Pass|N||GrantsPass|Other||
+Bloomsbury Blends|https://www.bloomsburyblends.com/|Ashland|N||Ashland|Other|2|
+Blossom Barn Cidery|https://www.blossombarncidery.com/|Grants Pass|N||GrantsPass|Winery||
+Bohemian Bar & Bistro|https://bohemianbarandbistro.com/|Grants Pass|N||GrantsPass|Bar||
+Boomtown Saloon|https://www.facebook.com/BoomtownJacksonville/events/|Jacksonville|N||Medford|Bar||
+Brickroom|http://www.brickroomashland.com|Ashland|N|On the plaza|Ashland|Bar||
+Bridgeview Vineyards|https://www.facebook.com/BridgeviewVineyards/|Cave Junction|N||GrantsPass|Winery||
+Britt|https://britt.org/|Jacksonville|N||Medford|Other||
+Bruno's Cavern|https://www.facebook.com/brunoscaverncj/?locale=ms_MY|Cave Junction|N||GrantsPass|Bar||
+Butterfly Club 557|https://www.butterflyclub557.com/|Medford|N||Medford|Bar||
+Café Lumina|https://www.luminacafeashland.com/|Ashland|N||Ashland|Other||
+Café Soleil|https://www.facebook.com/profile.php?id=100087245991591#|Talent|N||Ashland|Other||
+Callahan's Lodge|https://callahanslodge.com/events/|Ashland|N||Ashland|Bar||
+Canyonville Pioneer Days|https://www.canyonvillepioneerdays.org/|Canyonville|N||GrantsPass|Other||
+Casablanca Coffee & Grill|https://mycasablancagrill.com/|Grants Pass|N||GrantsPass|Other||
+Cattlemen's Bar||Rogue River|N||RogueRiver|Bar||
+Cedarwood Barn|https://www.cedarwoodbarn.com/|Talent|N||Ashland|Other||
+Cedarwood Saloon|http://www.cedarwoodsaloon.com/|Grants Pass|N||GrantsPass|Bar||
+Centennial Golf Club|http://www.centennialgolfclub.com|Medford|N||Medford|Other||
+Charlie Brown Music Festival|https://www.eventbrite.com/e/charlie-brown-music-festival-tickets-432064896737|Eagle Point|N||Medford|Other||
+Cliff Creek Cellars|https://cliffcreek.com/|Gold Hill|N||RogueRiver|Winery||
+Climate City Brewing|https://www.climatecitybrewing.com/home.aspx|Grants Pass|N||GrantsPass|Bar||
+Code 4 Taphouse|https://code4taphouse.com/|Grants Pass|N||GrantsPass|BrewPub||
+Columbia Hotel|https://www.columbiahotelashland.com/|Ashland|N||Ashland|Other||
+Common Block Brewing|https://commonblockbrewing.com/|Medford|N||Medford|BrewPub||
+Concert in the Park at the Commons||Medford|N|Free Medford Parks and Rec summer concert series at the Commons (Pear Blossom Park), next to Lithia building|Medford|Other||
+Concerts In The Park- Grants Pass|https://business.grantspasschamber.org/events/details/concerts-in-the-park-2025-52095|Grants Pass|N||GrantsPass|Other||
+Copper Mug Cocktail Lounge||Grants Pass|N|1320 Redwood Ave, Grants Pass|GrantsPass|Bar||
+Corvette Bar & Grill|https://www.facebook.com/Rics-Corvette-Bar-and-Grill-115725948449612/|Grants Pass|N||GrantsPass|Bar||
+Cowhorn Vineyard|https://cowhorn.wine/|Ruch|N||Medford|Winery||
+Crater Performing Arts Center|https://sites.google.com/district6.org/craterpac/home|Central Point|N||Medford|Other||
+Daisy Creek Vineyard|http://www.daisycreekwine.com/|Jacksonville|N|675 Shafer Lane, Jacksonville|Medford|Winery|1|
+Dancin Vineyards|https://www.dancin.com/|Jacksonville|Y||Medford|Winery|1|
+Dancing in the Streets|https://www.facebook.com/DancingAndDiningInTheStreets/|Medford|N||Medford|Other||
+Dark Hollow Farm|http://www.darkhollowfarm.com/index.php|Medford|N||Medford|Winery||
+Deer Creek Vineyards|https://www.deercreekvineyards.com/|Selma|N||GrantsPass|Winery||
+Del Rio Vineyards|http://www.delriovineyards.com/events/|Gold Hill|N|cover $10|Medford|Winery|1|
+District Wine Bar|https://thedistrictwinebar.com/||N||Medford|Winery||
+Dos Mariposas Vineyards|https://dosmariposasvineyards.com/|Jacksonville|N||Medford|Winery|1|
+Double R Bar and Grill|https://www.facebook.com/profile.php?id=61556640382519&sk=about|Rogue River|N||RogueRiver|Bar||
+Drift Collective|https://www.thedriftcoashland.com/|Ashland|N||Ashland|Other||
+Dunbar Farms|https://www.dunbarfarms.com/|Medford|N||Medford|Winery|1|
+Dwell Wines|https://www.dwellwines.com/|Grants Pass|N||GrantsPass|Winery||
+Eagle Point Golf Course|https://resortateaglepoint.com/golf/|Eagle Point|N||Medford|Other||
+Eagles Lodge|https://www.foe.com/|Medford|N|2000 Table Rock RD, Medford|Medford|Other||
+Edenvale Enoteca Wine Bar and Bistro|http://www.edenvalleyorchards.com|Ashland|N|near the downtown plaza|Ashland|Winery||
+Edenvale Winery|http://www.edenvalleyorchards.com|Medford|N|cover $|Medford|Winery|1|
+Eliana Wines|https://www.elianawines.com/|Medford|N||Medford|Winery||
+Elks Lodge|https://www.elks.org/lodges/home.cfm?LodgeNumber=944|Ashland|N||Ashland|Other||
+Empire Room|https://www.facebook.com/empiremusichall/|Yreka|N||Ashland|Other||
+English Lavender Farm|https://www.englishlavenderfarm.com/|Applegate|N||Medford|Other||
+Farris Vineyards|https://www.farrisvineyards.com/|Gold Hill|N||Medford|Winery||
+First Presbyterian Church|https://pcusa.org/congregation/first-church-central-point-or|Central Point|N||Medford|Other||
+Flespy's Bar & Grill|https://www.facebook.com/flespysbarandgrill/|Grants Pass|N||GrantsPass|Bar||
+Food Studio|https://foodstudiogp.com/|Grants Pass|N||GrantsPass|Bar||
+Fry Family Farm|https://www.fryfamilyfarm.org/|Medford|N||Medford|Other||
+G Street|https://gstreetbarandgrill.com/|Grants Pass|N||GrantsPass|Bar||
+GP Concerts in Park|https://www.facebook.com/GrantsPassChamberCIP/events/|Grants Pass|N||GrantsPass|Other||
+Galice Resort|http://www.galice.com/|Galice|N||GrantsPass|Bar||
+Gather Cafe|https://www.gathercafebistrobar.com/|Talent|N||Ashland|Bar||
+Gil's|http://www.gilsofashland.com/|Ashland|N||Ashland|Other||
+Gold Hill Moose Lodge|https://www.facebook.com/Moose178|Gold Hill|N||Medford|Other||
+Gold Hill United Methodist Church|https://goldhillunitedmethodistchurch.com/|Gold Hill|N||Medford|Other||
+Gold Rush Brewing|https://www.facebook.com/people/Gold-Rush-Brewing/61552757738710/|Medford|N||Medford|BrewPub||
+Good Juice Wine Shop|https://www.instagram.com/goodjuice_wineshop/p/DI2FEonTjUr/|Ashland|N||Ashland|Other||
+Grants Pass Food Truck Pod|https://grantspassfoodtruckpod.net/|Grants Pass|N||GrantsPass|Other||
+Grape Street Bar and Grill|https://www.facebook.com/grapestbar/|Medford|Y||Medford|Bar||
+Grizzly Peak Winery|http://grizzlypeakwinery.com|Ashland|N|cover $6|Ashland|Winery||
+Growler Guys|https://thegrowlerguys.com/locations/ashland-oregon/|Ashland|N||Ashland|Bar||
+Growler Guys Grants Pass|https://www.facebook.com/tgggrantspass/|Grants Pass|N||GrantsPass|Bar||
+Gypsy Blues Bar|https://www.facebook.com/p/The-GypsyBlues-Bar-100063503235541/|Medford|N||Medford|Bar||
+Gypsy Road Studio|https://gypsyroadstudio.com/|Ashland|N||Ashland|Other||
+Handlebar Bike Shop|https://www.handlebarashland.com/|Ashland|N||Ashland|Other||
+Hearsay|http://www.hearsayashland.com/events/|Ashland|N||Ashland|Bar||
+Hemi and Hogs Bar|https://www.facebook.com/Hemi-and-Hogs-Bar-and-Grill-113834450054093/|Medford|N||Medford|Bar||
+Hidden Door Cafe|http://www.hiddendoorcafe.com/|Medford|N||Medford|Other||
+Historic Elks Lodge|https://en.wikipedia.org/wiki/Elks_Lodge_(Medford,_Oregon)|Medford|N||Medford|Other||
+Holly Theater|https://www.hollytheatre.org/|Medford|Y||Medford|Other||
+Homestead Lounge||Rogue River|N|119 E. Main St|RogueRiver|Bar||
+Horton Plaza|https://hortonplaza.info/|Medford|N||Medford|Other||
+Hummingbird Estate|https://www.hummingbirdestate.com/|Central Point|N||Medford|Winery|1|
+Hyatt Lake Resort|https://hyattlake.com/Default.asp|Ashland|N||Ashland|Other||
+Indigo Grill|https://www.facebook.com/indigogrillruch/|Ruch|N||Medford|Bar||
+IndyCon 2.0|https://ashland.news/event/indycon-2-0-artist-maker-and-creative-fair/|Ashland|N||Ashland|Other||
+Iron Gate Slaughter Fest|https://www.facebook.com/p/Iron-Gate-Slaughter-Fest-61555725192767/|Hornbrook|N||Ashland|Other||
+Irvine & Roberts Vineyards|https://irvinerobertsvineyards.com/|Ashland|N||Ashland|Winery||
+J'ville Tavern|https://www.facebook.com/jvilletavern/events/|Jacksonville|N||Medford|Bar||
+JD's Sports Bar|http://www.jdssportsbarandbrewery.com/event-calander.html|Grants Pass|N||GrantsPass|Bar||
+Jacksonville Community Center|https://jacksonvillecommunitycenter.org/|Jacksonville|N||Medford|Other||
+Jacksonville Inn Wine Lounge|https://www.jacksonvilleinn.com/|Jacksonville|N||Medford|Bar||
+Jacksonville Library|https://jcls.org/|Jacksonville|N||Medford|Other||
+Jacksonville Sunday Market|https://www.jacksonville-sunday-market.com/|Jacksonville|N||Medford|Other||
+Jaxon Vineyards|https://www.jaxonvineyards.com/|Medford|N|5709 Hughes Road, Medford|Medford|Winery||
+Jefferson Spirits|http://www.jeffersonspirits.com/|Medford|Y|Robbie Dacosta open mic every sunday 7-10|Medford|Bar||
+Johnny B's|https://www.facebook.com/Johnny-Bs-166694203347915/events|Medford|N||Medford|Bar||
+Jville Tavern||Jacksonville|N||Medford|Bar||
+KS Wild|https://www.kswild.org/|Ashland|N||Ashland|Other||
+Kindred Spirits||Talent|N||Medford|Other||
+Kriselle Cellars|https://www.krisellecellars.com/|White City|N|12956 Modoc Road, White City|Medford|Winery||
+La Baguette|http://www.labaguettemusiccafe.com|Ashland|N||Ashland|Other|2|
+La Fiesta|https://www.lafiestamexicanor.com/|Jacksonville|N||Medford|Other||
+Lake of the Woods|https://lakeofthewoodsresort.com/|Ashland|N||Medford|Other||
+Laughing Clam|https://www.facebook.com/TheLaughingClam1996/events/|Grants Pass|N||GrantsPass|Bar||
+Lavender Ally|https://www.facebook.com/Lavally2018|Rogue River|N||RogueRiver|Other||
+Le Petit Creperie|https://www.lepetitashland.com/|Ashland|N||Ashland|Other||
+Leap Farms|https://www.eventbrite.com/e/living-loving-led-a-raindrop-academy-benefit-concert-at-leap-farms-tickets-384311856107|Rogue River|N||RogueRiver|Other||
+Ledger David Cellars|https://ledgerdavid.com/|Central Point|N||Medford|Winery||
+Legend Cider|https://www.legendcider.com/|Talent|N||Ashland|Bar||
+Lindsay Lodge|https://www.thelindsaylodge.com/|Applegate|N||Medford|Other||
+Liquid Lounge|https://liquidlounge.org/|Ashland|N||Ashland|Other||
+Lithia Artisans Market|https://lithiaartisansmarket.com/|Ashland|N||Ashland|Other||
+Local 31 Pub|https://local31pub.ai/|Ashland|N||Ashland|Bar||
+Local Vines Wine Bar|https://localvineswinebar.com/|Central Point|N||Medford|Winery|1|
+Longsword Vineyard|https://www.longswordvineyard.com/|Ruch|N||Medford|Winery||
+Lost Camp Bar & Grill|https://www.facebook.com/lostcampbarandgrill/|Kerby|N||GrantsPass|Bar||
+Lucky's|https://www.facebook.com/Luckysingoldhill/|Gold Hill|N||Medford|Bar||
+Lucky's II|https://www.facebook.com/LUCKYSII.SC|Shady Cove|N||Medford|Bar||
+Luna|https://www.lunacafeashland.com/events/|Ashland|N||Ashland|Bar||
+Luxorium Tattoo||Talent|N|806 S Pacific Hwy suite a, Talent, OR 97540|Ashland|Other||
+Ma Mosa's|https://mamosas.com/|Grants Pass|N||GrantsPass|Other||
+Mac's Diner|https://www.macsdineror.com/|Shady Cove|N||Medford|Other||
+Market Of Choice|https://www.marketofchoice.com/locations-medford/|Medford|N||Medford|Other||
+Martino's Upstairs|https://www.martinosashland.com/|Ashland|N||Ashland|Other||
+Mason's on Main|https://www.masonsashland.com/|Ashland|N||Ashland|Other||
+Massey's bar and Grill||Gold Hill|N|411 4th Ave, Gold Hill, OR 97525|Medford|Bar||
+McCully House Pub & Lounge|https://mccullyhouseinn.com/|Jacksonville|N||Medford|Other||
+McGrew's|https://mcgrews.edan.io/|O'Brien|N||GrantsPass|Other||
+Medford Dancing in the Street|https://www.facebook.com/DancingAndDiningInTheStreets/|Medford|N||Medford|Other||
+Medford Market of Choice||Medford|N||Medford|Other||
+Medford United Methodist Church|https://www.medfordumchurch.org/|Medford|N||Medford|Other||
+Merlin Moose Lodge|https://www.facebook.com/groups/1922794797954772/|Merlin|N||GrantsPass|Other||
+Morrtons Too|https://morrtons.com/|Talent|N||Medford|Bar||
+Moxie Brew|https://www.moxiebrew.com/|Phoenix|N||Medford|Bar||
+Mt Ashland Lodge|https://www.mtashland.com/event-directory/|Ashland|N||Ashland|Other|1|
+Music on Porch|https://www.whattodoinsouthernoregon.com/summer-festivals/play-music-on-the-porch-talent|Talent|N||Ashland|Other||
+MyPlace|https://www.yelp.com/biz/my-place-merlin|Merlin|N|330 Galice Rd, Merlin, OR 97532|GrantsPass|Bar||
+Naumes Suncrest Winery|https://www.naumessuncrestwinery.com/|Talent|N||Ashland|Winery|1|
+Noble Fox|https://thenoblefoxbrewery.com/|Ashland|N||Ashland|BrewPub||
+Nous|https://nous.maison/|Ashland|N||Ashland|Other||
+O'Ryans Irish Pub|https://www.yelp.com/biz/o-ryans-irish-pub-ashland|Ashland|N||Ashland|Bar||
+OSF Green Show|https://www.osfashland.org/greenshow|Ashland|N||Ashland|Other|1|
+Oberon's Restaurant & Bar|http://www.oberonsashland.com/|Ashland|N||Ashland|Bar|1|
+Ol Barneys||Grants Pass|N||GrantsPass|Other||
+Ol' Barney||Grants Pass|N||GrantsPass|Other||
+Old Barn Tavern|https://www.facebook.com/jaggedflower|Grants Pass|N||GrantsPass|Bar||
+Old Spaghetti Factory|https://www.osf.com/location/medford-or/|Medford|N||Medford|Other||
+Opposition Brewing|https://www.oppositionbrewing.com/|Medford|N||Medford|Other||
+PAC-Performing Arts Center|https://gphs.grantspass.k12.or.us/academics/performing-arts-center-pac|Grants Pass|N||GrantsPass|Other||
+Pacifica's Annual Winterfest|https://www.facebook.com/events/1267064537764646/?acontext=%7B%22event_action_history%22%3A[]%7D|Williams|N||GrantsPass|Other||
+Padigan Wines|https://padigan.com/index.html|Phoenix|N||Medford|Winery||
+Parkhurst Wine Cellars|https://parkhurstwine.com/|Jacksonville|N||Medford|Winery||
+Paschal Winery|http://www.paschalwinery.com|Talent|N||Ashland|Winery||
+Pear Blossom Park|http://medfordmom.com/2017/04/07/summer-concert-series/|Medford|N||Medford|Other||
+Pebblestone Cellars|https://pebblestonecellars.biz/|Talent|N||Medford|Winery|1|
+Pheasant Fields Farm|https://www.pheasantfieldsfarm.com/|Medford|N||Medford|Other||
+Phoenix Clubhouse|https://www.facebook.com/ThePhoenixClubhouse/events/|Phoenix|N||Medford|Other||
+Phoodery|https://phoodery.com/|Phoenix|N||Medford|Other||
+Pie+Vine|https://www.pieandvine.co/|Ashland|N||Ashland|Other||
+Pier 21|https://www.reverbnation.com/venue/pier21tavern|Medford|Y|Stewart avenue|Medford|Bar||
+Plaisance Ranch|https://www.plaisanceranch.com/|Williams|N||Medford|Other||
+Platt Anderson Cellars|https://www.ashlandwine.net/|Ashland|N||Ashland|Winery||
+Press For Oil|https://www.facebook.com/profile.php?id=100057285105873|Ashland|N||Ashland|Other||
+Rascal's Bar & Grill|https://www.facebook.com/Rascals-Bar-Grill-564101890451739/|Williams|N||GrantsPass|Bar||
+Ravissant Cellars|https://ravissantcellars.com/|Medford|N||Medford|Winery||
+Red Lily Vineyards|http://www.redlilyvineyards.com/|Applegate|N||Medford|Winery||
+Rellik Winery|http://rellikwinery.com/|Jacksonville|N||Medford|Winery|1|
+Remotion Wine|https://remotionwine.com/|Jacksonville|N||Medford|Winery||
+Resort at Eagle Point|https://resortateaglepoint.com/lodging-open-house-tours-fall-celebration/|Eagle Point|N||Medford|Other||
+Rivers Edge|https://www.riversedgerestaurant.net/|Grants Pass|N||GrantsPass|Other||
+Riverside Park|http://travelgrantspass.com/199/Concerts-in-the-Park|Grants Pass|N||GrantsPass|Other||
+Rock Point Artisan & Growers Market|https://www.facebook.com/RockPointArtisanMarket|Gold Hill|N||RogueRiver|Other||
+Rockafairy|https://www.rockafairy.org/|Medford|N||Medford|Other||
+Rocky Tonk Saloon|https://www.therockytonksaloon.com/|Medford|N||Medford|Bar||
+Rogue Ales|https://www.rogue.com/rogue-patio-schoolhouse/|Jacksonville|N||Medford|Bar||
+Rogue Grape|https://www.theroguegrape.com|Medford|N||Medford|Winery||
+Rogue Jet Boats|https://roguejetadventures.com/|Central Point|N||Medford|Other||
+Rogue Pub-N-Putt|https://roguepubnputt.com/|Rogue River|N||RogueRiver|Other||
+Rogue Taqueria|https://orders.cake.net/10915832|Talent|N||Ashland|Other||
+Rogue World Music Festival|https://www.rogueworldmusic.org/events|Medford|N||Medford|Other||
+Roxy Ann Winery|http://www.roxyann.com/events|Medford|Y|cover $7|Medford|Winery|1|
+Ruby's Restaurant|https://www.rubysneighborhoodrestaurant.com/|Ashland|N||Ashland|Other||
+SOU Music Recital Hall|https://events.sou.edu/music_recital_hall|Ashland|N||Ashland|Other||
+Sam's Corner|https://www.facebook.com/SamsCornerSaloon/|Grants Pass|N||GrantsPass|Bar||
+Sammich|https://www.sammichrestaurants.com/|Ashland|N||Ashland|Other||
+Sams Creek Cellars|https://samscreekcellars.com/|Gold Hill|N||RogueRiver|Winery|1|
+Schmidt Vineyard|https://sfvineyards.com/|Grants Pass|N||GrantsPass|Winery||
+Science Works|https://www.scienceworksmuseum.org/|Ashland|N||Ashland|Other||
+Shenanigans|https://www.facebook.com/515RogueRiverHwyGrantsPass/|Grants Pass|N||GrantsPass|Bar||
+Simply Sharpe Boutique|https://www.simplysharpeboutique.com/|Ashland|N||Ashland|Other||
+Siskiyou Folk & Bluegrass Festival|https://siskiyoubluegrassfestival.com/|Selma|N||GrantsPass|Other||
+Skout Taphouse|https://www.skoutashland.com/|Ashland|N||Ashland|Bar||
+Smithfields Pub|https://www.facebook.com/smithfieldspubpies|Ashland|N||Ashland|Bar||
+Somar Family Vineyards|https://somarfamilyvineyards.com/|Jacksonville|N||Medford|Winery||
+South Stage Cellars|http://southstagecellars.com/|Jacksonville|Y||Medford|Winery|1|
+Southern Oregon Home Show|https://business.grantspasschamber.org/events/details/southern-oregon-home-show-2024-44089|Central Point|N||Medford|Other||
+Speakeasy Taproom & Wine Bar|https://www.facebook.com/Speakeasytapsgp/|Grants Pass|N||GrantsPass|Bar||
+Springs at Veranda Park|https://www.thespringsliving.com/senior-living/medford/oregon/veranda-park|Medford|N||Medford|Other||
+Standing Stone Brewing|https://www.standingstonebrewing.com/events/|Ashland|N||Ashland|Bar||
+Steelhead Tavern|https://www.steelheadbar.com/|Grants Pass|N||GrantsPass|Bar||
+Stone River Winery|https://www.stonerivervineyards.com/|Talent|N||Medford|Winery|1|
+Stoney Front Bar & Grill||Kerby|N|24099 Redwood Highway, Kerby, 541-787-5057|GrantsPass|Bar||
+Tailholt Coffee Co|https://www.tailholtcoffee.com/|Rogue River|N||RogueRiver|Other||
+Talent Club|https://talentclublive.com/live-music/|Talent|N|114 Talent Ave|Ashland|Other|1|
+Talent Evening Market|https://www.facebook.com/talentartisansandgrowers/|Talent|N||Ashland|Other||
+Talent Harvest Festival|https://www.talentbusinessalliance.org/harvestfestival|Talent|N||Ashland|Other||
+Talent Show Music Festival|https://www.facebook.com/people/The-Talent-Show-Music-Festival/61575957696168/|Talent|N||Ashland|Other||
+Tap & Vine|https://tapandvine559.com/|Medford|N||Medford|Bar||
+Taprock Northwest Grill|https://taprock.com/|Grants Pass|N||GrantsPass|Other||
+Taproots Nursery|https://www.facebook.com/people/Taproots-Nursery/61570515988767/?_rdr|Rogue River|N||RogueRiver|Other||
+Tayor's Country Store|https://taylorsausage.com/country-store/|Cave Junction|N||GrantsPass|Other||
+Terrene Winery|https://terrenewines.com/|Ashland|N||Ashland|Winery||
+The 238 Bar|https://www.facebook.com/The238Bar/|Grants Pass|N||GrantsPass|Bar||
+The Beatrice|https://thebeatricemedford.com/|Medford|N||Medford|Bar||
+The Black Sheep|http://www.theblacksheep.com/|Ashland|N||Ashland|Bar||
+The Copper Plank|https://www.thecopperplank.com/|Medford|N||Medford|Bar||
+The District Wine Bar|https://thedistrictwinebar.com/|Medford|N||Medford|Winery||
+The Double R Bar and Grill|https://www.facebook.com/profile.php?id=61556640382519&sk=about|Rogue River|N||RogueRiver|Bar||
+The Drift Collective|https://www.thedriftcoashland.com/|Ashland|N||Ashland|Other||
+The Gold Room|https://www.jacksonvilleinn.com/|Jacksonville|N||Medford|Bar||
+The Grotto|https://www.thegrottopizzeria.com/|Talent|N||Ashland|Other||
+The Grove|https://ashlandoregon.gov/|Ashland|N||Ashland|Other||
+The Growler Guys|https://www.thegrowlerguys.com/locations/ashland-oregon/|Ashland|N||Ashland|Bar||
+The Growler King|https://growlerkingbeer.com/|Medford|N||Medford|Bar||
+The Haul|https://www.thehaulgp.com/|Grants Pass|N||GrantsPass|Other||
+The Hivve|https://www.thehivve.com/|Grants Pass|N||GrantsPass|Other||
+The Lindsay Lodge|https://www.thelindsaylodge.com/|Applegate|N||Medford|Other||
+The Loft|http://loftashland.com/|Ashland|N||Ashland|Other||
+The Miner's Bazaar|https://www.theminersbazaar.com/|Jacksonville|N||Medford|Bar||
+The Point|https://lovemypoint.com/|Central Point|N||Medford|Bar||
+The Punch House|https://www.punchhousewine.com/|Central Point|N||Medford|Winery||
+The Replay|https://www.facebook.com/thefunkykitchencj/|Cave Junction|N||GrantsPass|Other||
+The Ridge|https://www.facebook.com/TheRidgeRuch/|Ruch|N||Medford|Other||
+The River House|https://www.facebook.com/pages/The-River-House-Shady-Cove-Or/669989616397653|Shady Cove|N||Medford|Other||
+The Rogue Grape|https://www.theroguegrape.com/|Medford|N||Medford|Bar||
+The Sound Lounge|https://www.facebook.com/pg/TheSoundLoungeGP/|Grants Pass|N||GrantsPass|Bar||
+The Stone House|https://pevar.com/liveatthestonehouse|Ashland|N||Ashland|Other||
+The Toasted Barrel|https://www.thetoastedbarreloregon.com/|Grants Pass|N||GrantsPass|Bar||
+The Urban Cork|https://www.theurbancork.com/|Medford|N||Medford|Bar|1|
+The Village at Medford Center|https://thevillagemedfordcenter.com/|Medford|N||Medford|Other||
+The Vintage Coffee House|https://www.facebook.com/profile.php?id=100083343250518|Talent|Y||Ashland|Other||
+The Wharf|https://www.medfordwharf.com/|Medford|N||Medford|Other||
+The Wonder Bur Cafe|https://www.facebook.com/TheWonderBurCafe?mibextid=ZbWKwL|Grants Pass|N||GrantsPass|Other||
+Touvelle Lodge|https://www.facebook.com/Touvelle-Lodge-316447847194|Central Point|N||Medford|Bar||
+Trium Wines|https://www.triumwines.com/|Talent|N||Medford|Winery||
+Troon Vineyard|https://www.troonvineyard.com/|Grants Pass|N||GrantsPass|Bar||
+Trophy Club|https://www.facebook.com/The-Trophy-Club-148329098535057|Medford|N||Medford|Bar||
+True Juice|https://truejuiceorganic.com/|Grants Pass|N||GrantsPass|Other||
+Two Rivers Vineyard|https://www.tworiversvineyard.net/|Grants Pass|N||GrantsPass|Winery||
+Umpqua Bank Ashland|https://locations.umpquabank.com/or/ashland/250-pioneer-street|Ashland|N||Ashland|Other||
+Valley View Winery|https://valleyviewwinery.com/|Ruch|N||Medford|Winery||
+Veranda Park|https://www.thespringsliving.com/senior-living/medford/oregon/veranda-park|Medford|N||Medford|Other||
+Vista 222|https://www.vista222.com/|Applegate|N||Medford|Winery||
+Walkabout Brewing|https://www.facebook.com/walkaboutbrewingco|Medford|Y||Medford|BrewPub|1|
+Walport Family Cellars|https://www.wfcellars.com/|Grants Pass|N||GrantsPass|Winery|1|
+Wanderlust Vineyard|https://www.wanderlustvines.com/|Grants Pass|N||GrantsPass|Winery||
+Water Street Cafe|https://www.waterstreetcafeashland.com/|Ashland|N||Ashland|Bar||
+Weasku Inn|https://www.weasku.com/|Grants Pass|N||GrantsPass|Other||
+Weekend Beer Company|https://www.weekendbeercompany.com/|Grants Pass|N||GrantsPass|Bar|1|
+Weisinger Family Winery|https://www.weisingers.com/|Ashland|N||Ashland|Winery||
+Wellsprings|https://www.jacksonwellsprings.com/|Ashland|N||Ashland|Other||
+Whiskey River Cafe|https://whiskey-river-cafe-lounge.business.site/|Central Point|N||Medford|Bar||
+Wild Goose Cafe|http://www.wildgoosecafe.com/events.html|Ashland|N|2365 Ashland St -  Sunday evening, longest running open mic in the Rogue Valley|Ashland|Bar|1|
+Wild River Brewery & Pizza|https://www.wildriverbrewing.com/location/wild-river-brewing-pizza-company-grants-pass-pub/|Cave Junction|N||GrantsPass|Bar||
+Wild River Pub|https://www.wildriverbrewing.com/location/wild-river-brewing-pizza-company-grants-pass-pub/|Grants Pass|N||GrantsPass|Bar||
+Wild Wines|https://enjoywildwines.com/|Jacksonville|N||Medford|Bar||
+Willie's Tavern|https://williestavern.net/|Eagle Point|N||RogueRiver|Bar||
+Wooldridge Creek Winery|https://www.wcv.farm/|Grants Pass|N||GrantsPass|Winery|1|
+Yreka Golden City Days|https://www.yrekagoldencitydays.com/|Yreka|N||Ashland|Other||
+Zi Spice|https://www.zispice.com/|Ashland|N||Ashland|Other||
+--events
+* musician | genre | link | link name | venue | venuelink | date | time | end time | notes | event Type
+Chrisman & Smith||||La Baguette||05/27/26|1030|1230||Band|
+Mercy Duo|||Mercy|Dancin Vineyards||05/27/26|1700|1900||Band|
+Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Local Vines Wine Bar||05/27/26|1700|1900||Band|
+Jeff Kloetzel||||South Stage Cellars||05/27/26|1730|1930|$5|Band|
+Pandora Band||||The Toasted Barrel||05/27/26|1800|2000||Band|
+Canto Sol||||Cedarwood Barn||05/27/26|1830|1930|salsa dance gathering|Band|
+Dan Doshier||||Oberon's Restaurant & Bar||05/27/26|1900|2145||Band|
+Grant Ruiz||||Cedarwood Barn||05/28/26|1600|1700||Band|
+Bluebirds||||Trium Wines||05/28/26|1700|1900||Band|
+Phillip Reed||||Belle Fiore||05/28/26|1730|1930||Band|
+Pandora Band||||Alibi Tavern||05/28/26|1800|2200||Band|
+Live Music||||Dunbar Farms||05/28/26|1800|2100|Folk Lore, with The Brothers Reed, The Fret Drifters, Jenni Abdo; suggested $20, benefit for the Lore family|Band|
+Bim Jeam and the Sadness||||The Miner's Bazaar||05/28/26|1800|2000||Band|
+Wild Goose Chase Trio||||Wild Goose Cafe||05/28/26|1800|2030||Band|
+Actual Wolf||||Oberon's Restaurant & Bar||05/28/26|1830|2030||Band|
+Chris Baron||||Bella Union||05/28/26|1900|2100||Band|
+Nina & The Notes||||Liquid Lounge||05/28/26|1900|2100||Band|
+JustaDuo||||Daisy Creek Vineyard||05/29/26|1630|1830||Band|
+David Pinsky & Phil Newton|||David Pinsky|Dancin Vineyards||05/29/26|1700|1900||Band|
+Wendi Sue & Steve||||Farris Vineyards||05/29/26|1700|2000||Band|
+Nina & The Notes||||Rellik Winery||05/29/26|1700|1900||Solo|
+Jen Ambrose||||Schmidt Vineyard||05/29/26|1700|2000||Band|
+The Keller Sisters||||Belle Fiore||05/29/26|1730|1930||Band|
+Dirk Price Quartet||||Dos Mariposas Vineyards||05/29/26|1730|1930||Band|
+Upwind Groovers||||Dunbar Farms||05/29/26|1730|1930||Band|
+Mitchell Brothers||||Galice Resort||05/29/26|1730|2030||Band|
+Nick Garrett-Powell||||Area 61 Taphouse||05/29/26|1800|2000||Band|
+Rita Maya||||Art Bop Beer Co||05/29/26|1800|2000||Band|
+Live Music||||Callahan's Lodge||05/29/26|1800|2100||Band|
+Cody Ponder Band||||Del Rio Vineyards||05/29/26|1800|2000|$8-$12|Band|
+Gunstock Red||||Roxy Ann Winery||05/29/26|1800|2000|$10|Band|
+Nevin||||Tayor's Country Store||05/29/26|1800|2100||Band|
+Tres Palomas||||The Miner's Bazaar||05/29/26|1800|2000||Band|
+Billy Rock Trio||||Bella Union||05/29/26|1900|2200||Band|
+Josh Gross||||Liquid Lounge||05/29/26|1900|2100||Band|
+Brothers Reed||||Skout Taphouse||05/29/26|1900|2100||Band|
+Bim Jeam and the Sadness||||Steelhead Tavern||05/29/26|1900|2100||Band|
+Rogue Suspects||||The Copper Plank||05/29/26|1900|2100|$20; soul review|Band|
+Shakedown||||Alibi Tavern||05/29/26|2000|2300||Band|
+Sidewalk Cafe||||La Baguette||05/30/26|1030|1230||Band|
+Randy McCoy||||Del Rio Vineyards||05/30/26|1500|1700||Band|
+Trevor Hanks||||Dwell Wines||05/30/26|1500|1700||Band|
+Erica Rochel||||Eliana Wines||05/30/26|1500|1700||Band|
+Shybo Torres||||Taproots Nursery||05/30/26|1500|1700||Band|
+Jeff Kloetzel||||Weisinger Family Winery||05/30/26|1530|1830||Band|
+HopStone||||Dos Mariposas Vineyards||05/30/26|1600|1800||Band|
+Sterling Vintage Jazz||||Rellik Winery||05/30/26|1600|1800||Solo|
+Daniel Nickels Band|||Daniel Nickels|Apple Outlaw Taproom||05/30/26|1700|1900||Band|
+Keenan Pruett||||Remotion Wine||05/30/26|1700|1900||Band|
+Blue Lightning||||Stone River Winery||05/30/26|1700|1900||Band|
+Vanessa Finney & Jason Wolverton|||Vanessa Finney|Terrene Winery||05/30/26|1700|1900||Band|
+Grant Ruiz||||The Miner's Bazaar||05/30/26|1700|2000||Band|
+Wendi Sue & Steve||||Galice Resort||05/30/26|1730|2030||Band|
+The Ant Hill||||Area 61 Taphouse||05/30/26|1800|2000||Band|
+Deaf Cougar Mellancamp||||Art Bop Beer Co||05/30/26|1800|2000||Band|
+Live Music||||Callahan's Lodge||05/30/26|1800|2100||Band|
+Brothers Reed||||Dunbar Farms||05/30/26|1800|2000|John Prine Tribute|Band|
+The Elephant||||Oberon's Restaurant & Bar||05/30/26|1800|1930||Band|
+Simple Dreams||||South Stage Cellars||05/30/26|1800|2000|$22, Linda Ronstadt Musical Tribute; for each ticket sold, 10 meals will be donated to food pantries|Band|
+John Ivey Band||||Eliana Wines||05/30/26|1830|2030||Band|
+Collin & Co.||||Morrtons Too||05/30/26|1830|2030||Band|
+Shakedown||||Walkabout Brewing||05/30/26|1830|2030||Band|
+Jared Gutridge Duo||||Bella Union||05/30/26|1900|2200||Band|
+Ponderosas||||The Gold Room||05/30/26|1900|2100|Venue was formerly Jacksonville Inn Wine Lounge|Band|
+Mitchell Brothers||||Corvette Bar & Grill||05/31/26|1300|1600||Band|
+Sterling Vintage Jazz||||Valley View Winery||05/31/26|1300|1600||Band|
+Bekkah McAlvage||||Wooldridge Creek Winery||05/31/26|1300|1600||Band|
+Nick & Shae||||Daisy Creek Vineyard||05/31/26|1400|1600||Band|
+Paper Moon||||Local Vines Wine Bar||05/31/26|1500|1700||Band|
+Jon Galfano||||Pebblestone Cellars||05/31/26|1500|1700||Band|
+Jeff Kloetzel||||Paschal Winery||05/31/26|1530|1730||Band|
+John Ivey||||Weisinger Family Winery||05/31/26|1530|1830||Band|
+Mike Brons and Turn West||||Del Rio Vineyards||05/31/26|1600|1800||Band|
+Vinyl Tap||||Rellik Winery||05/31/26|1600|1800||Solo|
+Dennis Konecny||||Roxy Ann Winery||05/31/26|1600|1800||Band|
+Rod Petrone||||Belle Fiore||05/31/26|1700|1900||Band|
+Phillip Reed||||Tap & Vine||05/31/26|1700|1900||Band|
+Jim Quinby||||Wild Goose Cafe||05/31/26|1700|1900||Band|
+Sequoia||||Galice Resort||05/31/26|1730|2030||Band|
+Open Mic||||Jefferson Spirits||05/31/26|1800|2100|hosted by Crooked Heart|Open Mic|
+Paul Schmeling Quartet||||Martino's Upstairs||06/01/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Conrad||||The Gold Room||06/02/26|1800|2000|Venue was formerly Jacksonville Inn Wine Lounge|Band|
+House Country Band||||La Baguette||06/03/26|1030|1230||Band|
+Abdo Trio||||Local Vines Wine Bar||06/03/26|1700|1900||Solo|
+Jeff Kloetzel||||Tap & Vine||06/03/26|1700|1900||Band|
+Rogue Blues Society Blues Jam|||Rogue Blues Society|Grape Street Bar and Grill||06/03/26|1800|2100|Hosted by: Dr Pain and the Remedy|Band|
+Bim Jeam and the Sadness||||The Toasted Barrel||06/03/26|1800|2000||Band|
+LoGee||||Weekend Beer Company||06/03/26|1800|2000||Band|
+Dan Doshier||||Oberon's Restaurant & Bar||06/03/26|1900|2145||Band|
+Lisa and Dean||||Belle Fiore||06/04/26|1730|1930||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||06/04/26|1730|1930||Band|
+Phillip Reed||||Bella Union||06/04/26|1800|2100||Band|
+Craig Martin|jazz keyboards|||Wild Goose Cafe||06/04/26|1800|2030||Band|
+Actual Wolf||||Oberon's Restaurant & Bar||06/04/26|1830|2030||Band|
+Bim Jeam and the Sadness||||The Gold Room||06/04/26|1900|2100||Band|
+Rogue Suspects Trio|||Rogue Suspects|Paschal Winery||06/05/26|1530|1730|$15|Band|
+Sonido Alegre||||Daisy Creek Vineyard||06/05/26|1700|1900||Band|
+Jeff Kloetzel||||Dancin Vineyards||06/05/26|1700|1900||Band|
+Enoch and David||||Del Rio Vineyards||06/05/26|1700|1900||Band|
+Fork In The Road||||Gil's||06/05/26|1700|2000||Band|
+PaperMoon Jazz||||Pebblestone Cellars||06/05/26|1700|1900||Band|
+Pozitronics||||Rellik Winery||06/05/26|1700|1900||Band|
+Nick & Shae||||Belle Fiore||06/05/26|1730|1930||Band|
+Mitchell Brothers||||Dos Mariposas Vineyards||06/05/26|1730|1930||Band|
+The Smokin’ Gundersons||||Dunbar Farms||06/05/26|1730|1930||Band|
+Bim Jeam and the Sadness||||Area 61 Taphouse||06/05/26|1800|2100||Band|
+Evening Shades||||Art Bop Beer Co||06/05/26|1800|2000||Band|
+Bluebirds||||Hummingbird Estate||06/05/26|1800|2000||Band|
+Taurus Moon||||Moxie Brew||06/05/26|1800|2000||Band|
+Saucy||||Roxy Ann Winery||06/05/26|1800|2000||Band|
+Two of a Kind||||Bella Union||06/05/26|1900|2100||Band|
+Jesse Kennemer||||The Gold Room||06/05/26|1900|2100||Band|
+Shine On||||La Baguette||06/06/26|1030|1230||Band|
+Jared Gutridge Duo||||Daisy Creek Vineyard||06/06/26|1600|1800||Band|
+Charlee Prayers||||Deer Creek Vineyards||06/06/26|1600|1900||Band|
+Starvation Heights||||Rellik Winery||06/06/26|1600|1800||Band|
+Jeff Kloetzel||||Padigan Wines||06/06/26|1700|1900||Band|
+Matt Spurlock||||Stone River Winery||06/06/26|1700|1900||Band|
+12 Bars Deep||||Belle Fiore||06/06/26|1730|1930||Band|
+Bekkah McAlvage||||Dunbar Farms||06/06/26|1730|1930||Band|
+Mitchell Brothers||||Area 61 Taphouse||06/06/26|1800|2100||Band|
+Rogue Suspects||||Bayer Family Estate||06/06/26|1800|2100|Aretha Franklin revue|Band|
+Brothers Reed||||Naumes Suncrest Winery||06/06/26|1800|2100||Band|
+Jen Ambrose||||The Gold Room||06/06/26|1800|2000||Band|
+Roadsters||||Walkabout Brewing||06/06/26|1830|2030||Band|
+Billy Rock Trio||||Bella Union||06/06/26|1900|2200||Band|
+The Gist||||Willie's Tavern||06/06/26|1900|2200||Band|
+Jeff Kloetzel||||Daisy Creek Vineyard||06/07/26|1400|1600||Band|
+Bim Jeam and the Sadness||||Sams Creek Cellars||06/07/26|1400|1600||Band|
+Frankie Hernandez||||Walport Family Cellars||06/07/26|1400|1700||Band|
+Kristen Calvin & Robbie Dacosta|||Kristen Calvin|Local Vines Wine Bar||06/07/26|1500|1700||Solo|
+Joshua Paul||||Pebblestone Cellars||06/07/26|1500|1700||Band|
+Broadway Phil & The Shouters|||Broadway Phil and the Shouters|Del Rio Vineyards||06/07/26|1600|1800||Band|
+Cathy Bolton||||Rellik Winery||06/07/26|1600|1800||Solo|
+JustaDuo||||Roxy Ann Winery||06/07/26|1600|1800||Band|
+Shine On||||Belle Fiore||06/07/26|1700|1900||Band|
+Shae & Jenni||||Dancin Vineyards||06/08/26|1700|1900||Band|
+Paul Schmeling Quartet||||Martino's Upstairs||06/08/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Funk Shui||||Valley View Winery||06/09/26|1500|1700||Band|
+Cathy Bolton||||Stone River Winery||06/09/26|1700|1900||Solo|
+Chrisman & Smith||||La Baguette||06/10/26|1030|1230||Band|
+Mercy Duo||||Dancin Vineyards||06/10/26|1700|1900||Band|
+Kristen Calvin & Robbie Dacosta|||Kristen Calvin|Local Vines Wine Bar||06/10/26|1700|1900||Solo|
+Jeff Kloetzel||||South Stage Cellars||06/10/26|1800|2000||Band|
+Dan Doshier||||Oberon's Restaurant & Bar||06/10/26|1900|2145||Band|
+Jeff Kloetzel||||Belle Fiore||06/11/26|1730|1930||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||06/11/26|1730|1930||Band|
+Sage Meadows Country Band||||Wild Goose Cafe||06/11/26|1800|2030||Band|
+Actual Wolf||||Oberon's Restaurant & Bar||06/11/26|1830|2030||Band|
+Mitchell Brothers||||Bella Union||06/11/26|1900|2100||Band|
+Marshall & Friends||||Daisy Creek Vineyard||06/12/26|1700|1900||Band|
+Allison and Victor||||Dancin Vineyards||06/12/26|1700|1900||Band|
+Encore Five||||Pebblestone Cellars||06/12/26|1700|1900||Band|
+Dr Pain and the Remedy||||Rellik Winery||06/12/26|1700|1900||Band|
+The Brisbane Project Trio||||Belle Fiore||06/12/26|1730|1930||Band|
+Eight Dollar Mountain||||Dunbar Farms||06/12/26|1730|1930||Band|
+Ann Kelly & Mark Ross||||South Stage Cellars||06/12/26|1730|1930||Band|
+Mercy Duo|||Mercy|Hummingbird Estate||06/12/26|1800|2000||Band|
+Lisa and Dean||||Moxie Brew||06/12/26|1800|2000||Band|
+Roadsters||||Roxy Ann Winery||06/12/26|1800|2000||Band|
+Mitchell Brothers||||Bella Union||06/12/26|1900|2200||Band|
+Pozitronics||||Skout Taphouse||06/12/26|1900|2100||Band|
+Lynx Family Band||||Oberon's Restaurant & Bar||06/12/26|2000|1200||Band|
+Paul Jenny & Tom Freeman||||La Baguette||06/13/26|1030|1230||Band|
+Aaron Reed||||Red Lily Vineyards||06/13/26|1500|1700||Band|
+Nick Garrett-Powell||||Daisy Creek Vineyard||06/13/26|1600|1800||Band|
+Alois's Trio||||Rellik Winery||06/13/26|1600|1800||Band|
+Erica Rochel Duo||||Stone River Winery||06/13/26|1700|1900||Solo|
+The Giantess||||Belle Fiore||06/13/26|1730|1930||Band|
+Mountain Top Sound||||Dunbar Farms||06/13/26|1730|1930||Band|
+Rogue Suspects||||Bayer Family Estate||06/13/26|1800|2100|Bonnie Raitt revue|Band|
+Jon Galfano||||Walkabout Brewing||06/13/26|1830|2030||Band|
+Oliver & Stone||||Bella Union||06/13/26|1900|2200||Band|
+J Brothers||||Daisy Creek Vineyard||06/14/26|1400|1600||Band|
+Enoch and David||||Sams Creek Cellars||06/14/26|1400|1600||Band|
+Joshua Paul||||Walport Family Cellars||06/14/26|1400|1700||Band|
+Dr Pain and the Remedy||||Del Rio Vineyards||06/14/26|1500|1700||Band|
+Femme Fatale||||Local Vines Wine Bar||06/14/26|1500|1700||Band|
+Jeff Kloetzel||||Dos Mariposas Vineyards||06/14/26|1600|1800||Band|
+Rogue Suspects Trio|||Rogue Suspects|Rellik Winery||06/14/26|1600|1800||Band|
+Mike Brons and Turn West||||Belle Fiore||06/14/26|1700|1900||Band|
+Pozitronics||||Naumes Suncrest Winery||06/14/26|1700|1900|Tickets $12; Spotlight on Iconic Ladies of Rock Show|Band|
+Jen Ambrose & Annieville|||Jen Ambrose|Butterfly Club 557||06/14/26|1800|2000|$10|Band|
+Lisa and Dean||||Dancin Vineyards||06/15/26|1700|1900||Band|
+Paul Schmeling Quartet||||Martino's Upstairs||06/15/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+House Country Band||||La Baguette||06/17/26|1030|1230||Band|
+Marshall Thompson Duo||||Dancin Vineyards||06/17/26|1700|1900||Band|
+J Brothers||||Local Vines Wine Bar||06/17/26|1700|1900||Band|
+Dan Doshier||||Oberon's Restaurant & Bar||06/17/26|1900|2145||Band|
+Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Belle Fiore||06/18/26|1730|1930||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||06/18/26|1730|1930||Band|
+Actual Wolf||||Oberon's Restaurant & Bar||06/18/26|1830|2030||Band|
+Jen Ambrose & Annieville|||Jen Ambrose|Daisy Creek Vineyard||06/19/26|1700|1900||Band|
+TBA||||Dancin Vineyards||06/19/26|1700|1900||Band|
+Ann Kelly & Mark Ross||||Padigan Wines||06/19/26|1700|1900||Band|
+Rick Millward||||Rellik Winery||06/19/26|1700|1900||Band|
+The Shabby Guys||||Belle Fiore||06/19/26|1730|1930||Band|
+Shine On||||Dunbar Farms||06/19/26|1730|1930||Band|
+Erica Rochel||||Hummingbird Estate||06/19/26|1800|2000||Band|
+Allison and Victor||||Phoodery||06/19/26|1800|2000||Band|
+Mercy||||Roxy Ann Winery||06/19/26|1800|2000||Band|
+Mark Hill & Friends||||Bella Union||06/19/26|1900|2200||Band|
+Mitchell Brothers||||Steelhead Tavern||06/19/26|1900|2100||Band|
+Iryna||||La Baguette||06/20/26|1030|1230|with jazz vocalist|Band|
+Joshua Paul||||English Lavender Farm||06/20/26|1330|1600||Band|
+Ukulele Jam||||Pebblestone Cellars||06/20/26|1400|1600|Barb Meredith, Jane Levesque, and Patty Williams will be leading|Jam|
+JustaDuo||||Naumes Suncrest Winery||06/20/26|1500|1700||Band|
+Rick Millward||||Roxy Ann Winery||06/20/26|1500|1700|Open Mic|Open Mic|
+Tim Church||||Weisinger Family Winery||06/20/26|1530|1830||Band|
+Stillwater Road||||Daisy Creek Vineyard||06/20/26|1600|1800||Band|
+The Giantess||||Rellik Winery||06/20/26|1600|1800||Band|
+Pozitronics||||Padigan Wines||06/20/26|1700|1900|Disco-Funk costume ball|Band|
+Lisa and Dean||||Stone River Winery||06/20/26|1700|1900||Solo|
+Roadsters||||Belle Fiore||06/20/26|1730|1930||Band|
+Alissa and the Side Effects||||Dunbar Farms||06/20/26|1730|1930||Band|
+Encore Five||||South Stage Cellars||06/20/26|1800|2000||Band|
+Step it up & go||||Walkabout Brewing||06/20/26|1830|2030||Band|
+Bryan Oliver Trio||||Bella Union||06/20/26|1900|2200||Band|
+Jeff Kloetzel||||Eliana Wines||06/20/26|1900|2100||Band|
+Alissa and the Side Effects||||Daisy Creek Vineyard||06/21/26|1400|1600||Band|
+Cathy Bolton||||Local Vines Wine Bar||06/21/26|1500|1700||Solo|
+Jeff Kloetzel & Bob Evoniuk|||Jeff Kloetzel|Naumes Suncrest Winery||06/21/26|1500|1700||Band|
+Step it up & go||||Valley View Winery||06/21/26|1500|1700||Band|
+Erica Rochel||||Del Rio Vineyards||06/21/26|1600|1800||Band|
+David Pinsky & Phil Newton|||David Pinsky|Rellik Winery||06/21/26|1600|1800||Band|
+Jared Gutridge||||Roxy Ann Winery||06/21/26|1600|1800||Band|
+Shae & Jenni||||Dancin Vineyards||06/22/26|1700|1900||Band|
+Paul Schmeling Quartet||||Martino's Upstairs||06/22/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Mountaintop Sound||||Dunbar Farms||06/23/26|1800|2000||Band|
+Chrisman & Smith||||La Baguette||06/24/26|1030|1230||Band|
+Allison and Victor||||Dancin Vineyards||06/24/26|1700|1900||Band|
+Daniel Nickels Band|||Daniel Nickels|Local Vines Wine Bar||06/24/26|1700|1900||Band|
+Jeff Kloetzel||||South Stage Cellars||06/24/26|1800|2000||Band|
+Dan Doshier||||Oberon's Restaurant & Bar||06/24/26|1900|2145||Band|
+Aaron Reed||||Stone River Winery||06/25/26|1600|1800||Solo|
+Skye & Lee||||Belle Fiore||06/25/26|1730|1930||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||06/25/26|1730|1930||Band|
+Steam Kettle Trio||||Wild Goose Cafe||06/25/26|1800|2030||Band|
+Actual Wolf||||Oberon's Restaurant & Bar||06/25/26|1830|2030||Band|
+Bim Jeam and the Sadness||||Bella Union||06/25/26|1900|2100||Band|
+Shybo & Twisted Vines||||Daisy Creek Vineyard||06/26/26|1700|1900||Band|
+Jared Gutridge Duo||||Dancin Vineyards||06/26/26|1700|1900||Band|
+Ann Kelly & Mark Ross||||Pebblestone Cellars||06/26/26|1700|1900||Band|
+Jeff Kloetzel and Bob Evoniuk|||Jeff Kloetzel|Dunbar Farms||06/26/26|1730|1930||Band|
+Mountaintop Sound||||Art Bop Beer Co||06/26/26|1800|2000||Band|
+Sterling Vintage Jazz||||Hummingbird Estate||06/26/26|1800|2000||Band|
+Blue Lightning||||Roxy Ann Winery||06/26/26|1800|2000||Band|
+David Pinsky & Phil Newton|||David Pinsky|Bella Union||06/26/26|1900|2200||Band|
+Brian Oliver||||Cowhorn Vineyard||06/27/26|1300|1600||Band|
+Enoch and David||||Wanderlust Vineyard||06/27/26|1330|1530||Band|
+Jen Ambrose w/ Jon Galfano||||Dark Hollow Farm||06/27/26|1500|1700||Band|
+Jeff Kloetzel||||Weisinger Family Winery||06/27/26|1530|1830||Band|
+Erica Rochel Duo||||Daisy Creek Vineyard||06/27/26|1600|1800||Band|
+Mike Brons Band||||Rellik Winery||06/27/26|1600|1800||Band|
+Tension Deficit||||Belle Fiore||06/27/26|1730|1930||Band|
+The Reverberays|||Jeff Kloetzel|Dunbar Farms||06/27/26|1730|1930||Band|
+Rogue Suspects||||Bayer Family Estate||06/27/26|1800|2100|Soul revue|Band|
+Fork In The Road||||Legend Cider||06/27/26|1800|2000||Band|
+John Johns & Chelsea Murray||||Moxie Brew||06/27/26|1800|2000||Band|
+Paul Jenny & Tom Freeman||||Bella Union||06/27/26|1900|2200||Band|
+Mitchell Brothers||||Corvette Bar & Grill||06/27/26|2000|2300||Band|
+Mitchell Brothers||||Corvette Bar & Grill||06/28/26|1300|1600||Band|
+Nick & Shae||||Daisy Creek Vineyard||06/28/26|1400|1600||Band|
+Jared Gutridge||||Naumes Suncrest Winery||06/28/26|1500|1700||Band|
+Alissa and the Side Effects||||Pebblestone Cellars||06/28/26|1500|1700||Band|
+Jeff Kloetzel||||Paschal Winery||06/28/26|1530|1730||Band|
+J Brothers||||Rellik Winery||06/28/26|1600|1800||Band|
+Vanessa Finney & Jason Wolverton|||Vanessa Finney|Roxy Ann Winery||06/28/26|1600|1800||Band|
+Rogue Suspects||||Belle Fiore||06/28/26|1700|1900|$15-$20; Aretha Franklin tribute|Band|
+Mike Brons||||Rellik Winery||06/29/26|1800|2000||Band|
+Paul Schmeling Quartet||||Martino's Upstairs||06/29/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Danielle Kelly & Paul Turnipseed|||Danielle Kelly Soul Project|Dancin Vineyards||07/01/26|1700|1900||Band|
+Encore Five||||Local Vines Wine Bar||07/01/26|1700|1900||Band|
+Bim Jeam and the Sadness||||The Toasted Barrel||07/01/26|1800|2000||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||07/02/26|1730|1930||Band|
+Jeff Kloetzel||||Dancin Vineyards||07/03/26|1700|1900||Band|
+Enoch and David||||Rellik Winery||07/03/26|1700|1900||Band|
+Dr Pain and the Remedy||||Trium Wines||07/03/26|1700|1900||Band|
+Ann Kelly & Mark Ross||||Dos Mariposas Vineyards||07/03/26|1730|1930||Band|
+Saucy||||Dunbar Farms||07/03/26|1730|1930||Band|
+Fret Drifters||||Roxy Ann Winery||07/03/26|1800|2000||Band|
+Fork In The Road||||Zi Spice||07/04/26|1600|1900||Band|
+Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Sams Creek Cellars||07/05/26|1300|1500||Band|
+Jeff Kloetzel||||Naumes Suncrest Winery||07/05/26|1500|1700||Band|
+Shae & Jenni||||Dancin Vineyards||07/06/26|1700|1900||Band|
+Bim Jeam and the Sadness||||Local Vines Wine Bar||07/08/26|1700|1900||Band|
+Ann Kelly & Mark Ross||||OSF Green Show||07/08/26|1830|1930||Band|
+Enoch and David||||Wanderlust Vineyard||07/11/26|1330|1530||Band|
+Jeff Kloetzel||||The Gold Room||07/11/26|1800|2000||Band|
+Gil René||||Dos Mariposas Vineyards||07/12/26|1500|1700||Band|
+Encore Five||||Roxy Ann Winery||07/12/26|1600|1800||Band|
+Calysta Cheyenne Trio||||Butterfly Club 557||07/12/26|1800|2000|$10|Band|
+Ukulele Jam||||Pebblestone Cellars||07/18/26|1400|1600||Jam|
+Vanessa Finney & Jason Wolverton|||Vanessa Finney|Terrene Winery||07/18/26|1700|1900||Band|
+Ann Kelly & Mark Ross||||Local Vines Wine Bar||07/19/26|1500|1700||Band|
+Gil René||||Pebblestone Cellars||07/24/26|1700|1900||Band|
+Dr Pain and the Remedy||||Phoodery||07/24/26|1900|2100||Band|
+Ann Kelly & Mark Ross||||Rellik Winery||07/25/26|1600|1800||Band|
+Dr Pain and the Remedy||||Bayer Family Estate||07/25/26|1800|2100||Band|
+Bim Jeam and the Sadness||||Troon Vineyard||07/26/26|1300|1600||Band|
+Bekkah McAlvage||||Art Bop Beer Co||07/31/26|1800|2000||Band|
+Ann Kelly & Mark Ross||||Liquid Lounge||07/31/26|1900|2100||Band|
+Dr Pain and the Remedy||||Skout Taphouse||07/31/26|1900|2100||Band|
+Enoch and David||||Wanderlust Vineyard||08/01/26|1330|1530||Band|
+Jen Ambrose||||Stone River Winery||08/01/26|1700|1900||Band|
+Encore Five||||South Stage Cellars||08/01/26|1800|2000||Band|
+Enoch and David||||Pebblestone Cellars||08/02/26|1500|1700||Band|
+Bim Jeam and the Sadness||||The Toasted Barrel||08/05/26|1800|2000||Band|
+The Gus Factor||||The Wonder Bur Cafe||08/07/26|2000|2300||Band|
+The Giantess||||Stone River Winery||08/08/26|1700|1900||Band|
+Encore Five||||Pebblestone Cellars||08/09/26|1500|1700||Band|
+Enoch and David||||Paschal Winery||08/09/26|1530|1730||Band|
+Dr Pain and the Remedy||||Belle Fiore||08/09/26|1730|1930||Band|
+Tony Brussat & Lawrence Newcomb||||Butterfly Club 557||08/09/26|1800|2000|$10|Band|
+Bim Jeam and the Sadness TRIO|||Bim Jeam and the Sadness|Galice Resort||08/14/26|1730|2030||Band|
+Bim Jeam and the Sadness||||Weekend Beer Company||08/19/26|1800|2000||Band|
+Fork In The Road||||Gil's||08/21/26|1700|2000||Band|
+Enoch and David||||Wanderlust Vineyard||08/22/26|1330|1530||Band|
+Bim Jeam and the Sadness||||Remotion Wine||08/22/26|1700|1900||Band|
+Erica Rochel Duo||||Stone River Winery||08/22/26|1700|1900||Band|
+Encore Five||||Belle Fiore||08/22/26|1730|1930||Band|
+Dr Pain and the Remedy||||Dunbar Farms||08/28/26|1730|1930||Band|
+The Gus Factor||||Phoodery||08/28/26|1800|2000||Band|
+Dr Pain and the Remedy||||Rellik Winery||08/29/26|1600|1800||Band|
+Ann Kelly & Mark Ross||||Padigan Wines||08/29/26|1700|1900||Band|
+Blue Lightning||||Stone River Winery||08/29/26|1700|1900||Band|
+Bim Jeam and the Sadness||||Dunbar Farms||08/29/26|1730|1930||Band|
+Bim Jeam and the Sadness||||Tap & Vine||08/30/26|1700|1900||Band|
+Allison and Victor||||Dancin Vineyards||08/31/26|1700|1900||Band|
+Dr Pain and the Remedy||||Trium Wines||09/04/26|1700|1900||Band|
+Dr Pain and the Remedy||||Lake of the Woods||09/05/26|1600|2000||Band|
+Phillip Reed||||Stone River Winery||09/05/26|1600|1800||Band|
+Encore Five||||Local Vines Wine Bar||09/09/26|1700|1900||Band|
+Enoch and David||||Wanderlust Vineyard||09/12/26|1330|1530||Band|
+Lisa and Dean||||Stone River Winery||09/12/26|1700|1900||Band|
+Encore Five||||South Stage Cellars||09/12/26|1800|2000||Band|
+Enoch and David||||Sams Creek Cellars||09/13/26|1400|1600||Band|
+Joshua Paul||||Paschal Winery||09/13/26|1530|1730||Band|
+The Gus Factor||||The Copper Plank||09/18/26|2000|2300||Band|
+Dr Pain and the Remedy||||Padigan Wines||09/19/26|1700|1900||Band|
+Encore Five||||Roxy Ann Winery||09/20/26|1600|1800||Band|
+Dr Pain and the Remedy||||Lake of the Woods||09/26/26|1600|2000||Band|
+Enoch and David||||Rellik Winery||09/27/26|1600|1800||Band|
+Gil René||||Pebblestone Cellars||10/02/26|1700|1900||Band|
+Dr Pain and the Remedy||||Bayer Family Estate||10/03/26|1800|2100||Band|
+Joshua Paul||||Pebblestone Cellars||10/04/26|1500|1700||Band|
+Dr Pain and the Remedy||||Rellik Winery||10/04/26|1600|1800||Band|
+Allison and Victor||||Dancin Vineyards||10/07/26|1700|1900||Band|
+Encore Five||||Pebblestone Cellars||10/11/26|1500|1700||Band|
+Allison and Victor||||Dancin Vineyards||10/23/26|1700|1900||Band|
+Joshua Paul||||Schmidt Vineyard||10/23/26|1700|2000||Band|
+Enoch and David||||Rellik Winery||11/06/26|1700|1900||Band|
+Joshua Paul||||Paschal Winery||11/08/26|1530|1730||Band|
+Enoch and David||||Paschal Winery||12/06/26|1300|1500||Band|
