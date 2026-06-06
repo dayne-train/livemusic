@@ -867,7 +867,7 @@ function parseTxt(txt){
       const p=line.split('|');
       if(p.length>=6){
         const n=p[0].trim();
-        venues[n]={url:p[1]?.trim()||'',city:p[2]?.trim()||'',notes:p[3]?.trim()||'',region:p[5]?.trim()||'',type:p[6]?.trim()||''};
+        venues[n]={url:p[1]?.trim()||'',city:p[2]?.trim()||'',notes:p[4]?.trim()||'',region:p[5]?.trim()||'',type:p[6]?.trim()||''};
       }
     } else if(section==='events'){
       const p=line.split('|');
