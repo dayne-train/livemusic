@@ -990,7 +990,15 @@ function loadCache(){
   }catch(e){return null;}
 }
 
+const FRESH_WINDOW=24*60*60*1000; // suppress unavailable banner if content is this fresh
+function parseSourceTimestamp(s){
+  if(!s||s==='unknown')return NaN;
+  const m=s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})\s+(\d{1,2}):(\d{2})$/);
+  if(!m)return NaN;
+  return new Date(+m[3],+m[1]-1,+m[2],+m[4],+m[5]).getTime();
+}
 function showStaleNotice(ts){
+  if(Date.now()-ts<FRESH_WINDOW)return;
   const ago=Math.round((Date.now()-ts)/60000);
   const label=ago<60?ago+'m ago':Math.round(ago/60)+'h ago';
   const bar=document.getElementById('stale-bar');
@@ -1011,6 +1019,8 @@ async function fetchSnapshotMeta(){
 }
 function showSnapshotNotice(meta){
   const bar=document.getElementById('stale-bar');if(!bar)return;
+  const updatedTs=parseSourceTimestamp(meta&&meta.source_timestamp)||(meta&&meta.fetched_at?Date.parse(meta.fetched_at):NaN);
+  if(updatedTs&&Date.now()-updatedTs<FRESH_WINDOW)return;
   let label='a saved copy';
   if(meta&&meta.source_timestamp&&meta.source_timestamp!=='unknown')label='data updated '+meta.source_timestamp;
   else if(meta&&meta.fetched_at)label='a copy saved '+new Date(meta.fetched_at).toLocaleDateString();
