@@ -399,6 +399,12 @@
   .error-title { font-weight:600; font-size:15px; margin-bottom:var(--sp-4); }
   .error-detail { margin-top:var(--sp-6); font-size:11px; color:var(--text3); }
   .error-icon { font-size:22px; margin-bottom:var(--sp-2); }
+  .end-est-icon { position:relative; display:inline-flex; vertical-align:-2px; color:var(--text3); margin-left:var(--sp-2); cursor:help; }
+  .end-est-icon:hover, .end-est-icon:focus-visible { color:var(--text); outline:none; }
+  .end-est-tip { position:absolute; bottom:calc(100% + 6px); left:50%; transform:translateX(-50%); background:var(--text); color:var(--bg); padding:7px 10px; border-radius:6px; font-size:11px; font-weight:400; line-height:1.4; white-space:normal; width:max-content; max-width:240px; text-align:center; opacity:0; pointer-events:none; transition:opacity 0.12s; z-index:300; box-shadow:0 4px 12px rgba(0,0,0,0.18); }
+  .end-est-tip::after { content:''; position:absolute; top:100%; left:50%; transform:translateX(-50%); border:5px solid transparent; border-top-color:var(--text); }
+  .end-est-icon:hover .end-est-tip, .end-est-icon:focus-visible .end-est-tip { opacity:1; }
+  .end-est-icon.open .end-est-tip { opacity:1; }
   .modal-actions { display:flex; gap:var(--sp-4); margin-top:var(--sp-8); padding-top:var(--sp-6); border-top:0.5px solid var(--border); }
   .modal-action { flex:1; justify-content:center; padding:var(--sp-4) var(--sp-6); font-size:12px; }
 
@@ -795,6 +801,9 @@ const PROXIES=[
    works for first-time visitors when the live proxies are all down. */
 const SNAPSHOT_URL='data/musiclist.txt';
 const SNAPSHOT_META_URL='data/meta.json';
+/* Primary same-origin data source (produced by /ingest/merge.mjs). When present
+   this skips proxies entirely. Falls through to the txt path on failure. */
+const EVENTS_JSON_URL='data/events.json';
 const CACHE_KEY='rogue_live_cache';
 const CACHE_TS_KEY='rogue_live_cache_ts';
 const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
@@ -1057,6 +1066,50 @@ async function fetchFromProxies(){
 
 const CACHE_FRESH=30*60*1000; // 30 minutes — skip API if cache is this fresh
 
+/* Same-origin events.json (built by /ingest/merge.mjs). No proxy needed.
+   Returns the parsed JSON object or throws. */
+async function fetchEventsJson(){
+  const res=await fetchWithTimeout(EVENTS_JSON_URL,8000);
+  if(!res.ok)throw new Error('events.json HTTP '+res.status);
+  const json=await res.json();
+  if(!json||!Array.isArray(json.events))throw new Error('events.json invalid shape');
+  return json;
+}
+
+/* Convert canonical events.json records to the in-memory shape the rest of
+   the UI expects (matches parseTxt output exactly). Venue fields are joined
+   from the venues dict by name. */
+function eventsJsonToInternal(json){
+  const venues=json.venues||{};
+  const out=(json.events||[]).map((e,i)=>{
+    const v=venues[e.venue]||{};
+    const parts=(e.date||'').split('-');
+    const date=parts.length===3?new Date(+parts[0],+parts[1]-1,+parts[2]):null;
+    return{
+      musician:e.musician||'Unknown',
+      genre:e.genre||'',
+      link:e.link||'',
+      linkName:e.link_name||'',
+      venue:e.venue||'',
+      venueUrl:v.url||'',
+      city:v.city||'',
+      region:v.region||'',
+      venueType:v.type||'',
+      venueAddress:v.address||'',
+      date,
+      dateStr:e.date||'',
+      startRaw:e.start_raw||'',
+      endRaw:e.end_raw||'',
+      endEstimated:!!e.end_estimated,
+      notes:e.notes||'',
+      eventType:e.event_type||'Band',
+      _idx:i,
+    };
+  }).filter(e=>e.date);
+  if(json.source_timestamp){_sourceUpdated=json.source_timestamp;updateSourceTimestamp();}
+  return out;
+}
+
 async function loadData(){
   /* Show cached data instantly if available */
   const cached=loadCache();
@@ -1068,6 +1121,17 @@ async function loadData(){
     // skip API call if cache is fresh enough
     if(Date.now()-cached.ts<CACHE_FRESH)return;
   }
+
+  /* Try same-origin events.json first — no CORS, no proxies. */
+  try{
+    const json=await fetchEventsJson();
+    hideStaleNotice();
+    allEvents=eventsJsonToInternal(json);
+    populateFilterDropdowns();
+    render();
+    openFromUrl();
+    return;
+  }catch(jsonErr){/* fall through to legacy txt path */}
 
   /* Fetch fresh data */
   try{
@@ -1603,7 +1667,7 @@ function openDetail(idx){
       </div></div>
       <div class="modal-row"><span class="modal-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><div>
         <div class="modal-row-label">Time</div>
-        <div class="modal-row-value">${esc(tS)}${tE?' – '+esc(tE):''}${statusHtml(e)}</div>
+        <div class="modal-row-value">${esc(tS)}${tE?' – '+esc(tE):''}${e.endEstimated?` <span class="end-est-icon" tabindex="0" role="button" aria-label="End time is estimated" onclick="this.classList.toggle('open');event.stopPropagation();"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg><span class="end-est-tip">End time is estimated. This venue doesn't publish a duration, so we assume a typical 2-hour show.</span></span>`:''}${statusHtml(e)}</div>
       </div></div>
       ${e.eventType?`<div class="modal-row"><span class="modal-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span><div>
         <div class="modal-row-label">Type</div>

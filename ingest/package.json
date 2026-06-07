@@ -1,0 +1,14 @@
+{
+  "name": "rvlivemusic-ingest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Event ingest pipeline for rvlivemusic.com. Runs adapters, merges, writes data/events.json.",
+  "scripts": {
+    "build": "node merge.mjs",
+    "build:offline": "node merge.mjs --offline"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
