@@ -131,22 +131,23 @@ jobs:
           NEW_HASH=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("data/events.json")).content_hash)')
           OLD_HASH=$(git show HEAD:data/events.json 2>/dev/null | node -e 'try{let s="";process.stdin.on("data",c=>s+=c);process.stdin.on("end",()=>{try{console.log(JSON.parse(s).content_hash||"")}catch(e){console.log("")}})}' || echo "")
 
-          CACHE_CHANGED="no"
-          if [ -f data/artist_genres.json ] && ! git diff --quiet HEAD -- data/artist_genres.json 2>/dev/null; then
-            CACHE_CHANGED="yes"
-          fi
-          if [ ! -f data/artist_genres.json ] || ! git ls-files --error-unmatch data/artist_genres.json >/dev/null 2>&1; then
-            # cache file is new and untracked
-            if [ -f data/artist_genres.json ]; then CACHE_CHANGED="yes"; fi
-          fi
+          # Stage anything in data/ that we care about. Untracked files (new
+          # cache file, etc) get picked up by git add; tracked-but-modified
+          # files do too. Files that don't exist are silently skipped.
+          for f in data/musiclist.txt data/events.json data/meta.json data/artist_genres.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
 
-          if [ "$NEW_HASH" = "$OLD_HASH" ] && [ -n "$NEW_HASH" ] && [ "$CACHE_CHANGED" = "no" ]; then
-            echo "Content hash unchanged ($NEW_HASH) and cache unchanged. Nothing to commit."
+          # If the events.json content_hash is unchanged AND nothing else in
+          # data/ has a real diff (just timestamp updates in meta.json), skip.
+          # Otherwise commit and push.
+          OTHER_DIFF=$(git diff --cached --name-only -- data/musiclist.txt data/artist_genres.json)
+          if [ "$NEW_HASH" = "$OLD_HASH" ] && [ -n "$NEW_HASH" ] && [ -z "$OTHER_DIFF" ]; then
+            echo "Content hash unchanged ($NEW_HASH) and no other data diffs. Skipping commit."
+            git reset -q
             exit 0
           fi
 
-          git add data/musiclist.txt data/events.json data/meta.json
-          if [ -f data/artist_genres.json ]; then git add data/artist_genres.json; fi
           if git diff --cached --quiet; then
             echo "Nothing staged. Skipping commit."
             exit 0
