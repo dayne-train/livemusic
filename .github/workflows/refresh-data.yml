@@ -105,6 +105,9 @@ jobs:
 
       - name: Run ingest pipeline
         id: pipeline
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: |
           set -euo pipefail
           cd ingest
@@ -128,12 +131,22 @@ jobs:
           NEW_HASH=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("data/events.json")).content_hash)')
           OLD_HASH=$(git show HEAD:data/events.json 2>/dev/null | node -e 'try{let s="";process.stdin.on("data",c=>s+=c);process.stdin.on("end",()=>{try{console.log(JSON.parse(s).content_hash||"")}catch(e){console.log("")}})}' || echo "")
 
-          if [ "$NEW_HASH" = "$OLD_HASH" ] && [ -n "$NEW_HASH" ]; then
-            echo "Content hash unchanged ($NEW_HASH). Nothing to commit."
+          CACHE_CHANGED="no"
+          if [ -f data/artist_genres.json ] && ! git diff --quiet HEAD -- data/artist_genres.json 2>/dev/null; then
+            CACHE_CHANGED="yes"
+          fi
+          if [ ! -f data/artist_genres.json ] || ! git ls-files --error-unmatch data/artist_genres.json >/dev/null 2>&1; then
+            # cache file is new and untracked
+            if [ -f data/artist_genres.json ]; then CACHE_CHANGED="yes"; fi
+          fi
+
+          if [ "$NEW_HASH" = "$OLD_HASH" ] && [ -n "$NEW_HASH" ] && [ "$CACHE_CHANGED" = "no" ]; then
+            echo "Content hash unchanged ($NEW_HASH) and cache unchanged. Nothing to commit."
             exit 0
           fi
 
           git add data/musiclist.txt data/events.json data/meta.json
+          if [ -f data/artist_genres.json ]; then git add data/artist_genres.json; fi
           if git diff --cached --quiet; then
             echo "Nothing staged. Skipping commit."
             exit 0

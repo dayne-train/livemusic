@@ -15,7 +15,7 @@ const BUCKETS = [
   ['Reggae',          ['reggae', 'ska', 'dub', 'dancehall']],
   ['Funk / Soul',     ['funk', 'soul', 'r&b', 'rnb', 'motown', 'gospel']],
   ['Hip Hop',         ['hip hop', 'hip-hop', 'hiphop', 'rap']],
-  ['Electronic / DJ', ['electronic', 'edm', 'house music', 'techno', 'trance', 'dj', 'drum and bass', 'dnb']],
+  ['Electronic / DJ', ['electronic', 'edm', 'house music', 'deep house', 'tech house', 'progressive house', 'techno', 'trance', 'dj', 'drum and bass', 'dnb', 'dubstep']],
   ['Punk / Metal',    ['punk', 'metal', 'hardcore', 'grunge']],
   ['Rock',            ['rock', 'alternative', 'alt rock', 'indie', 'indie rock', 'psychedelic', 'garage']],
   ['Pop',             ['pop', 'indie pop']],
