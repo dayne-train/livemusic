@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { ingest as ingestMusiclistTxt } from './adapters/musiclist_txt.mjs';
 import { ingest as ingestTribeIcs } from './adapters/tribe_ics.mjs';
 import { ingest as ingestTalentClub } from './adapters/talent_club.mjs';
+import { ingest as ingestBlackSheep } from './adapters/black_sheep.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
 import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
 
@@ -17,6 +18,7 @@ const ADAPTERS = [
   { name: 'musiclist_txt', trust: 100, run: () => ingestMusiclistTxt({ offline: OFFLINE }) },
   { name: 'tribe_ics',     trust: 80,  run: () => ingestTribeIcs({ offline: OFFLINE }) },
   { name: 'talent_club',   trust: 80,  run: () => ingestTalentClub({ offline: OFFLINE }) },
+  { name: 'black_sheep',   trust: 80,  run: () => ingestBlackSheep({ offline: OFFLINE }) },
 ];
 
 const TIME_WINDOW_MIN = 90;

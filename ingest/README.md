@@ -9,6 +9,7 @@ Builds `data/events.json` by running adapters and merging their output. Runs eve
 | `musiclist_txt` | `roguevalleylivemusicnightlife.com/musiclist.txt` (volunteer-maintained pipe-delimited file) | 100 |
 | `tribe_ics` | Belle Fiore, Grizzly Peak, Roxy Ann Winery ICS feeds (WordPress + Tribe Events) | 80 |
 | `talent_club` | `talentclublive.com/live-music/` HTML scrape | 80 |
+| `black_sheep` | `theblacksheep.com/events/` schema.org Event JSON-LD | 80 |
 
 Higher trust wins on dedup overlaps. The volunteer list is the floor.
 
