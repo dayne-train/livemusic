@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T07:11:58.729Z",
+  "generated_at": "2026-06-07T08:01:36.174Z",
   "source_timestamp": "06/06/2026 06:55",
   "content_hash": "e294db479e2366cd",
   "sources": {
@@ -7,24 +7,24 @@
       "ok": true,
       "count": 324,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-07T07:11:56.953Z",
-      "last_attempt": "2026-06-07T07:11:56.953Z",
+      "last_ok": "2026-06-07T08:01:33.961Z",
+      "last_attempt": "2026-06-07T08:01:33.961Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 22,
       "strategy": "live",
-      "last_ok": "2026-06-07T07:11:57.371Z",
-      "last_attempt": "2026-06-07T07:11:57.371Z",
+      "last_ok": "2026-06-07T08:01:34.403Z",
+      "last_attempt": "2026-06-07T08:01:34.403Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-07T07:11:58.211Z",
-      "last_attempt": "2026-06-07T07:11:58.211Z",
+      "last_ok": "2026-06-07T08:01:35.527Z",
+      "last_attempt": "2026-06-07T08:01:35.527Z",
       "error": null
     }
   },
