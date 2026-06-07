@@ -4,6 +4,7 @@ import { ingest as ingestMusiclistTxt } from './adapters/musiclist_txt.mjs';
 import { ingest as ingestTribeIcs } from './adapters/tribe_ics.mjs';
 import { ingest as ingestTalentClub } from './adapters/talent_club.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
+import { canonicalizeGenres } from './lib/genres.mjs';
 
 const DATA_DIR = new URL('../data/', import.meta.url);
 const EVENTS_OUT = new URL('events.json', DATA_DIR);
@@ -120,6 +121,14 @@ async function main() {
 
   const venues = mergeVenues(results);
   const { events, dropped } = dedupeEvents(results);
+
+  const musicianGenres = results.find(r => r.name === 'musiclist_txt' && r.ok)?.musician_genres || {};
+  for (const e of events) {
+    let source = e.genre;
+    if (!source && e.musician && musicianGenres[e.musician]) source = musicianGenres[e.musician];
+    e.genres = source ? canonicalizeGenres(source) : [];
+    if (!e.genre && source) e.genre = source;
+  }
 
   const sourceTimestamp =
     results.find(r => r.ok && r.source_timestamp)?.source_timestamp || null;

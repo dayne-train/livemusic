@@ -49,6 +49,7 @@ function parseTxt(txt) {
   const lines = txt.split('\n');
   const venues = {};
   const events = [];
+  const musicianGenres = {};
   let section = '';
   let sourceTimestamp = null;
 
@@ -58,9 +59,19 @@ function parseTxt(txt) {
     if (line === '--timestamp') { section = 'timestamp'; continue; }
     if (line === '--venues') { section = 'venues'; continue; }
     if (line === '--events') { section = 'events'; continue; }
-    if (line === '--musicians' || line === '--news') { section = 'skip'; continue; }
+    if (line === '--musicians') { section = 'musicians'; continue; }
+    if (line === '--news') { section = 'skip'; continue; }
     if (section === 'timestamp') { sourceTimestamp = line; section = ''; continue; }
     if (line.startsWith('--') || line.startsWith('*')) continue;
+
+    if (section === 'musicians') {
+      const p = line.split('|');
+      const name = p[0]?.trim();
+      if (!name) continue;
+      const genre = p[1]?.trim() || '';
+      if (genre) musicianGenres[name] = genre;
+      continue;
+    }
 
     if (section === 'venues') {
       const p = line.split('|');
@@ -85,13 +96,15 @@ function parseTxt(txt) {
       const venue = p[4]?.trim() || '';
       const musician = p[0]?.trim() || 'Unknown';
       const startRaw = p[7]?.trim() || '';
+      const eventGenre = p[1]?.trim() || '';
       events.push({
         id: eventId(venue, dateISO, startRaw, musician),
         date: dateISO,
         start_raw: startRaw,
         end_raw: p[8]?.trim() || '',
         musician,
-        genre: p[1]?.trim() || '',
+        genre: eventGenre,
+        _musician_key: musician,
         link: p[2]?.trim() || '',
         link_name: p[3]?.trim() || '',
         venue,
@@ -103,7 +116,14 @@ function parseTxt(txt) {
     }
   }
 
-  return { events, venues, source_timestamp: sourceTimestamp };
+  for (const e of events) {
+    if (!e.genre && e._musician_key && musicianGenres[e._musician_key]) {
+      e.genre = musicianGenres[e._musician_key];
+    }
+    delete e._musician_key;
+  }
+
+  return { events, venues, source_timestamp: sourceTimestamp, musician_genres: musicianGenres };
 }
 
 export async function ingest({ offline = false } = {}) {
@@ -136,7 +156,7 @@ export async function ingest({ offline = false } = {}) {
     };
   }
 
-  const { events, venues, source_timestamp } = parseTxt(txt);
+  const { events, venues, source_timestamp, musician_genres } = parseTxt(txt);
 
   return {
     ok: true,
@@ -148,5 +168,6 @@ export async function ingest({ offline = false } = {}) {
     strategy,
     fetched_at: started,
     raw: txt,
+    musician_genres,
   };
 }

@@ -399,6 +399,7 @@
   .error-title { font-weight:600; font-size:15px; margin-bottom:var(--sp-4); }
   .error-detail { margin-top:var(--sp-6); font-size:11px; color:var(--text3); }
   .error-icon { font-size:22px; margin-bottom:var(--sp-2); }
+  .pill-sub { color:var(--text3); font-size:11px; margin-left:var(--sp-2); font-weight:400; }
   .end-est-icon { position:relative; display:inline-flex; vertical-align:-2px; color:var(--text3); margin-left:var(--sp-2); cursor:help; }
   .end-est-icon:hover, .end-est-icon:focus-visible { color:var(--text); outline:none; }
   .end-est-tip { position:absolute; bottom:calc(100% + 6px); left:50%; transform:translateX(-50%); background:var(--text); color:var(--bg); padding:7px 10px; border-radius:6px; font-size:11px; font-weight:400; line-height:1.4; white-space:normal; width:max-content; max-width:240px; text-align:center; opacity:0; pointer-events:none; transition:opacity 0.12s; z-index:300; box-shadow:0 4px 12px rgba(0,0,0,0.18); }
@@ -681,6 +682,18 @@
       <button class="pill-option selected" role="menuitem" onclick="pickFilter('venue','all','Venue type')">All venue types</button>
     </div>
   </div>
+  <div class="pill-wrap">
+    <button class="filter-pill" id="pill-time" onclick="togglePill('time')" aria-haspopup="true" aria-expanded="false">
+      <span id="pill-time-label">Time</span>
+      <svg class="pill-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="pill-menu align-right" id="pill-time-menu" role="menu">
+      <button class="pill-option selected" role="menuitem" onclick="pickFilter('time','all','Time')">Any time</button>
+      <button class="pill-option" role="menuitem" onclick="pickFilter('time','daytime','Daytime')">Daytime <span class="pill-sub">before 5pm</span></button>
+      <button class="pill-option" role="menuitem" onclick="pickFilter('time','evening','Evening')">Evening <span class="pill-sub">5pm – 9pm</span></button>
+      <button class="pill-option" role="menuitem" onclick="pickFilter('time','late','Late night')">Late night <span class="pill-sub">9pm onward</span></button>
+    </div>
+  </div>
   <button class="clear-filters-btn" id="clear-filters-btn" onclick="resetHome()" style="display:none;" aria-label="Clear all filters">
     <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Clear filters
   </button>
@@ -757,6 +770,15 @@
     <div class="bs-label">Venue type</div>
     <div class="bs-options" id="bs-venue"></div>
   </div>
+  <div class="bs-section">
+    <div class="bs-label">Time</div>
+    <div class="bs-options" id="bs-time">
+      <button class="bs-opt active" onclick="bsPick('time','all','Time',this)">Any time</button>
+      <button class="bs-opt" onclick="bsPick('time','daytime','Daytime',this)">Daytime</button>
+      <button class="bs-opt" onclick="bsPick('time','evening','Evening',this)">Evening</button>
+      <button class="bs-opt" onclick="bsPick('time','late','Late night',this)">Late night</button>
+    </div>
+  </div>
 </div>
 
 <div class="bottomsheet-overlay" id="bs-pill-overlay" onclick="closePillSheet()"></div>
@@ -808,7 +830,13 @@ const CACHE_KEY='rogue_live_cache';
 const CACHE_TS_KEY='rogue_live_cache_ts';
 const CACHE_MAX_AGE=6*60*60*1000; // 6 hours
 
-let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', viewMode='row';
+let allEvents=[], rangeStart, rangeEnd, activeRegion='all', activeType='all', activeGenre='all', activeVenueType='all', activeTime='all', viewMode='row';
+
+const TIME_BUCKETS=[
+  {value:'daytime',label:'Daytime',sub:'before 5pm',test:h=>h<17},
+  {value:'evening',label:'Evening',sub:'5pm – 9pm',test:h=>h>=17&&h<21},
+  {value:'late',   label:'Late night',sub:'9pm onward',test:h=>h>=21},
+];
 
 /* ── Utils ── */
 function midnight(d){const x=new Date(d);x.setHours(0,0,0,0);return x;}
@@ -1101,6 +1129,7 @@ function eventsJsonToInternal(json){
       startRaw:e.start_raw||'',
       endRaw:e.end_raw||'',
       endEstimated:!!e.end_estimated,
+      genres:Array.isArray(e.genres)?e.genres:[],
       notes:e.notes||'',
       eventType:e.event_type||'Band',
       _idx:i,
@@ -1284,8 +1313,8 @@ function updateDpLabel(){
 }
 
 /* ── Pill dropdown filters ── */
-const FILTER_STATE={region:'all',type:'all',genre:'all',venue:'all'};
-const FILTER_DEFAULTS={region:'Region',type:'Type',genre:'Genre',venue:'Venue type'};
+const FILTER_STATE={region:'all',type:'all',genre:'all',venue:'all',time:'all'};
+const FILTER_DEFAULTS={region:'Region',type:'Type',genre:'Genre',venue:'Venue type',time:'Time'};
 
 function togglePill(name){
   if(isMobile()){
@@ -1362,6 +1391,7 @@ function pickFilter(name,value,label){
   else if(name==='type')activeType=value;
   else if(name==='genre')activeGenre=value;
   else if(name==='venue')activeVenueType=value;
+  else if(name==='time')activeTime=value;
   // update pill label + filtered state
   const pill=document.getElementById('pill-'+name);
   const lbl=document.getElementById('pill-'+name+'-label');
@@ -1380,7 +1410,7 @@ function pickFilter(name,value,label){
 function defaultRange(){return isMobile()?'today':'next7';}
 function defaultRangeLabel(){return isMobile()?'Today':'Next 7 days';}
 function isDefaultDateRange(){const dr=defaultRange();const t=midnight(new Date());if(dr==='today')return fmtISO(rangeStart)===fmtISO(t)&&fmtISO(rangeEnd)===fmtISO(t);if(dr==='next7')return fmtISO(rangeStart)===fmtISO(t)&&fmtISO(rangeEnd)===fmtISO(addDays(t,6));return false;}
-function hasActiveFilters(){return activeRegion!=='all'||activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all';}
+function hasActiveFilters(){return activeRegion!=='all'||activeType!=='all'||activeGenre!=='all'||activeVenueType!=='all'||activeTime!=='all';}
 function updateClearBtn(){
   const btn=document.getElementById('clear-filters-btn');
   if(!btn)return;
@@ -1405,9 +1435,9 @@ function resetHome(){
   history.replaceState(null,'',location.pathname);
 }
 function clearAllFilters(){
-  activeRegion='all';activeType='all';activeGenre='all';activeVenueType='all';
-  FILTER_STATE.region='all';FILTER_STATE.type='all';FILTER_STATE.genre='all';FILTER_STATE.venue='all';
-  syncPillUi('region','all');syncPillUi('type','all');syncPillUi('genre','all');syncPillUi('venue','all');
+  activeRegion='all';activeType='all';activeGenre='all';activeVenueType='all';activeTime='all';
+  FILTER_STATE.region='all';FILTER_STATE.type='all';FILTER_STATE.genre='all';FILTER_STATE.venue='all';FILTER_STATE.time='all';
+  syncPillUi('region','all');syncPillUi('type','all');syncPillUi('genre','all');syncPillUi('venue','all');syncPillUi('time','all');
   syncBsFromState();updateClearBtn();syncBsBtn();syncUrl();render();
 }
 
@@ -1416,6 +1446,7 @@ function setRegion(r){activeRegion=r;FILTER_STATE.region=r;syncPillUi('region',r
 function setType(t){activeType=t;FILTER_STATE.type=t;syncPillUi('type',t);updateClearBtn();syncUrl();render();}
 function setGenre(v){activeGenre=v;FILTER_STATE.genre=v;syncPillUi('genre',v);updateClearBtn();syncUrl();render();}
 function setVenueType(v){activeVenueType=v;FILTER_STATE.venue=v;syncPillUi('venue',v);updateClearBtn();syncUrl();render();}
+function setTime(v){activeTime=v;FILTER_STATE.time=v;syncPillUi('time',v);updateClearBtn();syncUrl();render();}
 
 function syncPillUi(name,value){
   const pill=document.getElementById('pill-'+name);
@@ -1440,8 +1471,13 @@ function getFiltered(){
     if(d<s||d>e)return false;
     if(activeRegion!=='all'&&ev.region!==activeRegion)return false;
     if(activeType!=='all'&&ev.eventType!==activeType)return false;
-    if(activeGenre!=='all'&&ev.genre!==activeGenre)return false;
+    if(activeGenre!=='all'&&!(ev.genres||[]).includes(activeGenre))return false;
     if(activeVenueType!=='all'&&ev.venueType!==activeVenueType)return false;
+    if(activeTime!=='all'){
+      const sh=ev.startRaw?parseInt(ev.startRaw.padStart(4,'0').slice(0,2),10):null;
+      const bucket=TIME_BUCKETS.find(b=>b.value===activeTime);
+      if(sh==null||!bucket||!bucket.test(sh))return false;
+    }
     if(q&&!ev.musician.toLowerCase().includes(q)&&!ev.venue.toLowerCase().includes(q)&&!ev.city.toLowerCase().includes(q))return false;
     return true;
   });
@@ -1767,7 +1803,7 @@ function debouncedSearch(){clearTimeout(_searchTimer);_searchTimer=setTimeout(()
 function populateFilterDropdowns(){
   const genres=new Set(), vtypes=new Set();
   allEvents.forEach(e=>{
-    if(e.genre)genres.add(e.genre);
+    (e.genres||[]).forEach(g=>genres.add(g));
     if(e.venueType)vtypes.add(e.venueType);
   });
   // populate pill menus
@@ -1809,6 +1845,7 @@ function syncUrl(){
   if(activeType!=='all')p.set('type',activeType);
   if(activeGenre!=='all')p.set('genre',activeGenre);
   if(activeVenueType!=='all')p.set('venue',activeVenueType);
+  if(activeTime!=='all')p.set('time',activeTime);
   const q=document.getElementById('search').value;
   if(q)p.set('q',q);
   if(viewMode!=='card')p.set('view',viewMode);
@@ -1851,6 +1888,7 @@ function restoreFromUrl(){
   // genre, venue type (pill UI synced after data loads in populateFilterDropdowns)
   if(p.has('genre')){activeGenre=p.get('genre');FILTER_STATE.genre=activeGenre;}
   if(p.has('venue')){activeVenueType=p.get('venue');FILTER_STATE.venue=activeVenueType;}
+  if(p.has('time')){activeTime=p.get('time');FILTER_STATE.time=activeTime;}
   // search
   if(p.has('q')){
     const box=document.getElementById('search');

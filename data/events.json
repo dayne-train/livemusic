@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-06-07T03:08:45.498Z",
+  "generated_at": "2026-06-07T04:38:44.449Z",
   "source_timestamp": "06/06/2026 06:55",
-  "content_hash": "f6b3ea32a49c45dd",
+  "content_hash": "feeedfad12de370d",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 324,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-07T03:08:43.568Z",
-      "last_attempt": "2026-06-07T03:08:43.568Z",
+      "last_ok": "2026-06-07T04:38:42.719Z",
+      "last_attempt": "2026-06-07T04:38:42.719Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-07T03:08:44.029Z",
-      "last_attempt": "2026-06-07T03:08:44.029Z",
+      "last_ok": "2026-06-07T04:38:43.197Z",
+      "last_attempt": "2026-06-07T04:38:43.197Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-07T03:08:44.917Z",
-      "last_attempt": "2026-06-07T03:08:44.917Z",
+      "last_ok": "2026-06-07T04:38:43.928Z",
+      "last_attempt": "2026-06-07T04:38:43.928Z",
       "error": null
     }
   },
@@ -3391,7 +3391,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d6dce11373371847",
@@ -3406,7 +3407,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "683c8069c4780f06",
@@ -3421,7 +3423,8 @@
       "notes": "Hosted by: Dr Pain and the Remedy",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f49774eb7b9399ce",
@@ -3436,7 +3439,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b9df1acd1518edd0",
@@ -3444,14 +3448,15 @@
       "start_raw": "1800",
       "end_raw": "2000",
       "musician": "LoGee",
-      "genre": "",
+      "genre": "looping",
       "link": "",
       "link_name": "",
       "venue": "Weekend Beer Company",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f33d7fce32c74944",
@@ -3466,7 +3471,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0be47987da20edcc",
@@ -3481,7 +3487,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ab56f18ec750ba95",
@@ -3496,7 +3503,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "76b9f06917f890bf",
@@ -3511,7 +3519,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f4939a7c030a5575",
@@ -3526,7 +3535,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c57dd635b8341733",
@@ -3541,7 +3551,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a1da2fbc31368e55",
@@ -3556,7 +3567,10 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "768d94aca8e71cc9",
@@ -3571,7 +3585,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "cf9d1ccc1153e706",
@@ -3586,7 +3601,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "761183118448a276",
@@ -3601,7 +3617,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f971059bdfc8bf21",
@@ -3616,7 +3633,8 @@
       "notes": "$15",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a9f70305e382d677",
@@ -3631,7 +3649,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "82414fa33c5e39cd",
@@ -3639,14 +3658,15 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Dancin Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a9d152942a9aefa3",
@@ -3661,7 +3681,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "cc80476854552ce1",
@@ -3669,14 +3690,18 @@
       "start_raw": "1700",
       "end_raw": "2000",
       "musician": "Steve Keim",
-      "genre": "",
+      "genre": "pop / light rock",
       "link": "",
       "link_name": "",
       "venue": "Farris Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock",
+        "Pop"
+      ]
     },
     {
       "id": "7d54deb1642b8675",
@@ -3691,7 +3716,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "70993d304da646e9",
@@ -3706,7 +3732,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "eff7c1616700cb7e",
@@ -3714,14 +3741,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Pozitronics",
-      "genre": "",
+      "genre": "Rock variety",
       "link": "",
       "link_name": "",
       "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "9e62722288718434",
@@ -3736,7 +3766,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a54163a356deebd2",
@@ -3744,14 +3775,17 @@
       "start_raw": "1700",
       "end_raw": "2000",
       "musician": "Canto Sol",
-      "genre": "",
+      "genre": "Latin",
       "link": "",
       "link_name": "",
       "venue": "Shepherd's Dream",
       "notes": "as part of the First Friday Art Walk",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "ea95556f1d159847",
@@ -3766,7 +3800,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "31948687def06751",
@@ -3781,7 +3816,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ded9ebf4eca2826b",
@@ -3796,7 +3832,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a72257c9d481eb4d",
@@ -3811,7 +3848,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "78db31937f98e61e",
@@ -3826,7 +3864,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "42b281d6361ea529",
@@ -3841,7 +3880,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f7dd64628a4fe169",
@@ -3856,7 +3896,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "7f7ec4621b66d573",
@@ -3871,7 +3912,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1cb61a582a36f1ec",
@@ -3886,7 +3928,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "de0c4a9cf89ef771",
@@ -3894,14 +3937,17 @@
       "start_raw": "1800",
       "end_raw": "2000",
       "musician": "Saucy",
-      "genre": "",
+      "genre": "classic rock, variety",
       "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "b6b7e7881aea9aaf",
@@ -3916,7 +3962,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0c065bbdb2cc7ed7",
@@ -3931,7 +3978,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2e3d8d80e33d10df",
@@ -3946,7 +3994,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a54bc4b1537c1ea0",
@@ -3961,7 +4010,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c6c738ea1f2e8798",
@@ -3976,7 +4026,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "274d514277fc471d",
@@ -3991,7 +4042,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "5df537addfdea399",
@@ -4006,7 +4058,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2b73cf8282000384",
@@ -4021,7 +4074,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c66265d474438a32",
@@ -4036,7 +4090,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f0956e72e115cf67",
@@ -4051,7 +4106,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e5b562dfd1852e8e",
@@ -4066,7 +4122,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6b91a73e13b10b2b",
@@ -4081,7 +4138,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e519bddb47d13336",
@@ -4096,7 +4154,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6eb969ff1113eeab",
@@ -4111,7 +4170,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "22131cad2dbe1b2e",
@@ -4119,14 +4179,15 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Padigan Wines",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "64dc228b497e30fb",
@@ -4141,7 +4202,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "5c3933b5a75fe7ea",
@@ -4162,7 +4224,8 @@
           "source": "tribe_ics",
           "id": "02753e86430f4225"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "e2b98fd759ac3f64",
@@ -4177,7 +4240,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c5f332abbe6c5206",
@@ -4192,7 +4256,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a520215725123e36",
@@ -4207,7 +4272,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2eba1549ad75218c",
@@ -4215,14 +4281,17 @@
       "start_raw": "1800",
       "end_raw": "2100",
       "musician": "Rogue Suspects",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Bayer Family Estate",
       "notes": "Aretha Franklin revue",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "79746e3383619d41",
@@ -4237,7 +4306,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ea983db95208a916",
@@ -4252,7 +4322,8 @@
       "notes": "Tickets $18",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b0519c1dd074ccd7",
@@ -4260,14 +4331,17 @@
       "start_raw": "1800",
       "end_raw": "2100",
       "musician": "Brothers Reed",
-      "genre": "",
+      "genre": "Folk",
       "link": "",
       "link_name": "",
       "venue": "Naumes Suncrest Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "id": "596dd8bb5db36dbc",
@@ -4275,14 +4349,17 @@
       "start_raw": "1800",
       "end_raw": "2000",
       "musician": "Jen Ambrose",
-      "genre": "",
+      "genre": "blues",
       "link": "",
       "link_name": "",
       "venue": "The Gold Room",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "55c9af6a9eccac25",
@@ -4297,7 +4374,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "fb701bb10f672b5c",
@@ -4312,7 +4390,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "08f8195e7e7b43bc",
@@ -4320,14 +4399,15 @@
       "start_raw": "1900",
       "end_raw": "2100",
       "musician": "LoGee",
-      "genre": "",
+      "genre": "looping",
       "link": "",
       "link_name": "",
       "venue": "Growler Guys Grants Pass",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a274d38fe4927a28",
@@ -4342,7 +4422,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "56727966289910fe",
@@ -4357,7 +4438,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e95d065425bad555",
@@ -4365,14 +4447,15 @@
       "start_raw": "1400",
       "end_raw": "1600",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Daisy Creek Vineyard",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "96dbc068b7d445a9",
@@ -4387,7 +4470,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d6419d8e60f04434",
@@ -4402,7 +4486,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b1962f2ad821dd8c",
@@ -4410,14 +4495,18 @@
       "start_raw": "1400",
       "end_raw": "1700",
       "musician": "Frankie Hernandez",
-      "genre": "",
+      "genre": "soul, funk, reggae",
       "link": "",
       "link_name": "",
       "venue": "Walport Family Cellars",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Reggae",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "bd5adf875ab06098",
@@ -4432,7 +4521,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "01b3176cf3563b08",
@@ -4447,7 +4537,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "fbb2f9bcdce611d3",
@@ -4462,7 +4553,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "9c110bd2f2b2a4a3",
@@ -4477,7 +4569,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8d4a96a317e4bc73",
@@ -4492,7 +4585,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "7c2cb693099c61f1",
@@ -4500,7 +4594,7 @@
       "start_raw": "1600",
       "end_raw": "1800",
       "musician": "JustaDuo",
-      "genre": "",
+      "genre": "easy listening",
       "link": "https://roxyann.com/event/music-wine-series-featuring-justaduo-june-7/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
@@ -4513,7 +4607,8 @@
           "source": "tribe_ics",
           "id": "b1ce8a38ea043afa"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "ec93f05f3b8dcbe7",
@@ -4528,7 +4623,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "78d31114db303714",
@@ -4543,7 +4639,8 @@
       "notes": "Improvisational cover band that celebrates the timeless music of the Grateful Dead, while also paying homage to legendary artists like The Beatles, Bob Dylan, Chuck Berry, Jimmy Cliff, and Van Morriso",
       "event_type": "Band",
       "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-shine-on-motown/"
+      "source_url": "https://bellefiorewine.com/event/live-music-shine-on-motown/",
+      "genres": []
     },
     {
       "id": "cafcda7cb5d455e3",
@@ -4551,14 +4648,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Canto Sol",
-      "genre": "",
+      "genre": "Latin",
       "link": "",
       "link_name": "",
       "venue": "Tap & Vine",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "f7cf4917a7d5cd5c",
@@ -4566,14 +4666,17 @@
       "start_raw": "1730",
       "end_raw": "2030",
       "musician": "Saucy",
-      "genre": "",
+      "genre": "classic rock, variety",
       "link": "",
       "link_name": "",
       "venue": "Galice Resort",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "122dcfb719ac4a73",
@@ -4588,7 +4691,8 @@
       "notes": "hosted by Crooked Heart",
       "event_type": "Open Mic",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a1c8c6b73103d37d",
@@ -4603,7 +4707,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "7c6d2f9fea338dec",
@@ -4618,7 +4723,8 @@
       "notes": "Instrumentation is sax, bass, guitar and a female singer",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6838c826cc921652",
@@ -4633,7 +4739,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a3a114eb01ce3203",
@@ -4648,7 +4755,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "9fe8220f67087517",
@@ -4663,7 +4771,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6cb77f9734d1c747",
@@ -4678,7 +4787,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f78f933a14092fd6",
@@ -4693,7 +4803,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f42160ab53fc4731",
@@ -4708,7 +4819,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "60bb14289168eda2",
@@ -4723,7 +4835,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "bc98f685f2653c2c",
@@ -4731,14 +4844,15 @@
       "start_raw": "1800",
       "end_raw": "2000",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "South Stage Cellars",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2bf4669aa372c878",
@@ -4753,7 +4867,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "9d21cff2fd821395",
@@ -4761,7 +4876,7 @@
       "start_raw": "1730",
       "end_raw": "1930",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
       "link_name": "",
       "venue": "Belle Fiore",
@@ -4774,7 +4889,8 @@
           "source": "tribe_ics",
           "id": "cc0627ea9f16bae3"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "e691bfb22cc5651d",
@@ -4789,7 +4905,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "49990a02ff26736a",
@@ -4804,7 +4921,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d218743bbc30cf8a",
@@ -4819,7 +4937,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "fcabf6517c3fba4f",
@@ -4834,7 +4953,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3f5fa5aa5a7eaa4f",
@@ -4849,7 +4969,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "af12dddf22dd2579",
@@ -4864,7 +4985,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "81a2dc91f703ff59",
@@ -4879,7 +5001,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "759833d4b5b92e92",
@@ -4894,7 +5017,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "14a8bbe699a3533c",
@@ -4909,7 +5033,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e23249dade0a1b46",
@@ -4924,7 +5049,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "30f6e38da61c4b17",
@@ -4932,14 +5058,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "0fc89968bbcfa9b2",
@@ -4960,7 +5089,8 @@
           "source": "tribe_ics",
           "id": "973f645273aa4c44"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "3c4e655fc30c235a",
@@ -4975,7 +5105,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "897504ba4f7e667f",
@@ -4983,14 +5114,17 @@
       "start_raw": "1730",
       "end_raw": "2000",
       "musician": "Santa Fe Band",
-      "genre": "",
+      "genre": "Country",
       "link": "",
       "link_name": "",
       "venue": "Old Spaghetti Factory",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "46f929e3e8a3383b",
@@ -5005,7 +5139,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "db1e01fb7116e013",
@@ -5020,7 +5155,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "45674cf36e616bc3",
@@ -5035,7 +5171,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "fb113dea52903f87",
@@ -5050,7 +5187,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "988334e739e4c1df",
@@ -5071,7 +5209,8 @@
           "source": "tribe_ics",
           "id": "d819ae98288bfb8e"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "d30f15b2d72c9e69",
@@ -5086,7 +5225,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "60a9e6f35c71d460",
@@ -5094,14 +5234,17 @@
       "start_raw": "1900",
       "end_raw": "2100",
       "musician": "Pozitronics",
-      "genre": "",
+      "genre": "Rock variety",
       "link": "",
       "link_name": "",
       "venue": "Skout Taphouse",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "99393a11e2f3aac6",
@@ -5116,7 +5259,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e045cdf495a9c231",
@@ -5131,7 +5275,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4b010f7c6fabe1e5",
@@ -5146,7 +5291,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b892498ea26b0311",
@@ -5161,7 +5307,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0e64d3254eba036e",
@@ -5176,7 +5323,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3551f153fbe29c8b",
@@ -5197,7 +5345,8 @@
           "source": "tribe_ics",
           "id": "5cd5414f0bf706df"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "10c52829b0b1feb6",
@@ -5212,7 +5361,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "cdeaa885733d0852",
@@ -5220,14 +5370,17 @@
       "start_raw": "1800",
       "end_raw": "2100",
       "musician": "Rogue Suspects",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Bayer Family Estate",
       "notes": "Bonnie Raitt revue",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "2660080df3bdccf8",
@@ -5242,7 +5395,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f96e8a4b6e265269",
@@ -5250,14 +5404,17 @@
       "start_raw": "1830",
       "end_raw": "2030",
       "musician": "Jon Galfano",
-      "genre": "",
+      "genre": "classic rock, variety",
       "link": "",
       "link_name": "",
       "venue": "Walkabout Brewing",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "f9301fc3fef2c4f5",
@@ -5272,7 +5429,8 @@
       "notes": "Percussionist Terry Longshore and Grant perform <a href='https://duoflamenco.com/'>Duo Flamenco</a>",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b28a3f3851463ea4",
@@ -5287,7 +5445,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e83c65823c414d1c",
@@ -5303,7 +5462,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-two-tracks/"
+      "source_url": "https://talentclublive.com/event/the-two-tracks/",
+      "genres": []
     },
     {
       "id": "8053ee4cbe2d30af",
@@ -5318,7 +5478,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3dc320d31c0377fc",
@@ -5333,7 +5494,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e170a4c226acf5b3",
@@ -5348,7 +5510,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c89a55f53574a03c",
@@ -5356,14 +5519,17 @@
       "start_raw": "1500",
       "end_raw": "1700",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Del Rio Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "1f3439d188b64db2",
@@ -5378,7 +5544,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6a36c4490c037960",
@@ -5386,14 +5553,17 @@
       "start_raw": "1530",
       "end_raw": "1730",
       "musician": "Canto Sol",
-      "genre": "",
+      "genre": "Latin",
       "link": "",
       "link_name": "",
       "venue": "Paschal Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "cfbaae4ab19e0b28",
@@ -5401,14 +5571,15 @@
       "start_raw": "1600",
       "end_raw": "1800",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Dos Mariposas Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3e06059f99423fd4",
@@ -5423,7 +5594,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "080fcd20003a440f",
@@ -5444,7 +5616,8 @@
           "source": "tribe_ics",
           "id": "b9a16c01e5c1668d"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "898f676822d8a49c",
@@ -5452,14 +5625,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Pozitronics",
-      "genre": "",
+      "genre": "Rock variety",
       "link": "",
       "link_name": "",
       "venue": "Naumes Suncrest Winery",
       "notes": "Tickets $12; Spotlight on Iconic Ladies of Rock Show",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "75ad310ed64c5f33",
@@ -5474,7 +5650,8 @@
       "notes": "$10",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a93409683bd5d04a",
@@ -5489,7 +5666,8 @@
       "notes": "hosted by Crooked Heart",
       "event_type": "Open Mic",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c48bd548984a01f7",
@@ -5504,7 +5682,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3f225dedcff07122",
@@ -5519,7 +5698,8 @@
       "notes": "Instrumentation is sax, bass, guitar and a female singer",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6e6b93d0eda8b5c0",
@@ -5534,7 +5714,8 @@
       "notes": "The Guitar Society of Southern Oregon is proud to present the extraordinary guitarist Yasmin Williams in an intimate concert at Grizzly Peak Winery. \nYasmin Williams is an innovative guitarist and com",
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
-      "source_url": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/"
+      "source_url": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/",
+      "genres": []
     },
     {
       "id": "ee92239a8e40c2ae",
@@ -5550,7 +5731,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer/"
+      "source_url": "https://talentclublive.com/event/terrapin-flyer/",
+      "genres": []
     },
     {
       "id": "e055547e21a93de0",
@@ -5565,7 +5747,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "99c4ee7672b90418",
@@ -5580,7 +5763,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e0b0189b751a12c3",
@@ -5595,7 +5779,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b9b3807a73443d41",
@@ -5610,7 +5795,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0537443feaa38514",
@@ -5625,7 +5811,8 @@
       "notes": "Join us for a monthly Comedy Night, Age 18+ only: Fine Wines & Punch Lines! \n$20 per person, please text Kendyl for tickets at 541-414-8050 \nGrab a glass of wine or one of our many other beverage choi",
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-june-17/"
+      "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-june-17/",
+      "genres": []
     },
     {
       "id": "515121c0b82dd459",
@@ -5641,7 +5828,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer-night-2/"
+      "source_url": "https://talentclublive.com/event/terrapin-flyer-night-2/",
+      "genres": []
     },
     {
       "id": "69c0e2e3bd617900",
@@ -5656,7 +5844,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d7bda1dd8022ea30",
@@ -5671,7 +5860,8 @@
       "notes": "Dynamic duo featuring Jon Galfano on guitar, keys and vocals, and Jen Ambrose on guitar, flute and vocals. Their genres range from class rock, Blues, Jazz, and everything in between!",
       "event_type": "Band",
       "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-jen-jon/"
+      "source_url": "https://bellefiorewine.com/event/live-music-jen-jon/",
+      "genres": []
     },
     {
       "id": "605cbd94b2883fcd",
@@ -5686,7 +5876,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0ba01b83f29c9217",
@@ -5701,7 +5892,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b118ba004ecd6742",
@@ -5716,7 +5908,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b2086221e5e25831",
@@ -5731,7 +5924,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6bee7dd19659c564",
@@ -5746,7 +5940,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1c9ffa0aec4e4fb9",
@@ -5761,7 +5956,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "bb3fc1c78b7bfdd9",
@@ -5776,7 +5972,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "69a48025f7872ece",
@@ -5797,7 +5994,8 @@
           "source": "tribe_ics",
           "id": "47543d2885a0912c"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "01a93b2fc94aa093",
@@ -5812,7 +6010,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f2483f89977b30c3",
@@ -5827,7 +6026,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0d1754209e543cf7",
@@ -5842,7 +6042,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4f60d7df45fc1d2d",
@@ -5857,7 +6058,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "298e8e9c26545022",
@@ -5865,7 +6067,7 @@
       "start_raw": "1800",
       "end_raw": "2000",
       "musician": "Mercy",
-      "genre": "",
+      "genre": "blues, soul, classic rock",
       "link": "https://roxyann.com/event/music-wine-series-featuring-mercy-june-19/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
@@ -5878,6 +6080,11 @@
           "source": "tribe_ics",
           "id": "448ae039202dce41"
         }
+      ],
+      "genres": [
+        "Blues",
+        "Funk / Soul",
+        "Rock"
       ]
     },
     {
@@ -5893,7 +6100,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b8b89e7ef052fdcf",
@@ -5908,7 +6116,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e00fc593305efdb4",
@@ -5923,7 +6132,8 @@
       "notes": "the creative duo of percussionist Kris Bergstrom and dancer, Minh Nguyen",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8fa61e736ac622df",
@@ -5931,14 +6141,17 @@
       "start_raw": "1930",
       "end_raw": "2130",
       "musician": "Salsa Brava",
-      "genre": "",
+      "genre": "latin",
       "link": "",
       "link_name": "",
       "venue": "Edenvale Winery",
       "notes": "7 p.m. lesson, dancing, $20",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "d2607c912ff892d5",
@@ -5954,7 +6167,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/object-heavy/"
+      "source_url": "https://talentclublive.com/event/object-heavy/",
+      "genres": []
     },
     {
       "id": "8c5d2188c87cacc4",
@@ -5969,7 +6183,8 @@
       "notes": "with jazz vocalist",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a1106a34380adde0",
@@ -5984,7 +6199,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "85434a6fec0181dc",
@@ -5999,7 +6215,8 @@
       "notes": "Barb Meredith, Jane Levesque, and Patty Williams will be leading",
       "event_type": "Jam",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "504b83988c6048c5",
@@ -6007,14 +6224,15 @@
       "start_raw": "1500",
       "end_raw": "1700",
       "musician": "JustaDuo",
-      "genre": "",
+      "genre": "easy listening",
       "link": "",
       "link_name": "",
       "venue": "Naumes Suncrest Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a191cb077523e0cc",
@@ -6035,7 +6253,8 @@
           "source": "tribe_ics",
           "id": "de99b49e1756b95a"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "358bcab077728b37",
@@ -6050,7 +6269,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f4758e58a3c292c1",
@@ -6065,7 +6285,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d494dd26cf5e64c5",
@@ -6080,7 +6301,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "53bd7639ba56c2b6",
@@ -6088,14 +6310,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Pozitronics",
-      "genre": "",
+      "genre": "Rock variety",
       "link": "",
       "link_name": "",
       "venue": "Padigan Wines",
       "notes": "Disco-Funk costume ball",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "662763a01c96afe1",
@@ -6110,7 +6335,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "482d7fbddab8571b",
@@ -6131,7 +6357,8 @@
           "source": "tribe_ics",
           "id": "9b2c0fa32e1d22d0"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "d09edf7e85bf5732",
@@ -6146,7 +6373,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a80d08b1d3448c8c",
@@ -6161,7 +6389,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "665cb621f7860718",
@@ -6176,7 +6405,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "9033316e672dd271",
@@ -6191,7 +6421,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2241779de4369235",
@@ -6206,7 +6437,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2edfbcdeb527643e",
@@ -6214,14 +6446,15 @@
       "start_raw": "1900",
       "end_raw": "2100",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Eliana Wines",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "243f52b94dfb62f4",
@@ -6236,7 +6469,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "9589c1fe95c4f4a2",
@@ -6252,7 +6486,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/nigel-wearne/"
+      "source_url": "https://talentclublive.com/event/nigel-wearne/",
+      "genres": []
     },
     {
       "id": "dbff9b5a2ea52cc1",
@@ -6267,7 +6502,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e4fd15f04a85ab8d",
@@ -6282,7 +6518,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ed1bf7a1468e7dd1",
@@ -6297,7 +6534,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "fa810b5076e244d2",
@@ -6312,7 +6550,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "be8abf979eef5df5",
@@ -6327,7 +6566,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d1b5dfdeab50d8aa",
@@ -6342,7 +6582,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e47b74cc05a3a315",
@@ -6363,7 +6604,8 @@
           "source": "tribe_ics",
           "id": "c632c70ae8e46767"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "20b8ef4a3b8098de",
@@ -6378,7 +6620,8 @@
       "notes": "hosted by Crooked Heart",
       "event_type": "Open Mic",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "abcaa6211944d11f",
@@ -6393,7 +6636,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d11dc0ba0563855c",
@@ -6408,7 +6652,8 @@
       "notes": "Instrumentation is sax, bass, guitar and a female singer",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c791fe5228d4c0ec",
@@ -6423,7 +6668,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f6dd9c4b59202192",
@@ -6438,7 +6684,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2416e3e7cf4c223f",
@@ -6453,7 +6700,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "12316165a74a8758",
@@ -6468,7 +6716,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "5f66316ba6a9c4fa",
@@ -6476,14 +6725,15 @@
       "start_raw": "1800",
       "end_raw": "2000",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "South Stage Cellars",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a364debeb7571f9e",
@@ -6491,14 +6741,17 @@
       "start_raw": "1830",
       "end_raw": "1930",
       "musician": "Canto Sol",
-      "genre": "",
+      "genre": "Latin",
       "link": "",
       "link_name": "",
       "venue": "Cedarwood Barn",
       "notes": "salsa dance gathering",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "a4070cf5eb788094",
@@ -6513,7 +6766,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f74956ea0277254e",
@@ -6528,7 +6782,8 @@
       "notes": "",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a35ceef542ce84ed",
@@ -6549,7 +6804,8 @@
           "source": "tribe_ics",
           "id": "e9082c280b3ecd06"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "c1411e05357df1aa",
@@ -6564,7 +6820,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2017e55bf8634550",
@@ -6579,7 +6836,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "695b2964ee40f926",
@@ -6594,7 +6852,8 @@
       "notes": "Grant will play at the opening of an art exhibit entitled \"Bodacious\" by his very talented wife, Mary La",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0ba2ae1a71318c03",
@@ -6609,7 +6868,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3e530d5af99829f0",
@@ -6624,7 +6884,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "aac3fb6d6a925ecf",
@@ -6639,7 +6900,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "af052caba66918b2",
@@ -6654,7 +6916,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "435c8ac303fc127b",
@@ -6669,7 +6932,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b40ce19783255889",
@@ -6684,7 +6948,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "00df1e9cbb8fc275",
@@ -6699,7 +6964,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "adcbba940ff4e2f5",
@@ -6714,7 +6980,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "649b416ba8fcd920",
@@ -6729,7 +6996,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "823170671b6af906",
@@ -6744,7 +7012,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "01e15bcc4e283491",
@@ -6759,7 +7028,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "9de036a895e115ec",
@@ -6767,7 +7037,7 @@
       "start_raw": "1800",
       "end_raw": "2000",
       "musician": "Blue Lightning",
-      "genre": "",
+      "genre": "classic rock",
       "link": "https://roxyann.com/event/blue-lightning-june-26/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
@@ -6780,6 +7050,9 @@
           "source": "tribe_ics",
           "id": "29f4d89b689a3b37"
         }
+      ],
+      "genres": [
+        "Rock"
       ]
     },
     {
@@ -6795,7 +7068,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1d5048563b205df4",
@@ -6810,7 +7084,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "92317953e6cef6c7",
@@ -6825,7 +7100,8 @@
       "notes": "$5",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b619a037bfc4ff94",
@@ -6840,7 +7116,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "60854db277f62044",
@@ -6855,7 +7132,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "315f8f432cf270d6",
@@ -6870,7 +7148,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6a20f390d4edb5cf",
@@ -6878,14 +7157,15 @@
       "start_raw": "1530",
       "end_raw": "1830",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Weisinger Family Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e1be3d9d05620eb5",
@@ -6900,7 +7180,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "111a9342cfd0e4f0",
@@ -6915,7 +7196,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "79ffadbd85c091e5",
@@ -6936,7 +7218,8 @@
           "source": "tribe_ics",
           "id": "73936edc0a76f8db"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "6a6ad8937bf54266",
@@ -6951,7 +7234,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0ea04420bf118862",
@@ -6959,14 +7243,17 @@
       "start_raw": "1800",
       "end_raw": "2100",
       "musician": "Rogue Suspects",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Bayer Family Estate",
       "notes": "Soul revue",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "1d2b2d6b90f72584",
@@ -6981,7 +7268,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "73ad2b2583dd2558",
@@ -6996,7 +7284,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "875bfd5b1fc19ae5",
@@ -7011,7 +7300,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "54ecdc72b0af668c",
@@ -7026,7 +7316,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b49e28c75267d6cb",
@@ -7041,7 +7332,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0ee3cf3479195de9",
@@ -7056,7 +7348,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8c11f46c27b9a03e",
@@ -7071,7 +7364,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1dcfa3b66860d34e",
@@ -7086,7 +7380,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "54a04e01a055d7d6",
@@ -7101,7 +7396,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "507c348413391bb9",
@@ -7109,14 +7405,15 @@
       "start_raw": "1530",
       "end_raw": "1730",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Paschal Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "72e3813482c1cb24",
@@ -7131,7 +7428,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3533e34284b86586",
@@ -7146,7 +7444,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "30f647d4fc0e879b",
@@ -7161,7 +7460,8 @@
       "notes": "Vanessa is a singer based in Ashland, OR. \nJoin us at RoxyAnn Winery for a Sunday afternoon of dancing and fun as we welcome Southern Oregon’s Vanessa Finney to the tasting room! Listen to live music ",
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-june-28/"
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-june-28/",
+      "genres": []
     },
     {
       "id": "895315701e7357c5",
@@ -7169,14 +7469,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Rogue Suspects",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "$15-$20; Aretha Franklin tribute",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "51e63283e045020d",
@@ -7191,7 +7494,8 @@
       "notes": "The Rogue Suspects bring their electrifying Aretha Franklin tribute to Belle Fiore! Featuring renowned powerhouse performances, the band honors the Queen of Soul with some of her greatest hits, includ",
       "event_type": "Band",
       "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/"
+      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
+      "genres": []
     },
     {
       "id": "984d86dcc32bf1be",
@@ -7206,7 +7510,8 @@
       "notes": "hosted by Crooked Heart",
       "event_type": "Open Mic",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "42d934a4ca0b9af3",
@@ -7221,7 +7526,8 @@
       "notes": "Siskiyou Music Project welcomes Bay Area vocalist Stella Heath and her group for her first southern Oregon performance. She’ll be presenting “From Billie Holiday to Edith Piaf which blends a jazz mano",
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
-      "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presentsthe-stella-heath-group-from-billie-holiday-to-edith-piaf/"
+      "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presentsthe-stella-heath-group-from-billie-holiday-to-edith-piaf/",
+      "genres": []
     },
     {
       "id": "af45d69819be3c12",
@@ -7236,7 +7542,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a270c95571dfe433",
@@ -7251,7 +7558,8 @@
       "notes": "Instrumentation is sax, bass, guitar and a female singer",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0057b99986c842d5",
@@ -7267,7 +7575,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/kota-dosa/"
+      "source_url": "https://talentclublive.com/event/kota-dosa/",
+      "genres": []
     },
     {
       "id": "47eb981f4295936f",
@@ -7282,7 +7591,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d47059ee5b7743eb",
@@ -7297,7 +7607,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "bec8df08e22f9e6d",
@@ -7312,7 +7623,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8fcb477281293828",
@@ -7327,7 +7639,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c4b95c34dba1cbf3",
@@ -7335,14 +7648,15 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Dancin Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "58483a40c7d62621",
@@ -7357,7 +7671,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b457955ca70315e5",
@@ -7365,14 +7680,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Trium Wines",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "ab3087f2dd9d95f5",
@@ -7387,7 +7705,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "99406c550a8dbd78",
@@ -7395,14 +7714,17 @@
       "start_raw": "1730",
       "end_raw": "1930",
       "musician": "Saucy",
-      "genre": "",
+      "genre": "classic rock, variety",
       "link": "",
       "link_name": "",
       "venue": "Dunbar Farms",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "3b84154635031790",
@@ -7423,7 +7745,8 @@
           "source": "tribe_ics",
           "id": "fa9e9560eb070077"
         }
-      ]
+      ],
+      "genres": []
     },
     {
       "id": "ef90f54029fd9743",
@@ -7438,7 +7761,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "dcb41f5da91fdeba",
@@ -7453,7 +7777,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ebded5b32add70a3",
@@ -7461,14 +7786,15 @@
       "start_raw": "1500",
       "end_raw": "1700",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "Naumes Suncrest Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "69e73277270303a9",
@@ -7483,7 +7809,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "51732fe445b7e66c",
@@ -7498,7 +7825,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c6fc1f1d8d5998fb",
@@ -7513,7 +7841,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8402bf59cc894378",
@@ -7528,7 +7857,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ef48635a03aa9b03",
@@ -7536,14 +7866,15 @@
       "start_raw": "1800",
       "end_raw": "2000",
       "musician": "Jeff Kloetzel",
-      "genre": "",
+      "genre": "Rhythmic Guitar",
       "link": "",
       "link_name": "",
       "venue": "The Gold Room",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c145c0c44d87bc40",
@@ -7558,7 +7889,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3f4cced9c6887859",
@@ -7573,7 +7905,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6e05d94995d8247c",
@@ -7588,7 +7921,8 @@
       "notes": "$10",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "5e4b4cfc7874debe",
@@ -7603,7 +7937,8 @@
       "notes": "",
       "event_type": "Jam",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e537c3fdfaad06af",
@@ -7618,7 +7953,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "db115d234cd89e0a",
@@ -7633,7 +7969,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "04ec2c8d98cefdb9",
@@ -7648,7 +7985,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "7b563fc448f6b008",
@@ -7656,14 +7994,17 @@
       "start_raw": "1900",
       "end_raw": "2100",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Phoodery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "68005d34ae8a72ac",
@@ -7678,7 +8019,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d5218baf49799096",
@@ -7686,14 +8028,17 @@
       "start_raw": "1800",
       "end_raw": "2100",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Bayer Family Estate",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "af361648c0b7e2e6",
@@ -7708,7 +8053,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ba758f101eca733d",
@@ -7723,7 +8069,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "3a35ac4d48f97986",
@@ -7738,7 +8085,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "380a0ae0b0a406d7",
@@ -7746,14 +8094,17 @@
       "start_raw": "1900",
       "end_raw": "2100",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Skout Taphouse",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "acbdcee78c94b9f8",
@@ -7768,7 +8119,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8da93a08567990f9",
@@ -7776,14 +8128,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Jen Ambrose",
-      "genre": "",
+      "genre": "blues",
       "link": "",
       "link_name": "",
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "4a6431064f9cf307",
@@ -7798,7 +8153,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "beedcaefe2acd168",
@@ -7813,7 +8169,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4a04f7ae4d654dfb",
@@ -7828,7 +8185,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "13c0bed40642e992",
@@ -7843,7 +8201,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0223db3cb79e4446",
@@ -7858,7 +8217,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8e12a029c830ac1a",
@@ -7873,7 +8233,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4215e1bdbee047b1",
@@ -7888,7 +8249,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ed72d7aa6deb3c83",
@@ -7903,7 +8265,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "5a8171f87fab9679",
@@ -7911,14 +8274,17 @@
       "start_raw": "1730",
       "end_raw": "1930",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "60b1a838d3333b75",
@@ -7933,7 +8299,8 @@
       "notes": "$10",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "47904aba19f7da11",
@@ -7948,7 +8315,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "9952d00f16a3d21b",
@@ -7963,7 +8331,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b87084f5b7dfcb5e",
@@ -7978,7 +8347,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "62bc890616d0fd20",
@@ -7993,7 +8363,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4225d67fd994f43f",
@@ -8008,7 +8379,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2be72afda947aa4b",
@@ -8023,7 +8395,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "21c281274c6b6828",
@@ -8038,7 +8411,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c34005f88f133e64",
@@ -8046,14 +8420,17 @@
       "start_raw": "1730",
       "end_raw": "1930",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Dunbar Farms",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "defed311398c5dd0",
@@ -8068,7 +8445,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "055066e25b45fa0f",
@@ -8076,14 +8454,17 @@
       "start_raw": "1600",
       "end_raw": "1800",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "3a479134e6d99cdb",
@@ -8098,7 +8479,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2730f840516d1e8a",
@@ -8106,14 +8488,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Blue Lightning",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "9009637d91084e16",
@@ -8128,7 +8513,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d6df74f041165e12",
@@ -8143,7 +8529,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4430a63c9b00024c",
@@ -8158,7 +8545,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e4b741296918e042",
@@ -8166,14 +8554,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Trium Wines",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "abb1dc9324ad25e4",
@@ -8181,14 +8572,17 @@
       "start_raw": "1600",
       "end_raw": "2000",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Lake of the Woods",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "d9c6123cd2137035",
@@ -8203,7 +8597,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0bfc5c35ba5cbe5e",
@@ -8218,7 +8613,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6694bd5525a1bdd3",
@@ -8233,7 +8629,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f453b055335c0742",
@@ -8248,7 +8645,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8d0d99c806147fc0",
@@ -8263,7 +8661,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "bcdcca4ee0c15ec7",
@@ -8278,7 +8677,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "87b475a2a70b66f3",
@@ -8293,7 +8693,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6344a517ec699859",
@@ -8308,7 +8709,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e4be53db42fd0fe2",
@@ -8316,14 +8718,17 @@
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Padigan Wines",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "a8a5e3b104a15cde",
@@ -8338,7 +8743,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ea2ae2bae4f235c8",
@@ -8346,14 +8752,17 @@
       "start_raw": "1600",
       "end_raw": "2000",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Lake of the Woods",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "32166eacb30fbaa4",
@@ -8368,7 +8777,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6b43035a25f402af",
@@ -8383,7 +8793,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "eec033ab7e0505fc",
@@ -8391,14 +8802,17 @@
       "start_raw": "1800",
       "end_raw": "2100",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Bayer Family Estate",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "491fdd8aba50ea05",
@@ -8413,7 +8827,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4101a1c4ca2160ec",
@@ -8421,14 +8836,17 @@
       "start_raw": "1600",
       "end_raw": "1800",
       "musician": "Dr Pain and the Remedy",
-      "genre": "",
+      "genre": "classic rock",
       "link": "",
       "link_name": "",
       "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "d60fdb64de8f8710",
@@ -8443,7 +8861,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1c313b883ee1026d",
@@ -8458,7 +8877,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "13ce2b277a6dc83f",
@@ -8474,7 +8894,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/"
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
     },
     {
       "id": "e7c8507716e27828",
@@ -8489,7 +8910,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "25eb7369ce55a4bd",
@@ -8504,7 +8926,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "83a6ebaffe744a56",
@@ -8519,7 +8942,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e70474350df3178a",
@@ -8534,7 +8958,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "662cf3a08c5e8349",
@@ -8549,7 +8974,8 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null
+      "source_url": null,
+      "genres": []
     }
   ]
 }
