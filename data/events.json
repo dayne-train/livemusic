@@ -1,29 +1,30 @@
 {
-  "generated_at": "2026-06-07T02:44:31.245Z",
+  "generated_at": "2026-06-07T03:08:45.498Z",
   "source_timestamp": "06/06/2026 06:55",
+  "content_hash": "f6b3ea32a49c45dd",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 324,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-07T02:44:29.562Z",
-      "last_attempt": "2026-06-07T02:44:29.562Z",
+      "last_ok": "2026-06-07T03:08:43.568Z",
+      "last_attempt": "2026-06-07T03:08:43.568Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 24,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-07T02:44:30.027Z",
-      "last_attempt": "2026-06-07T02:44:30.027Z",
+      "last_ok": "2026-06-07T03:08:44.029Z",
+      "last_attempt": "2026-06-07T03:08:44.029Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-07T02:44:30.782Z",
-      "last_attempt": "2026-06-07T02:44:30.782Z",
+      "last_ok": "2026-06-07T03:08:44.917Z",
+      "last_attempt": "2026-06-07T03:08:44.917Z",
       "error": null
     }
   },
@@ -4021,21 +4022,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null
-    },
-    {
-      "id": "a7bc56e89caad2f0",
-      "date": "2026-06-06",
-      "start_raw": "1400",
-      "end_raw": "2000",
-      "musician": "Brews, Bluegrass & BBQ 2026",
-      "genre": "",
-      "link": "https://roxyann.com/event/brews-bluegrass-bbq-2026/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Each year, the Rogue Valley Food System Network brings together the best of southern Oregon’s food, drink, and music scene for BBQ, Brews & Bluegrass – a lively afternoon of education, celebration, an",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/brews-bluegrass-bbq-2026/"
     },
     {
       "id": "c66265d474438a32",

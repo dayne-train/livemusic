@@ -1,4 +1,5 @@
 import { writeFile, readFile, mkdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { ingest as ingestMusiclistTxt } from './adapters/musiclist_txt.mjs';
 import { ingest as ingestTribeIcs } from './adapters/tribe_ics.mjs';
 import { ingest as ingestTalentClub } from './adapters/talent_club.mjs';
@@ -140,9 +141,19 @@ async function main() {
 
   const generated_at = new Date().toISOString();
 
+  const contentHash = createHash('sha256')
+    .update(JSON.stringify({
+      events: events.map(e => ({ ...e, merged_from: undefined })),
+      venues,
+      source_timestamp: sourceTimestamp,
+    }))
+    .digest('hex')
+    .slice(0, 16);
+
   const eventsJson = {
     generated_at,
     source_timestamp: sourceTimestamp,
+    content_hash: contentHash,
     sources,
     venues,
     events,
@@ -161,6 +172,7 @@ async function main() {
     event_count: events.length,
     venue_count: Object.keys(venues).length,
     deduped: dropped.length,
+    content_hash: contentHash,
   };
   await writeFile(META_OUT, JSON.stringify(meta, null, 2) + '\n');
 

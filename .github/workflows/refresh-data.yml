@@ -1,13 +1,13 @@
-name: Refresh music data snapshot
+name: Refresh music data
 
-# Fetches the upstream music list server-side (where we can tolerate the
-# source's expired self-signed TLS cert), validates it, and commits a
-# same-origin snapshot the site can fall back to when the live proxies fail.
+# Refreshes both the volunteer musiclist.txt snapshot and the merged
+# events.json that the site reads. Best-effort: a failing source does
+# not block the others. Commits only when content actually changed.
 
 on:
   schedule:
-    - cron: '0 14 * * *'   # daily ~06:00 America/Los_Angeles (14:00 UTC)
-  workflow_dispatch: {}      # allow manual runs from the Actions tab
+    - cron: '15 */4 * * *'   # every 4 hours
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -23,18 +23,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Fetch + validate snapshot
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh musiclist.txt snapshot (best effort)
         id: fetch
+        continue-on-error: true
         run: |
           set -uo pipefail
           mkdir -p data
           TMP="$(mktemp)"
 
-          # The source has two problems we need to work around server-side:
-          #  - expired self-signed TLS cert (so we disable trust verification)
-          #  - WAF that returns HTTP 415 to bot-ish requests from datacenter IPs
-          # We try several fetchers with different TCP/TLS fingerprints and a
-          # browser-like header set. First one to land valid bytes wins.
+          # Upstream has an expired self-signed cert and a WAF that blocks
+          # datacenter UAs, so we try a few fetcher fingerprints in order.
           UA='Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0'
           HDRS=(
             -H "User-Agent: $UA"
@@ -76,54 +79,64 @@ jobs:
           done
 
           if [ -z "$OK" ]; then
-            echo "::error::All fetchers failed — keeping last good snapshot"
-            exit 1
+            echo "::warning::All txt fetchers failed. Keeping prior snapshot. Pipeline will continue with other sources."
+            exit 0
           fi
           echo "fetch_strategy=$OK" >> "$GITHUB_OUTPUT"
 
-          set -e  # re-enable fail-fast for validation / write steps below
-
-          # Validate: non-trivial size and the expected section markers must
-          # be present, otherwise we keep the last known-good snapshot.
           BYTES="$(wc -c < "$TMP" | tr -d ' ')"
           if [ "$BYTES" -lt 1000 ]; then
-            echo "::error::Fetched file too small ($BYTES bytes) — keeping last good snapshot"
-            exit 1
+            echo "::warning::Fetched txt too small ($BYTES bytes). Keeping prior snapshot."
+            exit 0
           fi
-          for marker in -- '--events' '--musicians' '--venues'; do :; done
           if ! grep -q '^--events' "$TMP" \
              || ! grep -q '^--musicians' "$TMP" \
              || ! grep -q '^--venues' "$TMP"; then
-            echo "::error::Fetched file missing expected section markers — keeping last good snapshot"
-            exit 1
+            echo "::warning::Fetched txt missing expected section markers. Keeping prior snapshot."
+            exit 0
           fi
-          # Reject the codetabs/CDN "One moment, please..." bot-challenge page.
           if grep -qi 'One moment, please' "$TMP"; then
-            echo "::error::Got a bot-challenge page instead of data — keeping last good snapshot"
-            exit 1
+            echo "::warning::Got a bot-challenge page instead of data. Keeping prior snapshot."
+            exit 0
           fi
-
-          # Source's own timestamp lives on the line after the --timestamp marker.
-          SRC_TS="$(awk '/^--timestamp/{getline; print; exit}' "$TMP" | tr -d '\r')"
 
           mv "$TMP" data/musiclist.txt
-          printf '{\n  "fetched_at": "%s",\n  "source_timestamp": "%s",\n  "bytes": %s\n}\n' \
-            "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "${SRC_TS:-unknown}" "$BYTES" > data/meta.json
+          echo "Snapshot OK: $BYTES bytes"
 
-          echo "Snapshot OK: $BYTES bytes, source timestamp: ${SRC_TS:-unknown}"
+      - name: Run ingest pipeline
+        id: pipeline
+        run: |
+          set -euo pipefail
+          cd ingest
+          node merge.mjs
+          cd ..
+          # Sanity check: pipeline must produce a reasonable number of events.
+          EVENT_COUNT=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("data/events.json")).events.length)')
+          echo "event_count=$EVENT_COUNT" >> "$GITHUB_OUTPUT"
+          if [ "$EVENT_COUNT" -lt 50 ]; then
+            echo "::error::Event count suspiciously low ($EVENT_COUNT). Refusing to commit."
+            exit 1
+          fi
+          echo "Pipeline produced $EVENT_COUNT events."
 
-      - name: Commit if changed
+      - name: Commit if content changed
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/musiclist.txt data/meta.json
-          # data/meta.json changes every run (fetched_at); only commit when the
-          # actual music list changed, then refresh meta alongside it.
-          if git diff --cached --quiet -- data/musiclist.txt; then
-            echo "No change in music list — skipping commit."
-            git reset -q
-          else
-            git commit -m "Refresh music data snapshot"
-            git push
+
+          NEW_HASH=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("data/events.json")).content_hash)')
+          OLD_HASH=$(git show HEAD:data/events.json 2>/dev/null | node -e 'try{let s="";process.stdin.on("data",c=>s+=c);process.stdin.on("end",()=>{try{console.log(JSON.parse(s).content_hash||"")}catch(e){console.log("")}})}' || echo "")
+
+          if [ "$NEW_HASH" = "$OLD_HASH" ] && [ -n "$NEW_HASH" ]; then
+            echo "Content hash unchanged ($NEW_HASH). Nothing to commit."
+            exit 0
           fi
+
+          git add data/musiclist.txt data/events.json data/meta.json
+          if git diff --cached --quiet; then
+            echo "Nothing staged. Skipping commit."
+            exit 0
+          fi
+          git commit -m "Refresh event data ($NEW_HASH)"
+          git push
