@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T08:01:36.174Z",
+  "fetched_at": "2026-06-07T10:46:50.487Z",
   "source_timestamp": "06/06/2026 06:55",
   "bytes": 56978,
   "sources": {
@@ -7,29 +7,29 @@
       "ok": true,
       "count": 324,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-07T08:01:33.961Z",
-      "last_attempt": "2026-06-07T08:01:33.961Z",
+      "last_ok": "2026-06-07T10:46:28.985Z",
+      "last_attempt": "2026-06-07T10:46:28.985Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 22,
+      "count": 11,
       "strategy": "live",
-      "last_ok": "2026-06-07T08:01:34.403Z",
-      "last_attempt": "2026-06-07T08:01:34.403Z",
-      "error": null
+      "last_ok": "2026-06-07T10:46:39.611Z",
+      "last_attempt": "2026-06-07T10:46:39.611Z",
+      "error": "grizzly_peak: grizzly_peak HTTP 403; roxyann: fetch failed"
     },
     "talent_club": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-06-07T08:01:35.527Z",
-      "last_attempt": "2026-06-07T08:01:35.527Z",
-      "error": null
+      "last_attempt": "2026-06-07T10:46:50.107Z",
+      "error": "page missing event blocks"
     }
   },
-  "event_count": 338,
-  "venue_count": 304,
-  "deduped": 15,
-  "content_hash": "e294db479e2366cd"
+  "event_count": 327,
+  "venue_count": 303,
+  "deduped": 8,
+  "content_hash": "9dfeb4705d30e027"
 }
