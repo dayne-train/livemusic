@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-06-07T04:38:44.449Z",
+  "generated_at": "2026-06-07T05:33:17.359Z",
   "source_timestamp": "06/06/2026 06:55",
-  "content_hash": "feeedfad12de370d",
+  "content_hash": "26e7b875e02afc59",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 324,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-07T04:38:42.719Z",
-      "last_attempt": "2026-06-07T04:38:42.719Z",
+      "last_ok": "2026-06-07T05:33:15.620Z",
+      "last_attempt": "2026-06-07T05:33:15.620Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-07T04:38:43.197Z",
-      "last_attempt": "2026-06-07T04:38:43.197Z",
+      "last_ok": "2026-06-07T05:33:16.042Z",
+      "last_attempt": "2026-06-07T05:33:16.042Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-07T04:38:43.928Z",
-      "last_attempt": "2026-06-07T04:38:43.928Z",
+      "last_ok": "2026-06-07T05:33:16.883Z",
+      "last_attempt": "2026-06-07T05:33:16.883Z",
       "error": null
     }
   },
@@ -3392,7 +3392,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "d6dce11373371847",
@@ -3424,7 +3426,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "f49774eb7b9399ce",
@@ -3504,7 +3508,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "76b9f06917f890bf",
@@ -3733,7 +3739,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "eff7c1616700cb7e",
@@ -3979,7 +3987,9 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "2e3d8d80e33d10df",
@@ -4225,7 +4235,11 @@
           "id": "02753e86430f4225"
         }
       ],
-      "genres": []
+      "genres": [
+        "Blues",
+        "Swing",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "e2b98fd759ac3f64",
@@ -4608,7 +4622,9 @@
           "id": "b1ce8a38ea043afa"
         }
       ],
-      "genres": []
+      "genres": [
+        "Funk / Soul"
+      ]
     },
     {
       "id": "ec93f05f3b8dcbe7",
@@ -4640,7 +4656,9 @@
       "event_type": "Band",
       "source": "tribe_ics:belle_fiore",
       "source_url": "https://bellefiorewine.com/event/live-music-shine-on-motown/",
-      "genres": []
+      "genres": [
+        "Funk / Soul"
+      ]
     },
     {
       "id": "cafcda7cb5d455e3",
@@ -4740,7 +4758,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Funk / Soul"
+      ]
     },
     {
       "id": "a3a114eb01ce3203",
@@ -4890,7 +4910,11 @@
           "id": "cc0627ea9f16bae3"
         }
       ],
-      "genres": []
+      "genres": [
+        "Country",
+        "Folk",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "e691bfb22cc5651d",
@@ -4906,7 +4930,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "49990a02ff26736a",
@@ -4954,7 +4980,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "3f5fa5aa5a7eaa4f",
@@ -5090,7 +5118,10 @@
           "id": "973f645273aa4c44"
         }
       ],
-      "genres": []
+      "genres": [
+        "Blues",
+        "Rock"
+      ]
     },
     {
       "id": "3c4e655fc30c235a",
@@ -5210,7 +5241,9 @@
           "id": "d819ae98288bfb8e"
         }
       ],
-      "genres": []
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "d30f15b2d72c9e69",
@@ -5346,7 +5379,11 @@
           "id": "5cd5414f0bf706df"
         }
       ],
-      "genres": []
+      "genres": [
+        "Jazz",
+        "Rock",
+        "Pop"
+      ]
     },
     {
       "id": "10c52829b0b1feb6",
@@ -5430,7 +5467,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "b28a3f3851463ea4",
@@ -5617,7 +5656,10 @@
           "id": "b9a16c01e5c1668d"
         }
       ],
-      "genres": []
+      "genres": [
+        "Country",
+        "Rock"
+      ]
     },
     {
       "id": "898f676822d8a49c",
@@ -5748,7 +5790,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "99c4ee7672b90418",
@@ -5861,7 +5905,11 @@
       "event_type": "Band",
       "source": "tribe_ics:belle_fiore",
       "source_url": "https://bellefiorewine.com/event/live-music-jen-jon/",
-      "genres": []
+      "genres": [
+        "Blues",
+        "Jazz",
+        "Rock"
+      ]
     },
     {
       "id": "605cbd94b2883fcd",
@@ -5877,7 +5925,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "0ba01b83f29c9217",
@@ -5995,7 +6045,11 @@
           "id": "47543d2885a0912c"
         }
       ],
-      "genres": []
+      "genres": [
+        "Blues",
+        "Jazz",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "01a93b2fc94aa093",
@@ -6184,7 +6238,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "a1106a34380adde0",
@@ -6319,7 +6375,8 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": [
-        "Rock"
+        "Rock",
+        "Funk / Soul"
       ]
     },
     {
@@ -6358,7 +6415,10 @@
           "id": "9b2c0fa32e1d22d0"
         }
       ],
-      "genres": []
+      "genres": [
+        "Country",
+        "Rock"
+      ]
     },
     {
       "id": "d09edf7e85bf5732",
@@ -6605,7 +6665,9 @@
           "id": "c632c70ae8e46767"
         }
       ],
-      "genres": []
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "id": "20b8ef4a3b8098de",
@@ -6805,7 +6867,9 @@
           "id": "e9082c280b3ecd06"
         }
       ],
-      "genres": []
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "c1411e05357df1aa",
@@ -6821,7 +6885,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "2017e55bf8634550",
@@ -7029,7 +7095,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "9de036a895e115ec",
@@ -7219,7 +7287,11 @@
           "id": "73936edc0a76f8db"
         }
       ],
-      "genres": []
+      "genres": [
+        "Country",
+        "Blues",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "6a6ad8937bf54266",
@@ -7252,7 +7324,8 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": [
-        "Rock"
+        "Rock",
+        "Funk / Soul"
       ]
     },
     {
@@ -7461,7 +7534,9 @@
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-june-28/",
-      "genres": []
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "895315701e7357c5",
@@ -7495,7 +7570,9 @@
       "event_type": "Band",
       "source": "tribe_ics:belle_fiore",
       "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
-      "genres": []
+      "genres": [
+        "Funk / Soul"
+      ]
     },
     {
       "id": "984d86dcc32bf1be",
@@ -7527,7 +7604,9 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presentsthe-stella-heath-group-from-billie-holiday-to-edith-piaf/",
-      "genres": []
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "af45d69819be3c12",
@@ -7640,7 +7719,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "c4b95c34dba1cbf3",
@@ -7746,7 +7827,9 @@
           "id": "fa9e9560eb070077"
         }
       ],
-      "genres": []
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "id": "ef90f54029fd9743",

@@ -4,7 +4,7 @@ import { ingest as ingestMusiclistTxt } from './adapters/musiclist_txt.mjs';
 import { ingest as ingestTribeIcs } from './adapters/tribe_ics.mjs';
 import { ingest as ingestTalentClub } from './adapters/talent_club.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
-import { canonicalizeGenres } from './lib/genres.mjs';
+import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
 
 const DATA_DIR = new URL('../data/', import.meta.url);
 const EVENTS_OUT = new URL('events.json', DATA_DIR);
@@ -123,11 +123,28 @@ async function main() {
   const { events, dropped } = dedupeEvents(results);
 
   const musicianGenres = results.find(r => r.name === 'musiclist_txt' && r.ok)?.musician_genres || {};
+  const GENRE_CAP = 3;
   for (const e of events) {
-    let source = e.genre;
-    if (!source && e.musician && musicianGenres[e.musician]) source = musicianGenres[e.musician];
-    e.genres = source ? canonicalizeGenres(source) : [];
-    if (!e.genre && source) e.genre = source;
+    // Sources in descending confidence. Specific BUCKETS are ordered most to least
+    // specific, so canonicalizeGenres returns specific-first; the cap keeps top 3.
+    const dictGenre = musicianGenres[e.musician] || null;
+    const probeStrings = [e.genre, dictGenre, e.musician, e.notes].filter(Boolean);
+    const seen = new Set();
+    const out = [];
+    for (const s of probeStrings) {
+      for (const g of canonicalizeGenres(s)) {
+        if (seen.has(g)) continue;
+        seen.add(g);
+        out.push(g);
+        if (out.length >= GENRE_CAP) break;
+      }
+      if (out.length >= GENRE_CAP) break;
+    }
+    // Add Other only if nothing specific matched and any source mentions cover/variety.
+    if (out.length === 0 && probeStrings.some(hasOtherSignal)) out.push('Other');
+    e.genres = out;
+    // Backfill the raw display genre from the dictionary if blank.
+    if (!e.genre && dictGenre) e.genre = dictGenre;
   }
 
   const sourceTimestamp =

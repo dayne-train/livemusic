@@ -3,39 +3,58 @@
    Returns an array of canonical genre names. */
 
 const BUCKETS = [
-  ['Bluegrass', /\bblue\s*grass|bluegrass|newgrass\b/i],
-  ['Rockabilly', /\brockabilly|psychobilly\b/i],
-  ['Country', /\bcountry|honky\s*tonk|americana|outlaw\b/i],
-  ['Blues', /\bblues|delta\b/i],
-  ['Jazz', /\bjazz|bebop|gypsy\s*jazz\b/i],
-  ['Swing', /\bswing|big\s*band\b/i],
-  ['Folk', /\bfolk|singer.?songwriter|acoustic\b/i],
-  ['Celtic', /\bceltic|irish|scottish\b/i],
-  ['Latin', /\blatin|salsa|cumbia|mariachi|flamenco|bachata\b/i],
-  ['Reggae', /\breggae|ska|dub|dancehall\b/i],
-  ['Funk / Soul', /\bfunk|soul|r&b|rnb|motown|gospel\b/i],
-  ['Hip Hop', /\bhip.?hop|rap\b/i],
-  ['Electronic / DJ', /\belectronic|edm|house|techno|trance|\bdj\b|drum\s*&?\s*bass|dnb\b/i],
-  ['Punk / Metal', /\bpunk|metal|hardcore|grunge\b/i],
-  ['Rock', /\brock\b|alt(ernative)?|indie|psychedelic|garage\b/i],
-  ['Pop', /\bpop\b/i],
-  ['Classical', /\bclassical|orchestral|chamber|opera\b/i],
-  ['World', /\bworld|african|asian|middle.?eastern|polka|klezmer\b/i],
+  ['Bluegrass',       ['bluegrass', 'blue grass', 'newgrass']],
+  ['Rockabilly',      ['rockabilly', 'psychobilly']],
+  ['Country',         ['country', 'honky tonk', 'honkytonk', 'americana', 'outlaw country']],
+  ['Blues',           ['blues', 'delta']],
+  ['Jazz',            ['jazz', 'bebop', 'gypsy jazz']],
+  ['Swing',           ['swing', 'big band']],
+  ['Folk',            ['folk', 'singer songwriter', 'singer-songwriter', 'acoustic']],
+  ['Celtic',          ['celtic', 'irish', 'scottish']],
+  ['Latin',           ['latin', 'salsa', 'cumbia', 'mariachi', 'flamenco', 'bachata']],
+  ['Reggae',          ['reggae', 'ska', 'dub', 'dancehall']],
+  ['Funk / Soul',     ['funk', 'soul', 'r&b', 'rnb', 'motown', 'gospel']],
+  ['Hip Hop',         ['hip hop', 'hip-hop', 'hiphop', 'rap']],
+  ['Electronic / DJ', ['electronic', 'edm', 'house music', 'techno', 'trance', 'dj', 'drum and bass', 'dnb']],
+  ['Punk / Metal',    ['punk', 'metal', 'hardcore', 'grunge']],
+  ['Rock',            ['rock', 'alternative', 'alt rock', 'indie', 'indie rock', 'psychedelic', 'garage']],
+  ['Pop',             ['pop', 'indie pop']],
+  ['Classical',       ['classical', 'orchestral', 'chamber', 'opera']],
+  ['World',           ['world music', 'world', 'african', 'middle eastern', 'polka', 'klezmer']],
 ];
 
-const ORIGINAL_RE = /\boriginal(s)?\b/i;
-const VARIETY_RE = /\bvariety|cover(s|ed)?|tribute|all.?genres?\b/i;
+/* Catch-all triggers: when raw text says "variety" / "originals" / "covers" /
+   "tribute" but doesn't fit a specific bucket, treat as Other. Only fires if
+   no specific bucket matched. */
+const OTHER_TOKENS = ['variety', 'original', 'originals', 'cover', 'covers', 'tribute', 'all genres', 'eclectic'];
+
+/* Build a case-insensitive word-bounded regex from a list of phrases. Spaces
+   match any whitespace; & matches optional whitespace on both sides. */
+function buildRe(phrases) {
+  const escaped = phrases.map(p =>
+    p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+     .replace(/\s+/g, '\\s+')
+     .replace(/&/g, '\\s*&\\s*')
+  );
+  return new RegExp('\\b(?:' + escaped.join('|') + ')\\b', 'i');
+}
+
+const BUCKET_RES = BUCKETS.map(([name, phrases]) => [name, buildRe(phrases)]);
+const OTHER_RE = buildRe(OTHER_TOKENS);
 
 export function canonicalizeGenres(raw) {
   if (!raw || typeof raw !== 'string') return [];
-  const found = new Set();
-  for (const [name, re] of BUCKETS) {
-    if (re.test(raw)) found.add(name);
+  const found = [];
+  for (const [name, re] of BUCKET_RES) {
+    if (re.test(raw)) found.push(name);
   }
-  if (found.size === 0) {
-    if (ORIGINAL_RE.test(raw) || VARIETY_RE.test(raw)) found.add('Other');
-  }
-  return [...found];
+  return found;
+}
+
+/* Returns true if the raw text hints at cover/variety/originals music. Use
+   from the merge step to add Other only when no specific genre matched. */
+export function hasOtherSignal(raw) {
+  return !!raw && typeof raw === 'string' && OTHER_RE.test(raw);
 }
 
 export function allCanonicalGenres() {
