@@ -13,7 +13,7 @@
     },
     "tribe_ics": {
       "ok": true,
-      "count": 22,
+      "count": 27,
       "strategy": "live",
       "last_ok": "2026-06-07T17:40:22.345Z",
       "last_attempt": "2026-06-07T17:40:22.345Z",
@@ -28,8 +28,8 @@
       "error": null
     }
   },
-  "event_count": 345,
-  "venue_count": 304,
-  "deduped": 15,
-  "content_hash": "1b2165260faac195"
+  "event_count": 350,
+  "venue_count": 305,
+  "deduped": 16,
+  "content_hash": "f11298f8ea6af440"
 }

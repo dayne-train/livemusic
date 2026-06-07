@@ -4,6 +4,7 @@ import { ingest as ingestMusiclistTxt } from './adapters/musiclist_txt.mjs';
 import { ingest as ingestTribeIcs } from './adapters/tribe_ics.mjs';
 import { ingest as ingestTalentClub } from './adapters/talent_club.mjs';
 import { ingest as ingestBlackSheep } from './adapters/black_sheep.mjs';
+import { ingest as ingestSouLocalist } from './adapters/sou_localist.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
 import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
 
@@ -19,6 +20,7 @@ const ADAPTERS = [
   { name: 'tribe_ics',     trust: 80,  run: () => ingestTribeIcs({ offline: OFFLINE }) },
   { name: 'talent_club',   trust: 80,  run: () => ingestTalentClub({ offline: OFFLINE }) },
   { name: 'black_sheep',   trust: 80,  run: () => ingestBlackSheep({ offline: OFFLINE }) },
+  { name: 'sou_localist',  trust: 80,  run: () => ingestSouLocalist({ offline: OFFLINE }) },
 ];
 
 const TIME_WINDOW_MIN = 90;
@@ -90,14 +92,52 @@ function dedupeEvents(results) {
 
   const out = [];
   for (const bucket of buckets.values()) {
-    for (const e of bucket) {
-      const { _venue_key, _artist_key, _artist_tokens, _start_min, _trust, _source_name, _merged_from, ...clean } = e;
-      if (_merged_from && _merged_from.length) clean.merged_from = _merged_from;
-      out.push(clean);
+    for (const e of bucket) out.push(e);
+  }
+
+  // Second-pass dedup: same artist + same date across DIFFERENT venues.
+  // An artist almost never plays two Rogue Valley venues on the same day, so
+  // we treat these as the aggregator listing the same show under venue
+  // spelling variants. Higher-trust source wins. Skip if the artist key is
+  // too short to be a stable identifier.
+  const byArtistDate = new Map();
+  const second = [];
+  for (const e of out) {
+    const key = e._artist_key && e._artist_key.length >= 5
+      ? `${e._artist_key}|${e.date}`
+      : null;
+    if (!key) { second.push(e); continue; }
+    const prior = byArtistDate.get(key);
+    if (!prior) {
+      byArtistDate.set(key, e);
+      second.push(e);
+    } else {
+      // Merge into the higher-trust one already in second[].
+      const keep = prior._trust >= e._trust ? prior : e;
+      const drop = keep === prior ? e : prior;
+      for (const [k, v] of Object.entries(drop)) {
+        if (k.startsWith('_')) continue;
+        if (!keep[k] && v) keep[k] = v;
+      }
+      keep._merged_from = keep._merged_from || [];
+      keep._merged_from.push({ source: drop._source_name, id: drop.id });
+      dropped.push({ kept: keep.id, dropped_source: drop._source_name, dropped_id: drop.id, venue: drop.venue, date: drop.date, musician: drop.musician });
+      // Remove the dropped event from the output and put keep in if it isn't already.
+      const dropIdx = second.indexOf(drop);
+      if (dropIdx >= 0) second.splice(dropIdx, 1);
+      if (!second.includes(keep)) second.push(keep);
+      byArtistDate.set(key, keep);
     }
   }
-  out.sort((a, b) => (a.date + (a.start_raw || '0000')).localeCompare(b.date + (b.start_raw || '0000')));
-  return { events: out, dropped };
+
+  // Strip internal fields and attach merge metadata for inspection.
+  const cleaned = second.map(e => {
+    const { _venue_key, _artist_key, _artist_tokens, _start_min, _trust, _source_name, _merged_from, ...rest } = e;
+    if (_merged_from && _merged_from.length) rest.merged_from = _merged_from;
+    return rest;
+  });
+  cleaned.sort((a, b) => (a.date + (a.start_raw || '0000')).localeCompare(b.date + (b.start_raw || '0000')));
+  return { events: cleaned, dropped };
 }
 
 async function readExistingMeta() {

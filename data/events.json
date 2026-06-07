@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-07T17:40:23.663Z",
   "source_timestamp": "06/06/2026 06:55",
-  "content_hash": "1b2165260faac195",
+  "content_hash": "f11298f8ea6af440",
   "sources": {
     "musiclist_txt": {
       "ok": true,
@@ -13,7 +13,7 @@
     },
     "tribe_ics": {
       "ok": true,
-      "count": 22,
+      "count": 27,
       "strategy": "live",
       "last_ok": "2026-06-07T17:40:22.345Z",
       "last_attempt": "2026-06-07T17:40:22.345Z",
@@ -3376,6 +3376,17 @@
       "_sources": [
         "talent_club"
       ]
+    },
+    "OCA Black Box Theatre": {
+      "url": "https://events.sou.edu",
+      "city": "Ashland",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "sou_localist"
+      ]
     }
   },
   "events": [
@@ -4531,6 +4542,23 @@
       "genres": [
         "Celtic"
       ]
+    },
+    {
+      "id": "5ec5990b84f29fa8",
+      "date": "2026-06-07",
+      "start_raw": "1400",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "Mini Musical Moments",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OCA Black Box Theatre",
+      "notes": "The SOU Theatre Department and Karl & Kompany are proud to present \"Mini Musical Moments.\"  Come and enjoy performances of your favorite Musical Theatre hits performed by the Musical Theatre Workshop ",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "bd5adf875ab06098",
@@ -5790,6 +5818,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a87509d9ad816ef5",
+      "date": "2026-06-15",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series/",
       "genres": []
     },
     {
@@ -7968,6 +8012,48 @@
       "genres": []
     },
     {
+      "id": "f3abd468017f7ede",
+      "date": "2026-07-04",
+      "start_raw": "2000",
+      "end_raw": "0200",
+      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
+      "genre": "",
+      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
+      "link_name": "",
+      "venue": "Historic Ashland Armory",
+      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
+      "genres": [
+        "Electronic / DJ"
+      ]
+    },
+    {
+      "id": "0ccfc580d5cf8aaf",
+      "date": "2026-07-05",
+      "start_raw": "1200",
+      "end_raw": "1900",
+      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
+      "genre": "",
+      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "link_name": "",
+      "venue": "Lithia Park Bandshell",
+      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "0ccfc580d5cf8aaf"
+        }
+      ],
+      "genres": [
+        "Electronic / DJ"
+      ]
+    },
+    {
       "id": "dcb41f5da91fdeba",
       "date": "2026-07-05",
       "start_raw": "1300",
@@ -8173,6 +8259,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "15ecaa5e546a06f7",
+      "date": "2026-07-20",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-2/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
     },
     {

@@ -7,9 +7,10 @@ Builds `data/events.json` by running adapters and merging their output. Runs eve
 | Adapter | Source | Trust |
 |---|---|---|
 | `musiclist_txt` | `roguevalleylivemusicnightlife.com/musiclist.txt` (volunteer-maintained pipe-delimited file) | 100 |
-| `tribe_ics` | Belle Fiore, Grizzly Peak, Roxy Ann Winery ICS feeds (WordPress + Tribe Events) | 80 |
+| `tribe_ics` | Belle Fiore, Grizzly Peak, Roxy Ann Winery, Travel Ashland (aggregator) ICS feeds (WordPress + Tribe Events) | 80 |
 | `talent_club` | `talentclublive.com/live-music/` HTML scrape | 80 |
 | `black_sheep` | `theblacksheep.com/events/` schema.org Event JSON-LD | 80 |
+| `sou_localist` | `events.sou.edu` Localist public JSON API | 80 |
 
 Higher trust wins on dedup overlaps. The volunteer list is the floor.
 
@@ -76,7 +77,11 @@ Output: `../data/events.json` and `../data/meta.json` updated.
 
 ## Dedup logic
 
-Events are grouped by `(normalized_venue_key, date)`. Within a group, two events match if they share an artist key OR have token-Jaccard overlap >= 0.6 on artist names AND start times within 90 minutes. Trust-ordered: the winner's display fields stay, blank fields get backfilled from the loser, and the losing entry is dropped (logged in `meta.json` as `deduped`).
+**First pass** groups by `(normalized_venue_key, date)`. Within a group, two events match if they share an artist key OR have token-Jaccard overlap >= 0.6 on artist names AND start times within 90 minutes.
+
+**Second pass** catches cross-venue duplicates: when the same artist key appears on the same date at differently-spelled venues (e.g. "Lithia Park Bandshell" vs "Lithia Park Butler Bandshell" from an aggregator's data hygiene issue), those get merged too. Skipped when the artist key is shorter than 5 characters so generic titles like "Open Mic" don't false-merge across the valley.
+
+Both passes are trust-ordered: the winner's display fields stay, blank fields get backfilled from the loser, and the losing entry is dropped (logged in `meta.json` as `deduped`).
 
 ## Genre buckets
 

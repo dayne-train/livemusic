@@ -36,6 +36,18 @@ const VENUES = [
     title_strip: /^MUSIC \+ WINE SERIES FEATURING\s*/i,
     event_type: 'Band',
   },
+  {
+    venue_id: 'travel_ashland',
+    name: 'Lithia Park Bandshell',
+    city: 'Ashland',
+    region: 'Ashland',
+    venue_type: 'Other',
+    venue_url: 'https://travelashland.com',
+    ics_url: 'https://travelashland.com/events/category/music/?ical=1',
+    use_location: true,
+    exclude_summary: /farmers market|growers and crafters|trail running|alpine festival|shakespeare festival|retreat|loot hunt|loot crawl|race$|shopping|chamber.{0,40}celebration|fourth of july celebration|4th of july celebration|sob\)?$/i,
+    event_type: 'Band',
+  },
 ];
 
 const HEADERS = {
@@ -113,6 +125,21 @@ async function ingestVenue(v, signal) {
     const dtEnd = parseDtstart(r.DTEND);
     const url = r.URL ? r.URL.value : null;
     const description = r.DESCRIPTION ? unescape(r.DESCRIPTION.value).trim() : '';
+    const rawLocation = r.LOCATION ? unescape(r.LOCATION.value).trim() : '';
+    // Clean common ICS LOCATION noise (street + state + zip + country).
+    // "Historic Ashland Armory, 208 Oak St., Ashland, OR, 97520, United States"
+    //   -> "Historic Ashland Armory"
+    const cleanLocation = rawLocation
+      .replace(/,\s*\d{3,5}[a-z]*\s+\w+.*$/i, '')           // strip street-address segment
+      .replace(/,\s*(United States|USA)\s*$/i, '')
+      .replace(/,\s*\d{5}(-\d{4})?\s*$/, '')                // trailing zip
+      .replace(/,\s*[A-Z]{2}\s*$/, '')                      // trailing state code
+      .replace(/,\s*Ashland\s*$/i, ', Ashland')             // keep city if present
+      .replace(/^([^,]+),.*$/, '$1')                        // keep just first segment after final cleanup
+      .trim();
+    // For aggregator feeds (use_location: true), prefer the per-event LOCATION
+    // field as the venue name. Falls back to the venue config name if blank.
+    const eventVenue = v.use_location && cleanLocation ? cleanLocation : v.name;
     events.push({
       id: eventId(v.venue_id, dt.date, dt.time, title),
       date: dt.date,
@@ -122,23 +149,25 @@ async function ingestVenue(v, signal) {
       genre: '',
       link: url || '',
       link_name: '',
-      venue: v.name,
+      venue: eventVenue,
       notes: description.slice(0, 200),
       event_type: v.event_type,
       source: `tribe_ics:${v.venue_id}`,
       source_url: url,
     });
   }
-  const venues = {
-    [v.name]: {
-      url: v.venue_url,
-      city: v.city,
-      notes: '',
-      address: '',
-      region: v.region,
-      type: v.venue_type,
-    },
-  };
+  const venues = v.use_location
+    ? {} /* per-event venues come from LOCATION; do not register a single venue */
+    : {
+      [v.name]: {
+        url: v.venue_url,
+        city: v.city,
+        notes: '',
+        address: '',
+        region: v.region,
+        type: v.venue_type,
+      },
+    };
   return { events, venues };
 }
 

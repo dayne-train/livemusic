@@ -37,6 +37,8 @@ Event data is built into `data/events.json` by a pipeline that pulls from multip
 - Belle Fiore, Grizzly Peak, and Roxy Ann Winery -- their own published WordPress / Tribe Events calendar feeds
 - The Talent Club -- scraped from `talentclublive.com/live-music/`
 - The Black Sheep Pub (Ashland) -- read from schema.org Event JSON-LD on `theblacksheep.com/events/` (covers their recurring Open Mic, Celtic Session, and Karaoke nights)
+- Travel Ashland -- Tribe Events ICS at `travelashland.com/events/category/music/?ical=1`, filtered to actual music programming (Lithia Park Bandshell summer concerts, Ashland Armory events, etc.)
+- SOU Localist -- public JSON API at `events.sou.edu/api/2/events` for music events at Southern Oregon University venues
 
 The pipeline trust-orders the sources, de-duplicates shows that appear in more than one feed (volunteer list wins on overlaps), and writes the result to a same-origin `data/events.json`. The site reads that JSON directly with no proxies. If `events.json` is unavailable for any reason, the site falls back to the old proxy + `musiclist.txt` snapshot path.
 
