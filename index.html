@@ -259,16 +259,14 @@
   .event-row:only-child { border-radius:var(--radius-sm); }
   .event-row:hover { background:var(--hover-tint); }
   .row-col { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; flex-shrink:0; font-size:12px; padding-right:var(--sp-4); }
-  .row-col-name   { flex:0 0 26%; font-weight:600; color:var(--text); }
-  .row-col-genre  { flex:0 0 8%; color:var(--text3); font-style:italic; font-size:11px; }
-  .row-col-venue  { flex:0 0 20%; color:var(--text2); }
+  .row-col-name   { flex:0 0 30%; font-weight:600; color:var(--text); }
+  .row-col-venue  { flex:0 0 22%; color:var(--text2); }
   .row-col-city   { flex:0 0 6%; overflow:visible; }
   .row-col-time   { flex:1 1 0; min-width:0; overflow:visible; color:var(--text3); font-size:11px; display:flex; align-items:center; gap:0; flex-wrap:nowrap; }
   .row-col-cover  { flex:0 0 5%; text-align:right; }
   @media (max-width:1000px) {
     .row-col-city { display:none; }
-    .row-col-genre { display:none; }
-    .row-col-name  { flex:0 0 30%; }
+    .row-col-name  { flex:0 0 34%; }
   }
   @media (max-width:800px) {
     .row-col-cover { display:none; }
@@ -1652,7 +1650,6 @@ function rowHtml(e,idx){
   const dirBtn=`<a class="card-action-btn" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Directions</a>`;
   return `<article class="event-row${pastCls}" onclick="openDetail(${idx})" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${idx});}" role="button">
     <div class="row-col row-col-name">${esc(e.musician)}</div>
-    <div class="row-col row-col-genre">${esc(e.genre)}</div>
     <div class="row-col row-col-city">${e.city?'<span class="city-abbr" data-city="'+esc(e.city)+'">'+esc(cityAbbr(e.city))+'</span>':''}</div>
     <div class="row-col row-col-venue"><a class="venue-name-link" href="${esc(dirUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(e.venue)}</a></div>
     <div class="row-col row-col-cover">${pm&&status!=='past'?'<span class="cover-badge">'+esc(pm[0])+'</span>':''}</div>

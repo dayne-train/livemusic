@@ -5,8 +5,6 @@ import { ingest as ingestTribeIcs } from './adapters/tribe_ics.mjs';
 import { ingest as ingestTalentClub } from './adapters/talent_club.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
 import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
-import { Spotify, isGenericArtistName } from './lib/spotify.mjs';
-import { GenreCache } from './lib/genre_cache.mjs';
 
 const DATA_DIR = new URL('../data/', import.meta.url);
 const EVENTS_OUT = new URL('events.json', DATA_DIR);
@@ -149,71 +147,6 @@ async function main() {
     if (!e.genre && dictGenre) e.genre = dictGenre;
   }
 
-  // Spotify enrichment: for events still untagged, look up the artist in the
-  // genre cache (querying Spotify on first encounter). Skips entirely if no
-  // credentials are configured.
-  const spotify = Spotify.fromEnv();
-  const cache = new GenreCache();
-  await cache.load();
-  let spotifyQueried = 0, spotifyHits = 0, spotifyMisses = 0, spotifyErrors = 0;
-
-  const untaggedArtists = new Set();
-  for (const e of events) {
-    if (e.genres.length === 0 && !isGenericArtistName(e.musician)) {
-      untaggedArtists.add(e.musician);
-    }
-  }
-
-  if (spotify) {
-    const toQuery = [...untaggedArtists].filter(name => !cache.has(name));
-    if (toQuery.length) console.log(`[spotify] querying ${toQuery.length} new artist${toQuery.length === 1 ? '' : 's'}...`);
-    for (const name of toQuery) {
-      try {
-        const result = await spotify.lookupArtist(name);
-        const fetched_at = new Date().toISOString();
-        if (!result) {
-          cache.set(name, { spotify_id: null, spotify_genres: [], canonical: [], no_match: true, fetched_at });
-          spotifyMisses++;
-        } else {
-          const canonical = [...new Set(result.genres.flatMap(g => canonicalizeGenres(g)))];
-          cache.set(name, {
-            spotify_id: result.spotify_id,
-            spotify_name: result.name,
-            spotify_genres: result.genres,
-            canonical,
-            fetched_at,
-          });
-          spotifyHits++;
-        }
-        spotifyQueried++;
-      } catch (err) {
-        console.warn(`[spotify] ${name}: ${err.message}`);
-        spotifyErrors++;
-        if (spotifyErrors >= 5) {
-          console.warn('[spotify] too many errors, aborting Spotify pass');
-          break;
-        }
-      }
-    }
-    if (cache.dirty) await cache.save();
-  } else {
-    console.log('[spotify] no credentials in env, skipping enrichment');
-  }
-
-  // Apply cache to untagged events (covers both newly-queried and previously-cached).
-  let enrichedCount = 0;
-  for (const e of events) {
-    if (e.genres.length > 0) continue;
-    if (isGenericArtistName(e.musician)) continue;
-    const cached = cache.get(e.musician);
-    if (cached && Array.isArray(cached.canonical) && cached.canonical.length > 0) {
-      e.genres = cached.canonical.slice(0, GENRE_CAP);
-      enrichedCount++;
-    }
-  }
-  if (spotify) {
-    console.log(`[spotify] queried=${spotifyQueried} hits=${spotifyHits} misses=${spotifyMisses} errors=${spotifyErrors} cache_size=${cache.size()} events_enriched=${enrichedCount}`);
-  }
 
   const sourceTimestamp =
     results.find(r => r.ok && r.source_timestamp)?.source_timestamp || null;
