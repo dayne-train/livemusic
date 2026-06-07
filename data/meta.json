@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T17:40:23.663Z",
+  "fetched_at": "2026-06-07T21:42:23.332Z",
   "source_timestamp": "06/06/2026 06:55",
   "bytes": 56978,
   "sources": {
@@ -7,29 +7,45 @@
       "ok": true,
       "count": 324,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-07T17:40:21.937Z",
-      "last_attempt": "2026-06-07T17:40:21.937Z",
+      "last_ok": "2026-06-07T21:42:19.715Z",
+      "last_attempt": "2026-06-07T21:42:19.715Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 27,
+      "count": 20,
       "strategy": "live",
-      "last_ok": "2026-06-07T17:40:22.345Z",
-      "last_attempt": "2026-06-07T17:40:22.345Z",
-      "error": null
+      "last_ok": "2026-06-07T21:42:20.108Z",
+      "last_attempt": "2026-06-07T21:42:20.108Z",
+      "error": "grizzly_peak: grizzly_peak HTTP 403; travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-06-07T17:40:23.201Z",
-      "last_attempt": "2026-06-07T17:40:23.201Z",
+      "last_attempt": "2026-06-07T21:42:21.065Z",
+      "error": "page missing event blocks"
+    },
+    "black_sheep": {
+      "ok": false,
+      "count": 0,
+      "strategy": null,
+      "last_ok": null,
+      "last_attempt": "2026-06-07T21:42:21.203Z",
+      "error": "HTTP 403"
+    },
+    "sou_localist": {
+      "ok": true,
+      "count": 1,
+      "strategy": "live",
+      "last_ok": "2026-06-07T21:42:21.291Z",
+      "last_attempt": "2026-06-07T21:42:21.291Z",
       "error": null
     }
   },
-  "event_count": 350,
-  "venue_count": 305,
-  "deduped": 16,
-  "content_hash": "f11298f8ea6af440"
+  "event_count": 330,
+  "venue_count": 304,
+  "deduped": 15,
+  "content_hash": "09a7a8d683a25d48"
 }

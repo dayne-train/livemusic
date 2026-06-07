@@ -1,30 +1,46 @@
 {
-  "generated_at": "2026-06-07T17:40:23.663Z",
+  "generated_at": "2026-06-07T21:42:23.332Z",
   "source_timestamp": "06/06/2026 06:55",
-  "content_hash": "f11298f8ea6af440",
+  "content_hash": "09a7a8d683a25d48",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 324,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-07T17:40:21.937Z",
-      "last_attempt": "2026-06-07T17:40:21.937Z",
+      "last_ok": "2026-06-07T21:42:19.715Z",
+      "last_attempt": "2026-06-07T21:42:19.715Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 27,
+      "count": 20,
       "strategy": "live",
-      "last_ok": "2026-06-07T17:40:22.345Z",
-      "last_attempt": "2026-06-07T17:40:22.345Z",
-      "error": null
+      "last_ok": "2026-06-07T21:42:20.108Z",
+      "last_attempt": "2026-06-07T21:42:20.108Z",
+      "error": "grizzly_peak: grizzly_peak HTTP 403; travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-06-07T17:40:23.201Z",
-      "last_attempt": "2026-06-07T17:40:23.201Z",
+      "last_attempt": "2026-06-07T21:42:21.065Z",
+      "error": "page missing event blocks"
+    },
+    "black_sheep": {
+      "ok": false,
+      "count": 0,
+      "strategy": null,
+      "last_ok": null,
+      "last_attempt": "2026-06-07T21:42:21.203Z",
+      "error": "HTTP 403"
+    },
+    "sou_localist": {
+      "ok": true,
+      "count": 1,
+      "strategy": "live",
+      "last_ok": "2026-06-07T21:42:21.291Z",
+      "last_attempt": "2026-06-07T21:42:21.291Z",
       "error": null
     }
   },
@@ -1127,8 +1143,7 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt",
-        "tribe_ics"
+        "musiclist_txt"
       ]
     },
     "Growler Guys": {
@@ -2742,12 +2757,11 @@
       "url": "http://www.theblacksheep.com/",
       "city": "Ashland",
       "notes": "",
-      "address": "51 N Main St, Ashland OR",
+      "address": "",
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt",
-        "black_sheep"
+        "musiclist_txt"
       ]
     },
     "The Copper Plank": {
@@ -3364,17 +3378,6 @@
       "type": "Other",
       "_sources": [
         "musiclist_txt"
-      ]
-    },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
       ]
     },
     "OCA Black Box Theatre": {
@@ -4525,25 +4528,6 @@
       ]
     },
     {
-      "id": "5b5dc34b939ddbda",
-      "date": "2026-06-07",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "5ec5990b84f29fa8",
       "date": "2026-06-07",
       "start_raw": "1400",
@@ -4833,25 +4817,6 @@
       "genres": []
     },
     {
-      "id": "4e0238aca2bf081e",
-      "date": "2026-06-09",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "6cb77f9734d1c747",
       "date": "2026-06-10",
       "start_raw": "1030",
@@ -5087,23 +5052,6 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "abb38aa07d0a482c",
-      "date": "2026-06-11",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -5562,23 +5510,6 @@
       "genres": []
     },
     {
-      "id": "e83c65823c414d1c",
-      "date": "2026-06-13",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Two Tracks",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-two-tracks/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-two-tracks/",
-      "genres": []
-    },
-    {
       "id": "8053ee4cbe2d30af",
       "date": "2026-06-14",
       "start_raw": "1400",
@@ -5625,25 +5556,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "e57f3a12e83d154e",
-      "date": "2026-06-14",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
     },
     {
       "id": "c89a55f53574a03c",
@@ -5821,22 +5733,6 @@
       "genres": []
     },
     {
-      "id": "a87509d9ad816ef5",
-      "date": "2026-06-15",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series/",
-      "genres": []
-    },
-    {
       "id": "3f225dedcff07122",
       "date": "2026-06-15",
       "start_raw": "1900",
@@ -5851,58 +5747,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "6e6b93d0eda8b5c0",
-      "date": "2026-06-15",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "Yasmin Williams",
-      "genre": "",
-      "link": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/",
-      "link_name": "",
-      "venue": "Grizzly Peak Winery",
-      "notes": "The Guitar Society of Southern Oregon is proud to present the extraordinary guitarist Yasmin Williams in an intimate concert at Grizzly Peak Winery. \nYasmin Williams is an innovative guitarist and com",
-      "event_type": "Band",
-      "source": "tribe_ics:grizzly_peak",
-      "source_url": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/",
-      "genres": []
-    },
-    {
-      "id": "ee92239a8e40c2ae",
-      "date": "2026-06-16",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Terrapin Flyer (Night 1)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/terrapin-flyer/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer/",
-      "genres": []
-    },
-    {
-      "id": "6325a355f1db80bc",
-      "date": "2026-06-16",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "e055547e21a93de0",
@@ -5984,23 +5828,6 @@
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-june-17/",
-      "genres": []
-    },
-    {
-      "id": "515121c0b82dd459",
-      "date": "2026-06-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Terrapin Flyer (Night 2)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/terrapin-flyer-night-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer-night-2/",
       "genres": []
     },
     {
@@ -6087,23 +5914,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "3428c73994ef4e83",
-      "date": "2026-06-18",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -6351,23 +6161,6 @@
       "genres": [
         "Latin"
       ]
-    },
-    {
-      "id": "d2607c912ff892d5",
-      "date": "2026-06-19",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Object Heavy",
-      "genre": "",
-      "link": "https://talentclublive.com/event/object-heavy/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/object-heavy/",
-      "genres": []
     },
     {
       "id": "8c5d2188c87cacc4",
@@ -6678,23 +6471,6 @@
       "genres": []
     },
     {
-      "id": "9589c1fe95c4f4a2",
-      "date": "2026-06-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Nigel Wearne",
-      "genre": "",
-      "link": "https://talentclublive.com/event/nigel-wearne/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/nigel-wearne/",
-      "genres": []
-    },
-    {
       "id": "dbff9b5a2ea52cc1",
       "date": "2026-06-21",
       "start_raw": "1400",
@@ -6709,25 +6485,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "62b80dabac9b0777",
-      "date": "2026-06-21",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
     },
     {
       "id": "e4fd15f04a85ab8d",
@@ -7755,24 +7512,6 @@
       "genres": []
     },
     {
-      "id": "42d934a4ca0b9af3",
-      "date": "2026-06-28",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "The Stella Heath Group, From Billie Holiday to Edith Piaf",
-      "genre": "",
-      "link": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presentsthe-stella-heath-group-from-billie-holiday-to-edith-piaf/",
-      "link_name": "",
-      "venue": "Grizzly Peak Winery",
-      "notes": "Siskiyou Music Project welcomes Bay Area vocalist Stella Heath and her group for her first southern Oregon performance. She’ll be presenting “From Billie Holiday to Edith Piaf which blends a jazz mano",
-      "event_type": "Band",
-      "source": "tribe_ics:grizzly_peak",
-      "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presentsthe-stella-heath-group-from-billie-holiday-to-edith-piaf/",
-      "genres": [
-        "Jazz"
-      ]
-    },
-    {
       "id": "af45d69819be3c12",
       "date": "2026-06-29",
       "start_raw": "1800",
@@ -7802,23 +7541,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "0057b99986c842d5",
-      "date": "2026-06-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Kota Dosa",
-      "genre": "",
-      "link": "https://talentclublive.com/event/kota-dosa/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/kota-dosa/",
       "genres": []
     },
     {
@@ -8010,48 +7732,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "f3abd468017f7ede",
-      "date": "2026-07-04",
-      "start_raw": "2000",
-      "end_raw": "0200",
-      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
-      "genre": "",
-      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "link_name": "",
-      "venue": "Historic Ashland Armory",
-      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "genres": [
-        "Electronic / DJ"
-      ]
-    },
-    {
-      "id": "0ccfc580d5cf8aaf",
-      "date": "2026-07-05",
-      "start_raw": "1200",
-      "end_raw": "1900",
-      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
-      "genre": "",
-      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "0ccfc580d5cf8aaf"
-        }
-      ],
-      "genres": [
-        "Electronic / DJ"
-      ]
     },
     {
       "id": "dcb41f5da91fdeba",
@@ -8259,22 +7939,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "15ecaa5e546a06f7",
-      "date": "2026-07-20",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-2/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
     },
     {
@@ -9183,23 +8847,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
       "genres": []
     },
     {
