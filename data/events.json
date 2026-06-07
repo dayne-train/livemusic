@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-06-07T06:23:18.485Z",
+  "generated_at": "2026-06-07T06:33:59.965Z",
   "source_timestamp": "06/06/2026 06:55",
-  "content_hash": "26e7b875e02afc59",
+  "content_hash": "d22845d490468272",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 324,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-07T06:23:17.083Z",
-      "last_attempt": "2026-06-07T06:23:17.083Z",
+      "last_ok": "2026-06-07T06:33:16.313Z",
+      "last_attempt": "2026-06-07T06:33:16.313Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 23,
+      "count": 22,
       "strategy": "live",
-      "last_ok": "2026-06-07T06:23:17.468Z",
-      "last_attempt": "2026-06-07T06:23:17.468Z",
+      "last_ok": "2026-06-07T06:33:16.633Z",
+      "last_attempt": "2026-06-07T06:33:16.633Z",
       "error": null
     },
     "talent_club": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-06-07T06:23:18.158Z",
-      "last_attempt": "2026-06-07T06:23:18.158Z",
-      "error": null
+      "last_attempt": "2026-06-07T06:33:17.296Z",
+      "error": "page missing event blocks"
     }
   },
   "venues": {
@@ -3364,17 +3364,6 @@
       "_sources": [
         "musiclist_txt"
       ]
-    },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
     }
   },
   "events": [
@@ -4222,24 +4211,14 @@
       "end_raw": "1930",
       "musician": "12 Bars Deep",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-12-bars-deep-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "12 Bars Deep is a good time-music dance band designed to rock the room. They cover Blues, R&B and Swing by some of the top artists you know and love. Decades of live performance by the band members cr",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-12-bars-deep-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "02753e86430f4225"
-        }
-      ],
-      "genres": [
-        "Blues",
-        "Swing",
-        "Funk / Soul"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e2b98fd759ac3f64",
@@ -5488,23 +5467,6 @@
       "genres": []
     },
     {
-      "id": "e83c65823c414d1c",
-      "date": "2026-06-13",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Two Tracks",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-two-tracks/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-two-tracks/",
-      "genres": []
-    },
-    {
       "id": "8053ee4cbe2d30af",
       "date": "2026-06-14",
       "start_raw": "1400",
@@ -5760,23 +5722,6 @@
       "genres": []
     },
     {
-      "id": "ee92239a8e40c2ae",
-      "date": "2026-06-16",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Terrapin Flyer (Night 1)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/terrapin-flyer/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer/",
-      "genres": []
-    },
-    {
       "id": "e055547e21a93de0",
       "date": "2026-06-17",
       "start_raw": "1030",
@@ -5856,23 +5801,6 @@
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-june-17/",
-      "genres": []
-    },
-    {
-      "id": "515121c0b82dd459",
-      "date": "2026-06-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Terrapin Flyer (Night 2)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/terrapin-flyer-night-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer-night-2/",
       "genres": []
     },
     {
@@ -6208,23 +6136,6 @@
       ]
     },
     {
-      "id": "d2607c912ff892d5",
-      "date": "2026-06-19",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Object Heavy",
-      "genre": "",
-      "link": "https://talentclublive.com/event/object-heavy/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/object-heavy/",
-      "genres": []
-    },
-    {
       "id": "8c5d2188c87cacc4",
       "date": "2026-06-20",
       "start_raw": "1030",
@@ -6530,23 +6441,6 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "9589c1fe95c4f4a2",
-      "date": "2026-06-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Nigel Wearne",
-      "genre": "",
-      "link": "https://talentclublive.com/event/nigel-wearne/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/nigel-wearne/",
       "genres": []
     },
     {
@@ -7638,23 +7532,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "0057b99986c842d5",
-      "date": "2026-06-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Kota Dosa",
-      "genre": "",
-      "link": "https://talentclublive.com/event/kota-dosa/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/kota-dosa/",
       "genres": []
     },
     {
@@ -8961,23 +8838,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
       "genres": []
     },
     {

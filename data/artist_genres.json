@@ -1,0 +1,733 @@
+{
+  "artists": {
+    "12 Bars Deep": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:31.544Z"
+    },
+    "Aaron Reed": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:38.728Z"
+    },
+    "Abdo Trio": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:18.184Z"
+    },
+    "Actual Wolf": {
+      "spotify_id": "1GOSU3nS1ZkokiVcF6mURW",
+      "spotify_name": "Actual Wolf",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:21.306Z"
+    },
+    "Alissa and the Side Effects": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:50.378Z"
+    },
+    "Allison and Victor": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:39.888Z"
+    },
+    "Ann Kelly & Mark Ross": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:41.265Z"
+    },
+    "Arugakki": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:48.309Z"
+    },
+    "Bekkah McAlvage": {
+      "spotify_id": "7IuvISc41qxxVOdHWEyVC2",
+      "spotify_name": "Bekkah McAlvage",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:31.965Z"
+    },
+    "Bim Jeam and the Sadness": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:18.501Z"
+    },
+    "Bim Jeam and the Sadness TRIO": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:59.963Z"
+    },
+    "Bluebirds": {
+      "spotify_id": "2tSCSRIiOya3O652PDmu3S",
+      "spotify_name": "Bluebirds",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:26.853Z"
+    },
+    "Brian Oliver": {
+      "spotify_id": "6UTkAkofceVJrSAbfnY6l9",
+      "spotify_name": "Brian Oliver",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:54.858Z"
+    },
+    "Broadway Phil & The Shouters": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:36.358Z"
+    },
+    "Bryan Oliver Trio": {
+      "spotify_id": "5PbriNn5H44UNIYD2NoF2q",
+      "spotify_name": "Bryan Oliver Trio",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:51.200Z"
+    },
+    "Calysta Cheyenne Trio": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:58.539Z"
+    },
+    "Cathy Bolton": {
+      "spotify_id": "32gIpgcllilkA47T6oEcH0",
+      "spotify_name": "Cathy Bolton",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:36.735Z"
+    },
+    "Charlee Prayers": {
+      "spotify_id": "3JkxQ6Q7sZDlmnzxECG68a",
+      "spotify_name": "Charlee Prayers",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:30.751Z"
+    },
+    "Chrisman & Smith": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:37.906Z"
+    },
+    "Colin Riversong": {
+      "spotify_id": "1Yd91jTE5UalMF2PO5YVXD",
+      "spotify_name": "Colin Riversong",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:33.997Z"
+    },
+    "Comedy: Fine Wines & Punch Lines (Third Wednesdays)": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:45.813Z"
+    },
+    "Dan Doshier": {
+      "spotify_id": "27Fqpva9cAkf0BY9huzKg9",
+      "spotify_name": "Dan Doshier",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:19.282Z"
+    },
+    "Daniel Nickels Band": {
+      "spotify_id": "61I159uILELcnP9b2PaRtu",
+      "spotify_name": "Daniel Nickels Band",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:52.467Z"
+    },
+    "Danielle Kelly & Paul Turnipseed": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:57.629Z"
+    },
+    "Dave Brendlinger": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:34.880Z"
+    },
+    "David Pinsky & Phil Newton": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:51.752Z"
+    },
+    "Delilah Beaucoup & Josh DiStefano": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:29.960Z"
+    },
+    "Eight Dollar Mountain": {
+      "spotify_id": "5occu7LFlb0BYWqKHVRWYf",
+      "spotify_name": "Eight Dollar Mountain",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:40.833Z"
+    },
+    "Encore Five": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:40.379Z"
+    },
+    "Enoch and David": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:23.392Z"
+    },
+    "Erica Rochel": {
+      "spotify_id": "345hvIZrvhxc6Ja92gQYQL",
+      "spotify_name": "Erica Rochel",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:47.505Z"
+    },
+    "Erica Rochel Duo": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:42.484Z"
+    },
+    "Evening Shades": {
+      "spotify_id": "5LdhxlftZhLh0XNQwSljd9",
+      "spotify_name": "Evening Shades",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:26.350Z"
+    },
+    "Femme Fatale": {
+      "spotify_id": "0xDDGefCrbhIgwbzZkeNsm",
+      "spotify_name": "Femme Fatale",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:44.256Z"
+    },
+    "Fork In The Road": {
+      "spotify_id": "3473A8PbL0KSwj4E4EUnxb",
+      "spotify_name": "Fork In The Road",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:23.766Z"
+    },
+    "Gil René": {
+      "spotify_id": "5XaCN7op3CCZ63sa5e41QB",
+      "spotify_name": "Gil René",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:58.101Z"
+    },
+    "Grant Ruiz": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:52.911Z"
+    },
+    "J Brothers": {
+      "spotify_id": "3409ouy80A4q5otB8tkm3o",
+      "spotify_name": "J Brothers",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:43.885Z"
+    },
+    "Jared Gutridge": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:56.745Z"
+    },
+    "Jared Gutridge Duo": {
+      "spotify_id": "7xQnPhCR0jdBNUGI5x08fz",
+      "spotify_name": "Jared Gutridge Duo",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:30.380Z"
+    },
+    "Jeff Kloetzel": {
+      "spotify_id": "2j6HIksIhoWeuwLHVhYV2r",
+      "spotify_name": "Jeff Kloetzel",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:22.954Z"
+    },
+    "Jeff Kloetzel & Bob Evoniuk": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:51.406Z"
+    },
+    "Jeff Kloetzel and Bob Evoniuk": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:54.048Z"
+    },
+    "Jen Ambrose & Annieville": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:44.457Z"
+    },
+    "Jen Ambrose w/ Jon Galfano": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:46.158Z"
+    },
+    "Jesse Kennemer": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:29.231Z"
+    },
+    "John Ivey": {
+      "spotify_id": "5SDSa1FpCXXR1VHL0a2xOU",
+      "spotify_name": "John Ivey",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:35.901Z"
+    },
+    "John Johns": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:24.209Z"
+    },
+    "John Johns & Chelsea Murray": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:56.310Z"
+    },
+    "JONES": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:28.046Z"
+    },
+    "Josephine Jukebox": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:54.459Z"
+    },
+    "Joshua Paul": {
+      "spotify_id": "4l2NttVF44Y7VluDTEnr6v",
+      "spotify_name": "Joshua Paul",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:35.483Z"
+    },
+    "JustaDuo": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:49.106Z"
+    },
+    "Kristen Calvin & Robbie Dacosta": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:35.073Z"
+    },
+    "Lisa and Dean": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:19.687Z"
+    },
+    "LoGee": {
+      "spotify_id": "7nfDGStGcGo68rKKpNswv3",
+      "spotify_name": "LoGee",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:18.883Z"
+    },
+    "Lynx Family Band": {
+      "spotify_id": "29WpRiP2qgSDMK7u8DWPdX",
+      "spotify_name": "Lynx Family Band",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:41.710Z"
+    },
+    "Malinka": {
+      "spotify_id": "51t3P14m3rOhpN5i48Qy4k",
+      "spotify_name": "Malinka",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:28.483Z"
+    },
+    "Mark Hill & Friends": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:47.902Z"
+    },
+    "Marshall & Friends": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:39.545Z"
+    },
+    "Marshall Thompson Duo": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:45.383Z"
+    },
+    "Matt Spurlock": {
+      "spotify_id": "09BBibty33NOFGBPeH7YvB",
+      "spotify_name": "Matt Spurlock",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:31.164Z"
+    },
+    "Melissa Fairy": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:21.827Z"
+    },
+    "Mercy Duo": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:38.378Z"
+    },
+    "Mike Brons": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:57.419Z"
+    },
+    "Mike Brons Band": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:55.313Z"
+    },
+    "Mitchell Brothers": {
+      "spotify_id": "4GqM6K6oWzTlYz7qjFvAyh",
+      "spotify_name": "Mitchell Brothers",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:25.556Z"
+    },
+    "Mountain Top Sound": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:42.869Z"
+    },
+    "Mountaintop Sound": {
+      "spotify_id": "1TCQQ76BBCetwDjENV64qB",
+      "spotify_name": "Mountaintop Sound",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:52.110Z"
+    },
+    "Nick & Shae": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:25.129Z"
+    },
+    "Nick Garrett-Powell": {
+      "spotify_id": "120CojTqk21RurRFpXjZyC",
+      "spotify_name": "Nick Garrett-Powell",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:33.596Z"
+    },
+    "No Ordinary Love": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:39.095Z"
+    },
+    "Oliver & Stone": {
+      "spotify_id": "05yLB7Qm97sxn5VYq6JlEv",
+      "spotify_name": "Oliver Stone",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:43.451Z"
+    },
+    "Pandora Band": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:20.051Z"
+    },
+    "Paul Jenny & Tom Freeman": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:42.108Z"
+    },
+    "Paul Schmeling Quartet": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:37.514Z"
+    },
+    "Phillip Reed": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:20.444Z"
+    },
+    "Rick Millward": {
+      "spotify_id": "3SV1xnwXOWozr0dpZYNG94",
+      "spotify_name": "Rick Millward",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:47.008Z"
+    },
+    "Roadsters": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:33.225Z"
+    },
+    "Rogue Suspects Trio": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:22.160Z"
+    },
+    "Shae & Jenni": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:37.142Z"
+    },
+    "Shine On": {
+      "spotify_id": "5jMRR1o2EvBUCBCLXCfdTf",
+      "spotify_name": "Shine On",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:29.562Z"
+    },
+    "Shybo & Twisted Vines": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:53.727Z"
+    },
+    "Sonido Alegre": {
+      "spotify_id": "2CCVOb0KXSx4GHKnjlfHwl",
+      "spotify_name": "Sonido Alegre",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:22.572Z"
+    },
+    "Starvation Heights": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:24.632Z"
+    },
+    "Steam Kettle Trio": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:53.327Z"
+    },
+    "Steely Dean": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:32.813Z"
+    },
+    "Step it up & go": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:50.757Z"
+    },
+    "Stillwater Road": {
+      "spotify_id": "6xSbbVmdAEZi1J5iWUONQv",
+      "spotify_name": "StillWater Road",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:50.008Z"
+    },
+    "Taurus Moon": {
+      "spotify_id": "2fv4VdRCdxqPOcXDormjBp",
+      "spotify_name": "Taurus Moon",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:27.340Z"
+    },
+    "TBA": {
+      "spotify_id": "2Al4uC6hNyJsMY6cWfvlh2",
+      "spotify_name": "TBA",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:46.530Z"
+    },
+    "The Giantess": {
+      "spotify_id": "67LcQsi8ayZhutwdQZUZG0",
+      "spotify_name": "The Giantess",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:25.960Z"
+    },
+    "The Gist": {
+      "spotify_id": "2RPL1YMpEuV6X0SGdwdY6q",
+      "spotify_name": "The Gist",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:34.464Z"
+    },
+    "The Gus Factor": {
+      "spotify_id": "0aecG8O2GK00XAfPAYp4CX",
+      "spotify_name": "The Gus Factor",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:59.320Z"
+    },
+    "The Reverberays": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:56.076Z"
+    },
+    "The Wizards": {
+      "spotify_id": "7tmOKuGWkZddmIGTvor2WD",
+      "spotify_name": "The Wizards",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:28.857Z"
+    },
+    "Tim Church": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:49.501Z"
+    },
+    "Tony Brussat & Lawrence Newcomb": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:59.540Z"
+    },
+    "Trevor Hanks": {
+      "spotify_id": "0EtE6X9Q1MhCVrr3A3ss6T",
+      "spotify_name": "Trevor Hanks",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:20.949Z"
+    },
+    "Two of a Kind": {
+      "spotify_id": "6hSKwgHW3ugR3FHuMNUHJx",
+      "spotify_name": "Two of a Kind",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:27.706Z"
+    },
+    "Ukulele Jam": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:48.745Z"
+    },
+    "Vanessa Finney & Jason Wolverton": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:57.061Z"
+    },
+    "Western Express": {
+      "spotify_id": null,
+      "spotify_genres": [],
+      "canonical": [],
+      "no_match": true,
+      "fetched_at": "2026-06-07T06:33:32.477Z"
+    },
+    "Yasmin Williams": {
+      "spotify_id": "4j8CsPzssbM8TCjSvgnmSs",
+      "spotify_name": "Yasmin Williams",
+      "spotify_genres": [],
+      "canonical": [],
+      "fetched_at": "2026-06-07T06:33:44.968Z"
+    }
+  },
+  "updated_at": "2026-06-07T06:33:59.964Z"
+}
