@@ -1333,7 +1333,7 @@ function togglePill(name){
 function openPillSheet(name){
   const menu=document.getElementById('pill-'+name+'-menu');
   if(!menu)return;
-  const titles={date:'Date range',region:'Region',type:'Type',genre:'Genre',venue:'Venue type'};
+  const titles={date:'Date range',region:'Region',type:'Type',genre:'Genre',venue:'Venue type',time:'Time'};
   const bsBody=document.getElementById('bs-pill-body');
   const bsTitle=document.getElementById('bs-pill-title');
   if(!bsBody)return;
@@ -1376,7 +1376,7 @@ function closePillSheet(){
   setTimeout(()=>document.getElementById('bs-pill-overlay').classList.remove('open'),250);
 }
 function closeAllPills(except){
-  ['date','region','type','genre','venue'].forEach(n=>{
+  ['date','region','type','genre','venue','time'].forEach(n=>{
     if(n===except)return;
     const m=document.getElementById('pill-'+n+'-menu');
     const p=document.getElementById('pill-'+n);
