@@ -93,6 +93,9 @@
     --openmic-text:#e8992a; --openmic-border:#b07316;
     --stale-bg:#2a1f00; --stale-text:#f9a846; --stale-border:#6b4010;
     --red:#ef4f4f; --red-bg:rgba(239,79,79,0.1); --red-border:rgba(239,79,79,0.4); --red-hover:rgba(239,79,79,0.2);
+    --amber:#f9a846; --amber-soft:rgba(249,168,70,0.14); --amber-glow:rgba(249,168,70,0.28);
+    --rose:#e07a7a; --rose-soft:rgba(224,122,122,0.14);
+    --font-mono:'SF Mono',ui-monospace,Menlo,monospace;
   }
   [data-theme="light"] {
     --bg:#ffffff; --bg2:#f5f5f4; --bg3:#eaeae8;
@@ -108,6 +111,8 @@
     --openmic-text:#9a6800; --openmic-border:#c48418;
     --stale-bg:#fff3d6; --stale-text:#8a6100; --stale-border:#d4a84a;
     --red:#d93636; --red-bg:rgba(217,54,54,0.08); --red-border:rgba(217,54,54,0.3); --red-hover:rgba(217,54,54,0.15);
+    --amber:#c47a14; --amber-soft:rgba(196,122,20,0.10); --amber-glow:rgba(196,122,20,0.22);
+    --rose:#b85454; --rose-soft:rgba(184,84,84,0.10);
   }
   @media (prefers-color-scheme:light) {
     :root:not([data-theme="dark"]) {
@@ -277,7 +282,90 @@
 
   /* ── Main ── */
   .page-wrap { display:flex; flex-direction:column; min-height:100vh; }
-  .main { padding:var(--sp-9) var(--sp-10); max-width:1140px; margin:0 auto; flex:1; width:100%; }
+  .layout-row { display:flex; max-width:1480px; margin:0 auto; width:100%; gap:var(--sp-10); flex:1; align-items:flex-start; }
+  .layout-row .main { padding:var(--sp-9) 0 var(--sp-9) var(--sp-10); max-width:none; margin:0; flex:1; min-width:0; }
+  .side-panel { width:320px; flex-shrink:0; padding-top:var(--sp-9); padding-right:var(--sp-10); padding-bottom:var(--sp-9); }
+  .side-panel-inner { position:sticky; top:var(--sp-9); display:flex; flex-direction:column; gap:var(--sp-10); }
+
+  /* Side panel cards — editorial, asymmetric, color-accented */
+  .sp-card { position:relative; background:var(--bg); border-radius:var(--radius); padding:var(--sp-10) var(--sp-9) var(--sp-9); overflow:hidden; }
+  .sp-card::before { content:''; position:absolute; left:0; top:var(--sp-10); bottom:var(--sp-9); width:2px; background:var(--text3); opacity:0.4; transition:background 0.2s,opacity 0.2s; }
+  .sp-card:hover::before { opacity:0.8; }
+  .sp-tonight-card::before { background:var(--amber); opacity:0.9; box-shadow:0 0 10px var(--amber-glow); }
+  .sp-surprise-card::before { background:var(--green); opacity:0.9; }
+  .sp-saved-card::before { background:var(--rose); opacity:0.9; }
+
+  .sp-card-header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:var(--sp-8); gap:var(--sp-6); }
+  .sp-card-marker { font-family:var(--font-mono); font-size:10px; font-weight:500; letter-spacing:0.18em; color:var(--text3); display:block; margin-bottom:var(--sp-1); text-transform:uppercase; }
+  .sp-card-title { margin:0; font-family:inherit; font-weight:700; font-size:20px; letter-spacing:-0.01em; color:var(--text); line-height:1.1; }
+  .sp-card-count { font-family:var(--font-mono); font-size:11px; color:var(--text3); white-space:nowrap; letter-spacing:0.04em; }
+
+  /* Rows */
+  .sp-row { position:relative; padding:var(--sp-6) 0 var(--sp-6) var(--sp-6); margin-left:calc(var(--sp-6) * -1); cursor:pointer; display:flex; flex-direction:column; gap:3px; transition:background 0.15s; border-radius:var(--radius-sm); }
+  .sp-row + .sp-row { border-top:0.5px solid var(--border); }
+  .sp-row::after { content:''; position:absolute; left:0; top:50%; height:0; width:2px; background:var(--accent); transform:translateY(-50%); transition:height 0.18s ease; border-radius:1px; }
+  .sp-row:hover { background:var(--bg2); }
+  .sp-row:hover::after { height:60%; }
+  .sp-row:hover .sp-row-artist { color:var(--text); }
+  .sp-tonight-card .sp-row:hover::after { background:var(--amber); }
+  .sp-saved-card .sp-row:hover::after { background:var(--rose); }
+  .sp-row-artist { font-size:14px; font-weight:600; color:var(--text); line-height:1.25; transition:color 0.1s; font-family:inherit; }
+  .sp-row-meta { color:var(--text3); font-size:11.5px; line-height:1.3; display:flex; flex-wrap:wrap; gap:6px; align-items:baseline; }
+  .sp-row-time { color:var(--text2); font-family:var(--font-mono); font-size:10.5px; letter-spacing:0.02em; font-weight:500; }
+  .sp-row-venue { color:var(--text3); }
+  .sp-row-sep { color:var(--text3); opacity:0.5; }
+  .sp-row-live { display:inline-flex; align-items:center; gap:5px; color:var(--red); font-weight:700; font-size:10px; text-transform:uppercase; letter-spacing:0.08em; font-family:var(--font-mono); }
+  .sp-row-live::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--red); animation:livedot 1.4s infinite; box-shadow:0 0 8px var(--red); }
+  @keyframes livedot { 0%,100% { opacity:1; transform:scale(1); } 50% { opacity:0.35; transform:scale(0.88); } }
+
+  /* Empty states */
+  .sp-empty { color:var(--text3); font-size:12.5px; padding:var(--sp-3) 0 0; line-height:1.55; font-family:inherit; }
+
+  /* Surprise me button */
+  .sp-surprise-btn { width:100%; padding:var(--sp-8) var(--sp-6); border:0.5px solid var(--border2); background:linear-gradient(180deg,transparent,var(--hover-tint)); border-radius:var(--radius-sm); font-size:13px; font-weight:500; color:var(--text); cursor:pointer; transition:all 0.18s; font-family:inherit; display:flex; align-items:center; justify-content:center; gap:var(--sp-4); position:relative; overflow:hidden; }
+  .sp-surprise-btn::before { content:''; position:absolute; inset:0; background:radial-gradient(circle at 50% 100%,var(--green) 0%,transparent 70%); opacity:0; transition:opacity 0.25s; }
+  .sp-surprise-btn:hover { border-color:var(--green); color:var(--green); transform:translateY(-1px); }
+  .sp-surprise-btn:hover::before { opacity:0.12; }
+  .sp-surprise-btn:active { transform:translateY(0); }
+  .sp-surprise-btn-icon { display:inline-flex; transition:transform 0.4s cubic-bezier(0.5,1.8,0.5,1); }
+  .sp-surprise-btn:hover .sp-surprise-btn-icon { transform:rotate(-25deg); }
+  .sp-surprise-btn:active .sp-surprise-btn-icon { transform:rotate(360deg); }
+
+  .sp-surprise-result { margin-top:var(--sp-8); padding-top:var(--sp-7); border-top:0.5px dashed var(--border2); display:none; animation:spSurpriseIn 0.35s ease-out; }
+  .sp-surprise-result.shown { display:block; }
+  @keyframes spSurpriseIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+  .sp-surprise-result .sp-row { padding-left:0; margin-left:0; border-radius:0; }
+  .sp-surprise-result .sp-row::after { display:none; }
+  .sp-surprise-result .sp-row:hover { background:transparent; }
+  .sp-reroll { margin-top:var(--sp-6); background:none; border:none; color:var(--text3); font-size:11px; cursor:pointer; padding:0; font-family:var(--font-mono); letter-spacing:0.06em; text-transform:uppercase; transition:color 0.15s; display:inline-flex; align-items:center; gap:4px; }
+  .sp-reroll::before { content:'↻'; font-family:inherit; }
+  .sp-reroll:hover { color:var(--text); }
+  .modal-artist-row { display:block; padding-right:var(--sp-12); margin-bottom:var(--sp-2); }
+  .modal-artist-row .modal-artist { display:inline; font-size:20px; font-weight:600; padding-right:0; margin-bottom:0; line-height:1.3; font-family:inherit; }
+  .modal-artist-row .modal-save-heart { display:inline-flex; vertical-align:-5px; margin-left:var(--sp-3); }
+  .modal-save-heart { background:none; border:none; cursor:pointer; padding:0; margin:0; color:var(--text3); display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; border-radius:var(--radius-sm); transition:color 0.15s, background 0.15s, transform 0.18s cubic-bezier(0.5,1.6,0.4,1); flex-shrink:0; }
+  .modal-save-heart:hover { color:var(--red); background:var(--red-bg); transform:scale(1.08); }
+  .modal-save-heart:active { transform:scale(0.88); }
+  .modal-save-heart.saved { color:var(--red); }
+  .modal-save-heart.saved svg { fill:var(--red); stroke:var(--red); }
+  @keyframes heartPop { 0% { transform:scale(1); } 40% { transform:scale(1.35); } 100% { transform:scale(1); } }
+  .modal-save-heart.just-saved { animation:heartPop 0.42s cubic-bezier(0.4,1.6,0.5,1); }
+
+  .panel-fab { display:none; position:fixed; bottom:calc(var(--sp-9) + env(safe-area-inset-bottom,0px)); right:var(--sp-9); width:52px; height:52px; border-radius:50%; background:var(--green); color:var(--bg); border:none; box-shadow:0 6px 20px rgba(0,0,0,0.28); cursor:pointer; align-items:center; justify-content:center; z-index:90; transition:transform 0.15s; }
+  /* Mobile: hide side panel, show floating button */
+  @media (max-width:1100px) {
+    .layout-row { display:block; }
+    .layout-row .main { padding:var(--sp-9) var(--sp-10); }
+    .side-panel { display:none; }
+    .panel-fab { display:flex; }
+  }
+  .panel-fab:hover { transform:scale(1.05); }
+  .panel-fab svg { width:22px; height:22px; }
+  .panel-fab-count { position:absolute; top:-4px; right:-4px; background:var(--red); color:white; border-radius:10px; padding:1px 6px; font-size:10px; font-weight:600; min-width:18px; text-align:center; }
+  .panel-fab-count:empty { display:none; }
+
+  /* Panel sheet (mobile) reuses bottomsheet styles via class */
+  .panel-sheet-content { padding-top:var(--sp-4); display:flex; flex-direction:column; gap:var(--sp-6); }
   .time-block { margin-bottom:var(--sp-11); }
   .time-block-header { font-size:11px; font-weight:600; color:var(--text3); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:var(--sp-6); padding-left:var(--sp-1); }
   .day-section { margin-bottom:var(--sp-9); }
@@ -712,6 +800,7 @@
 </div><!-- /filter-bar -->
 </div><!-- /sticky-top -->
 
+<div class="layout-row">
 <main class="main" id="listing" aria-live="polite">
 <noscript>
   <div style="text-align:center;padding:2rem;">
@@ -723,6 +812,64 @@
 </noscript>
   <div class="state-msg"><span id="load-icon" class="load-icon">&#127928;</span>Tuning up<span id="load-dots">.</span></div>
 </main>
+
+<aside class="side-panel" aria-label="Quick panel">
+  <div class="side-panel-inner">
+    <div class="sp-card sp-tonight-card">
+      <div class="sp-card-header">
+        <div>
+          <span class="sp-card-marker">I · Right now</span>
+          <h3 class="sp-card-title">Tonight</h3>
+        </div>
+        <span class="sp-card-count" id="sp-tonight-count"></span>
+      </div>
+      <div id="sp-tonight-list"></div>
+    </div>
+    <div class="sp-card sp-surprise-card">
+      <div class="sp-card-header">
+        <div>
+          <span class="sp-card-marker">II · Roll the dice</span>
+          <h3 class="sp-card-title">Surprise me</h3>
+        </div>
+      </div>
+      <button class="sp-surprise-btn" onclick="surpriseMe()">
+        <span class="sp-surprise-btn-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.25" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.25" fill="currentColor"/><circle cx="15.5" cy="8.5" r="1.25" fill="currentColor"/><circle cx="8.5" cy="15.5" r="1.25" fill="currentColor"/><circle cx="12" cy="12" r="1.25" fill="currentColor"/></svg></span>
+        Pick a show for me
+      </button>
+      <div class="sp-surprise-result" id="sp-surprise-result"></div>
+    </div>
+    <div class="sp-card sp-saved-card">
+      <div class="sp-card-header">
+        <div>
+          <span class="sp-card-marker">III · Your list</span>
+          <h3 class="sp-card-title">My shows</h3>
+        </div>
+        <span class="sp-card-count" id="sp-saved-count"></span>
+      </div>
+      <div id="sp-saved-list"></div>
+    </div>
+  </div>
+</aside>
+</div><!-- /layout-row -->
+
+<button class="panel-fab" id="panel-fab" onclick="openPanelSheet()" aria-label="Open quick panel">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+  <span class="panel-fab-count" id="panel-fab-count"></span>
+</button>
+
+<div class="bottomsheet-overlay" id="panel-sheet-overlay" onclick="closePanelSheet()"></div>
+<div class="bottomsheet" id="panel-sheet" role="dialog" aria-modal="true" aria-label="Quick panel">
+  <div class="bs-header">
+    <div class="bs-handle"></div>
+    <div class="bs-title-row">
+      <span class="bs-title">Quick picks</span>
+      <button class="bs-close" onclick="closePanelSheet()" aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="panel-sheet-content" id="panel-sheet-content"></div>
+</div>
 
 <footer class="site-footer">
   <div class="footer-right">
@@ -1630,6 +1777,136 @@ function render(){
     }).join('');
     requestAnimationFrame(setupNextDayBadge);
   }
+  renderSidePanel();
+}
+
+/* ── Side panel: Tonight, Surprise me, My Shows ── */
+const SAVED_KEY='rvlm_saved_shows';
+let savedShowIds=new Set(JSON.parse(localStorage.getItem(SAVED_KEY)||'[]'));
+function persistSaved(){try{localStorage.setItem(SAVED_KEY,JSON.stringify([...savedShowIds]));}catch(e){}}
+function showFingerprint(e){return (e.dateStr+'|'+e.venue+'|'+e.musician).toLowerCase();}
+function isShowSaved(e){return savedShowIds.has(showFingerprint(e));}
+function toggleSaveShow(idx,btn,isModal){
+  const e=allEvents[idx];if(!e)return;
+  const fp=showFingerprint(e);
+  const nowSaved=!savedShowIds.has(fp);
+  if(nowSaved) savedShowIds.add(fp); else savedShowIds.delete(fp);
+  persistSaved();
+  if(btn){
+    btn.classList.toggle('saved',nowSaved);
+    btn.setAttribute('aria-pressed',String(nowSaved));
+    if(isModal){
+      const svg=btn.querySelector('svg');
+      if(svg) svg.setAttribute('fill',nowSaved?'currentColor':'none');
+      if(nowSaved){
+        btn.classList.remove('just-saved');
+        // force reflow so animation re-plays
+        void btn.offsetWidth;
+        btn.classList.add('just-saved');
+      }
+    }
+  }
+  renderSidePanel();
+}
+
+function _tonightEvents(){
+  const now=new Date();
+  const todayIso=fmtISO(now);
+  const nowMin=now.getHours()*60+now.getMinutes();
+  const horizonMin=nowMin+180; // next 3 hours window
+  return allEvents.filter(e=>{
+    if(e.dateStr!==todayIso) return false;
+    const status=eventStatus(e);
+    if(status==='past') return false;
+    if(status==='live') return true;
+    const sm=e.startRaw?parseInt(e.startRaw.padStart(4,'0').slice(0,2),10)*60+parseInt(e.startRaw.slice(-2),10):null;
+    if(sm==null) return false;
+    return sm>=nowMin && sm<=horizonMin;
+  }).sort((a,b)=>(a.startRaw||'0000').localeCompare(b.startRaw||'0000'));
+}
+
+function _savedEvents(){
+  const now=new Date();now.setHours(0,0,0,0);
+  return allEvents.filter(e=>isShowSaved(e) && midnight(e.date)>=now)
+    .sort((a,b)=>(a.dateStr+(a.startRaw||'0000')).localeCompare(b.dateStr+(b.startRaw||'0000')));
+}
+
+function _spRowHtml(e,opts){
+  const tS=parseTime(e.startRaw);
+  const status=eventStatus(e);
+  const liveBadge=status==='live'?'<span class="sp-row-live">Live</span>':'';
+  const isToday=e.dateStr===fmtISO(new Date());
+  const showDate=opts && opts.hideDate?false:true;
+  const dateLabel=isToday?'Today':shortDay(e.date);
+  const sep='<span class="sp-row-sep">·</span>';
+  const timeBlock=showDate
+    ?`<span class="sp-row-time">${esc(dateLabel)} ${esc(tS)}</span>`
+    :`<span class="sp-row-time">${esc(tS)}</span>`;
+  return `<div class="sp-row" onclick="openDetail(${e._idx})" tabindex="0" role="button" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDetail(${e._idx});}">
+    <div class="sp-row-artist">${esc(e.musician)}</div>
+    <div class="sp-row-meta">${timeBlock}${sep}<span class="sp-row-venue">${esc(e.venue)}</span>${liveBadge?sep+liveBadge:''}</div>
+  </div>`;
+}
+
+let _surpriseShownIdx=null;
+function surpriseMe(){
+  const pool=getFiltered();
+  if(pool.length===0){
+    document.getElementById('sp-surprise-result').classList.add('shown');
+    document.getElementById('sp-surprise-result').innerHTML='<div class="sp-empty">No shows match your filters.</div>';
+    return;
+  }
+  let pick;
+  // avoid showing the same pick twice in a row when possible
+  for(let i=0;i<5;i++){
+    pick=pool[Math.floor(Math.random()*pool.length)];
+    if(pick._idx!==_surpriseShownIdx||pool.length===1) break;
+  }
+  _surpriseShownIdx=pick._idx;
+  const result=document.getElementById('sp-surprise-result');
+  result.classList.add('shown');
+  result.innerHTML=_spRowHtml(pick)+'<button class="sp-reroll" onclick="surpriseMe()">Reroll</button>';
+}
+
+function renderSidePanel(){
+  if(!allEvents.length) return;
+  // Tonight
+  const tonight=_tonightEvents();
+  const tCount=document.getElementById('sp-tonight-count');
+  const tList=document.getElementById('sp-tonight-list');
+  if(tCount) tCount.textContent=tonight.length?tonight.length+' show'+(tonight.length===1?'':'s'):'';
+  if(tList) tList.innerHTML=tonight.length?tonight.slice(0,6).map(e=>_spRowHtml(e,{hideDate:true})).join(''):'<div class="sp-empty">Nothing happening or starting soon.</div>';
+
+  // Saved
+  const saved=_savedEvents();
+  const sCount=document.getElementById('sp-saved-count');
+  const sList=document.getElementById('sp-saved-list');
+  if(sCount) sCount.textContent=saved.length?saved.length+' saved':'';
+  if(sList) sList.innerHTML=saved.length?saved.slice(0,8).map(e=>_spRowHtml(e)).join(''):'<div class="sp-empty">Open any show and tap Save to keep it here.</div>';
+
+  // FAB badge
+  const fab=document.getElementById('panel-fab-count');
+  if(fab){const sum=saved.length;fab.textContent=sum>0?String(sum):'';}
+}
+
+function openPanelSheet(){
+  const sheet=document.getElementById('panel-sheet');
+  const overlay=document.getElementById('panel-sheet-overlay');
+  const body=document.getElementById('panel-sheet-content');
+  // Clone the side-panel cards into the sheet
+  const inner=document.querySelector('.side-panel-inner');
+  if(inner && body){
+    body.innerHTML='';
+    [...inner.children].forEach(card=>body.appendChild(card.cloneNode(true)));
+  }
+  overlay.classList.add('open');
+  document.body.style.overflow='hidden';
+  requestAnimationFrame(()=>sheet.classList.add('open'));
+}
+function closePanelSheet(){
+  document.getElementById('panel-sheet').classList.remove('open');
+  document.body.style.overflow='';
+  setTimeout(()=>document.getElementById('panel-sheet-overlay').classList.remove('open'),250);
 }
 
 function locationLine(e){
@@ -1690,7 +1967,10 @@ function openDetail(idx){
   const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw,e.startRaw):'';
   const dirUrl=mapsUrl(e.venue,e.city,e.venueAddress);
   document.getElementById('modal-body').innerHTML=`
-    <div class="modal-artist">${esc(e.musician)}</div>
+    <div class="modal-artist-row">
+      <div class="modal-artist">${esc(e.musician)}</div>
+      <button class="modal-save-heart${isShowSaved(e)?' saved':''}" id="modal-save-mine" onclick="toggleSaveShow(${idx},this,true)" aria-pressed="${isShowSaved(e)}" aria-label="Save show"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="${isShowSaved(e)?'currentColor':'none'}"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+    </div>
     ${e.genre?`<div class="modal-genre">${esc(e.genre)}</div>`:''}
     <div class="modal-date-line">${esc(e.date.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'}))}</div>
     <div class="modal-rows">
