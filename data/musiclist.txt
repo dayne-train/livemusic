@@ -1,5 +1,5 @@
 --timestamp
-06/08/2026 08:58
+06/08/2026 13:13
 --news
 * date | notes
 --musicians
@@ -205,6 +205,7 @@ Drift Collective|https://www.thedriftcoashland.com/|Ashland|N||Ashland|Other||
 Dunbar Farms|https://www.dunbarfarms.com/|Medford|N||Medford|Winery|1|
 Dwell Wines|https://www.dwellwines.com/|Grants Pass|N||GrantsPass|Winery||
 Eagle Point Golf Course|https://resortateaglepoint.com/golf/|Eagle Point|N||Medford|Other||
+Eagle Point HS|https://ephs.eaglepnt.k12.or.us/|Eagle Point|N||Medford|Other||
 Eagles Lodge|https://www.foe.com/|Medford|N|2000 Table Rock RD, Medford|Medford|Other||
 Edenvale Enoteca Wine Bar and Bistro|http://www.edenvalleyorchards.com|Ashland|N|near the downtown plaza|Ashland|Winery||
 Edenvale Winery|http://www.edenvalleyorchards.com|Medford|N|cover $|Medford|Winery|1|
@@ -540,7 +541,6 @@ The Brisbane Project Trio||||Belle Fiore||06/12/26|1730|1930||Band|
 Sonido Alegre||||Dos Mariposas Vineyards||06/12/26|1730|1930||Band|
 Eight Dollar Mountain||||Dunbar Farms||06/12/26|1730|1930||Band|
 Santa Fe Band||||Old Spaghetti Factory||06/12/26|1730|2000||Band|
-Ann Kelly & Mark Ross||||South Stage Cellars||06/12/26|1730|1930||Band|
 Live Music||||Callahan's Lodge||06/12/26|1800|2100||Band|
 Mercy Duo|||Mercy|Hummingbird Estate||06/12/26|1800|2000||Band|
 Lisa and Dean||||Moxie Brew||06/12/26|1800|2000||Band|
@@ -583,7 +583,6 @@ Pandora Band||||Alibi Tavern||06/18/26|1800|2200||Band|
 Actual Wolf||||Oberon's Restaurant & Bar||06/18/26|1830|2030||Band|
 Jen Ambrose & Annieville|||Jen Ambrose|Daisy Creek Vineyard||06/19/26|1700|1900||Band|
 TBA||||Dancin Vineyards||06/19/26|1700|1900||Band|
-Ann Kelly & Mark Ross||||Padigan Wines||06/19/26|1700|1900||Band|
 Rick Millward||||Rellik Winery||06/19/26|1700|1900||Band|
 The Shabby Guys||||Belle Fiore||06/19/26|1730|1930||Band|
 Shine On||||Dunbar Farms||06/19/26|1730|1930||Band|
@@ -640,7 +639,6 @@ Actual Wolf||||Oberon's Restaurant & Bar||06/25/26|1830|2030||Band|
 Bim Jeam and the Sadness||||Bella Union||06/25/26|1900|2100||Band|
 Shybo & Twisted Vines||||Daisy Creek Vineyard||06/26/26|1700|1900||Band|
 Jared Gutridge Duo||||Dancin Vineyards||06/26/26|1700|1900||Band|
-Ann Kelly & Mark Ross||||Pebblestone Cellars||06/26/26|1700|1900||Band|
 Jeff Kloetzel and Bob Evoniuk|||Jeff Kloetzel|Dunbar Farms||06/26/26|1730|1930||Band|
 Shine On||||Plaisance Ranch||06/26/26|1730|2030||Band|
 Mountaintop Sound||||Art Bop Beer Co||06/26/26|1800|2000||Band|
@@ -682,15 +680,15 @@ Traditional Irish Music and Dancing||||Dunbar Farms||07/02/26|1730|1930||Band|
 Jeff Kloetzel||||Dancin Vineyards||07/03/26|1700|1900||Band|
 Enoch and David||||Rellik Winery||07/03/26|1700|1900||Band|
 Dr Pain and the Remedy||||Trium Wines||07/03/26|1700|1900||Band|
-Ann Kelly & Mark Ross||||Dos Mariposas Vineyards||07/03/26|1730|1930||Band|
 Saucy||||Dunbar Farms||07/03/26|1730|1930||Band|
 Fret Drifters||||Roxy Ann Winery||07/03/26|1800|2000||Band|
 Fork In The Road||||Zi Spice||07/04/26|1600|1900||Band|
+Santa Fe Band||||Eagle Point HS||07/04/26|1845|1930|Pre- Fireworks show|Band|
 Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Sams Creek Cellars||07/05/26|1300|1500||Band|
 Jeff Kloetzel||||Naumes Suncrest Winery||07/05/26|1500|1700||Band|
+Stardust Jazz||||Belle Fiore||07/05/26|1730|1930|featuring Meghan Wilson vocals|Band|
 Shae & Jenni||||Dancin Vineyards||07/06/26|1700|1900||Band|
 Bim Jeam and the Sadness||||Local Vines Wine Bar||07/08/26|1700|1900||Band|
-Ann Kelly & Mark Ross||||OSF Green Show||07/08/26|1830|1930||Band|
 Enoch and David||||Wanderlust Vineyard||07/11/26|1330|1530||Band|
 Jeff Kloetzel||||The Gold Room||07/11/26|1800|2000||Band|
 Gil René||||Dos Mariposas Vineyards||07/12/26|1500|1700||Band|
@@ -699,17 +697,15 @@ Calysta Cheyenne Trio||||Butterfly Club 557||07/12/26|1800|2000|$10|Band|
 Sonido Alegre||||Trium Wines||07/17/26|1700|1900||Band|
 Ukulele Jam||||Pebblestone Cellars||07/18/26|1400|1600||Jam|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|Terrene Winery||07/18/26|1700|1900||Band|
-Ann Kelly & Mark Ross||||Local Vines Wine Bar||07/19/26|1500|1700||Band|
 Sonido Alegre||||Pebblestone Cellars||07/19/26|1500|1700||Band|
+Santa Fe Band||||Apple Outlaw Taproom||07/22/26|1830|2030||Band|
 Gil René||||Pebblestone Cellars||07/24/26|1700|1900||Band|
 Dr Pain and the Remedy||||Phoodery||07/24/26|1900|2100||Band|
 Sonido Alegre||||Pebblestone Cellars||07/25/26|1600|1800||Band|
-Ann Kelly & Mark Ross||||Rellik Winery||07/25/26|1600|1800||Band|
 Dr Pain and the Remedy||||Bayer Family Estate||07/25/26|1800|2100||Band|
 Bim Jeam and the Sadness||||Troon Vineyard||07/26/26|1300|1600||Band|
 Sonido Alegre||||The Gold Room||07/28/26|1900|2100||Band|
 Bekkah McAlvage||||Art Bop Beer Co||07/31/26|1800|2000||Band|
-Ann Kelly & Mark Ross||||Liquid Lounge||07/31/26|1900|2100||Band|
 Dr Pain and the Remedy||||Skout Taphouse||07/31/26|1900|2100||Band|
 Enoch and David||||Wanderlust Vineyard||08/01/26|1330|1530||Band|
 Jen Ambrose||||Stone River Winery||08/01/26|1700|1900||Band|
@@ -733,7 +729,6 @@ Encore Five||||Belle Fiore||08/22/26|1730|1930||Band|
 Dr Pain and the Remedy||||Dunbar Farms||08/28/26|1730|1930||Band|
 The Gus Factor||||Phoodery||08/28/26|1800|2000||Band|
 Dr Pain and the Remedy||||Rellik Winery||08/29/26|1600|1800||Band|
-Ann Kelly & Mark Ross||||Padigan Wines||08/29/26|1700|1900||Band|
 Blue Lightning||||Stone River Winery||08/29/26|1700|1900||Band|
 Bim Jeam and the Sadness||||Dunbar Farms||08/29/26|1730|1930||Band|
 Bim Jeam and the Sadness||||Tap & Vine||08/30/26|1700|1900||Band|

@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-08T18:35:16.339Z",
-  "source_timestamp": "06/08/2026 08:58",
-  "content_hash": "b82fe1b24705d711",
+  "generated_at": "2026-06-08T22:03:10.879Z",
+  "source_timestamp": "06/08/2026 13:13",
+  "content_hash": "3a84f634ec19a840",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 329,
+      "count": 323,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-08T18:35:12.667Z",
-      "last_attempt": "2026-06-08T18:35:12.667Z",
+      "last_ok": "2026-06-08T22:03:00.535Z",
+      "last_attempt": "2026-06-08T22:03:00.535Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-06-08T18:35:12.920Z",
-      "last_attempt": "2026-06-08T18:35:12.920Z",
+      "last_ok": "2026-06-08T22:03:00.827Z",
+      "last_attempt": "2026-06-08T22:03:00.827Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-08T18:35:14.220Z",
-      "last_attempt": "2026-06-08T18:35:14.220Z",
+      "last_ok": "2026-06-08T22:03:09.077Z",
+      "last_attempt": "2026-06-08T22:03:09.077Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-08T18:35:14.785Z",
-      "last_attempt": "2026-06-08T18:35:14.785Z",
+      "last_ok": "2026-06-08T22:03:09.577Z",
+      "last_attempt": "2026-06-08T22:03:09.577Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-08T18:35:14.921Z",
-      "last_attempt": "2026-06-08T18:35:14.921Z",
+      "last_ok": "2026-06-08T22:03:09.757Z",
+      "last_attempt": "2026-06-08T22:03:09.757Z",
       "error": null
     }
   },
@@ -873,6 +873,17 @@
     },
     "Eagle Point Golf Course": {
       "url": "https://resortateaglepoint.com/golf/",
+      "city": "Eagle Point",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Eagle Point HS": {
+      "url": "https://ephs.eaglepnt.k12.or.us/",
       "city": "Eagle Point",
       "notes": "",
       "address": "",
@@ -5191,22 +5202,6 @@
       ]
     },
     {
-      "id": "46f929e3e8a3383b",
-      "date": "2026-06-12",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "South Stage Cellars",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "db1e01fb7116e013",
       "date": "2026-06-12",
       "start_raw": "1800",
@@ -6091,22 +6086,6 @@
       "link": "",
       "link_name": "",
       "venue": "Dancin Vineyards",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "1c9ffa0aec4e4fb9",
-      "date": "2026-06-19",
-      "start_raw": "1700",
-      "end_raw": "1900",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Padigan Wines",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7106,22 +7085,6 @@
       "genres": []
     },
     {
-      "id": "b40ce19783255889",
-      "date": "2026-06-26",
-      "start_raw": "1700",
-      "end_raw": "1900",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Pebblestone Cellars",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "00df1e9cbb8fc275",
       "date": "2026-06-26",
       "start_raw": "1730",
@@ -7878,22 +7841,6 @@
       ]
     },
     {
-      "id": "ab3087f2dd9d95f5",
-      "date": "2026-07-03",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Dos Mariposas Vineyards",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "99406c550a8dbd78",
       "date": "2026-07-03",
       "start_raw": "1730",
@@ -7950,6 +7897,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "494375e4e995b0d0",
+      "date": "2026-07-04",
+      "start_raw": "1845",
+      "end_raw": "1930",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "Eagle Point HS",
+      "notes": "Pre- Fireworks show",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "f3abd468017f7ede",
@@ -8026,6 +7991,24 @@
       "genres": []
     },
     {
+      "id": "70c18704b3b1f943",
+      "date": "2026-07-05",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Stardust Jazz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "featuring Meghan Wilson vocals",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
+    },
+    {
       "id": "69e73277270303a9",
       "date": "2026-07-06",
       "start_raw": "1700",
@@ -8051,22 +8034,6 @@
       "link": "",
       "link_name": "",
       "venue": "Local Vines Wine Bar",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "c6fc1f1d8d5998fb",
-      "date": "2026-07-08",
-      "start_raw": "1830",
-      "end_raw": "1930",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "OSF Green Show",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8202,22 +8169,6 @@
       "genres": []
     },
     {
-      "id": "db115d234cd89e0a",
-      "date": "2026-07-19",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Local Vines Wine Bar",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "dd9342d1fd0df9f3",
       "date": "2026-07-19",
       "start_raw": "1500",
@@ -8248,6 +8199,24 @@
       "source": "tribe_ics:travel_ashland",
       "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
+    },
+    {
+      "id": "6fea5844ff4f1fc9",
+      "date": "2026-07-22",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "Apple Outlaw Taproom",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "04ec2c8d98cefdb9",
@@ -8293,22 +8262,6 @@
       "link": "",
       "link_name": "",
       "venue": "Pebblestone Cellars",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "68005d34ae8a72ac",
-      "date": "2026-07-25",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8375,22 +8328,6 @@
       "link": "",
       "link_name": "",
       "venue": "Art Bop Beer Co",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "3a35ac4d48f97986",
-      "date": "2026-07-31",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Liquid Lounge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8774,22 +8711,6 @@
       "genres": [
         "Rock"
       ]
-    },
-    {
-      "id": "3a479134e6d99cdb",
-      "date": "2026-08-29",
-      "start_raw": "1700",
-      "end_raw": "1900",
-      "musician": "Ann Kelly & Mark Ross",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Padigan Wines",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
     },
     {
       "id": "2730f840516d1e8a",
