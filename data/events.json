@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-08T12:42:07.084Z",
-  "source_timestamp": "06/06/2026 06:55",
-  "content_hash": "832b694be54c2c4d",
+  "generated_at": "2026-06-08T18:35:16.339Z",
+  "source_timestamp": "06/08/2026 08:58",
+  "content_hash": "b82fe1b24705d711",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 324,
+      "count": 329,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-08T12:42:03.393Z",
-      "last_attempt": "2026-06-08T12:42:03.393Z",
+      "last_ok": "2026-06-08T18:35:12.667Z",
+      "last_attempt": "2026-06-08T18:35:12.667Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-06-08T12:42:03.744Z",
-      "last_attempt": "2026-06-08T12:42:03.744Z",
+      "last_ok": "2026-06-08T18:35:12.920Z",
+      "last_attempt": "2026-06-08T18:35:12.920Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-08T12:42:05.136Z",
-      "last_attempt": "2026-06-08T12:42:05.136Z",
+      "last_ok": "2026-06-08T18:35:14.220Z",
+      "last_attempt": "2026-06-08T18:35:14.220Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-08T12:42:05.469Z",
-      "last_attempt": "2026-06-08T12:42:05.469Z",
+      "last_ok": "2026-06-08T18:35:14.785Z",
+      "last_attempt": "2026-06-08T18:35:14.785Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-08T12:42:05.648Z",
-      "last_attempt": "2026-06-08T12:42:05.648Z",
+      "last_ok": "2026-06-08T18:35:14.921Z",
+      "last_attempt": "2026-06-08T18:35:14.921Z",
       "error": null
     }
   },
@@ -5141,6 +5141,22 @@
       ]
     },
     {
+      "id": "419eabded388b59f",
+      "date": "2026-06-12",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "3c4e655fc30c235a",
       "date": "2026-06-12",
       "start_raw": "1730",
@@ -5657,14 +5673,14 @@
       "genres": []
     },
     {
-      "id": "3e06059f99423fd4",
+      "id": "7a74544dc1d0adf3",
       "date": "2026-06-14",
       "start_raw": "1600",
       "end_raw": "1800",
-      "musician": "Rogue Suspects Trio",
+      "musician": "Sonido Alegre",
       "genre": "",
       "link": "",
-      "link_name": "Rogue Suspects",
+      "link_name": "",
       "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
@@ -8138,6 +8154,22 @@
       "genres": []
     },
     {
+      "id": "19005e45e228faad",
+      "date": "2026-07-17",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Trium Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "5e4b4cfc7874debe",
       "date": "2026-07-18",
       "start_raw": "1400",
@@ -8179,6 +8211,22 @@
       "link": "",
       "link_name": "",
       "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "dd9342d1fd0df9f3",
+      "date": "2026-07-19",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Pebblestone Cellars",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8236,6 +8284,22 @@
       ]
     },
     {
+      "id": "1881b6ebb3153870",
+      "date": "2026-07-25",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "68005d34ae8a72ac",
       "date": "2026-07-25",
       "start_raw": "1600",
@@ -8279,6 +8343,22 @@
       "link": "",
       "link_name": "",
       "venue": "Troon Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "47d0c523ba06d1f0",
+      "date": "2026-07-28",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",

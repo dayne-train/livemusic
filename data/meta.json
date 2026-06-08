@@ -1,51 +1,51 @@
 {
-  "fetched_at": "2026-06-08T12:42:07.084Z",
-  "source_timestamp": "06/06/2026 06:55",
-  "bytes": 56978,
+  "fetched_at": "2026-06-08T18:35:16.339Z",
+  "source_timestamp": "06/08/2026 08:58",
+  "bytes": 57268,
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 324,
+      "count": 329,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-08T12:42:03.393Z",
-      "last_attempt": "2026-06-08T12:42:03.393Z",
+      "last_ok": "2026-06-08T18:35:12.667Z",
+      "last_attempt": "2026-06-08T18:35:12.667Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-06-08T12:42:03.744Z",
-      "last_attempt": "2026-06-08T12:42:03.744Z",
+      "last_ok": "2026-06-08T18:35:12.920Z",
+      "last_attempt": "2026-06-08T18:35:12.920Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-08T12:42:05.136Z",
-      "last_attempt": "2026-06-08T12:42:05.136Z",
+      "last_ok": "2026-06-08T18:35:14.220Z",
+      "last_attempt": "2026-06-08T18:35:14.220Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-08T12:42:05.469Z",
-      "last_attempt": "2026-06-08T12:42:05.469Z",
+      "last_ok": "2026-06-08T18:35:14.785Z",
+      "last_attempt": "2026-06-08T18:35:14.785Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-08T12:42:05.648Z",
-      "last_attempt": "2026-06-08T12:42:05.648Z",
+      "last_ok": "2026-06-08T18:35:14.921Z",
+      "last_attempt": "2026-06-08T18:35:14.921Z",
       "error": null
     }
   },
-  "event_count": 346,
+  "event_count": 351,
   "venue_count": 304,
   "deduped": 15,
-  "content_hash": "832b694be54c2c4d"
+  "content_hash": "b82fe1b24705d711"
 }
