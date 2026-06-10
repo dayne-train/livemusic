@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-09T21:58:40.393Z",
+  "generated_at": "2026-06-10T04:47:20.815Z",
   "source_timestamp": "06/09/2026 06:24",
-  "content_hash": "3fab4144b6f075a3",
+  "content_hash": "69789431d121770b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 325,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-09T21:58:37.466Z",
-      "last_attempt": "2026-06-09T21:58:37.466Z",
+      "last_ok": "2026-06-10T04:47:17.606Z",
+      "last_attempt": "2026-06-10T04:47:17.606Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 26,
       "strategy": "live",
-      "last_ok": "2026-06-09T21:58:37.804Z",
-      "last_attempt": "2026-06-09T21:58:37.804Z",
-      "error": "travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-06-10T04:47:17.895Z",
+      "last_attempt": "2026-06-10T04:47:17.895Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-06-09T15:26:58.687Z",
-      "last_attempt": "2026-06-09T21:58:38.934Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 7,
+      "strategy": "live",
+      "last_ok": "2026-06-10T04:47:19.097Z",
+      "last_attempt": "2026-06-10T04:47:19.097Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 6,
+      "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-09T21:58:39.228Z",
-      "last_attempt": "2026-06-09T21:58:39.228Z",
+      "last_ok": "2026-06-10T04:47:19.614Z",
+      "last_attempt": "2026-06-10T04:47:19.614Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-09T21:58:39.427Z",
-      "last_attempt": "2026-06-09T21:58:39.427Z",
+      "last_ok": "2026-06-10T04:47:19.905Z",
+      "last_attempt": "2026-06-10T04:47:19.905Z",
       "error": null
     }
   },
@@ -3392,6 +3392,17 @@
       "_sources": [
         "musiclist_txt"
       ]
+    },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
     }
   },
   "events": [
@@ -4776,25 +4787,6 @@
       "genres": []
     },
     {
-      "id": "4e0238aca2bf081e",
-      "date": "2026-06-09",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "6cb77f9734d1c747",
       "date": "2026-06-10",
       "start_raw": "1030",
@@ -5505,6 +5497,23 @@
       "genres": []
     },
     {
+      "id": "e83c65823c414d1c",
+      "date": "2026-06-13",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "The Two Tracks",
+      "genre": "",
+      "link": "https://talentclublive.com/event/the-two-tracks/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/the-two-tracks/",
+      "genres": []
+    },
+    {
       "id": "8053ee4cbe2d30af",
       "date": "2026-06-14",
       "start_raw": "1400",
@@ -5763,6 +5772,22 @@
       "genres": []
     },
     {
+      "id": "a87509d9ad816ef5",
+      "date": "2026-06-15",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series/",
+      "genres": []
+    },
+    {
       "id": "3f225dedcff07122",
       "date": "2026-06-15",
       "start_raw": "1900",
@@ -5792,6 +5817,23 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/",
+      "genres": []
+    },
+    {
+      "id": "ee92239a8e40c2ae",
+      "date": "2026-06-16",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Terrapin Flyer (Night 1)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/terrapin-flyer/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/terrapin-flyer/",
       "genres": []
     },
     {
@@ -5893,6 +5935,23 @@
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-june-17/",
+      "genres": []
+    },
+    {
+      "id": "515121c0b82dd459",
+      "date": "2026-06-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Terrapin Flyer (Night 2)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/terrapin-flyer-night-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/terrapin-flyer-night-2/",
       "genres": []
     },
     {
@@ -6229,6 +6288,23 @@
       ]
     },
     {
+      "id": "d2607c912ff892d5",
+      "date": "2026-06-19",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Object Heavy",
+      "genre": "",
+      "link": "https://talentclublive.com/event/object-heavy/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/object-heavy/",
+      "genres": []
+    },
+    {
       "id": "8c5d2188c87cacc4",
       "date": "2026-06-20",
       "start_raw": "1030",
@@ -6550,6 +6626,23 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9589c1fe95c4f4a2",
+      "date": "2026-06-20",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Nigel Wearne",
+      "genre": "",
+      "link": "https://talentclublive.com/event/nigel-wearne/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/nigel-wearne/",
       "genres": []
     },
     {
@@ -7663,6 +7756,23 @@
       "genres": []
     },
     {
+      "id": "0057b99986c842d5",
+      "date": "2026-06-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Kota Dosa",
+      "genre": "",
+      "link": "https://talentclublive.com/event/kota-dosa/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/kota-dosa/",
+      "genres": []
+    },
+    {
       "id": "47eb981f4295936f",
       "date": "2026-07-01",
       "start_raw": "1700",
@@ -7852,6 +7962,48 @@
       "source_url": null,
       "genres": [
         "Country"
+      ]
+    },
+    {
+      "id": "f3abd468017f7ede",
+      "date": "2026-07-04",
+      "start_raw": "2000",
+      "end_raw": "0200",
+      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
+      "genre": "",
+      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
+      "link_name": "",
+      "venue": "Historic Ashland Armory",
+      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
+      "genres": [
+        "Electronic / DJ"
+      ]
+    },
+    {
+      "id": "0ccfc580d5cf8aaf",
+      "date": "2026-07-05",
+      "start_raw": "1200",
+      "end_raw": "1900",
+      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
+      "genre": "",
+      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "link_name": "",
+      "venue": "Lithia Park Bandshell",
+      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "0ccfc580d5cf8aaf"
+        }
+      ],
+      "genres": [
+        "Electronic / DJ"
       ]
     },
     {
@@ -8078,6 +8230,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "15ecaa5e546a06f7",
+      "date": "2026-07-20",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-2/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
     },
     {
@@ -8988,6 +9156,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
       "genres": []
     },
     {
