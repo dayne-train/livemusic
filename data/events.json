@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T11:47:45.161Z",
+  "generated_at": "2026-06-10T16:08:14.916Z",
   "source_timestamp": "06/09/2026 06:24",
   "content_hash": "644c8553c5f5b808",
   "sources": {
@@ -7,40 +7,40 @@
       "ok": true,
       "count": 325,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-10T11:47:39.927Z",
-      "last_attempt": "2026-06-10T11:47:39.927Z",
+      "last_ok": "2026-06-10T16:08:11.376Z",
+      "last_attempt": "2026-06-10T16:08:11.376Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-06-10T11:47:40.186Z",
-      "last_attempt": "2026-06-10T11:47:40.186Z",
+      "last_ok": "2026-06-10T16:08:11.620Z",
+      "last_attempt": "2026-06-10T16:08:11.620Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-10T11:47:41.618Z",
-      "last_attempt": "2026-06-10T11:47:41.618Z",
+      "last_ok": "2026-06-10T16:08:13.013Z",
+      "last_attempt": "2026-06-10T16:08:13.013Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-10T11:47:41.866Z",
-      "last_attempt": "2026-06-10T11:47:41.866Z",
+      "last_ok": "2026-06-10T16:08:13.632Z",
+      "last_attempt": "2026-06-10T16:08:13.632Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-10T11:47:42.014Z",
-      "last_attempt": "2026-06-10T11:47:42.014Z",
+      "last_ok": "2026-06-10T16:08:13.740Z",
+      "last_attempt": "2026-06-10T16:08:13.740Z",
       "error": null
     }
   },
