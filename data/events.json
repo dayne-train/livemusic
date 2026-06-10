@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-10T04:47:20.815Z",
+  "generated_at": "2026-06-10T11:47:45.161Z",
   "source_timestamp": "06/09/2026 06:24",
-  "content_hash": "69789431d121770b",
+  "content_hash": "644c8553c5f5b808",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 325,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-10T04:47:17.606Z",
-      "last_attempt": "2026-06-10T04:47:17.606Z",
+      "last_ok": "2026-06-10T11:47:39.927Z",
+      "last_attempt": "2026-06-10T11:47:39.927Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-06-10T04:47:17.895Z",
-      "last_attempt": "2026-06-10T04:47:17.895Z",
+      "last_ok": "2026-06-10T11:47:40.186Z",
+      "last_attempt": "2026-06-10T11:47:40.186Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-10T04:47:19.097Z",
-      "last_attempt": "2026-06-10T04:47:19.097Z",
+      "last_ok": "2026-06-10T11:47:41.618Z",
+      "last_attempt": "2026-06-10T11:47:41.618Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 5,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-10T04:47:19.614Z",
-      "last_attempt": "2026-06-10T04:47:19.614Z",
+      "last_ok": "2026-06-10T11:47:41.866Z",
+      "last_attempt": "2026-06-10T11:47:41.866Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-10T04:47:19.905Z",
-      "last_attempt": "2026-06-10T04:47:19.905Z",
+      "last_ok": "2026-06-10T11:47:42.014Z",
+      "last_attempt": "2026-06-10T11:47:42.014Z",
       "error": null
     }
   },
@@ -6660,25 +6660,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "62b80dabac9b0777",
-      "date": "2026-06-21",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
     },
     {
       "id": "e4fd15f04a85ab8d",
