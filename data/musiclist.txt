@@ -1,5 +1,5 @@
 --timestamp
-06/09/2026 06:24
+06/11/2026 14:40
 --news
 * date | notes
 --musicians
@@ -369,6 +369,7 @@ Talent Club|https://talentclublive.com/live-music/|Talent|N|114 Talent Ave|Ashla
 Talent Evening Market|https://www.facebook.com/talentartisansandgrowers/|Talent|N||Ashland|Other||
 Talent Harvest Festival|https://www.talentbusinessalliance.org/harvestfestival|Talent|N||Ashland|Other||
 Talent Show Music Festival|https://www.facebook.com/people/The-Talent-Show-Music-Festival/61575957696168/|Talent|N||Ashland|Other||
+Talon Grill|https://eaglepointgolf.com/talon-grill/|Eagle Point|N||Medford|Other||
 Tap & Vine|https://tapandvine559.com/|Medford|N||Medford|Bar||
 Taprock Northwest Grill|https://taprock.com/|Grants Pass|N||GrantsPass|Other||
 Taproots Nursery|https://www.facebook.com/people/Taproots-Nursery/61570515988767/?_rdr|Rogue River|N||RogueRiver|Other||
@@ -435,141 +436,88 @@ Yreka Golden City Days|https://www.yrekagoldencitydays.com/|Yreka|N||Ashland|Oth
 Zi Spice|https://www.zispice.com/|Ashland|N||Ashland|Other||
 --events
 * musician | genre | link | link name | venue | venuelink | date | time | end time | notes | event Type
-House Country Band||||La Baguette||06/03/26|1030|1230||Band|
-Abdo Trio||||Local Vines Wine Bar||06/03/26|1700|1900||Solo|
-Rogue Blues Society Blues Jam|||Rogue Blues Society|Grape Street Bar and Grill||06/03/26|1800|2100|Hosted by: Dr Pain and the Remedy|Band|
-Bim Jeam and the Sadness||||The Toasted Barrel||06/03/26|1800|2000||Band|
-LoGee||||Weekend Beer Company||06/03/26|1800|2000||Band|
-Dan Doshier||||Oberon's Restaurant & Bar||06/03/26|1900|2145||Band|
-Lisa and Dean||||Belle Fiore||06/04/26|1730|1930||Band|
-Traditional Irish Music and Dancing||||Dunbar Farms||06/04/26|1730|1930||Band|
-Pandora Band||||Alibi Tavern||06/04/26|1800|2200||Band|
-Phillip Reed||||Bella Union||06/04/26|1800|2100||Band|
-Trevor Hanks||||Growler Guys Grants Pass||06/04/26|1800|2000||Band|
-Craig Martin|jazz keyboards|||Wild Goose Cafe||06/04/26|1800|2030||Band|
-Actual Wolf||||Oberon's Restaurant & Bar||06/04/26|1830|2030||Band|
-Bim Jeam and the Sadness||||The Gold Room||06/04/26|1900|2100||Band|
-Melissa Fairy||||Liquid Lounge||06/05/26|1100|1300||Solo|
-Rogue Suspects Trio|||Rogue Suspects|Paschal Winery||06/05/26|1530|1730|$15|Band|
-Sonido Alegre||||Daisy Creek Vineyard||06/05/26|1700|1900||Band|
-Jeff Kloetzel||||Dancin Vineyards||06/05/26|1700|1900||Band|
-Enoch and David||||Del Rio Vineyards||06/05/26|1700|1900||Band|
-Steve Keim||||Farris Vineyards||06/05/26|1700|2000||Band|
-Fork In The Road||||Gil's||06/05/26|1700|2000||Band|
-PaperMoon Jazz||||Pebblestone Cellars||06/05/26|1700|1900||Band|
-Pozitronics||||Rellik Winery||06/05/26|1700|1900||Band|
-John Johns||||Schmidt Vineyard||06/05/26|1700|2000||Band|
-Canto Sol||||Shepherd's Dream||06/05/26|1700|2000|as part of the First Friday Art Walk|Band|
-Starvation Heights||||Trium Wines||06/05/26|1700|1900||Band|
-Nick & Shae||||Belle Fiore||06/05/26|1730|1930||Band|
-Mitchell Brothers||||Dos Mariposas Vineyards||06/05/26|1730|2030||Band|
-The Giantess||||Dunbar Farms||06/05/26|1730|1930||Band|
-Bim Jeam and the Sadness||||Area 61 Taphouse||06/05/26|1800|2100||Band|
-Evening Shades||||Art Bop Beer Co||06/05/26|1800|2000||Band|
-Live Music||||Callahan's Lodge||06/05/26|1800|2100||Band|
-Bluebirds||||Hummingbird Estate||06/05/26|1800|2000||Band|
-Taurus Moon||||Moxie Brew||06/05/26|1800|2000||Band|
-Saucy||||Roxy Ann Winery||06/05/26|1800|2000||Band|
-Dan Doshier||||Tayor's Country Store||06/05/26|1800|2100||Band|
-Two of a Kind||||Bella Union||06/05/26|1900|2100||Band|
-JONES||||Growler Guys Grants Pass||06/05/26|1900|2100||Band|
-Bill Scholer Blues Trio||||Liquid Lounge||06/05/26|1900|2100||Solo|
-Malinka||||Skout Taphouse||06/05/26|1900|2100||Band|
-The Wizards||||Steelhead Tavern||06/05/26|1900|2200||Band|
-Jesse Kennemer||||The Gold Room||06/05/26|1900|2100||Band|
-Shine On||||La Baguette||06/06/26|1030|1230||Band|
-Delilah Beaucoup & Josh DiStefano||||Dark Hollow Farm||06/06/26|1500|1700||Band|
-Enoch and David||||Dwell Wines||06/06/26|1500|1700||Band|
-Taurus Moon||||Weisinger Family Winery||06/06/26|1530|1830||Band|
-Jared Gutridge Duo||||Daisy Creek Vineyard||06/06/26|1600|1800||Band|
-Charlee Prayers||||Deer Creek Vineyards||06/06/26|1600|1900||Band|
-Starvation Heights||||Rellik Winery||06/06/26|1600|1800||Band|
-Jeff Kloetzel||||Padigan Wines||06/06/26|1700|1900||Band|
-Matt Spurlock||||Stone River Winery||06/06/26|1700|1900||Band|
-12 Bars Deep||||Belle Fiore||06/06/26|1730|1930||Band|
-Bekkah McAlvage||||Dunbar Farms||06/06/26|1730|1930||Band|
-Western Express||||Galice Resort||06/06/26|1730|2030||Band|
-Mitchell Brothers||||Area 61 Taphouse||06/06/26|1800|2100||Band|
-Rogue Suspects||||Bayer Family Estate||06/06/26|1800|2100|Aretha Franklin revue|Band|
-Live Music||||Callahan's Lodge||06/06/26|1800|2100||Band|
-Steely Dean||||Dos Mariposas Vineyards||06/06/26|1800|2000|Tickets $18|Band|
-Brothers Reed||||Naumes Suncrest Winery||06/06/26|1800|2100||Band|
-Jen Ambrose||||The Gold Room||06/06/26|1800|2000||Band|
-Roadsters||||Walkabout Brewing||06/06/26|1830|2030||Band|
-Nick Garrett-Powell||||Bella Union||06/06/26|1900|2200||Band|
-LoGee||||Growler Guys Grants Pass||06/06/26|1900|2100||Band|
-Colin Riversong||||Liquid Lounge||06/06/26|1900|2100||Solo|
-The Gist||||Willie's Tavern||06/06/26|1900|2200||Band|
-Jeff Kloetzel||||Daisy Creek Vineyard||06/07/26|1400|1600||Band|
-Dave Brendlinger||||Dark Hollow Farm||06/07/26|1400|1600||Band|
-Bim Jeam and the Sadness||||Sams Creek Cellars||06/07/26|1400|1600||Band|
-Frankie Hernandez||||Walport Family Cellars||06/07/26|1400|1700||Band|
-Kristen Calvin & Robbie Dacosta|||Kristen Calvin|Local Vines Wine Bar||06/07/26|1500|1700||Solo|
-Joshua Paul||||Pebblestone Cellars||06/07/26|1500|1700||Band|
-John Ivey||||Weisinger Family Winery||06/07/26|1530|1830||Band|
-Broadway Phil & The Shouters|||Broadway Phil and the Shouters|Del Rio Vineyards||06/07/26|1600|1800||Band|
-Cathy Bolton||||Rellik Winery||06/07/26|1600|1800||Solo|
-JustaDuo||||Roxy Ann Winery||06/07/26|1600|1800||Band|
-Shine On||||Belle Fiore||06/07/26|1700|1900||Band|
-Canto Sol||||Tap & Vine||06/07/26|1700|1900||Band|
-Saucy||||Galice Resort||06/07/26|1730|2030||Band|
-Open Mic||||Jefferson Spirits||06/07/26|1800|2100|hosted by Crooked Heart|Open Mic|
-Shae & Jenni||||Dancin Vineyards||06/08/26|1700|1900||Band|
-Paul Schmeling Quartet||||Martino's Upstairs||06/08/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
-Funk Shui||||Valley View Winery||06/09/26|1500|1700||Band|
-Nick Garrett-Powell||||Local Vines Wine Bar||06/09/26|1700|1900||Band|
-Cathy Bolton||||Stone River Winery||06/09/26|1700|1900||Solo|
 Chrisman & Smith||||La Baguette||06/10/26|1030|1230||Band|
 Mercy Duo||||Dancin Vineyards||06/10/26|1700|1900||Band|
 Kristen Calvin & Robbie Dacosta|||Kristen Calvin|Local Vines Wine Bar||06/10/26|1700|1900||Solo|
-Aaron Reed||||Tap & Vine||06/10/26|1700|1900||Band|
-Jeff Kloetzel||||South Stage Cellars||06/10/26|1800|2000||Band|
 Dan Doshier||||Oberon's Restaurant & Bar||06/10/26|1900|2145||Band|
 Jeff Kloetzel||||Belle Fiore||06/11/26|1730|1930||Band|
 Traditional Irish Music and Dancing||||Dunbar Farms||06/11/26|1730|1930||Band|
 Pandora Band||||Alibi Tavern||06/11/26|1800|2200||Band|
 No Ordinary Love||||Growler Guys Grants Pass||06/11/26|1800|2100||Band|
+Guitar Society||||Paschal Winery||06/11/26|1800|2000||Jam|
 Sage Meadows Country Band||||Wild Goose Cafe||06/11/26|1800|2030||Band|
 Actual Wolf||||Oberon's Restaurant & Bar||06/11/26|1830|2030||Band|
+Jim Friend||||Talon Grill||06/11/26|1830|2030||Band|
 Mitchell Brothers||||Bella Union||06/11/26|1900|2100||Band|
 John Johns||||Liquid Lounge||06/11/26|1900|2100||Solo|
+Dean Angermeier||||The Gold Room||06/11/26|1900|2100||Band|
 Marshall & Friends||||Daisy Creek Vineyard||06/12/26|1700|1900||Band|
 Allison and Victor||||Dancin Vineyards||06/12/26|1700|1900||Band|
+Live Music||||Farris Vineyards||06/12/26|1700|2000||Band|
 Encore Five||||Pebblestone Cellars||06/12/26|1700|1900||Band|
 Dr Pain and the Remedy||||Rellik Winery||06/12/26|1700|1900||Band|
+Jared Gutridge Duo||||Schmidt Vineyard||06/12/26|1700|2000||Band|
+The Shabby Guys||||Trium Wines||06/12/26|1700|1900||Band|
 The Brisbane Project Trio||||Belle Fiore||06/12/26|1730|1930||Band|
 Sonido Alegre||||Dos Mariposas Vineyards||06/12/26|1730|1930||Band|
 Eight Dollar Mountain||||Dunbar Farms||06/12/26|1730|1930||Band|
+Starvation Heights||||Galice Resort||06/12/26|1730|2030||Band|
 Santa Fe Band||||Old Spaghetti Factory||06/12/26|1730|2000||Band|
+John Ivey Band||||Weisinger Family Winery||06/12/26|1730|2030||Band|
+Skyler Squiglio||||Apple Outlaw Taproom||06/12/26|1800|2000||Band|
+Trevor Hanks||||Area 61 Taphouse||06/12/26|1800|2100||Band|
 Live Music||||Callahan's Lodge||06/12/26|1800|2100||Band|
 Mercy Duo|||Mercy|Hummingbird Estate||06/12/26|1800|2000||Band|
 Lisa and Dean||||Moxie Brew||06/12/26|1800|2000||Band|
 Roadsters||||Roxy Ann Winery||06/12/26|1800|2000||Band|
+Ross Welcome||||Tayor's Country Store||06/12/26|1800|2100||Band|
+Tres Palomas||||The Miner's Bazaar||06/12/26|1800|2000||Band|
+Salsa Brava||||Paschal Winery||06/12/26|1830|2130|$20|Band|
 Mitchell Brothers||||Bella Union||06/12/26|1900|2200||Band|
+LoGee||||Growler Guys Grants Pass||06/12/26|1900|2100||Band|
 Pozitronics||||Skout Taphouse||06/12/26|1900|2100||Band|
+Matt Spurlock||||Steelhead Tavern||06/12/26|1900|2200||Band|
+Robbie Dacosta||||Liquid Lounge||06/12/26|2000|2200||Band|
 Lynx Family Band||||Oberon's Restaurant & Bar||06/12/26|2000|1200||Band|
 Paul Jenny & Tom Freeman||||La Baguette||06/13/26|1030|1230||Band|
+Robbie Dacosta||||Dark Hollow Farm||06/13/26|1500|1700||Band|
+Christina Hanks||||Dwell Wines||06/13/26|1500|1700||Band|
 Aaron Reed||||Red Lily Vineyards||06/13/26|1500|1700||Band|
+Steve Keim||||Taproots Nursery||06/13/26|1500|1700||Band|
+Doug Warner||||Weisinger Family Winery||06/13/26|1530|1730||Band|
 Nick Garrett-Powell||||Daisy Creek Vineyard||06/13/26|1600|1800||Band|
+Tres Palomas||||Dos Mariposas Vineyards||06/13/26|1600|1800||Band|
+Niesja||||Padigan Wines||06/13/26|1700|1900||Band|
+Mark Hill & Hilltop Band||||Rellik Winery||06/13/26|1700|1900||Band|
 Erica Rochel Duo||||Stone River Winery||06/13/26|1700|1900||Solo|
 The Giantess||||Belle Fiore||06/13/26|1730|1930||Band|
 Mountain Top Sound||||Dunbar Farms||06/13/26|1730|1930||Band|
+Rich Edwards Band||||Galice Resort||06/13/26|1730|2030||Band|
+Thunderchud||||Apple Outlaw Taproom||06/13/26|1800|2000||Band|
+LoGee||||Area 61 Taphouse||06/13/26|1800|2100||Band|
 Rogue Suspects||||Bayer Family Estate||06/13/26|1800|2100|Bonnie Raitt revue|Band|
 Live Music||||Callahan's Lodge||06/13/26|1800|2100||Band|
+Sharaya Summers Trio||||South Stage Cellars||06/13/26|1800|2000||Band|
+Rogue Rage Duo||||The Miner's Bazaar||06/13/26|1800|2000||Band|
 Jon Galfano||||Walkabout Brewing||06/13/26|1830|2030||Band|
 Grant Ruiz||||OSF Green Show||06/13/26|1845|1930|Percussionist Terry Longshore and Grant perform <a href='https://duoflamenco.com/'>Duo Flamenco</a>|Band|
 Oliver & Stone||||Bella Union||06/13/26|1900|2200||Band|
+Pandora Band||||The Toasted Barrel||06/13/26|1900|2200||Band|
 J Brothers||||Daisy Creek Vineyard||06/14/26|1400|1600||Band|
 Enoch and David||||Sams Creek Cellars||06/14/26|1400|1600||Band|
+Mountaintop Sound Duo||||The Miner's Bazaar||06/14/26|1400|1600||Band|
 Joshua Paul||||Walport Family Cellars||06/14/26|1400|1700||Band|
 Dr Pain and the Remedy||||Del Rio Vineyards||06/14/26|1500|1700||Band|
 Femme Fatale||||Local Vines Wine Bar||06/14/26|1500|1700||Band|
 Canto Sol||||Paschal Winery||06/14/26|1530|1730||Band|
+Taurus Moon||||Weisinger Family Winery||06/14/26|1530|1730||Band|
 Jeff Kloetzel||||Dos Mariposas Vineyards||06/14/26|1600|1800||Band|
 Sonido Alegre||||Rellik Winery||06/14/26|1600|1800||Band|
 Mike Brons and Turn West||||Belle Fiore||06/14/26|1700|1900||Band|
 Pozitronics||||Naumes Suncrest Winery||06/14/26|1700|1900|Tickets $12; Spotlight on Iconic Ladies of Rock Show|Band|
-Mitchell Brothers||||Padigan Wines||06/14/26|1700|1900||Band|
+Jared Gutridge||||Padigan Wines||06/14/26|1700|1900||Band|
+Tony Brussat & Lawrence Newcomb||||Tap & Vine||06/14/26|1700|1900||Band|
+Western Express||||Galice Resort||06/14/26|1730|2030||Band|
 Jen Ambrose & Annieville|||Jen Ambrose|Butterfly Club 557||06/14/26|1800|2000|$10|Band|
 Open Mic||||Jefferson Spirits||06/14/26|1800|2100|hosted by Crooked Heart|Open Mic|
 Lisa and Dean||||Dancin Vineyards||06/15/26|1700|1900||Band|
@@ -577,20 +525,29 @@ Paul Schmeling Quartet||||Martino's Upstairs||06/15/26|1900|2100|Instrumentation
 House Country Band||||La Baguette||06/17/26|1030|1230||Band|
 Marshall Thompson Duo||||Dancin Vineyards||06/17/26|1700|1900||Band|
 J Brothers||||Local Vines Wine Bar||06/17/26|1700|1900||Band|
+Mitchell Brothers||||Padigan Wines||06/17/26|1700|1900||Band|
+Brisbane Project Duo||||Tap & Vine||06/17/26|1700|1900||Band|
+JustaDuo||||South Stage Cellars||06/17/26|1800|2000||Band|
+Reverberays||||Weekend Beer Company||06/17/26|1800|2000||Band|
 Dan Doshier||||Oberon's Restaurant & Bar||06/17/26|1900|2145||Band|
 Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Belle Fiore||06/18/26|1730|1930||Band|
 Traditional Irish Music and Dancing||||Dunbar Farms||06/18/26|1730|1930||Band|
 Pandora Band||||Alibi Tavern||06/18/26|1800|2200||Band|
 Actual Wolf||||Oberon's Restaurant & Bar||06/18/26|1830|2030||Band|
+David Rogers||||Talon Grill||06/18/26|1830|2030||Band|
 Jen Ambrose & Annieville|||Jen Ambrose|Daisy Creek Vineyard||06/19/26|1700|1900||Band|
 TBA||||Dancin Vineyards||06/19/26|1700|1900||Band|
 Rick Millward||||Rellik Winery||06/19/26|1700|1900||Band|
+Echo Alchemy||||Schmidt Vineyard||06/19/26|1700|2000||Band|
+JustaDuo||||Trium Wines||06/19/26|1700|1900||Band|
 The Shabby Guys||||Belle Fiore||06/19/26|1730|1930||Band|
 Shine On||||Dunbar Farms||06/19/26|1730|1930||Band|
 Live Music||||Callahan's Lodge||06/19/26|1800|2100||Band|
+Danielle Kelly Soul Project||||Del Rio Vineyards||06/19/26|1800|2000|$10-$15|Band|
 Erica Rochel||||Hummingbird Estate||06/19/26|1800|2000||Band|
 Allison and Victor||||Phoodery||06/19/26|1800|2000||Band|
 Mercy||||Roxy Ann Winery||06/19/26|1800|2000||Band|
+Femme Fatale||||South Stage Cellars||06/19/26|1800|2000||Band|
 Mark Hill & Friends||||Bella Union||06/19/26|1900|2200||Band|
 Mitchell Brothers||||Steelhead Tavern||06/19/26|1900|2100||Band|
 Arugakki|drums|https://news.woodlandsun.com/trickyleft.html||The Dance Space||06/19/26|1900|2000|the creative duo of percussionist Kris Bergstrom and dancer, Minh Nguyen|Band|
@@ -605,6 +562,7 @@ Tim Church||||Weisinger Family Winery||06/20/26|1530|1830||Band|
 Stillwater Road||||Daisy Creek Vineyard||06/20/26|1600|1800||Band|
 The Giantess||||Rellik Winery||06/20/26|1600|1800||Band|
 Pozitronics||||Padigan Wines||06/20/26|1700|1900|Disco-Funk costume ball|Band|
+Lickity Split||||Remotion Wine||06/20/26|1700|1900||Band|
 Lisa and Dean||||Stone River Winery||06/20/26|1700|1900||Solo|
 Roadsters||||Belle Fiore||06/20/26|1730|1930||Band|
 Alissa and the Side Effects||||Dunbar Farms||06/20/26|1730|1930||Band|
@@ -621,6 +579,7 @@ Step it up & go||||Valley View Winery||06/21/26|1500|1700||Band|
 Erica Rochel||||Del Rio Vineyards||06/21/26|1600|1800||Band|
 David Pinsky & Phil Newton|||David Pinsky|Rellik Winery||06/21/26|1600|1800||Band|
 Jared Gutridge||||Roxy Ann Winery||06/21/26|1600|1800||Band|
+No Ordinary Love||||Sams Creek Cellars||06/21/26|1600|1800||Band|
 Open Mic||||Jefferson Spirits||06/21/26|1800|2100|hosted by Crooked Heart|Open Mic|
 Shae & Jenni||||Dancin Vineyards||06/22/26|1700|1900||Band|
 Paul Schmeling Quartet||||Martino's Upstairs||06/22/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
@@ -638,14 +597,18 @@ Pandora Band||||Alibi Tavern||06/25/26|1800|2200||Band|
 Grant Ruiz||||Paschal Winery||06/25/26|1800|2000|Grant will play at the opening of an art exhibit entitled "Bodacious" by his very talented wife, Mary La|Band|
 Steam Kettle Trio||||Wild Goose Cafe||06/25/26|1800|2030||Band|
 Actual Wolf||||Oberon's Restaurant & Bar||06/25/26|1830|2030||Band|
+Mark Charles Hill||||Talon Grill||06/25/26|1830|2030||Band|
 Bim Jeam and the Sadness||||Bella Union||06/25/26|1900|2100||Band|
 Shybo & Twisted Vines||||Daisy Creek Vineyard||06/26/26|1700|1900||Band|
 Jared Gutridge Duo||||Dancin Vineyards||06/26/26|1700|1900||Band|
+Kristen & Robbie|||Kristen Calvin|Trium Wines||06/26/26|1700|1900||Band|
 Jeff Kloetzel and Bob Evoniuk|||Jeff Kloetzel|Dunbar Farms||06/26/26|1730|1930||Band|
 Shine On||||Plaisance Ranch||06/26/26|1730|2030||Band|
 Mountaintop Sound||||Art Bop Beer Co||06/26/26|1800|2000||Band|
 Live Music||||Callahan's Lodge||06/26/26|1800|2100||Band|
+Rogue Suspects||||Del Rio Vineyards||06/26/26|1800|2000|Bonnie Raitt Tribute; $8-$12|Band|
 Sterling Vintage Jazz||||Hummingbird Estate||06/26/26|1800|2000||Band|
+Upwind Groovers||||Remotion Wine||06/26/26|1800|2100||Band|
 Blue Lightning||||Roxy Ann Winery||06/26/26|1800|2000||Band|
 Alissa and the Side Effects||||South Stage Cellars||06/26/26|1800|2000||Band|
 David Pinsky & Phil Newton|||David Pinsky|Bella Union||06/26/26|1900|2200||Band|
@@ -662,12 +625,14 @@ Rogue Suspects||||Bayer Family Estate||06/27/26|1800|2100|Soul revue|Band|
 Live Music||||Callahan's Lodge||06/27/26|1800|2100||Band|
 Fork In The Road||||Legend Cider||06/27/26|1800|2000||Band|
 John Johns & Chelsea Murray||||Moxie Brew||06/27/26|1800|2000||Band|
+Ras Gabriel & 4Word Band||||Walkabout Brewing||06/27/26|1830|2030||Band|
 Paul Jenny & Tom Freeman||||Bella Union||06/27/26|1900|2200||Band|
 Mitchell Brothers||||Corvette Bar & Grill||06/27/26|2000|2300||Band|
 Mitchell Brothers||||Corvette Bar & Grill||06/28/26|1300|1600||Band|
 Nick & Shae||||Daisy Creek Vineyard||06/28/26|1400|1600||Band|
 Jared Gutridge||||Naumes Suncrest Winery||06/28/26|1500|1700||Band|
 Alissa and the Side Effects||||Pebblestone Cellars||06/28/26|1500|1700||Band|
+Paul Mozina||||Valley View Winery||06/28/26|1500|1700||Band|
 Jeff Kloetzel||||Paschal Winery||06/28/26|1530|1730||Band|
 J Brothers||||Rellik Winery||06/28/26|1600|1800||Band|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|Roxy Ann Winery||06/28/26|1600|1800||Band|
@@ -687,6 +652,7 @@ Fret Drifters||||Roxy Ann Winery||07/03/26|1800|2000||Band|
 Fork In The Road||||Zi Spice||07/04/26|1600|1900||Band|
 Santa Fe Band||||Eagle Point HS||07/04/26|1845|1930|Pre- Fireworks show|Band|
 Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Sams Creek Cellars||07/05/26|1300|1500||Band|
+More or Les Paul||||Valley View Winery||07/05/26|1400|1600||Band|
 Jeff Kloetzel||||Naumes Suncrest Winery||07/05/26|1500|1700||Band|
 Stardust Jazz||||Belle Fiore||07/05/26|1730|1930|featuring Meghan Wilson vocals|Band|
 Shae & Jenni||||Dancin Vineyards||07/06/26|1700|1900||Band|
