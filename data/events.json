@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-10T22:20:23.543Z",
+  "generated_at": "2026-06-11T04:58:42.091Z",
   "source_timestamp": "06/09/2026 06:24",
-  "content_hash": "b686c84c151509a1",
+  "content_hash": "f40ac9902f63a6a7",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 325,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-10T22:20:15.666Z",
-      "last_attempt": "2026-06-10T22:20:15.666Z",
+      "last_ok": "2026-06-11T04:58:26.237Z",
+      "last_attempt": "2026-06-11T04:58:26.237Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 27,
+      "count": 12,
       "strategy": "live",
-      "last_ok": "2026-06-10T22:20:16.016Z",
-      "last_attempt": "2026-06-10T22:20:16.016Z",
-      "error": null
+      "last_ok": "2026-06-11T04:58:26.621Z",
+      "last_attempt": "2026-06-11T04:58:26.621Z",
+      "error": "belle_fiore: fetch failed; travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-06-10T22:20:21.072Z",
-      "last_attempt": "2026-06-10T22:20:21.072Z",
-      "error": null
+      "last_attempt": "2026-06-11T04:58:36.876Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-10T22:20:21.415Z",
-      "last_attempt": "2026-06-10T22:20:21.415Z",
+      "last_ok": "2026-06-11T04:58:40.913Z",
+      "last_attempt": "2026-06-11T04:58:40.913Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-10T22:20:22.613Z",
-      "last_attempt": "2026-06-10T22:20:22.613Z",
+      "last_ok": "2026-06-11T04:58:41.011Z",
+      "last_attempt": "2026-06-11T04:58:41.011Z",
       "error": null
     }
   },
@@ -350,8 +350,7 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt",
-        "tribe_ics"
+        "musiclist_txt"
       ]
     },
     "Bellview Grange": {
@@ -3392,17 +3391,6 @@
       "_sources": [
         "musiclist_txt"
       ]
-    },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
     }
   },
   "events": [
@@ -4889,24 +4877,14 @@
       "end_raw": "1930",
       "musician": "Jeff Kloetzel",
       "genre": "Rhythmic Guitar",
-      "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged rock to Americana and simple songwrit",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "cc0627ea9f16bae3"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Folk",
-        "Funk / Soul"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e691bfb22cc5651d",
@@ -5114,23 +5092,14 @@
       "end_raw": "1930",
       "musician": "The Brisbane Project Trio",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-brisbane-project-trio/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Michael Ian Brisbane on Lead Guitar, Mike Pugh on Bass, and a brand new drummer. It’s Blues and Texas Rock at its best!",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-brisbane-project-trio/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "973f645273aa4c44"
-        }
-      ],
-      "genres": [
-        "Blues",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "419eabded388b59f",
@@ -5375,24 +5344,14 @@
       "end_raw": "1930",
       "musician": "The Giantess",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-the-giantess-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "The Giantess is a husband-and-wife musical duo with a full-band sound from Southern Oregon’s Rogue Valley. They play all original music that ranges from dreamy Pop Rock to sultry Jazz and brooding Blu",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-the-giantess-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "5cd5414f0bf706df"
-        }
-      ],
-      "genres": [
-        "Jazz",
-        "Rock",
-        "Pop"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "10c52829b0b1feb6",
@@ -5494,23 +5453,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "e83c65823c414d1c",
-      "date": "2026-06-13",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Two Tracks",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-two-tracks/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-two-tracks/",
       "genres": []
     },
     {
@@ -5671,23 +5613,14 @@
       "end_raw": "1900",
       "musician": "Mike Brons and Turn West",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-mike-brons-turn-west/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Dynamic 5-piece band, combining guitar, bass, drums, keyboard and saxophone into an energetic mix of country and rock hits from the 70’s, 80’s & 90’s. \nCover charge: Free for members, $6 for non-membe",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-mike-brons-turn-west/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "b9a16c01e5c1668d"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "898f676822d8a49c",
@@ -5772,22 +5705,6 @@
       "genres": []
     },
     {
-      "id": "a87509d9ad816ef5",
-      "date": "2026-06-15",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series/",
-      "genres": []
-    },
-    {
       "id": "3f225dedcff07122",
       "date": "2026-06-15",
       "start_raw": "1900",
@@ -5817,23 +5734,6 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/",
-      "genres": []
-    },
-    {
-      "id": "ee92239a8e40c2ae",
-      "date": "2026-06-16",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Terrapin Flyer (Night 1)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/terrapin-flyer/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer/",
       "genres": []
     },
     {
@@ -5938,23 +5838,6 @@
       "genres": []
     },
     {
-      "id": "515121c0b82dd459",
-      "date": "2026-06-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Terrapin Flyer (Night 2)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/terrapin-flyer-night-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer-night-2/",
-      "genres": []
-    },
-    {
       "id": "69c0e2e3bd617900",
       "date": "2026-06-18",
       "start_raw": "1730",
@@ -5969,26 +5852,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "d7bda1dd8022ea30",
-      "date": "2026-06-18",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "Jen & Jon",
-      "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-jen-jon/",
-      "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "Dynamic duo featuring Jon Galfano on guitar, keys and vocals, and Jen Ambrose on guitar, flute and vocals. Their genres range from class rock, Blues, Jazz, and everything in between!",
-      "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-jen-jon/",
-      "genres": [
-        "Blues",
-        "Jazz",
-        "Rock"
-      ]
     },
     {
       "id": "605cbd94b2883fcd",
@@ -6112,24 +5975,14 @@
       "end_raw": "1930",
       "musician": "The Shabby Guys",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-shabby-guys/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Wizardly four-piece instrumental band covering blues, jazz, R&B, and pop hits.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-shabby-guys/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "47543d2885a0912c"
-        }
-      ],
-      "genres": [
-        "Blues",
-        "Jazz",
-        "Funk / Soul"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "01a93b2fc94aa093",
@@ -6286,23 +6139,6 @@
       "genres": [
         "Latin"
       ]
-    },
-    {
-      "id": "d2607c912ff892d5",
-      "date": "2026-06-19",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Object Heavy",
-      "genre": "",
-      "link": "https://talentclublive.com/event/object-heavy/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/object-heavy/",
-      "genres": []
     },
     {
       "id": "8c5d2188c87cacc4",
@@ -6498,23 +6334,14 @@
       "end_raw": "1930",
       "musician": "Roadsters",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-the-roadsters/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "An energetic, interactive and dynamic country/rock band whose strong male and female vocals offer variety for their fans. With a hard-hitting rhythm section, they capture the best in modern and classi",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-the-roadsters/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "9b2c0fa32e1d22d0"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d09edf7e85bf5732",
@@ -6629,23 +6456,6 @@
       "genres": []
     },
     {
-      "id": "9589c1fe95c4f4a2",
-      "date": "2026-06-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Nigel Wearne",
-      "genre": "",
-      "link": "https://talentclublive.com/event/nigel-wearne/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/nigel-wearne/",
-      "genres": []
-    },
-    {
       "id": "dbff9b5a2ea52cc1",
       "date": "2026-06-21",
       "start_raw": "1400",
@@ -6660,25 +6470,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "62b80dabac9b0777",
-      "date": "2026-06-21",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
     },
     {
       "id": "e4fd15f04a85ab8d",
@@ -6849,25 +6640,6 @@
       "genres": []
     },
     {
-      "id": "42a90638b53e1d69",
-      "date": "2026-06-23",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "f6dd9c4b59202192",
       "date": "2026-06-24",
       "start_raw": "1030",
@@ -6988,22 +6760,14 @@
       "end_raw": "1930",
       "musician": "Skye & Lee",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-skye-lee-duo-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Michaela Skye and Albert Lee’s meeting was nothing short of kismet. Their personalities, musical preferences and stylings complement one another impeccably. Together they perform an eclectic variety o",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-skye-lee-duo-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "e9082c280b3ecd06"
-        }
-      ],
-      "genres": [
-        "Other"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "c1411e05357df1aa",
@@ -7117,23 +6881,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "1f3d794ef3c0bcbf",
-      "date": "2026-06-25",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -7425,24 +7172,14 @@
       "end_raw": "1930",
       "musician": "Tension Deficit",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-tension-deficit/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Lead singer Genevieve Predmore brings an eclectic variety of songs that range from beautiful R&B ballads to powerful delta and Chicago style blues.  She even weaves in some country and old-time speak ",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-tension-deficit/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "73936edc0a76f8db"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Blues",
-        "Funk / Soul"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6a6ad8937bf54266",
@@ -7708,24 +7445,6 @@
       ]
     },
     {
-      "id": "51e63283e045020d",
-      "date": "2026-06-28",
-      "start_raw": "1700",
-      "end_raw": "1900",
-      "musician": "Rogue Suspects' Aretha Franklin Tribute",
-      "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
-      "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "The Rogue Suspects bring their electrifying Aretha Franklin tribute to Belle Fiore! Featuring renowned powerhouse performances, the band honors the Queen of Soul with some of her greatest hits, includ",
-      "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
-      "genres": [
-        "Funk / Soul"
-      ]
-    },
-    {
       "id": "984d86dcc32bf1be",
       "date": "2026-06-28",
       "start_raw": "1800",
@@ -7789,23 +7508,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "0057b99986c842d5",
-      "date": "2026-06-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Kota Dosa",
-      "genre": "",
-      "link": "https://talentclublive.com/event/kota-dosa/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/kota-dosa/",
       "genres": []
     },
     {
@@ -7998,48 +7700,6 @@
       "source_url": null,
       "genres": [
         "Country"
-      ]
-    },
-    {
-      "id": "f3abd468017f7ede",
-      "date": "2026-07-04",
-      "start_raw": "2000",
-      "end_raw": "0200",
-      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
-      "genre": "",
-      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "link_name": "",
-      "venue": "Historic Ashland Armory",
-      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "genres": [
-        "Electronic / DJ"
-      ]
-    },
-    {
-      "id": "0ccfc580d5cf8aaf",
-      "date": "2026-07-05",
-      "start_raw": "1200",
-      "end_raw": "1900",
-      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
-      "genre": "",
-      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "0ccfc580d5cf8aaf"
-        }
-      ],
-      "genres": [
-        "Electronic / DJ"
       ]
     },
     {
@@ -8266,22 +7926,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "15ecaa5e546a06f7",
-      "date": "2026-07-20",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-2/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
     },
     {
@@ -9212,23 +8856,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
       "genres": []
     },
     {
