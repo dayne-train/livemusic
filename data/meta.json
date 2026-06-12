@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T15:38:08.371Z",
+  "fetched_at": "2026-06-12T18:19:21.711Z",
   "source_timestamp": "06/11/2026 14:40",
   "bytes": 54765,
   "sources": {
@@ -7,45 +7,45 @@
       "ok": true,
       "count": 290,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-12T15:37:55.302Z",
-      "last_attempt": "2026-06-12T15:37:55.302Z",
+      "last_ok": "2026-06-12T18:19:17.303Z",
+      "last_attempt": "2026-06-12T18:19:17.303Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 13,
+      "count": 26,
       "strategy": "live",
-      "last_ok": "2026-06-12T15:37:55.656Z",
-      "last_attempt": "2026-06-12T15:37:55.656Z",
-      "error": "roxyann: fetch failed; travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-06-12T18:19:17.645Z",
+      "last_attempt": "2026-06-12T18:19:17.645Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-06-12T11:52:53.860Z",
-      "last_attempt": "2026-06-12T15:38:05.839Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 7,
+      "strategy": "live",
+      "last_ok": "2026-06-12T18:19:19.639Z",
+      "last_attempt": "2026-06-12T18:19:19.639Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-12T15:38:07.239Z",
-      "last_attempt": "2026-06-12T15:38:07.239Z",
+      "last_ok": "2026-06-12T18:19:20.036Z",
+      "last_attempt": "2026-06-12T18:19:20.036Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-12T15:38:07.376Z",
-      "last_attempt": "2026-06-12T15:38:07.376Z",
+      "last_ok": "2026-06-12T18:19:20.110Z",
+      "last_attempt": "2026-06-12T18:19:20.110Z",
       "error": null
     }
   },
-  "event_count": 302,
-  "venue_count": 305,
-  "deduped": 8,
-  "content_hash": "648f9b51c36e0818"
+  "event_count": 315,
+  "venue_count": 306,
+  "deduped": 15,
+  "content_hash": "989cffd9ef2a3c2b"
 }
