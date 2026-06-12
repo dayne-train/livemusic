@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-12T11:52:56.415Z",
+  "generated_at": "2026-06-12T15:38:08.371Z",
   "source_timestamp": "06/11/2026 14:40",
-  "content_hash": "989cffd9ef2a3c2b",
+  "content_hash": "648f9b51c36e0818",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 290,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-12T11:52:50.569Z",
-      "last_attempt": "2026-06-12T11:52:50.569Z",
+      "last_ok": "2026-06-12T15:37:55.302Z",
+      "last_attempt": "2026-06-12T15:37:55.302Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 26,
+      "count": 13,
       "strategy": "live",
-      "last_ok": "2026-06-12T11:52:50.952Z",
-      "last_attempt": "2026-06-12T11:52:50.952Z",
-      "error": null
+      "last_ok": "2026-06-12T15:37:55.656Z",
+      "last_attempt": "2026-06-12T15:37:55.656Z",
+      "error": "roxyann: fetch failed; travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-06-12T11:52:53.860Z",
-      "last_attempt": "2026-06-12T11:52:53.860Z",
-      "error": null
+      "last_attempt": "2026-06-12T15:38:05.839Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-12T11:52:54.207Z",
-      "last_attempt": "2026-06-12T11:52:54.207Z",
+      "last_ok": "2026-06-12T15:38:07.239Z",
+      "last_attempt": "2026-06-12T15:38:07.239Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-12T11:52:55.454Z",
-      "last_attempt": "2026-06-12T11:52:55.454Z",
+      "last_ok": "2026-06-12T15:38:07.376Z",
+      "last_attempt": "2026-06-12T15:38:07.376Z",
       "error": null
     }
   },
@@ -2387,8 +2387,7 @@
       "region": "Medford",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt",
-        "tribe_ics"
+        "musiclist_txt"
       ]
     },
     "Ruby's Restaurant": {
@@ -3403,17 +3402,6 @@
       "_sources": [
         "musiclist_txt"
       ]
-    },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
     }
   },
   "events": [
@@ -3959,22 +3947,14 @@
       "end_raw": "2000",
       "musician": "Roadsters",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-roadsters-june-12/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Join us at RoxyAnn Winery for a Friday night of dancing and fun as we welcome Southern Oregon’s Roadsters! With a tight, hard-hitting rhythm section, don’t miss this energetic and interactive variety ",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-roadsters-june-12/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "d819ae98288bfb8e"
-        }
-      ],
-      "genres": [
-        "Other"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f2b8bb2f34fe7379",
@@ -4536,23 +4516,6 @@
       "genres": []
     },
     {
-      "id": "e83c65823c414d1c",
-      "date": "2026-06-13",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Two Tracks",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-two-tracks/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-two-tracks/",
-      "genres": []
-    },
-    {
       "id": "8053ee4cbe2d30af",
       "date": "2026-06-14",
       "start_raw": "1400",
@@ -4875,22 +4838,6 @@
       "genres": []
     },
     {
-      "id": "a87509d9ad816ef5",
-      "date": "2026-06-15",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series/",
-      "genres": []
-    },
-    {
       "id": "3f225dedcff07122",
       "date": "2026-06-15",
       "start_raw": "1900",
@@ -4920,23 +4867,6 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/",
-      "genres": []
-    },
-    {
-      "id": "ee92239a8e40c2ae",
-      "date": "2026-06-16",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Terrapin Flyer (Night 1)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/terrapin-flyer/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer/",
       "genres": []
     },
     {
@@ -5086,39 +5016,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "0537443feaa38514",
-      "date": "2026-06-17",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "Comedy: Fine Wines & Punch Lines (Third Wednesdays)",
-      "genre": "",
-      "link": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-june-17/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Join us for a monthly Comedy Night, Age 18+ only: Fine Wines & Punch Lines! \n$20 per person, please text Kendyl for tickets at 541-414-8050 \nGrab a glass of wine or one of our many other beverage choi",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-june-17/",
-      "genres": []
-    },
-    {
-      "id": "515121c0b82dd459",
-      "date": "2026-06-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Terrapin Flyer (Night 2)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/terrapin-flyer-night-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/terrapin-flyer-night-2/",
       "genres": []
     },
     {
@@ -5436,19 +5333,13 @@
       "end_raw": "2000",
       "musician": "Mercy",
       "genre": "blues, soul, classic rock",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-mercy-june-19/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Join us at RoxyAnn Winery for a Friday night of dancing and fun as we welcome Southern Oregon’s Mercy to the tasting room! Based in beautiful Southern Oregon, Mercy Featuring Lynda Day is one of the p",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-mercy-june-19/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "448ae039202dce41"
-        }
-      ],
+      "source_url": null,
       "genres": [
         "Blues",
         "Funk / Soul",
@@ -5536,23 +5427,6 @@
       "genres": [
         "Latin"
       ]
-    },
-    {
-      "id": "d2607c912ff892d5",
-      "date": "2026-06-19",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Object Heavy",
-      "genre": "",
-      "link": "https://talentclublive.com/event/object-heavy/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/object-heavy/",
-      "genres": []
     },
     {
       "id": "8c5d2188c87cacc4",
@@ -5643,19 +5517,13 @@
       "end_raw": "1700",
       "musician": "Rick Millward",
       "genre": "",
-      "link": "https://roxyann.com/event/rick-millward-presents-open-mic-june-20/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
       "notes": "Open Mic",
       "event_type": "Open Mic",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/rick-millward-presents-open-mic-june-20/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "de99b49e1756b95a"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -5895,23 +5763,6 @@
       "genres": []
     },
     {
-      "id": "9589c1fe95c4f4a2",
-      "date": "2026-06-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Nigel Wearne",
-      "genre": "",
-      "link": "https://talentclublive.com/event/nigel-wearne/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/nigel-wearne/",
-      "genres": []
-    },
-    {
       "id": "dbff9b5a2ea52cc1",
       "date": "2026-06-21",
       "start_raw": "1400",
@@ -6033,22 +5884,14 @@
       "end_raw": "1800",
       "musician": "Jared Gutridge",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-jared-gutridge-june-21/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Rogue Valley based duo of acoustic singer/songwriters. \nJoin us at RoxyAnn Winery for a Sunday afternoon of dancing and fun as we welcome Southern Oregon’s Jared Gutridge to the tasting room! Listen t",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-jared-gutridge-june-21/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "c632c70ae8e46767"
-        }
-      ],
-      "genres": [
-        "Folk"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e2a78814ec112dc3",
@@ -6605,19 +6448,13 @@
       "end_raw": "2000",
       "musician": "Blue Lightning",
       "genre": "classic rock",
-      "link": "https://roxyann.com/event/blue-lightning-june-26/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Established over 30 years ago in Ashland Oregon, Blue Lightning has evolved into a high energy dance band with tight grooves and lush vocal harmonies.\n\nJoin us for a Friday night full of good times, d",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/blue-lightning-june-26/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "29f4d89b689a3b37"
-        }
-      ],
+      "source_url": null,
       "genres": [
         "Rock"
       ]
@@ -7071,24 +6908,6 @@
       "genres": []
     },
     {
-      "id": "30f647d4fc0e879b",
-      "date": "2026-06-28",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "Vanessa Finney Jazz Duet",
-      "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-june-28/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Vanessa is a singer based in Ashland, OR. \nJoin us at RoxyAnn Winery for a Sunday afternoon of dancing and fun as we welcome Southern Oregon’s Vanessa Finney to the tasting room! Listen to live music ",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-june-28/",
-      "genres": [
-        "Jazz"
-      ]
-    },
-    {
       "id": "895315701e7357c5",
       "date": "2026-06-28",
       "start_raw": "1700",
@@ -7188,23 +7007,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "0057b99986c842d5",
-      "date": "2026-06-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Kota Dosa",
-      "genre": "",
-      "link": "https://talentclublive.com/event/kota-dosa/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/kota-dosa/",
       "genres": []
     },
     {
@@ -7348,22 +7150,14 @@
       "end_raw": "2000",
       "musician": "Fret Drifters",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-fretdrifters-july-3/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "The Fret Drifters are acoustic madness!\n\nJoin us for a Friday night full of good times, dancing and fun! Listen to amazing music while sipping on some delicious & award-winning wines, or crisp & refre",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-fretdrifters-july-3/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "fa9e9560eb070077"
-        }
-      ],
-      "genres": [
-        "Folk"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "ef90f54029fd9743",
@@ -7397,48 +7191,6 @@
       "source_url": null,
       "genres": [
         "Country"
-      ]
-    },
-    {
-      "id": "f3abd468017f7ede",
-      "date": "2026-07-04",
-      "start_raw": "2000",
-      "end_raw": "0200",
-      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
-      "genre": "",
-      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "link_name": "",
-      "venue": "Historic Ashland Armory",
-      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "genres": [
-        "Electronic / DJ"
-      ]
-    },
-    {
-      "id": "0ccfc580d5cf8aaf",
-      "date": "2026-07-05",
-      "start_raw": "1200",
-      "end_raw": "1900",
-      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
-      "genre": "",
-      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "0ccfc580d5cf8aaf"
-        }
-      ],
-      "genres": [
-        "Electronic / DJ"
       ]
     },
     {
@@ -7681,22 +7433,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "15ecaa5e546a06f7",
-      "date": "2026-07-20",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-2/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
     },
     {
@@ -8627,23 +8363,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
       "genres": []
     },
     {
