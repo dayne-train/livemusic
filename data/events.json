@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-12T22:00:25.551Z",
-  "source_timestamp": "06/11/2026 14:40",
-  "content_hash": "5dbd19f35325f8c8",
+  "generated_at": "2026-06-13T04:50:13.485Z",
+  "source_timestamp": "06/12/2026 13:33",
+  "content_hash": "38436bebe27121d2",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 290,
+      "count": 328,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-12T22:00:20.152Z",
-      "last_attempt": "2026-06-12T22:00:20.152Z",
+      "last_ok": "2026-06-13T04:50:08.243Z",
+      "last_attempt": "2026-06-13T04:50:08.243Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 24,
       "strategy": "live",
-      "last_ok": "2026-06-12T22:00:20.473Z",
-      "last_attempt": "2026-06-12T22:00:20.473Z",
-      "error": "travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-06-13T04:50:08.634Z",
+      "last_attempt": "2026-06-13T04:50:08.634Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-06-12T18:19:19.639Z",
-      "last_attempt": "2026-06-12T22:00:21.531Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 7,
+      "strategy": "live",
+      "last_ok": "2026-06-13T04:50:10.909Z",
+      "last_attempt": "2026-06-13T04:50:10.909Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-12T22:00:21.813Z",
-      "last_attempt": "2026-06-12T22:00:21.813Z",
+      "last_ok": "2026-06-13T04:50:11.083Z",
+      "last_attempt": "2026-06-13T04:50:11.083Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-12T22:00:23.096Z",
-      "last_attempt": "2026-06-12T22:00:23.096Z",
+      "last_ok": "2026-06-13T04:50:12.301Z",
+      "last_attempt": "2026-06-13T04:50:12.301Z",
       "error": null
     }
   },
@@ -871,6 +871,17 @@
         "musiclist_txt"
       ]
     },
+    "Eagle Point": {
+      "url": "https://www.cityofeaglepoint.org/",
+      "city": "Eagle Point",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
     "Eagle Point Golf Course": {
       "url": "https://resortateaglepoint.com/golf/",
       "city": "Eagle Point",
@@ -1119,6 +1130,17 @@
       "notes": "",
       "address": "",
       "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Grants Pass": {
+      "url": "https://visitgrantspass.com/porchfest2026/",
+      "city": "Grants Pass",
+      "notes": "",
+      "address": "",
+      "region": "GrantsPass",
       "type": "Other",
       "_sources": [
         "musiclist_txt"
@@ -1501,6 +1523,17 @@
     },
     "La Baguette": {
       "url": "http://www.labaguettemusiccafe.com",
+      "city": "Ashland",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "La Boveda Labs": {
+      "url": "https://www.facebook.com/groups/ashlandcommunity/posts/1984368909138252/",
       "city": "Ashland",
       "notes": "",
       "address": "",
@@ -2348,6 +2381,17 @@
     },
     "Rogue Pub-N-Putt": {
       "url": "https://roguepubnputt.com/",
+      "city": "Rogue River",
+      "notes": "",
+      "address": "",
+      "region": "RogueRiver",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Rogue River": {
+      "url": "https://www.rogueriverchamber.com/rooster-crow-contest",
       "city": "Rogue River",
       "notes": "",
       "address": "",
@@ -3371,6 +3415,17 @@
         "musiclist_txt"
       ]
     },
+    "Willow-Witt Ranch": {
+      "url": "https://willowwittranch.com/",
+      "city": "Ashland",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
     "Wooldridge Creek Winery": {
       "url": "https://www.wcv.farm/",
       "city": "Grants Pass",
@@ -3402,6 +3457,17 @@
       "type": "Other",
       "_sources": [
         "musiclist_txt"
+      ]
+    },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
       ]
     }
   },
@@ -3777,23 +3843,14 @@
       "end_raw": "1930",
       "musician": "The Brisbane Project Trio",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-brisbane-project-trio/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Michael Ian Brisbane on Lead Guitar, Mike Pugh on Bass, and a brand new drummer. It’s Blues and Texas Rock at its best!",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-brisbane-project-trio/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "973f645273aa4c44"
-        }
-      ],
-      "genres": [
-        "Blues",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "419eabded388b59f",
@@ -3948,22 +4005,14 @@
       "end_raw": "2000",
       "musician": "Roadsters",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-roadsters-june-12/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Join us at RoxyAnn Winery for a Friday night of dancing and fun as we welcome Southern Oregon’s Roadsters! With a tight, hard-hitting rhythm section, don’t miss this energetic and interactive variety ",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-roadsters-june-12/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "d819ae98288bfb8e"
-        }
-      ],
-      "genres": [
-        "Other"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "f2b8bb2f34fe7379",
@@ -4525,6 +4574,23 @@
       "genres": []
     },
     {
+      "id": "e83c65823c414d1c",
+      "date": "2026-06-13",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "The Two Tracks",
+      "genre": "",
+      "link": "https://talentclublive.com/event/the-two-tracks/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/the-two-tracks/",
+      "genres": []
+    },
+    {
       "id": "8053ee4cbe2d30af",
       "date": "2026-06-14",
       "start_raw": "1400",
@@ -4847,6 +4913,22 @@
       "genres": []
     },
     {
+      "id": "a87509d9ad816ef5",
+      "date": "2026-06-15",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series/",
+      "genres": []
+    },
+    {
       "id": "3f225dedcff07122",
       "date": "2026-06-15",
       "start_raw": "1900",
@@ -4876,6 +4958,23 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/",
+      "genres": []
+    },
+    {
+      "id": "ee92239a8e40c2ae",
+      "date": "2026-06-16",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Terrapin Flyer (Night 1)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/terrapin-flyer/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/terrapin-flyer/",
       "genres": []
     },
     {
@@ -5041,6 +5140,23 @@
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-june-17/",
+      "genres": []
+    },
+    {
+      "id": "515121c0b82dd459",
+      "date": "2026-06-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Terrapin Flyer (Night 2)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/terrapin-flyer-night-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/terrapin-flyer-night-2/",
       "genres": []
     },
     {
@@ -5460,6 +5576,23 @@
       ]
     },
     {
+      "id": "d2607c912ff892d5",
+      "date": "2026-06-19",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Object Heavy",
+      "genre": "",
+      "link": "https://talentclublive.com/event/object-heavy/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/object-heavy/",
+      "genres": []
+    },
+    {
       "id": "8c5d2188c87cacc4",
       "date": "2026-06-20",
       "start_raw": "1030",
@@ -5797,6 +5930,23 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9589c1fe95c4f4a2",
+      "date": "2026-06-20",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Nigel Wearne",
+      "genre": "",
+      "link": "https://talentclublive.com/event/nigel-wearne/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/nigel-wearne/",
       "genres": []
     },
     {
@@ -6591,6 +6741,24 @@
       "genres": []
     },
     {
+      "id": "bad9132897a2e9ec",
+      "date": "2026-06-27",
+      "start_raw": "1430",
+      "end_raw": "1600",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Rogue River",
+      "notes": "Rogue River Rooster festival",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "315f8f432cf270d6",
       "date": "2026-06-27",
       "start_raw": "1500",
@@ -7079,6 +7247,41 @@
       "genres": []
     },
     {
+      "id": "d2da2d6f51e13fed",
+      "date": "2026-06-30",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Grants Pass",
+      "notes": "Grants Pass music in the park",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "0057b99986c842d5",
+      "date": "2026-06-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Kota Dosa",
+      "genre": "",
+      "link": "https://talentclublive.com/event/kota-dosa/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/kota-dosa/",
+      "genres": []
+    },
+    {
       "id": "47eb981f4295936f",
       "date": "2026-07-01",
       "start_raw": "1700",
@@ -7161,6 +7364,24 @@
       "genres": []
     },
     {
+      "id": "d7441c6f95edf6a1",
+      "date": "2026-07-03",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Gil's",
+      "notes": "First Friday",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "58483a40c7d62621",
       "date": "2026-07-03",
       "start_raw": "1700",
@@ -7237,6 +7458,24 @@
       ]
     },
     {
+      "id": "2e6d2cf327d0575c",
+      "date": "2026-07-04",
+      "start_raw": "1200",
+      "end_raw": "1500",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Eagle Point",
+      "notes": "after the parade",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "ef90f54029fd9743",
       "date": "2026-07-04",
       "start_raw": "1600",
@@ -7268,6 +7507,48 @@
       "source_url": null,
       "genres": [
         "Country"
+      ]
+    },
+    {
+      "id": "f3abd468017f7ede",
+      "date": "2026-07-04",
+      "start_raw": "2000",
+      "end_raw": "0200",
+      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
+      "genre": "",
+      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
+      "link_name": "",
+      "venue": "Historic Ashland Armory",
+      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
+      "genres": [
+        "Electronic / DJ"
+      ]
+    },
+    {
+      "id": "0ccfc580d5cf8aaf",
+      "date": "2026-07-05",
+      "start_raw": "1200",
+      "end_raw": "1900",
+      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
+      "genre": "",
+      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "link_name": "",
+      "venue": "Lithia Park Bandshell",
+      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "0ccfc580d5cf8aaf"
+        }
+      ],
+      "genres": [
+        "Electronic / DJ"
       ]
     },
     {
@@ -7317,6 +7598,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "c86c3181aa39c0bd",
+      "date": "2026-07-05",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "70c18704b3b1f943",
@@ -7369,6 +7668,40 @@
       "genres": []
     },
     {
+      "id": "dd280d75652b9a25",
+      "date": "2026-07-10",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "83caed1b51a83cb4",
+      "date": "2026-07-10",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Mountaintop Sound",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "8402bf59cc894378",
       "date": "2026-07-11",
       "start_raw": "1330",
@@ -7378,6 +7711,22 @@
       "link": "",
       "link_name": "",
       "venue": "Wanderlust Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "50864a3144e4960a",
+      "date": "2026-07-11",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Steam Kettle Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7399,6 +7748,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "1aa379dafd88e2ff",
+      "date": "2026-07-12",
+      "start_raw": "1400",
+      "end_raw": "1500",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Willow-Witt Ranch",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "c145c0c44d87bc40",
@@ -7465,6 +7832,24 @@
       "genres": []
     },
     {
+      "id": "82286cc398076a27",
+      "date": "2026-07-17",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "5e4b4cfc7874debe",
       "date": "2026-07-18",
       "start_raw": "1400",
@@ -7476,6 +7861,22 @@
       "venue": "Pebblestone Cellars",
       "notes": "",
       "event_type": "Jam",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "6df9909ec40c1305",
+      "date": "2026-07-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Keenan Pruett",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -7513,6 +7914,22 @@
       "genres": []
     },
     {
+      "id": "15ecaa5e546a06f7",
+      "date": "2026-07-20",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-2/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
+      "genres": []
+    },
+    {
       "id": "6fea5844ff4f1fc9",
       "date": "2026-07-22",
       "start_raw": "1830",
@@ -7547,6 +7964,24 @@
       "genres": []
     },
     {
+      "id": "05117bd3cb2aad13",
+      "date": "2026-07-24",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Old Spaghetti Factory",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "7b563fc448f6b008",
       "date": "2026-07-24",
       "start_raw": "1900",
@@ -7574,6 +8009,22 @@
       "link": "",
       "link_name": "",
       "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0628e3ced1747cf5",
+      "date": "2026-07-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7615,6 +8066,24 @@
       "genres": []
     },
     {
+      "id": "9570625cbcc7fc7f",
+      "date": "2026-07-26",
+      "start_raw": "1800",
+      "end_raw": "1915",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Britt",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "47d0c523ba06d1f0",
       "date": "2026-07-28",
       "start_raw": "1900",
@@ -7629,6 +8098,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "8eabbdede2484aac",
+      "date": "2026-07-31",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "ba758f101eca733d",
@@ -7674,6 +8161,40 @@
       "link": "",
       "link_name": "",
       "venue": "Wanderlust Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "804e782158b8f2f5",
+      "date": "2026-08-01",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Red Lily Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "42d62749f59ba29d",
+      "date": "2026-08-01",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "John Johns",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7740,6 +8261,22 @@
       "link": "",
       "link_name": "",
       "venue": "The Toasted Barrel",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "87ca21cd51606559",
+      "date": "2026-08-07",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Steve Swift",
+      "genre": "",
+      "link": "",
+      "link_name": "Steve Shine Swing",
+      "venue": "Remotion Wine",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7877,6 +8414,24 @@
       "genres": []
     },
     {
+      "id": "fc525a3b2de253fa",
+      "date": "2026-08-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "9952d00f16a3d21b",
       "date": "2026-08-19",
       "start_raw": "1800",
@@ -8007,6 +8562,24 @@
       "genres": []
     },
     {
+      "id": "9ff8794b93537dda",
+      "date": "2026-08-28",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "055066e25b45fa0f",
       "date": "2026-08-29",
       "start_raw": "1600",
@@ -8023,6 +8596,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "b991ee7e64053604",
+      "date": "2026-08-29",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jared Gutridge",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2730f840516d1e8a",
@@ -8109,6 +8698,24 @@
       ]
     },
     {
+      "id": "f0660331a3bf31cf",
+      "date": "2026-09-04",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "abb1dc9324ad25e4",
       "date": "2026-09-05",
       "start_raw": "1600",
@@ -8127,6 +8734,24 @@
       ]
     },
     {
+      "id": "cfe5c6960e78b62a",
+      "date": "2026-09-05",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "d9c6123cd2137035",
       "date": "2026-09-05",
       "start_raw": "1600",
@@ -8136,6 +8761,22 @@
       "link": "",
       "link_name": "",
       "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f6534f43a230220a",
+      "date": "2026-09-05",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mountaintop Sound",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8168,6 +8809,22 @@
       "link": "",
       "link_name": "",
       "venue": "Wanderlust Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "462ce1781d2ff57d",
+      "date": "2026-09-12",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Keenan Pruett",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8289,6 +8946,42 @@
       "genres": []
     },
     {
+      "id": "90641273bddec796",
+      "date": "2026-09-23",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "8a6297f80e0c6160",
+      "date": "2026-09-25",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -8305,6 +8998,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "a3348d00011e61c3",
+      "date": "2026-09-26",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Skyler Squiglio",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "32166eacb30fbaa4",
@@ -8332,6 +9041,40 @@
       "link": "",
       "link_name": "",
       "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "382fb3555b95c30c",
+      "date": "2026-10-02",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Zi Spice",
+      "notes": "First Friday",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "fac8fefaf87f829d",
+      "date": "2026-10-03",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Steam Kettle Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8407,6 +9150,24 @@
       "genres": []
     },
     {
+      "id": "aa096973439ba49d",
+      "date": "2026-10-09",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "042f24830b274533",
       "date": "2026-10-09",
       "start_raw": "1900",
@@ -8427,6 +9188,22 @@
       ]
     },
     {
+      "id": "0902f9abf44f90b3",
+      "date": "2026-10-10",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Bekkah McAlvage",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Remotion Wine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "1c313b883ee1026d",
       "date": "2026-10-11",
       "start_raw": "1500",
@@ -8440,6 +9217,41 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e74701a386f6a852",
+      "date": "2026-10-17",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Apple Outlaw Taproom",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
       "genres": []
     },
     {
@@ -8473,6 +9285,60 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "946357d37d936c8d",
+      "date": "2026-10-24",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Costume Party",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "7a82aa301af421c1",
+      "date": "2026-10-30",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Costume Party",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "087195c9c45338b2",
+      "date": "2026-10-31",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Padigan Wines",
+      "notes": "Costume Party",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "83a6ebaffe744a56",
@@ -8521,6 +9387,42 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "4e64be2956fb1e27",
+      "date": "2026-12-20",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Xmas show",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "45b96ee5cf9a81fe",
+      "date": "2026-12-31",
+      "start_raw": "1500",
+      "end_raw": "1800",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Naumes Suncrest Winery",
+      "notes": "NYE party",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     }
   ]
 }
