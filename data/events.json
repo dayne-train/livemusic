@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-13T14:24:42.895Z",
-  "source_timestamp": "06/12/2026 13:33",
-  "content_hash": "38436bebe27121d2",
+  "generated_at": "2026-06-13T17:45:07.067Z",
+  "source_timestamp": "06/13/2026 09:21",
+  "content_hash": "8faadfbf737e5024",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 328,
+      "count": 329,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-13T14:24:38.744Z",
-      "last_attempt": "2026-06-13T14:24:38.744Z",
+      "last_ok": "2026-06-13T17:45:00.469Z",
+      "last_attempt": "2026-06-13T17:45:00.469Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 24,
       "strategy": "live",
-      "last_ok": "2026-06-13T14:24:39.243Z",
-      "last_attempt": "2026-06-13T14:24:39.243Z",
+      "last_ok": "2026-06-13T17:45:00.905Z",
+      "last_attempt": "2026-06-13T17:45:00.905Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-13T14:24:41.076Z",
-      "last_attempt": "2026-06-13T14:24:41.076Z",
+      "last_ok": "2026-06-13T17:45:05.498Z",
+      "last_attempt": "2026-06-13T17:45:05.498Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-13T14:24:41.612Z",
-      "last_attempt": "2026-06-13T14:24:41.612Z",
+      "last_ok": "2026-06-13T17:45:05.862Z",
+      "last_attempt": "2026-06-13T17:45:05.862Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-13T14:24:41.794Z",
-      "last_attempt": "2026-06-13T14:24:41.794Z",
+      "last_ok": "2026-06-13T17:45:06.028Z",
+      "last_attempt": "2026-06-13T17:45:06.028Z",
       "error": null
     }
   },
@@ -1533,7 +1533,7 @@
       ]
     },
     "La Boveda Labs": {
-      "url": "https://www.facebook.com/groups/ashlandcommunity/posts/1984368909138252/",
+      "url": "https://labovedalabs.org/",
       "city": "Ashland",
       "notes": "",
       "address": "",
@@ -4958,6 +4958,22 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/guitar-society-of-southern-oregon-presents-yasmin-williams/",
+      "genres": []
+    },
+    {
+      "id": "9f1d199c97f3f9f1",
+      "date": "2026-06-16",
+      "start_raw": "1930",
+      "end_raw": "2100",
+      "musician": "Ben Wylder, Frankie & The Lost Souls",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "La Boveda Labs",
+      "notes": "330 E. Hersey St., Ashland; Songs from Tokyo/Bs. As./Los Angeles; Please RSVP",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {

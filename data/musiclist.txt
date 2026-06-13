@@ -1,5 +1,5 @@
 --timestamp
-06/12/2026 13:33
+06/13/2026 09:21
 --news
 * date | notes
 --musicians
@@ -264,7 +264,7 @@ KS Wild|https://www.kswild.org/|Ashland|N||Ashland|Other||
 Kindred Spirits||Talent|N||Medford|Other||
 Kriselle Cellars|https://www.krisellecellars.com/|White City|N|12956 Modoc Road, White City|Medford|Winery||
 La Baguette|http://www.labaguettemusiccafe.com|Ashland|N||Ashland|Other|2|
-La Boveda Labs|https://www.facebook.com/groups/ashlandcommunity/posts/1984368909138252/|Ashland|N||Ashland|Other||
+La Boveda Labs|https://labovedalabs.org/|Ashland|N||Ashland|Other||
 La Fiesta|https://www.lafiestamexicanor.com/|Jacksonville|N||Medford|Other||
 Lake of the Woods|https://lakeofthewoodsresort.com/|Ashland|N||Medford|Other||
 Laughing Clam|https://www.facebook.com/TheLaughingClam1996/events/|Grants Pass|N||GrantsPass|Bar||
@@ -527,6 +527,7 @@ Jen Ambrose & Annieville|||Jen Ambrose|Butterfly Club 557||06/14/26|1800|2000|$1
 Open Mic||||Jefferson Spirits||06/14/26|1800|2100|hosted by Crooked Heart|Open Mic|
 Lisa and Dean||||Dancin Vineyards||06/15/26|1700|1900||Band|
 Paul Schmeling Quartet||||Martino's Upstairs||06/15/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Ben Wylder, Frankie & The Lost Souls||||La Boveda Labs||06/16/26|1930|2100|330 E. Hersey St., Ashland; Songs from Tokyo/Bs. As./Los Angeles; Please RSVP|Band|
 House Country Band||||La Baguette||06/17/26|1030|1230||Band|
 Marshall Thompson Duo||||Dancin Vineyards||06/17/26|1700|1900||Band|
 J Brothers||||Local Vines Wine Bar||06/17/26|1700|1900||Band|
