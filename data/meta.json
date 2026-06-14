@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T11:08:21.237Z",
+  "fetched_at": "2026-06-14T14:27:41.858Z",
   "source_timestamp": "06/13/2026 09:21",
   "bytes": 57686,
   "sources": {
@@ -7,16 +7,16 @@
       "ok": true,
       "count": 329,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-14T11:08:17.366Z",
-      "last_attempt": "2026-06-14T11:08:17.366Z",
+      "last_ok": "2026-06-14T14:27:37.309Z",
+      "last_attempt": "2026-06-14T14:27:37.309Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 18,
       "strategy": "live",
-      "last_ok": "2026-06-14T11:08:17.646Z",
-      "last_attempt": "2026-06-14T11:08:17.646Z",
+      "last_ok": "2026-06-14T14:27:37.614Z",
+      "last_attempt": "2026-06-14T14:27:37.614Z",
       "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
@@ -24,23 +24,23 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-06-14T05:05:35.099Z",
-      "last_attempt": "2026-06-14T11:08:18.534Z",
+      "last_attempt": "2026-06-14T14:27:40.588Z",
       "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-14T11:08:18.582Z",
-      "last_attempt": "2026-06-14T11:08:18.582Z",
+      "last_ok": "2026-06-14T14:27:40.872Z",
+      "last_attempt": "2026-06-14T14:27:40.872Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-14T11:08:20.028Z",
-      "last_attempt": "2026-06-14T11:08:20.028Z",
+      "last_ok": "2026-06-14T14:27:40.943Z",
+      "last_attempt": "2026-06-14T14:27:40.943Z",
       "error": null
     }
   },
