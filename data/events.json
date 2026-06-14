@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-13T21:37:29.953Z",
+  "generated_at": "2026-06-14T05:05:36.414Z",
   "source_timestamp": "06/13/2026 09:21",
-  "content_hash": "8faadfbf737e5024",
+  "content_hash": "5fe454c0b1a2055e",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 329,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-13T21:37:25.738Z",
-      "last_attempt": "2026-06-13T21:37:25.738Z",
+      "last_ok": "2026-06-14T05:05:31.843Z",
+      "last_attempt": "2026-06-14T05:05:31.843Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 24,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-13T21:37:26.219Z",
-      "last_attempt": "2026-06-13T21:37:26.219Z",
+      "last_ok": "2026-06-14T05:05:32.190Z",
+      "last_attempt": "2026-06-14T05:05:32.190Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-13T21:37:28.225Z",
-      "last_attempt": "2026-06-13T21:37:28.225Z",
+      "last_ok": "2026-06-14T05:05:35.099Z",
+      "last_attempt": "2026-06-14T05:05:35.099Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-13T21:37:28.714Z",
-      "last_attempt": "2026-06-13T21:37:28.714Z",
+      "last_ok": "2026-06-14T05:05:35.460Z",
+      "last_attempt": "2026-06-14T05:05:35.460Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-13T21:37:28.843Z",
-      "last_attempt": "2026-06-13T21:37:28.843Z",
+      "last_ok": "2026-06-14T05:05:35.576Z",
+      "last_attempt": "2026-06-14T05:05:35.576Z",
       "error": null
     }
   },
@@ -4356,24 +4356,14 @@
       "end_raw": "1930",
       "musician": "The Giantess",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-the-giantess-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "The Giantess is a husband-and-wife musical duo with a full-band sound from Southern Oregon’s Rogue Valley. They play all original music that ranges from dreamy Pop Rock to sultry Jazz and brooding Blu",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-the-giantess-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "5cd5414f0bf706df"
-        }
-      ],
-      "genres": [
-        "Jazz",
-        "Rock",
-        "Pop"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "10c52829b0b1feb6",
@@ -4571,23 +4561,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "e83c65823c414d1c",
-      "date": "2026-06-13",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Two Tracks",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-two-tracks/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-two-tracks/",
       "genres": []
     },
     {
