@@ -1,5 +1,5 @@
 --timestamp
-06/13/2026 09:21
+06/15/2026 09:05
 --news
 * date | notes
 --musicians
@@ -539,6 +539,7 @@ Dan Doshier||||Oberon's Restaurant & Bar||06/17/26|1900|2145||Band|
 Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Belle Fiore||06/18/26|1730|1930||Band|
 Traditional Irish Music and Dancing||||Dunbar Farms||06/18/26|1730|1930||Band|
 Pandora Band||||Alibi Tavern||06/18/26|1800|2200||Band|
+Vanessa Finney & Jason Wolverton|bossa nova||Vanessa Finney|Café Lumina||06/18/26|1800|2000||Band|
 Actual Wolf||||Oberon's Restaurant & Bar||06/18/26|1830|2030||Band|
 David Rogers||||Talon Grill||06/18/26|1830|2030||Band|
 Jen Ambrose & Annieville|||Jen Ambrose|Daisy Creek Vineyard||06/19/26|1700|1900||Band|
@@ -656,6 +657,7 @@ Jeff Kloetzel||||Dancin Vineyards||07/03/26|1700|1900||Band|
 Pozitronics||||Gil's||07/03/26|1700|2000|First Friday|Band|
 Enoch and David||||Rellik Winery||07/03/26|1700|1900||Band|
 Dr Pain and the Remedy||||Trium Wines||07/03/26|1700|1900||Band|
+Vanessa Finney & Jason Wolverton|bossa nova|||Belle Fiore||07/03/26|1730|1930||Band|
 Saucy||||Dunbar Farms||07/03/26|1730|1930||Band|
 Fret Drifters||||Roxy Ann Winery||07/03/26|1800|2000||Band|
 Pozitronics||||Eagle Point||07/04/26|1200|1500|after the parade|Band|

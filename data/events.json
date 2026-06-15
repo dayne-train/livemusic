@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-15T14:35:14.800Z",
-  "source_timestamp": "06/13/2026 09:21",
-  "content_hash": "322c72c71737cc84",
+  "generated_at": "2026-06-15T19:55:36.779Z",
+  "source_timestamp": "06/15/2026 09:05",
+  "content_hash": "e2d64331cd61ba16",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 329,
+      "count": 331,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-15T14:35:09.443Z",
-      "last_attempt": "2026-06-15T14:35:09.443Z",
+      "last_ok": "2026-06-15T19:55:26.631Z",
+      "last_attempt": "2026-06-15T19:55:26.631Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 22,
       "strategy": "live",
-      "last_ok": "2026-06-15T14:35:10.258Z",
-      "last_attempt": "2026-06-15T14:35:10.258Z",
+      "last_ok": "2026-06-15T19:55:26.869Z",
+      "last_attempt": "2026-06-15T19:55:26.869Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-15T14:35:12.747Z",
-      "last_attempt": "2026-06-15T14:35:12.747Z",
+      "last_ok": "2026-06-15T19:55:34.798Z",
+      "last_attempt": "2026-06-15T19:55:34.798Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-15T14:35:13.059Z",
-      "last_attempt": "2026-06-15T14:35:13.059Z",
+      "last_ok": "2026-06-15T19:55:35.526Z",
+      "last_attempt": "2026-06-15T19:55:35.526Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-15T14:35:13.416Z",
-      "last_attempt": "2026-06-15T14:35:13.416Z",
+      "last_ok": "2026-06-15T19:55:35.810Z",
+      "last_attempt": "2026-06-15T19:55:35.810Z",
       "error": null
     }
   },
@@ -5191,6 +5191,22 @@
       "genres": []
     },
     {
+      "id": "05a5c6013f6d28c8",
+      "date": "2026-06-18",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Vanessa Finney & Jason Wolverton",
+      "genre": "bossa nova",
+      "link": "",
+      "link_name": "Vanessa Finney",
+      "venue": "Café Lumina",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "b118ba004ecd6742",
       "date": "2026-06-18",
       "start_raw": "1830",
@@ -7375,6 +7391,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "578ef818d907f118",
+      "date": "2026-07-03",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Vanessa Finney & Jason Wolverton",
+      "genre": "bossa nova",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "99406c550a8dbd78",
