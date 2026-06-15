@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-14T21:38:07.231Z",
+  "generated_at": "2026-06-15T05:26:51.818Z",
   "source_timestamp": "06/13/2026 09:21",
-  "content_hash": "5fe454c0b1a2055e",
+  "content_hash": "322c72c71737cc84",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 329,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-14T21:38:02.241Z",
-      "last_attempt": "2026-06-14T21:38:02.241Z",
+      "last_ok": "2026-06-15T05:26:47.525Z",
+      "last_attempt": "2026-06-15T05:26:47.525Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 23,
+      "count": 22,
       "strategy": "live",
-      "last_ok": "2026-06-14T21:38:02.756Z",
-      "last_attempt": "2026-06-14T21:38:02.756Z",
+      "last_ok": "2026-06-15T05:26:47.829Z",
+      "last_attempt": "2026-06-15T05:26:47.829Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-14T21:38:04.576Z",
-      "last_attempt": "2026-06-14T21:38:04.576Z",
+      "last_ok": "2026-06-15T05:26:50.239Z",
+      "last_attempt": "2026-06-15T05:26:50.239Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-14T21:38:04.984Z",
-      "last_attempt": "2026-06-14T21:38:04.984Z",
+      "last_ok": "2026-06-15T05:26:50.541Z",
+      "last_attempt": "2026-06-15T05:26:50.541Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-14T21:38:05.096Z",
-      "last_attempt": "2026-06-14T21:38:05.096Z",
+      "last_ok": "2026-06-15T05:26:50.711Z",
+      "last_attempt": "2026-06-15T05:26:50.711Z",
       "error": null
     }
   },
@@ -4628,25 +4628,6 @@
       "genres": []
     },
     {
-      "id": "e57f3a12e83d154e",
-      "date": "2026-06-14",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "c89a55f53574a03c",
       "date": "2026-06-14",
       "start_raw": "1500",
@@ -4753,23 +4734,14 @@
       "end_raw": "1900",
       "musician": "Mike Brons and Turn West",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-mike-brons-turn-west/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Dynamic 5-piece band, combining guitar, bass, drums, keyboard and saxophone into an energetic mix of country and rock hits from the 70’s, 80’s & 90’s. \nCover charge: Free for members, $6 for non-membe",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-mike-brons-turn-west/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "b9a16c01e5c1668d"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "898f676822d8a49c",
