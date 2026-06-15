@@ -1,5 +1,5 @@
 --timestamp
-06/15/2026 09:05
+06/15/2026 14:26
 --news
 * date | notes
 --musicians
@@ -666,6 +666,7 @@ Santa Fe Band||||Eagle Point HS||07/04/26|1845|1930|Pre- Fireworks show|Band|
 Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Sams Creek Cellars||07/05/26|1300|1500||Band|
 More or Les Paul||||Valley View Winery||07/05/26|1400|1600||Band|
 Jeff Kloetzel||||Naumes Suncrest Winery||07/05/26|1500|1700||Band|
+Enoch and David||||Pebblestone Cellars||07/05/26|1500|1700||Band|
 Pozitronics||||Rellik Winery||07/05/26|1600|1800||Band|
 Stardust Jazz||||Belle Fiore||07/05/26|1730|1930|featuring Meghan Wilson vocals|Band|
 Shae & Jenni||||Dancin Vineyards||07/06/26|1700|1900||Band|
@@ -703,7 +704,6 @@ Pozitronics||||Red Lily Vineyards||08/01/26|1700|1900||Band|
 John Johns||||Remotion Wine||08/01/26|1700|1900||Band|
 Jen Ambrose||||Stone River Winery||08/01/26|1700|1900||Band|
 Encore Five||||South Stage Cellars||08/01/26|1800|2000||Band|
-Enoch and David||||Pebblestone Cellars||08/02/26|1500|1700||Band|
 Bim Jeam and the Sadness||||The Toasted Barrel||08/05/26|1800|2000||Band|
 Steve Swift|||Steve Shine Swing|Remotion Wine||08/07/26|1800|2000||Band|
 The Gus Factor||||The Wonder Bur Cafe||08/07/26|2000|2300||Band|
