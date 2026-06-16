@@ -1,5 +1,5 @@
 --timestamp
-06/15/2026 14:26
+06/16/2026 06:54
 --news
 * date | notes
 --musicians
@@ -567,6 +567,7 @@ Mitchell Brothers||||Red Lily Vineyards||06/20/26|1500|1700||Band|
 Rick Millward||||Roxy Ann Winery||06/20/26|1500|1700|Open Mic|Open Mic|
 Tim Church||||Weisinger Family Winery||06/20/26|1530|1830||Band|
 Stillwater Road||||Daisy Creek Vineyard||06/20/26|1600|1800||Band|
+J Brothers||||Dos Mariposas Vineyards||06/20/26|1600|1800||Band|
 The Giantess||||Rellik Winery||06/20/26|1600|1800||Band|
 Pozitronics||||Padigan Wines||06/20/26|1700|1900|Disco-Funk costume ball|Band|
 Lickity Split||||Remotion Wine||06/20/26|1700|1900||Band|
