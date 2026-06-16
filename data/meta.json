@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-16T19:50:00.873Z",
+  "fetched_at": "2026-06-16T22:22:00.964Z",
   "source_timestamp": "06/16/2026 06:54",
   "bytes": 57936,
   "sources": {
@@ -7,45 +7,45 @@
       "ok": true,
       "count": 332,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-16T19:49:57.670Z",
-      "last_attempt": "2026-06-16T19:49:57.670Z",
+      "last_ok": "2026-06-16T22:21:58.362Z",
+      "last_attempt": "2026-06-16T22:21:58.362Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 16,
       "strategy": "live",
-      "last_ok": "2026-06-16T19:49:58.200Z",
-      "last_attempt": "2026-06-16T19:49:58.200Z",
-      "error": null
+      "last_ok": "2026-06-16T22:21:58.647Z",
+      "last_attempt": "2026-06-16T22:21:58.647Z",
+      "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 6,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-06-16T19:49:59.584Z",
-      "last_attempt": "2026-06-16T19:49:59.584Z",
-      "error": null
+      "last_attempt": "2026-06-16T22:21:59.436Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-16T19:49:59.833Z",
-      "last_attempt": "2026-06-16T19:49:59.833Z",
+      "last_ok": "2026-06-16T22:21:59.664Z",
+      "last_attempt": "2026-06-16T22:21:59.664Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-16T19:50:00.058Z",
-      "last_attempt": "2026-06-16T19:50:00.058Z",
+      "last_ok": "2026-06-16T22:21:59.907Z",
+      "last_attempt": "2026-06-16T22:21:59.907Z",
       "error": null
     }
   },
-  "event_count": 353,
-  "venue_count": 311,
-  "deduped": 11,
-  "content_hash": "92c07fd3a6c09a3d"
+  "event_count": 344,
+  "venue_count": 310,
+  "deduped": 10,
+  "content_hash": "9dedcf478fb6e603"
 }
