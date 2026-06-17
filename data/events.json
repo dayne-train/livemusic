@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-17T18:33:14.657Z",
+  "generated_at": "2026-06-17T22:14:22.725Z",
   "source_timestamp": "06/17/2026 10:03",
-  "content_hash": "5201eb08d309c652",
+  "content_hash": "d10d0e4192499088",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 333,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-17T18:33:11.476Z",
-      "last_attempt": "2026-06-17T18:33:11.476Z",
+      "last_ok": "2026-06-17T22:14:12.084Z",
+      "last_attempt": "2026-06-17T22:14:12.084Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 20,
       "strategy": "live",
-      "last_ok": "2026-06-17T18:33:11.747Z",
-      "last_attempt": "2026-06-17T18:33:11.747Z",
+      "last_ok": "2026-06-17T22:14:12.393Z",
+      "last_attempt": "2026-06-17T22:14:12.393Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-17T18:33:13.196Z",
-      "last_attempt": "2026-06-17T18:33:13.196Z",
+      "last_ok": "2026-06-17T22:14:20.165Z",
+      "last_attempt": "2026-06-17T22:14:20.165Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 6,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-17T18:33:13.717Z",
-      "last_attempt": "2026-06-17T18:33:13.717Z",
+      "last_ok": "2026-06-17T22:14:20.473Z",
+      "last_attempt": "2026-06-17T22:14:20.473Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-17T18:33:13.907Z",
-      "last_attempt": "2026-06-17T18:33:13.907Z",
+      "last_ok": "2026-06-17T22:14:21.756Z",
+      "last_attempt": "2026-06-17T22:14:21.756Z",
       "error": null
     }
   },
@@ -7310,6 +7310,23 @@
       ]
     },
     {
+      "id": "502fee1d8b56e661",
+      "date": "2026-07-02",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Karaoke",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/karaoke-night/",
+      "genres": []
+    },
+    {
       "id": "c4b95c34dba1cbf3",
       "date": "2026-07-03",
       "start_raw": "1700",
@@ -7514,7 +7531,7 @@
       "genre": "",
       "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
       "link_name": "",
-      "venue": "Lithia Park Bandshell",
+      "venue": "OR",
       "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
       "event_type": "Band",
       "source": "tribe_ics:travel_ashland",
