@@ -1,5 +1,5 @@
 --timestamp
-06/16/2026 06:54
+06/17/2026 10:03
 --news
 * date | notes
 --musicians
@@ -620,6 +620,7 @@ Upwind Groovers||||Remotion Wine||06/26/26|1800|2100||Band|
 Blue Lightning||||Roxy Ann Winery||06/26/26|1800|2000||Band|
 Alissa and the Side Effects||||South Stage Cellars||06/26/26|1800|2000||Band|
 David Pinsky & Phil Newton|||David Pinsky|Bella Union||06/26/26|1900|2200||Band|
+STS Jazz Trio||||Liquid Lounge||06/26/26|2000|2200||Solo|
 Josephine Jukebox||||The Replay||06/26/26|2000|1200|$5|Band|
 Brian Oliver||||Cowhorn Vineyard||06/27/26|1300|1600||Band|
 Enoch and David||||Wanderlust Vineyard||06/27/26|1330|1530||Band|
