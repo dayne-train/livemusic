@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-16T22:22:00.964Z",
+  "generated_at": "2026-06-17T05:15:47.364Z",
   "source_timestamp": "06/16/2026 06:54",
-  "content_hash": "9dedcf478fb6e603",
+  "content_hash": "78004150e8dd86ff",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 332,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-16T22:21:58.362Z",
-      "last_attempt": "2026-06-16T22:21:58.362Z",
+      "last_ok": "2026-06-17T05:15:44.666Z",
+      "last_attempt": "2026-06-17T05:15:44.666Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-06-16T22:21:58.647Z",
-      "last_attempt": "2026-06-16T22:21:58.647Z",
+      "last_ok": "2026-06-17T05:15:45.116Z",
+      "last_attempt": "2026-06-17T05:15:45.116Z",
       "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
@@ -24,23 +24,23 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-06-16T19:49:59.584Z",
-      "last_attempt": "2026-06-16T22:21:59.436Z",
+      "last_attempt": "2026-06-17T05:15:46.108Z",
       "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-16T22:21:59.664Z",
-      "last_attempt": "2026-06-16T22:21:59.664Z",
+      "last_ok": "2026-06-17T05:15:46.226Z",
+      "last_attempt": "2026-06-17T05:15:46.226Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-16T22:21:59.907Z",
-      "last_attempt": "2026-06-16T22:21:59.907Z",
+      "last_ok": "2026-06-17T05:15:46.388Z",
+      "last_attempt": "2026-06-17T05:15:46.388Z",
       "error": null
     }
   },
@@ -4879,25 +4879,6 @@
       "genres": []
     },
     {
-      "id": "6325a355f1db80bc",
-      "date": "2026-06-16",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "e055547e21a93de0",
       "date": "2026-06-17",
       "start_raw": "1030",
@@ -7144,6 +7125,25 @@
       "source_url": null,
       "genres": [
         "Rock"
+      ]
+    },
+    {
+      "id": "e841492f96ac9788",
+      "date": "2026-06-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
       ]
     },
     {
