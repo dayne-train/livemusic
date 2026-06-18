@@ -172,8 +172,10 @@ export async function ingest({ offline = false } = {}) {
       if (eventDate < today) continue;
       const { start, end } = parseTimeRange(it.eventTimes);
       const musician = rule.musician_override || title;
+      // id is derived from the original feed title so two distinct city entries
+      // that happen to override to the same musician name don't collide.
       events.push({
-        id: eventId(dateISO, start, musician),
+        id: eventId(dateISO, start, title),
         date: dateISO,
         start_raw: start,
         end_raw: end,
