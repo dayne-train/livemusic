@@ -105,11 +105,19 @@ function dedupeEvents(results) {
   // An artist almost never plays two Rogue Valley venues on the same day, so
   // we treat these as the aggregator listing the same show under venue
   // spelling variants. Higher-trust source wins. Skip if the artist key is
-  // too short to be a stable identifier.
+  // too short to be a stable identifier, OR if it's a generic placeholder
+  // ("Live Music", "Open Mic", "Karaoke") that legitimately appears at
+  // multiple venues independently on the same night.
+  const GENERIC_TOKENS = new Set(['live', 'music', 'open', 'mic', 'night', 'karaoke', 'jam', 'tba', 'tbd', 'show', 'tonight', 'dj']);
+  const isGenericPlaceholder = (tokens) => {
+    if (!tokens || tokens.size === 0) return true;
+    for (const t of tokens) if (!GENERIC_TOKENS.has(t)) return false;
+    return true;
+  };
   const byArtistDate = new Map();
   const second = [];
   for (const e of out) {
-    const key = e._artist_key && e._artist_key.length >= 5
+    const key = e._artist_key && e._artist_key.length >= 5 && !isGenericPlaceholder(e._artist_tokens)
       ? `${e._artist_key}|${e.date}`
       : null;
     if (!key) { second.push(e); continue; }
