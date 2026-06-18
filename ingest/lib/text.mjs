@@ -38,14 +38,21 @@ export function artistKey(name) {
     .trim();
 }
 
+/* For token-set matching we keep secondary-artist names so joint-billing
+   variants ("Jen Ambrose w/ Jon Galfano" vs "Jen & Jon") still overlap.
+   The artistKey above strips them; tokens do not. Joiner words themselves
+   are filtered so they don't pad the set artificially. */
+const ARTIST_TOKEN_NOISE = /\([^)]*\)|\[[^\]]*\]/g;
+const ARTIST_TOKEN_STOP = new Set(['the', 'feat', 'featuring', 'with', 'presents', 'presented']);
+
 export function artistTokens(name) {
   if (!name) return new Set();
   return new Set(
     name.toLowerCase()
-      .replace(ARTIST_NOISE, ' ')
+      .replace(ARTIST_TOKEN_NOISE, ' ')
       .replace(/[^a-z0-9\s]/g, ' ')
       .split(/\s+/)
-      .filter(t => t.length >= 3)
+      .filter(t => t.length >= 3 && !ARTIST_TOKEN_STOP.has(t))
   );
 }
 

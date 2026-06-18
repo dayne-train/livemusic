@@ -27,6 +27,10 @@ const ADAPTERS = [
 
 const TIME_WINDOW_MIN = 90;
 const ARTIST_JACCARD_THRESHOLD = 0.6;
+/* When two events share the EXACT same start minute at the same venue + date,
+   a coincidence on the minute is extremely unlikely if they were separate shows.
+   The artist-overlap bar drops accordingly. */
+const ARTIST_JACCARD_EXACT_TIME = 0.4;
 
 function mergeVenues(results) {
   const sorted = [...results].sort((a, b) => b.trust - a.trust);
@@ -71,11 +75,11 @@ function dedupeEvents(results) {
       const match = bucket.find(existing => {
         if (existing._artist_key && enriched._artist_key && existing._artist_key === enriched._artist_key) return true;
         const j = jaccard(existing._artist_tokens, enriched._artist_tokens);
-        const timeOk =
-          existing._start_min == null ||
-          enriched._start_min == null ||
-          Math.abs(existing._start_min - enriched._start_min) <= TIME_WINDOW_MIN;
-        return j >= ARTIST_JACCARD_THRESHOLD && timeOk;
+        if (j === 0) return false;
+        const sA = existing._start_min, sB = enriched._start_min;
+        const timeExact = sA != null && sB != null && sA === sB;
+        const timeOk = sA == null || sB == null || Math.abs(sA - sB) <= TIME_WINDOW_MIN;
+        return (timeExact && j >= ARTIST_JACCARD_EXACT_TIME) || (timeOk && j >= ARTIST_JACCARD_THRESHOLD);
       });
 
       if (!match) {
