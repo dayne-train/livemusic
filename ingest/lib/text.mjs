@@ -2,15 +2,27 @@
 
 const VENUE_NOISE = /\b(the|a|winery|wineries|vineyard|vineyards|cellars|brewing|brewery|brewhouse|tap|taproom|tasting|room|company|co|llc|inc|club|pub|bar|grill|restaurant|cafe|kitchen|lounge|hall|theater|theatre|house|estate|wines|farm|farms|ranch)\b/gi;
 
+/* Aliases collapse venue spelling/specificity variants used by different sources
+   (e.g. the city RSS says "Butler Bandshell" or "Lithia Park Bandshell" while
+   Travel Ashland writes "Lithia Park Ashland Oregon" for the same physical venue).
+   Applied after the noise-strip + space-strip, so the keys here are post-normalized. */
+const VENUE_ALIASES = [
+  { match: /^(butlerbandshell|lithiaparkbandshell|lithiaparkashlandoregon|lithiapark)$/, canonical: 'lithiaparkbandshell' },
+];
+
 export function venueKey(name) {
   if (!name) return '';
-  return name
+  const key = name
     .toLowerCase()
     .replace(/&/g, ' and ')
     .replace(/[^a-z0-9\s]/g, ' ')
     .replace(VENUE_NOISE, ' ')
     .replace(/\s+/g, '')
     .trim();
+  for (const a of VENUE_ALIASES) {
+    if (a.match.test(key)) return a.canonical;
+  }
+  return key;
 }
 
 const ARTIST_NOISE = /^(the\s+)|\s*(feat\.?|featuring|ft\.?|w\/|with|presents|presented by)\s+.*$|\([^)]*\)|\[[^\]]*\]/gi;
