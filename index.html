@@ -381,6 +381,19 @@
   .footer-right { display:flex; gap:var(--sp-6); flex-wrap:wrap; justify-content:center; }
   .footer-contact-btn { display:inline-flex; align-items:center; gap:var(--sp-2); font-size:11px; padding:var(--sp-2) var(--sp-4); border-radius:999px; border:0.5px solid var(--border2); background:none; color:var(--text2); cursor:pointer; text-decoration:none; transition:all 0.15s; }
   .site-footer .footer-contact-btn:hover { border-color:var(--accent); color:var(--accent); text-decoration:none; }
+  .footer-sources-btn { background:none; border:none; padding:0; font:inherit; color:var(--green); text-decoration:none; cursor:pointer; }
+  .footer-sources-btn:hover { text-decoration:underline; }
+
+  /* ── Sources modal ── */
+  .sources-modal-title { font-size:18px; font-weight:600; padding-right:var(--sp-14); margin-bottom:var(--sp-2); line-height:1.3; }
+  .sources-modal-sub { font-size:13px; color:var(--text3); margin-bottom:var(--sp-6); line-height:1.5; }
+  .sources-section { margin-top:var(--sp-8); padding-top:var(--sp-6); border-top:0.5px solid var(--border); }
+  .sources-section:first-of-type { margin-top:var(--sp-6); padding-top:0; border-top:none; }
+  .sources-section-label { font-size:11px; font-weight:600; color:var(--text3); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:var(--sp-4); }
+  .sources-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:var(--sp-3); }
+  .sources-list a { font-size:14px; color:var(--green); text-decoration:none; }
+  .sources-list a:hover { text-decoration:underline; }
+  .sources-list .source-note { font-size:12px; color:var(--text3); margin-left:var(--sp-2); }
 
   /* ── Utility classes (replacing inline styles) ── */
   .search-divider { width:1px; height:18px; background:var(--border2); margin:0 var(--sp-1); flex-shrink:0; }
@@ -735,7 +748,7 @@
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
     </a>
   </div>
-  <div class="footer-meta">Data sourced from <a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">roguevalleylivemusicnightlife.com</a><span id="source-updated"></span> · <a href="mailto:hello@dayne.design">Made with love in Medford</a> &copy; 2026</div>
+  <div class="footer-meta">Data sourced from <button type="button" class="footer-sources-btn" onclick="openSourcesModal()" aria-haspopup="dialog">multiple locations</button><span id="source-updated"></span> · <a href="mailto:hello@dayne.design">Made with love in Medford</a> &copy; 2026</div>
 </footer>
 </div><!-- /page-wrap -->
 
@@ -797,6 +810,38 @@
   <div class="modal">
     <button class="modal-close" onclick="closeModal()" aria-label="Close dialog">&times;</button>
     <div id="modal-body"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="sources-modal" role="dialog" aria-modal="true" aria-labelledby="sources-modal-title">
+  <div class="modal">
+    <button class="modal-close" onclick="closeSourcesModal()" aria-label="Close dialog">&times;</button>
+    <div class="sources-modal-title" id="sources-modal-title">Where this data comes from</div>
+    <div class="sources-modal-sub">Live music listings are aggregated from these sources and refreshed every few hours.</div>
+    <div class="sources-section">
+      <div class="sources-section-label">Volunteer-maintained list</div>
+      <ul class="sources-list">
+        <li><a href="https://roguevalleylivemusicnightlife.com/" target="_blank" rel="noopener">Rogue Valley Live Music &amp; Nightlife</a></li>
+      </ul>
+    </div>
+    <div class="sources-section">
+      <div class="sources-section-label">Venue calendars</div>
+      <ul class="sources-list">
+        <li><a href="https://bellefiorewine.com/" target="_blank" rel="noopener">Belle Fiore</a></li>
+        <li><a href="https://grizzlypeakwinery.com/" target="_blank" rel="noopener">Grizzly Peak Winery</a></li>
+        <li><a href="https://roxyann.com/" target="_blank" rel="noopener">Roxy Ann Winery</a></li>
+        <li><a href="https://talentclublive.com/" target="_blank" rel="noopener">The Talent Club</a></li>
+        <li><a href="https://theblacksheep.com/" target="_blank" rel="noopener">The Black Sheep</a></li>
+      </ul>
+    </div>
+    <div class="sources-section">
+      <div class="sources-section-label">Aggregators</div>
+      <ul class="sources-list">
+        <li><a href="https://ashlandoregon.gov/367/Events" target="_blank" rel="noopener">City of Ashland calendar</a></li>
+        <li><a href="https://travelashland.com/events/" target="_blank" rel="noopener">Travel Ashland</a></li>
+        <li><a href="https://events.sou.edu/" target="_blank" rel="noopener">Southern Oregon University events</a></li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -1776,6 +1821,28 @@ function closeModal(){
   if(_modalReturnFocus){_modalReturnFocus.focus();_modalReturnFocus=null;}
 }
 document.getElementById('modal').addEventListener('click',function(e){if(e.target===this)closeModal();});
+
+let _sourcesReturnFocus=null;
+function openSourcesModal(){
+  _sourcesReturnFocus=document.activeElement;
+  document.getElementById('sources-modal').classList.add('open');
+  document.body.style.overflow='hidden';
+  requestAnimationFrame(()=>{const cb=document.querySelector('#sources-modal .modal-close');if(cb)cb.focus();});
+}
+function closeSourcesModal(){
+  document.getElementById('sources-modal').classList.remove('open');
+  document.body.style.overflow='';
+  if(_sourcesReturnFocus){_sourcesReturnFocus.focus();_sourcesReturnFocus=null;}
+}
+document.getElementById('sources-modal').addEventListener('click',function(e){if(e.target===this)closeSourcesModal();});
+document.getElementById('sources-modal').addEventListener('keydown',function(e){
+  if(e.key!=='Tab')return;
+  const focusable=this.querySelectorAll('button,a[href],input,[tabindex]:not([tabindex="-1"])');
+  if(!focusable.length)return;
+  const first=focusable[0],last=focusable[focusable.length-1];
+  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+  else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+});
 document.addEventListener('click',function(e){
   const wrap=document.getElementById('dp-wrap');
   if(wrap&&!wrap.contains(e.target))closeDatePicker();
@@ -1787,6 +1854,7 @@ document.addEventListener('keydown',e=>{
   if(e.key==='Escape'){
     const box=document.getElementById('search');
     if(box.classList.contains('open')){toggleSearch();return;}
+    if(document.getElementById('sources-modal').classList.contains('open')){closeSourcesModal();return;}
     closeModal();
   }
 });
