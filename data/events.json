@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-18T18:35:53.752Z",
+  "generated_at": "2026-06-18T22:25:10.683Z",
   "source_timestamp": "06/17/2026 10:03",
-  "content_hash": "1d7a3f30201f876f",
+  "content_hash": "f423f657c76c2da7",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 333,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-18T18:35:47.947Z",
-      "last_attempt": "2026-06-18T18:35:47.947Z",
+      "last_ok": "2026-06-18T22:25:07.627Z",
+      "last_attempt": "2026-06-18T22:25:07.627Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-06-18T18:35:48.423Z",
-      "last_attempt": "2026-06-18T18:35:48.423Z",
+      "last_ok": "2026-06-18T22:25:08.025Z",
+      "last_attempt": "2026-06-18T22:25:08.025Z",
       "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
@@ -24,31 +24,31 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-06-18T15:52:39.273Z",
-      "last_attempt": "2026-06-18T18:35:49.350Z",
+      "last_attempt": "2026-06-18T22:25:08.911Z",
       "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-18T18:35:49.503Z",
-      "last_attempt": "2026-06-18T18:35:49.503Z",
+      "last_ok": "2026-06-18T22:25:09.090Z",
+      "last_attempt": "2026-06-18T22:25:09.090Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-18T18:35:49.674Z",
-      "last_attempt": "2026-06-18T18:35:49.674Z",
+      "last_ok": "2026-06-18T22:25:09.266Z",
+      "last_attempt": "2026-06-18T22:25:09.266Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-18T18:35:53.116Z",
-      "last_attempt": "2026-06-18T18:35:53.116Z",
+      "last_ok": "2026-06-18T22:25:10.044Z",
+      "last_attempt": "2026-06-18T22:25:10.044Z",
       "error": null
     }
   },
@@ -3781,12 +3781,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "merged_from": [
-        {
-          "source": "musiclist_txt",
-          "id": "db1e01fb7116e013"
-        }
-      ],
       "genres": []
     },
     {
@@ -3979,6 +3973,22 @@
       "link": "",
       "link_name": "",
       "venue": "Area 61 Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "db1e01fb7116e013",
+      "date": "2026-06-12",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Live Music",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Callahan's Lodge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -5045,29 +5055,19 @@
       "end_raw": "1930",
       "musician": "Jen Ambrose w/ Jon Galfano",
       "genre": "",
-      "link": "",
-      "link_name": "Jen Ambrose",
-      "venue": "Belle Fiore",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "d7bda1dd8022ea30",
-      "date": "2026-06-18",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "Jen & Jon",
-      "genre": "",
       "link": "https://bellefiorewine.com/event/live-music-jen-jon/",
-      "link_name": "",
+      "link_name": "Jen Ambrose",
       "venue": "Belle Fiore",
       "notes": "Dynamic duo featuring Jon Galfano on guitar, keys and vocals, and Jen Ambrose on guitar, flute and vocals. Their genres range from class rock, Blues, Jazz, and everything in between!",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
+      "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-jen-jon/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "d7bda1dd8022ea30"
+        }
+      ],
       "genres": [
         "Blues",
         "Jazz",
@@ -7078,33 +7078,21 @@
       "end_raw": "1900",
       "musician": "Rogue Suspects",
       "genre": "classic rock",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "$15-$20; Aretha Franklin tribute",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "51e63283e045020d"
+        }
+      ],
       "genres": [
         "Rock"
-      ]
-    },
-    {
-      "id": "51e63283e045020d",
-      "date": "2026-06-28",
-      "start_raw": "1700",
-      "end_raw": "1900",
-      "musician": "Rogue Suspects' Aretha Franklin Tribute",
-      "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
-      "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "The Rogue Suspects bring their electrifying Aretha Franklin tribute to Belle Fiore! Featuring renowned powerhouse performances, the band honors the Queen of Soul with some of her greatest hits, includ",
-      "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
-      "genres": [
-        "Funk / Soul"
       ]
     },
     {
