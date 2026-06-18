@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-06-18T05:01:02.343Z",
+  "generated_at": "2026-06-18T11:57:46.421Z",
   "source_timestamp": "06/17/2026 10:03",
-  "content_hash": "a36915c24d84aa0a",
+  "content_hash": "32223362abfa28fb",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 333,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-18T05:00:54.586Z",
-      "last_attempt": "2026-06-18T05:00:54.586Z",
+      "last_ok": "2026-06-18T11:57:36.022Z",
+      "last_attempt": "2026-06-18T11:57:36.022Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-06-18T05:00:54.833Z",
-      "last_attempt": "2026-06-18T05:00:54.833Z",
+      "last_ok": "2026-06-18T11:57:36.344Z",
+      "last_attempt": "2026-06-18T11:57:36.344Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-18T05:01:01.226Z",
-      "last_attempt": "2026-06-18T05:01:01.226Z",
+      "last_ok": "2026-06-18T11:57:44.210Z",
+      "last_attempt": "2026-06-18T11:57:44.210Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 6,
+      "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-18T05:01:01.592Z",
-      "last_attempt": "2026-06-18T05:01:01.592Z",
+      "last_ok": "2026-06-18T11:57:44.620Z",
+      "last_attempt": "2026-06-18T11:57:44.620Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-18T05:01:01.712Z",
-      "last_attempt": "2026-06-18T05:01:01.712Z",
+      "last_ok": "2026-06-18T11:57:44.784Z",
+      "last_attempt": "2026-06-18T11:57:44.784Z",
       "error": null
     }
   },
@@ -7190,25 +7190,6 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/kota-dosa/",
       "genres": []
-    },
-    {
-      "id": "e841492f96ac9788",
-      "date": "2026-06-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "47eb981f4295936f",
