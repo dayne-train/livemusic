@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T11:57:46.421Z",
+  "fetched_at": "2026-06-18T15:52:41.585Z",
   "source_timestamp": "06/17/2026 10:03",
   "bytes": 57994,
   "sources": {
@@ -7,45 +7,53 @@
       "ok": true,
       "count": 333,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-18T11:57:36.022Z",
-      "last_attempt": "2026-06-18T11:57:36.022Z",
+      "last_ok": "2026-06-18T15:52:31.380Z",
+      "last_attempt": "2026-06-18T15:52:31.380Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-06-18T11:57:36.344Z",
-      "last_attempt": "2026-06-18T11:57:36.344Z",
+      "last_ok": "2026-06-18T15:52:31.687Z",
+      "last_attempt": "2026-06-18T15:52:31.687Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-18T11:57:44.210Z",
-      "last_attempt": "2026-06-18T11:57:44.210Z",
+      "last_ok": "2026-06-18T15:52:39.273Z",
+      "last_attempt": "2026-06-18T15:52:39.273Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-18T11:57:44.620Z",
-      "last_attempt": "2026-06-18T11:57:44.620Z",
+      "last_ok": "2026-06-18T15:52:39.942Z",
+      "last_attempt": "2026-06-18T15:52:39.942Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-18T11:57:44.784Z",
-      "last_attempt": "2026-06-18T11:57:44.784Z",
+      "last_ok": "2026-06-18T15:52:40.220Z",
+      "last_attempt": "2026-06-18T15:52:40.220Z",
+      "error": null
+    },
+    "ashland_city": {
+      "ok": true,
+      "count": 4,
+      "strategy": "live",
+      "last_ok": "2026-06-18T15:52:40.990Z",
+      "last_attempt": "2026-06-18T15:52:40.990Z",
       "error": null
     }
   },
-  "event_count": 350,
-  "venue_count": 311,
+  "event_count": 354,
+  "venue_count": 313,
   "deduped": 11,
-  "content_hash": "32223362abfa28fb"
+  "content_hash": "378b9a85d40cbfec"
 }

@@ -1,46 +1,54 @@
 {
-  "generated_at": "2026-06-18T11:57:46.421Z",
+  "generated_at": "2026-06-18T15:52:41.585Z",
   "source_timestamp": "06/17/2026 10:03",
-  "content_hash": "32223362abfa28fb",
+  "content_hash": "378b9a85d40cbfec",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 333,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-18T11:57:36.022Z",
-      "last_attempt": "2026-06-18T11:57:36.022Z",
+      "last_ok": "2026-06-18T15:52:31.380Z",
+      "last_attempt": "2026-06-18T15:52:31.380Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-06-18T11:57:36.344Z",
-      "last_attempt": "2026-06-18T11:57:36.344Z",
+      "last_ok": "2026-06-18T15:52:31.687Z",
+      "last_attempt": "2026-06-18T15:52:31.687Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-18T11:57:44.210Z",
-      "last_attempt": "2026-06-18T11:57:44.210Z",
+      "last_ok": "2026-06-18T15:52:39.273Z",
+      "last_attempt": "2026-06-18T15:52:39.273Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-18T11:57:44.620Z",
-      "last_attempt": "2026-06-18T11:57:44.620Z",
+      "last_ok": "2026-06-18T15:52:39.942Z",
+      "last_attempt": "2026-06-18T15:52:39.942Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-18T11:57:44.784Z",
-      "last_attempt": "2026-06-18T11:57:44.784Z",
+      "last_ok": "2026-06-18T15:52:40.220Z",
+      "last_attempt": "2026-06-18T15:52:40.220Z",
+      "error": null
+    },
+    "ashland_city": {
+      "ok": true,
+      "count": 4,
+      "strategy": "live",
+      "last_ok": "2026-06-18T15:52:40.990Z",
+      "last_attempt": "2026-06-18T15:52:40.990Z",
       "error": null
     }
   },
@@ -3469,6 +3477,28 @@
       "_sources": [
         "talent_club"
       ]
+    },
+    "Butler Bandshell": {
+      "url": "https://ashlandparksandrec.org",
+      "city": "Ashland",
+      "notes": "Outdoor concert bandshell in Lithia Park",
+      "address": "Winburn Way, Ashland OR",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "ashland_city"
+      ]
+    },
+    "Lithia Park Bandshell": {
+      "url": "https://ashlandparksandrec.org",
+      "city": "Ashland",
+      "notes": "Outdoor concert bandshell in Lithia Park",
+      "address": "Winburn Way, Ashland OR",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "ashland_city"
+      ]
     }
   },
   "events": [
@@ -5106,6 +5136,22 @@
       "genres": []
     },
     {
+      "id": "487065f4b63022cf",
+      "date": "2026-06-18",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Ashland City Band",
+      "genre": "",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4411",
+      "link_name": "",
+      "venue": "Butler Bandshell",
+      "notes": "",
+      "event_type": "Band",
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4411",
+      "genres": []
+    },
+    {
       "id": "b118ba004ecd6742",
       "date": "2026-06-18",
       "start_raw": "1830",
@@ -6284,6 +6330,22 @@
       "genres": []
     },
     {
+      "id": "95fe291254032463",
+      "date": "2026-06-25",
+      "start_raw": "1815",
+      "end_raw": "2100",
+      "musician": "Ashland City Band",
+      "genre": "",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4412",
+      "link_name": "",
+      "venue": "Butler Bandshell",
+      "notes": "",
+      "event_type": "Band",
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4412",
+      "genres": []
+    },
+    {
       "id": "3e530d5af99829f0",
       "date": "2026-06-25",
       "start_raw": "1830",
@@ -7141,6 +7203,24 @@
       "genres": []
     },
     {
+      "id": "422f8b1cebd762a5",
+      "date": "2026-06-29",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Ashland Folk Collective in the Park with Fruition",
+      "genre": "",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4425",
+      "link_name": "",
+      "venue": "Lithia Park Bandshell",
+      "notes": "",
+      "event_type": "Band",
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4425",
+      "genres": [
+        "Folk"
+      ]
+    },
+    {
       "id": "a270c95571dfe433",
       "date": "2026-06-29",
       "start_raw": "1900",
@@ -7256,6 +7336,22 @@
       "genres": [
         "Celtic"
       ]
+    },
+    {
+      "id": "54cf1520fa6b2a62",
+      "date": "2026-07-02",
+      "start_raw": "1815",
+      "end_raw": "2100",
+      "musician": "Ashland City Band",
+      "genre": "",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4413",
+      "link_name": "",
+      "venue": "Butler Bandshell",
+      "notes": "",
+      "event_type": "Band",
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4413",
+      "genres": []
     },
     {
       "id": "c4b95c34dba1cbf3",
