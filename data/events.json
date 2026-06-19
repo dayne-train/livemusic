@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-19T05:23:41.939Z",
+  "generated_at": "2026-06-19T12:17:27.225Z",
   "source_timestamp": "06/18/2026 15:45",
-  "content_hash": "ea88f0a5042c05c6",
+  "content_hash": "9498b4ebb9f4da6a",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 287,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-19T05:23:37.273Z",
-      "last_attempt": "2026-06-19T05:23:37.273Z",
+      "last_ok": "2026-06-19T12:17:22.382Z",
+      "last_attempt": "2026-06-19T12:17:22.382Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 18,
       "strategy": "live",
-      "last_ok": "2026-06-19T05:23:37.602Z",
-      "last_attempt": "2026-06-19T05:23:37.602Z",
+      "last_ok": "2026-06-19T12:17:22.817Z",
+      "last_attempt": "2026-06-19T12:17:22.817Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-19T05:23:39.623Z",
-      "last_attempt": "2026-06-19T05:23:39.623Z",
+      "last_ok": "2026-06-19T12:17:25.198Z",
+      "last_attempt": "2026-06-19T12:17:25.198Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 4,
+      "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-19T05:23:40.093Z",
-      "last_attempt": "2026-06-19T05:23:40.093Z",
+      "last_ok": "2026-06-19T12:17:25.583Z",
+      "last_attempt": "2026-06-19T12:17:25.583Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-19T05:23:40.330Z",
-      "last_attempt": "2026-06-19T05:23:40.330Z",
+      "last_ok": "2026-06-19T12:17:25.794Z",
+      "last_attempt": "2026-06-19T12:17:25.794Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-19T05:23:41.528Z",
-      "last_attempt": "2026-06-19T05:23:41.528Z",
+      "last_ok": "2026-06-19T12:17:26.747Z",
+      "last_attempt": "2026-06-19T12:17:26.747Z",
       "error": null
     }
   },
@@ -6400,6 +6400,25 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/kota-dosa/",
       "genres": []
+    },
+    {
+      "id": "e841492f96ac9788",
+      "date": "2026-06-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "47eb981f4295936f",
