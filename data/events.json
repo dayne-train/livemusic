@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-19T18:06:14.900Z",
+  "generated_at": "2026-06-19T21:22:01.649Z",
   "source_timestamp": "06/18/2026 15:45",
-  "content_hash": "9498b4ebb9f4da6a",
+  "content_hash": "4d8988ae3f51deac",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 287,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-19T18:06:11.105Z",
-      "last_attempt": "2026-06-19T18:06:11.105Z",
+      "last_ok": "2026-06-19T21:21:57.017Z",
+      "last_attempt": "2026-06-19T21:21:57.017Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 18,
+      "count": 25,
       "strategy": "live",
-      "last_ok": "2026-06-19T18:06:11.380Z",
-      "last_attempt": "2026-06-19T18:06:11.380Z",
+      "last_ok": "2026-06-19T21:21:57.499Z",
+      "last_attempt": "2026-06-19T21:21:57.499Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-19T18:06:12.896Z",
-      "last_attempt": "2026-06-19T18:06:12.896Z",
+      "last_ok": "2026-06-19T21:21:59.037Z",
+      "last_attempt": "2026-06-19T21:21:59.037Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 5,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-19T18:06:13.280Z",
-      "last_attempt": "2026-06-19T18:06:13.280Z",
+      "last_ok": "2026-06-19T21:21:59.373Z",
+      "last_attempt": "2026-06-19T21:21:59.373Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-19T18:06:13.506Z",
-      "last_attempt": "2026-06-19T18:06:13.506Z",
+      "last_ok": "2026-06-19T21:21:59.546Z",
+      "last_attempt": "2026-06-19T21:21:59.546Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-19T18:06:14.308Z",
-      "last_attempt": "2026-06-19T18:06:14.308Z",
+      "last_ok": "2026-06-19T21:22:01.152Z",
+      "last_attempt": "2026-06-19T21:22:01.152Z",
       "error": null
     }
   },
@@ -6402,25 +6402,6 @@
       "genres": []
     },
     {
-      "id": "e841492f96ac9788",
-      "date": "2026-06-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "47eb981f4295936f",
       "date": "2026-07-01",
       "start_raw": "1700",
@@ -6837,6 +6818,22 @@
       ]
     },
     {
+      "id": "f93a02ebc4e641a8",
+      "date": "2026-07-05",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Case Watson",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-case-watson-july-5/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Case is a vocalist, songwriter, & producer. Join us at RoxyAnn Winery for a Sunday afternoon of music and fun in the tasting room!\n\nListen to live music while sipping on some delicious & award-winning",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-case-watson-july-5/",
+      "genres": []
+    },
+    {
       "id": "70c18704b3b1f943",
       "date": "2026-07-05",
       "start_raw": "1730",
@@ -6893,15 +6890,22 @@
       "end_raw": "1900",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-july-10/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "",
+      "notes": "The Pozitronics are southern Oregon’s premier “all-you-can-dance” band playing a unique mix of classic rock, R&B, and funk, with love, positive vibes, and a whole lot of energy. You bring the dance mo",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-july-10/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "3ddbb2ad32e03468"
+        }
+      ],
       "genres": [
-        "Rock"
+        "Rock",
+        "Funk / Soul"
       ]
     },
     {
@@ -7035,6 +7039,22 @@
       "genres": []
     },
     {
+      "id": "890fd3ff9fe3aaee",
+      "date": "2026-07-12",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Encore 5",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5-july-12/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Encore 5 has a mission to provide quality, heart-felt music entertainment delivered in a professional manner. \nJoin us to listen to amazing music while sipping on some delicious & award-winning wines,",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5-july-12/",
+      "genres": []
+    },
+    {
       "id": "6e05d94995d8247c",
       "date": "2026-07-12",
       "start_raw": "1800",
@@ -7048,6 +7068,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0f55fb17e830367e",
+      "date": "2026-07-15",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Comedy: Fine Wines & Punch Lines (Third Wednesdays)",
+      "genre": "",
+      "link": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-july-15/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Join us for a monthly Comedy Night, Age 18+ only: Fine Wines & Punch Lines! \n$20 per person, please text Kendyl for tickets at 541-414-8050 \nGrab a glass of wine or one of our many other beverage choi",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-july-15/",
       "genres": []
     },
     {
@@ -7149,6 +7185,22 @@
       "genres": []
     },
     {
+      "id": "953889d7d5bd1bc1",
+      "date": "2026-07-19",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Tres Palomas",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-july-19/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Tres Palomas plays Bossa Nova and international classics. The trio – Mari Simone on vocals, Sean Chon on upright bass, and Jason Wolverton on guitar – performs in Portuguese, Spanish, French, and Engl",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-july-19/",
+      "genres": []
+    },
+    {
       "id": "15ecaa5e546a06f7",
       "date": "2026-07-20",
       "start_raw": "1800",
@@ -7197,6 +7249,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "6e91442f4534afcb",
+      "date": "2026-07-24",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Saucy",
+      "genre": "classic rock, variety",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-saucy-july-24/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Saucy, a renowned local Southern Oregon musical group, joins us at RoxyAnn Winery for a Friday night of dancing and fun! Listen to some songs while sipping on some delicious & award-winning wines, or ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-saucy-july-24/",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "05117bd3cb2aad13",
@@ -7299,6 +7369,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "949013dacf571a8a",
+      "date": "2026-07-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Two of a Kind",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-two-of-a-kind-july-26/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Two of a Kind is a Rogue Valley acoustic duet featuring John Dickerson (of Honeypot) & Bridget Best. They’re bringing a fun mix of classic rock favorite and an easygoing vibe. Join us at RoxyAnn Winer",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-two-of-a-kind-july-26/",
+      "genres": [
+        "Folk",
+        "Rock"
+      ]
     },
     {
       "id": "9570625cbcc7fc7f",
