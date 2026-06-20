@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-19T21:22:01.649Z",
+  "generated_at": "2026-06-20T04:40:15.259Z",
   "source_timestamp": "06/18/2026 15:45",
-  "content_hash": "4d8988ae3f51deac",
+  "content_hash": "353ea042c3ad2c15",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 287,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-19T21:21:57.017Z",
-      "last_attempt": "2026-06-19T21:21:57.017Z",
+      "last_ok": "2026-06-20T04:40:10.931Z",
+      "last_attempt": "2026-06-20T04:40:10.931Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-06-19T21:21:57.499Z",
-      "last_attempt": "2026-06-19T21:21:57.499Z",
+      "last_ok": "2026-06-20T04:40:11.260Z",
+      "last_attempt": "2026-06-20T04:40:11.260Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 4,
+      "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-19T21:21:59.037Z",
-      "last_attempt": "2026-06-19T21:21:59.037Z",
+      "last_ok": "2026-06-20T04:40:12.766Z",
+      "last_attempt": "2026-06-20T04:40:12.766Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-19T21:21:59.373Z",
-      "last_attempt": "2026-06-19T21:21:59.373Z",
+      "last_ok": "2026-06-20T04:40:13.468Z",
+      "last_attempt": "2026-06-20T04:40:13.468Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-19T21:21:59.546Z",
-      "last_attempt": "2026-06-19T21:21:59.546Z",
+      "last_ok": "2026-06-20T04:40:13.657Z",
+      "last_attempt": "2026-06-20T04:40:13.657Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-19T21:22:01.152Z",
-      "last_attempt": "2026-06-19T21:22:01.152Z",
+      "last_ok": "2026-06-20T04:40:14.769Z",
+      "last_attempt": "2026-06-20T04:40:14.769Z",
       "error": null
     }
   },
@@ -3817,24 +3817,14 @@
       "end_raw": "1930",
       "musician": "The Shabby Guys",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-shabby-guys/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Wizardly four-piece instrumental band covering blues, jazz, R&B, and pop hits.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-shabby-guys/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "47543d2885a0912c"
-        }
-      ],
-      "genres": [
-        "Blues",
-        "Jazz",
-        "Funk / Soul"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "38cc10fa9c3321b4",
@@ -3990,19 +3980,13 @@
       "end_raw": "2000",
       "musician": "Mercy",
       "genre": "blues, soul, classic rock",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-mercy-june-19/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Join us at RoxyAnn Winery for a Friday night of dancing and fun as we welcome Southern Oregon’s Mercy to the tasting room! Based in beautiful Southern Oregon, Mercy Featuring Lynda Day is one of the p",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-mercy-june-19/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "448ae039202dce41"
-        }
-      ],
+      "source_url": null,
       "genres": [
         "Blues",
         "Funk / Soul",
@@ -4201,23 +4185,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "d2607c912ff892d5",
-      "date": "2026-06-19",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Object Heavy",
-      "genre": "",
-      "link": "https://talentclublive.com/event/object-heavy/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/object-heavy/",
       "genres": []
     },
     {
@@ -6704,7 +6671,7 @@
       "genre": "",
       "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
       "link_name": "",
-      "venue": "OR",
+      "venue": "Lithia Park Bandshell",
       "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
       "event_type": "Band",
       "source": "tribe_ics:travel_ashland",
@@ -7137,6 +7104,22 @@
       "genres": []
     },
     {
+      "id": "1f8988b1bab7eb22",
+      "date": "2026-07-18",
+      "start_raw": "1400",
+      "end_raw": "2100",
+      "musician": "'Flutes in the Park'",
+      "genre": "",
+      "link": "https://travelashland.com/event/flutes-in-the-park/",
+      "link_name": "",
+      "venue": "Lithia Park Butler Bandshell",
+      "notes": "Ashland Flute Circle welcomes back ‘Flutes in the Park’, July 18th, 2026 at the Bandshell (corner of Winburn Way and Nutley) in Lithia Park, Ashland, OR!\nThis is a family-friendly, outdoor, event (ple",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/flutes-in-the-park/",
+      "genres": []
+    },
+    {
       "id": "6df9909ec40c1305",
       "date": "2026-07-18",
       "start_raw": "1700",
@@ -7456,6 +7439,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "ab65bb50c13ab8aa",
+      "date": "2026-07-31",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Brisbane Project",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-brisbane-project-july-31/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Join us at RoxyAnn Winery for a Friday night of dancing and fun as we welcome Southern Oregon’s Brisbane Project to the tasting room!\n\nThe Brisbane Project, is a powerhouse trio of soulful blues, know",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-brisbane-project-july-31/",
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "380a0ae0b0a406d7",
