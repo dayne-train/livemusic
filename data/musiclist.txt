@@ -1,5 +1,5 @@
 --timestamp
-06/18/2026 15:45
+06/20/2026 07:34
 --news
 * date | notes
 --musicians
@@ -327,6 +327,7 @@ Pier 21|https://www.reverbnation.com/venue/pier21tavern|Medford|Y|Stewart avenue
 Plaisance Ranch|https://www.plaisanceranch.com/|Williams|N||Medford|Other||
 Platt Anderson Cellars|https://www.ashlandwine.net/|Ashland|N||Ashland|Winery||
 Press For Oil|https://www.facebook.com/profile.php?id=100057285105873|Ashland|N||Ashland|Other||
+Quail Run Vineyards|https://quailrunvineyards.com/|Talent|N||Ashland|Winery||
 Rascal's Bar & Grill|https://www.facebook.com/Rascals-Bar-Grill-564101890451739/|Williams|N||GrantsPass|Bar||
 Ravissant Cellars|https://ravissantcellars.com/|Medford|N||Medford|Winery||
 Red Lily Vineyards|http://www.redlilyvineyards.com/|Applegate|N||Medford|Winery||
@@ -586,6 +587,7 @@ John Johns & Chelsea Murray||||Moxie Brew||06/27/26|1800|2000||Band|
 Shakedown||||Apple Outlaw Taproom||06/27/26|1830|2130||Band|
 Ras Gabriel & 4Word Band||||Walkabout Brewing||06/27/26|1830|2030||Band|
 Paul Jenny & Tom Freeman||||Bella Union||06/27/26|1900|2200||Band|
+Moonlight Wine, Art, and Music Festival||https://www.eventbrite.com/e/moonlight-wine-art-and-music-festival-tickets-1989553452935?aff=oddtdtcreator||Quail Run Vineyards||06/27/26|1900|2330|$15 +; an evening vineyard festival following the afternoon talent show in downtown Talent; music by: Sweet Clementine, Grant Ruiz, Keenan Pruett, Andy Casad, Skrimshaw|Band|
 Mitchell Brothers||||Corvette Bar & Grill||06/27/26|2000|2300||Band|
 Mitchell Brothers||||Corvette Bar & Grill||06/28/26|1300|1600||Band|
 Nick & Shae||||Daisy Creek Vineyard||06/28/26|1400|1600||Band|

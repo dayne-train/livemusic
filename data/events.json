@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-20T14:29:08.706Z",
-  "source_timestamp": "06/18/2026 15:45",
-  "content_hash": "353ea042c3ad2c15",
+  "generated_at": "2026-06-20T17:47:11.043Z",
+  "source_timestamp": "06/20/2026 07:34",
+  "content_hash": "5acff18fe03e1742",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 287,
+      "count": 288,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-20T14:29:02.860Z",
-      "last_attempt": "2026-06-20T14:29:02.860Z",
+      "last_ok": "2026-06-20T17:47:06.688Z",
+      "last_attempt": "2026-06-20T17:47:06.688Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-06-20T14:29:03.289Z",
-      "last_attempt": "2026-06-20T14:29:03.289Z",
+      "last_ok": "2026-06-20T17:47:06.990Z",
+      "last_attempt": "2026-06-20T17:47:06.990Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-20T14:29:06.091Z",
-      "last_attempt": "2026-06-20T14:29:06.091Z",
+      "last_ok": "2026-06-20T17:47:08.824Z",
+      "last_attempt": "2026-06-20T17:47:08.824Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-20T14:29:06.899Z",
-      "last_attempt": "2026-06-20T14:29:06.899Z",
+      "last_ok": "2026-06-20T17:47:09.296Z",
+      "last_attempt": "2026-06-20T17:47:09.296Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-20T14:29:07.102Z",
-      "last_attempt": "2026-06-20T14:29:07.102Z",
+      "last_ok": "2026-06-20T17:47:09.363Z",
+      "last_attempt": "2026-06-20T17:47:09.363Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-20T14:29:08.049Z",
-      "last_attempt": "2026-06-20T14:29:08.049Z",
+      "last_ok": "2026-06-20T17:47:10.189Z",
+      "last_attempt": "2026-06-20T17:47:10.189Z",
       "error": null
     }
   },
@@ -2229,6 +2229,17 @@
       "address": "",
       "region": "Ashland",
       "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Quail Run Vineyards": {
+      "url": "https://quailrunvineyards.com/",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Winery",
       "_sources": [
         "musiclist_txt"
       ]
@@ -6005,6 +6016,22 @@
       "link_name": "",
       "venue": "Bella Union",
       "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7a03cca6eef2221f",
+      "date": "2026-06-27",
+      "start_raw": "1900",
+      "end_raw": "2330",
+      "musician": "Moonlight Wine, Art, and Music Festival",
+      "genre": "",
+      "link": "https://www.eventbrite.com/e/moonlight-wine-art-and-music-festival-tickets-1989553452935?aff=oddtdtcreator",
+      "link_name": "",
+      "venue": "Quail Run Vineyards",
+      "notes": "$15 +; an evening vineyard festival following the afternoon talent show in downtown Talent; music by: Sweet Clementine, Grant Ruiz, Keenan Pruett, Andy Casad, Skrimshaw",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
