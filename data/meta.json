@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T11:24:39.979Z",
+  "fetched_at": "2026-06-21T14:32:11.712Z",
   "source_timestamp": "06/20/2026 07:34",
   "bytes": 55241,
   "sources": {
@@ -7,53 +7,53 @@
       "ok": true,
       "count": 288,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-21T11:24:35.521Z",
-      "last_attempt": "2026-06-21T11:24:35.521Z",
+      "last_ok": "2026-06-21T14:32:02.034Z",
+      "last_attempt": "2026-06-21T14:32:02.034Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-21T11:24:35.905Z",
-      "last_attempt": "2026-06-21T11:24:35.905Z",
+      "last_ok": "2026-06-21T14:32:02.480Z",
+      "last_attempt": "2026-06-21T14:32:02.480Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-21T11:24:37.960Z",
-      "last_attempt": "2026-06-21T11:24:37.960Z",
+      "last_ok": "2026-06-21T14:32:04.781Z",
+      "last_attempt": "2026-06-21T14:32:04.781Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 4,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-21T11:24:38.540Z",
-      "last_attempt": "2026-06-21T11:24:38.540Z",
+      "last_ok": "2026-06-21T14:32:05.047Z",
+      "last_attempt": "2026-06-21T14:32:05.047Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-21T11:24:38.682Z",
-      "last_attempt": "2026-06-21T11:24:38.682Z",
+      "last_ok": "2026-06-21T14:32:05.234Z",
+      "last_attempt": "2026-06-21T14:32:05.234Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-21T11:24:39.527Z",
-      "last_attempt": "2026-06-21T11:24:39.527Z",
+      "last_ok": "2026-06-21T14:32:06.348Z",
+      "last_attempt": "2026-06-21T14:32:06.348Z",
       "error": null
     }
   },
-  "event_count": 312,
+  "event_count": 314,
   "venue_count": 314,
   "deduped": 8,
-  "content_hash": "c5b74445770e848a"
+  "content_hash": "6728ee51ebf69b5e"
 }
