@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-20T21:39:42.978Z",
+  "generated_at": "2026-06-21T05:17:57.738Z",
   "source_timestamp": "06/20/2026 07:34",
-  "content_hash": "d522ecfe16079c70",
+  "content_hash": "c5b74445770e848a",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 288,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-20T21:39:37.537Z",
-      "last_attempt": "2026-06-20T21:39:37.537Z",
+      "last_ok": "2026-06-21T05:17:53.171Z",
+      "last_attempt": "2026-06-21T05:17:53.171Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 25,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-20T21:39:37.811Z",
-      "last_attempt": "2026-06-20T21:39:37.811Z",
+      "last_ok": "2026-06-21T05:17:53.526Z",
+      "last_attempt": "2026-06-21T05:17:53.526Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 3,
+      "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-20T21:39:40.983Z",
-      "last_attempt": "2026-06-20T21:39:40.983Z",
+      "last_ok": "2026-06-21T05:17:55.640Z",
+      "last_attempt": "2026-06-21T05:17:55.640Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 6,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-20T21:39:41.309Z",
-      "last_attempt": "2026-06-20T21:39:41.309Z",
+      "last_ok": "2026-06-21T05:17:56.162Z",
+      "last_attempt": "2026-06-21T05:17:56.162Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-20T21:39:41.469Z",
-      "last_attempt": "2026-06-20T21:39:41.469Z",
+      "last_ok": "2026-06-21T05:17:56.295Z",
+      "last_attempt": "2026-06-21T05:17:56.295Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-20T21:39:42.477Z",
-      "last_attempt": "2026-06-20T21:39:42.477Z",
+      "last_ok": "2026-06-21T05:17:57.218Z",
+      "last_attempt": "2026-06-21T05:17:57.218Z",
       "error": null
     }
   },
@@ -4319,19 +4319,13 @@
       "end_raw": "1700",
       "musician": "Rick Millward",
       "genre": "",
-      "link": "https://roxyann.com/event/rick-millward-presents-open-mic-june-20/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
       "notes": "Open Mic",
       "event_type": "Open Mic",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/rick-millward-presents-open-mic-june-20/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "de99b49e1756b95a"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -4456,23 +4450,14 @@
       "end_raw": "1930",
       "musician": "Roadsters",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-the-roadsters/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "An energetic, interactive and dynamic country/rock band whose strong male and female vocals offer variety for their fans. With a hard-hitting rhythm section, they capture the best in modern and classi",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-the-roadsters/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "9b2c0fa32e1d22d0"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d09edf7e85bf5732",
@@ -4680,23 +4665,6 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "9589c1fe95c4f4a2",
-      "date": "2026-06-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Nigel Wearne",
-      "genre": "",
-      "link": "https://talentclublive.com/event/nigel-wearne/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/nigel-wearne/",
       "genres": []
     },
     {
@@ -6396,25 +6364,6 @@
       "genres": []
     },
     {
-      "id": "e841492f96ac9788",
-      "date": "2026-06-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "47eb981f4295936f",
       "date": "2026-07-01",
       "start_raw": "1700",
@@ -6510,23 +6459,6 @@
       "event_type": "Band",
       "source": "ashland_city",
       "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4413",
-      "genres": []
-    },
-    {
-      "id": "502fee1d8b56e661",
-      "date": "2026-07-02",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
