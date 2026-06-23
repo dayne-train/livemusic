@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-23T11:30:42.658Z",
-  "source_timestamp": "06/21/2026 16:16",
-  "content_hash": "3c4d7bb000ef8c91",
+  "generated_at": "2026-06-23T15:23:54.224Z",
+  "source_timestamp": "06/23/2026 07:20",
+  "content_hash": "67223ac37688b25d",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 293,
+      "count": 311,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-23T11:30:32.059Z",
-      "last_attempt": "2026-06-23T11:30:32.059Z",
+      "last_ok": "2026-06-23T15:23:49.409Z",
+      "last_attempt": "2026-06-23T15:23:49.409Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-23T11:30:32.445Z",
-      "last_attempt": "2026-06-23T11:30:32.445Z",
+      "last_ok": "2026-06-23T15:23:49.737Z",
+      "last_attempt": "2026-06-23T15:23:49.737Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-23T11:30:40.425Z",
-      "last_attempt": "2026-06-23T11:30:40.425Z",
+      "last_ok": "2026-06-23T15:23:52.417Z",
+      "last_attempt": "2026-06-23T15:23:52.417Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 3,
+      "count": 5,
       "strategy": "live",
-      "last_ok": "2026-06-23T11:30:40.877Z",
-      "last_attempt": "2026-06-23T11:30:40.877Z",
+      "last_ok": "2026-06-23T15:23:52.640Z",
+      "last_attempt": "2026-06-23T15:23:52.640Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-23T11:30:40.995Z",
-      "last_attempt": "2026-06-23T11:30:40.995Z",
+      "last_ok": "2026-06-23T15:23:52.824Z",
+      "last_attempt": "2026-06-23T15:23:52.824Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-23T11:30:42.188Z",
-      "last_attempt": "2026-06-23T11:30:42.188Z",
+      "last_ok": "2026-06-23T15:23:53.538Z",
+      "last_attempt": "2026-06-23T15:23:53.538Z",
       "error": null
     }
   },
@@ -5006,6 +5006,22 @@
       "genres": []
     },
     {
+      "id": "361a1834c92bba20",
+      "date": "2026-06-23",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "John Dough Boys",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "42a90638b53e1d69",
       "date": "2026-06-23",
       "start_raw": "2000",
@@ -6110,6 +6126,22 @@
       "genres": []
     },
     {
+      "id": "489fd4fc6a8a22e6",
+      "date": "2026-06-28",
+      "start_raw": "1500",
+      "end_raw": "1630",
+      "musician": "Malinka",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wellsprings",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "507c348413391bb9",
       "date": "2026-06-28",
       "start_raw": "1530",
@@ -6336,6 +6368,22 @@
       ]
     },
     {
+      "id": "5b5ce285e6c998ad",
+      "date": "2026-06-30",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Mimi Fox",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "0057b99986c842d5",
       "date": "2026-06-30",
       "start_raw": "2000",
@@ -6351,6 +6399,25 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/kota-dosa/",
       "genres": []
+    },
+    {
+      "id": "e841492f96ac9788",
+      "date": "2026-06-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "47eb981f4295936f",
@@ -6394,6 +6461,22 @@
       "link": "",
       "link_name": "",
       "venue": "The Toasted Barrel",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0908f5c7baf50229",
+      "date": "2026-07-01",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Mimi Fox & Dan Fabricant",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6448,6 +6531,39 @@
       "event_type": "Band",
       "source": "ashland_city",
       "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4413",
+      "genres": []
+    },
+    {
+      "id": "d9b109c2f12b10fe",
+      "date": "2026-07-02",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Alice Di Micele and Mimi Fox",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "502fee1d8b56e661",
+      "date": "2026-07-02",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Karaoke",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -6575,6 +6691,22 @@
       "genres": [
         "Folk"
       ]
+    },
+    {
+      "id": "7321221193bd3d4e",
+      "date": "2026-07-03",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Malinka",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2e6d2cf327d0575c",
@@ -6835,6 +6967,22 @@
       "genres": []
     },
     {
+      "id": "8b9e61c9a9801981",
+      "date": "2026-07-07",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Alice Di Micele & Force of Nature",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "51732fe445b7e66c",
       "date": "2026-07-08",
       "start_raw": "1700",
@@ -6844,6 +6992,41 @@
       "link": "",
       "link_name": "",
       "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "56394339254b9399",
+      "date": "2026-07-08",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Danielle Kelly Soul Project",
+      "genre": "Jazz, Soul",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz",
+        "Funk / Soul"
+      ]
+    },
+    {
+      "id": "b92ef8e73f9bdab1",
+      "date": "2026-07-09",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Alquimistas",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6885,6 +7068,22 @@
       "link": "",
       "link_name": "",
       "venue": "Remotion Wine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "42f42dd79a730cc2",
+      "date": "2026-07-10",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Creekside Strings Fiddlers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7054,6 +7253,40 @@
       "genres": []
     },
     {
+      "id": "d709b49e573ee506",
+      "date": "2026-07-14",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Sage Meadows Country Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "id": "27248c1144063dad",
+      "date": "2026-07-15",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Glenn Stanton & Six String Guillotine",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "0f55fb17e830367e",
       "date": "2026-07-15",
       "start_raw": "1900",
@@ -7070,6 +7303,22 @@
       "genres": []
     },
     {
+      "id": "dbd556b105660d80",
+      "date": "2026-07-16",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Phoenix Sigalove",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "19005e45e228faad",
       "date": "2026-07-17",
       "start_raw": "1700",
@@ -7079,6 +7328,22 @@
       "link": "",
       "link_name": "",
       "venue": "Trium Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "530f7b57c6a8c23a",
+      "date": "2026-07-17",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Malinka",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7168,6 +7433,24 @@
       "genres": []
     },
     {
+      "id": "bb5c2ba60361c963",
+      "date": "2026-07-18",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Chubritza International Folk Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Folk"
+      ]
+    },
+    {
       "id": "dd9342d1fd0df9f3",
       "date": "2026-07-19",
       "start_raw": "1500",
@@ -7250,6 +7533,24 @@
       ]
     },
     {
+      "id": "a1ff197258914530",
+      "date": "2026-07-23",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Rogue Suspects",
+      "genre": "classic rock",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "Tribute to Santana",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "04ec2c8d98cefdb9",
       "date": "2026-07-24",
       "start_raw": "1700",
@@ -7279,6 +7580,24 @@
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-saucy-july-24/",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "ae4249cd80e74ad3",
+      "date": "2026-07-24",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Blue Lightning",
+      "genre": "classic rock",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": [
         "Rock"
       ]
@@ -7437,6 +7756,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "df9cb840c2b7242c",
+      "date": "2026-07-28",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Brothers Reed",
+      "genre": "Folk",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "id": "47d0c523ba06d1f0",
