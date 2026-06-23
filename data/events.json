@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T04:19:34.563Z",
+  "generated_at": "2026-06-23T11:30:42.658Z",
   "source_timestamp": "06/21/2026 16:16",
   "content_hash": "3c4d7bb000ef8c91",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 293,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-23T04:19:30.014Z",
-      "last_attempt": "2026-06-23T04:19:30.014Z",
+      "last_ok": "2026-06-23T11:30:32.059Z",
+      "last_attempt": "2026-06-23T11:30:32.059Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-23T04:19:30.366Z",
-      "last_attempt": "2026-06-23T04:19:30.366Z",
+      "last_ok": "2026-06-23T11:30:32.445Z",
+      "last_attempt": "2026-06-23T11:30:32.445Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-23T04:19:32.580Z",
-      "last_attempt": "2026-06-23T04:19:32.580Z",
+      "last_ok": "2026-06-23T11:30:40.425Z",
+      "last_attempt": "2026-06-23T11:30:40.425Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-23T04:19:32.811Z",
-      "last_attempt": "2026-06-23T04:19:32.811Z",
+      "last_ok": "2026-06-23T11:30:40.877Z",
+      "last_attempt": "2026-06-23T11:30:40.877Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-23T04:19:32.988Z",
-      "last_attempt": "2026-06-23T04:19:32.988Z",
+      "last_ok": "2026-06-23T11:30:40.995Z",
+      "last_attempt": "2026-06-23T11:30:40.995Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-23T04:19:33.952Z",
-      "last_attempt": "2026-06-23T04:19:33.952Z",
+      "last_ok": "2026-06-23T11:30:42.188Z",
+      "last_attempt": "2026-06-23T11:30:42.188Z",
       "error": null
     }
   },
