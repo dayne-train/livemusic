@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T15:06:48.345Z",
+  "generated_at": "2026-06-24T18:09:35.196Z",
   "source_timestamp": "06/23/2026 07:20",
   "content_hash": "fb4f2565d0f550ed",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 311,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-24T15:06:43.754Z",
-      "last_attempt": "2026-06-24T15:06:43.754Z",
+      "last_ok": "2026-06-24T18:09:29.885Z",
+      "last_attempt": "2026-06-24T18:09:29.885Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-24T15:06:44.105Z",
-      "last_attempt": "2026-06-24T15:06:44.105Z",
+      "last_ok": "2026-06-24T18:09:30.358Z",
+      "last_attempt": "2026-06-24T18:09:30.358Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-24T15:06:46.290Z",
-      "last_attempt": "2026-06-24T15:06:46.290Z",
+      "last_ok": "2026-06-24T18:09:32.142Z",
+      "last_attempt": "2026-06-24T18:09:32.142Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-24T15:06:46.731Z",
-      "last_attempt": "2026-06-24T15:06:46.731Z",
+      "last_ok": "2026-06-24T18:09:32.557Z",
+      "last_attempt": "2026-06-24T18:09:32.557Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-24T15:06:46.807Z",
-      "last_attempt": "2026-06-24T15:06:46.807Z",
+      "last_ok": "2026-06-24T18:09:32.667Z",
+      "last_attempt": "2026-06-24T18:09:32.667Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-24T15:06:47.764Z",
-      "last_attempt": "2026-06-24T15:06:47.764Z",
+      "last_ok": "2026-06-24T18:09:33.513Z",
+      "last_attempt": "2026-06-24T18:09:33.513Z",
       "error": null
     }
   },
