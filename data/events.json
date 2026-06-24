@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-24T18:09:35.196Z",
+  "generated_at": "2026-06-24T21:44:29.110Z",
   "source_timestamp": "06/23/2026 07:20",
-  "content_hash": "fb4f2565d0f550ed",
+  "content_hash": "2f6280942f58a5b5",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 311,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-24T18:09:29.885Z",
-      "last_attempt": "2026-06-24T18:09:29.885Z",
+      "last_ok": "2026-06-24T21:44:23.752Z",
+      "last_attempt": "2026-06-24T21:44:23.752Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-06-24T18:09:30.358Z",
-      "last_attempt": "2026-06-24T18:09:30.358Z",
+      "last_ok": "2026-06-24T21:44:24.213Z",
+      "last_attempt": "2026-06-24T21:44:24.213Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-24T18:09:32.142Z",
-      "last_attempt": "2026-06-24T18:09:32.142Z",
+      "last_ok": "2026-06-24T21:44:26.599Z",
+      "last_attempt": "2026-06-24T21:44:26.599Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 2,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-24T18:09:32.557Z",
-      "last_attempt": "2026-06-24T18:09:32.557Z",
+      "last_ok": "2026-06-24T21:44:26.987Z",
+      "last_attempt": "2026-06-24T21:44:26.987Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-24T18:09:32.667Z",
-      "last_attempt": "2026-06-24T18:09:32.667Z",
+      "last_ok": "2026-06-24T21:44:27.117Z",
+      "last_attempt": "2026-06-24T21:44:27.117Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-24T18:09:33.513Z",
-      "last_attempt": "2026-06-24T18:09:33.513Z",
+      "last_ok": "2026-06-24T21:44:27.812Z",
+      "last_attempt": "2026-06-24T21:44:27.812Z",
       "error": null
     }
   },
@@ -6382,6 +6382,25 @@
       "genres": []
     },
     {
+      "id": "e841492f96ac9788",
+      "date": "2026-06-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "47eb981f4295936f",
       "date": "2026-07-01",
       "start_raw": "1700",
@@ -6509,6 +6528,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "502fee1d8b56e661",
+      "date": "2026-07-02",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Karaoke",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
