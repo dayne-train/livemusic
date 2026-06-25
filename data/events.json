@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-25T15:11:20.064Z",
+  "generated_at": "2026-06-25T18:24:40.158Z",
   "source_timestamp": "06/23/2026 07:20",
-  "content_hash": "1eeab9fa18af6a0f",
+  "content_hash": "9a68e5ccad6c1ad9",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 311,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-25T15:11:14.583Z",
-      "last_attempt": "2026-06-25T15:11:14.583Z",
+      "last_ok": "2026-06-25T18:24:36.576Z",
+      "last_attempt": "2026-06-25T18:24:36.576Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 23,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-06-25T15:11:14.986Z",
-      "last_attempt": "2026-06-25T15:11:14.986Z",
-      "error": null
+      "last_ok": "2026-06-25T18:24:37.037Z",
+      "last_attempt": "2026-06-25T18:24:37.037Z",
+      "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 2,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-06-25T15:11:17.594Z",
-      "last_attempt": "2026-06-25T15:11:17.594Z",
-      "error": null
+      "last_attempt": "2026-06-25T18:24:38.161Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-25T15:11:17.938Z",
-      "last_attempt": "2026-06-25T15:11:17.938Z",
+      "last_ok": "2026-06-25T18:24:38.264Z",
+      "last_attempt": "2026-06-25T18:24:38.264Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-25T15:11:18.195Z",
-      "last_attempt": "2026-06-25T15:11:18.195Z",
+      "last_ok": "2026-06-25T18:24:38.441Z",
+      "last_attempt": "2026-06-25T18:24:38.441Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-06-25T15:11:19.526Z",
-      "last_attempt": "2026-06-25T15:11:19.526Z",
+      "last_ok": "2026-06-25T18:24:39.428Z",
+      "last_attempt": "2026-06-25T18:24:39.428Z",
       "error": null
     }
   },
@@ -3478,17 +3478,6 @@
         "musiclist_txt"
       ]
     },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
-    },
     "Butler Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -6373,23 +6362,6 @@
       "genres": []
     },
     {
-      "id": "0057b99986c842d5",
-      "date": "2026-06-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Kota Dosa",
-      "genre": "",
-      "link": "https://talentclublive.com/event/kota-dosa/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/kota-dosa/",
-      "genres": []
-    },
-    {
       "id": "e841492f96ac9788",
       "date": "2026-06-30",
       "start_raw": "2000",
@@ -6747,48 +6719,6 @@
       "source_url": null,
       "genres": [
         "Country"
-      ]
-    },
-    {
-      "id": "f3abd468017f7ede",
-      "date": "2026-07-04",
-      "start_raw": "2000",
-      "end_raw": "0200",
-      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
-      "genre": "",
-      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "link_name": "",
-      "venue": "Historic Ashland Armory",
-      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "genres": [
-        "Electronic / DJ"
-      ]
-    },
-    {
-      "id": "0ccfc580d5cf8aaf",
-      "date": "2026-07-05",
-      "start_raw": "1200",
-      "end_raw": "1900",
-      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
-      "genre": "",
-      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "0ccfc580d5cf8aaf"
-        }
-      ],
-      "genres": [
-        "Electronic / DJ"
       ]
     },
     {
@@ -7390,22 +7320,6 @@
       "genres": []
     },
     {
-      "id": "1f8988b1bab7eb22",
-      "date": "2026-07-18",
-      "start_raw": "1400",
-      "end_raw": "2100",
-      "musician": "'Flutes in the Park'",
-      "genre": "",
-      "link": "https://travelashland.com/event/flutes-in-the-park/",
-      "link_name": "",
-      "venue": "Lithia Park Butler Bandshell",
-      "notes": "Ashland Flute Circle welcomes back ‘Flutes in the Park’, July 18th, 2026 at the Bandshell (corner of Winburn Way and Nutley) in Lithia Park, Ashland, OR!\nThis is a family-friendly, outdoor, event (ple",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/flutes-in-the-park/",
-      "genres": []
-    },
-    {
       "id": "6df9909ec40c1305",
       "date": "2026-07-18",
       "start_raw": "1700",
@@ -7485,22 +7399,6 @@
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-july-19/",
-      "genres": []
-    },
-    {
-      "id": "15ecaa5e546a06f7",
-      "date": "2026-07-20",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-2/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
     },
     {
@@ -8951,23 +8849,6 @@
       "genres": [
         "Rock"
       ]
-    },
-    {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
-      "genres": []
     },
     {
       "id": "e7c8507716e27828",
