@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T04:38:44.444Z",
+  "generated_at": "2026-06-26T11:14:18.808Z",
   "source_timestamp": "06/25/2026 16:24",
   "content_hash": "1d64f40314c6b7c6",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 259,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-26T04:38:39.995Z",
-      "last_attempt": "2026-06-26T04:38:39.995Z",
+      "last_ok": "2026-06-26T11:14:13.890Z",
+      "last_attempt": "2026-06-26T11:14:13.890Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 21,
       "strategy": "live",
-      "last_ok": "2026-06-26T04:38:40.284Z",
-      "last_attempt": "2026-06-26T04:38:40.284Z",
+      "last_ok": "2026-06-26T11:14:14.386Z",
+      "last_attempt": "2026-06-26T11:14:14.386Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-26T04:38:42.443Z",
-      "last_attempt": "2026-06-26T04:38:42.443Z",
+      "last_ok": "2026-06-26T11:14:16.850Z",
+      "last_attempt": "2026-06-26T11:14:16.850Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-26T04:38:42.755Z",
-      "last_attempt": "2026-06-26T04:38:42.755Z",
+      "last_ok": "2026-06-26T11:14:17.204Z",
+      "last_attempt": "2026-06-26T11:14:17.204Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-26T04:38:42.890Z",
-      "last_attempt": "2026-06-26T04:38:42.890Z",
+      "last_ok": "2026-06-26T11:14:17.274Z",
+      "last_attempt": "2026-06-26T11:14:17.274Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-26T04:38:43.897Z",
-      "last_attempt": "2026-06-26T04:38:43.897Z",
+      "last_ok": "2026-06-26T11:14:18.109Z",
+      "last_attempt": "2026-06-26T11:14:18.109Z",
       "error": null
     }
   },
