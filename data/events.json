@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T18:03:15.486Z",
+  "generated_at": "2026-06-26T21:39:56.668Z",
   "source_timestamp": "06/26/2026 07:47",
   "content_hash": "f6be690172add15b",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 265,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-26T18:03:09.855Z",
-      "last_attempt": "2026-06-26T18:03:09.855Z",
+      "last_ok": "2026-06-26T21:39:48.051Z",
+      "last_attempt": "2026-06-26T21:39:48.051Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 21,
       "strategy": "live",
-      "last_ok": "2026-06-26T18:03:10.228Z",
-      "last_attempt": "2026-06-26T18:03:10.228Z",
+      "last_ok": "2026-06-26T21:39:48.430Z",
+      "last_attempt": "2026-06-26T21:39:48.430Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-26T18:03:12.881Z",
-      "last_attempt": "2026-06-26T18:03:12.881Z",
+      "last_ok": "2026-06-26T21:39:54.633Z",
+      "last_attempt": "2026-06-26T21:39:54.633Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-26T18:03:13.331Z",
-      "last_attempt": "2026-06-26T18:03:13.331Z",
+      "last_ok": "2026-06-26T21:39:55.087Z",
+      "last_attempt": "2026-06-26T21:39:55.087Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-26T18:03:13.506Z",
-      "last_attempt": "2026-06-26T18:03:13.506Z",
+      "last_ok": "2026-06-26T21:39:55.311Z",
+      "last_attempt": "2026-06-26T21:39:55.311Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-26T18:03:14.602Z",
-      "last_attempt": "2026-06-26T18:03:14.602Z",
+      "last_ok": "2026-06-26T21:39:56.052Z",
+      "last_attempt": "2026-06-26T21:39:56.052Z",
       "error": null
     }
   },
