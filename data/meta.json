@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T21:19:04.501Z",
+  "fetched_at": "2026-06-29T04:58:40.007Z",
   "source_timestamp": "06/26/2026 07:47",
   "bytes": 53552,
   "sources": {
@@ -7,53 +7,53 @@
       "ok": true,
       "count": 265,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-28T21:18:56.126Z",
-      "last_attempt": "2026-06-28T21:18:56.126Z",
+      "last_ok": "2026-06-29T04:58:35.153Z",
+      "last_attempt": "2026-06-29T04:58:35.153Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 16,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:18:56.503Z",
-      "last_attempt": "2026-06-28T21:18:56.503Z",
+      "last_ok": "2026-06-29T04:58:35.560Z",
+      "last_attempt": "2026-06-29T04:58:35.560Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:19:02.411Z",
-      "last_attempt": "2026-06-28T21:19:02.411Z",
+      "last_ok": "2026-06-29T04:58:38.190Z",
+      "last_attempt": "2026-06-29T04:58:38.190Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:19:02.837Z",
-      "last_attempt": "2026-06-28T21:19:02.837Z",
+      "last_ok": "2026-06-29T04:58:38.497Z",
+      "last_attempt": "2026-06-29T04:58:38.497Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:19:03.035Z",
-      "last_attempt": "2026-06-28T21:19:03.035Z",
+      "last_ok": "2026-06-29T04:58:38.626Z",
+      "last_attempt": "2026-06-29T04:58:38.626Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:19:04.081Z",
-      "last_attempt": "2026-06-28T21:19:04.081Z",
+      "last_ok": "2026-06-29T04:58:39.419Z",
+      "last_attempt": "2026-06-29T04:58:39.419Z",
       "error": null
     }
   },
-  "event_count": 292,
+  "event_count": 289,
   "venue_count": 315,
-  "deduped": 4,
-  "content_hash": "7bcd958f7d012e5b"
+  "deduped": 3,
+  "content_hash": "ef49b2efb13b7ebd"
 }

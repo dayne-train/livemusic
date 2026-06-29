@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-28T21:19:04.501Z",
+  "generated_at": "2026-06-29T04:58:40.007Z",
   "source_timestamp": "06/26/2026 07:47",
-  "content_hash": "7bcd958f7d012e5b",
+  "content_hash": "ef49b2efb13b7ebd",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 265,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-28T21:18:56.126Z",
-      "last_attempt": "2026-06-28T21:18:56.126Z",
+      "last_ok": "2026-06-29T04:58:35.153Z",
+      "last_attempt": "2026-06-29T04:58:35.153Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 16,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:18:56.503Z",
-      "last_attempt": "2026-06-28T21:18:56.503Z",
+      "last_ok": "2026-06-29T04:58:35.560Z",
+      "last_attempt": "2026-06-29T04:58:35.560Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:19:02.411Z",
-      "last_attempt": "2026-06-28T21:19:02.411Z",
+      "last_ok": "2026-06-29T04:58:38.190Z",
+      "last_attempt": "2026-06-29T04:58:38.190Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:19:02.837Z",
-      "last_attempt": "2026-06-28T21:19:02.837Z",
+      "last_ok": "2026-06-29T04:58:38.497Z",
+      "last_attempt": "2026-06-29T04:58:38.497Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:19:03.035Z",
-      "last_attempt": "2026-06-28T21:19:03.035Z",
+      "last_ok": "2026-06-29T04:58:38.626Z",
+      "last_attempt": "2026-06-29T04:58:38.626Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-28T21:19:04.081Z",
-      "last_attempt": "2026-06-28T21:19:04.081Z",
+      "last_ok": "2026-06-29T04:58:39.419Z",
+      "last_attempt": "2026-06-29T04:58:39.419Z",
       "error": null
     }
   },
@@ -4812,25 +4812,6 @@
       "genres": []
     },
     {
-      "id": "2736ea89f8dfbacc",
-      "date": "2026-06-28",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "4ba848138b05fa99",
       "date": "2026-06-28",
       "start_raw": "1500",
@@ -4993,43 +4974,19 @@
       "genres": []
     },
     {
-      "id": "30f647d4fc0e879b",
-      "date": "2026-06-28",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "Vanessa Finney Jazz Duet",
-      "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-june-28/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Vanessa is a singer based in Ashland, OR. \nJoin us at RoxyAnn Winery for a Sunday afternoon of dancing and fun as we welcome Southern Oregon’s Vanessa Finney to the tasting room! Listen to live music ",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-june-28/",
-      "genres": [
-        "Jazz"
-      ]
-    },
-    {
       "id": "895315701e7357c5",
       "date": "2026-06-28",
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Rogue Suspects",
       "genre": "classic rock",
-      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "$15-$20; Aretha Franklin tribute",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-aretha-franklin-tribute/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "51e63283e045020d"
-        }
-      ],
+      "source_url": null,
       "genres": [
         "Rock"
       ]
@@ -5113,24 +5070,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "42d934a4ca0b9af3",
-      "date": "2026-06-28",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "The Stella Heath Group, From Billie Holiday to Edith Piaf",
-      "genre": "",
-      "link": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presentsthe-stella-heath-group-from-billie-holiday-to-edith-piaf/",
-      "link_name": "",
-      "venue": "Grizzly Peak Winery",
-      "notes": "Siskiyou Music Project welcomes Bay Area vocalist Stella Heath and her group for her first southern Oregon performance. She’ll be presenting “From Billie Holiday to Edith Piaf which blends a jazz mano",
-      "event_type": "Band",
-      "source": "tribe_ics:grizzly_peak",
-      "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presentsthe-stella-heath-group-from-billie-holiday-to-edith-piaf/",
-      "genres": [
-        "Jazz"
-      ]
     },
     {
       "id": "af45d69819be3c12",
