@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-29T04:58:40.007Z",
+  "generated_at": "2026-06-29T12:41:52.616Z",
   "source_timestamp": "06/26/2026 07:47",
-  "content_hash": "ef49b2efb13b7ebd",
+  "content_hash": "a97751006f9221f3",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 265,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-29T04:58:35.153Z",
-      "last_attempt": "2026-06-29T04:58:35.153Z",
+      "last_ok": "2026-06-29T12:41:47.448Z",
+      "last_attempt": "2026-06-29T12:41:47.448Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-06-29T04:58:35.560Z",
-      "last_attempt": "2026-06-29T04:58:35.560Z",
-      "error": null
+      "last_ok": "2026-06-29T12:41:47.754Z",
+      "last_attempt": "2026-06-29T12:41:47.754Z",
+      "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-29T04:58:38.190Z",
-      "last_attempt": "2026-06-29T04:58:38.190Z",
+      "last_ok": "2026-06-29T12:41:50.450Z",
+      "last_attempt": "2026-06-29T12:41:50.450Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-29T04:58:38.497Z",
-      "last_attempt": "2026-06-29T04:58:38.497Z",
+      "last_ok": "2026-06-29T12:41:50.929Z",
+      "last_attempt": "2026-06-29T12:41:50.929Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-29T04:58:38.626Z",
-      "last_attempt": "2026-06-29T04:58:38.626Z",
+      "last_ok": "2026-06-29T12:41:51.113Z",
+      "last_attempt": "2026-06-29T12:41:51.113Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-06-29T04:58:39.419Z",
-      "last_attempt": "2026-06-29T04:58:39.419Z",
+      "last_ok": "2026-06-29T12:41:52.112Z",
+      "last_attempt": "2026-06-29T12:41:52.112Z",
       "error": null
     }
   },
@@ -358,8 +358,7 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt",
-        "tribe_ics"
+        "musiclist_txt"
       ]
     },
     "Bellview Grange": {
