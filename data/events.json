@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-30T04:33:15.338Z",
+  "generated_at": "2026-06-30T11:21:15.271Z",
   "source_timestamp": "06/26/2026 07:47",
-  "content_hash": "d683798ffb65562f",
+  "content_hash": "6228dfc55cbceae0",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 265,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-30T04:33:11.501Z",
-      "last_attempt": "2026-06-30T04:33:11.501Z",
+      "last_ok": "2026-06-30T11:21:09.903Z",
+      "last_attempt": "2026-06-30T11:21:09.903Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 11,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-06-30T04:33:11.880Z",
-      "last_attempt": "2026-06-30T04:33:11.880Z",
-      "error": "belle_fiore: belle_fiore no VEVENT in response; travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-06-30T11:21:10.349Z",
+      "last_attempt": "2026-06-30T11:21:10.349Z",
+      "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-06-29T21:43:44.183Z",
-      "last_attempt": "2026-06-30T04:33:13.028Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 2,
+      "strategy": "live",
+      "last_ok": "2026-06-30T11:21:12.899Z",
+      "last_attempt": "2026-06-30T11:21:12.899Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-06-30T04:33:13.265Z",
-      "last_attempt": "2026-06-30T04:33:13.265Z",
+      "last_ok": "2026-06-30T11:21:13.285Z",
+      "last_attempt": "2026-06-30T11:21:13.285Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-30T04:33:13.383Z",
-      "last_attempt": "2026-06-30T04:33:13.383Z",
+      "last_ok": "2026-06-30T11:21:13.362Z",
+      "last_attempt": "2026-06-30T11:21:13.362Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-30T04:33:14.754Z",
-      "last_attempt": "2026-06-30T04:33:14.754Z",
+      "last_ok": "2026-06-30T11:21:14.552Z",
+      "last_attempt": "2026-06-30T11:21:14.552Z",
       "error": null
     }
   },
@@ -3488,6 +3488,17 @@
         "musiclist_txt"
       ]
     },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
+    },
     "Butler Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -5131,6 +5142,23 @@
       "genres": []
     },
     {
+      "id": "0057b99986c842d5",
+      "date": "2026-06-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Kota Dosa",
+      "genre": "",
+      "link": "https://talentclublive.com/event/kota-dosa/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/kota-dosa/",
+      "genres": []
+    },
+    {
       "id": "e841492f96ac9788",
       "date": "2026-06-30",
       "start_raw": "2000",
@@ -5630,6 +5658,48 @@
       "source_url": null,
       "genres": [
         "Country"
+      ]
+    },
+    {
+      "id": "f3abd468017f7ede",
+      "date": "2026-07-04",
+      "start_raw": "2000",
+      "end_raw": "0200",
+      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
+      "genre": "",
+      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
+      "link_name": "",
+      "venue": "Historic Ashland Armory",
+      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
+      "genres": [
+        "Electronic / DJ"
+      ]
+    },
+    {
+      "id": "0ccfc580d5cf8aaf",
+      "date": "2026-07-05",
+      "start_raw": "1200",
+      "end_raw": "1900",
+      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
+      "genre": "",
+      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "link_name": "",
+      "venue": "Lithia Park Bandshell",
+      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "0ccfc580d5cf8aaf"
+        }
+      ],
+      "genres": [
+        "Electronic / DJ"
       ]
     },
     {
@@ -6435,6 +6505,22 @@
       "genres": []
     },
     {
+      "id": "1f8988b1bab7eb22",
+      "date": "2026-07-18",
+      "start_raw": "1400",
+      "end_raw": "2100",
+      "musician": "'Flutes in the Park'",
+      "genre": "",
+      "link": "https://travelashland.com/event/flutes-in-the-park/",
+      "link_name": "",
+      "venue": "Lithia Park Butler Bandshell",
+      "notes": "Ashland Flute Circle welcomes back ‘Flutes in the Park’, July 18th, 2026 at the Bandshell (corner of Winburn Way and Nutley) in Lithia Park, Ashland, OR!\nThis is a family-friendly, outdoor, event (ple",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/flutes-in-the-park/",
+      "genres": []
+    },
+    {
       "id": "6df9909ec40c1305",
       "date": "2026-07-18",
       "start_raw": "1700",
@@ -6546,6 +6632,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "15ecaa5e546a06f7",
+      "date": "2026-07-20",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-2/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
     },
     {
@@ -7208,6 +7310,22 @@
       ]
     },
     {
+      "id": "9b72869de1a402e4",
+      "date": "2026-08-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Siskiyou Music Project Presents:  Komaga Trio",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Siskiyou Music Project welcomes for the first time to southern Oregon the Komaga Trio! \nVirtuosity and daring improvisation define this ensemble. Harp innovator Motoshi Kosako, fretless-bass legend Mi",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "genres": []
+    },
+    {
       "id": "9952d00f16a3d21b",
       "date": "2026-08-19",
       "start_raw": "1800",
@@ -7808,6 +7926,24 @@
       "genres": []
     },
     {
+      "id": "d6268e1569075a0f",
+      "date": "2026-10-01",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Siskiyou Music Project Presents:  Holly Hofmann/Randy Porter Duo",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/the-siskiyou-music-project-presents-holly-hofmann-randy-porter-duo/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Siskiyou Music Project welcomes back jazz flutist Holly Hofmann and pianist Randy Porter for an evening of jazz duets at the Grizzly Peak Performance Space. This will be Holly’s first performance for ",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/the-siskiyou-music-project-presents-holly-hofmann-randy-porter-duo/",
+      "genres": [
+        "Jazz"
+      ]
+    },
+    {
       "id": "6b43035a25f402af",
       "date": "2026-10-02",
       "start_raw": "1700",
@@ -8014,6 +8150,23 @@
       ]
     },
     {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
+    },
+    {
       "id": "e7c8507716e27828",
       "date": "2026-10-23",
       "start_raw": "1700",
@@ -8129,6 +8282,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3b26e4eb53173f97",
+      "date": "2026-11-21",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Alexander Tutunov & Kinga Augustyn",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presents-alexander-tutunov-kinga-augustyn/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "SMP welcomes back Ashlands own, pianist Alexander Tutunov and New York based violinist Kinga Augustyn in performance at the Grizzly Peak Winery Performance Space on Saturday, November 21 at 3 p.m.  Ne",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presents-alexander-tutunov-kinga-augustyn/",
       "genres": []
     },
     {
