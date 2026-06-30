@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-30T18:13:41.114Z",
-  "source_timestamp": "06/26/2026 07:47",
-  "content_hash": "6228dfc55cbceae0",
+  "generated_at": "2026-06-30T21:46:07.936Z",
+  "source_timestamp": "06/30/2026 13:57",
+  "content_hash": "ebebf3776949fcba",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 265,
+      "count": 316,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-06-30T18:13:36.938Z",
-      "last_attempt": "2026-06-30T18:13:36.938Z",
+      "last_ok": "2026-06-30T21:45:59.444Z",
+      "last_attempt": "2026-06-30T21:45:59.444Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-06-30T18:13:37.282Z",
-      "last_attempt": "2026-06-30T18:13:37.282Z",
+      "last_ok": "2026-06-30T21:45:59.872Z",
+      "last_attempt": "2026-06-30T21:45:59.872Z",
       "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-30T18:13:39.083Z",
-      "last_attempt": "2026-06-30T18:13:39.083Z",
+      "last_ok": "2026-06-30T21:46:04.026Z",
+      "last_attempt": "2026-06-30T21:46:04.026Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 6,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-06-30T18:13:39.515Z",
-      "last_attempt": "2026-06-30T18:13:39.515Z",
+      "last_ok": "2026-06-30T21:46:04.643Z",
+      "last_attempt": "2026-06-30T21:46:04.643Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-06-30T18:13:39.625Z",
-      "last_attempt": "2026-06-30T18:13:39.625Z",
+      "last_ok": "2026-06-30T21:46:05.996Z",
+      "last_attempt": "2026-06-30T21:46:05.996Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-06-30T18:13:40.417Z",
-      "last_attempt": "2026-06-30T18:13:40.417Z",
+      "last_ok": "2026-06-30T21:46:07.396Z",
+      "last_attempt": "2026-06-30T21:46:07.396Z",
       "error": null
     }
   },
@@ -5242,6 +5242,22 @@
       "genres": []
     },
     {
+      "id": "1bd43637a6a75085",
+      "date": "2026-07-01",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "bec8df08e22f9e6d",
       "date": "2026-07-01",
       "start_raw": "1800",
@@ -5324,6 +5340,22 @@
       ]
     },
     {
+      "id": "1ed04b469409abee",
+      "date": "2026-07-02",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "musician": "Craig Martin",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "54cf1520fa6b2a62",
       "date": "2026-07-02",
       "start_raw": "1815",
@@ -5387,6 +5419,30 @@
       "source": "black_sheep",
       "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
+    },
+    {
+      "id": "8289fa22a370a1ae",
+      "date": "2026-07-03",
+      "start_raw": "1200",
+      "end_raw": "1400",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "Lithia Artisans Market",
+      "notes": "1st Friday",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "merged_from": [
+        {
+          "source": "musiclist_txt",
+          "id": "f0a85c7f3f578287"
+        }
+      ],
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "c4b95c34dba1cbf3",
@@ -5539,6 +5595,22 @@
       "genres": []
     },
     {
+      "id": "66ad0dd0eb9a222c",
+      "date": "2026-07-03",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Brandon Beebe",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "3b84154635031790",
       "date": "2026-07-03",
       "start_raw": "1800",
@@ -5548,7 +5620,7 @@
       "link": "https://roxyann.com/event/music-wine-series-featuring-fretdrifters-july-3/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Unfortunately, there was a mix-up with the Fret Drifters and they doubled booked themselves. Therefore, music for Friday, July 3rd has been canceled.  Happy 4th of July!!",
+      "notes": "CANCELED",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-fretdrifters-july-3/",
@@ -5611,6 +5683,22 @@
       ]
     },
     {
+      "id": "52717f151f283378",
+      "date": "2026-07-04",
+      "start_raw": "1300",
+      "end_raw": "1500",
+      "musician": "The Giantess",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "956a217122cae065",
       "date": "2026-07-04",
       "start_raw": "1500",
@@ -5620,6 +5708,22 @@
       "link": "",
       "link_name": "",
       "venue": "Dwell Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fb315f644b2bd302",
+      "date": "2026-07-04",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Mike Brons Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -5868,7 +5972,7 @@
       ]
     },
     {
-      "id": "f93a02ebc4e641a8",
+      "id": "9c3c6a11d62d4d3e",
       "date": "2026-07-05",
       "start_raw": "1600",
       "end_raw": "1800",
@@ -5879,8 +5983,30 @@
       "venue": "Roxy Ann Winery",
       "notes": "Case is a vocalist, songwriter, & producer. Join us at RoxyAnn Winery for a Sunday afternoon of music and fun in the tasting room!\n\nListen to live music while sipping on some delicious & award-winning",
       "event_type": "Band",
-      "source": "tribe_ics:roxyann",
+      "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-case-watson-july-5/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "f93a02ebc4e641a8"
+        }
+      ],
+      "genres": []
+    },
+    {
+      "id": "d24d2458afceb756",
+      "date": "2026-07-05",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Grant Ruiz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -6001,6 +6127,38 @@
       "genres": []
     },
     {
+      "id": "c5f814cd18fe1e7b",
+      "date": "2026-07-08",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "40569a34c8f4e192",
+      "date": "2026-07-08",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "Wine & dine",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "56394339254b9399",
       "date": "2026-07-08",
       "start_raw": "1830",
@@ -6017,6 +6175,24 @@
       "genres": [
         "Jazz",
         "Funk / Soul"
+      ]
+    },
+    {
+      "id": "ed1054aeed8ce6f6",
+      "date": "2026-07-09",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "musician": "Sage Meadows Country Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
       ]
     },
     {
@@ -6110,6 +6286,22 @@
       ]
     },
     {
+      "id": "9153db7c57865141",
+      "date": "2026-07-10",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Shine On",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "83caed1b51a83cb4",
       "date": "2026-07-10",
       "start_raw": "1800",
@@ -6119,6 +6311,22 @@
       "link": "",
       "link_name": "",
       "venue": "Remotion Wine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "54045c387b126d7d",
+      "date": "2026-07-10",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Jared Gutridge",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6174,6 +6382,22 @@
       "genres": []
     },
     {
+      "id": "22566724eeac0a71",
+      "date": "2026-07-11",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Mark Hill",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "50864a3144e4960a",
       "date": "2026-07-11",
       "start_raw": "1700",
@@ -6203,6 +6427,12 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
+      "merged_from": [
+        {
+          "source": "musiclist_txt",
+          "id": "1eaef5d53d10c838"
+        }
+      ],
       "genres": [
         "Jazz"
       ]
@@ -6238,6 +6468,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "4f1892898f609c52",
+      "date": "2026-07-12",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "musician": "Frankie Hernandez",
+      "genre": "soul, funk, reggae",
+      "link": "",
+      "link_name": "",
+      "venue": "Walport Family Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Reggae",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "1aa379dafd88e2ff",
@@ -6286,6 +6535,22 @@
       "link": "",
       "link_name": "",
       "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2d79a6144262168a",
+      "date": "2026-07-12",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "JustaDuo",
+      "genre": "easy listening",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6391,6 +6656,25 @@
       ]
     },
     {
+      "id": "600428c7df23c9a9",
+      "date": "2026-07-14",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "27248c1144063dad",
       "date": "2026-07-15",
       "start_raw": "1830",
@@ -6423,6 +6707,24 @@
       "genres": []
     },
     {
+      "id": "263a38066b09845c",
+      "date": "2026-07-16",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "musician": "Uncle Dave Country",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "with Robbie DaCosta",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
+    },
+    {
       "id": "dbd556b105660d80",
       "date": "2026-07-16",
       "start_raw": "1830",
@@ -6432,6 +6734,22 @@
       "link": "",
       "link_name": "",
       "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2231ee21bd848c1c",
+      "date": "2026-07-17",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Mike Brons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6521,6 +6839,22 @@
       "genres": []
     },
     {
+      "id": "0dfb9d7bd00e7b71",
+      "date": "2026-07-18",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "The Giantess",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "6df9909ec40c1305",
       "date": "2026-07-18",
       "start_raw": "1700",
@@ -6585,6 +6919,74 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "a23f78c46e5677ec",
+      "date": "2026-07-18",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "Grant Ruiz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "b60a01700c325092",
+      "date": "2026-07-19",
+      "start_raw": "1230",
+      "end_raw": "1430",
+      "musician": "Brothers Reed",
+      "genre": "Folk",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Folk"
+      ]
+    },
+    {
+      "id": "77c88fbf06529499",
+      "date": "2026-07-19",
+      "start_raw": "1300",
+      "end_raw": "1500",
+      "musician": "Jim Friend",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Sams Creek Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "39529628998d866f",
+      "date": "2026-07-19",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "musician": "Sterling Vintage Jazz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Walport Family Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "dd9342d1fd0df9f3",
@@ -6667,6 +7069,22 @@
       "genres": []
     },
     {
+      "id": "4aea01eed7fb7581",
+      "date": "2026-07-22",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "6fea5844ff4f1fc9",
       "date": "2026-07-22",
       "start_raw": "1830",
@@ -6683,6 +7101,38 @@
       "genres": [
         "Country"
       ]
+    },
+    {
+      "id": "0f9c6af4cde28af2",
+      "date": "2026-07-23",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Canto Sol Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "Canto Sol",
+      "venue": "Café Lumina",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5110fdcb529d46f2",
+      "date": "2026-07-23",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Wild Goose Chase Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a1ff197258914530",
@@ -6703,6 +7153,22 @@
       ]
     },
     {
+      "id": "0f97e4bf3e15c425",
+      "date": "2026-07-24",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Aaron Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "04ec2c8d98cefdb9",
       "date": "2026-07-24",
       "start_raw": "1700",
@@ -6712,6 +7178,22 @@
       "link": "",
       "link_name": "",
       "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7ffc18b0ec623da7",
+      "date": "2026-07-24",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Dennis Konecny",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6807,6 +7289,22 @@
       "genres": []
     },
     {
+      "id": "68005d34ae8a72ac",
+      "date": "2026-07-25",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Ann Kelly & Mark Ross",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "0628e3ced1747cf5",
       "date": "2026-07-25",
       "start_raw": "1700",
@@ -6821,6 +7319,40 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "7453e682b1a65cb3",
+      "date": "2026-07-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Fernando Aragon & Friends",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1c8cf0e2a2dc10e8",
+      "date": "2026-07-25",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "d5218baf49799096",
@@ -6855,6 +7387,40 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "18cd305b337b03de",
+      "date": "2026-07-26",
+      "start_raw": "1300",
+      "end_raw": "1600",
+      "musician": "Bekkah McAlvage",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wooldridge Creek Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "678a3fe3ee6b2e20",
+      "date": "2026-07-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Sterling Vintage Jazz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "949013dacf571a8a",
@@ -6910,6 +7476,22 @@
       ]
     },
     {
+      "id": "160627411e83dcbf",
+      "date": "2026-07-27",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Mike Brons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "cf16e8c2cc330bd9",
       "date": "2026-07-27",
       "start_raw": "1900",
@@ -6960,6 +7542,38 @@
       "genres": []
     },
     {
+      "id": "3dcb2158c43d18e8",
+      "date": "2026-07-29",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e8abc549730249a6",
+      "date": "2026-07-30",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "musician": "Daisy and The Boys",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "8eabbdede2484aac",
       "date": "2026-07-31",
       "start_raw": "1700",
@@ -6994,6 +7608,22 @@
       "genres": []
     },
     {
+      "id": "526844735526ac11",
+      "date": "2026-07-31",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Grant Ruiz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Miner's Bazaar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "ab65bb50c13ab8aa",
       "date": "2026-07-31",
       "start_raw": "1800",
@@ -7010,6 +7640,22 @@
       "genres": [
         "Blues"
       ]
+    },
+    {
+      "id": "832dda81fade8d26",
+      "date": "2026-07-31",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "John Nilsen",
+      "genre": "piano",
+      "link": "",
+      "link_name": "",
+      "venue": "Gold Hill United Methodist Church",
+      "notes": "6:30 desert reception",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "380a0ae0b0a406d7",
@@ -7130,6 +7776,22 @@
       "genres": []
     },
     {
+      "id": "7672ec49f4d4247d",
+      "date": "2026-08-05",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "4a04f7ae4d654dfb",
       "date": "2026-08-05",
       "start_raw": "1800",
@@ -7139,6 +7801,38 @@
       "link": "",
       "link_name": "",
       "venue": "The Toasted Barrel",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9963694d6585b4f1",
+      "date": "2026-08-06",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "musician": "Craig Martin",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7f6304780ba2e4f4",
+      "date": "2026-08-07",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Trebled Souls",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7203,6 +7897,22 @@
       "link": "",
       "link_name": "",
       "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7d989714b6fc13a0",
+      "date": "2026-08-09",
+      "start_raw": "1300",
+      "end_raw": "1600",
+      "musician": "Joanna Serenk",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wooldridge Creek Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7276,6 +7986,22 @@
       "genres": []
     },
     {
+      "id": "f32e52ca3e25f8b9",
+      "date": "2026-08-12",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "47904aba19f7da11",
       "date": "2026-08-14",
       "start_raw": "1730",
@@ -7285,6 +8011,22 @@
       "link": "",
       "link_name": "Bim Jeam and the Sadness",
       "venue": "Galice Resort",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1b97aa6c5877d5a4",
+      "date": "2026-08-14",
+      "start_raw": "1730",
+      "end_raw": "2030",
+      "musician": "Jen Ambrose Ensemble",
+      "genre": "",
+      "link": "",
+      "link_name": "Jen Ambrose",
+      "venue": "Phoodery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7415,6 +8157,40 @@
       "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cb1202c1d21f2b2e",
+      "date": "2026-08-23",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Hersey Street Jazz Project",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
+    },
+    {
+      "id": "c1371888eac893e8",
+      "date": "2026-08-26",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7694,6 +8470,22 @@
       "genres": []
     },
     {
+      "id": "9fcdd2d13f5a1c19",
+      "date": "2026-09-11",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "6694bd5525a1bdd3",
       "date": "2026-09-12",
       "start_raw": "1330",
@@ -7735,6 +8527,22 @@
       "link": "",
       "link_name": "",
       "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "94f1ff8d3fe9ab83",
+      "date": "2026-09-12",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Fork In The Road",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Legend Cider",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7821,6 +8629,24 @@
       "source_url": null,
       "genres": [
         "Rock"
+      ]
+    },
+    {
+      "id": "bb3c5997a8e20209",
+      "date": "2026-09-19",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Backdoor Blues band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
       ]
     },
     {
