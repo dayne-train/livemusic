@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T18:15:44.642Z",
+  "generated_at": "2026-07-01T21:46:23.480Z",
   "source_timestamp": "07/01/2026 07:35",
   "content_hash": "925d444e3b79635a",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 410,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-01T18:15:35.380Z",
-      "last_attempt": "2026-07-01T18:15:35.380Z",
+      "last_ok": "2026-07-01T21:46:16.278Z",
+      "last_attempt": "2026-07-01T21:46:16.278Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 36,
       "strategy": "live",
-      "last_ok": "2026-07-01T18:15:35.762Z",
-      "last_attempt": "2026-07-01T18:15:35.762Z",
+      "last_ok": "2026-07-01T21:46:16.769Z",
+      "last_attempt": "2026-07-01T21:46:16.769Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-01T18:15:42.514Z",
-      "last_attempt": "2026-07-01T18:15:42.514Z",
+      "last_ok": "2026-07-01T21:46:19.157Z",
+      "last_attempt": "2026-07-01T21:46:19.157Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-01T18:15:42.638Z",
-      "last_attempt": "2026-07-01T18:15:42.638Z",
+      "last_ok": "2026-07-01T21:46:19.656Z",
+      "last_attempt": "2026-07-01T21:46:19.656Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-01T18:15:42.763Z",
-      "last_attempt": "2026-07-01T18:15:42.763Z",
+      "last_ok": "2026-07-01T21:46:21.267Z",
+      "last_attempt": "2026-07-01T21:46:21.267Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-07-01T18:15:43.577Z",
-      "last_attempt": "2026-07-01T18:15:43.577Z",
+      "last_ok": "2026-07-01T21:46:22.581Z",
+      "last_attempt": "2026-07-01T21:46:22.581Z",
       "error": null
     }
   },
