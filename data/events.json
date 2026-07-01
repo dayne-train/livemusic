@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-01T15:11:06.910Z",
+  "generated_at": "2026-07-01T18:15:44.642Z",
   "source_timestamp": "07/01/2026 07:35",
-  "content_hash": "1fc396cdd70d1929",
+  "content_hash": "925d444e3b79635a",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 410,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-01T15:11:02.736Z",
-      "last_attempt": "2026-07-01T15:11:02.736Z",
+      "last_ok": "2026-07-01T18:15:35.380Z",
+      "last_attempt": "2026-07-01T18:15:35.380Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 36,
       "strategy": "live",
-      "last_ok": "2026-07-01T15:11:03.029Z",
-      "last_attempt": "2026-07-01T15:11:03.029Z",
+      "last_ok": "2026-07-01T18:15:35.762Z",
+      "last_attempt": "2026-07-01T18:15:35.762Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-01T15:11:04.535Z",
-      "last_attempt": "2026-07-01T15:11:04.535Z",
+      "last_ok": "2026-07-01T18:15:42.514Z",
+      "last_attempt": "2026-07-01T18:15:42.514Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-01T15:11:04.855Z",
-      "last_attempt": "2026-07-01T15:11:04.855Z",
+      "last_ok": "2026-07-01T18:15:42.638Z",
+      "last_attempt": "2026-07-01T18:15:42.638Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-01T15:11:05.100Z",
-      "last_attempt": "2026-07-01T15:11:05.100Z",
+      "last_ok": "2026-07-01T18:15:42.763Z",
+      "last_attempt": "2026-07-01T18:15:42.763Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-07-01T15:11:06.047Z",
-      "last_attempt": "2026-07-01T15:11:06.047Z",
+      "last_ok": "2026-07-01T18:15:43.577Z",
+      "last_attempt": "2026-07-01T18:15:43.577Z",
       "error": null
     }
   },
@@ -6092,7 +6092,7 @@
       "link": "https://roxyann.com/event/music-wine-series-featuring-case-watson-july-5/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Case is a vocalist, songwriter, & producer. Join us at RoxyAnn Winery for a Sunday afternoon of music and fun in the tasting room!\n\nListen to live music while sipping on some delicious & award-winning",
+      "notes": "One-woman band Case Watson offers a warm Welcome to the End of the World in this award-winning multimedia show. With a voice that could halt a thousand ships, she weaves original songs, projections, a",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-case-watson-july-5/",
@@ -6102,7 +6102,9 @@
           "id": "f93a02ebc4e641a8"
         }
       ],
-      "genres": []
+      "genres": [
+        "World"
+      ]
     },
     {
       "id": "d24d2458afceb756",
