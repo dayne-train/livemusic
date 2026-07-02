@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T18:01:35.704Z",
+  "fetched_at": "2026-07-02T21:31:05.717Z",
   "source_timestamp": "07/01/2026 07:35",
   "bytes": 62955,
   "sources": {
@@ -7,16 +7,16 @@
       "ok": true,
       "count": 410,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-02T18:01:32.588Z",
-      "last_attempt": "2026-07-02T18:01:32.588Z",
+      "last_ok": "2026-07-02T21:31:01.956Z",
+      "last_attempt": "2026-07-02T21:31:01.956Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 30,
       "strategy": "live",
-      "last_ok": "2026-07-02T18:01:33.025Z",
-      "last_attempt": "2026-07-02T18:01:33.025Z",
+      "last_ok": "2026-07-02T21:31:02.552Z",
+      "last_attempt": "2026-07-02T21:31:02.552Z",
       "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
@@ -24,31 +24,31 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-07-02T14:27:46.011Z",
-      "last_attempt": "2026-07-02T18:01:34.139Z",
+      "last_attempt": "2026-07-02T21:31:03.598Z",
       "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-02T18:01:34.340Z",
-      "last_attempt": "2026-07-02T18:01:34.340Z",
+      "last_ok": "2026-07-02T21:31:03.876Z",
+      "last_attempt": "2026-07-02T21:31:03.876Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-02T18:01:34.474Z",
-      "last_attempt": "2026-07-02T18:01:34.474Z",
+      "last_ok": "2026-07-02T21:31:04.056Z",
+      "last_attempt": "2026-07-02T21:31:04.056Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-02T18:01:35.073Z",
-      "last_attempt": "2026-07-02T18:01:35.073Z",
+      "last_ok": "2026-07-02T21:31:05.016Z",
+      "last_attempt": "2026-07-02T21:31:05.016Z",
       "error": null
     }
   },
