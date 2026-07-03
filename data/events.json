@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T17:46:42.750Z",
+  "generated_at": "2026-07-03T21:30:50.734Z",
   "source_timestamp": "07/02/2026 16:07",
   "content_hash": "aa6767d0363978c2",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 365,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-03T17:46:39.354Z",
-      "last_attempt": "2026-07-03T17:46:39.354Z",
+      "last_ok": "2026-07-03T21:30:46.334Z",
+      "last_attempt": "2026-07-03T21:30:46.334Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 36,
       "strategy": "live",
-      "last_ok": "2026-07-03T17:46:39.606Z",
-      "last_attempt": "2026-07-03T17:46:39.606Z",
+      "last_ok": "2026-07-03T21:30:46.633Z",
+      "last_attempt": "2026-07-03T21:30:46.633Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-03T17:46:40.986Z",
-      "last_attempt": "2026-07-03T17:46:40.986Z",
+      "last_ok": "2026-07-03T21:30:48.828Z",
+      "last_attempt": "2026-07-03T21:30:48.828Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-03T17:46:41.232Z",
-      "last_attempt": "2026-07-03T17:46:41.232Z",
+      "last_ok": "2026-07-03T21:30:49.163Z",
+      "last_attempt": "2026-07-03T21:30:49.163Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-03T17:46:41.408Z",
-      "last_attempt": "2026-07-03T17:46:41.408Z",
+      "last_ok": "2026-07-03T21:30:49.367Z",
+      "last_attempt": "2026-07-03T21:30:49.367Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-07-03T17:46:42.222Z",
-      "last_attempt": "2026-07-03T17:46:42.222Z",
+      "last_ok": "2026-07-03T21:30:50.112Z",
+      "last_attempt": "2026-07-03T21:30:50.112Z",
       "error": null
     }
   },
