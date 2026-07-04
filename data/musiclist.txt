@@ -1,5 +1,5 @@
 --timestamp
-07/02/2026 16:07
+07/04/2026 08:43
 --news
 * date | notes
 --musicians
@@ -736,6 +736,7 @@ Craig Martin||||Wild Goose Cafe||08/06/26|1800|2030||Band|
 Jeff Kloetzel||||Dancin Vineyards||08/07/26|1700|1900||Band|
 Trebled Souls||||Phoodery||08/07/26|1800|2000||Band|
 Steve Swift|||Steve Shine Swing|Remotion Wine||08/07/26|1800|2000||Band|
+Santa Fe Band||||South Stage Cellars||08/07/26|1800|2000||Band|
 The Gus Factor||||The Wonder Bur Cafe||08/07/26|2000|2300||Band|
 Enoch and David||||Red Lily Vineyards||08/08/26|1500|1700||Band|
 The Giantess||||Stone River Winery||08/08/26|1700|1900||Band|
