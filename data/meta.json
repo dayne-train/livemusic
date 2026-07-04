@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T10:24:49.876Z",
+  "fetched_at": "2026-07-04T13:56:33.789Z",
   "source_timestamp": "07/02/2026 16:07",
   "bytes": 59662,
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 365,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-04T10:24:37.814Z",
-      "last_attempt": "2026-07-04T10:24:37.814Z",
+      "last_ok": "2026-07-04T13:56:30.755Z",
+      "last_attempt": "2026-07-04T13:56:30.755Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 29,
       "strategy": "live",
-      "last_ok": "2026-07-04T10:24:38.078Z",
-      "last_attempt": "2026-07-04T10:24:38.078Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-07-04T13:56:31.054Z",
+      "last_attempt": "2026-07-04T13:56:31.054Z",
+      "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
       "ok": false,
       "count": 0,
       "strategy": null,
       "last_ok": "2026-07-04T04:00:18.074Z",
-      "last_attempt": "2026-07-04T10:24:48.353Z",
+      "last_attempt": "2026-07-04T13:56:32.047Z",
       "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-04T10:24:48.453Z",
-      "last_attempt": "2026-07-04T10:24:48.453Z",
+      "last_ok": "2026-07-04T13:56:32.202Z",
+      "last_attempt": "2026-07-04T13:56:32.202Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-04T10:24:48.555Z",
-      "last_attempt": "2026-07-04T10:24:48.555Z",
+      "last_ok": "2026-07-04T13:56:32.334Z",
+      "last_attempt": "2026-07-04T13:56:32.334Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-07-04T10:24:49.497Z",
-      "last_attempt": "2026-07-04T10:24:49.497Z",
+      "last_ok": "2026-07-04T13:56:33.101Z",
+      "last_attempt": "2026-07-04T13:56:33.101Z",
       "error": null
     }
   },
