@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T14:08:11.718Z",
+  "generated_at": "2026-07-05T17:31:46.971Z",
   "source_timestamp": "07/04/2026 08:43",
   "content_hash": "76c70022c3fed2d3",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 366,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-05T14:08:08.137Z",
-      "last_attempt": "2026-07-05T14:08:08.137Z",
+      "last_ok": "2026-07-05T17:31:43.578Z",
+      "last_attempt": "2026-07-05T17:31:43.578Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 33,
       "strategy": "live",
-      "last_ok": "2026-07-05T14:08:08.472Z",
-      "last_attempt": "2026-07-05T14:08:08.472Z",
+      "last_ok": "2026-07-05T17:31:43.945Z",
+      "last_attempt": "2026-07-05T17:31:43.945Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-05T14:08:09.764Z",
-      "last_attempt": "2026-07-05T14:08:09.764Z",
+      "last_ok": "2026-07-05T17:31:45.051Z",
+      "last_attempt": "2026-07-05T17:31:45.051Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-05T14:08:10.224Z",
-      "last_attempt": "2026-07-05T14:08:10.224Z",
+      "last_ok": "2026-07-05T17:31:45.398Z",
+      "last_attempt": "2026-07-05T17:31:45.398Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-05T14:08:10.415Z",
-      "last_attempt": "2026-07-05T14:08:10.415Z",
+      "last_ok": "2026-07-05T17:31:45.605Z",
+      "last_attempt": "2026-07-05T17:31:45.605Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-07-05T14:08:11.247Z",
-      "last_attempt": "2026-07-05T14:08:11.247Z",
+      "last_ok": "2026-07-05T17:31:46.444Z",
+      "last_attempt": "2026-07-05T17:31:46.444Z",
       "error": null
     }
   },
