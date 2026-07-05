@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-04T21:13:16.233Z",
+  "generated_at": "2026-07-05T04:18:58.407Z",
   "source_timestamp": "07/04/2026 08:43",
-  "content_hash": "b5a5b1a3b2c91fed",
+  "content_hash": "76c70022c3fed2d3",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 366,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-04T21:13:12.715Z",
-      "last_attempt": "2026-07-04T21:13:12.715Z",
+      "last_ok": "2026-07-05T04:18:55.206Z",
+      "last_attempt": "2026-07-05T04:18:55.206Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 34,
+      "count": 33,
       "strategy": "live",
-      "last_ok": "2026-07-04T21:13:13.101Z",
-      "last_attempt": "2026-07-04T21:13:13.101Z",
+      "last_ok": "2026-07-05T04:18:55.539Z",
+      "last_attempt": "2026-07-05T04:18:55.539Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-04T21:13:14.474Z",
-      "last_attempt": "2026-07-04T21:13:14.474Z",
+      "last_ok": "2026-07-05T04:18:56.518Z",
+      "last_attempt": "2026-07-05T04:18:56.518Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-04T21:13:14.792Z",
-      "last_attempt": "2026-07-04T21:13:14.792Z",
+      "last_ok": "2026-07-05T04:18:56.786Z",
+      "last_attempt": "2026-07-05T04:18:56.786Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-04T21:13:14.989Z",
-      "last_attempt": "2026-07-04T21:13:14.989Z",
+      "last_ok": "2026-07-05T04:18:56.924Z",
+      "last_attempt": "2026-07-05T04:18:56.924Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-07-04T21:13:15.599Z",
-      "last_attempt": "2026-07-04T21:13:15.599Z",
+      "last_ok": "2026-07-05T04:18:57.826Z",
+      "last_attempt": "2026-07-05T04:18:57.826Z",
       "error": null
     }
   },
@@ -4482,24 +4482,6 @@
       "genres": []
     },
     {
-      "id": "f3abd468017f7ede",
-      "date": "2026-07-04",
-      "start_raw": "2000",
-      "end_raw": "0200",
-      "musician": "Doc Martin & Marques Wyatt — Ashland Rising",
-      "genre": "",
-      "link": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "link_name": "",
-      "venue": "Historic Ashland Armory",
-      "notes": "Ashland Rising presents Doc Martin & Marques Wyatt, Legends of House Music, DJ’ing live at the Ashland Armory. Full bar. 8PM–2AM. 21+ \nAshland Rising and the Historic Ashland Armory present House Lege",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/doc-martin-marques-wyatt-ashland-rising/",
-      "genres": [
-        "Electronic / DJ"
-      ]
-    },
-    {
       "id": "afc1e571248784fb",
       "date": "2026-07-04",
       "start_raw": "2200",
@@ -5135,22 +5117,32 @@
       "end_raw": "1930",
       "musician": "Aaron Reed",
       "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "752a41a3cd9d48e4",
+      "date": "2026-07-09",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "John Johns",
+      "genre": "",
       "link": "https://bellefiorewine.com/event/live-music-aaron-reed/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Aaron Reed, of the Brothers Reed. Their style evokes finger picking folk singers from the 60’s and 70’s with a contemporary and boundless bluegrass edge.",
+      "notes": "John Johns utilizes his prodigious classical guitar training to blend fingerstyle guitar with his nature-centric folk style of playing. Upbeat and introspective, his songwriting is best described by f",
       "event_type": "Band",
-      "source": "musiclist_txt",
+      "source": "tribe_ics:belle_fiore",
       "source_url": "https://bellefiorewine.com/event/live-music-aaron-reed/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "d6aae67eb838a2bd"
-        }
-      ],
       "genres": [
-        "Bluegrass",
-        "Folk"
+        "Folk",
+        "Classical"
       ]
     },
     {
