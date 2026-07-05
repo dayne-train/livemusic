@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-05T10:26:40.492Z",
+  "generated_at": "2026-07-05T14:08:11.718Z",
   "source_timestamp": "07/04/2026 08:43",
-  "content_hash": "f04c57083c2c006a",
+  "content_hash": "76c70022c3fed2d3",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 366,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-05T10:26:35.277Z",
-      "last_attempt": "2026-07-05T10:26:35.277Z",
+      "last_ok": "2026-07-05T14:08:08.137Z",
+      "last_attempt": "2026-07-05T14:08:08.137Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 29,
+      "count": 33,
       "strategy": "live",
-      "last_ok": "2026-07-05T10:26:35.561Z",
-      "last_attempt": "2026-07-05T10:26:35.561Z",
-      "error": "travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-07-05T14:08:08.472Z",
+      "last_attempt": "2026-07-05T14:08:08.472Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-07-05T04:18:56.518Z",
-      "last_attempt": "2026-07-05T10:26:38.322Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 1,
+      "strategy": "live",
+      "last_ok": "2026-07-05T14:08:09.764Z",
+      "last_attempt": "2026-07-05T14:08:09.764Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-05T10:26:38.520Z",
-      "last_attempt": "2026-07-05T10:26:38.520Z",
+      "last_ok": "2026-07-05T14:08:10.224Z",
+      "last_attempt": "2026-07-05T14:08:10.224Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-05T10:26:38.628Z",
-      "last_attempt": "2026-07-05T10:26:38.628Z",
+      "last_ok": "2026-07-05T14:08:10.415Z",
+      "last_attempt": "2026-07-05T14:08:10.415Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-07-05T10:26:39.397Z",
-      "last_attempt": "2026-07-05T10:26:39.397Z",
+      "last_ok": "2026-07-05T14:08:11.247Z",
+      "last_attempt": "2026-07-05T14:08:11.247Z",
       "error": null
     }
   },
@@ -3489,6 +3489,17 @@
         "musiclist_txt"
       ]
     },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
+    },
     "Butler Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -4486,6 +4497,30 @@
       "source_url": null,
       "genres": [
         "Punk / Metal"
+      ]
+    },
+    {
+      "id": "0ccfc580d5cf8aaf",
+      "date": "2026-07-05",
+      "start_raw": "1200",
+      "end_raw": "1900",
+      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
+      "genre": "",
+      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "link_name": "",
+      "venue": "Lithia Park Bandshell",
+      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "0ccfc580d5cf8aaf"
+        }
+      ],
+      "genres": [
+        "Electronic / DJ"
       ]
     },
     {
@@ -6651,6 +6686,22 @@
       "genres": []
     },
     {
+      "id": "1f8988b1bab7eb22",
+      "date": "2026-07-18",
+      "start_raw": "1400",
+      "end_raw": "2100",
+      "musician": "'Flutes in the Park'",
+      "genre": "",
+      "link": "https://travelashland.com/event/flutes-in-the-park/",
+      "link_name": "",
+      "venue": "Lithia Park Butler Bandshell",
+      "notes": "Ashland Flute Circle welcomes back ‘Flutes in the Park’, July 18th, 2026 at the Bandshell (corner of Winburn Way and Nutley) in Lithia Park, Ashland, OR!\nThis is a family-friendly, outdoor, event (ple",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/flutes-in-the-park/",
+      "genres": []
+    },
+    {
       "id": "9a6e8e3d594b4265",
       "date": "2026-07-18",
       "start_raw": "1600",
@@ -7096,6 +7147,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "15ecaa5e546a06f7",
+      "date": "2026-07-20",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-2/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
       "genres": []
     },
     {
@@ -9852,6 +9919,23 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
     },
     {
       "id": "e7c8507716e27828",
