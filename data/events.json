@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-05T21:18:54.645Z",
+  "generated_at": "2026-07-06T04:37:41.331Z",
   "source_timestamp": "07/04/2026 08:43",
-  "content_hash": "76c70022c3fed2d3",
+  "content_hash": "956abfcfc1ff02f9",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 366,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-05T21:18:51.115Z",
-      "last_attempt": "2026-07-05T21:18:51.115Z",
+      "last_ok": "2026-07-06T04:37:38.212Z",
+      "last_attempt": "2026-07-06T04:37:38.212Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 33,
+      "count": 31,
       "strategy": "live",
-      "last_ok": "2026-07-05T21:18:51.608Z",
-      "last_attempt": "2026-07-05T21:18:51.608Z",
+      "last_ok": "2026-07-06T04:37:38.468Z",
+      "last_attempt": "2026-07-06T04:37:38.468Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-05T21:18:52.590Z",
-      "last_attempt": "2026-07-05T21:18:52.590Z",
+      "last_ok": "2026-07-06T04:37:39.808Z",
+      "last_attempt": "2026-07-06T04:37:39.808Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-05T21:18:53.015Z",
-      "last_attempt": "2026-07-05T21:18:53.015Z",
+      "last_ok": "2026-07-06T04:37:40.017Z",
+      "last_attempt": "2026-07-06T04:37:40.017Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-05T21:18:53.141Z",
-      "last_attempt": "2026-07-05T21:18:53.141Z",
+      "last_ok": "2026-07-06T04:37:40.183Z",
+      "last_attempt": "2026-07-06T04:37:40.183Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-07-05T21:18:53.985Z",
-      "last_attempt": "2026-07-05T21:18:53.985Z",
+      "last_ok": "2026-07-06T04:37:40.865Z",
+      "last_attempt": "2026-07-06T04:37:40.865Z",
       "error": null
     }
   },
@@ -4500,30 +4500,6 @@
       ]
     },
     {
-      "id": "0ccfc580d5cf8aaf",
-      "date": "2026-07-05",
-      "start_raw": "1200",
-      "end_raw": "1900",
-      "musician": "Rise and Shine at the Historic Lithia park Bandshell",
-      "genre": "",
-      "link": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "A free family friendly event for the entire community on Sunday July 5th from noon to sunset. Featuring Yoga, Sound Healing, Live Art, Massage, Food Trucks, Vendors and an epic line up of local DJ’s. ",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/rise-and-shine-at-the-historic-lithia-park-bandshell/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "0ccfc580d5cf8aaf"
-        }
-      ],
-      "genres": [
-        "Electronic / DJ"
-      ]
-    },
-    {
       "id": "dcb41f5da91fdeba",
       "date": "2026-07-05",
       "start_raw": "1300",
@@ -4618,25 +4594,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "6a8ff743bea7194e",
-      "date": "2026-07-05",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
     },
     {
       "id": "7abbac251be69b03",
@@ -4759,22 +4716,14 @@
       "end_raw": "1800",
       "musician": "Case Watson",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-case-watson-july-5/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "One-woman band Case Watson offers a warm Welcome to the End of the World in this award-winning multimedia show. With a voice that could halt a thousand ships, she weaves original songs, projections, a",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-case-watson-july-5/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "f93a02ebc4e641a8"
-        }
-      ],
-      "genres": [
-        "World"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d24d2458afceb756",
@@ -4807,24 +4756,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "270383991eb8f658",
-      "date": "2026-07-05",
-      "start_raw": "1700",
-      "end_raw": "1900",
-      "musician": "Stardust Trio",
-      "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-stardust-trio/",
-      "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "Join the Stardust Trio (Tim Church, David Miller, Paul Schmelling) with vocalist Meghan Wilson for an evening full of 1920’s Lounge Jazz!",
-      "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-stardust-trio/",
-      "genres": [
-        "Jazz"
-      ]
     },
     {
       "id": "70c18704b3b1f943",
@@ -6699,6 +6630,22 @@
       "event_type": "Band",
       "source": "tribe_ics:travel_ashland",
       "source_url": "https://travelashland.com/event/flutes-in-the-park/",
+      "genres": []
+    },
+    {
+      "id": "a252300a0e2c3a5f",
+      "date": "2026-07-18",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Rick Millward Presents Open Mic",
+      "genre": "",
+      "link": "https://roxyann.com/event/rick-millward-presents-open-mic-july-18/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "The RoxyAnn Open Mic will be this Saturday, and we’ve come up with a way to make 2026 bigger and more exciting. In October the top 3 from the previous 8 month’s shows will win a paid date on a Friday ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/rick-millward-presents-open-mic-july-18/",
       "genres": []
     },
     {
@@ -9010,6 +8957,22 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "genres": []
+    },
+    {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
       "genres": []
     },
     {
