@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-06T15:55:09.343Z",
+  "generated_at": "2026-07-06T18:23:06.195Z",
   "source_timestamp": "07/04/2026 08:43",
-  "content_hash": "87b6b46eedff2e63",
+  "content_hash": "8dbfdf0062e7950e",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 366,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-06T15:55:05.508Z",
-      "last_attempt": "2026-07-06T15:55:05.508Z",
+      "last_ok": "2026-07-06T18:22:59.444Z",
+      "last_attempt": "2026-07-06T18:22:59.444Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 28,
+      "count": 31,
       "strategy": "live",
-      "last_ok": "2026-07-06T15:55:05.847Z",
-      "last_attempt": "2026-07-06T15:55:05.847Z",
-      "error": "travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-07-06T18:22:59.731Z",
+      "last_attempt": "2026-07-06T18:22:59.731Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-07-06T12:15:35.751Z",
-      "last_attempt": "2026-07-06T15:55:06.722Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 1,
+      "strategy": "live",
+      "last_ok": "2026-07-06T18:23:00.892Z",
+      "last_attempt": "2026-07-06T18:23:00.892Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-06T15:55:07.512Z",
-      "last_attempt": "2026-07-06T15:55:07.512Z",
+      "last_ok": "2026-07-06T18:23:01.611Z",
+      "last_attempt": "2026-07-06T18:23:01.611Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-06T15:55:07.727Z",
-      "last_attempt": "2026-07-06T15:55:07.727Z",
+      "last_ok": "2026-07-06T18:23:01.800Z",
+      "last_attempt": "2026-07-06T18:23:01.800Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-06T15:55:08.766Z",
-      "last_attempt": "2026-07-06T15:55:08.766Z",
+      "last_ok": "2026-07-06T18:23:05.516Z",
+      "last_attempt": "2026-07-06T18:23:05.516Z",
       "error": null
     }
   },
@@ -3489,6 +3489,17 @@
         "musiclist_txt"
       ]
     },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
+    },
     "Butler Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -6617,6 +6628,22 @@
       "genres": []
     },
     {
+      "id": "1f8988b1bab7eb22",
+      "date": "2026-07-18",
+      "start_raw": "1400",
+      "end_raw": "2100",
+      "musician": "'Flutes in the Park'",
+      "genre": "",
+      "link": "https://travelashland.com/event/flutes-in-the-park/",
+      "link_name": "",
+      "venue": "Lithia Park Butler Bandshell",
+      "notes": "Ashland Flute Circle welcomes back ‘Flutes in the Park’, July 18th, 2026 at the Bandshell (corner of Winburn Way and Nutley) in Lithia Park, Ashland, OR!\nThis is a family-friendly, outdoor, event (ple",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/flutes-in-the-park/",
+      "genres": []
+    },
+    {
       "id": "a252300a0e2c3a5f",
       "date": "2026-07-18",
       "start_raw": "1500",
@@ -7081,19 +7108,25 @@
       "genres": []
     },
     {
-      "id": "cc2a0ebe0c09883a",
+      "id": "15ecaa5e546a06f7",
       "date": "2026-07-20",
       "start_raw": "1800",
-      "end_raw": "2100",
+      "end_raw": "2000",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4422",
+      "link": "https://travelashland.com/event/epic-summer-series-2/",
       "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
       "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4422",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
+      "merged_from": [
+        {
+          "source": "ashland_city",
+          "id": "cc2a0ebe0c09883a"
+        }
+      ],
       "genres": []
     },
     {
@@ -8944,6 +8977,22 @@
       "genres": []
     },
     {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "genres": []
+    },
+    {
       "id": "9952d00f16a3d21b",
       "date": "2026-08-19",
       "start_raw": "1800",
@@ -9850,6 +9899,23 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
     },
     {
       "id": "e7c8507716e27828",
