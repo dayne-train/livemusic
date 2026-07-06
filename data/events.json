@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-06T18:23:06.195Z",
-  "source_timestamp": "07/04/2026 08:43",
-  "content_hash": "8dbfdf0062e7950e",
+  "generated_at": "2026-07-06T21:46:40.646Z",
+  "source_timestamp": "07/06/2026 11:34",
+  "content_hash": "9bb1ccac0f05e56b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 366,
+      "count": 378,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-06T18:22:59.444Z",
-      "last_attempt": "2026-07-06T18:22:59.444Z",
+      "last_ok": "2026-07-06T21:46:35.933Z",
+      "last_attempt": "2026-07-06T21:46:35.933Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-07-06T18:22:59.731Z",
-      "last_attempt": "2026-07-06T18:22:59.731Z",
+      "last_ok": "2026-07-06T21:46:36.330Z",
+      "last_attempt": "2026-07-06T21:46:36.330Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-06T18:23:00.892Z",
-      "last_attempt": "2026-07-06T18:23:00.892Z",
+      "last_ok": "2026-07-06T21:46:37.836Z",
+      "last_attempt": "2026-07-06T21:46:37.836Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-06T18:23:01.611Z",
-      "last_attempt": "2026-07-06T18:23:01.611Z",
+      "last_ok": "2026-07-06T21:46:38.581Z",
+      "last_attempt": "2026-07-06T21:46:38.581Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-06T18:23:01.800Z",
-      "last_attempt": "2026-07-06T18:23:01.800Z",
+      "last_ok": "2026-07-06T21:46:38.851Z",
+      "last_attempt": "2026-07-06T21:46:38.851Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-06T18:23:05.516Z",
-      "last_attempt": "2026-07-06T18:23:05.516Z",
+      "last_ok": "2026-07-06T21:46:40.194Z",
+      "last_attempt": "2026-07-06T21:46:40.194Z",
       "error": null
     }
   },
@@ -4853,6 +4853,24 @@
       "genres": []
     },
     {
+      "id": "0bd1521e457edfdf",
+      "date": "2026-07-07",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Papermoon Jazz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
+    },
+    {
       "id": "8b9e61c9a9801981",
       "date": "2026-07-07",
       "start_raw": "1830",
@@ -4867,24 +4885,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "9cfc9b1df53930cf",
-      "date": "2026-07-07",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "musician": "Papermoon Jazz",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "The Gold Room",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": [
-        "Jazz"
-      ]
     },
     {
       "id": "48ebdd49690a6002",
@@ -5238,6 +5238,22 @@
       "genres": []
     },
     {
+      "id": "563e089db4167512",
+      "date": "2026-07-09",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Bim Jeam & The Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "Bim Jeam and the Sadness",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "a18c91651cabdda8",
       "date": "2026-07-09",
       "start_raw": "2000",
@@ -5507,6 +5523,22 @@
       "link": "",
       "link_name": "",
       "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4dd70d89debe3730",
+      "date": "2026-07-10",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Bryan Oliver",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6094,6 +6126,26 @@
       "genres": []
     },
     {
+      "id": "5e23f1a34c664585",
+      "date": "2026-07-14",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Robbie Dacosta",
+      "genre": "blues, classic rock, pop, variety",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues",
+        "Rock",
+        "Pop"
+      ]
+    },
+    {
       "id": "d709b49e573ee506",
       "date": "2026-07-14",
       "start_raw": "1830",
@@ -6337,6 +6389,22 @@
       "genres": []
     },
     {
+      "id": "d8601a583edbb80d",
+      "date": "2026-07-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Dean Angermeier",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "c173cc09ac24a65f",
       "date": "2026-07-16",
       "start_raw": "2000",
@@ -6558,6 +6626,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "c66eb7b9fe483e2f",
+      "date": "2026-07-17",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "David Kai",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "461d72bafa7bba48",
@@ -6864,6 +6948,22 @@
       "genres": []
     },
     {
+      "id": "f74873e32a70d658",
+      "date": "2026-07-18",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Conrad",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "a23f78c46e5677ec",
       "date": "2026-07-18",
       "start_raw": "2000",
@@ -7146,6 +7246,22 @@
       "genres": []
     },
     {
+      "id": "0adcf73650acf7dc",
+      "date": "2026-07-21",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Taurus Moon",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "cccaa9c76c7b834f",
       "date": "2026-07-22",
       "start_raw": "1700",
@@ -7346,6 +7462,22 @@
       "link": "",
       "link_name": "",
       "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ad5c00556af1c230",
+      "date": "2026-07-23",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "About You",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7615,6 +7747,22 @@
       ]
     },
     {
+      "id": "d6903b767670dc19",
+      "date": "2026-07-24",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "b4d0b45253ed5dc7",
       "date": "2026-07-25",
       "start_raw": "1030",
@@ -7783,6 +7931,22 @@
       "link": "",
       "link_name": "",
       "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "71bc9078372a8c5f",
+      "date": "2026-07-25",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Mike Whipple",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8074,6 +8238,22 @@
       "genres": []
     },
     {
+      "id": "32e61ce922355d5c",
+      "date": "2026-07-28",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "df9cb840c2b7242c",
       "date": "2026-07-28",
       "start_raw": "1830",
@@ -8090,22 +8270,6 @@
       "genres": [
         "Folk"
       ]
-    },
-    {
-      "id": "47d0c523ba06d1f0",
-      "date": "2026-07-28",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "Sonido Alegre",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "The Gold Room",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
     },
     {
       "id": "998c0168940426f1",
@@ -8263,6 +8427,22 @@
       "genres": [
         "Blues"
       ]
+    },
+    {
+      "id": "a60352122995185a",
+      "date": "2026-07-30",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Niesja",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4829b13c47f1e7bc",
@@ -8485,6 +8665,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "4922173fbba393c8",
+      "date": "2026-07-31",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Phoenix Sigalove",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "eadc834ee6d82289",
