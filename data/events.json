@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-06T12:15:38.152Z",
+  "generated_at": "2026-07-06T15:55:09.343Z",
   "source_timestamp": "07/04/2026 08:43",
-  "content_hash": "868bd6e2e16512d2",
+  "content_hash": "87b6b46eedff2e63",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 366,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-06T12:15:10.396Z",
-      "last_attempt": "2026-07-06T12:15:10.396Z",
+      "last_ok": "2026-07-06T15:55:05.508Z",
+      "last_attempt": "2026-07-06T15:55:05.508Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 28,
       "strategy": "live",
-      "last_ok": "2026-07-06T12:15:10.748Z",
-      "last_attempt": "2026-07-06T12:15:10.748Z",
-      "error": "travel_ashland: The operation was aborted due to timeout"
+      "last_ok": "2026-07-06T15:55:05.847Z",
+      "last_attempt": "2026-07-06T15:55:05.847Z",
+      "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 1,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-07-06T12:15:35.751Z",
-      "last_attempt": "2026-07-06T12:15:35.751Z",
-      "error": null
+      "last_attempt": "2026-07-06T15:55:06.722Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-06T12:15:36.223Z",
-      "last_attempt": "2026-07-06T12:15:36.223Z",
+      "last_ok": "2026-07-06T15:55:07.512Z",
+      "last_attempt": "2026-07-06T15:55:07.512Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-06T12:15:36.348Z",
-      "last_attempt": "2026-07-06T12:15:36.348Z",
+      "last_ok": "2026-07-06T15:55:07.727Z",
+      "last_attempt": "2026-07-06T15:55:07.727Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-06T12:15:37.309Z",
-      "last_attempt": "2026-07-06T12:15:37.309Z",
+      "last_ok": "2026-07-06T15:55:08.766Z",
+      "last_attempt": "2026-07-06T15:55:08.766Z",
       "error": null
     }
   },
@@ -3487,17 +3487,6 @@
       "type": "Other",
       "_sources": [
         "musiclist_txt"
-      ]
-    },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
       ]
     },
     "Butler Bandshell": {
@@ -9861,23 +9850,6 @@
       "genres": [
         "Rock"
       ]
-    },
-    {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
-      "genres": []
     },
     {
       "id": "e7c8507716e27828",
