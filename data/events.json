@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T15:13:14.012Z",
+  "generated_at": "2026-07-07T18:18:51.966Z",
   "source_timestamp": "07/06/2026 11:34",
   "content_hash": "a87459ee5b184042",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 378,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-07T15:13:09.186Z",
-      "last_attempt": "2026-07-07T15:13:09.186Z",
+      "last_ok": "2026-07-07T18:18:48.463Z",
+      "last_attempt": "2026-07-07T18:18:48.463Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-07-07T15:13:09.574Z",
-      "last_attempt": "2026-07-07T15:13:09.574Z",
+      "last_ok": "2026-07-07T18:18:48.735Z",
+      "last_attempt": "2026-07-07T18:18:48.735Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-07T15:13:10.999Z",
-      "last_attempt": "2026-07-07T15:13:10.999Z",
+      "last_ok": "2026-07-07T18:18:50.453Z",
+      "last_attempt": "2026-07-07T18:18:50.453Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-07T15:13:11.288Z",
-      "last_attempt": "2026-07-07T15:13:11.288Z",
+      "last_ok": "2026-07-07T18:18:50.609Z",
+      "last_attempt": "2026-07-07T18:18:50.609Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-07T15:13:12.528Z",
-      "last_attempt": "2026-07-07T15:13:12.528Z",
+      "last_ok": "2026-07-07T18:18:50.806Z",
+      "last_attempt": "2026-07-07T18:18:50.806Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-07T15:13:13.399Z",
-      "last_attempt": "2026-07-07T15:13:13.399Z",
+      "last_ok": "2026-07-07T18:18:51.429Z",
+      "last_attempt": "2026-07-07T18:18:51.429Z",
       "error": null
     }
   },
