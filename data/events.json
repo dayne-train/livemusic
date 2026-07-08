@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T14:39:56.497Z",
+  "generated_at": "2026-07-08T17:51:19.559Z",
   "source_timestamp": "07/06/2026 11:34",
   "content_hash": "38bb381083037cae",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 378,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-08T14:39:50.980Z",
-      "last_attempt": "2026-07-08T14:39:50.980Z",
+      "last_ok": "2026-07-08T17:51:13.767Z",
+      "last_attempt": "2026-07-08T17:51:13.767Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-07-08T14:39:51.328Z",
-      "last_attempt": "2026-07-08T14:39:51.328Z",
+      "last_ok": "2026-07-08T17:51:14.279Z",
+      "last_attempt": "2026-07-08T17:51:14.279Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-08T14:39:53.494Z",
-      "last_attempt": "2026-07-08T14:39:53.494Z",
+      "last_ok": "2026-07-08T17:51:16.855Z",
+      "last_attempt": "2026-07-08T17:51:16.855Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-08T14:39:53.853Z",
-      "last_attempt": "2026-07-08T14:39:53.853Z",
+      "last_ok": "2026-07-08T17:51:17.440Z",
+      "last_attempt": "2026-07-08T17:51:17.440Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-08T14:39:55.075Z",
-      "last_attempt": "2026-07-08T14:39:55.075Z",
+      "last_ok": "2026-07-08T17:51:17.679Z",
+      "last_attempt": "2026-07-08T17:51:17.679Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-08T14:39:55.887Z",
-      "last_attempt": "2026-07-08T14:39:55.887Z",
+      "last_ok": "2026-07-08T17:51:18.526Z",
+      "last_attempt": "2026-07-08T17:51:18.526Z",
       "error": null
     }
   },
