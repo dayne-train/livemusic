@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T21:29:44.835Z",
+  "fetched_at": "2026-07-09T04:12:18.477Z",
   "source_timestamp": "07/06/2026 11:34",
   "bytes": 60434,
   "sources": {
@@ -7,53 +7,53 @@
       "ok": true,
       "count": 378,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-08T21:29:41.166Z",
-      "last_attempt": "2026-07-08T21:29:41.166Z",
+      "last_ok": "2026-07-09T04:12:11.617Z",
+      "last_attempt": "2026-07-09T04:12:11.617Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 28,
+      "count": 32,
       "strategy": "live",
-      "last_ok": "2026-07-08T21:29:41.498Z",
-      "last_attempt": "2026-07-08T21:29:41.498Z",
-      "error": "travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-07-09T04:12:12.041Z",
+      "last_attempt": "2026-07-09T04:12:12.041Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-07-08T17:51:16.855Z",
-      "last_attempt": "2026-07-08T21:29:42.848Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 1,
+      "strategy": "live",
+      "last_ok": "2026-07-09T04:12:16.156Z",
+      "last_attempt": "2026-07-09T04:12:16.156Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-08T21:29:43.122Z",
-      "last_attempt": "2026-07-08T21:29:43.122Z",
+      "last_ok": "2026-07-09T04:12:16.537Z",
+      "last_attempt": "2026-07-09T04:12:16.537Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-08T21:29:43.315Z",
-      "last_attempt": "2026-07-08T21:29:43.315Z",
+      "last_ok": "2026-07-09T04:12:16.725Z",
+      "last_attempt": "2026-07-09T04:12:16.725Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-08T21:29:43.995Z",
-      "last_attempt": "2026-07-08T21:29:43.995Z",
+      "last_ok": "2026-07-09T04:12:17.471Z",
+      "last_attempt": "2026-07-09T04:12:17.471Z",
       "error": null
     }
   },
-  "event_count": 400,
-  "venue_count": 314,
-  "deduped": 16,
-  "content_hash": "2f618237deb3deed"
+  "event_count": 404,
+  "venue_count": 315,
+  "deduped": 17,
+  "content_hash": "f125cf7b1042db85"
 }
