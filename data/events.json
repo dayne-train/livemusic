@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-10T18:00:32.428Z",
-  "source_timestamp": "07/09/2026 18:08",
-  "content_hash": "705f1838a25460cc",
+  "generated_at": "2026-07-10T21:19:24.304Z",
+  "source_timestamp": "07/10/2026 13:20",
+  "content_hash": "77225c3f080367fe",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 346,
+      "count": 347,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-10T18:00:28.421Z",
-      "last_attempt": "2026-07-10T18:00:28.421Z",
+      "last_ok": "2026-07-10T21:19:20.297Z",
+      "last_attempt": "2026-07-10T21:19:20.297Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-07-10T18:00:28.813Z",
-      "last_attempt": "2026-07-10T18:00:28.813Z",
+      "last_ok": "2026-07-10T21:19:20.631Z",
+      "last_attempt": "2026-07-10T21:19:20.631Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-10T18:00:30.088Z",
-      "last_attempt": "2026-07-10T18:00:30.088Z",
+      "last_ok": "2026-07-10T21:19:21.823Z",
+      "last_attempt": "2026-07-10T21:19:21.823Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-10T18:00:30.552Z",
-      "last_attempt": "2026-07-10T18:00:30.552Z",
+      "last_ok": "2026-07-10T21:19:22.303Z",
+      "last_attempt": "2026-07-10T21:19:22.303Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-10T18:00:30.667Z",
-      "last_attempt": "2026-07-10T18:00:30.667Z",
+      "last_ok": "2026-07-10T21:19:22.371Z",
+      "last_attempt": "2026-07-10T21:19:22.371Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-10T18:00:31.481Z",
-      "last_attempt": "2026-07-10T18:00:31.481Z",
+      "last_ok": "2026-07-10T21:19:23.176Z",
+      "last_attempt": "2026-07-10T21:19:23.176Z",
       "error": null
     }
   },
@@ -3817,24 +3817,6 @@
       "genres": []
     },
     {
-      "id": "85d86423421459ad",
-      "date": "2026-07-10",
-      "start_raw": "1530",
-      "end_raw": "1830",
-      "musician": "Brothers Reed",
-      "genre": "Folk",
-      "link": "",
-      "link_name": "",
-      "venue": "Weisinger Family Winery",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": [
-        "Folk"
-      ]
-    },
-    {
       "id": "3c4fb13f2849cd86",
       "date": "2026-07-10",
       "start_raw": "1600",
@@ -4067,6 +4049,22 @@
       "link": "",
       "link_name": "",
       "venue": "Galice Resort",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ae10cfe089e7b095",
+      "date": "2026-07-10",
+      "start_raw": "1730",
+      "end_raw": "2030",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weisinger Family Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6380,6 +6378,24 @@
       "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
       "genres": [
         "Celtic"
+      ]
+    },
+    {
+      "id": "722a9fa387db79ef",
+      "date": "2026-07-19",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Billy Rock Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
       ]
     },
     {

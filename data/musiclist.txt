@@ -1,5 +1,5 @@
 --timestamp
-07/09/2026 18:08
+07/10/2026 13:20
 --news
 * date | notes
 --musicians
@@ -463,7 +463,6 @@ Jon Galfano||||Talon Grill||07/09/26|1830|2030||Band|
 Pandora Band||||Alibi Tavern||07/09/26|1900|2200||Band|
 Mitchell Brothers||||Bella Union||07/09/26|1900|2100||Band|
 Bim Jeam & The Sadness|||Bim Jeam and the Sadness|The Gold Room||07/09/26|1900|2100||Band|
-Brothers Reed||||Weisinger Family Winery||07/10/26|1530|1830||Band|
 David Rogers||||Annie Creek Restaurant||07/10/26|1600|1800||Band|
 Jimmy Limo||||Daisy Creek Vineyard||07/10/26|1700|1900||Band|
 Mercy Duo|||Mercy|Dancin Vineyards||07/10/26|1700|1900||Band|
@@ -478,6 +477,7 @@ Luna Tango||||Belle Fiore||07/10/26|1730|1930||Band|
 Live Music||||Dos Mariposas Vineyards||07/10/26|1730|1930|Duo Sonorus, Jen Ambrose and Mark Johnson|Band|
 Cobra Lilies||||Dunbar Farms||07/10/26|1730|1930||Band|
 Ant Hill Gang||||Galice Resort||07/10/26|1730|2030||Band|
+Phillip Reed||||Weisinger Family Winery||07/10/26|1730|2030||Band|
 Live Music||||Callahan's Lodge||07/10/26|1800|2100||Band|
 Rogue Suspects||||Del Rio Vineyards||07/10/26|1800|2000|Aretha Franklin Tribute; $8 / $12|Band|
 WakeShore||||Moxie Brew||07/10/26|1800|2000||Band|
@@ -607,6 +607,7 @@ Jim Friend||||Sams Creek Cellars||07/19/26|1300|1500||Band|
 Robbie Dacosta||||Daisy Creek Vineyard||07/19/26|1400|1600||Band|
 Jeff Kloetzel||||Dark Hollow Farm||07/19/26|1400|1600||Band|
 Sterling Vintage Jazz||||Walport Family Cellars||07/19/26|1400|1700||Band|
+Billy Rock Trio||||Local Vines Wine Bar||07/19/26|1500|1700||Band|
 Nick Garrett-Powell||||Naumes Suncrest Winery||07/19/26|1500|1700||Band|
 Sonido Alegre||||Pebblestone Cellars||07/19/26|1500|1700||Band|
 No Ordinary Love||||Del Rio Vineyards||07/19/26|1600|1800||Band|
