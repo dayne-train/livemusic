@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T07:52:37.450Z",
+  "generated_at": "2026-07-10T11:18:24.438Z",
   "source_timestamp": "07/09/2026 18:08",
   "content_hash": "705f1838a25460cc",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 346,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-10T07:52:32.943Z",
-      "last_attempt": "2026-07-10T07:52:32.943Z",
+      "last_ok": "2026-07-10T11:18:21.132Z",
+      "last_attempt": "2026-07-10T11:18:21.132Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-07-10T07:52:33.411Z",
-      "last_attempt": "2026-07-10T07:52:33.411Z",
+      "last_ok": "2026-07-10T11:18:21.465Z",
+      "last_attempt": "2026-07-10T11:18:21.465Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-10T07:52:34.853Z",
-      "last_attempt": "2026-07-10T07:52:34.853Z",
+      "last_ok": "2026-07-10T11:18:22.541Z",
+      "last_attempt": "2026-07-10T11:18:22.541Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-10T07:52:35.139Z",
-      "last_attempt": "2026-07-10T07:52:35.139Z",
+      "last_ok": "2026-07-10T11:18:22.920Z",
+      "last_attempt": "2026-07-10T11:18:22.920Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-10T07:52:35.330Z",
-      "last_attempt": "2026-07-10T07:52:35.330Z",
+      "last_ok": "2026-07-10T11:18:23.035Z",
+      "last_attempt": "2026-07-10T11:18:23.035Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-10T07:52:36.605Z",
-      "last_attempt": "2026-07-10T07:52:36.605Z",
+      "last_ok": "2026-07-10T11:18:23.868Z",
+      "last_attempt": "2026-07-10T11:18:23.868Z",
       "error": null
     }
   },
