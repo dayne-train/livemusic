@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T11:18:24.438Z",
+  "generated_at": "2026-07-10T14:50:24.956Z",
   "source_timestamp": "07/09/2026 18:08",
   "content_hash": "705f1838a25460cc",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 346,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-10T11:18:21.132Z",
-      "last_attempt": "2026-07-10T11:18:21.132Z",
+      "last_ok": "2026-07-10T14:50:21.071Z",
+      "last_attempt": "2026-07-10T14:50:21.071Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-07-10T11:18:21.465Z",
-      "last_attempt": "2026-07-10T11:18:21.465Z",
+      "last_ok": "2026-07-10T14:50:21.516Z",
+      "last_attempt": "2026-07-10T14:50:21.516Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-10T11:18:22.541Z",
-      "last_attempt": "2026-07-10T11:18:22.541Z",
+      "last_ok": "2026-07-10T14:50:22.736Z",
+      "last_attempt": "2026-07-10T14:50:22.736Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-10T11:18:22.920Z",
-      "last_attempt": "2026-07-10T11:18:22.920Z",
+      "last_ok": "2026-07-10T14:50:23.215Z",
+      "last_attempt": "2026-07-10T14:50:23.215Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-10T11:18:23.035Z",
-      "last_attempt": "2026-07-10T11:18:23.035Z",
+      "last_ok": "2026-07-10T14:50:23.363Z",
+      "last_attempt": "2026-07-10T14:50:23.363Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-10T11:18:23.868Z",
-      "last_attempt": "2026-07-10T11:18:23.868Z",
+      "last_ok": "2026-07-10T14:50:24.221Z",
+      "last_attempt": "2026-07-10T14:50:24.221Z",
       "error": null
     }
   },
