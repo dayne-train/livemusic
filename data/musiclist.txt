@@ -1,5 +1,5 @@
 --timestamp
-07/10/2026 17:03
+07/11/2026 13:20
 --news
 * date | notes
 --musicians
@@ -388,6 +388,7 @@ The 238 Bar|https://www.facebook.com/The238Bar/|Grants Pass|N||GrantsPass|Bar||
 The Beatrice|https://thebeatricemedford.com/|Medford|N||Medford|Bar||
 The Black Sheep|http://www.theblacksheep.com/|Ashland|N||Ashland|Bar||
 The Copper Plank|https://www.thecopperplank.com/|Medford|N||Medford|Bar||
+The Curtain Call|https://www.curtaincallcollective.com|Medford|N|120 E 6th St|Medford|Other||
 The Dance Space|http://dancespaceashland.com/|Ashland|N||Ashland|Other||
 The District Wine Bar|https://thedistrictwinebar.com/|Medford|N||Medford|Winery||
 The Double R Bar and Grill|https://www.facebook.com/profile.php?id=61556640382519&sk=about|Rogue River|N||RogueRiver|Bar||
@@ -755,6 +756,7 @@ Encore Five||||Belle Fiore||08/22/26|1730|1930||Band|
 Mitchell Brothers||||Lake of the Woods||08/23/26|1700|1900||Band|
 Hersey Street Jazz Project||||Phoodery||08/23/26|1800|2000||Band|
 Nick Garrett-Powell||||Phoodery||08/26/26|1800|2000||Band|
+Rushadicus the Cello Goblin|cello|||The Curtain Call||08/26/26|1930|2130||Band|
 Dr Pain and the Remedy||||Dunbar Farms||08/28/26|1730|1930||Band|
 Mitchell Brothers||||Galice Resort||08/28/26|1730|1930||Band|
 The Gus Factor||||Phoodery||08/28/26|1800|2000||Band|
