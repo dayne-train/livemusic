@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-10T21:19:24.304Z",
-  "source_timestamp": "07/10/2026 13:20",
-  "content_hash": "77225c3f080367fe",
+  "generated_at": "2026-07-11T03:40:55.879Z",
+  "source_timestamp": "07/10/2026 17:03",
+  "content_hash": "446c0a3131488aaf",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 347,
+      "count": 365,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-10T21:19:20.297Z",
-      "last_attempt": "2026-07-10T21:19:20.297Z",
+      "last_ok": "2026-07-11T03:40:50.541Z",
+      "last_attempt": "2026-07-11T03:40:50.541Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 31,
+      "count": 29,
       "strategy": "live",
-      "last_ok": "2026-07-10T21:19:20.631Z",
-      "last_attempt": "2026-07-10T21:19:20.631Z",
+      "last_ok": "2026-07-11T03:40:51.262Z",
+      "last_attempt": "2026-07-11T03:40:51.262Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-10T21:19:21.823Z",
-      "last_attempt": "2026-07-10T21:19:21.823Z",
+      "last_ok": "2026-07-11T03:40:53.033Z",
+      "last_attempt": "2026-07-11T03:40:53.033Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-10T21:19:22.303Z",
-      "last_attempt": "2026-07-10T21:19:22.303Z",
+      "last_ok": "2026-07-11T03:40:53.337Z",
+      "last_attempt": "2026-07-11T03:40:53.337Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-10T21:19:22.371Z",
-      "last_attempt": "2026-07-10T21:19:22.371Z",
+      "last_ok": "2026-07-11T03:40:53.502Z",
+      "last_attempt": "2026-07-11T03:40:53.502Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-10T21:19:23.176Z",
-      "last_attempt": "2026-07-10T21:19:23.176Z",
+      "last_ok": "2026-07-11T03:40:54.412Z",
+      "last_attempt": "2026-07-11T03:40:54.412Z",
       "error": null
     }
   },
@@ -3935,22 +3935,15 @@
       "end_raw": "1900",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-july-10/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "The Pozitronics are southern Oregon’s premier “all-you-can-dance” band playing a unique mix of classic rock, R&B, and funk, with love, positive vibes, and a whole lot of energy. You bring the dance mo",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-july-10/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "3ddbb2ad32e03468"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Rock",
-        "Funk / Soul"
+        "Rock"
       ]
     },
     {
@@ -3992,19 +3985,13 @@
       "end_raw": "1930",
       "musician": "Luna Tango",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-luna-tango/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Luna Tango is a quintet comprised of experienced members of the Rogue Valley Symphony Orchestra and guitarist, Rod Petrone, who brings his past experience performing with Portland-based Tango Orchestr",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-luna-tango/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "add632d0db9a4f0c"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -4758,6 +4745,22 @@
       ]
     },
     {
+      "id": "850597c2b5831707",
+      "date": "2026-07-11",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Gold Hill Moose Lodge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "3619f6919d48eb9b",
       "date": "2026-07-11",
       "start_raw": "1900",
@@ -5078,6 +5081,22 @@
         "Folk",
         "Rock"
       ]
+    },
+    {
+      "id": "a47193824e457210",
+      "date": "2026-07-12",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Lake of the Woods",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "de27086fb8182b76",
@@ -5872,6 +5891,22 @@
       ]
     },
     {
+      "id": "bc642694253bbb9f",
+      "date": "2026-07-17",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Steelhead Tavern",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "c66eb7b9fe483e2f",
       "date": "2026-07-17",
       "start_raw": "1900",
@@ -6065,6 +6100,22 @@
       "link": "",
       "link_name": "",
       "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "91a4877e3acb3579",
+      "date": "2026-07-18",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "La Fiesta",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7398,6 +7449,22 @@
       "genres": []
     },
     {
+      "id": "74b4f6d4265a2cfc",
+      "date": "2026-07-25",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Corvette Bar & Grill",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "2d7d6e85c4e610b8",
       "date": "2026-07-25",
       "start_raw": "2100",
@@ -7996,6 +8063,22 @@
       "genres": []
     },
     {
+      "id": "4c084e504b004619",
+      "date": "2026-07-31",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Galice Resort",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "ba758f101eca733d",
       "date": "2026-07-31",
       "start_raw": "1800",
@@ -8194,6 +8277,22 @@
       "genres": []
     },
     {
+      "id": "49fcb2e0f00b7814",
+      "date": "2026-08-01",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "La Fiesta",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "804e782158b8f2f5",
       "date": "2026-08-01",
       "start_raw": "1700",
@@ -8287,6 +8386,22 @@
       "link": "",
       "link_name": "",
       "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3cca7190f282ef18",
+      "date": "2026-08-02",
+      "start_raw": "1300",
+      "end_raw": "1600",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Corvette Bar & Grill",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8425,6 +8540,22 @@
       ]
     },
     {
+      "id": "0cad59637a7e4cea",
+      "date": "2026-08-06",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "72bfae2446ff80aa",
       "date": "2026-08-07",
       "start_raw": "1700",
@@ -8491,6 +8622,22 @@
       ]
     },
     {
+      "id": "ed8d36931ece2b7a",
+      "date": "2026-08-07",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "13c0bed40642e992",
       "date": "2026-08-07",
       "start_raw": "2000",
@@ -8532,6 +8679,22 @@
       "link": "",
       "link_name": "",
       "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5a648608375fb5dc",
+      "date": "2026-08-08",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Gold Hill Moose Lodge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8669,6 +8832,38 @@
       "genres": []
     },
     {
+      "id": "a95cb1d2c345a205",
+      "date": "2026-08-14",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Steelhead Tavern",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7d9afeab80370c12",
+      "date": "2026-08-15",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Corvette Bar & Grill",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "fc525a3b2de253fa",
       "date": "2026-08-16",
       "start_raw": "1900",
@@ -8716,6 +8911,22 @@
       "event_type": "Band",
       "source": "tribe_ics:travel_ashland",
       "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "genres": []
+    },
+    {
+      "id": "1d0bf67555f8cb14",
+      "date": "2026-08-19",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Padigan Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -8767,6 +8978,22 @@
       "genres": []
     },
     {
+      "id": "cf31cb227f5bffb4",
+      "date": "2026-08-22",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "4225d67fd994f43f",
       "date": "2026-08-22",
       "start_raw": "1700",
@@ -8808,6 +9035,22 @@
       "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4e566fb0efce18c8",
+      "date": "2026-08-23",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Lake of the Woods",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8865,6 +9108,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "4d6ef09b6ebc21f7",
+      "date": "2026-08-28",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Galice Resort",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "defed311398c5dd0",
@@ -8962,6 +9221,22 @@
       "link": "",
       "link_name": "",
       "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f1b8f59279db5e9b",
+      "date": "2026-08-29",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Galice Resort",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
