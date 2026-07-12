@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T03:55:12.865Z",
+  "generated_at": "2026-07-12T06:47:33.985Z",
   "source_timestamp": "07/11/2026 13:20",
   "content_hash": "7b68bd776ac0a252",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 366,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-12T03:55:08.757Z",
-      "last_attempt": "2026-07-12T03:55:08.757Z",
+      "last_ok": "2026-07-12T06:47:29.073Z",
+      "last_attempt": "2026-07-12T06:47:29.073Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 28,
       "strategy": "live",
-      "last_ok": "2026-07-12T03:55:09.255Z",
-      "last_attempt": "2026-07-12T03:55:09.255Z",
+      "last_ok": "2026-07-12T06:47:29.496Z",
+      "last_attempt": "2026-07-12T06:47:29.496Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-12T03:55:11.317Z",
-      "last_attempt": "2026-07-12T03:55:11.317Z",
+      "last_ok": "2026-07-12T06:47:31.930Z",
+      "last_attempt": "2026-07-12T06:47:31.930Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-12T03:55:11.542Z",
-      "last_attempt": "2026-07-12T03:55:11.542Z",
+      "last_ok": "2026-07-12T06:47:32.252Z",
+      "last_attempt": "2026-07-12T06:47:32.252Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-12T03:55:11.704Z",
-      "last_attempt": "2026-07-12T03:55:11.704Z",
+      "last_ok": "2026-07-12T06:47:32.413Z",
+      "last_attempt": "2026-07-12T06:47:32.413Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-12T03:55:12.201Z",
-      "last_attempt": "2026-07-12T03:55:12.201Z",
+      "last_ok": "2026-07-12T06:47:33.267Z",
+      "last_attempt": "2026-07-12T06:47:33.267Z",
       "error": null
     }
   },
