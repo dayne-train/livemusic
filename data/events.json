@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-11T21:04:19.543Z",
+  "generated_at": "2026-07-12T03:55:12.865Z",
   "source_timestamp": "07/11/2026 13:20",
-  "content_hash": "5a641f2d77706734",
+  "content_hash": "7b68bd776ac0a252",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 366,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-11T21:04:15.859Z",
-      "last_attempt": "2026-07-11T21:04:15.859Z",
+      "last_ok": "2026-07-12T03:55:08.757Z",
+      "last_attempt": "2026-07-12T03:55:08.757Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 29,
+      "count": 28,
       "strategy": "live",
-      "last_ok": "2026-07-11T21:04:16.183Z",
-      "last_attempt": "2026-07-11T21:04:16.183Z",
+      "last_ok": "2026-07-12T03:55:09.255Z",
+      "last_attempt": "2026-07-12T03:55:09.255Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-11T21:04:17.819Z",
-      "last_attempt": "2026-07-11T21:04:17.819Z",
+      "last_ok": "2026-07-12T03:55:11.317Z",
+      "last_attempt": "2026-07-12T03:55:11.317Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-11T21:04:18.154Z",
-      "last_attempt": "2026-07-11T21:04:18.154Z",
+      "last_ok": "2026-07-12T03:55:11.542Z",
+      "last_attempt": "2026-07-12T03:55:11.542Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-11T21:04:18.268Z",
-      "last_attempt": "2026-07-11T21:04:18.268Z",
+      "last_ok": "2026-07-12T03:55:11.704Z",
+      "last_attempt": "2026-07-12T03:55:11.704Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-11T21:04:18.977Z",
-      "last_attempt": "2026-07-11T21:04:18.977Z",
+      "last_ok": "2026-07-12T03:55:12.201Z",
+      "last_attempt": "2026-07-12T03:55:12.201Z",
       "error": null
     }
   },
@@ -4586,19 +4586,13 @@
       "end_raw": "1930",
       "musician": "Blue Lightning",
       "genre": "classic rock",
-      "link": "https://bellefiorewine.com/event/live-music-blue-lightning-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Cover Charge: Free for Members, $9 for Non-Members \nEstablished over 30 years ago in Ashland Oregon, Blue Lightning has evolved into a high energy dance band with tight grooves and lush vocal harmonie",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-blue-lightning-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "f8f2fe097bb86ad2"
-        }
-      ],
+      "source_url": null,
       "genres": [
         "Rock"
       ]
@@ -5068,6 +5062,22 @@
       "genres": []
     },
     {
+      "id": "604b2949c217395f",
+      "date": "2026-07-12",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Encore 5",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5-july-12/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Encore 5 has a mission to provide quality, heart-felt music entertainment delivered in a professional manner. \nJoin us to listen to amazing music while sipping on some delicious & award-winning wines,",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5-july-12/",
+      "genres": []
+    },
+    {
       "id": "c1aa3f06a479be39",
       "date": "2026-07-12",
       "start_raw": "1700",
@@ -5155,22 +5165,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "890fd3ff9fe3aaee",
-      "date": "2026-07-12",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "FREE MUSIC + WINE SERIES FEATURING Encore 5",
-      "genre": "",
-      "link": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5-july-12/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Encore 5 has a mission to provide quality, heart-felt music entertainment delivered in a professional manner. \nJoin us to listen to amazing music while sipping on some delicious & award-winning wines,",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5-july-12/",
       "genres": []
     },
     {
