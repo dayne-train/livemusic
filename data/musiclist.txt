@@ -1,5 +1,5 @@
 --timestamp
-07/11/2026 13:20
+07/12/2026 09:46
 --news
 * date | notes
 --musicians
@@ -586,6 +586,8 @@ Pozitronics||||Skout Taphouse||07/17/26|1900|2100||Band|
 Mitchell Brothers||||Steelhead Tavern||07/17/26|1900|2100||Band|
 David Kai||||The Gold Room||07/17/26|1900|2100||Band|
 Salsa Brava||||Paschal Winery||07/17/26|1930|2130|$20; dance lesson 7:00|Band|
+Bekkah McAlvage||||Liquid Lounge||07/17/26|2000|2200||Band|
+John Johns||||Liquid Lounge||07/18/26|1000|1200||Band|
 Denise Deneaux||||La Baguette||07/18/26|1030|1230||Band|
 Danielle Kelly Soul Trio|||Danielle Kelly Soul Project|Cowhorn Vineyard||07/18/26|1300|1600||Band|
 Ukulele Jam||||Pebblestone Cellars||07/18/26|1400|1600||Jam|
@@ -635,6 +637,7 @@ Actual Wolf||||Oberon's Restaurant & Bar||07/23/26|1830|2030||Band|
 Jon Martin||||Talon Grill||07/23/26|1830|2030||Band|
 Pandora Band||||Alibi Tavern||07/23/26|1900|2200||Band|
 Aaron Reed||||Bella Union||07/23/26|1900|2100||Band|
+Fred Moss||||Liquid Lounge||07/23/26|1900|2100||Solo|
 About You||||The Gold Room||07/23/26|1900|2100||Band|
 Aaron Reed||||Stone River Winery||07/24/26|1600|1800||Band|
 Mitchell Brothers||||Daisy Creek Vineyard||07/24/26|1700|1900||Band|
@@ -653,6 +656,7 @@ Aaron Reed||||Bella Union||07/24/26|1900|2200||Band|
 Pozitronics||||Old Spaghetti Factory||07/24/26|1900|2100||Band|
 Dr Pain and the Remedy||||Phoodery||07/24/26|1900|2100||Band|
 Phillip Reed||||The Gold Room||07/24/26|1900|2100||Band|
+John Johns & Chelsea||||Liquid Lounge||07/24/26|2000|2200||Band|
 Tim Church & Craig Martin||||La Baguette||07/25/26|1030|1230||Band|
 Ann Kelly & Mark Ross||||Rellik Winery||07/25/26|1600|1800||Band|
 Phillip Reed||||Remotion Wine||07/25/26|1700|1900||Band|
@@ -707,6 +711,7 @@ The Kind||||Bella Union||07/31/26|1900|2200||Band|
 John Nilsen|piano|||Gold Hill United Methodist Church||07/31/26|1900|2100|6:30 desert reception|Band|
 Dr Pain and the Remedy||||Skout Taphouse||07/31/26|1900|2100||Band|
 Phoenix Sigalove||||The Gold Room||07/31/26|1900|2100||Band|
+The Dr Is In||||Liquid Lounge||07/31/26|2000|2200||Band|
 Josephine Jukebox||||The Replay||07/31/26|2000|1200|$5|Band|
 Enoch and David||||Wanderlust Vineyard||08/01/26|1330|1530||Band|
 Mitchell Brothers||||La Fiesta||08/01/26|1700|2000||Band|
