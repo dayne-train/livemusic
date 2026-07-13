@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-13T18:05:41.521Z",
+  "generated_at": "2026-07-13T21:12:13.128Z",
   "source_timestamp": "07/12/2026 09:46",
-  "content_hash": "a96c15250c0e5d08",
+  "content_hash": "4a35c07343bcfbe2",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 371,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-13T18:05:33.748Z",
-      "last_attempt": "2026-07-13T18:05:33.748Z",
+      "last_ok": "2026-07-13T21:12:08.826Z",
+      "last_attempt": "2026-07-13T21:12:08.826Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 27,
       "strategy": "live",
-      "last_ok": "2026-07-13T18:05:34.365Z",
-      "last_attempt": "2026-07-13T18:05:34.365Z",
+      "last_ok": "2026-07-13T21:12:09.085Z",
+      "last_attempt": "2026-07-13T21:12:09.085Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-13T18:05:39.000Z",
-      "last_attempt": "2026-07-13T18:05:39.000Z",
+      "last_ok": "2026-07-13T21:12:10.853Z",
+      "last_attempt": "2026-07-13T21:12:10.853Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 5,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-13T18:05:39.229Z",
-      "last_attempt": "2026-07-13T18:05:39.229Z",
+      "last_ok": "2026-07-13T21:12:11.244Z",
+      "last_attempt": "2026-07-13T21:12:11.244Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-13T18:05:39.499Z",
-      "last_attempt": "2026-07-13T18:05:39.499Z",
+      "last_ok": "2026-07-13T21:12:11.428Z",
+      "last_attempt": "2026-07-13T21:12:11.428Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-13T18:05:40.213Z",
-      "last_attempt": "2026-07-13T18:05:40.213Z",
+      "last_ok": "2026-07-13T21:12:12.570Z",
+      "last_attempt": "2026-07-13T21:12:12.570Z",
       "error": null
     }
   },
@@ -7333,7 +7333,7 @@
       "id": "20faac7a4573dbc3",
       "date": "2026-07-25",
       "start_raw": "1700",
-      "end_raw": "2000",
+      "end_raw": "1900",
       "musician": "MUSIC + WINE SERIES: John Prine Tribute Show with Mark Hill & Friends",
       "genre": "",
       "link": "https://roxyann.com/event/music-wine-series-john-prine-tribute-show-with-mark-hill-friends-july-25/",
@@ -7551,6 +7551,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "1df0facb120ccf58",
+      "date": "2026-07-26",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "b2308ae80ce3d89c",
