@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-12T21:05:39.156Z",
+  "generated_at": "2026-07-13T03:58:19.482Z",
   "source_timestamp": "07/12/2026 09:46",
-  "content_hash": "74990c1e95b23dc8",
+  "content_hash": "49dda313498989b9",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 371,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-12T21:05:35.550Z",
-      "last_attempt": "2026-07-12T21:05:35.550Z",
+      "last_ok": "2026-07-13T03:58:15.398Z",
+      "last_attempt": "2026-07-13T03:58:15.398Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 29,
+      "count": 27,
       "strategy": "live",
-      "last_ok": "2026-07-12T21:05:35.862Z",
-      "last_attempt": "2026-07-12T21:05:35.862Z",
+      "last_ok": "2026-07-13T03:58:15.900Z",
+      "last_attempt": "2026-07-13T03:58:15.900Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-12T21:05:37.399Z",
-      "last_attempt": "2026-07-12T21:05:37.399Z",
+      "last_ok": "2026-07-13T03:58:17.124Z",
+      "last_attempt": "2026-07-13T03:58:17.124Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-12T21:05:37.697Z",
-      "last_attempt": "2026-07-12T21:05:37.697Z",
+      "last_ok": "2026-07-13T03:58:17.545Z",
+      "last_attempt": "2026-07-13T03:58:17.545Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-12T21:05:37.793Z",
-      "last_attempt": "2026-07-12T21:05:37.793Z",
+      "last_ok": "2026-07-13T03:58:17.662Z",
+      "last_attempt": "2026-07-13T03:58:17.662Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-12T21:05:38.599Z",
-      "last_attempt": "2026-07-12T21:05:38.599Z",
+      "last_ok": "2026-07-13T03:58:18.666Z",
+      "last_attempt": "2026-07-13T03:58:18.666Z",
       "error": null
     }
   },
@@ -4899,25 +4899,6 @@
       ]
     },
     {
-      "id": "5d0c34ec1dc72f7a",
-      "date": "2026-07-12",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "c145c0c44d87bc40",
       "date": "2026-07-12",
       "start_raw": "1500",
@@ -5062,46 +5043,20 @@
       "genres": []
     },
     {
-      "id": "604b2949c217395f",
-      "date": "2026-07-12",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "FREE MUSIC + WINE SERIES FEATURING Encore 5",
-      "genre": "",
-      "link": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5-july-12/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Encore 5 has a mission to provide quality, heart-felt music entertainment delivered in a professional manner. \nJoin us to listen to amazing music while sipping on some delicious & award-winning wines,",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5-july-12/",
-      "genres": []
-    },
-    {
       "id": "c1aa3f06a479be39",
       "date": "2026-07-12",
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "John Ivey Duo",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-jon-ivey-duo/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "This Duo consists of John Ivey & Neil Hooper who play upbeat, folk, rock, and blues-infused “feel good” music.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-jon-ivey-duo/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "edb4930f0e8b3699"
-        }
-      ],
-      "genres": [
-        "Blues",
-        "Folk",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a47193824e457210",
