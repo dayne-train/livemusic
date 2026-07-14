@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-14T14:11:54.797Z",
-  "source_timestamp": "07/12/2026 09:46",
-  "content_hash": "4a35c07343bcfbe2",
+  "generated_at": "2026-07-14T17:33:31.870Z",
+  "source_timestamp": "07/14/2026 08:39",
+  "content_hash": "3b1bf4f0737798f2",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 371,
+      "count": 376,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-14T14:11:49.896Z",
-      "last_attempt": "2026-07-14T14:11:49.896Z",
+      "last_ok": "2026-07-14T17:33:26.733Z",
+      "last_attempt": "2026-07-14T17:33:26.733Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 27,
       "strategy": "live",
-      "last_ok": "2026-07-14T14:11:50.247Z",
-      "last_attempt": "2026-07-14T14:11:50.247Z",
+      "last_ok": "2026-07-14T17:33:27.085Z",
+      "last_attempt": "2026-07-14T17:33:27.085Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-14T14:11:51.717Z",
-      "last_attempt": "2026-07-14T14:11:51.717Z",
+      "last_ok": "2026-07-14T17:33:28.682Z",
+      "last_attempt": "2026-07-14T17:33:28.682Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-14T14:11:52.098Z",
-      "last_attempt": "2026-07-14T14:11:52.098Z",
+      "last_ok": "2026-07-14T17:33:29.245Z",
+      "last_attempt": "2026-07-14T17:33:29.245Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-14T14:11:52.218Z",
-      "last_attempt": "2026-07-14T14:11:52.218Z",
+      "last_ok": "2026-07-14T17:33:29.432Z",
+      "last_attempt": "2026-07-14T17:33:29.432Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-14T14:11:53.884Z",
-      "last_attempt": "2026-07-14T14:11:53.884Z",
+      "last_ok": "2026-07-14T17:33:30.591Z",
+      "last_attempt": "2026-07-14T17:33:30.591Z",
       "error": null
     }
   },
@@ -1612,6 +1612,17 @@
       "notes": "",
       "address": "",
       "region": "RogueRiver",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Le Petit Café": {
+      "url": "https://www.lepetitashland.com/",
+      "city": "Ashland",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
       "type": "Other",
       "_sources": [
         "musiclist_txt"
@@ -3408,6 +3419,17 @@
       "address": "",
       "region": "Medford",
       "type": "Bar",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "White Rabbit Cafe": {
+      "url": "https://whiterabbitashland.com/",
+      "city": "Ashland",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
       "_sources": [
         "musiclist_txt"
       ]
@@ -6317,6 +6339,22 @@
       "genres": []
     },
     {
+      "id": "eff77c53115225a8",
+      "date": "2026-07-19",
+      "start_raw": "1200",
+      "end_raw": "1400",
+      "musician": "Vanessa Finney & Jason Wolverton",
+      "genre": "",
+      "link": "",
+      "link_name": "Vanessa Finney",
+      "venue": "Le Petit Café",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "b60a01700c325092",
       "date": "2026-07-19",
       "start_raw": "1230",
@@ -8451,6 +8489,22 @@
       "genres": []
     },
     {
+      "id": "f250c683c8ea5ef4",
+      "date": "2026-08-01",
+      "start_raw": "2000",
+      "end_raw": "1200",
+      "musician": "Vanessa Finney & Jason Wolverton",
+      "genre": "",
+      "link": "",
+      "link_name": "Vanessa Finney",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "3cca7190f282ef18",
       "date": "2026-08-02",
       "start_raw": "1300",
@@ -8496,6 +8550,22 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/john-tufts-performs-a-one-show-only-benefit-of-an-iliad/",
+      "genres": []
+    },
+    {
+      "id": "96c86ff9bbcf33cb",
+      "date": "2026-08-05",
+      "start_raw": "1300",
+      "end_raw": "1500",
+      "musician": "Vanessa Finney & Jason Wolverton",
+      "genre": "",
+      "link": "",
+      "link_name": "Vanessa Finney",
+      "venue": "Paschal Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -9718,6 +9788,22 @@
       ]
     },
     {
+      "id": "2cc8a4289861cf5e",
+      "date": "2026-09-25",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Vanessa Finney & Jason Wolverton",
+      "genre": "",
+      "link": "",
+      "link_name": "Vanessa Finney",
+      "venue": "White Rabbit Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -9784,6 +9870,22 @@
       "genres": [
         "Jazz"
       ]
+    },
+    {
+      "id": "0b0102d2c90e8eed",
+      "date": "2026-10-02",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Vanessa Finney & Jason Wolverton",
+      "genre": "",
+      "link": "",
+      "link_name": "Vanessa Finney",
+      "venue": "Del Rio Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6b43035a25f402af",
