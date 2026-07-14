@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T10:08:53.867Z",
+  "generated_at": "2026-07-14T14:11:54.797Z",
   "source_timestamp": "07/12/2026 09:46",
   "content_hash": "4a35c07343bcfbe2",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 371,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-14T10:08:50.570Z",
-      "last_attempt": "2026-07-14T10:08:50.570Z",
+      "last_ok": "2026-07-14T14:11:49.896Z",
+      "last_attempt": "2026-07-14T14:11:49.896Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 27,
       "strategy": "live",
-      "last_ok": "2026-07-14T10:08:50.838Z",
-      "last_attempt": "2026-07-14T10:08:50.838Z",
+      "last_ok": "2026-07-14T14:11:50.247Z",
+      "last_attempt": "2026-07-14T14:11:50.247Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-14T10:08:52.247Z",
-      "last_attempt": "2026-07-14T10:08:52.247Z",
+      "last_ok": "2026-07-14T14:11:51.717Z",
+      "last_attempt": "2026-07-14T14:11:51.717Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-14T10:08:52.571Z",
-      "last_attempt": "2026-07-14T10:08:52.571Z",
+      "last_ok": "2026-07-14T14:11:52.098Z",
+      "last_attempt": "2026-07-14T14:11:52.098Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-14T10:08:52.711Z",
-      "last_attempt": "2026-07-14T10:08:52.711Z",
+      "last_ok": "2026-07-14T14:11:52.218Z",
+      "last_attempt": "2026-07-14T14:11:52.218Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-14T10:08:53.487Z",
-      "last_attempt": "2026-07-14T10:08:53.487Z",
+      "last_ok": "2026-07-14T14:11:53.884Z",
+      "last_attempt": "2026-07-14T14:11:53.884Z",
       "error": null
     }
   },
