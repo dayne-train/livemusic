@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-15T14:08:02.506Z",
+  "generated_at": "2026-07-15T17:37:37.678Z",
   "source_timestamp": "07/14/2026 08:39",
-  "content_hash": "89b56dc2d77ee959",
+  "content_hash": "faa67e459fa79739",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 376,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-15T14:07:57.803Z",
-      "last_attempt": "2026-07-15T14:07:57.803Z",
+      "last_ok": "2026-07-15T17:37:33.704Z",
+      "last_attempt": "2026-07-15T17:37:33.704Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 27,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-07-15T14:07:58.173Z",
-      "last_attempt": "2026-07-15T14:07:58.173Z",
-      "error": null
+      "last_ok": "2026-07-15T17:37:34.240Z",
+      "last_attempt": "2026-07-15T17:37:34.240Z",
+      "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 1,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-07-15T14:07:59.223Z",
-      "last_attempt": "2026-07-15T14:07:59.223Z",
-      "error": null
+      "last_attempt": "2026-07-15T17:37:35.224Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-15T14:07:59.719Z",
-      "last_attempt": "2026-07-15T14:07:59.719Z",
+      "last_ok": "2026-07-15T17:37:35.401Z",
+      "last_attempt": "2026-07-15T17:37:35.401Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-15T14:08:00.614Z",
-      "last_attempt": "2026-07-15T14:08:00.614Z",
+      "last_ok": "2026-07-15T17:37:36.331Z",
+      "last_attempt": "2026-07-15T17:37:36.331Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-15T14:08:01.506Z",
-      "last_attempt": "2026-07-15T14:08:01.506Z",
+      "last_ok": "2026-07-15T17:37:37.001Z",
+      "last_attempt": "2026-07-15T17:37:37.001Z",
       "error": null
     }
   },
@@ -3533,17 +3533,6 @@
         "musiclist_txt"
       ]
     },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
-    },
     "Butler Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -5986,22 +5975,6 @@
       "genres": []
     },
     {
-      "id": "1f8988b1bab7eb22",
-      "date": "2026-07-18",
-      "start_raw": "1400",
-      "end_raw": "2100",
-      "musician": "'Flutes in the Park'",
-      "genre": "",
-      "link": "https://travelashland.com/event/flutes-in-the-park/",
-      "link_name": "",
-      "venue": "Lithia Park Butler Bandshell",
-      "notes": "Ashland Flute Circle welcomes back ‘Flutes in the Park’, July 18th, 2026 at the Bandshell (corner of Winburn Way and Nutley) in Lithia Park, Ashland, OR!\nThis is a family-friendly, outdoor, event (ple",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/flutes-in-the-park/",
-      "genres": []
-    },
-    {
       "id": "37cd481f8b7b4400",
       "date": "2026-07-18",
       "start_raw": "1500",
@@ -6598,25 +6571,19 @@
       "genres": []
     },
     {
-      "id": "15ecaa5e546a06f7",
+      "id": "cc2a0ebe0c09883a",
       "date": "2026-07-20",
       "start_raw": "1800",
-      "end_raw": "2000",
+      "end_raw": "2100",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-2/",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4422",
       "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
+      "venue": "Lithia Park Bandshell",
+      "notes": "",
       "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
-      "merged_from": [
-        {
-          "source": "ashland_city",
-          "id": "cc2a0ebe0c09883a"
-        }
-      ],
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4422",
       "genres": []
     },
     {
@@ -7282,22 +7249,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "a79284f76f80858b",
-      "date": "2026-07-25",
-      "start_raw": "1200",
-      "end_raw": "2000",
-      "musician": "Mt. Ashland Alpine Music Festival",
-      "genre": "",
-      "link": "https://travelashland.com/event/mt-ashland-alpine-music-festival/",
-      "link_name": "",
-      "venue": "Mt. Ashland",
-      "notes": "Mt Ashland Ski Area is excited to present, in partnership with the Rhythm and Sound Project,  the first ever Mt. Ashland Alpine Music Festival! With two full days of live music featuring 12 local arti",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/mt-ashland-alpine-music-festival/",
       "genres": []
     },
     {
@@ -9059,22 +9010,6 @@
       "genres": []
     },
     {
-      "id": "ad35cdf1701285ed",
-      "date": "2026-08-17",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-3/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
-      "genres": []
-    },
-    {
       "id": "1d0bf67555f8cb14",
       "date": "2026-08-19",
       "start_raw": "1700",
@@ -10109,23 +10044,6 @@
       "genres": [
         "Rock"
       ]
-    },
-    {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
-      "genres": []
     },
     {
       "id": "e7c8507716e27828",
