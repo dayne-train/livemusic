@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T03:31:47.460Z",
+  "fetched_at": "2026-07-15T06:27:00.455Z",
   "source_timestamp": "07/14/2026 08:39",
   "bytes": 60716,
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 376,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-15T03:31:43.677Z",
-      "last_attempt": "2026-07-15T03:31:43.677Z",
+      "last_ok": "2026-07-15T06:26:56.279Z",
+      "last_attempt": "2026-07-15T06:26:56.279Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 27,
       "strategy": "live",
-      "last_ok": "2026-07-15T03:31:44.166Z",
-      "last_attempt": "2026-07-15T03:31:44.166Z",
+      "last_ok": "2026-07-15T06:26:56.658Z",
+      "last_attempt": "2026-07-15T06:26:56.658Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-15T03:31:45.283Z",
-      "last_attempt": "2026-07-15T03:31:45.283Z",
+      "last_ok": "2026-07-15T06:26:58.598Z",
+      "last_attempt": "2026-07-15T06:26:58.598Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-07-15T03:31:45.639Z",
-      "last_attempt": "2026-07-15T03:31:45.639Z",
+      "last_ok": "2026-07-15T06:26:58.834Z",
+      "last_attempt": "2026-07-15T06:26:58.834Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-15T03:31:45.727Z",
-      "last_attempt": "2026-07-15T03:31:45.727Z",
+      "last_ok": "2026-07-15T06:26:59.020Z",
+      "last_attempt": "2026-07-15T06:26:59.020Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-15T03:31:46.754Z",
-      "last_attempt": "2026-07-15T03:31:46.754Z",
+      "last_ok": "2026-07-15T06:26:59.884Z",
+      "last_attempt": "2026-07-15T06:26:59.884Z",
       "error": null
     }
   },
