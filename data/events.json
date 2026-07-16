@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T10:20:28.715Z",
+  "generated_at": "2026-07-16T14:20:44.695Z",
   "source_timestamp": "07/14/2026 08:39",
   "content_hash": "6833f07a149a5d3b",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 376,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-16T10:20:25.139Z",
-      "last_attempt": "2026-07-16T10:20:25.139Z",
+      "last_ok": "2026-07-16T14:20:39.430Z",
+      "last_attempt": "2026-07-16T14:20:39.430Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-07-16T10:20:25.390Z",
-      "last_attempt": "2026-07-16T10:20:25.390Z",
+      "last_ok": "2026-07-16T14:20:39.883Z",
+      "last_attempt": "2026-07-16T14:20:39.883Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-16T10:20:26.869Z",
-      "last_attempt": "2026-07-16T10:20:26.869Z",
+      "last_ok": "2026-07-16T14:20:42.725Z",
+      "last_attempt": "2026-07-16T14:20:42.725Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-16T10:20:27.217Z",
-      "last_attempt": "2026-07-16T10:20:27.217Z",
+      "last_ok": "2026-07-16T14:20:43.011Z",
+      "last_attempt": "2026-07-16T14:20:43.011Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-16T10:20:27.334Z",
-      "last_attempt": "2026-07-16T10:20:27.334Z",
+      "last_ok": "2026-07-16T14:20:43.197Z",
+      "last_attempt": "2026-07-16T14:20:43.197Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-07-16T10:20:28.154Z",
-      "last_attempt": "2026-07-16T10:20:28.154Z",
+      "last_ok": "2026-07-16T14:20:43.987Z",
+      "last_attempt": "2026-07-16T14:20:43.987Z",
       "error": null
     }
   },
