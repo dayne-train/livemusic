@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-15T21:14:24.094Z",
+  "generated_at": "2026-07-16T03:34:59.766Z",
   "source_timestamp": "07/14/2026 08:39",
-  "content_hash": "a66a31761c2b5c14",
+  "content_hash": "05fb26f8ad68e39c",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 376,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-15T21:14:10.801Z",
-      "last_attempt": "2026-07-15T21:14:10.801Z",
+      "last_ok": "2026-07-16T03:34:56.064Z",
+      "last_attempt": "2026-07-16T03:34:56.064Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 26,
       "strategy": "live",
-      "last_ok": "2026-07-15T21:14:11.103Z",
-      "last_attempt": "2026-07-15T21:14:11.103Z",
-      "error": "roxyann: fetch failed"
+      "last_ok": "2026-07-16T03:34:56.553Z",
+      "last_attempt": "2026-07-16T03:34:56.553Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-15T21:14:21.311Z",
-      "last_attempt": "2026-07-15T21:14:21.311Z",
+      "last_ok": "2026-07-16T03:34:57.878Z",
+      "last_attempt": "2026-07-16T03:34:57.878Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-15T21:14:22.060Z",
-      "last_attempt": "2026-07-15T21:14:22.060Z",
+      "last_ok": "2026-07-16T03:34:58.173Z",
+      "last_attempt": "2026-07-16T03:34:58.173Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-15T21:14:22.280Z",
-      "last_attempt": "2026-07-15T21:14:22.280Z",
+      "last_ok": "2026-07-16T03:34:58.376Z",
+      "last_attempt": "2026-07-16T03:34:58.376Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-15T21:14:23.504Z",
-      "last_attempt": "2026-07-15T21:14:23.504Z",
+      "last_ok": "2026-07-16T03:34:59.084Z",
+      "last_attempt": "2026-07-16T03:34:59.084Z",
       "error": null
     }
   },
@@ -2483,7 +2483,8 @@
       "region": "Medford",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Ruby's Restaurant": {
@@ -6001,6 +6002,22 @@
       "genres": []
     },
     {
+      "id": "a252300a0e2c3a5f",
+      "date": "2026-07-18",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Rick Millward Presents Open Mic",
+      "genre": "",
+      "link": "https://roxyann.com/event/rick-millward-presents-open-mic-july-18/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "The RoxyAnn Open Mic will be this Saturday, and we’ve come up with a way to make 2026 bigger and more exciting. In October the top 3 from the previous 8 month’s shows will win a paid date on a Friday ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/rick-millward-presents-open-mic-july-18/",
+      "genres": []
+    },
+    {
       "id": "c737b8d9844c38c3",
       "date": "2026-07-18",
       "start_raw": "1600",
@@ -6473,6 +6490,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "953889d7d5bd1bc1",
+      "date": "2026-07-19",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Tres Palomas",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-july-19/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Tres Palomas plays Bossa Nova and international classics. The trio – Mari Simone on vocals, Sean Chon on upright bass, and Jason Wolverton on guitar – performs in Portuguese, Spanish, French, and Engl",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-july-19/",
       "genres": []
     },
     {
@@ -7100,6 +7133,24 @@
       "genres": []
     },
     {
+      "id": "6e91442f4534afcb",
+      "date": "2026-07-24",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Saucy",
+      "genre": "classic rock, variety",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-saucy-july-24/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Saucy, a renowned local Southern Oregon musical group, joins us at RoxyAnn Winery for a Friday night of dancing and fun! Listen to some songs while sipping on some delicious & award-winning wines, or ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-saucy-july-24/",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "2d71d6b09a8c1025",
       "date": "2026-07-24",
       "start_raw": "1830",
@@ -7280,6 +7331,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "20faac7a4573dbc3",
+      "date": "2026-07-25",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "MUSIC + WINE SERIES: John Prine Tribute Show with Mark Hill & Friends",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-john-prine-tribute-show-with-mark-hill-friends-july-25/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Singer and Guitarist Mark Charles Hill has played and performed music in the Rogue Valley for over 20 years. His music consists of a wide range of covers from John Denver, John Prine, James Taylor to ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-john-prine-tribute-show-with-mark-hill-friends-july-25/",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "1c8cf0e2a2dc10e8",
@@ -7569,6 +7638,25 @@
       "source_url": null,
       "genres": [
         "Jazz"
+      ]
+    },
+    {
+      "id": "949013dacf571a8a",
+      "date": "2026-07-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Two of a Kind",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-two-of-a-kind-july-26/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Two of a Kind is a Rogue Valley acoustic duet featuring John Dickerson (of Honeypot) & Bridget Best. They’re bringing a fun mix of classic rock favorite and an easygoing vibe. Join us at RoxyAnn Winer",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-two-of-a-kind-july-26/",
+      "genres": [
+        "Folk",
+        "Rock"
       ]
     },
     {
@@ -8152,6 +8240,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "ab65bb50c13ab8aa",
+      "date": "2026-07-31",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Brisbane Project",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-brisbane-project-july-31/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Join us at RoxyAnn Winery for a Friday night of dancing and fun as we welcome Southern Oregon’s Brisbane Project to the tasting room!\n\nThe Brisbane Project, is a powerhouse trio of soulful blues, know",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-brisbane-project-july-31/",
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "1239c3366d47c89b",
