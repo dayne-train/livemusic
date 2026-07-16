@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T17:39:13.158Z",
+  "generated_at": "2026-07-16T21:14:44.559Z",
   "source_timestamp": "07/14/2026 08:39",
   "content_hash": "6833f07a149a5d3b",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 376,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-16T17:39:09.707Z",
-      "last_attempt": "2026-07-16T17:39:09.707Z",
+      "last_ok": "2026-07-16T21:14:39.936Z",
+      "last_attempt": "2026-07-16T21:14:39.936Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-07-16T17:39:10.001Z",
-      "last_attempt": "2026-07-16T17:39:10.001Z",
+      "last_ok": "2026-07-16T21:14:40.344Z",
+      "last_attempt": "2026-07-16T21:14:40.344Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-16T17:39:11.309Z",
-      "last_attempt": "2026-07-16T17:39:11.309Z",
+      "last_ok": "2026-07-16T21:14:42.592Z",
+      "last_attempt": "2026-07-16T21:14:42.592Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-16T17:39:11.576Z",
-      "last_attempt": "2026-07-16T17:39:11.576Z",
+      "last_ok": "2026-07-16T21:14:42.925Z",
+      "last_attempt": "2026-07-16T21:14:42.925Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-16T17:39:11.739Z",
-      "last_attempt": "2026-07-16T17:39:11.739Z",
+      "last_ok": "2026-07-16T21:14:43.049Z",
+      "last_attempt": "2026-07-16T21:14:43.049Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-07-16T17:39:12.701Z",
-      "last_attempt": "2026-07-16T17:39:12.701Z",
+      "last_ok": "2026-07-16T21:14:43.762Z",
+      "last_attempt": "2026-07-16T21:14:43.762Z",
       "error": null
     }
   },
