@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-17T10:10:45.767Z",
+  "generated_at": "2026-07-17T14:01:05.326Z",
   "source_timestamp": "07/16/2026 18:21",
-  "content_hash": "f608f8b969bd1b67",
+  "content_hash": "34372c588c96c393",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 315,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-17T10:10:39.060Z",
-      "last_attempt": "2026-07-17T10:10:39.060Z",
+      "last_ok": "2026-07-17T14:00:59.137Z",
+      "last_attempt": "2026-07-17T14:00:59.137Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-07-17T10:10:39.332Z",
-      "last_attempt": "2026-07-17T10:10:39.332Z",
+      "last_ok": "2026-07-17T14:00:59.568Z",
+      "last_attempt": "2026-07-17T14:00:59.568Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 1,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-17T10:10:42.662Z",
-      "last_attempt": "2026-07-17T10:10:42.662Z",
+      "last_ok": "2026-07-17T14:01:02.670Z",
+      "last_attempt": "2026-07-17T14:01:02.670Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-17T10:10:43.111Z",
-      "last_attempt": "2026-07-17T10:10:43.111Z",
+      "last_ok": "2026-07-17T14:01:02.849Z",
+      "last_attempt": "2026-07-17T14:01:02.849Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-17T10:10:44.395Z",
-      "last_attempt": "2026-07-17T10:10:44.395Z",
+      "last_ok": "2026-07-17T14:01:03.012Z",
+      "last_attempt": "2026-07-17T14:01:03.012Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-17T10:10:45.269Z",
-      "last_attempt": "2026-07-17T10:10:45.269Z",
+      "last_ok": "2026-07-17T14:01:04.686Z",
+      "last_attempt": "2026-07-17T14:01:04.686Z",
       "error": null
     }
   },
@@ -7542,6 +7542,23 @@
       "genres": []
     },
     {
+      "id": "8cea3a60380d61b2",
+      "date": "2026-08-04",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dean's Funtime Party Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/deans-funtime-party-band-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/deans-funtime-party-band-2/",
+      "genres": []
+    },
+    {
       "id": "96c86ff9bbcf33cb",
       "date": "2026-08-05",
       "start_raw": "1300",
@@ -7670,6 +7687,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "16b6edd93dbf7f60",
+      "date": "2026-08-06",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Maxwell Friedman Group",
+      "genre": "",
+      "link": "https://talentclublive.com/event/maxwell-friedman-group/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/maxwell-friedman-group/",
       "genres": []
     },
     {
@@ -8095,6 +8129,23 @@
       "genres": []
     },
     {
+      "id": "2770767eb6b46d0b",
+      "date": "2026-08-21",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Ben Rice and the PDX Hustle",
+      "genre": "",
+      "link": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
+      "genres": []
+    },
+    {
       "id": "62bc890616d0fd20",
       "date": "2026-08-22",
       "start_raw": "1330",
@@ -8172,6 +8223,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "653423eb3390a2ef",
+      "date": "2026-08-22",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dale Watson",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
       "genres": []
     },
     {
@@ -8793,6 +8861,23 @@
       "genres": []
     },
     {
+      "id": "996814db97d176a6",
+      "date": "2026-09-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Magnificent Sanctuary Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "genres": []
+    },
+    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -9148,6 +9233,23 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "aeaf97860ea4be91",
+      "date": "2026-10-27",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
+      "genre": "",
+      "link": "https://talentclublive.com/event/steely-dead/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/steely-dead/",
+      "genres": []
     },
     {
       "id": "7a82aa301af421c1",
