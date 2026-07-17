@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T03:35:22.736Z",
+  "generated_at": "2026-07-17T06:26:46.739Z",
   "source_timestamp": "07/16/2026 18:21",
   "content_hash": "f608f8b969bd1b67",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 315,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-17T03:35:17.842Z",
-      "last_attempt": "2026-07-17T03:35:17.842Z",
+      "last_ok": "2026-07-17T06:26:41.635Z",
+      "last_attempt": "2026-07-17T06:26:41.635Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-07-17T03:35:18.151Z",
-      "last_attempt": "2026-07-17T03:35:18.151Z",
+      "last_ok": "2026-07-17T06:26:42.148Z",
+      "last_attempt": "2026-07-17T06:26:42.148Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-17T03:35:20.182Z",
-      "last_attempt": "2026-07-17T03:35:20.182Z",
+      "last_ok": "2026-07-17T06:26:44.337Z",
+      "last_attempt": "2026-07-17T06:26:44.337Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-17T03:35:20.714Z",
-      "last_attempt": "2026-07-17T03:35:20.714Z",
+      "last_ok": "2026-07-17T06:26:44.711Z",
+      "last_attempt": "2026-07-17T06:26:44.711Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-17T03:35:21.030Z",
-      "last_attempt": "2026-07-17T03:35:21.030Z",
+      "last_ok": "2026-07-17T06:26:44.872Z",
+      "last_attempt": "2026-07-17T06:26:44.872Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-17T03:35:21.778Z",
-      "last_attempt": "2026-07-17T03:35:21.778Z",
+      "last_ok": "2026-07-17T06:26:45.750Z",
+      "last_attempt": "2026-07-17T06:26:45.750Z",
       "error": null
     }
   },
