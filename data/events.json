@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-17T14:01:05.326Z",
-  "source_timestamp": "07/16/2026 18:21",
-  "content_hash": "34372c588c96c393",
+  "generated_at": "2026-07-17T17:30:09.009Z",
+  "source_timestamp": "07/17/2026 07:29",
+  "content_hash": "aa9cbc6c135d55f6",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 315,
+      "count": 317,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-17T14:00:59.137Z",
-      "last_attempt": "2026-07-17T14:00:59.137Z",
+      "last_ok": "2026-07-17T17:30:00.427Z",
+      "last_attempt": "2026-07-17T17:30:00.427Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-07-17T14:00:59.568Z",
-      "last_attempt": "2026-07-17T14:00:59.568Z",
+      "last_ok": "2026-07-17T17:30:00.973Z",
+      "last_attempt": "2026-07-17T17:30:00.973Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-17T14:01:02.670Z",
-      "last_attempt": "2026-07-17T14:01:02.670Z",
+      "last_ok": "2026-07-17T17:30:04.372Z",
+      "last_attempt": "2026-07-17T17:30:04.372Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-17T14:01:02.849Z",
-      "last_attempt": "2026-07-17T14:01:02.849Z",
+      "last_ok": "2026-07-17T17:30:06.391Z",
+      "last_attempt": "2026-07-17T17:30:06.391Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-17T14:01:03.012Z",
-      "last_attempt": "2026-07-17T14:01:03.012Z",
+      "last_ok": "2026-07-17T17:30:07.565Z",
+      "last_attempt": "2026-07-17T17:30:07.565Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-17T14:01:04.686Z",
-      "last_attempt": "2026-07-17T14:01:04.686Z",
+      "last_ok": "2026-07-17T17:30:08.272Z",
+      "last_attempt": "2026-07-17T17:30:08.272Z",
       "error": null
     }
   },
@@ -8529,6 +8529,22 @@
       ]
     },
     {
+      "id": "4a748be9cbfb7327",
+      "date": "2026-09-04",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Fork In The Road",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Zi Spice",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "abb1dc9324ad25e4",
       "date": "2026-09-05",
       "start_raw": "1600",
@@ -8807,6 +8823,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "7e200be6496144ed",
+      "date": "2026-09-23",
+      "start_raw": "1800",
+      "end_raw": "1915",
+      "musician": "Dr Pain and the Remedy",
+      "genre": "classic rock",
+      "link": "",
+      "link_name": "",
+      "venue": "Britt",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "90641273bddec796",

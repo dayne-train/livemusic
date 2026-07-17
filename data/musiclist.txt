@@ -1,5 +1,5 @@
 --timestamp
-07/16/2026 18:21
+07/17/2026 07:29
 --news
 * date | notes
 --musicians
@@ -719,6 +719,7 @@ Bim Jeam and the Sadness||||Tap & Vine||08/30/26|1700|1900||Band|
 Allison and Victor||||Dancin Vineyards||08/31/26|1700|1900||Band|
 Dr Pain and the Remedy||||Trium Wines||09/04/26|1700|1900||Band|
 Pozitronics||||Belle Fiore||09/04/26|1730|1930||Band|
+Fork In The Road||||Zi Spice||09/04/26|1800|2000||Band|
 Dr Pain and the Remedy||||Lake of the Woods||09/05/26|1600|2000||Band|
 Pozitronics||||Rellik Winery||09/05/26|1600|1800||Band|
 Phillip Reed||||Stone River Winery||09/05/26|1600|1800||Band|
@@ -736,6 +737,7 @@ The Gus Factor||||The Copper Plank||09/18/26|2000|2300||Band|
 Dr Pain and the Remedy||||Padigan Wines||09/19/26|1700|1900||Band|
 Backdoor Blues band||||Phoodery||09/19/26|1800|2000||Band|
 Encore Five||||Roxy Ann Winery||09/20/26|1600|1800||Band|
+Dr Pain and the Remedy||||Britt||09/23/26|1800|1915||Band|
 Pozitronics||||Local Vines Wine Bar||09/23/26|1900|2100||Band|
 Pozitronics||||Dunbar Farms||09/25/26|1730|1930||Band|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|White Rabbit Cafe||09/25/26|1900|2100||Band|
