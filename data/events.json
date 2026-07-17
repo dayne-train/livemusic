@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-17T17:30:09.009Z",
-  "source_timestamp": "07/17/2026 07:29",
-  "content_hash": "aa9cbc6c135d55f6",
+  "generated_at": "2026-07-17T21:06:47.243Z",
+  "source_timestamp": "07/17/2026 11:53",
+  "content_hash": "7c6433df41803313",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 317,
+      "count": 318,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-17T17:30:00.427Z",
-      "last_attempt": "2026-07-17T17:30:00.427Z",
+      "last_ok": "2026-07-17T21:06:42.621Z",
+      "last_attempt": "2026-07-17T21:06:42.621Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-07-17T17:30:00.973Z",
-      "last_attempt": "2026-07-17T17:30:00.973Z",
+      "last_ok": "2026-07-17T21:06:42.908Z",
+      "last_attempt": "2026-07-17T21:06:42.908Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-17T17:30:04.372Z",
-      "last_attempt": "2026-07-17T17:30:04.372Z",
+      "last_ok": "2026-07-17T21:06:45.521Z",
+      "last_attempt": "2026-07-17T21:06:45.521Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-17T17:30:06.391Z",
-      "last_attempt": "2026-07-17T17:30:06.391Z",
+      "last_ok": "2026-07-17T21:06:45.867Z",
+      "last_attempt": "2026-07-17T21:06:45.867Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-17T17:30:07.565Z",
-      "last_attempt": "2026-07-17T17:30:07.565Z",
+      "last_ok": "2026-07-17T21:06:46.052Z",
+      "last_attempt": "2026-07-17T21:06:46.052Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-17T17:30:08.272Z",
-      "last_attempt": "2026-07-17T17:30:08.272Z",
+      "last_ok": "2026-07-17T21:06:46.798Z",
+      "last_attempt": "2026-07-17T21:06:46.798Z",
       "error": null
     }
   },
@@ -3920,7 +3920,7 @@
       "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged rock to Americana and simple songwrit",
+      "notes": "Due to smoke music will be indoors. Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged r",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-jeff-kloetzel/",
@@ -4598,6 +4598,22 @@
       "link": "",
       "link_name": "Vanessa Finney",
       "venue": "Terrene Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "00fb151c57e0ab7a",
+      "date": "2026-07-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Steam Kettle",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Miner's Bazaar",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",

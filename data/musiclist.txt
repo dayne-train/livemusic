@@ -1,5 +1,5 @@
 --timestamp
-07/17/2026 07:29
+07/17/2026 11:53
 --news
 * date | notes
 --musicians
@@ -510,6 +510,7 @@ Lisa and Dean||||Padigan Wines||07/18/26|1700|1900||Band|
 Keenan Pruett||||Remotion Wine||07/18/26|1700|1900||Band|
 Shybo Torres||||Stone River Winery||07/18/26|1700|1900||Solo|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|Terrene Winery||07/18/26|1700|1900||Band|
+Steam Kettle||||The Miner's Bazaar||07/18/26|1700|1900||Band|
 Rogue Suspects||||Belle Fiore||07/18/26|1730|1930|The Girls; $10-$15|Band|
 Broadway Phil & The Shouters|||Broadway Phil and the Shouters|Galice Resort||07/18/26|1730|2030||Band|
 Live Music||||Callahan's Lodge||07/18/26|1800|2100||Band|
