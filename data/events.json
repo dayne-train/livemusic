@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T09:44:00.704Z",
+  "generated_at": "2026-07-18T13:46:51.482Z",
   "source_timestamp": "07/17/2026 11:53",
   "content_hash": "b84d734227ef14cc",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 318,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-18T09:43:55.197Z",
-      "last_attempt": "2026-07-18T09:43:55.197Z",
+      "last_ok": "2026-07-18T13:46:43.490Z",
+      "last_attempt": "2026-07-18T13:46:43.490Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 24,
       "strategy": "live",
-      "last_ok": "2026-07-18T09:43:55.548Z",
-      "last_attempt": "2026-07-18T09:43:55.548Z",
+      "last_ok": "2026-07-18T13:46:43.839Z",
+      "last_attempt": "2026-07-18T13:46:43.839Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-18T09:43:58.215Z",
-      "last_attempt": "2026-07-18T09:43:58.215Z",
+      "last_ok": "2026-07-18T13:46:46.052Z",
+      "last_attempt": "2026-07-18T13:46:46.052Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-18T09:43:58.551Z",
-      "last_attempt": "2026-07-18T09:43:58.551Z",
+      "last_ok": "2026-07-18T13:46:49.193Z",
+      "last_attempt": "2026-07-18T13:46:49.193Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-18T09:43:58.689Z",
-      "last_attempt": "2026-07-18T09:43:58.689Z",
+      "last_ok": "2026-07-18T13:46:50.184Z",
+      "last_attempt": "2026-07-18T13:46:50.184Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-18T09:43:59.704Z",
-      "last_attempt": "2026-07-18T09:43:59.704Z",
+      "last_ok": "2026-07-18T13:46:51.040Z",
+      "last_attempt": "2026-07-18T13:46:51.040Z",
       "error": null
     }
   },
