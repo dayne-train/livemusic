@@ -1,5 +1,5 @@
 --timestamp
-07/18/2026 07:46
+07/19/2026 09:08
 --news
 * date | notes
 --musicians
@@ -732,6 +732,7 @@ Pozitronics||||Rellik Winery||09/05/26|1600|1800||Band|
 Phillip Reed||||Stone River Winery||09/05/26|1600|1800||Band|
 Mountaintop Sound||||Remotion Wine||09/05/26|1700|1900||Band|
 Encore Five||||Local Vines Wine Bar||09/09/26|1700|1900||Band|
+Encore Five||||Dunbar Farms||09/11/26|1730|1930||Band|
 Jeff Kloetzel||||Phoodery||09/11/26|1800|2000||Band|
 Enoch and David||||Wanderlust Vineyard||09/12/26|1330|1530||Band|
 Keenan Pruett||||Remotion Wine||09/12/26|1700|1900||Band|
@@ -769,6 +770,7 @@ Joshua Paul||||Schmidt Vineyard||10/23/26|1700|2000||Band|
 Pozitronics||||Belle Fiore||10/24/26|1700|1900|Costume Party|Band|
 Pozitronics||||Roxy Ann Winery||10/30/26|1800|2000|Costume Party|Band|
 Pozitronics||||Padigan Wines||10/31/26|1700|1900|Costume Party|Band|
+Encore Five||||Belle Fiore||10/31/26|1730|1930||Band|
 Enoch and David||||Rellik Winery||11/06/26|1700|1900||Band|
 Joshua Paul||||Paschal Winery||11/08/26|1530|1730||Band|
 Enoch and David||||Paschal Winery||12/06/26|1300|1500||Band|
