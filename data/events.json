@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T11:12:04.503Z",
+  "generated_at": "2026-07-20T14:32:18.527Z",
   "source_timestamp": "07/19/2026 09:08",
   "content_hash": "e895332ce7fdbcb7",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-20T11:11:59.443Z",
-      "last_attempt": "2026-07-20T11:11:59.443Z",
+      "last_ok": "2026-07-20T14:32:13.267Z",
+      "last_attempt": "2026-07-20T14:32:13.267Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-07-20T11:11:59.829Z",
-      "last_attempt": "2026-07-20T11:11:59.829Z",
+      "last_ok": "2026-07-20T14:32:13.685Z",
+      "last_attempt": "2026-07-20T14:32:13.685Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-20T11:12:02.349Z",
-      "last_attempt": "2026-07-20T11:12:02.349Z",
+      "last_ok": "2026-07-20T14:32:15.853Z",
+      "last_attempt": "2026-07-20T14:32:15.853Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-20T11:12:02.769Z",
-      "last_attempt": "2026-07-20T11:12:02.769Z",
+      "last_ok": "2026-07-20T14:32:16.371Z",
+      "last_attempt": "2026-07-20T14:32:16.371Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-20T11:12:02.882Z",
-      "last_attempt": "2026-07-20T11:12:02.882Z",
+      "last_ok": "2026-07-20T14:32:16.481Z",
+      "last_attempt": "2026-07-20T14:32:16.481Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-20T11:12:03.967Z",
-      "last_attempt": "2026-07-20T11:12:03.967Z",
+      "last_ok": "2026-07-20T14:32:17.259Z",
+      "last_attempt": "2026-07-20T14:32:17.259Z",
       "error": null
     }
   },
