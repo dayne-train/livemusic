@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T04:02:44.031Z",
+  "generated_at": "2026-07-20T07:27:32.019Z",
   "source_timestamp": "07/19/2026 09:08",
   "content_hash": "e895332ce7fdbcb7",
   "sources": {
@@ -7,48 +7,48 @@
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-20T04:02:39.349Z",
-      "last_attempt": "2026-07-20T04:02:39.349Z",
+      "last_ok": "2026-07-20T07:27:27.496Z",
+      "last_attempt": "2026-07-20T07:27:27.496Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-07-20T04:02:39.658Z",
-      "last_attempt": "2026-07-20T04:02:39.658Z",
+      "last_ok": "2026-07-20T07:27:27.863Z",
+      "last_attempt": "2026-07-20T07:27:27.863Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-20T04:02:41.763Z",
-      "last_attempt": "2026-07-20T04:02:41.763Z",
+      "last_ok": "2026-07-20T07:27:30.106Z",
+      "last_attempt": "2026-07-20T07:27:30.106Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-07-20T04:02:42.229Z",
-      "last_attempt": "2026-07-20T04:02:42.229Z",
+      "last_ok": "2026-07-20T07:27:30.426Z",
+      "last_attempt": "2026-07-20T07:27:30.426Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-20T04:02:42.312Z",
-      "last_attempt": "2026-07-20T04:02:42.312Z",
+      "last_ok": "2026-07-20T07:27:30.543Z",
+      "last_attempt": "2026-07-20T07:27:30.543Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-20T04:02:43.075Z",
-      "last_attempt": "2026-07-20T04:02:43.075Z",
+      "last_ok": "2026-07-20T07:27:31.418Z",
+      "last_attempt": "2026-07-20T07:27:31.418Z",
       "error": null
     }
   },
