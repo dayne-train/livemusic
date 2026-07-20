@@ -1,5 +1,5 @@
 --timestamp
-07/19/2026 09:08
+07/20/2026 08:22
 --news
 * date | notes
 --musicians
@@ -677,6 +677,7 @@ The Roadsters Duo|||The Roadsters|Annie Creek Restaurant||08/06/26|1830|2030||Ba
 Frankie Hernandez||||Talon Grill||08/06/26|1830|2030||Band|
 Mitchell Brothers||||Bella Union||08/06/26|1900|2100||Band|
 Jeff Kloetzel||||Dancin Vineyards||08/07/26|1700|1900||Band|
+Encore Five||||Trium Wines||08/07/26|1730|1930||Band|
 Trebled Souls||||Phoodery||08/07/26|1800|2000||Band|
 Steve Swift|||Steve Shine Swing|Remotion Wine||08/07/26|1800|2000||Band|
 Santa Fe Band||||South Stage Cellars||08/07/26|1800|2000||Band|
@@ -686,7 +687,6 @@ Enoch and David||||Red Lily Vineyards||08/08/26|1500|1700||Band|
 The Giantess||||Stone River Winery||08/08/26|1700|1900||Band|
 Mitchell Brothers||||Gold Hill Moose Lodge||08/08/26|1900|2200||Band|
 Joanna Serenk||||Wooldridge Creek Winery||08/09/26|1300|1600||Band|
-Encore Five||||Pebblestone Cellars||08/09/26|1500|1700||Band|
 Enoch and David||||Paschal Winery||08/09/26|1530|1730||Band|
 Dr Pain and the Remedy||||Belle Fiore||08/09/26|1730|1930||Band|
 Tony Brussat & Lawrence Newcomb||||Butterfly Club 557||08/09/26|1800|2000|$10|Band|
