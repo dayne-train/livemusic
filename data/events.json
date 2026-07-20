@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-19T21:06:14.401Z",
+  "generated_at": "2026-07-20T04:02:44.031Z",
   "source_timestamp": "07/19/2026 09:08",
-  "content_hash": "7aafe3ae943c02e4",
+  "content_hash": "e895332ce7fdbcb7",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-19T21:06:10.457Z",
-      "last_attempt": "2026-07-19T21:06:10.457Z",
+      "last_ok": "2026-07-20T04:02:39.349Z",
+      "last_attempt": "2026-07-20T04:02:39.349Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 18,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-07-19T21:06:10.958Z",
-      "last_attempt": "2026-07-19T21:06:10.958Z",
-      "error": "travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-07-20T04:02:39.658Z",
+      "last_attempt": "2026-07-20T04:02:39.658Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-07-19T17:14:40.433Z",
-      "last_attempt": "2026-07-19T21:06:11.962Z",
-      "error": "page missing event blocks"
-    },
-    "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-19T21:06:12.418Z",
-      "last_attempt": "2026-07-19T21:06:12.418Z",
+      "last_ok": "2026-07-20T04:02:41.763Z",
+      "last_attempt": "2026-07-20T04:02:41.763Z",
+      "error": null
+    },
+    "black_sheep": {
+      "ok": true,
+      "count": 6,
+      "strategy": "live",
+      "last_ok": "2026-07-20T04:02:42.229Z",
+      "last_attempt": "2026-07-20T04:02:42.229Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-19T21:06:12.633Z",
-      "last_attempt": "2026-07-19T21:06:12.633Z",
+      "last_ok": "2026-07-20T04:02:42.312Z",
+      "last_attempt": "2026-07-20T04:02:42.312Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-19T21:06:13.541Z",
-      "last_attempt": "2026-07-19T21:06:13.541Z",
+      "last_ok": "2026-07-20T04:02:43.075Z",
+      "last_attempt": "2026-07-20T04:02:43.075Z",
       "error": null
     }
   },
@@ -3533,6 +3533,17 @@
         "musiclist_txt"
       ]
     },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
+    },
     "Lithia Park Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -4967,25 +4978,6 @@
       ]
     },
     {
-      "id": "fcec400f5e7d90f7",
-      "date": "2026-07-19",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "722a9fa387db79ef",
       "date": "2026-07-19",
       "start_raw": "1500",
@@ -5134,44 +5126,21 @@
       "genres": []
     },
     {
-      "id": "953889d7d5bd1bc1",
-      "date": "2026-07-19",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "FREE MUSIC + WINE SERIES FEATURING Tres Palomas",
-      "genre": "",
-      "link": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-july-19/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Tres Palomas plays Bossa Nova and international classics. The trio – Mari Simone on vocals, Sean Chon on upright bass, and Jason Wolverton on guitar – performs in Portuguese, Spanish, French, and Engl",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-july-19/",
-      "genres": []
-    },
-    {
       "id": "c178947e5b49a10a",
       "date": "2026-07-19",
       "start_raw": "1700",
       "end_raw": "1900",
       "musician": "Jen Ambrose & Annieville Blues",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-jen-ambrose-annieville-blues/",
+      "link": "",
       "link_name": "Jen Ambrose",
       "venue": "Belle Fiore",
-      "notes": "Blues, Jazz and original music",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-jen-ambrose-annieville-blues/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "caf94c8052108725"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Blues",
-        "Jazz"
+        "Blues"
       ]
     },
     {
@@ -5305,19 +5274,25 @@
       "genres": []
     },
     {
-      "id": "cc2a0ebe0c09883a",
+      "id": "15ecaa5e546a06f7",
       "date": "2026-07-20",
       "start_raw": "1800",
-      "end_raw": "2100",
+      "end_raw": "2000",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4422",
+      "link": "https://travelashland.com/event/epic-summer-series-2/",
       "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nJu",
       "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4422",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-2/",
+      "merged_from": [
+        {
+          "source": "ashland_city",
+          "id": "cc2a0ebe0c09883a"
+        }
+      ],
       "genres": []
     },
     {
@@ -6120,6 +6095,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a79284f76f80858b",
+      "date": "2026-07-25",
+      "start_raw": "1200",
+      "end_raw": "2000",
+      "musician": "Mt. Ashland Alpine Music Festival",
+      "genre": "",
+      "link": "https://travelashland.com/event/mt-ashland-alpine-music-festival/",
+      "link_name": "",
+      "venue": "Mt. Ashland",
+      "notes": "Mt Ashland Ski Area is excited to present, in partnership with the Rhythm and Sound Project,  the first ever Mt. Ashland Alpine Music Festival! With two full days of live music featuring 12 local arti",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/mt-ashland-alpine-music-festival/",
       "genres": []
     },
     {
@@ -7493,6 +7484,23 @@
       "genres": []
     },
     {
+      "id": "8cea3a60380d61b2",
+      "date": "2026-08-04",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dean's Funtime Party Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/deans-funtime-party-band-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/deans-funtime-party-band-2/",
+      "genres": []
+    },
+    {
       "id": "96c86ff9bbcf33cb",
       "date": "2026-08-05",
       "start_raw": "1300",
@@ -7621,6 +7629,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "16b6edd93dbf7f60",
+      "date": "2026-08-06",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Maxwell Friedman Group",
+      "genre": "",
+      "link": "https://talentclublive.com/event/maxwell-friedman-group/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/maxwell-friedman-group/",
       "genres": []
     },
     {
@@ -8014,6 +8039,22 @@
       "genres": []
     },
     {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "genres": []
+    },
+    {
       "id": "f5dae594fbfc8862",
       "date": "2026-08-17",
       "start_raw": "1900",
@@ -8075,6 +8116,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2770767eb6b46d0b",
+      "date": "2026-08-21",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Ben Rice and the PDX Hustle",
+      "genre": "",
+      "link": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
       "genres": []
     },
     {
@@ -8155,6 +8213,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "653423eb3390a2ef",
+      "date": "2026-08-22",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dale Watson",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
       "genres": []
     },
     {
@@ -8874,6 +8949,23 @@
       "genres": []
     },
     {
+      "id": "996814db97d176a6",
+      "date": "2026-09-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Magnificent Sanctuary Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "genres": []
+    },
+    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -9164,6 +9256,23 @@
       ]
     },
     {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
+    },
+    {
       "id": "e7c8507716e27828",
       "date": "2026-10-23",
       "start_raw": "1700",
@@ -9212,6 +9321,23 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "aeaf97860ea4be91",
+      "date": "2026-10-27",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
+      "genre": "",
+      "link": "https://talentclublive.com/event/steely-dead/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/steely-dead/",
+      "genres": []
     },
     {
       "id": "7a82aa301af421c1",
