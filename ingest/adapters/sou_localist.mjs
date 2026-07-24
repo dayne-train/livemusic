@@ -59,8 +59,10 @@ export async function ingest({ offline = false } = {}) {
     }
     const events = [];
     const venueSet = new Map();
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
+    // Keep past events (the merge step archives them); only drop ancient ones.
+    const pastFloor = new Date();
+    pastFloor.setHours(0, 0, 0, 0);
+    pastFloor.setDate(pastFloor.getDate() - 366);
 
     for (const wrap of items) {
       const e = wrap.event;
@@ -69,7 +71,7 @@ export async function ingest({ offline = false } = {}) {
       const instance = e.event_instances?.[0]?.event_instance;
       const { date: dateISO, time: startRaw } = parseStart(instance?.start);
       if (!dateISO) continue;
-      if (new Date(dateISO + 'T00:00:00') < today) continue;
+      if (new Date(dateISO + 'T00:00:00') < pastFloor) continue;
       const endRaw = parseEnd(instance?.end);
       const venueName = (e.location_name || '').trim() || 'SOU';
       const title = (e.title || 'Music event').trim();

@@ -130,13 +130,13 @@ jobs:
 
           # Stage anything in data/ that we care about. Files that don't
           # exist are silently skipped.
-          for f in data/musiclist.txt data/events.json data/meta.json; do
+          for f in data/musiclist.txt data/events.json data/meta.json data/archive-*.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
 
-          # If the events.json content_hash is unchanged AND musiclist.txt
-          # has no real diff (just timestamp updates in meta.json), skip.
-          OTHER_DIFF=$(git diff --cached --name-only -- data/musiclist.txt)
+          # If the events.json content_hash is unchanged AND musiclist.txt /
+          # archive files have no real diff (just timestamps in meta.json), skip.
+          OTHER_DIFF=$(git diff --cached --name-only -- data/musiclist.txt 'data/archive-*.json')
           if [ "$NEW_HASH" = "$OLD_HASH" ] && [ -n "$NEW_HASH" ] && [ -z "$OTHER_DIFF" ]; then
             echo "Content hash unchanged ($NEW_HASH) and no other data diffs. Skipping commit."
             git reset -q

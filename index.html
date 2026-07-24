@@ -190,6 +190,16 @@
   .dp-input:focus { border-color:var(--accent); }
   .dp-apply { width:100%; margin-top:var(--sp-6); padding:var(--sp-4); border-radius:var(--radius-sm); border:none; background:var(--accent); color:#fff; font-size:13px; font-weight:500; cursor:pointer; }
   .dp-apply:hover { background:var(--accent-dark); }
+  /* Custom range section inside the date pill menu */
+  .pill-sep { height:0.5px; background:var(--border2); margin:var(--sp-4) var(--sp-2); }
+  .pill-custom { display:flex; flex-direction:column; gap:var(--sp-4); padding:var(--sp-2) var(--sp-6) var(--sp-4); }
+  .pill-custom-title { font-size:11px; font-weight:500; color:var(--text3); text-transform:uppercase; letter-spacing:0.04em; }
+  .pill-custom .dp-apply { margin-top:var(--sp-2); }
+  /* Custom range section inside the mobile date bottom sheet */
+  .bs-custom { display:flex; flex-direction:column; gap:var(--sp-6); margin-top:var(--sp-6); padding-top:var(--sp-8); border-top:0.5px solid var(--border2); }
+  .bs-custom .dp-input { font-size:16px; padding:var(--sp-4) var(--sp-6); }
+  .bs-custom .dp-label { width:44px; font-size:13px; }
+  .bs-custom .dp-apply { font-size:15px; padding:var(--sp-6); }
 
   /* ── Filter row ── */
   .filter-bar { background:var(--bg3); }
@@ -663,6 +673,13 @@
       <button class="pill-option" role="menuitem" onclick="pickDate('week','This week')">This week<span class="pill-hint" id="dh-week"></span></button>
       <button class="pill-option selected" role="menuitem" onclick="pickDate('next7','Next 7 days')">Next 7 days<span class="pill-hint" id="dh-next7"></span></button>
       <button class="pill-option" role="menuitem" onclick="pickDate('month','This month')">This month<span class="pill-hint" id="dh-month"></span></button>
+      <div class="pill-sep" role="separator"></div>
+      <div class="pill-custom">
+        <div class="pill-custom-title">Custom range</div>
+        <div class="dp-row"><label class="dp-label" for="pd-from">From</label><input class="dp-input" type="date" id="pd-from"></div>
+        <div class="dp-row"><label class="dp-label" for="pd-to">To</label><input class="dp-input" type="date" id="pd-to"></div>
+        <button class="dp-apply" onclick="applyPillCustomRange('pd')">Apply</button>
+      </div>
     </div>
   </div>
   <div class="pill-wrap mobile-show">
@@ -1195,6 +1212,66 @@ async function fetchEventsJson(){
   return json;
 }
 
+/* ── Show archive ──
+   Past shows fall out of events.json (sources prune them) but live forever in
+   per-year data/archive-YYYY.json files. Those are fetched lazily, only when
+   the selected range reaches far enough back, and merged in by event id. */
+const ARCHIVE_FIRST_YEAR=2026;
+const LIVE_PAST_DAYS=21; // ranges reaching further back than this consult the archive
+let _liveJson=null;      // raw events.json (null when on the legacy txt fallback path)
+const _archives={};      // year -> parsed archive json, or 'failed'
+const _archiveLoading={};// year -> in-flight promise
+
+function archiveYearsForRange(){
+  if(!_liveJson)return[];
+  const t=midnight(new Date());
+  if(rangeStart>=addDays(t,-LIVE_PAST_DAYS))return[];
+  const ys=[];
+  const startY=Math.max(rangeStart.getFullYear(),ARCHIVE_FIRST_YEAR);
+  const endY=Math.min(rangeEnd.getFullYear(),t.getFullYear());
+  for(let y=startY;y<=endY;y++)if(!_archives[y])ys.push(y);
+  return ys;
+}
+function loadArchiveYear(y){
+  if(_archives[y])return Promise.resolve(false);
+  if(_archiveLoading[y])return _archiveLoading[y];
+  _archiveLoading[y]=fetchWithTimeout('data/archive-'+y+'.json',8000)
+    .then(r=>{if(!r.ok)throw new Error('archive HTTP '+r.status);return r.json();})
+    .then(j=>{_archives[y]=j;rebuildAllEvents();return true;})
+    .catch(()=>{_archives[y]='failed';return false;})
+    .finally(()=>{delete _archiveLoading[y];});
+  return _archiveLoading[y];
+}
+function ensureArchivesForView(){
+  const ys=archiveYearsForRange();
+  if(!ys.length)return;
+  Promise.all(ys.map(loadArchiveYear)).then(loaded=>{if(loaded.some(Boolean))render();});
+}
+function archivePending(){
+  return archiveYearsForRange().length>0||Object.keys(_archiveLoading).length>0;
+}
+/* Rebuild allEvents from the live json plus every loaded archive year.
+   Live wins on event id and venue name; the combined list is re-sorted so
+   day grouping stays correct. */
+function rebuildAllEvents(){
+  if(!_liveJson)return;
+  const ids=new Set((_liveJson.events||[]).map(e=>e.id).filter(Boolean));
+  const events=[...(_liveJson.events||[])];
+  const venues={...(_liveJson.venues||{})};
+  for(const y of Object.keys(_archives)){
+    const a=_archives[y];
+    if(!a||a==='failed')continue;
+    for(const[k,v]of Object.entries(a.venues||{}))if(!venues[k])venues[k]=v;
+    for(const e of(a.events||[])){
+      if(e.id&&ids.has(e.id))continue;
+      if(e.id)ids.add(e.id);
+      events.push(e);
+    }
+  }
+  events.sort((a,b)=>((a.date||'')+(a.start_raw||'0000')).localeCompare((b.date||'')+(b.start_raw||'0000')));
+  allEvents=eventsJsonToInternal({..._liveJson,venues,events});
+}
+
 /* Convert canonical events.json records to the in-memory shape the rest of
    the UI expects (matches parseTxt output exactly). Venue fields are joined
    from the venues dict by name. */
@@ -1246,7 +1323,8 @@ async function loadData(){
   try{
     const json=await fetchEventsJson();
     hideStaleNotice();
-    allEvents=eventsJsonToInternal(json);
+    _liveJson=json;
+    rebuildAllEvents();
     populateFilterDropdowns();
     render();
     openFromUrl();
@@ -1403,6 +1481,35 @@ function updateDpLabel(){
   }
 }
 
+/* ── Custom date range (date pill menu + mobile sheet) ── */
+function applyPillCustomRange(prefix){
+  const from=document.getElementById(prefix+'-from').value;
+  if(!from)return;
+  const to=document.getElementById(prefix+'-to').value;
+  let s=midnight(new Date(from+'T12:00:00'));
+  let e=to?midnight(new Date(to+'T12:00:00')):s;
+  if(e<s){const tmp=s;s=e;e=tmp;}
+  if(prefix==='bs')closePillSheet();
+  setCustomRange(s,e);
+}
+function setCustomRange(s,e){
+  rangeStart=s;rangeEnd=e;_currentRange=null;
+  clearQuickChips();
+  syncCustomPillUi();
+  const pill=document.getElementById('pill-date');
+  const menu=document.getElementById('pill-date-menu');
+  if(pill){pill.classList.remove('open');pill.setAttribute('aria-expanded','false');}
+  if(menu)menu.classList.remove('open');
+  updateDpLabel();
+  updateClearBtn();syncUrl();render();
+}
+function syncCustomPillUi(){
+  document.querySelectorAll('#pill-date-menu .pill-option').forEach(o=>o.classList.remove('selected'));
+  const pill=document.getElementById('pill-date');
+  if(pill)pill.classList.add('filtered');
+  document.getElementById('pill-date-label').innerHTML=datePillLabel('Custom');
+}
+
 /* ── Pill dropdown filters ── */
 const FILTER_STATE={region:'all',type:'all',genre:'all',venue:'all',time:'all'};
 const FILTER_DEFAULTS={region:'Region',type:'Type',genre:'Genre',venue:'Venue type',time:'Time'};
@@ -1418,6 +1525,10 @@ function togglePill(name){
   const open=menu.classList.toggle('open');
   pill.classList.toggle('open',open);
   pill.setAttribute('aria-expanded',open);
+  if(name==='date'&&open){
+    document.getElementById('pd-from').value=fmtISO(rangeStart);
+    document.getElementById('pd-to').value=fmtISO(rangeEnd);
+  }
 }
 
 /* ── Pill bottomsheet for mobile ── */
@@ -1457,6 +1568,15 @@ function openPillSheet(name){
       bsBody.appendChild(btn);
     }
   });
+  if(name==='date'){
+    const wrap=document.createElement('div');
+    wrap.className='bs-custom';
+    wrap.innerHTML='<div class="pill-custom-title">Custom range</div>'
+      +'<div class="dp-row"><label class="dp-label" for="bs-from">From</label><input class="dp-input" type="date" id="bs-from" value="'+fmtISO(rangeStart)+'"></div>'
+      +'<div class="dp-row"><label class="dp-label" for="bs-to">To</label><input class="dp-input" type="date" id="bs-to" value="'+fmtISO(rangeEnd)+'"></div>'
+      +'<button class="dp-apply" onclick="applyPillCustomRange(\'bs\')">Apply</button>';
+    bsBody.appendChild(wrap);
+  }
   document.getElementById('bs-pill-overlay').classList.add('open');
   document.body.style.overflow='hidden';
   requestAnimationFrame(()=>document.getElementById('bs-pill-panel').classList.add('open'));
@@ -1554,12 +1674,12 @@ function syncPillUi(name,value){
 }
 
 /* ── Filter ── */
-function getFiltered(){
+function getFiltered(ignoreDate){
   const q=document.getElementById('search').value.toLowerCase();
   const s=midnight(rangeStart),e=midnight(rangeEnd);
   return allEvents.filter(ev=>{
     const d=midnight(ev.date);
-    if(d<s||d>e)return false;
+    if(!ignoreDate&&(d<s||d>e))return false;
     if(activeRegion!=='all'&&ev.region!==activeRegion)return false;
     if(activeType!=='all'&&ev.eventType!==activeType)return false;
     if(activeGenre!=='all'&&!(ev.genres||[]).includes(activeGenre))return false;
@@ -1571,6 +1691,34 @@ function getFiltered(){
     }
     if(q&&!ev.musician.toLowerCase().includes(q)&&!ev.venue.toLowerCase().includes(q)&&!ev.city.toLowerCase().includes(q))return false;
     return true;
+  });
+}
+
+/* A search came up empty in the current range — check every other date,
+   pulling in the archive so long-past shows still turn up, and offer a
+   one-tap way to jump to the matches. */
+function offerOtherDates(){
+  const q=document.getElementById('search').value;
+  if(!q||!_liveJson)return;
+  const t=midnight(new Date());
+  const years=[];
+  for(let y=ARCHIVE_FIRST_YEAR;y<=t.getFullYear();y++)if(!_archives[y])years.push(y);
+  Promise.all(years.map(loadArchiveYear)).then(()=>{
+    // Bail if the user moved on while the archive loaded.
+    if(document.getElementById('search').value!==q||getFiltered().length)return;
+    const matches=getFiltered(true);
+    if(!matches.length)return;
+    const el=document.querySelector('.state-msg');
+    if(!el||el.querySelector('.other-dates-btn'))return;
+    const dates=matches.map(m=>m.dateStr).sort();
+    const btn=document.createElement('button');
+    btn.className='state-btn-ghost other-dates-btn';
+    btn.textContent='Show '+matches.length+' show'+(matches.length!==1?'s':'')+' on other dates';
+    btn.onclick=()=>{setCustomRange(midnight(new Date(dates[0]+'T12:00:00')),midnight(new Date(dates[dates.length-1]+'T12:00:00')));};
+    const row=document.createElement('div');
+    row.className='state-btn-row';
+    row.appendChild(btn);
+    el.appendChild(row);
   });
 }
 
@@ -1632,12 +1780,19 @@ function render(){
   const _mcp=document.getElementById('mobile-clear-pill');
   const _anyActive=hasActiveFilters()||document.getElementById('search').value||!isDefaultDateRange();
   if(_mcp)_mcp.style.display=_anyActive?'block':'none';
+  ensureArchivesForView();
   const filtered=getFiltered();
   const listing=document.getElementById('listing');
   const effectiveView=isMobile()?'card':viewMode;
   document.getElementById('count-label').textContent=filtered.length+' show'+(filtered.length!==1?'s':'');
   if(allEvents.length===0){listing.innerHTML='<div class="state-msg">'+loadingMsg()+'</div>';startIconCycle();return;}
   stopIconCycle();
+  if(filtered.length===0&&archivePending()){
+    // Range reaches into the archive and it hasn't arrived yet — don't flash
+    // an empty state; the archive fetch re-renders when it lands.
+    listing.innerHTML='<div class="state-msg">'+loadingMsg()+'</div>';
+    return;
+  }
   if(filtered.length===0){
     const isSingleDay=fmtISO(rangeStart)===fmtISO(rangeEnd);
     const filtersActive=hasActiveFilters()||document.getElementById('search').value;
@@ -1652,6 +1807,7 @@ function render(){
       const nr=noResults[Math.floor(Math.random()*noResults.length)];
       html=`<span class="state-icon">${nr.icon}</span>${nr.msg}<small>${nr.sub}</small>
         <br><button onclick="clearAllFilters()" class="state-btn">Clear all filters</button>`;
+      if(document.getElementById('search').value)offerOtherDates();
     }else{
       // Build smart quick-action suggestions excluding the current range
       const cur=_currentRange;
@@ -2018,7 +2174,7 @@ function restoreFromUrl(){
     _currentRange=null;
     rangeStart=midnight(new Date(p.get('from')+'T12:00:00'));
     rangeEnd=p.has('to')?midnight(new Date(p.get('to')+'T12:00:00')):rangeStart;
-    clearQuickChips();updateDpLabel();
+    clearQuickChips();updateDpLabel();syncCustomPillUi();
   }
   // region
   if(p.has('region')){

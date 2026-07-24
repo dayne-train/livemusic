@@ -156,8 +156,10 @@ export async function ingest({ offline = false } = {}) {
     const xml = await res.text();
     if (!xml.includes('<item>')) throw new Error('no <item> blocks in feed');
     const items = parseItems(xml);
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
+    // Keep past events (the merge step archives them); only drop ancient ones.
+    const pastFloor = new Date();
+    pastFloor.setHours(0, 0, 0, 0);
+    pastFloor.setDate(pastFloor.getDate() - 366);
     const events = [];
     const usedVenues = new Set();
     for (const it of items) {
@@ -169,7 +171,7 @@ export async function ingest({ offline = false } = {}) {
       const dateISO = parseDate(it.eventDates);
       if (!dateISO) continue;
       const eventDate = new Date(dateISO + 'T00:00:00');
-      if (eventDate < today) continue;
+      if (eventDate < pastFloor) continue;
       const { start, end } = parseTimeRange(it.eventTimes);
       const musician = rule.musician_override || title;
       // id is derived from the original feed title so two distinct city entries

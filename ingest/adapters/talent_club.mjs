@@ -80,8 +80,10 @@ function extractEvents(html) {
   const events = [];
   const articleRe = /<article[^>]+post-(\d+)[^>]+event_category-([a-z0-9-]+)[^>]*>([\s\S]*?)<\/article>/g;
   let m;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  // Keep past events (the merge step archives them); only drop ancient ones.
+  const pastFloor = new Date();
+  pastFloor.setHours(0, 0, 0, 0);
+  pastFloor.setDate(pastFloor.getDate() - 366);
   while ((m = articleRe.exec(html)) !== null) {
     const postId = m[1];
     const category = m[2];
@@ -98,7 +100,7 @@ function extractEvents(html) {
     if (!dateISO) continue;
 
     const eventDate = new Date(dateISO + 'T00:00:00');
-    if (eventDate < today) continue;
+    if (eventDate < pastFloor) continue;
 
     const timeMatch = block.match(/<span[^>]*elementor-post-info__item--type-custom[^>]*>\s*(\d{1,2}:\d{2}\s*[ap]m)/i);
     const startRaw = timeMatch ? parseTime(timeMatch[1]) : '';

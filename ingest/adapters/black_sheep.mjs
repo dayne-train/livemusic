@@ -112,8 +112,10 @@ function extractJsonLdBlocks(html) {
 }
 
 function buildEvents(blocks) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  // Keep past events (the merge step archives them); only drop ancient ones.
+  const pastFloor = new Date();
+  pastFloor.setHours(0, 0, 0, 0);
+  pastFloor.setDate(pastFloor.getDate() - 366);
   const events = [];
   for (const block of blocks) {
     // Each block may be an Event object, or wrap one. Black Sheep emits one per script tag.
@@ -126,7 +128,7 @@ function buildEvents(blocks) {
       const startDate = item.startDate;
       if (!startDate || !/^\d{4}-\d{2}-\d{2}/.test(startDate)) continue;
       const dateISO = startDate.slice(0, 10);
-      if (new Date(dateISO + 'T00:00:00') < today) continue;
+      if (new Date(dateISO + 'T00:00:00') < pastFloor) continue;
       const url = item.url || (item.offers && item.offers.url) || '';
       const description = decodeEntities(item.description || '');
       const slug = (url.match(/\/event\/([^\/?#]+)/) || [])[1] || name.toLowerCase().replace(/[^a-z0-9]+/g, '-');

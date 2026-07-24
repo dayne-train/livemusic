@@ -109,8 +109,10 @@ async function ingestVenue(v, signal) {
   if (!text.includes('BEGIN:VEVENT')) throw new Error(`${v.venue_id} no VEVENT in response`);
   const raw = parseIcs(text);
   const events = [];
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  // Keep past events (the merge step archives them); only drop ancient ones.
+  const pastFloor = new Date();
+  pastFloor.setHours(0, 0, 0, 0);
+  pastFloor.setDate(pastFloor.getDate() - 366);
   for (const r of raw) {
     const dt = parseDtstart(r.DTSTART);
     if (!dt || dt.allDay) continue;
@@ -120,7 +122,7 @@ async function ingestVenue(v, signal) {
     if (v.exclude_summary && v.exclude_summary.test(summary)) continue;
     if (/^No Live Music/i.test(summary)) continue;
     const eventDate = new Date(dt.date + 'T00:00:00');
-    if (eventDate < today) continue;
+    if (eventDate < pastFloor) continue;
     const title = v.title_strip ? summary.replace(v.title_strip, '').trim() : summary;
     const dtEnd = parseDtstart(r.DTEND);
     const url = r.URL ? r.URL.value : null;

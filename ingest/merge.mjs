@@ -16,6 +16,57 @@ const SNAPSHOT_OUT = new URL('musiclist.txt', DATA_DIR);
 
 const OFFLINE = process.argv.includes('--offline');
 
+/* events.json keeps this many days of recent past; anything older lives in the
+   per-year archive files (data/archive-YYYY.json), which are append-only: once
+   a show lands there it never leaves, even after every source feed drops it. */
+const KEEP_PAST_DAYS = 30;
+
+function laTodayISO() {
+  return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+}
+function isoAddDays(iso, n) {
+  const d = new Date(iso + 'T12:00:00Z');
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+/* Upsert past-dated events into the per-year archive files. Newer versions of
+   the same event id replace older ones; nothing is ever removed. Returns a
+   summary of files written. Exported for reuse by backfill-archive.mjs. */
+export async function upsertArchive(candidates, venueDict) {
+  const byYear = new Map();
+  for (const e of candidates.values()) {
+    const y = e.date.slice(0, 4);
+    if (!byYear.has(y)) byYear.set(y, []);
+    byYear.get(y).push(e);
+  }
+  const written = [];
+  for (const [year, evts] of byYear) {
+    const outUrl = new URL(`archive-${year}.json`, DATA_DIR);
+    let existing = null;
+    try { existing = JSON.parse(await readFile(outUrl, 'utf8')); } catch {}
+    const merged = new Map((existing?.events || []).map(e => [e.id, e]));
+    for (const e of evts) merged.set(e.id, e);
+    const mergedEvents = [...merged.values()].sort((a, b) =>
+      (a.date + (a.start_raw || '0000') + a.id).localeCompare(b.date + (b.start_raw || '0000') + b.id));
+    const archVenues = { ...(existing?.venues || {}) };
+    for (const e of mergedEvents) {
+      const v = venueDict[e.venue];
+      if (v) archVenues[e.venue] = v;
+    }
+    const sortedVenues = Object.fromEntries(Object.keys(archVenues).sort().map(k => [k, archVenues[k]]));
+    const payload = { year: +year, event_count: mergedEvents.length, venues: sortedVenues, events: mergedEvents };
+    const str = JSON.stringify(payload, null, 2) + '\n';
+    let prevStr = null;
+    try { prevStr = await readFile(outUrl, 'utf8'); } catch {}
+    if (str !== prevStr) {
+      await writeFile(outUrl, str);
+      written.push({ year, count: mergedEvents.length });
+    }
+  }
+  return written;
+}
+
 const ADAPTERS = [
   { name: 'musiclist_txt', trust: 100, run: () => ingestMusiclistTxt({ offline: OFFLINE }) },
   { name: 'tribe_ics',     trust: 80,  run: () => ingestTribeIcs({ offline: OFFLINE }) },
@@ -204,6 +255,30 @@ async function main() {
   }
 
 
+  /* ── Archive past shows before they vanish from the feeds ── */
+  const todayISO = laTodayISO();
+  const keepFloor = isoAddDays(todayISO, -KEEP_PAST_DAYS);
+
+  let prevJson = null;
+  try { prevJson = JSON.parse(await readFile(EVENTS_OUT, 'utf8')); } catch {}
+
+  // Candidates: every past-dated event we currently know about — the fresh
+  // fetch plus whatever the previous events.json still carried (a show a feed
+  // just dropped would otherwise disappear forever). Fresh fetch wins on id.
+  const candidates = new Map();
+  for (const e of (prevJson?.events || [])) {
+    if (e.id && e.date && e.date < todayISO) candidates.set(e.id, { ...e, merged_from: undefined });
+  }
+  for (const e of events) {
+    if (e.id && e.date && e.date < todayISO) candidates.set(e.id, { ...e, merged_from: undefined });
+  }
+  const venueDict = { ...(prevJson?.venues || {}), ...venues };
+  const archiveWritten = await upsertArchive(candidates, venueDict);
+  for (const w of archiveWritten) console.log(`archive-${w.year}.json updated (${w.count} events)`);
+
+  // events.json keeps only a rolling window of recent past; older is archive-only.
+  const liveEvents = events.filter(e => !e.date || e.date >= keepFloor);
+
   const sourceTimestamp =
     results.find(r => r.ok && r.source_timestamp)?.source_timestamp || null;
 
@@ -226,7 +301,7 @@ async function main() {
 
   const contentHash = createHash('sha256')
     .update(JSON.stringify({
-      events: events.map(e => ({ ...e, merged_from: undefined })),
+      events: liveEvents.map(e => ({ ...e, merged_from: undefined })),
       venues,
       source_timestamp: sourceTimestamp,
     }))
@@ -239,7 +314,7 @@ async function main() {
     content_hash: contentHash,
     sources,
     venues,
-    events,
+    events: liveEvents,
   };
 
   await writeFile(EVENTS_OUT, JSON.stringify(eventsJson, null, 2) + '\n');
@@ -252,14 +327,15 @@ async function main() {
     source_timestamp: sourceTimestamp || 'unknown',
     bytes: rawTxt ? Buffer.byteLength(rawTxt, 'utf8') : (existingMeta?.bytes ?? 0),
     sources,
-    event_count: events.length,
+    event_count: liveEvents.length,
     venue_count: Object.keys(venues).length,
     deduped: dropped.length,
+    archived: candidates.size,
     content_hash: contentHash,
   };
   await writeFile(META_OUT, JSON.stringify(meta, null, 2) + '\n');
 
-  console.log(`\nwrote ${events.length} events, ${Object.keys(venues).length} venues, deduped ${dropped.length}`);
+  console.log(`\nwrote ${liveEvents.length} events, ${Object.keys(venues).length} venues, deduped ${dropped.length}, ${candidates.size} past events upserted to archive`);
   if (dropped.length) {
     console.log('\nDedup samples (first 5):');
     for (const d of dropped.slice(0, 5)) {
@@ -269,7 +345,10 @@ async function main() {
   console.log(`source_timestamp: ${sourceTimestamp || 'unknown'}`);
 }
 
-main().catch(err => {
-  console.error('merge failed:', err);
-  process.exit(1);
-});
+import { pathToFileURL } from 'node:url';
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch(err => {
+    console.error('merge failed:', err);
+    process.exit(1);
+  });
+}
