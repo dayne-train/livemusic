@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-24T14:19:17.643Z",
-  "source_timestamp": "07/23/2026 15:04",
-  "content_hash": "ea1dfa5c314949df",
+  "generated_at": "2026-07-24T17:33:07.181Z",
+  "source_timestamp": "07/24/2026 08:37",
+  "content_hash": "1830b85f8364c055",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 272,
+      "count": 276,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-24T14:19:03.549Z",
-      "last_attempt": "2026-07-24T14:19:03.549Z",
+      "last_ok": "2026-07-24T17:33:02.170Z",
+      "last_attempt": "2026-07-24T17:33:02.170Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 15,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-07-24T14:19:04.069Z",
-      "last_attempt": "2026-07-24T14:19:04.069Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-07-24T17:33:02.532Z",
+      "last_attempt": "2026-07-24T17:33:02.532Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-24T14:19:14.268Z",
-      "last_attempt": "2026-07-24T14:19:14.268Z",
+      "last_ok": "2026-07-24T17:33:04.801Z",
+      "last_attempt": "2026-07-24T17:33:04.801Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-24T14:19:14.785Z",
-      "last_attempt": "2026-07-24T14:19:14.785Z",
+      "last_ok": "2026-07-24T17:33:05.347Z",
+      "last_attempt": "2026-07-24T17:33:05.347Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-07-24T14:19:15.871Z",
-      "last_attempt": "2026-07-24T14:19:15.871Z",
+      "last_ok": "2026-07-24T17:33:05.483Z",
+      "last_attempt": "2026-07-24T17:33:05.483Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-24T14:19:16.964Z",
-      "last_attempt": "2026-07-24T14:19:16.964Z",
+      "last_ok": "2026-07-24T17:33:06.599Z",
+      "last_attempt": "2026-07-24T17:33:06.599Z",
       "error": null
     }
   },
@@ -4447,6 +4447,22 @@
       "genres": []
     },
     {
+      "id": "a79284f76f80858b",
+      "date": "2026-07-25",
+      "start_raw": "1200",
+      "end_raw": "2000",
+      "musician": "Mt. Ashland Alpine Music Festival",
+      "genre": "",
+      "link": "https://travelashland.com/event/mt-ashland-alpine-music-festival/",
+      "link_name": "",
+      "venue": "Mt. Ashland",
+      "notes": "Mt Ashland Ski Area is excited to present, in partnership with the Rhythm and Sound Project,  the first ever Mt. Ashland Alpine Music Festival! With two full days of live music featuring 12 local arti",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/mt-ashland-alpine-music-festival/",
+      "genres": []
+    },
+    {
       "id": "4234f3e7aeb878e2",
       "date": "2026-07-25",
       "start_raw": "1500",
@@ -6870,16 +6886,16 @@
       ]
     },
     {
-      "id": "60b1a838d3333b75",
+      "id": "fe8ce2964b3bd048",
       "date": "2026-08-09",
       "start_raw": "1800",
       "end_raw": "2000",
-      "musician": "Tony Brussat & Lawrence Newcomb",
+      "musician": "Stardust Trio",
       "genre": "",
       "link": "",
       "link_name": "",
       "venue": "Butterfly Club 557",
-      "notes": "$10",
+      "notes": "Featuring Meghan Wilson on vocals",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -6998,6 +7014,22 @@
       "genres": []
     },
     {
+      "id": "b84383d42771209a",
+      "date": "2026-08-15",
+      "start_raw": "1530",
+      "end_raw": "1830",
+      "musician": "Stardust Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weisinger Family Winery",
+      "notes": "Featuring Meghan Wilson on vocals",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "7d9afeab80370c12",
       "date": "2026-08-15",
       "start_raw": "2000",
@@ -7045,6 +7077,22 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "genres": []
+    },
+    {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
       "genres": []
     },
     {
@@ -7223,6 +7271,22 @@
       "event_type": "Band",
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
+      "genres": []
+    },
+    {
+      "id": "e9749cb6460abc95",
+      "date": "2026-08-23",
+      "start_raw": "1530",
+      "end_raw": "1830",
+      "musician": "Tim Church",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weisinger Family Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -7662,6 +7726,22 @@
       "genres": []
     },
     {
+      "id": "3ccc7f34b5c3bb8a",
+      "date": "2026-09-06",
+      "start_raw": "1530",
+      "end_raw": "1830",
+      "musician": "Stardust Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weisinger Family Winery",
+      "notes": "Featuring Meghan Wilson on vocals",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "0bfc5c35ba5cbe5e",
       "date": "2026-09-09",
       "start_raw": "1700",
@@ -7969,6 +8049,22 @@
       "link": "",
       "link_name": "Vanessa Finney",
       "venue": "White Rabbit Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9888135470e346f9",
+      "date": "2026-09-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "Craig Martin & Tim Church",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",

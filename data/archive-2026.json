@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 767,
+  "event_count": 780,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -87,7 +87,8 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Bridgeview Vineyards": {
@@ -428,7 +429,8 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Growler Guys Grants Pass": {
@@ -791,7 +793,8 @@
       "region": "Medford",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Sams Creek Cellars": {
@@ -930,11 +933,12 @@
       "url": "http://www.theblacksheep.com/",
       "city": "Ashland",
       "notes": "",
-      "address": "",
+      "address": "51 N Main St, Ashland OR",
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "black_sheep"
       ]
     },
     "The Copper Plank": {
@@ -1181,6 +1185,22 @@
     }
   },
   "events": [
+    {
+      "id": "a603ec5979f9fae6",
+      "date": "2026-06-03",
+      "start_raw": "0800",
+      "end_raw": "1700",
+      "musician": "Britt Festival 2026 Season",
+      "genre": "",
+      "link": "https://travelashland.com/event/britt-festival-2026-season/",
+      "link_name": "",
+      "venue": "Britt Festival Pavillion Jacksonville",
+      "notes": "From captivating outdoor concerts to tranquil gardens and scenic trails, Britt connects you to the best of music, art, and nature — right here in the heart of the Rogue Valley.",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/britt-festival-2026-season/",
+      "genres": []
+    },
     {
       "id": "941032c00c3748bf",
       "date": "2026-06-03",
@@ -13792,6 +13812,202 @@
       "venue": "Oberon's Restaurant & Bar",
       "notes": "",
       "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e4fb078fbb38ce69",
+      "date": "2026-07-23",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Erica Rochel",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2b20d06f62158b95",
+      "date": "2026-07-23",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Tres Palomas",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "73a0c4daca5b8a53",
+      "date": "2026-07-23",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Traditional Irish Music and Dancing",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "0f9c6af4cde28af2",
+      "date": "2026-07-23",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Canto Sol Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "Canto Sol",
+      "venue": "Café Lumina",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5110fdcb529d46f2",
+      "date": "2026-07-23",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Wild Goose Chase Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "53b2444e861e4000",
+      "date": "2026-07-23",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Actual Wolf",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a1ff197258914530",
+      "date": "2026-07-23",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Rogue Suspects",
+      "genre": "classic rock",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "Tribute to Santana",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "a8510f14c57339d3",
+      "date": "2026-07-23",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Jon Martin",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Talon Grill",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0ccc6194ea4b7639",
+      "date": "2026-07-23",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Alibi Tavern",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d78f2933881024c8",
+      "date": "2026-07-23",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Aaron Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d98920cb141ca3f2",
+      "date": "2026-07-23",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Growler Guys Grants Pass",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f7409af8400e47ca",
+      "date": "2026-07-23",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Fred Moss",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
