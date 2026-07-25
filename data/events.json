@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-07-25T03:35:18.426Z",
+  "generated_at": "2026-07-25T06:28:01.877Z",
   "source_timestamp": "07/24/2026 08:37",
-  "content_hash": "4a42de353c980e2d",
+  "content_hash": "5c9f1f09c003cc5a",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 276,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-25T03:35:08.377Z",
-      "last_attempt": "2026-07-25T03:35:08.377Z",
+      "last_ok": "2026-07-25T06:27:56.531Z",
+      "last_attempt": "2026-07-25T06:27:56.531Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-07-25T03:35:08.683Z",
-      "last_attempt": "2026-07-25T03:35:08.683Z",
+      "last_ok": "2026-07-25T06:27:56.853Z",
+      "last_attempt": "2026-07-25T06:27:56.853Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-25T03:35:13.851Z",
-      "last_attempt": "2026-07-25T03:35:13.851Z",
+      "last_ok": "2026-07-25T06:27:59.789Z",
+      "last_attempt": "2026-07-25T06:27:59.789Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-25T03:35:17.183Z",
-      "last_attempt": "2026-07-25T03:35:17.183Z",
+      "last_ok": "2026-07-25T06:28:00.200Z",
+      "last_attempt": "2026-07-25T06:28:00.200Z",
       "error": null
     },
     "sou_localist": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-07-24T17:50:27.613Z",
-      "last_attempt": "2026-07-25T03:35:17.257Z",
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 1,
+      "strategy": "live",
+      "last_ok": "2026-07-25T06:28:00.291Z",
+      "last_attempt": "2026-07-25T06:28:00.291Z",
+      "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-25T03:35:17.529Z",
-      "last_attempt": "2026-07-25T03:35:17.529Z",
+      "last_ok": "2026-07-25T06:28:01.349Z",
+      "last_attempt": "2026-07-25T06:28:01.349Z",
       "error": null
     }
   },
@@ -2506,7 +2506,8 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "sou_localist"
       ]
     },
     "Sam's Corner": {
@@ -6035,6 +6036,23 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ada83010e02d6549",
+      "date": "2026-07-31",
+      "start_raw": "1900",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "ODYSSEY: A Benefit Concert for Make-A-Wish & Childhood Cancer Awareness",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "Please join me for a special evening of musical entertainment and fun in support of the Make-A-Wish Foundation. My Wish for a contrabassoon was granted in 2003 while I was undergoing chemotherapy for ",
+      "event_type": "Band",
+      "source": "sou_localist",
       "source_url": null,
       "genres": []
     },
