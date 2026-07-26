@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-26T13:54:50.465Z",
+  "generated_at": "2026-07-26T17:14:44.984Z",
   "source_timestamp": "07/25/2026 13:40",
-  "content_hash": "f80b3a3299493a5e",
+  "content_hash": "72227086a1b4d865",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 281,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-26T13:54:14.264Z",
-      "last_attempt": "2026-07-26T13:54:14.264Z",
+      "last_ok": "2026-07-26T17:14:12.784Z",
+      "last_attempt": "2026-07-26T17:14:12.784Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-07-26T13:54:14.620Z",
-      "last_attempt": "2026-07-26T13:54:14.620Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-07-26T17:14:13.058Z",
+      "last_attempt": "2026-07-26T17:14:13.058Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T13:54:24.780Z",
-      "last_attempt": "2026-07-26T13:54:24.780Z",
+      "last_ok": "2026-07-26T17:14:19.370Z",
+      "last_attempt": "2026-07-26T17:14:19.370Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T13:54:25.139Z",
-      "last_attempt": "2026-07-26T13:54:25.139Z",
+      "last_ok": "2026-07-26T17:14:19.655Z",
+      "last_attempt": "2026-07-26T17:14:19.655Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-26T13:54:25.341Z",
-      "last_attempt": "2026-07-26T13:54:25.341Z",
+      "last_ok": "2026-07-26T17:14:19.821Z",
+      "last_attempt": "2026-07-26T17:14:19.821Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T13:54:26.843Z",
-      "last_attempt": "2026-07-26T13:54:26.843Z",
+      "last_ok": "2026-07-26T17:14:20.865Z",
+      "last_attempt": "2026-07-26T17:14:20.865Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T13:54:27.596Z",
-      "last_attempt": "2026-07-26T13:54:27.596Z",
+      "last_ok": "2026-07-26T17:14:21.741Z",
+      "last_attempt": "2026-07-26T17:14:21.741Z",
       "error": null
     }
   },
@@ -4446,7 +4446,7 @@
       "id": "e586fd5c6190da49",
       "date": "2026-07-25",
       "start_raw": "1200",
-      "end_raw": "",
+      "end_raw": "2000",
       "musician": "Mt. Ashland Alpine Music Festival",
       "genre": "",
       "link": "https://www.mtashland.com/events/mt-ashland-alpine-festival/",
@@ -4456,6 +4456,12 @@
       "event_type": "Festival",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/mt-ashland-alpine-festival/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "a79284f76f80858b"
+        }
+      ],
       "genres": []
     },
     {
@@ -7219,6 +7225,22 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "genres": []
+    },
+    {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
       "genres": []
     },
     {
