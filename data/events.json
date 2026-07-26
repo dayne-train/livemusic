@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-26T06:48:02.604Z",
+  "generated_at": "2026-07-26T10:12:56.591Z",
   "source_timestamp": "07/25/2026 13:40",
-  "content_hash": "c4bb2cb7483da638",
+  "content_hash": "72227086a1b4d865",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 281,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-26T06:47:31.671Z",
-      "last_attempt": "2026-07-26T06:47:31.671Z",
+      "last_ok": "2026-07-26T10:12:28.284Z",
+      "last_attempt": "2026-07-26T10:12:28.284Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-07-26T06:47:31.945Z",
-      "last_attempt": "2026-07-26T06:47:31.945Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-07-26T10:12:28.564Z",
+      "last_attempt": "2026-07-26T10:12:28.564Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T06:47:42.202Z",
-      "last_attempt": "2026-07-26T06:47:42.202Z",
+      "last_ok": "2026-07-26T10:12:31.487Z",
+      "last_attempt": "2026-07-26T10:12:31.487Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T06:47:42.733Z",
-      "last_attempt": "2026-07-26T06:47:42.733Z",
+      "last_ok": "2026-07-26T10:12:31.973Z",
+      "last_attempt": "2026-07-26T10:12:31.973Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-26T06:47:42.904Z",
-      "last_attempt": "2026-07-26T06:47:42.904Z",
+      "last_ok": "2026-07-26T10:12:32.067Z",
+      "last_attempt": "2026-07-26T10:12:32.067Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T06:47:44.395Z",
-      "last_attempt": "2026-07-26T06:47:44.395Z",
+      "last_ok": "2026-07-26T10:12:33.608Z",
+      "last_attempt": "2026-07-26T10:12:33.608Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T06:47:45.273Z",
-      "last_attempt": "2026-07-26T06:47:45.273Z",
+      "last_ok": "2026-07-26T10:12:34.210Z",
+      "last_attempt": "2026-07-26T10:12:34.210Z",
       "error": null
     }
   },
@@ -4446,7 +4446,7 @@
       "id": "e586fd5c6190da49",
       "date": "2026-07-25",
       "start_raw": "1200",
-      "end_raw": "",
+      "end_raw": "2000",
       "musician": "Mt. Ashland Alpine Music Festival",
       "genre": "",
       "link": "https://www.mtashland.com/events/mt-ashland-alpine-festival/",
@@ -4456,6 +4456,12 @@
       "event_type": "Festival",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/mt-ashland-alpine-festival/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "a79284f76f80858b"
+        }
+      ],
       "genres": []
     },
     {
@@ -4661,22 +4667,15 @@
       "end_raw": "1930",
       "musician": "Canto Sol",
       "genre": "Latin",
-      "link": "https://bellefiorewine.com/event/live-music-canto-sol/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Dan and Grant play a variety of Latin music, everything from Flamenco to Tango, including traditional Spanish and Mexican music, as well as Brazilian Jazz and Cuban Salsa.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-canto-sol/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "0a11dc12f37d9b87"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Latin",
-        "Jazz"
+        "Latin"
       ]
     },
     {
@@ -7226,6 +7225,22 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "genres": []
+    },
+    {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
       "genres": []
     },
     {
