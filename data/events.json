@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-26T03:28:10.384Z",
-  "source_timestamp": "07/24/2026 08:37",
-  "content_hash": "85d79e1b627428bd",
+  "generated_at": "2026-07-26T03:53:54.230Z",
+  "source_timestamp": "07/25/2026 13:40",
+  "content_hash": "827aadaf78047b69",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 276,
+      "count": 281,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-26T03:28:04.806Z",
-      "last_attempt": "2026-07-26T03:28:04.806Z",
+      "last_ok": "2026-07-26T03:53:38.847Z",
+      "last_attempt": "2026-07-26T03:53:38.847Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 24,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:28:05.630Z",
-      "last_attempt": "2026-07-26T03:28:05.630Z",
+      "last_ok": "2026-07-26T03:53:39.781Z",
+      "last_attempt": "2026-07-26T03:53:39.781Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:28:06.605Z",
-      "last_attempt": "2026-07-26T03:28:06.605Z",
+      "last_ok": "2026-07-26T03:53:40.792Z",
+      "last_attempt": "2026-07-26T03:53:40.792Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:28:07.136Z",
-      "last_attempt": "2026-07-26T03:28:07.136Z",
+      "last_ok": "2026-07-26T03:53:41.189Z",
+      "last_attempt": "2026-07-26T03:53:41.189Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:28:07.333Z",
-      "last_attempt": "2026-07-26T03:28:07.333Z",
+      "last_ok": "2026-07-26T03:53:41.289Z",
+      "last_attempt": "2026-07-26T03:53:41.289Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:28:08.427Z",
-      "last_attempt": "2026-07-26T03:28:08.427Z",
+      "last_ok": "2026-07-26T03:53:42.537Z",
+      "last_attempt": "2026-07-26T03:53:42.537Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:28:09.142Z",
-      "last_attempt": "2026-07-26T03:28:09.142Z",
+      "last_ok": "2026-07-26T03:53:43.042Z",
+      "last_attempt": "2026-07-26T03:53:43.042Z",
       "error": null
     }
   },
@@ -6128,6 +6128,22 @@
       "genres": []
     },
     {
+      "id": "2ac3c18a7b478b93",
+      "date": "2026-08-01",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "5a5cf067936b4dd4",
       "date": "2026-08-01",
       "start_raw": "1600",
@@ -6656,6 +6672,22 @@
       "genres": []
     },
     {
+      "id": "f541be957358389b",
+      "date": "2026-08-07",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "d5af22f270e7aeef",
       "date": "2026-08-07",
       "start_raw": "1730",
@@ -7003,6 +7035,22 @@
       "genres": []
     },
     {
+      "id": "9820be3a9be95748",
+      "date": "2026-08-14",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "47904aba19f7da11",
       "date": "2026-08-14",
       "start_raw": "1730",
@@ -7284,6 +7332,22 @@
         "Country",
         "Folk"
       ]
+    },
+    {
+      "id": "7fbbbe30d1700fa6",
+      "date": "2026-08-21",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2770767eb6b46d0b",
@@ -8160,6 +8224,22 @@
       "genres": [
         "Blues"
       ]
+    },
+    {
+      "id": "31952653389c7049",
+      "date": "2026-09-20",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a8a5e3b104a15cde",
