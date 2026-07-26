@@ -11,6 +11,7 @@ Builds `data/events.json` by running adapters and merging their output. Runs eve
 | `talent_club` | `talentclublive.com/live-music/` HTML scrape | 80 |
 | `black_sheep` | `theblacksheep.com/events/` schema.org Event JSON-LD | 80 |
 | `sou_localist` | `events.sou.edu` Localist public JSON API | 80 |
+| `mt_ashland` | `mtashland.com/event-directory/` EventON HTML scrape (music events only; multi-day events split per day; ticket cost pulled from detail pages) | 85 |
 
 Higher trust wins on dedup overlaps. The volunteer list is the floor.
 
