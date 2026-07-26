@@ -187,10 +187,7 @@ export async function ingest({ offline = false } = {}) {
       if (!MUSIC_SIGNAL.test(`${card.title} ${text}`)) continue;
 
       const notes = extractCost(text, startISO, todayISO);
-      /* Stays inside the UI's existing type vocabulary (Band/Solo/Jam/Open Mic):
-         a value outside it renders an unfilterable badge and drops the event
-         whenever any type filter is active. */
-      const eventType = 'Band';
+      const eventType = /festival/i.test(card.title) ? 'Festival' : 'Band';
 
       // Multi-day events become one entry per day: each day reuses the range's
       // start time (festivals keep a consistent daily start) and only the final

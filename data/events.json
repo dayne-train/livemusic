@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-26T03:19:18.668Z",
+  "generated_at": "2026-07-26T03:28:10.384Z",
   "source_timestamp": "07/24/2026 08:37",
-  "content_hash": "c68abbdc716e97ca",
+  "content_hash": "85d79e1b627428bd",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 276,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-26T03:19:12.315Z",
-      "last_attempt": "2026-07-26T03:19:12.315Z",
+      "last_ok": "2026-07-26T03:28:04.806Z",
+      "last_attempt": "2026-07-26T03:28:04.806Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 24,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:19:12.848Z",
-      "last_attempt": "2026-07-26T03:19:12.848Z",
+      "last_ok": "2026-07-26T03:28:05.630Z",
+      "last_attempt": "2026-07-26T03:28:05.630Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:19:13.671Z",
-      "last_attempt": "2026-07-26T03:19:13.671Z",
+      "last_ok": "2026-07-26T03:28:06.605Z",
+      "last_attempt": "2026-07-26T03:28:06.605Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:19:14.161Z",
-      "last_attempt": "2026-07-26T03:19:14.161Z",
+      "last_ok": "2026-07-26T03:28:07.136Z",
+      "last_attempt": "2026-07-26T03:28:07.136Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:19:14.321Z",
-      "last_attempt": "2026-07-26T03:19:14.321Z",
+      "last_ok": "2026-07-26T03:28:07.333Z",
+      "last_attempt": "2026-07-26T03:28:07.333Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:19:14.987Z",
-      "last_attempt": "2026-07-26T03:19:14.987Z",
+      "last_ok": "2026-07-26T03:28:08.427Z",
+      "last_attempt": "2026-07-26T03:28:08.427Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T03:19:18.207Z",
-      "last_attempt": "2026-07-26T03:19:18.207Z",
+      "last_ok": "2026-07-26T03:28:09.142Z",
+      "last_attempt": "2026-07-26T03:28:09.142Z",
       "error": null
     }
   },
@@ -4453,7 +4453,7 @@
       "link_name": "",
       "venue": "Mt Ashland Lodge",
       "notes": "Tickets $40 for a single day and $70 for a full weekend ticket. The purchase of a ticket gets you entrance into the event and an all day chairlift ticket! Children 6 years old and under are free!",
-      "event_type": "Band",
+      "event_type": "Festival",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/mt-ashland-alpine-festival/",
       "merged_from": [
@@ -4928,7 +4928,7 @@
       "link_name": "",
       "venue": "Mt Ashland Lodge",
       "notes": "Tickets $40 for a single day and $70 for a full weekend ticket. The purchase of a ticket gets you entrance into the event and an all day chairlift ticket! Children 6 years old and under are free!",
-      "event_type": "Band",
+      "event_type": "Festival",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/mt-ashland-alpine-festival/",
       "genres": []

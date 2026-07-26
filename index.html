@@ -91,6 +91,7 @@
     --cover-bg:#2a1f00; --cover-text:#f9a846; --cover-border:#6b4010;
     --solo-text:#93adf8; --solo-border:#5066d4;
     --openmic-text:#e8992a; --openmic-border:#b07316;
+    --festival-text:#c49bf5; --festival-border:#7c5cd6;
     --stale-bg:#2a1f00; --stale-text:#f9a846; --stale-border:#6b4010;
     --red:#ef4f4f; --red-bg:rgba(239,79,79,0.1); --red-border:rgba(239,79,79,0.4); --red-hover:rgba(239,79,79,0.2);
   }
@@ -106,6 +107,7 @@
     --cover-bg:#fff3d6; --cover-text:#8a6100; --cover-border:#d4a84a;
     --solo-text:#3451d1; --solo-border:#6378e0;
     --openmic-text:#9a6800; --openmic-border:#c48418;
+    --festival-text:#6d28d9; --festival-border:#9061e8;
     --stale-bg:#fff3d6; --stale-text:#8a6100; --stale-border:#d4a84a;
     --red:#d93636; --red-bg:rgba(217,54,54,0.08); --red-border:rgba(217,54,54,0.3); --red-hover:rgba(217,54,54,0.15);
   }
@@ -122,6 +124,7 @@
       --cover-bg:#fff3d6; --cover-text:#8a6100; --cover-border:#d4a84a;
       --solo-text:#3451d1; --solo-border:#6378e0;
       --openmic-text:#9a6800; --openmic-border:#c48418;
+      --festival-text:#6d28d9; --festival-border:#9061e8;
       --stale-bg:#fff3d6; --stale-text:#8a6100; --stale-border:#d4a84a;
       --red:#d93636; --red-bg:rgba(217,54,54,0.08); --red-border:rgba(217,54,54,0.3); --red-hover:rgba(217,54,54,0.15);
     }
@@ -318,6 +321,7 @@
   .type-badge.jam     { background:rgba(29,158,117,0.12); color:var(--green); border-color:var(--green); }
   .type-badge.solo    { background:rgba(52,81,209,0.12); color:var(--solo-text); border-color:var(--solo-border); }
   .type-badge.openmic { background:rgba(186,117,23,0.12); color:var(--openmic-text); border-color:var(--openmic-border); }
+  .type-badge.festival { background:rgba(124,92,214,0.12); color:var(--festival-text); border-color:var(--festival-border); }
   .genre-tag  { font-size:11px; color:var(--text3); margin-bottom:var(--sp-2); font-style:italic; }
   .venue-name { font-size:13px; margin-bottom:var(--sp-1); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .card-venue-line { display:flex; align-items:center; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin-top:var(--sp-2); font-size:12px; }
@@ -706,6 +710,7 @@
       <button class="pill-option" role="menuitem" onclick="pickFilter('type','Solo','Solo')">Solo</button>
       <button class="pill-option" role="menuitem" onclick="pickFilter('type','Jam','Jam')">Jam</button>
       <button class="pill-option" role="menuitem" onclick="pickFilter('type','Open Mic','Open Mic')">Open Mic</button>
+      <button class="pill-option" role="menuitem" onclick="pickFilter('type','Festival','Festival')">Festival</button>
     </div>
   </div>
   <div class="pill-wrap">
@@ -800,6 +805,7 @@
       <button class="bs-opt" onclick="bsPick('type','Solo','Solo',this)">Solo</button>
       <button class="bs-opt" onclick="bsPick('type','Jam','Jam',this)">Jam</button>
       <button class="bs-opt" onclick="bsPick('type','Open Mic','Open Mic',this)">Open Mic</button>
+      <button class="bs-opt" onclick="bsPick('type','Festival','Festival',this)">Festival</button>
     </div>
   </div>
   <div class="bs-section">
@@ -1913,7 +1919,7 @@ function rowHtml(e,idx){
 
 function cardHtml(e,idx){
   const tS=parseTime(e.startRaw),tE=e.endRaw?parseTime(e.endRaw,e.startRaw):'';
-  const t=e.eventType.toLowerCase(),bc=t==='jam'?'jam':t==='open mic'?'openmic':t==='solo'?'solo':'';
+  const t=e.eventType.toLowerCase(),bc=t==='jam'?'jam':t==='open mic'?'openmic':t==='solo'?'solo':t==='festival'?'festival':'';
   const pm=e.notes.match(/\$[\d,]+/);
   const status=eventStatus(e);
   const pastCls=status==='past'?' event-past':'';
