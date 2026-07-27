@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-27T07:48:53.341Z",
+  "generated_at": "2026-07-27T11:37:28.090Z",
   "source_timestamp": "07/25/2026 13:40",
-  "content_hash": "ca76e89e61c2bade",
+  "content_hash": "0890b382da2e702b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 281,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-27T07:48:24.648Z",
-      "last_attempt": "2026-07-27T07:48:24.648Z",
+      "last_ok": "2026-07-27T11:36:59.402Z",
+      "last_attempt": "2026-07-27T11:36:59.402Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 18,
       "strategy": "live",
-      "last_ok": "2026-07-27T07:48:25.171Z",
-      "last_attempt": "2026-07-27T07:48:25.171Z",
+      "last_ok": "2026-07-27T11:36:59.774Z",
+      "last_attempt": "2026-07-27T11:36:59.774Z",
       "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-27T07:48:35.315Z",
-      "last_attempt": "2026-07-27T07:48:35.315Z",
+      "last_ok": "2026-07-27T11:37:09.919Z",
+      "last_attempt": "2026-07-27T11:37:09.919Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-27T07:48:35.829Z",
-      "last_attempt": "2026-07-27T07:48:35.829Z",
+      "last_ok": "2026-07-27T11:37:10.321Z",
+      "last_attempt": "2026-07-27T11:37:10.321Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-27T07:48:35.940Z",
-      "last_attempt": "2026-07-27T07:48:35.940Z",
+      "last_ok": "2026-07-27T11:37:10.591Z",
+      "last_attempt": "2026-07-27T11:37:10.591Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-27T07:48:37.223Z",
-      "last_attempt": "2026-07-27T07:48:37.223Z",
+      "last_ok": "2026-07-27T11:37:11.762Z",
+      "last_attempt": "2026-07-27T11:37:11.762Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-27T07:48:38.066Z",
-      "last_attempt": "2026-07-27T07:48:38.066Z",
+      "last_ok": "2026-07-27T11:37:12.200Z",
+      "last_attempt": "2026-07-27T11:37:12.200Z",
       "error": null
     }
   },
@@ -4937,6 +4937,25 @@
       "genres": []
     },
     {
+      "id": "1df0facb120ccf58",
+      "date": "2026-07-26",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "26d18fb8fb3dd774",
       "date": "2026-07-26",
       "start_raw": "1500",
@@ -6953,25 +6972,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "7b5448e70ad99f07",
-      "date": "2026-08-11",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "f32e52ca3e25f8b9",

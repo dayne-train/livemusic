@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 861,
+  "event_count": 862,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -15129,6 +15129,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "1df0facb120ccf58",
+      "date": "2026-07-26",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "99bcb7e4949a27b6",
