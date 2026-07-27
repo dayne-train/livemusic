@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-26T21:11:16.134Z",
+  "generated_at": "2026-07-27T04:00:31.711Z",
   "source_timestamp": "07/25/2026 13:40",
-  "content_hash": "98d90a4fd0cd1046",
+  "content_hash": "fb3c0db88e24969f",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 281,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-26T21:10:49.024Z",
-      "last_attempt": "2026-07-26T21:10:49.024Z",
+      "last_ok": "2026-07-27T04:00:02.038Z",
+      "last_attempt": "2026-07-27T04:00:02.038Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 21,
       "strategy": "live",
-      "last_ok": "2026-07-26T21:10:49.244Z",
-      "last_attempt": "2026-07-26T21:10:49.244Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-07-27T04:00:02.550Z",
+      "last_attempt": "2026-07-27T04:00:02.550Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-07-26T17:14:19.370Z",
-      "last_attempt": "2026-07-26T21:10:59.563Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 7,
+      "strategy": "live",
+      "last_ok": "2026-07-27T04:00:06.370Z",
+      "last_attempt": "2026-07-27T04:00:06.370Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-26T21:10:59.879Z",
-      "last_attempt": "2026-07-26T21:10:59.879Z",
+      "last_ok": "2026-07-27T04:00:15.476Z",
+      "last_attempt": "2026-07-27T04:00:15.476Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-26T21:11:01.142Z",
-      "last_attempt": "2026-07-26T21:11:01.142Z",
+      "last_ok": "2026-07-27T04:00:16.402Z",
+      "last_attempt": "2026-07-27T04:00:16.402Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-26T21:11:02.159Z",
-      "last_attempt": "2026-07-26T21:11:02.159Z",
+      "last_ok": "2026-07-27T04:00:18.726Z",
+      "last_attempt": "2026-07-27T04:00:18.726Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-26T21:11:03.852Z",
-      "last_attempt": "2026-07-26T21:11:03.852Z",
+      "last_ok": "2026-07-27T04:00:19.240Z",
+      "last_attempt": "2026-07-27T04:00:19.240Z",
       "error": null
     }
   },
@@ -3554,6 +3554,17 @@
         "musiclist_txt"
       ]
     },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
+    },
     "Lithia Park Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -4926,25 +4937,6 @@
       "genres": []
     },
     {
-      "id": "1df0facb120ccf58",
-      "date": "2026-07-26",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "26d18fb8fb3dd774",
       "date": "2026-07-26",
       "start_raw": "1500",
@@ -5065,23 +5057,14 @@
       "end_raw": "1800",
       "musician": "Two of a Kind",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-two-of-a-kind-july-26/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Two of a Kind is a Rogue Valley acoustic duet featuring John Dickerson (of Honeypot) & Bridget Best. They’re bringing a fun mix of classic rock favorite and an easygoing vibe. Join us at RoxyAnn Winer",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-two-of-a-kind-july-26/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "949013dacf571a8a"
-        }
-      ],
-      "genres": [
-        "Folk",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4446edc58b086d59",
@@ -6367,6 +6350,23 @@
       "genres": []
     },
     {
+      "id": "8cea3a60380d61b2",
+      "date": "2026-08-04",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dean's Funtime Party Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/deans-funtime-party-band-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/deans-funtime-party-band-2/",
+      "genres": []
+    },
+    {
       "id": "c4bd8e82c95f78ab",
       "date": "2026-08-04",
       "start_raw": "2000",
@@ -6546,6 +6546,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "16b6edd93dbf7f60",
+      "date": "2026-08-06",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Maxwell Friedman Group",
+      "genre": "",
+      "link": "https://talentclublive.com/event/maxwell-friedman-group/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/maxwell-friedman-group/",
       "genres": []
     },
     {
@@ -6929,6 +6946,25 @@
       "genres": []
     },
     {
+      "id": "7b5448e70ad99f07",
+      "date": "2026-08-11",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "f32e52ca3e25f8b9",
       "date": "2026-08-12",
       "start_raw": "1800",
@@ -7145,6 +7181,22 @@
       "genres": []
     },
     {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "genres": []
+    },
+    {
       "id": "f5dae594fbfc8862",
       "date": "2026-08-17",
       "start_raw": "1900",
@@ -7244,6 +7296,23 @@
       "genres": []
     },
     {
+      "id": "2770767eb6b46d0b",
+      "date": "2026-08-21",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Ben Rice and the PDX Hustle",
+      "genre": "",
+      "link": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
+      "genres": []
+    },
+    {
       "id": "62bc890616d0fd20",
       "date": "2026-08-22",
       "start_raw": "1330",
@@ -7337,6 +7406,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "653423eb3390a2ef",
+      "date": "2026-08-22",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dale Watson",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
       "genres": []
     },
     {
@@ -8204,6 +8290,23 @@
       "genres": []
     },
     {
+      "id": "996814db97d176a6",
+      "date": "2026-09-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Magnificent Sanctuary Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "genres": []
+    },
+    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -8494,6 +8597,23 @@
       ]
     },
     {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
+    },
+    {
       "id": "e7c8507716e27828",
       "date": "2026-10-23",
       "start_raw": "1700",
@@ -8542,6 +8662,23 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "aeaf97860ea4be91",
+      "date": "2026-10-27",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
+      "genre": "",
+      "link": "https://talentclublive.com/event/steely-dead/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/steely-dead/",
+      "genres": []
     },
     {
       "id": "7a82aa301af421c1",
