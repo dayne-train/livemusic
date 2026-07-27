@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-27T04:00:31.711Z",
+  "generated_at": "2026-07-27T07:48:53.341Z",
   "source_timestamp": "07/25/2026 13:40",
-  "content_hash": "fb3c0db88e24969f",
+  "content_hash": "ca76e89e61c2bade",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 281,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-27T04:00:02.038Z",
-      "last_attempt": "2026-07-27T04:00:02.038Z",
+      "last_ok": "2026-07-27T07:48:24.648Z",
+      "last_attempt": "2026-07-27T07:48:24.648Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-07-27T04:00:02.550Z",
-      "last_attempt": "2026-07-27T04:00:02.550Z",
-      "error": null
+      "last_ok": "2026-07-27T07:48:25.171Z",
+      "last_attempt": "2026-07-27T07:48:25.171Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-27T04:00:06.370Z",
-      "last_attempt": "2026-07-27T04:00:06.370Z",
+      "last_ok": "2026-07-27T07:48:35.315Z",
+      "last_attempt": "2026-07-27T07:48:35.315Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-27T04:00:15.476Z",
-      "last_attempt": "2026-07-27T04:00:15.476Z",
+      "last_ok": "2026-07-27T07:48:35.829Z",
+      "last_attempt": "2026-07-27T07:48:35.829Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-27T04:00:16.402Z",
-      "last_attempt": "2026-07-27T04:00:16.402Z",
+      "last_ok": "2026-07-27T07:48:35.940Z",
+      "last_attempt": "2026-07-27T07:48:35.940Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
-      "count": 3,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-27T04:00:18.726Z",
-      "last_attempt": "2026-07-27T04:00:18.726Z",
+      "last_ok": "2026-07-27T07:48:37.223Z",
+      "last_attempt": "2026-07-27T07:48:37.223Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-27T04:00:19.240Z",
-      "last_attempt": "2026-07-27T04:00:19.240Z",
+      "last_ok": "2026-07-27T07:48:38.066Z",
+      "last_attempt": "2026-07-27T07:48:38.066Z",
       "error": null
     }
   },
@@ -5073,23 +5073,14 @@
       "end_raw": "1900",
       "musician": "Rogue Hot Club",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-rogue-hot-club/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "The Rogue Hot Club is a musical group that performs Minor Swing and upbeat gypsy jazz tunes, known for its lively and energetic performances. The talented musicians bring a unique blend of jazz and gy",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-rogue-hot-club/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "71d6923b1a2a94ee"
-        }
-      ],
-      "genres": [
-        "Jazz",
-        "Swing"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1f668ac5bc6602d6",
@@ -6930,6 +6921,24 @@
       "genres": []
     },
     {
+      "id": "27040c0609889a94",
+      "date": "2026-08-10",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Ashland Folk Collective in the Park with MarchFourth",
+      "genre": "",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4427",
+      "link_name": "",
+      "venue": "Lithia Park Bandshell",
+      "notes": "",
+      "event_type": "Band",
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4427",
+      "genres": [
+        "Folk"
+      ]
+    },
+    {
       "id": "76085046d60ddd23",
       "date": "2026-08-10",
       "start_raw": "1900",
@@ -7178,22 +7187,6 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
-      "genres": []
-    },
-    {
-      "id": "ad35cdf1701285ed",
-      "date": "2026-08-17",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-3/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
       "genres": []
     },
     {
