@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-28T03:33:10.010Z",
+  "generated_at": "2026-07-28T06:39:17.988Z",
   "source_timestamp": "07/27/2026 15:20",
-  "content_hash": "cd5b03c9cc6bf989",
+  "content_hash": "966483f810a8897d",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 290,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-28T03:32:40.429Z",
-      "last_attempt": "2026-07-28T03:32:40.429Z",
+      "last_ok": "2026-07-28T06:38:53.532Z",
+      "last_attempt": "2026-07-28T06:38:53.532Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 18,
+      "count": 20,
       "strategy": "live",
-      "last_ok": "2026-07-28T03:32:40.727Z",
-      "last_attempt": "2026-07-28T03:32:40.727Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-07-28T06:38:53.879Z",
+      "last_attempt": "2026-07-28T06:38:53.879Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-28T03:32:50.947Z",
-      "last_attempt": "2026-07-28T03:32:50.947Z",
+      "last_ok": "2026-07-28T06:38:56.219Z",
+      "last_attempt": "2026-07-28T06:38:56.219Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-28T03:32:51.303Z",
-      "last_attempt": "2026-07-28T03:32:51.303Z",
+      "last_ok": "2026-07-28T06:38:56.713Z",
+      "last_attempt": "2026-07-28T06:38:56.713Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-28T03:32:51.487Z",
-      "last_attempt": "2026-07-28T03:32:51.487Z",
+      "last_ok": "2026-07-28T06:38:57.919Z",
+      "last_attempt": "2026-07-28T06:38:57.919Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
-      "count": 4,
+      "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-28T03:32:52.391Z",
-      "last_attempt": "2026-07-28T03:32:52.391Z",
+      "last_ok": "2026-07-28T06:38:58.877Z",
+      "last_attempt": "2026-07-28T06:38:58.877Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-28T03:32:52.833Z",
-      "last_attempt": "2026-07-28T03:32:52.833Z",
+      "last_ok": "2026-07-28T06:38:59.444Z",
+      "last_attempt": "2026-07-28T06:38:59.444Z",
       "error": null
     }
   },
@@ -3565,7 +3565,7 @@
         "talent_club"
       ]
     },
-    "Lithia Park Bandshell": {
+    "Butler Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
       "notes": "Outdoor concert bandshell in Lithia Park",
@@ -3576,7 +3576,7 @@
         "ashland_city"
       ]
     },
-    "Butler Bandshell": {
+    "Lithia Park Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
       "notes": "Outdoor concert bandshell in Lithia Park",
@@ -5213,24 +5213,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "acd6dedc3909c0ff",
-      "date": "2026-07-27",
-      "start_raw": "1800",
-      "end_raw": "2100",
-      "musician": "Ashland Folk Collective in the Park with Wolf Jett",
-      "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4426",
-      "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "",
-      "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4426",
-      "genres": [
-        "Folk"
-      ]
     },
     {
       "id": "cf16e8c2cc330bd9",
@@ -7251,6 +7233,22 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "genres": []
+    },
+    {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
       "genres": []
     },
     {
