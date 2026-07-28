@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 862,
+  "event_count": 865,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -15410,6 +15410,54 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "f08b599aa83eb414",
+      "date": "2026-07-27",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "David Pinsky & Phil Newton",
+      "genre": "",
+      "link": "",
+      "link_name": "David Pinsky",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "160627411e83dcbf",
+      "date": "2026-07-27",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Mike Brons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cf16e8c2cc330bd9",
+      "date": "2026-07-27",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     }
   ]
 }
