@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-27T21:29:23.949Z",
-  "source_timestamp": "07/25/2026 13:40",
-  "content_hash": "10299b2fd8c99666",
+  "generated_at": "2026-07-28T03:33:10.010Z",
+  "source_timestamp": "07/27/2026 15:20",
+  "content_hash": "cd5b03c9cc6bf989",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 281,
+      "count": 290,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-27T21:28:59.767Z",
-      "last_attempt": "2026-07-27T21:28:59.767Z",
+      "last_ok": "2026-07-28T03:32:40.429Z",
+      "last_attempt": "2026-07-28T03:32:40.429Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-07-27T21:29:00.051Z",
-      "last_attempt": "2026-07-27T21:29:00.051Z",
-      "error": null
+      "last_ok": "2026-07-28T03:32:40.727Z",
+      "last_attempt": "2026-07-28T03:32:40.727Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-27T21:29:03.148Z",
-      "last_attempt": "2026-07-27T21:29:03.148Z",
+      "last_ok": "2026-07-28T03:32:50.947Z",
+      "last_attempt": "2026-07-28T03:32:50.947Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-27T21:29:03.511Z",
-      "last_attempt": "2026-07-27T21:29:03.511Z",
+      "last_ok": "2026-07-28T03:32:51.303Z",
+      "last_attempt": "2026-07-28T03:32:51.303Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-27T21:29:03.617Z",
-      "last_attempt": "2026-07-27T21:29:03.617Z",
+      "last_ok": "2026-07-28T03:32:51.487Z",
+      "last_attempt": "2026-07-28T03:32:51.487Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-27T21:29:04.563Z",
-      "last_attempt": "2026-07-27T21:29:04.563Z",
+      "last_ok": "2026-07-28T03:32:52.391Z",
+      "last_attempt": "2026-07-28T03:32:52.391Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-27T21:29:05.034Z",
-      "last_attempt": "2026-07-27T21:29:05.034Z",
+      "last_ok": "2026-07-28T03:32:52.833Z",
+      "last_attempt": "2026-07-28T03:32:52.833Z",
       "error": null
     }
   },
@@ -4937,25 +4937,6 @@
       "genres": []
     },
     {
-      "id": "1df0facb120ccf58",
-      "date": "2026-07-26",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "26d18fb8fb3dd774",
       "date": "2026-07-26",
       "start_raw": "1500",
@@ -6065,6 +6046,22 @@
       "genres": []
     },
     {
+      "id": "56c7f21978c41770",
+      "date": "2026-08-01",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Bim Jeam and the Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dwell Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "2ac3c18a7b478b93",
       "date": "2026-08-01",
       "start_raw": "1600",
@@ -6238,6 +6235,22 @@
       "link": "",
       "link_name": "",
       "venue": "Corvette Bar & Grill",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5e42fb04dbd1b490",
+      "date": "2026-08-02",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Alissa Weaver and the Side Effects",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6974,6 +6987,25 @@
       "genres": []
     },
     {
+      "id": "7b5448e70ad99f07",
+      "date": "2026-08-11",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "f32e52ca3e25f8b9",
       "date": "2026-08-12",
       "start_raw": "1800",
@@ -7010,7 +7042,7 @@
       "date": "2026-08-14",
       "start_raw": "1730",
       "end_raw": "2030",
-      "musician": "Bim Jeam and the Sadness TRIO",
+      "musician": "Bim Jeam and the Sadness Trio",
       "genre": "",
       "link": "",
       "link_name": "Bim Jeam and the Sadness",
@@ -7120,6 +7152,22 @@
       "genres": []
     },
     {
+      "id": "90fe885e1dc67b96",
+      "date": "2026-08-15",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Bim Jeam and the Sadness Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "Bim Jeam and the Sadness",
+      "venue": "Weekend Beer Company",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "7d9afeab80370c12",
       "date": "2026-08-15",
       "start_raw": "2000",
@@ -7129,6 +7177,22 @@
       "link": "",
       "link_name": "",
       "venue": "Corvette Bar & Grill",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "62ee9bc1cbc0c937",
+      "date": "2026-08-16",
+      "start_raw": "1600",
+      "end_raw": "1900",
+      "musician": "Bim Jeam and the Sadness Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "Bim Jeam and the Sadness",
+      "venue": "Touvelle Lodge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7187,22 +7251,6 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
-      "genres": []
-    },
-    {
-      "id": "ad35cdf1701285ed",
-      "date": "2026-08-17",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-3/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
       "genres": []
     },
     {
@@ -7821,6 +7869,22 @@
       ]
     },
     {
+      "id": "be168b7fad569cb2",
+      "date": "2026-09-04",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Bim Jeam and the Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dwell Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "4a748be9cbfb7327",
       "date": "2026-09-04",
       "start_raw": "1800",
@@ -8267,6 +8331,22 @@
       ]
     },
     {
+      "id": "da58e467e09f197b",
+      "date": "2026-09-25",
+      "start_raw": "1730",
+      "end_raw": "2030",
+      "musician": "Bim Jeam and the Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Lindsay Lodge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "2cc8a4289861cf5e",
       "date": "2026-09-25",
       "start_raw": "1900",
@@ -8343,6 +8423,22 @@
       "link": "",
       "link_name": "",
       "venue": "Remotion Wine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3771c810273b571e",
+      "date": "2026-09-26",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Bim Jeam and the Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Growler Guys Grants Pass",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8518,6 +8614,22 @@
       "genres": []
     },
     {
+      "id": "632b15799b6d6014",
+      "date": "2026-10-09",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Bim Jeam and the Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "aa096973439ba49d",
       "date": "2026-10-09",
       "start_raw": "1900",
@@ -8581,6 +8693,22 @@
       "link": "",
       "link_name": "",
       "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "19c509000095edb9",
+      "date": "2026-10-16",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Bim Jeam and the Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Area 61 Taphouse",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
