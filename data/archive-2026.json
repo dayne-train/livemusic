@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 865,
+  "event_count": 868,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -440,7 +440,8 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Growler Guys Grants Pass": {
@@ -966,11 +967,12 @@
       "url": "http://www.theblacksheep.com/",
       "city": "Ashland",
       "notes": "",
-      "address": "",
+      "address": "51 N Main St, Ashland OR",
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "black_sheep"
       ]
     },
     "The Copper Plank": {
@@ -15456,6 +15458,59 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "32e61ce922355d5c",
+      "date": "2026-07-28",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "df9cb840c2b7242c",
+      "date": "2026-07-28",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Brothers Reed",
+      "genre": "Folk",
+      "link": "",
+      "link_name": "",
+      "venue": "OSF Green Show",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Folk"
+      ]
+    },
+    {
+      "id": "46b81266f5bff201",
+      "date": "2026-07-28",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
     }
   ]
 }

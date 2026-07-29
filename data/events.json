@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-29T06:54:08.022Z",
+  "generated_at": "2026-07-29T10:48:14.392Z",
   "source_timestamp": "07/27/2026 15:20",
-  "content_hash": "5f98389e11a2bfbc",
+  "content_hash": "32f34d2e057acc60",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 290,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-29T06:53:34.666Z",
-      "last_attempt": "2026-07-29T06:53:34.666Z",
+      "last_ok": "2026-07-29T10:47:51.444Z",
+      "last_attempt": "2026-07-29T10:47:51.444Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 14,
+      "count": 20,
       "strategy": "live",
-      "last_ok": "2026-07-29T06:53:45.211Z",
-      "last_attempt": "2026-07-29T06:53:45.211Z",
-      "error": "grizzly_peak: grizzly_peak HTTP 403"
+      "last_ok": "2026-07-29T10:47:51.776Z",
+      "last_attempt": "2026-07-29T10:47:51.776Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-29T06:53:48.345Z",
-      "last_attempt": "2026-07-29T06:53:48.345Z",
+      "last_ok": "2026-07-29T10:47:54.759Z",
+      "last_attempt": "2026-07-29T10:47:54.759Z",
       "error": null
     },
     "black_sheep": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-07-29T03:36:13.083Z",
-      "last_attempt": "2026-07-29T06:53:48.428Z",
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 7,
+      "strategy": "live",
+      "last_ok": "2026-07-29T10:47:55.200Z",
+      "last_attempt": "2026-07-29T10:47:55.200Z",
+      "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-07-29T06:53:48.585Z",
-      "last_attempt": "2026-07-29T06:53:48.585Z",
+      "last_ok": "2026-07-29T10:47:55.460Z",
+      "last_attempt": "2026-07-29T10:47:55.460Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-29T06:53:50.866Z",
-      "last_attempt": "2026-07-29T06:53:50.866Z",
+      "last_ok": "2026-07-29T10:47:57.204Z",
+      "last_attempt": "2026-07-29T10:47:57.204Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-29T06:53:51.281Z",
-      "last_attempt": "2026-07-29T06:53:51.281Z",
+      "last_ok": "2026-07-29T10:47:57.795Z",
+      "last_attempt": "2026-07-29T10:47:57.795Z",
       "error": null
     }
   },
@@ -1214,7 +1214,8 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Growler Guys": {
@@ -2896,11 +2897,12 @@
       "url": "http://www.theblacksheep.com/",
       "city": "Ashland",
       "notes": "",
-      "address": "",
+      "address": "51 N Main St, Ashland OR",
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "black_sheep"
       ]
     },
     "The Copper Plank": {
@@ -5263,6 +5265,25 @@
       ]
     },
     {
+      "id": "46b81266f5bff201",
+      "date": "2026-07-28",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "998c0168940426f1",
       "date": "2026-07-29",
       "start_raw": "1700",
@@ -5561,6 +5582,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "bb1f74ceac56fa13",
+      "date": "2026-07-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Karaoke",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -6202,6 +6240,25 @@
       "genres": []
     },
     {
+      "id": "aa5e025b9aef1fc8",
+      "date": "2026-08-02",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "a77b7da369d42b2c",
       "date": "2026-08-02",
       "start_raw": "1500",
@@ -6282,6 +6339,22 @@
       "genres": []
     },
     {
+      "id": "57ae40544acfbce1",
+      "date": "2026-08-04",
+      "start_raw": "1300",
+      "end_raw": "1430",
+      "musician": "John Tufts performs a one-show-only Benefit of An Iliad",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/john-tufts-performs-a-one-show-only-benefit-of-an-iliad/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "John Tufts will perform a one-show-only benefit of Denis O’Hare and Lisa Peterson’s An Iliad for Rogue Theater Company at 1 pm on Tuesday, August 4, with musical accompaniment by Michal Palzewicz. \nWh",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/john-tufts-performs-a-one-show-only-benefit-of-an-iliad/",
+      "genres": []
+    },
+    {
       "id": "8cea3a60380d61b2",
       "date": "2026-08-04",
       "start_raw": "2000",
@@ -6297,6 +6370,25 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/deans-funtime-party-band-2/",
       "genres": []
+    },
+    {
+      "id": "c4bd8e82c95f78ab",
+      "date": "2026-08-04",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "96c86ff9bbcf33cb",
@@ -6476,6 +6568,23 @@
       "event_type": "Band",
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/maxwell-friedman-group/",
+      "genres": []
+    },
+    {
+      "id": "2541cd7b1353dcae",
+      "date": "2026-08-06",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Karaoke",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -6707,6 +6816,25 @@
       "genres": []
     },
     {
+      "id": "d96bd6628441340e",
+      "date": "2026-08-09",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "9d957874c7415875",
       "date": "2026-08-09",
       "start_raw": "1500",
@@ -6841,6 +6969,25 @@
       "genres": []
     },
     {
+      "id": "7b5448e70ad99f07",
+      "date": "2026-08-11",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "f32e52ca3e25f8b9",
       "date": "2026-08-12",
       "start_raw": "1800",
@@ -6955,6 +7102,22 @@
       "genres": []
     },
     {
+      "id": "d5d2ca8b77e96db1",
+      "date": "2026-08-15",
+      "start_raw": "1500",
+      "end_raw": "1500",
+      "musician": "Recollections of Wales",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/recollections-of-wales/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Discover the captivating music of Wales, ranging from traditional melodies to heartfelt classics, meticulously arranged for flutes, cello, and piano. Cardiff-based Welsh music expert and pianist Zoë S",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/recollections-of-wales/",
+      "genres": []
+    },
+    {
       "id": "b84383d42771209a",
       "date": "2026-08-15",
       "start_raw": "1530",
@@ -7055,6 +7218,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "9b72869de1a402e4",
+      "date": "2026-08-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Siskiyou Music Project Presents:  Komaga Trio",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Siskiyou Music Project welcomes for the first time to southern Oregon the Komaga Trio! \nVirtuosity and daring improvisation define this ensemble. Harp innovator Motoshi Kosako, fretless-bass legend Mi",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "genres": []
     },
     {
       "id": "ad35cdf1701285ed",
@@ -8281,6 +8460,24 @@
       "genres": []
     },
     {
+      "id": "d6268e1569075a0f",
+      "date": "2026-10-01",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Siskiyou Music Project Presents:  Holly Hofmann/Randy Porter Duo",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/the-siskiyou-music-project-presents-holly-hofmann-randy-porter-duo/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Siskiyou Music Project welcomes back jazz flutist Holly Hofmann and pianist Randy Porter for an evening of jazz duets at the Grizzly Peak Performance Space. This will be Holly’s first performance for ",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/the-siskiyou-music-project-presents-holly-hofmann-randy-porter-duo/",
+      "genres": [
+        "Jazz"
+      ]
+    },
+    {
       "id": "0b0102d2c90e8eed",
       "date": "2026-10-02",
       "start_raw": "1700",
@@ -8465,6 +8662,26 @@
       "source_url": null,
       "genres": [
         "Rock"
+      ]
+    },
+    {
+      "id": "042f24830b274533",
+      "date": "2026-10-09",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Camp Django Presents:  Gypsy Jazz Legends",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/camp-django-presents-gypsy-jazz-legends/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Step into the enchanting world of Gypsy jazz with Camp Django Presents, featuring an extraordinary lineup of international jazz virtuosos. Experience the infectious swing of Paulus Schafer, the soulfu",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/camp-django-presents-gypsy-jazz-legends/",
+      "genres": [
+        "Jazz",
+        "Swing",
+        "World"
       ]
     },
     {
@@ -8737,6 +8954,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3b26e4eb53173f97",
+      "date": "2026-11-21",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Alexander Tutunov & Kinga Augustyn",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presents-alexander-tutunov-kinga-augustyn/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "SMP welcomes back Ashlands own, pianist Alexander Tutunov and New York based violinist Kinga Augustyn in performance at the Grizzly Peak Winery Performance Space on Saturday, November 21 at 3 p.m.  Ne",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presents-alexander-tutunov-kinga-augustyn/",
       "genres": []
     },
     {
