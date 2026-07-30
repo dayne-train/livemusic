@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-30T03:26:23.303Z",
+  "generated_at": "2026-07-30T06:39:57.081Z",
   "source_timestamp": "07/27/2026 15:20",
-  "content_hash": "6235cbea7b0224b7",
+  "content_hash": "2219668d8ff27638",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 290,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-30T03:26:03.062Z",
-      "last_attempt": "2026-07-30T03:26:03.062Z",
+      "last_ok": "2026-07-30T06:39:39.240Z",
+      "last_attempt": "2026-07-30T06:39:39.240Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 20,
       "strategy": "live",
-      "last_ok": "2026-07-30T03:26:03.349Z",
-      "last_attempt": "2026-07-30T03:26:03.349Z",
+      "last_ok": "2026-07-30T06:39:39.595Z",
+      "last_attempt": "2026-07-30T06:39:39.595Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-30T03:26:06.624Z",
-      "last_attempt": "2026-07-30T03:26:06.624Z",
+      "last_ok": "2026-07-30T06:39:42.058Z",
+      "last_attempt": "2026-07-30T06:39:42.058Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-07-30T03:26:07.206Z",
-      "last_attempt": "2026-07-30T03:26:07.206Z",
+      "last_ok": "2026-07-30T06:39:42.618Z",
+      "last_attempt": "2026-07-30T06:39:42.618Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-07-30T03:26:08.743Z",
-      "last_attempt": "2026-07-30T03:26:08.743Z",
+      "last_ok": "2026-07-30T06:39:43.878Z",
+      "last_attempt": "2026-07-30T06:39:43.878Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-30T03:26:09.954Z",
-      "last_attempt": "2026-07-30T03:26:09.954Z",
+      "last_ok": "2026-07-30T06:39:45.195Z",
+      "last_attempt": "2026-07-30T06:39:45.195Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-30T03:26:10.578Z",
-      "last_attempt": "2026-07-30T03:26:10.578Z",
+      "last_ok": "2026-07-30T06:39:45.722Z",
+      "last_attempt": "2026-07-30T06:39:45.722Z",
       "error": null
     }
   },
@@ -7162,6 +7162,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "e3d1796ecea4f528",
+      "date": "2026-08-16",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "62ee9bc1cbc0c937",
