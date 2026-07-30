@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 868,
+  "event_count": 877,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -623,13 +623,12 @@
     "Mt Ashland Lodge": {
       "url": "https://www.mtashland.com/event-directory/",
       "city": "Ashland",
-      "notes": "Outdoor stages at the Mt. Ashland Ski Area, elevation 6,500 ft",
-      "address": "11 Mt. Ashland Ski Road, Ashland, OR 97520",
+      "notes": "",
+      "address": "",
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "mt_ashland"
+        "musiclist_txt"
       ]
     },
     "Naumes Suncrest Winery": {
@@ -15511,6 +15510,150 @@
       "genres": [
         "Other"
       ]
+    },
+    {
+      "id": "08382d000d4b1b37",
+      "date": "2026-07-29",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Aaron Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Padigan Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7a7254ec34e305fc",
+      "date": "2026-07-29",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "998c0168940426f1",
+      "date": "2026-07-29",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Lisa and Dean",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fbf3f38cc2671c87",
+      "date": "2026-07-29",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Broadway Phil & The Shouters",
+      "genre": "",
+      "link": "",
+      "link_name": "Broadway Phil and the Shouters",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3dcb2158c43d18e8",
+      "date": "2026-07-29",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "43ffbcb0e8158fa9",
+      "date": "2026-07-29",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Duo Sonorous",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "$5",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fc8cae8a8dd389bc",
+      "date": "2026-07-29",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Trevor Hanks",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weekend Beer Company",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "85783a230819520a",
+      "date": "2026-07-29",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Furthermoore Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Apple Outlaw Taproom",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "de26951e9b89fd00",
+      "date": "2026-07-29",
+      "start_raw": "1900",
+      "end_raw": "2145",
+      "musician": "Dan Doshier",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     }
   ]
 }

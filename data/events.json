@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-07-30T06:39:57.081Z",
+  "generated_at": "2026-07-30T10:33:23.460Z",
   "source_timestamp": "07/27/2026 15:20",
-  "content_hash": "2219668d8ff27638",
+  "content_hash": "d877d6352db81862",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 290,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-30T06:39:39.240Z",
-      "last_attempt": "2026-07-30T06:39:39.240Z",
+      "last_ok": "2026-07-30T10:33:17.162Z",
+      "last_attempt": "2026-07-30T10:33:17.162Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 20,
       "strategy": "live",
-      "last_ok": "2026-07-30T06:39:39.595Z",
-      "last_attempt": "2026-07-30T06:39:39.595Z",
+      "last_ok": "2026-07-30T10:33:17.525Z",
+      "last_attempt": "2026-07-30T10:33:17.525Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-30T06:39:42.058Z",
-      "last_attempt": "2026-07-30T06:39:42.058Z",
+      "last_ok": "2026-07-30T10:33:20.866Z",
+      "last_attempt": "2026-07-30T10:33:20.866Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-30T06:39:42.618Z",
-      "last_attempt": "2026-07-30T06:39:42.618Z",
+      "last_ok": "2026-07-30T10:33:21.159Z",
+      "last_attempt": "2026-07-30T10:33:21.159Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-07-30T06:39:43.878Z",
-      "last_attempt": "2026-07-30T06:39:43.878Z",
+      "last_ok": "2026-07-30T10:33:21.325Z",
+      "last_attempt": "2026-07-30T10:33:21.325Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
-      "count": 3,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-07-30T06:39:45.195Z",
-      "last_attempt": "2026-07-30T06:39:45.195Z",
+      "last_ok": "2026-07-30T10:33:22.572Z",
+      "last_attempt": "2026-07-30T10:33:22.572Z",
       "error": null
     },
     "mt_ashland": {
-      "ok": true,
-      "count": 1,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-07-30T06:39:45.722Z",
-      "last_attempt": "2026-07-30T06:39:45.722Z",
-      "error": null
+      "last_attempt": "2026-07-30T10:33:23.045Z",
+      "error": "HTTP 503"
     }
   },
   "venues": {
@@ -1958,13 +1958,12 @@
     "Mt Ashland Lodge": {
       "url": "https://www.mtashland.com/event-directory/",
       "city": "Ashland",
-      "notes": "Outdoor stages at the Mt. Ashland Ski Area, elevation 6,500 ft",
-      "address": "11 Mt. Ashland Ski Road, Ashland, OR 97520",
+      "notes": "",
+      "address": "",
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "mt_ashland"
+        "musiclist_txt"
       ]
     },
     "Music on Porch": {
@@ -6985,6 +6984,22 @@
       "genres": []
     },
     {
+      "id": "1266f32d4eef5b00",
+      "date": "2026-08-13",
+      "start_raw": "1815",
+      "end_raw": "2100",
+      "musician": "Ashland City Band",
+      "genre": "",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4419",
+      "link_name": "",
+      "venue": "Butler Bandshell",
+      "notes": "",
+      "event_type": "Band",
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4419",
+      "genres": []
+    },
+    {
       "id": "5a32411e0ef35e2f",
       "date": "2026-08-13",
       "start_raw": "2000",
@@ -7162,25 +7177,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "e3d1796ecea4f528",
-      "date": "2026-08-16",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
     },
     {
       "id": "62ee9bc1cbc0c937",
@@ -8189,22 +8185,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "9a3ba580caf74cc0",
-      "date": "2026-09-19",
-      "start_raw": "1100",
-      "end_raw": "1900",
-      "musician": "Oktoberfest",
-      "genre": "",
-      "link": "https://www.mtashland.com/events/oktoberfest/",
-      "link_name": "",
-      "venue": "Mt Ashland Lodge",
-      "notes": "",
-      "event_type": "Band",
-      "source": "mt_ashland",
-      "source_url": "https://www.mtashland.com/events/oktoberfest/",
       "genres": []
     },
     {
