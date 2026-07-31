@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-31T03:48:23.115Z",
+  "generated_at": "2026-07-31T07:12:54.512Z",
   "source_timestamp": "07/30/2026 15:26",
-  "content_hash": "87ad27c64edfe85a",
+  "content_hash": "8e3e636c45c9c9ea",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 393,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-31T03:48:01.625Z",
-      "last_attempt": "2026-07-31T03:48:01.625Z",
+      "last_ok": "2026-07-31T07:12:33.187Z",
+      "last_attempt": "2026-07-31T07:12:33.187Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-07-31T03:48:01.892Z",
-      "last_attempt": "2026-07-31T03:48:01.892Z",
+      "last_ok": "2026-07-31T07:12:33.506Z",
+      "last_attempt": "2026-07-31T07:12:33.506Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-31T03:48:04.594Z",
-      "last_attempt": "2026-07-31T03:48:04.594Z",
+      "last_ok": "2026-07-31T07:12:35.082Z",
+      "last_attempt": "2026-07-31T07:12:35.082Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-07-31T03:48:05.008Z",
-      "last_attempt": "2026-07-31T03:48:05.008Z",
+      "last_ok": "2026-07-31T07:12:35.440Z",
+      "last_attempt": "2026-07-31T07:12:35.440Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-07-31T03:48:05.152Z",
-      "last_attempt": "2026-07-31T03:48:05.152Z",
+      "last_ok": "2026-07-31T07:12:35.634Z",
+      "last_attempt": "2026-07-31T07:12:35.634Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
-      "count": 4,
+      "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-31T03:48:06.271Z",
-      "last_attempt": "2026-07-31T03:48:06.271Z",
+      "last_ok": "2026-07-31T07:12:37.075Z",
+      "last_attempt": "2026-07-31T07:12:37.075Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-31T03:48:06.823Z",
-      "last_attempt": "2026-07-31T03:48:06.823Z",
+      "last_ok": "2026-07-31T07:12:37.819Z",
+      "last_attempt": "2026-07-31T07:12:37.819Z",
       "error": null
     }
   },
@@ -3724,22 +3724,15 @@
       "end_raw": "1930",
       "musician": "Jon Galfano",
       "genre": "classic rock, variety",
-      "link": "https://bellefiorewine.com/event/live-music-jon-galfano/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Jon Galfano is best known for his versatile solo performances as a guitarist, vocalist, and pianist, as well as his contemporary original piano albums. Jon performs a wide mix of classic rock, blues, ",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-jon-galfano/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "cf9755eb30f5dc6a"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Rock",
-        "Blues"
+        "Rock"
       ]
     },
     {
@@ -3806,22 +3799,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "baf2f8399566f6b2",
-      "date": "2026-07-30",
-      "start_raw": "1815",
-      "end_raw": "2100",
-      "musician": "Ashland City Band",
-      "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4417",
-      "link_name": "",
-      "venue": "Butler Bandshell",
-      "notes": "",
-      "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4417",
       "genres": []
     },
     {
@@ -7241,6 +7218,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "e3d1796ecea4f528",
+      "date": "2026-08-16",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "342ec672681b0e8b",
