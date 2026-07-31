@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-31T14:33:10.744Z",
-  "source_timestamp": "07/30/2026 15:26",
-  "content_hash": "34319028f82ac3be",
+  "generated_at": "2026-07-31T17:51:19.546Z",
+  "source_timestamp": "07/31/2026 07:39",
+  "content_hash": "b423ceca223d1223",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 393,
+      "count": 394,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-07-31T14:32:40.965Z",
-      "last_attempt": "2026-07-31T14:32:40.965Z",
+      "last_ok": "2026-07-31T17:50:55.949Z",
+      "last_attempt": "2026-07-31T17:50:55.949Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 17,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-07-31T14:32:41.249Z",
-      "last_attempt": "2026-07-31T14:32:41.249Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-07-31T17:50:56.378Z",
+      "last_attempt": "2026-07-31T17:50:56.378Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-31T14:32:51.487Z",
-      "last_attempt": "2026-07-31T14:32:51.487Z",
+      "last_ok": "2026-07-31T17:50:59.412Z",
+      "last_attempt": "2026-07-31T17:50:59.412Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-07-31T14:32:51.875Z",
-      "last_attempt": "2026-07-31T14:32:51.875Z",
+      "last_ok": "2026-07-31T17:50:59.732Z",
+      "last_attempt": "2026-07-31T17:50:59.732Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-07-31T14:32:52.106Z",
-      "last_attempt": "2026-07-31T14:32:52.106Z",
+      "last_ok": "2026-07-31T17:50:59.956Z",
+      "last_attempt": "2026-07-31T17:50:59.956Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-07-31T14:32:53.306Z",
-      "last_attempt": "2026-07-31T14:32:53.306Z",
+      "last_ok": "2026-07-31T17:51:00.899Z",
+      "last_attempt": "2026-07-31T17:51:00.899Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-07-31T14:32:54.164Z",
-      "last_attempt": "2026-07-31T14:32:54.164Z",
+      "last_ok": "2026-07-31T17:51:01.710Z",
+      "last_attempt": "2026-07-31T17:51:01.710Z",
       "error": null
     }
   },
@@ -4528,7 +4528,7 @@
       "link": "",
       "link_name": "",
       "venue": "La Fiesta",
-      "notes": "",
+      "notes": "CANCELLED",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -7408,6 +7408,22 @@
       "genres": []
     },
     {
+      "id": "ad35cdf1701285ed",
+      "date": "2026-08-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link_name": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "genres": []
+    },
+    {
       "id": "f5dae594fbfc8862",
       "date": "2026-08-17",
       "start_raw": "1900",
@@ -10270,6 +10286,24 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/two21fly/",
       "genres": []
+    },
+    {
+      "id": "7a5cd3b82b0db4ce",
+      "date": "2026-10-18",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Dr Pain and the Remedy",
+      "genre": "classic rock",
+      "link": "",
+      "link_name": "",
+      "venue": "Del Rio Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "e7c8507716e27828",

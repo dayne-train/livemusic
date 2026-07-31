@@ -1,5 +1,5 @@
 --timestamp
-07/30/2026 15:26
+07/31/2026 07:39
 --news
 * date | notes
 --musicians
@@ -504,7 +504,7 @@ Larry Wheatley||||Weisinger Family Winery||08/01/26|1530|1830||Band|
 Shybo & Twisted Vines||||Del Rio Vineyards||08/01/26|1600|1800||Band|
 Sonido Alegre||||Dos Mariposas Vineyards||08/01/26|1600|1800||Band|
 Mark Hill||||Rellik Winery||08/01/26|1600|1800||Band|
-Mitchell Brothers||||La Fiesta||08/01/26|1700|2000||Band|
+Mitchell Brothers||||La Fiesta||08/01/26|1700|2000|CANCELLED|Band|
 Adam Gabriel||||Padigan Wines||08/01/26|1700|1900||Band|
 Pozitronics||||Red Lily Vineyards||08/01/26|1700|1900||Band|
 John Johns||||Remotion Wine||08/01/26|1700|1900||Band|
@@ -827,6 +827,7 @@ Encore Five||||Pebblestone Cellars||10/11/26|1500|1700||Band|
 Bim Jeam and the Sadness||||Area 61 Taphouse||10/16/26|1800|2100||Band|
 Pozitronics||||Apple Outlaw Taproom||10/17/26|1700|2000||Band|
 Mercy Duo|||Mercy|Stone River Winery||10/17/26|1700|1900||Band|
+Dr Pain and the Remedy||||Del Rio Vineyards||10/18/26|1500|1700||Band|
 Allison and Victor||||Dancin Vineyards||10/23/26|1700|1900||Band|
 Joshua Paul||||Schmidt Vineyard||10/23/26|1700|2000||Band|
 Pozitronics||||Belle Fiore||10/24/26|1700|1900|Costume Party|Band|
