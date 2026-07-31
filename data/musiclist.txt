@@ -1,5 +1,5 @@
 --timestamp
-07/27/2026 15:20
+07/30/2026 15:26
 --news
 * date | notes
 --musicians
@@ -450,112 +450,8 @@ Yreka Golden City Days|https://www.yrekagoldencitydays.com/|Yreka|N||Ashland|Oth
 Zi Spice|https://www.zispice.com/|Ashland|N||Ashland|Other||
 --events
 * musician | genre | link | link name | venue | venuelink | date | time | end time | notes | event Type
-Shae & Jenni||||Dancin Vineyards||07/22/26|1700|1900||Band|
-Jared Gutridge||||Local Vines Wine Bar||07/22/26|1700|1900||Band|
-Nick Garrett-Powell||||Phoodery||07/22/26|1800|2000||Band|
-Dan Doshier||||Oberon's Restaurant & Bar||07/22/26|1900|2145||Band|
-Live Music||||The Copper Plank||07/22/26|1900|2200|Larry and His Flask, Americana punk, with John Dough Boys; $10|Band|
-Erica Rochel||||The Gold Room||07/23/26|1700|1900||Band|
-Tres Palomas||||Belle Fiore||07/23/26|1730|1930||Band|
-Traditional Irish Music and Dancing||||Dunbar Farms||07/23/26|1730|1930||Band|
-Canto Sol Trio|||Canto Sol|Café Lumina||07/23/26|1800|2000||Band|
-Wild Goose Chase Trio||||Wild Goose Cafe||07/23/26|1800|2000||Band|
-Rogue Suspects||||OSF Green Show||07/23/26|1830|1930|Tribute to Santana|Band|
-Actual Wolf||||Oberon's Restaurant & Bar||07/23/26|1830|2030||Band|
-Jon Martin||||Talon Grill||07/23/26|1830|2030||Band|
-Pandora Band||||Alibi Tavern||07/23/26|1900|2200||Band|
-Aaron Reed||||Bella Union||07/23/26|1900|2100||Band|
-Phillip Reed||||Growler Guys Grants Pass||07/23/26|1900|2100||Band|
-Fred Moss||||Liquid Lounge||07/23/26|1900|2100||Solo|
-Aaron Reed||||Stone River Winery||07/24/26|1600|1800||Band|
-Mitchell Brothers||||Daisy Creek Vineyard||07/24/26|1700|1900||Band|
-JustaDuo||||Dancin Vineyards||07/24/26|1700|1900||Band|
-Sonie and Jeff||||Farris Vineyards||07/24/26|1700|2000||Band|
-John Ivey Duo||||Padigan Wines||07/24/26|1700|1900||Band|
-Gil René||||Pebblestone Cellars||07/24/26|1700|1900||Band|
-Dennis Konecny||||Rellik Winery||07/24/26|1700|1900||Band|
-Dominick Antonelli||||Schmidt Vineyard||07/24/26|1700|2000||Band|
-Jeff Kloetzel||||The Punch House||07/24/26|1700|1900||Band|
-Steve Shine|||Steve Shine Swing|Trium Wines||07/24/26|1700|1900||Band|
-Nick Garrett-Powell||||Belle Fiore||07/24/26|1730|1930||Band|
-HopStone||||Dos Mariposas Vineyards||07/24/26|1730|1930||Band|
-Adam Gabriel||||Dunbar Farms||07/24/26|1730|1930||Band|
-Cip Taub||||Galice Resort||07/24/26|1730|2030||Band|
-Tension Deficit||||Plaisance Ranch||07/24/26|1730|2030||Band|
-Timberwolf Musicians||||Area 61 Taphouse||07/24/26|1800|2100||Band|
-Reverberays||||Art Bop Beer Co||07/24/26|1800|2000||Band|
-Live Music||||Callahan's Lodge||07/24/26|1800|2100||Band|
-Alissa Weaver and the Side Effects||||Hummingbird Estate||07/24/26|1800|2000||Band|
-Steam Kettle Trio||||Oberon's Restaurant & Bar||07/24/26|1800|2000||Band|
-Saucy||||Roxy Ann Winery||07/24/26|1800|2000||Band|
-Bryan Oliver||||South Stage Cellars||07/24/26|1800|2000||Band|
-Grant Ruiz||||Annie Creek Restaurant||07/24/26|1830|2030||Band|
-Blue Lightning||||OSF Green Show||07/24/26|1830|1930||Band|
-Aaron Reed||||Bella Union||07/24/26|1900|2200||Band|
-The Paper Flares||||Growler Guys Grants Pass||07/24/26|1900|2100||Band|
-Pozitronics||||Old Spaghetti Factory||07/24/26|1900|2100||Band|
-Dr Pain and the Remedy||||Phoodery||07/24/26|1900|2100||Band|
-Danielle Kelly|||Danielle Kelly Soul Project|Skout Taphouse||07/24/26|1900|2100||Band|
-The Kind||||Steelhead Tavern||07/24/26|1900|2200||Band|
-Phillip Reed||||The Gold Room||07/24/26|1900|2100||Band|
-Benjamin Wylder||||Curtain Call Cabaret & Lounge||07/24/26|1930|2200||Band|
-Shakedown||||Cedarwood Saloon||07/24/26|2000|1200||Band|
-John Johns & Chelsea||||Liquid Lounge||07/24/26|2000|2200||Band|
-Tim Church & Craig Martin||||La Baguette||07/25/26|1030|1230||Band|
-Melissa Fairy||||The Artist Attic||07/25/26|1200|1400||Solo|
-Matt Combe||||Dwell Wines||07/25/26|1500|1700||Band|
-Niesja||||Red Lily Vineyards||07/25/26|1500|1700||Band|
-Sterling 2 Jazz Duo||||Taproots Nursery||07/25/26|1500|1700||Band|
-John Ivey Band||||Weisinger Family Winery||07/25/26|1530|1830||Band|
-Erica Rochel Duo||||Daisy Creek Vineyard||07/25/26|1600|1800||Band|
-Dirk Price Quartet||||Dos Mariposas Vineyards||07/25/26|1600|1800||Band|
-Vinyl Tap||||Rellik Winery||07/25/26|1600|1800||Band|
-Saucy||||Apple Outlaw Taproom||07/25/26|1700|2000||Band|
-Andy Wright||||Padigan Wines||07/25/26|1700|1900||Band|
-Phillip Reed||||Remotion Wine||07/25/26|1700|1900||Band|
-Mark Hill and the Hiltop Band||||Roxy Ann Winery||07/25/26|1700|2000|music of John Prine., $10|Band|
-Fernando Aragon & Friends||||Stone River Winery||07/25/26|1700|1900||Band|
-Canto Sol||||Belle Fiore||07/25/26|1730|1930||Band|
-Blue Lightning||||Dunbar Farms||07/25/26|1730|1930||Band|
-Mercy||||Galice Resort||07/25/26|1730|2030||Band|
-All ID Music||||Art Bop Beer Co||07/25/26|1800|2000||Band|
-Dr Pain and the Remedy||||Bayer Family Estate||07/25/26|1800|2100||Band|
-Live Music||||Callahan's Lodge||07/25/26|1800|2100||Band|
-Simple Dreams||||South Stage Cellars||07/25/26|1800|2000||Band|
-Jon Martin||||Annie Creek Restaurant||07/25/26|1830|2030||Band|
-Bim Jeam & The Sadness|||Bim Jeam and the Sadness|Morrtons Too||07/25/26|1830|2030||Band|
-Two21Fly||||Walkabout Brewing||07/25/26|1830|2030||Band|
-Aaron Reed||||Bella Union||07/25/26|1900|2200||Band|
-Brisbane Project||||Growler Guys Grants Pass||07/25/26|1900|2100||Band|
-Mike Whipple||||The Gold Room||07/25/26|1900|2100||Band|
-Mitchell Brothers||||Corvette Bar & Grill||07/25/26|2000|2300||Band|
-Alcyon Massive||||The Replay||07/25/26|2100|1200|$10|Band|
-Kevin Conness||||Troon Vineyard||07/26/26|1300|1600||Band|
-Bekkah McAlvage||||Wooldridge Creek Winery||07/26/26|1300|1600||Band|
-Shae & Jenni||||Daisy Creek Vineyard||07/26/26|1400|1600||Band|
-12 Bars Deep||||Local Vines Wine Bar||07/26/26|1500|1700||Band|
-Phillip Reed||||Naumes Suncrest Winery||07/26/26|1500|1700||Band|
-Shybo Torres||||Pebblestone Cellars||07/26/26|1500|1700||Band|
-Rick Millward||||Paschal Winery||07/26/26|1530|1730||Band|
-Aaron Reed||||Weisinger Family Winery||07/26/26|1530|1830||Band|
-Adam Gabriel||||Del Rio Vineyards||07/26/26|1600|1800||Band|
-Sterling Vintage Jazz||||Rellik Winery||07/26/26|1600|1800||Band|
-Two of a Kind||||Roxy Ann Winery||07/26/26|1600|1800||Band|
-Rogue Hot Club||||Belle Fiore||07/26/26|1700|1900||Band|
-Jimmy Limo||||Padigan Wines||07/26/26|1700|1900||Band|
-Victoria Lawton-Diez||||Tap & Vine||07/26/26|1700|1900||Band|
-Jim Quinby||||Wild Goose Cafe||07/26/26|1700|1900||Band|
-Saucy||||Galice Resort||07/26/26|1730|2030||Band|
-Pozitronics||||Britt||07/26/26|1800|1915||Band|
-Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||07/26/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|
-David Pinsky & Phil Newton|||David Pinsky|Dancin Vineyards||07/27/26|1700|1900||Band|
-Mike Brons||||Rellik Winery||07/27/26|1800|2000||Band|
-Paul Schmeling Quartet||||Martino's Upstairs||07/27/26|1900|2100||Band|
-Sonido Alegre||||The Gold Room||07/28/26|1800|2000||Band|
-Brothers Reed||||OSF Green Show||07/28/26|1830|1930||Band|
 Lisa and Dean||||Dancin Vineyards||07/29/26|1700|1900||Band|
 Broadway Phil & The Shouters|||Broadway Phil and the Shouters|Local Vines Wine Bar||07/29/26|1700|1900||Band|
-Aaron Reed||||Padigan Wines||07/29/26|1700|1900||Band|
 Phillip Reed||||Tap & Vine||07/29/26|1700|1900||Band|
 Nick Garrett-Powell||||Phoodery||07/29/26|1800|2000||Band|
 Duo Sonorous||||South Stage Cellars||07/29/26|1800|2000|$5|Band|
@@ -564,17 +460,20 @@ Furthermoore Band||||Apple Outlaw Taproom||07/29/26|1830|2030||Band|
 Dan Doshier||||Oberon's Restaurant & Bar||07/29/26|1900|2145||Band|
 Jon Galfano||||Belle Fiore||07/30/26|1730|1930||Band|
 Traditional Irish Music and Dancing||||Dunbar Farms||07/30/26|1730|1930||Band|
+Pandora Band||||Alibi Tavern||07/30/26|1800|2200||Band|
+Colton Ort & Alex Jones||||The Miner's Bazaar||07/30/26|1800|2000||Band|
 Daisy and The Boys||||Wild Goose Cafe||07/30/26|1800|2030||Band|
 Actual Wolf||||Oberon's Restaurant & Bar||07/30/26|1830|2030||Band|
 The Roadsters Duo|||The Roadsters|Talon Grill||07/30/26|1830|2030||Band|
-Pandora Band||||Alibi Tavern||07/30/26|1900|2200||Band|
 Jen Ambrose||||Bella Union||07/30/26|1900|2100||Band|
 Niesja||||The Gold Room||07/30/26|1900|2100||Band|
 J Brothers||||Daisy Creek Vineyard||07/31/26|1700|1900||Band|
 Danielle Kelly & Dean Angermeier|||Danielle Kelly Soul Project|Dancin Vineyards||07/31/26|1700|1900||Band|
+Paul King||||Farris Vineyards||07/31/26|1700|2000||Band|
 Pozitronics||||Phoodery||07/31/26|1700|1900||Band|
 Neil Mangicaro||||Rellik Winery||07/31/26|1700|1900||Band|
 Talon||||Schmidt Vineyard||07/31/26|1700|2000||Band|
+Mercy Duo|||Mercy|Trium Wines||07/31/26|1700|1900||Band|
 Jones||||Belle Fiore||07/31/26|1730|1930||Band|
 Mitchell Brothers||||Galice Resort||07/31/26|1730|1930||Band|
 Bekkah McAlvage||||Art Bop Beer Co||07/31/26|1800|2000||Band|
@@ -582,103 +481,292 @@ Live Music||||Callahan's Lodge||07/31/26|1800|2100||Band|
 Brothers Reed||||Del Rio Vineyards||07/31/26|1800|2000|$8 / $12|Band|
 Fret Drifters||||Dos Mariposas Vineyards||07/31/26|1800|2000|$15-$18|Band|
 The Ant Hill||||Dunbar Farms||07/31/26|1800|2000||Band|
+Niesja||||Hummingbird Estate||07/31/26|1800|2000||Band|
 Brisbane Project||||Roxy Ann Winery||07/31/26|1800|2000||Band|
 Rogue Suspects||||South Stage Cellars||07/31/26|1800|2000|$20; blues show|Band|
+Shybo Torres||||Taproots Nursery||07/31/26|1800|2000||Band|
 Grant Ruiz||||The Miner's Bazaar||07/31/26|1800|2000||Band|
+The Eevers||||Weekend Beer Company||07/31/26|1800|2000||Band|
 The Kind||||Bella Union||07/31/26|1900|2200||Band|
 John Nilsen|piano|||Gold Hill United Methodist Church||07/31/26|1900|2100|6:30 desert reception|Band|
 Christina Hanks||||Growler Guys Grants Pass||07/31/26|1900|2100||Band|
 Dr Pain and the Remedy||||Skout Taphouse||07/31/26|1900|2100||Band|
-Phoenix Sigalove||||The Gold Room||07/31/26|1900|2100||Band|
+The Wizards||||Steelhead Tavern||07/31/26|1900|2200||Band|
 Salsa Brava||||Paschal Winery||07/31/26|1930|2130|$20; dance lesson 7:00|Band|
 The Dr Is In||||Liquid Lounge||07/31/26|2000|2200||Band|
-Josephine Jukebox||||The Replay||07/31/26|2000|1200|$5|Band|
+Pandora Band||||The Wonder Bur Cafe||07/31/26|2100|1200||Band|
+Sweet Clementine||||La Baguette||08/01/26|1030|1230||Band|
 Enoch and David||||Wanderlust Vineyard||08/01/26|1330|1530||Band|
+Bryce Pettyjohn||||Taproots Nursery||08/01/26|1400|1600||Band|
+Jackalope Blue||||Dark Hollow Farm||08/01/26|1500|1700||Band|
 Bim Jeam and the Sadness||||Dwell Wines||08/01/26|1500|1700||Band|
+Larry Wheatley||||Weisinger Family Winery||08/01/26|1530|1830||Band|
+Shybo & Twisted Vines||||Del Rio Vineyards||08/01/26|1600|1800||Band|
 Sonido Alegre||||Dos Mariposas Vineyards||08/01/26|1600|1800||Band|
 Mark Hill||||Rellik Winery||08/01/26|1600|1800||Band|
 Mitchell Brothers||||La Fiesta||08/01/26|1700|2000||Band|
+Adam Gabriel||||Padigan Wines||08/01/26|1700|1900||Band|
 Pozitronics||||Red Lily Vineyards||08/01/26|1700|1900||Band|
 John Johns||||Remotion Wine||08/01/26|1700|1900||Band|
 Jen Ambrose||||Stone River Winery||08/01/26|1700|1900||Band|
-Malinka||||Belle Fiore||08/01/26|1730|1930||Band|
+Sterling Vintage Jazz||||Belle Fiore||08/01/26|1730|1930||Band|
+Mercy||||Galice Resort||08/01/26|1730|2030||Band|
+Acoustalyptica||||Area 61 Taphouse||08/01/26|1800|2100||Band|
+Widespread Haze||||Art Bop Beer Co||08/01/26|1800|2000||Band|
+Petty Thievery||||Bayer Family Estate||08/01/26|1800|2100|music of Tom Petty,|Band|
+Live Music||||Callahan's Lodge||08/01/26|1800|2100||Band|
+Danielle Kelly Soul Project||||Dunbar Farms||08/01/26|1800|2000||Band|
 Encore Five||||South Stage Cellars||08/01/26|1800|2000||Band|
 Jim Friend||||Annie Creek Restaurant||08/01/26|1830|2030||Band|
+David Pinsky & Phil Newton|||David Pinsky|Bella Union||08/01/26|1900|2100||Band|
+Taurus Moon||||The Gold Room||08/01/26|1900|2100||Band|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|Liquid Lounge||08/01/26|2000|1200||Band|
 Mitchell Brothers||||Corvette Bar & Grill||08/02/26|1300|1600||Band|
+J.R. “Old Dog” Stevens||||Sams Creek Cellars||08/02/26|1300|1500||Band|
+Sterling 2 Jazz Duo||||Troon Vineyard||08/02/26|1300|1600||Band|
 Alissa Weaver and the Side Effects||||Daisy Creek Vineyard||08/02/26|1400|1600||Band|
+Steve Keim||||Taproots Nursery||08/02/26|1400|1600||Band|
+Aaron Reed||||Dos Mariposas Vineyards||08/02/26|1500|1700||Band|
 Kristen Calvin & Robbie Dacosta|||Kristen Calvin|Local Vines Wine Bar||08/02/26|1500|1700||Band|
+Stillwater Road||||Paschal Winery||08/02/26|1530|1730||Band|
+John Ivey||||Weisinger Family Winery||08/02/26|1530|1830||Band|
+Danielle Kelly Trio|||Danielle Kelly Soul Project|Del Rio Vineyards||08/02/26|1600|1800||Band|
 Starvation Heights||||Rellik Winery||08/02/26|1600|1800||Band|
+Nick Garrett-Powell||||Roxy Ann Winery||08/02/26|1600|1800||Band|
+Simple Dreams||||Belle Fiore||08/02/26|1700|1900|Linda Ronstadt Tribute; $22|Band|
+The Kind||||Padigan Wines||08/02/26|1700|1900||Band|
+Canto Sol||||Tap & Vine||08/02/26|1700|1900||Band|
+Jim Quinby||||Wild Goose Cafe||08/02/26|1700|1900||Band|
+Over the Moon||||Galice Resort||08/02/26|1730|2030||Band|
+Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||08/02/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|
 Shae & Jenni||||Dancin Vineyards||08/03/26|1700|1900||Band|
 Paul Schmeling Quartet||||Martino's Upstairs||08/03/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Marshall Thompson||||The Gold Room||08/04/26|1800|2000||Band|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|Paschal Winery||08/05/26|1300|1500||Band|
 Jared Gutridge||||Dancin Vineyards||08/05/26|1700|1900||Band|
 Sonido Alegre||||Local Vines Wine Bar||08/05/26|1700|1900||Band|
 Nick Garrett-Powell||||Phoodery||08/05/26|1800|2000||Band|
+Jeff Kloetzel||||South Stage Cellars||08/05/26|1800|2000|$5|Band|
 Bim Jeam and the Sadness||||The Toasted Barrel||08/05/26|1800|2000||Band|
+Starvation Heights||||Weekend Beer Company||08/05/26|1800|2000||Band|
+Dan Doshier||||Oberon's Restaurant & Bar||08/05/26|1900|2145||Band|
+Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Belle Fiore||08/06/26|1730|1930||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||08/06/26|1730|1930||Band|
+Pandora Band||||Alibi Tavern||08/06/26|1800|2200||Band|
 Craig Martin||||Wild Goose Cafe||08/06/26|1800|2030||Band|
 The Roadsters Duo|||The Roadsters|Annie Creek Restaurant||08/06/26|1830|2030||Band|
+Actual Wolf||||Oberon's Restaurant & Bar||08/06/26|1830|2030||Band|
 Frankie Hernandez||||Talon Grill||08/06/26|1830|2030||Band|
 Mitchell Brothers||||Bella Union||08/06/26|1900|2100||Band|
+David Kai||||The Gold Room||08/06/26|1900|2100||Band|
+The Smokin' Gundersons||||Daisy Creek Vineyard||08/07/26|1700|1900||Band|
 Jeff Kloetzel||||Dancin Vineyards||08/07/26|1700|1900||Band|
 Sonido Alegre||||Rellik Winery||08/07/26|1700|1900||Band|
+Malinka||||Skout Taphouse||08/07/26|1700|1900||Band|
+Tres Palomas||||Belle Fiore||08/07/26|1730|1930||Band|
+Daniel Nickels Band|||Daniel Nickels|Dunbar Farms||08/07/26|1730|1930||Band|
 Encore Five||||Trium Wines||08/07/26|1730|1930||Band|
+Mid-Pitch Regrets||||Art Bop Beer Co||08/07/26|1800|2000||Band|
+Live Music||||Callahan's Lodge||08/07/26|1800|2100||Band|
+Rogue Suspects||||Dos Mariposas Vineyards||08/07/26|1800|2000|Bonnie Raitt Tribute; Tickets required after 5:30|Band|
+Mark Allen Johnson||||Hummingbird Estate||08/07/26|1800|2000||Band|
 Trebled Souls||||Phoodery||08/07/26|1800|2000||Band|
 Steve Swift|||Steve Shine Swing|Remotion Wine||08/07/26|1800|2000||Band|
+Backdoor Blues band||||Roxy Ann Winery||08/07/26|1800|2000||Band|
 Santa Fe Band||||South Stage Cellars||08/07/26|1800|2000||Band|
 Mitchell Brothers||||Bella Union||08/07/26|1900|2200||Band|
-The Gus Factor||||The Wonder Bur Cafe||08/07/26|2000|2300||Band|
+Colin Riversong||||Liquid Lounge||08/07/26|2000|2200||Band|
+Mark Turnbull||||La Baguette||08/08/26|1030|1230||Band|
 Jeff Kloetzel||||Naumes Suncrest Winery||08/08/26|1500|1700||Band|
 Enoch and David||||Red Lily Vineyards||08/08/26|1500|1700||Band|
-The Giantess||||Stone River Winery||08/08/26|1700|1900||Band|
+Stillwater Road||||Daisy Creek Vineyard||08/08/26|1600|1800||Band|
+JustaDuo||||Del Rio Vineyards||08/08/26|1600|1800||Band|
+J Brothers Quartet|||J Brothers|Dos Mariposas Vineyards||08/08/26|1600|1800||Band|
+Aimee Barbuto||||Rellik Winery||08/08/26|1600|1800||Band|
+The Smokin' Gundersons||||Stone River Winery||08/08/26|1700|1900||Band|
+Grant Ruiz||||Belle Fiore||08/08/26|1730|1930||Band|
+Tres Palomas||||Dunbar Farms||08/08/26|1730|1930||Band|
+Theocracy & Bonita Fishwife||||Art Bop Beer Co||08/08/26|1800|2000||Band|
+Live Music||||Callahan's Lodge||08/08/26|1800|2100||Band|
+Alissa Weaver Band||||South Stage Cellars||08/08/26|1800|2000||Band|
+Jon Galfano||||Eliana Wines||08/08/26|1830|2030||Band|
+Jeff Jacobs||||Walkabout Brewing||08/08/26|1830|2030||Band|
+Adam Gabriel & The Cavaliers|||Adam Gabriel|Bella Union||08/08/26|1900|2200||Band|
 Mitchell Brothers||||Gold Hill Moose Lodge||08/08/26|1900|2200||Band|
+Sterling 2 Jazz Duo||||Liquid Lounge||08/08/26|2000|2200||Band|
+Drive to Space||||The Replay||08/08/26|2000|1200|$5|Band|
+Live Music||||Dos Mariposas Vineyards||08/09/26|1300|1800|Suggest $20+ donation; Benefit for Dennis Mitchell; Multiple musical acts throughout the day|Band|
 Joanna Serenk||||Wooldridge Creek Winery||08/09/26|1300|1600||Band|
+Jeff Kloetzel||||Daisy Creek Vineyard||08/09/26|1400|1600||Band|
 Joseph Rayburn||||Local Vines Wine Bar||08/09/26|1500|1700||Band|
 JustaDuo||||Naumes Suncrest Winery||08/09/26|1500|1700||Band|
 Enoch and David||||Paschal Winery||08/09/26|1530|1730||Band|
+Shabby Guys||||Del Rio Vineyards||08/09/26|1600|1800||Band|
+Shybo & Twisted Vines||||Roxy Ann Winery||08/09/26|1600|1800||Band|
+Jim Quinby||||Wild Goose Cafe||08/09/26|1700|1900||Band|
 Dr Pain and the Remedy||||Belle Fiore||08/09/26|1730|1930||Band|
-Stardust Trio||||Butterfly Club 557||08/09/26|1800|2000|Featuring Meghan Wilson on vocals|Band|
+Tony Brussat & Lawrence Newcomb||||Butterfly Club 557||08/09/26|1800|2000|$10|Band|
+Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||08/09/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|
+JustaDuo||||Dancin Vineyards||08/10/26|1700|1900||Band|
 Paul Schmeling Quartet||||Martino's Upstairs||08/10/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Mercy Duo|||Mercy|Dancin Vineyards||08/12/26|1700|1900||Band|
+Lisa and Dean||||Local Vines Wine Bar||08/12/26|1700|1900||Band|
 Nick Garrett-Powell||||Phoodery||08/12/26|1800|2000||Band|
+Aaron Reed||||South Stage Cellars||08/12/26|1800|2000|$5|Band|
+Dan Doshier||||Oberon's Restaurant & Bar||08/12/26|1900|2145||Band|
+John Johns||||Belle Fiore||08/13/26|1730|1930||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||08/13/26|1730|1930||Band|
+Pandora Band||||Alibi Tavern||08/13/26|1800|2200||Band|
+Uncle Dave Country||||Wild Goose Cafe||08/13/26|1800|2030|with Robbie DaCosta|Band|
+Actual Wolf||||Oberon's Restaurant & Bar||08/13/26|1830|2030||Band|
+Phillip Reed||||Bella Union||08/13/26|1900|2100||Band|
+Jeff Kloetzel||||Liquid Lounge||08/13/26|1900|2100||Band|
 Sonido Alegre||||Daisy Creek Vineyard||08/14/26|1700|1900||Band|
+The Smokin' Gundersons||||Dancin Vineyards||08/14/26|1700|1900||Band|
+Rebekka Swan||||Rellik Winery||08/14/26|1700|1900||Solo|
+Duke Street||||Belle Fiore||08/14/26|1730|1930||Band|
+Bekkah McAlvage||||Dunbar Farms||08/14/26|1730|1930||Band|
+Bim Jeam and the Sadness||||Dwell Wines||08/14/26|1730|2030||Band|
 Bim Jeam and the Sadness Trio|||Bim Jeam and the Sadness|Galice Resort||08/14/26|1730|2030||Band|
 Jen Ambrose Ensemble|||Jen Ambrose|Phoodery||08/14/26|1730|2030||Band|
+Live Music||||Callahan's Lodge||08/14/26|1800|2100||Band|
+Kristen Calvin & Robbie Dacosta|||Kristen Calvin|Hummingbird Estate||08/14/26|1800|2000||Band|
+Daniel Nickels Band|||Daniel Nickels|Roxy Ann Winery||08/14/26|1800|2000||Band|
+Phillip Reed||||Bella Union||08/14/26|1900|2200||Band|
+Shine On||||Liquid Lounge||08/14/26|1900|2100||Band|
 Mitchell Brothers||||Steelhead Tavern||08/14/26|1900|2100||Band|
+Dan Doshier & Anders||||Oberon's Restaurant & Bar||08/14/26|2000|1200||Band|
+Paul Jenny & Tom Freeman||||La Baguette||08/15/26|1030|1230||Band|
 Ukulele Jam||||Pebblestone Cellars||08/15/26|1400|1600||Jam|
 Stardust Quartet||||Weisinger Family Winery||08/15/26|1530|1830|Featuring Meghan Wilson on vocals|Band|
+Lisa and Dean||||Daisy Creek Vineyard||08/15/26|1600|1800||Band|
+The Bouray||||Del Rio Vineyards||08/15/26|1600|1800||Band|
+Jeff Kloetzel||||Dos Mariposas Vineyards||08/15/26|1600|1800||Band|
+The Giantess||||Rellik Winery||08/15/26|1600|1800||Band|
+Shybo Torres||||Stone River Winery||08/15/26|1700|1900||Band|
+Brisbane Project Trio||||Belle Fiore||08/15/26|1730|1930||Band|
+Jackalope Blue||||Dunbar Farms||08/15/26|1730|1930||Band|
+Live Music||||Callahan's Lodge||08/15/26|1800|2100||Band|
 Bim Jeam and the Sadness Trio|||Bim Jeam and the Sadness|Weekend Beer Company||08/15/26|1800|2000||Band|
+Femme Fatale||||Walkabout Brewing||08/15/26|1830|2030||Band|
+Billy Rock Trio||||Bella Union||08/15/26|1900|2200||Band|
 Mitchell Brothers||||Corvette Bar & Grill||08/15/26|2000|2300||Band|
+No Ordinary Love||||Sams Creek Cellars||08/16/26|1300|1500||Band|
+Jen Ambrose & Annieville Blues|||Jen Ambrose|Daisy Creek Vineyard||08/16/26|1400|1600||Band|
+Adam Gabriel||||Dunbar Farms||08/16/26|1400|1600||Band|
+Phillip Reed||||Dos Mariposas Vineyards||08/16/26|1500|1700||Band|
+Paul Mozina||||Valley View Winery||08/16/26|1500|1700||Band|
+Aaron Reed||||Del Rio Vineyards||08/16/26|1600|1800||Band|
+David Pinsky & Phil Newton|||David Pinsky|Rellik Winery||08/16/26|1600|1800||Band|
+Grant Ruiz||||Roxy Ann Winery||08/16/26|1600|1800||Band|
 Bim Jeam and the Sadness Trio|||Bim Jeam and the Sadness|Touvelle Lodge||08/16/26|1600|1900||Band|
+Nick & Shae||||Belle Fiore||08/16/26|1700|1900||Band|
+Jim Quinby||||Wild Goose Cafe||08/16/26|1700|1900||Band|
+Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||08/16/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|
 Pozitronics||||Local Vines Wine Bar||08/16/26|1900|2100||Band|
 Paul Schmeling Quartet||||Martino's Upstairs||08/17/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Aged to Perplextion||||Local Vines Wine Bar||08/19/26|1700|1900||Band|
 Mitchell Brothers||||Padigan Wines||08/19/26|1700|1900||Band|
 Bim Jeam and the Sadness||||Weekend Beer Company||08/19/26|1800|2000||Band|
+Dan Doshier||||Oberon's Restaurant & Bar||08/19/26|1900|2145||Band|
+Shabby Guys||||Belle Fiore||08/20/26|1730|1930||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||08/20/26|1730|1930||Band|
+Pandora Band||||Alibi Tavern||08/20/26|1800|2200||Band|
+Actual Wolf||||Oberon's Restaurant & Bar||08/20/26|1830|2030||Band|
+Seth Hansson||||Bella Union||08/20/26|1900|2100||Band|
+Connor Reese||||Dunbar Farms||08/21/26|1400|1600||Band|
+Aimee Norvell||||Daisy Creek Vineyard||08/21/26|1700|1900||Band|
+Jared Gutridge Duo||||Dancin Vineyards||08/21/26|1700|1900||Band|
 Fork In The Road||||Gil's||08/21/26|1700|2000||Band|
+Frankie Hernandez||||Rellik Winery||08/21/26|1700|1900||Band|
+Jeff Kloetzel||||Belle Fiore||08/21/26|1730|1930||Band|
+Mountaintop Sound||||Plaisance Ranch||08/21/26|1730|2030||Band|
+Cold Cuts||||Art Bop Beer Co||08/21/26|1800|2000||Band|
+Live Music||||Callahan's Lodge||08/21/26|1800|2100||Band|
+The Smokin' Gundersons||||Hummingbird Estate||08/21/26|1800|2000||Band|
+Jimmy Fretwell Trio||||Roxy Ann Winery||08/21/26|1800|2000||Band|
 Sonido Alegre||||Bella Union||08/21/26|1900|2200||Band|
+Waxin' Moon||||Liquid Lounge||08/21/26|2000|2200||Band|
+Steam Kettle Trio||||Oberon's Restaurant & Bar||08/21/26|2000|2200||Band|
+Cabaret of the Flowers||||La Baguette||08/22/26|1030|1230||Band|
 Enoch and David||||Wanderlust Vineyard||08/22/26|1330|1530||Band|
+The Giantess||||Naumes Suncrest Winery||08/22/26|1500|1700||Band|
+Rick Millward||||Roxy Ann Winery||08/22/26|1500|1700|Open Mic|Open Mic|
+Fret Drifters||||Del Rio Vineyards||08/22/26|1600|1800||Band|
 Mitchell Brothers||||Dos Mariposas Vineyards||08/22/26|1600|1800||Band|
+J Brothers||||Rellik Winery||08/22/26|1600|1800||Band|
 Bim Jeam and the Sadness||||Remotion Wine||08/22/26|1700|1900||Band|
 Erica Rochel Duo||||Stone River Winery||08/22/26|1700|1900||Band|
 Encore Five||||Belle Fiore||08/22/26|1730|1930||Band|
+Frank & Friends||||Art Bop Beer Co||08/22/26|1800|2000||Band|
+Live Music||||Callahan's Lodge||08/22/26|1800|2100||Band|
+Petty Thievery||||Dunbar Farms||08/22/26|1800|2000||Band|
+Bryan Oliver Trio||||Bella Union||08/22/26|1900|2200||Band|
+Bill Scholer Trio||||Liquid Lounge||08/22/26|2000|2200||Band|
+The Strivers||||Oberon's Restaurant & Bar||08/22/26|2000|2200||Band|
+Marshall & Friends||||Daisy Creek Vineyard||08/23/26|1400|1600||Band|
+Jared Gutridge||||Naumes Suncrest Winery||08/23/26|1500|1700||Band|
 Tim Church||||Weisinger Family Winery||08/23/26|1530|1830||Band|
+Jeff Kloetzel & Bob Evoniuk|||Jeff Kloetzel|Del Rio Vineyards||08/23/26|1600|1800||Band|
+Mike Brons||||Rellik Winery||08/23/26|1600|1800||Band|
+JustaDuo||||Roxy Ann Winery||08/23/26|1600|1800||Band|
+Blue Lightning||||Belle Fiore||08/23/26|1700|1900||Band|
 Mitchell Brothers||||Lake of the Woods||08/23/26|1700|1900||Band|
+Jim Quinby||||Wild Goose Cafe||08/23/26|1700|1900||Band|
+Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||08/23/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|
 Hersey Street Jazz Project||||Phoodery||08/23/26|1800|2000||Band|
+Lisa and Dean||||Dancin Vineyards||08/24/26|1700|1900||Band|
 Paul Schmeling Quartet||||Martino's Upstairs||08/24/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
 Nick Garrett-Powell||||Phoodery||08/26/26|1800|2000||Band|
+Dan Doshier||||Oberon's Restaurant & Bar||08/26/26|1900|2145||Band|
 Rushadicus the Cello Goblin|cello|||The Curtain Call||08/26/26|1930|2130||Band|
+Rogue Hot Club||||Belle Fiore||08/27/26|1730|1930||Band|
+Traditional Irish Music and Dancing||||Dunbar Farms||08/27/26|1730|1930||Band|
+Pandora Band||||Alibi Tavern||08/27/26|1800|2200||Band|
+Actual Wolf||||Oberon's Restaurant & Bar||08/27/26|1830|2030||Band|
+Andru Gomez||||Bella Union||08/27/26|1900|2100||Band|
+Adam Gabriel||||Liquid Lounge||08/27/26|2000|2200||Band|
+JustaDuo||||Daisy Creek Vineyard||08/28/26|1700|1900||Band|
+Jenni Adbo||||Dancin Vineyards||08/28/26|1700|1900||Band|
+Adam Gabriel||||Rellik Winery||08/28/26|1700|1900||Band|
+12 Bars Deep||||Belle Fiore||08/28/26|1730|1930||Band|
 Dr Pain and the Remedy||||Dunbar Farms||08/28/26|1730|1930||Band|
 Mitchell Brothers||||Galice Resort||08/28/26|1730|1930||Band|
+The Elephant||||Art Bop Beer Co||08/28/26|1800|2000||Band|
+Live Music||||Callahan's Lodge||08/28/26|1800|2100||Band|
+Daniel Nickels Band|||Daniel Nickels|Del Rio Vineyards||08/28/26|1800|2000||Band|
 The Gus Factor||||Phoodery||08/28/26|1800|2000||Band|
+Lisa & The Dynamics||||Roxy Ann Winery||08/28/26|1800|2000||Band|
+Nick Garrett-Powell||||Bella Union||08/28/26|1900|2200||Band|
 Pozitronics||||Skout Taphouse||08/28/26|1900|2100||Band|
 Salsa Brava||||Edenvale Winery||08/28/26|1930|2130|$20; dance lesson 7:00|Band|
+Melissa Fairy||||Liquid Lounge||08/28/26|2000|2200||Solo|
+Roadsters||||Del Rio Vineyards||08/29/26|1600|1800||Band|
 Dr Pain and the Remedy||||Rellik Winery||08/29/26|1600|1800||Band|
 Jared Gutridge||||Remotion Wine||08/29/26|1700|1900||Band|
 Blue Lightning||||Stone River Winery||08/29/26|1700|1900||Band|
+Rogue Suspects||||Belle Fiore||08/29/26|1730|1930|Santana Tribute|Band|
 Bim Jeam and the Sadness||||Dunbar Farms||08/29/26|1730|1930||Band|
+Live Music||||Callahan's Lodge||08/29/26|1800|2100||Band|
+Mark Hill & Friends||||Bella Union||08/29/26|1900|2200||Band|
 Mitchell Brothers||||Galice Resort||08/29/26|2000|2300||Band|
+Nick & Shae||||Daisy Creek Vineyard||08/30/26|1400|1600||Band|
+Jeff Kloetzel||||Sams Creek Cellars||08/30/26|1400|1600||Band|
+Tres Palomas||||Del Rio Vineyards||08/30/26|1600|1800||Band|
+Kristen Calvin & Robbie Dacosta|||Kristen Calvin|Rellik Winery||08/30/26|1600|1800||Band|
+Roadsters||||Belle Fiore||08/30/26|1700|1900||Band|
 Bim Jeam and the Sadness||||Tap & Vine||08/30/26|1700|1900||Band|
+Jim Quinby||||Wild Goose Cafe||08/30/26|1700|1900||Band|
+Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||08/30/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|
 Allison and Victor||||Dancin Vineyards||08/31/26|1700|1900||Band|
+Mike Brons||||Rellik Winery||08/31/26|1800|2000||Band|
 Paul Schmeling Quartet||||Martino's Upstairs||08/31/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|
+Danielle Kelly & Paul Turnipseed|||Danielle Kelly Soul Project|Dancin Vineyards||09/02/26|1700|1900||Band|
+Simple Dreams||||Naumes Suncrest Winery||09/03/26|1600|1800|tribute to Fleetwood Mac, Heart, Journey; $22|Band|
+Stillwater Road||||Belle Fiore||09/03/26|1730|1930||Band|
+Craig Martin||||Wild Goose Cafe||09/03/26|1800|2030||Band|
+Jeff Kloetzel||||Dancin Vineyards||09/04/26|1700|1900||Band|
+Rick Millward||||Rellik Winery||09/04/26|1700|1900||Band|
 Dr Pain and the Remedy||||Trium Wines||09/04/26|1700|1900||Band|
 Pozitronics||||Belle Fiore||09/04/26|1730|1930||Band|
 Bim Jeam and the Sadness||||Dwell Wines||09/04/26|1800|2000||Band|
@@ -687,9 +775,12 @@ Dr Pain and the Remedy||||Lake of the Woods||09/05/26|1600|2000||Band|
 Pozitronics||||Rellik Winery||09/05/26|1600|1800||Band|
 Phillip Reed||||Stone River Winery||09/05/26|1600|1800||Band|
 Mountaintop Sound||||Remotion Wine||09/05/26|1700|1900||Band|
+Duke Street||||Belle Fiore||09/05/26|1730|1930||Band|
+Jim Friend||||Sams Creek Cellars||09/06/26|1400|1600||Band|
 The Smokin' Gundersons||||Valley View Winery||09/06/26|1500|1700||Band|
 Stardust Trio||||Weisinger Family Winery||09/06/26|1530|1830|Featuring Meghan Wilson on vocals|Band|
 Encore Five||||Local Vines Wine Bar||09/09/26|1700|1900||Band|
+Sage Meadows Country Band||||Wild Goose Cafe||09/10/26|1800|2030||Band|
 Encore Five||||Dunbar Farms||09/11/26|1730|1930||Band|
 Jeff Kloetzel||||Phoodery||09/11/26|1800|2000||Band|
 Enoch and David||||Wanderlust Vineyard||09/12/26|1330|1530||Band|
@@ -702,23 +793,28 @@ Joshua Paul||||Paschal Winery||09/13/26|1530|1730||Band|
 The Gus Factor||||The Copper Plank||09/18/26|2000|2300||Band|
 Ukulele Jam||||Pebblestone Cellars||09/19/26|1400|1600||Jam|
 Dr Pain and the Remedy||||Padigan Wines||09/19/26|1700|1900||Band|
+Nick & Shae||||Stone River Winery||09/19/26|1700|1900||Band|
 Backdoor Blues band||||Phoodery||09/19/26|1800|2000||Band|
 Sonido Alegre||||Local Vines Wine Bar||09/20/26|1500|1700||Band|
 Encore Five||||Roxy Ann Winery||09/20/26|1600|1800||Band|
 Dr Pain and the Remedy||||Britt||09/23/26|1800|1915||Band|
 Pozitronics||||Local Vines Wine Bar||09/23/26|1900|2100||Band|
+Wild Goose Chase Trio||||Wild Goose Cafe||09/24/26|1800|2030||Band|
 Pozitronics||||Dunbar Farms||09/25/26|1730|1930||Band|
 Bim Jeam and the Sadness||||Lindsay Lodge||09/25/26|1730|2030||Band|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|White Rabbit Cafe||09/25/26|1900|2100||Band|
 Craig Martin & Tim Church||||Liquid Lounge||09/25/26|2000|2200||Band|
 Dr Pain and the Remedy||||Lake of the Woods||09/26/26|1600|2000||Band|
 Skyler Squiglio||||Remotion Wine||09/26/26|1700|1900||Band|
+Nick Garrett-Powell||||Stone River Winery||09/26/26|1700|1900||Band|
 Bim Jeam and the Sadness||||Growler Guys Grants Pass||09/26/26|1800|2100||Band|
+Roadsters||||Walkabout Brewing||09/26/26|1800|2000||Band|
 Enoch and David||||Rellik Winery||09/27/26|1600|1800||Band|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|Del Rio Vineyards||10/02/26|1700|1900||Band|
 Gil René||||Pebblestone Cellars||10/02/26|1700|1900||Band|
 Pozitronics||||Zi Spice||10/02/26|1730|1930|First Friday|Band|
 Steam Kettle Trio||||Remotion Wine||10/03/26|1700|1900||Band|
+The Giantess||||Stone River Winery||10/03/26|1700|1900||Band|
 Dr Pain and the Remedy||||Bayer Family Estate||10/03/26|1800|2100||Band|
 Joshua Paul||||Pebblestone Cellars||10/04/26|1500|1700||Band|
 Dr Pain and the Remedy||||Rellik Winery||10/04/26|1600|1800||Band|
@@ -726,17 +822,24 @@ Allison and Victor||||Dancin Vineyards||10/07/26|1700|1900||Band|
 Bim Jeam and the Sadness||||Phoodery||10/09/26|1800|2000||Band|
 Pozitronics||||Skout Taphouse||10/09/26|1900|2100||Band|
 Bekkah McAlvage||||Remotion Wine||10/10/26|1700|1900||Band|
+Cathy Bolton Duo|||Cathy Bolton|Stone River Winery||10/10/26|1700|1900||Solo|
 Encore Five||||Pebblestone Cellars||10/11/26|1500|1700||Band|
 Bim Jeam and the Sadness||||Area 61 Taphouse||10/16/26|1800|2100||Band|
 Pozitronics||||Apple Outlaw Taproom||10/17/26|1700|2000||Band|
+Mercy Duo|||Mercy|Stone River Winery||10/17/26|1700|1900||Band|
 Allison and Victor||||Dancin Vineyards||10/23/26|1700|1900||Band|
 Joshua Paul||||Schmidt Vineyard||10/23/26|1700|2000||Band|
 Pozitronics||||Belle Fiore||10/24/26|1700|1900|Costume Party|Band|
+The Reverberays||||Stone River Winery||10/24/26|1700|1900||Band|
 Pozitronics||||Roxy Ann Winery||10/30/26|1800|2000|Costume Party|Band|
 Pozitronics||||Padigan Wines||10/31/26|1700|1900|Costume Party|Band|
 Encore Five||||Belle Fiore||10/31/26|1730|1930||Band|
 Enoch and David||||Rellik Winery||11/06/26|1700|1900||Band|
 Joshua Paul||||Paschal Winery||11/08/26|1530|1730||Band|
+Bim Jeam & The Sadness|||Bim Jeam and the Sadness|Local Vines Wine Bar||11/11/26|1700|1900||Band|
+Cathy Bolton Duo|||Cathy Bolton|Stone River Winery||11/14/26|1700|1900||Solo|
+Bim Jeam & The Sadness||||The Miner's Bazaar||11/21/26|1730|1930|w/Steve Swift|Band|
+Bim Jeam & The Sadness||||Rellik Winery||12/04/26|1700|1900||Band|
 Enoch and David||||Paschal Winery||12/06/26|1300|1500||Band|
 Pozitronics||||Belle Fiore||12/20/26|1700|1900|Xmas show|Band|
 Pozitronics||||Naumes Suncrest Winery||12/31/26|1500|1800|NYE party|Band|
