@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-01T06:39:50.057Z",
+  "generated_at": "2026-08-01T10:09:21.021Z",
   "source_timestamp": "07/31/2026 07:39",
-  "content_hash": "0ac0f4be1ddffbab",
+  "content_hash": "9ea88df11146625e",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 394,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-01T06:39:36.216Z",
-      "last_attempt": "2026-08-01T06:39:36.216Z",
+      "last_ok": "2026-08-01T10:08:57.043Z",
+      "last_attempt": "2026-08-01T10:08:57.043Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 18,
+      "count": 30,
       "strategy": "live",
-      "last_ok": "2026-08-01T06:39:36.714Z",
-      "last_attempt": "2026-08-01T06:39:36.714Z",
-      "error": null
+      "last_ok": "2026-08-01T10:08:57.497Z",
+      "last_attempt": "2026-08-01T10:08:57.497Z",
+      "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-08-01T06:39:39.077Z",
-      "last_attempt": "2026-08-01T06:39:39.077Z",
-      "error": null
+      "last_attempt": "2026-08-01T10:08:58.437Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-01T06:39:39.871Z",
-      "last_attempt": "2026-08-01T06:39:39.871Z",
+      "last_ok": "2026-08-01T10:08:58.816Z",
+      "last_attempt": "2026-08-01T10:08:58.816Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 5,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-01T06:39:40.096Z",
-      "last_attempt": "2026-08-01T06:39:40.096Z",
+      "last_ok": "2026-08-01T10:08:58.999Z",
+      "last_attempt": "2026-08-01T10:08:58.999Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-08-01T06:39:41.448Z",
-      "last_attempt": "2026-08-01T06:39:41.448Z",
+      "last_ok": "2026-08-01T10:09:00.397Z",
+      "last_attempt": "2026-08-01T10:09:00.397Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-01T06:39:41.962Z",
-      "last_attempt": "2026-08-01T06:39:41.962Z",
+      "last_ok": "2026-08-01T10:09:01.438Z",
+      "last_attempt": "2026-08-01T10:09:01.438Z",
       "error": null
     }
   },
@@ -3554,17 +3554,6 @@
         "musiclist_txt"
       ]
     },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
-    },
     "Butler Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -4005,19 +3994,13 @@
       "end_raw": "1930",
       "musician": "Jones",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-jones/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "J O N E S  is Joshua Jones and Shelley Kristen Jones.  Joshua Jones  is a gifted guitarist, singer and arranger.  Shelley Kristen Jones is a talented singer, songwriter and producer.  Having 2 powerfu",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-jones/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "fa5a4a64c777615c"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -4296,23 +4279,6 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "ada83010e02d6549",
-      "date": "2026-07-31",
-      "start_raw": "1900",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "ODYSSEY: A Benefit Concert for Make-A-Wish & Childhood Cancer Awareness",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "Please join me for a special evening of musical entertainment and fun in support of the Make-A-Wish Foundation. My Wish for a contrabassoon was granted in 2003 while I was undergoing chemotherapy for ",
-      "event_type": "Band",
-      "source": "sou_localist",
       "source_url": null,
       "genres": []
     },
@@ -5036,6 +5002,24 @@
       ]
     },
     {
+      "id": "0fd6ad739868dfe9",
+      "date": "2026-08-02",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Simple Dreams Benefit Concert - Linda Ronstadt Tribute",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-simple-dreams-a-musical-flight/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "A rich, emotional journey through Linda Ronstadt’s most beloved music. Each performance is a love letter to an era of unmatched songwriting — delivered with powerhouse vocals, soaring harmonies, and a",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-simple-dreams-a-musical-flight/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "cd6cca3986b328cd",
       "date": "2026-08-02",
       "start_raw": "1700",
@@ -5179,23 +5163,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "8cea3a60380d61b2",
-      "date": "2026-08-04",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Dean's Funtime Party Band",
-      "genre": "",
-      "link": "https://talentclublive.com/event/deans-funtime-party-band-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/deans-funtime-party-band-2/",
       "genres": []
     },
     {
@@ -5352,14 +5319,24 @@
       "end_raw": "1930",
       "musician": "Jen Ambrose w/ Jon Galfano",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-jen-jon-2/",
       "link_name": "Jen Ambrose",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Dynamic duo featuring Jon Galfano on guitar, keys and vocals, and Jen Ambrose on guitar, flute and vocals. Their genres range from class rock, Blues, Jazz, and everything in between!",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-jen-jon-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "38f174644286c1b1"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Jazz",
+        "Rock"
+      ]
     },
     {
       "id": "b2c9740da26b4b59",
@@ -5511,23 +5488,6 @@
       "genres": []
     },
     {
-      "id": "16b6edd93dbf7f60",
-      "date": "2026-08-06",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Maxwell Friedman Group",
-      "genre": "",
-      "link": "https://talentclublive.com/event/maxwell-friedman-group/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/maxwell-friedman-group/",
-      "genres": []
-    },
-    {
       "id": "2541cd7b1353dcae",
       "date": "2026-08-06",
       "start_raw": "2000",
@@ -5615,14 +5575,23 @@
       "end_raw": "1930",
       "musician": "Tres Palomas",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-tres-palomas-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "A local trio known for their smooth Bossa Nova, Latin jazz, and early jazz standards. They perform internationally recognized classics in four languages: English, Spanish, Portuguese, and French",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-tres-palomas-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "9c6488517271018e"
+        }
+      ],
+      "genres": [
+        "Jazz",
+        "Latin"
+      ]
     },
     {
       "id": "199e5db6084e1471",
@@ -5963,14 +5932,23 @@
       "end_raw": "1930",
       "musician": "Grant Ruiz",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-grant-ruiz/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Flamenco and classical guitarist Grant Ruiz presents Spanish music and singing.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-grant-ruiz/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "f402a01b79b68c5d"
+        }
+      ],
+      "genres": [
+        "Latin",
+        "Classical"
+      ]
     },
     {
       "id": "a343532af2e0f029",
@@ -6314,15 +6292,22 @@
       "end_raw": "1930",
       "musician": "Dr Pain and the Remedy",
       "genre": "classic rock",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-dr-pain-the-remedy/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Dr Pain and the Remedy is one of the premier classic rock cover bands in southern Oregon. The band specializes in power pop, which is an energetic, guitar driven, vocally rich sub-genre of rock. It’s ",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-dr-pain-the-remedy/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "51fc088f2eda1cf1"
+        }
+      ],
       "genres": [
-        "Rock"
+        "Rock",
+        "Pop"
       ]
     },
     {
@@ -6513,14 +6498,22 @@
       "end_raw": "1930",
       "musician": "John Johns",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-john-johns/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Oregon based, classically trained singer-songwriter and solo guitarist John Johns has been performing up and down the West Coast for 15 years as a solo artist, one-man-band, bassist, drummer and lead ",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-john-johns/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "3901013985f7aad5"
+        }
+      ],
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "id": "db34fca020810a85",
@@ -6710,14 +6703,22 @@
       "end_raw": "1930",
       "musician": "Duke Street",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-duke-street/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Duke Street is a blues band from Ashland, OR. At their performances they cook up an exciting groove heard during the show seasoned with a fine mixture to satisfy the tastes of old school hipsters and ",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-duke-street/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "76f6c8639d20cb98"
+        }
+      ],
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "4dfcf04850751b45",
@@ -7054,14 +7055,22 @@
       "end_raw": "1930",
       "musician": "Brisbane Project Trio",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-brisbane-project-trio-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "The Brisbane Project, is a powerhouse trio of soulful blues, known for its authentic sound and captivating performances. This group of talented musicians has become a staple in the local music scene, ",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-brisbane-project-trio-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "2bd863d75b12d27f"
+        }
+      ],
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "d97acc15f4863e61",
@@ -7343,14 +7352,22 @@
       "end_raw": "1900",
       "musician": "Nick & Shae",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-nick-shae-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "The dynamic duo of Shae Celine and Nick Garrett-Powell perform harmony arrangements of pop music and original music. With a love of mashups and stylistic interpretations, the duo always pushes their l",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-nick-shae-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "943659b28bde1358"
+        }
+      ],
+      "genres": [
+        "Pop"
+      ]
     },
     {
       "id": "7f7fac24628f4375",
@@ -7416,22 +7433,6 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
-      "genres": []
-    },
-    {
-      "id": "ad35cdf1701285ed",
-      "date": "2026-08-17",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-3/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
       "genres": []
     },
     {
@@ -7686,14 +7687,24 @@
       "end_raw": "1930",
       "musician": "Jeff Kloetzel",
       "genre": "Rhythmic Guitar",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-3/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged rock to Americana and simple songwrit",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-3/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "54e73c39548522f1"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Folk",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "ac9e4f9fe7b6629f",
@@ -7830,23 +7841,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "2770767eb6b46d0b",
-      "date": "2026-08-21",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Ben Rice and the PDX Hustle",
-      "genre": "",
-      "link": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
       "genres": []
     },
     {
@@ -8006,14 +8000,22 @@
       "end_raw": "1930",
       "musician": "Encore Five",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-encore-five/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Encore Five blends classic rock and upbeat favorites for Southern Oregon wineries, private events, and community gatherings.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-encore-five/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "5f60966b87f9e1e2"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "83890290e813c2bf",
@@ -8109,23 +8111,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "653423eb3390a2ef",
-      "date": "2026-08-22",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Dale Watson",
-      "genre": "",
-      "link": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
       "genres": []
     },
     {
@@ -8239,13 +8224,19 @@
       "end_raw": "1900",
       "musician": "Blue Lightning",
       "genre": "classic rock",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-blue-lightning/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Cover Charge: Free for Members, $9 for Non-Members \nEstablished over 30 years ago in Ashland Oregon, Blue Lightning has evolved into a high energy dance band with tight grooves and lush vocal harmonie",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-blue-lightning/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "ae2e22b74325bac3"
+        }
+      ],
       "genres": [
         "Rock"
       ]
@@ -8549,14 +8540,24 @@
       "end_raw": "1930",
       "musician": "12 Bars Deep",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-pozitronics/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "12 Bars Deep is a good time-music dance band designed to rock the room. They cover Blues, R&B and Swing by some of the top artists you know and love. Decades of live performance by the band members cr",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-pozitronics/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "fd266143108393b0"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Swing",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "c34005f88f133e64",
@@ -8831,13 +8832,19 @@
       "end_raw": "1930",
       "musician": "Rogue Suspects",
       "genre": "classic rock",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-2/",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "Santana Tribute",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "d723dd85ce80e7e2"
+        }
+      ],
       "genres": [
         "Rock"
       ]
@@ -8977,14 +8984,23 @@
       "end_raw": "1900",
       "musician": "Roadsters",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-the-roadsters-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "An energetic, interactive and dynamic country/rock band whose strong male and female vocals offer variety for their fans. With a hard-hitting rhythm section, they capture the best in modern and classi",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-the-roadsters-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "dba3ffe8a2fe7f60"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Rock"
+      ]
     },
     {
       "id": "d6df74f041165e12",
@@ -9809,23 +9825,6 @@
       "genres": []
     },
     {
-      "id": "996814db97d176a6",
-      "date": "2026-09-25",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Magnificent Sanctuary Band",
-      "genre": "",
-      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "genres": []
-    },
-    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -10282,23 +10281,6 @@
       "genres": []
     },
     {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
-      "genres": []
-    },
-    {
       "id": "7a5cd3b82b0db4ce",
       "date": "2026-10-18",
       "start_raw": "1500",
@@ -10380,23 +10362,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "aeaf97860ea4be91",
-      "date": "2026-10-27",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
-      "genre": "",
-      "link": "https://talentclublive.com/event/steely-dead/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/steely-dead/",
       "genres": []
     },
     {
