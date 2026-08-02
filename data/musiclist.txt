@@ -1,5 +1,5 @@
 --timestamp
-07/31/2026 07:39
+08/02/2026 10:37
 --news
 * date | notes
 --musicians
@@ -69,6 +69,7 @@ John Nilsen|piano|https://johnnilsen.com/||Solo|
 Jon Galfano|classic rock, variety|https://www.facebook.com/p/Jon-Galfano-Music-100063127604206/|https://www.youtube.com/watch?v=fdwVmXVcj5M|Band|
 Jonathan Foster|Folk,Country,Americana|https://jonathanfoster.bandcamp.com/album/roadside-attraction||Band|
 Joshua Paul||https://www.joshuapaulmusic.com/||Band|
+Juke Joint Social Club|swing blues|https://www.facebook.com/profile.php?id=61590790797491||Band|
 JustaDuo|easy listening|https://www.facebook.com/JustaDuo.rvso/||Band|
 Kristen Calvin||https://www.kristencalvinmusic.com/||Band|
 LEFT|classic rock|https://www.facebook.com/leftband||Band|
@@ -737,6 +738,7 @@ Live Music||||Callahan's Lodge||08/28/26|1800|2100||Band|
 Daniel Nickels Band|||Daniel Nickels|Del Rio Vineyards||08/28/26|1800|2000||Band|
 The Gus Factor||||Phoodery||08/28/26|1800|2000||Band|
 Lisa & The Dynamics||||Roxy Ann Winery||08/28/26|1800|2000||Band|
+Juke Joint Social Club||||South Stage Cellars||08/28/26|1800|2000|$10|Band|
 Nick Garrett-Powell||||Bella Union||08/28/26|1900|2200||Band|
 Pozitronics||||Skout Taphouse||08/28/26|1900|2100||Band|
 Salsa Brava||||Edenvale Winery||08/28/26|1930|2130|$20; dance lesson 7:00|Band|

@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-02T17:14:02.652Z",
-  "source_timestamp": "07/31/2026 07:39",
-  "content_hash": "d3ad04364add7d32",
+  "generated_at": "2026-08-02T21:09:42.409Z",
+  "source_timestamp": "08/02/2026 10:37",
+  "content_hash": "60e6007ed077ece0",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 394,
+      "count": 395,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-02T17:13:43.776Z",
-      "last_attempt": "2026-08-02T17:13:43.776Z",
+      "last_ok": "2026-08-02T21:09:27.654Z",
+      "last_attempt": "2026-08-02T21:09:27.654Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 32,
       "strategy": "live",
-      "last_ok": "2026-08-02T17:13:44.064Z",
-      "last_attempt": "2026-08-02T17:13:44.064Z",
+      "last_ok": "2026-08-02T21:09:28.010Z",
+      "last_attempt": "2026-08-02T21:09:28.010Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-02T17:13:46.549Z",
-      "last_attempt": "2026-08-02T17:13:46.549Z",
+      "last_ok": "2026-08-02T21:09:30.305Z",
+      "last_attempt": "2026-08-02T21:09:30.305Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-02T17:13:47.364Z",
-      "last_attempt": "2026-08-02T17:13:47.364Z",
+      "last_ok": "2026-08-02T21:09:30.581Z",
+      "last_attempt": "2026-08-02T21:09:30.581Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-02T17:13:47.487Z",
-      "last_attempt": "2026-08-02T17:13:47.487Z",
+      "last_ok": "2026-08-02T21:09:30.694Z",
+      "last_attempt": "2026-08-02T21:09:30.694Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-08-02T17:13:48.396Z",
-      "last_attempt": "2026-08-02T17:13:48.396Z",
+      "last_ok": "2026-08-02T21:09:31.911Z",
+      "last_attempt": "2026-08-02T21:09:31.911Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-02T17:13:48.829Z",
-      "last_attempt": "2026-08-02T17:13:48.829Z",
+      "last_ok": "2026-08-02T21:09:32.379Z",
+      "last_attempt": "2026-08-02T21:09:32.379Z",
       "error": null
     }
   },
@@ -7266,6 +7266,25 @@
       "genres": []
     },
     {
+      "id": "e3d1796ecea4f528",
+      "date": "2026-08-16",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "342ec672681b0e8b",
       "date": "2026-08-16",
       "start_raw": "1500",
@@ -8764,6 +8783,25 @@
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/lisaandthedynamics-august-28/",
       "genres": []
+    },
+    {
+      "id": "be2e7f68ce896d4f",
+      "date": "2026-08-28",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Juke Joint Social Club",
+      "genre": "swing blues",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "$10",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues",
+        "Swing"
+      ]
     },
     {
       "id": "06fe16b93d33b158",
