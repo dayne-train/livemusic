@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-03T15:14:33.054Z",
+  "generated_at": "2026-08-03T18:03:53.988Z",
   "source_timestamp": "08/02/2026 10:37",
-  "content_hash": "be4fbaf6050c2391",
+  "content_hash": "637c9f5a5e79f84f",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 395,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-03T15:13:59.393Z",
-      "last_attempt": "2026-08-03T15:13:59.393Z",
+      "last_ok": "2026-08-03T18:03:26.964Z",
+      "last_attempt": "2026-08-03T18:03:26.964Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 28,
+      "count": 31,
       "strategy": "live",
-      "last_ok": "2026-08-03T15:13:59.726Z",
-      "last_attempt": "2026-08-03T15:13:59.726Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-03T18:03:27.391Z",
+      "last_attempt": "2026-08-03T18:03:27.391Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-03T15:14:09.930Z",
-      "last_attempt": "2026-08-03T15:14:09.930Z",
+      "last_ok": "2026-08-03T18:03:29.748Z",
+      "last_attempt": "2026-08-03T18:03:29.748Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-03T15:14:10.374Z",
-      "last_attempt": "2026-08-03T15:14:10.374Z",
+      "last_ok": "2026-08-03T18:03:33.483Z",
+      "last_attempt": "2026-08-03T18:03:33.483Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-03T15:14:10.531Z",
-      "last_attempt": "2026-08-03T15:14:10.531Z",
+      "last_ok": "2026-08-03T18:03:33.731Z",
+      "last_attempt": "2026-08-03T18:03:33.731Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-03T15:14:11.483Z",
-      "last_attempt": "2026-08-03T15:14:11.483Z",
+      "last_ok": "2026-08-03T18:03:35.307Z",
+      "last_attempt": "2026-08-03T18:03:35.307Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-03T15:14:11.998Z",
-      "last_attempt": "2026-08-03T15:14:11.998Z",
+      "last_ok": "2026-08-03T18:03:35.884Z",
+      "last_attempt": "2026-08-03T18:03:35.884Z",
       "error": null
     }
   },
@@ -5590,6 +5590,22 @@
       "genres": []
     },
     {
+      "id": "5dbcb5ef8fef42f9",
+      "date": "2026-08-07",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
+      "genre": "",
+      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-2/",
+      "link_name": "",
+      "venue": "Trinity Episcopal Church",
+      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-2/",
+      "genres": []
+    },
+    {
       "id": "b09a71ad47c827f8",
       "date": "2026-08-07",
       "start_raw": "1730",
@@ -7242,6 +7258,25 @@
       "genres": []
     },
     {
+      "id": "e3d1796ecea4f528",
+      "date": "2026-08-16",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "342ec672681b0e8b",
       "date": "2026-08-16",
       "start_raw": "1500",
@@ -7438,19 +7473,25 @@
       "genres": []
     },
     {
-      "id": "a76fd04de7ecb484",
+      "id": "ad35cdf1701285ed",
       "date": "2026-08-17",
       "start_raw": "1800",
-      "end_raw": "2100",
+      "end_raw": "2000",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
       "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
       "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "merged_from": [
+        {
+          "source": "ashland_city",
+          "id": "a76fd04de7ecb484"
+        }
+      ],
       "genres": []
     },
     {
