@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:03:53.988Z",
+  "generated_at": "2026-08-03T21:21:21.850Z",
   "source_timestamp": "08/02/2026 10:37",
   "content_hash": "637c9f5a5e79f84f",
   "sources": {
@@ -7,56 +7,56 @@
       "ok": true,
       "count": 395,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-03T18:03:26.964Z",
-      "last_attempt": "2026-08-03T18:03:26.964Z",
+      "last_ok": "2026-08-03T21:20:54.596Z",
+      "last_attempt": "2026-08-03T21:20:54.596Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-08-03T18:03:27.391Z",
-      "last_attempt": "2026-08-03T18:03:27.391Z",
+      "last_ok": "2026-08-03T21:20:54.859Z",
+      "last_attempt": "2026-08-03T21:20:54.859Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-03T18:03:29.748Z",
-      "last_attempt": "2026-08-03T18:03:29.748Z",
+      "last_ok": "2026-08-03T21:20:59.555Z",
+      "last_attempt": "2026-08-03T21:20:59.555Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-03T18:03:33.483Z",
-      "last_attempt": "2026-08-03T18:03:33.483Z",
+      "last_ok": "2026-08-03T21:20:59.998Z",
+      "last_attempt": "2026-08-03T21:20:59.998Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-03T18:03:33.731Z",
-      "last_attempt": "2026-08-03T18:03:33.731Z",
+      "last_ok": "2026-08-03T21:21:00.300Z",
+      "last_attempt": "2026-08-03T21:21:00.300Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-03T18:03:35.307Z",
-      "last_attempt": "2026-08-03T18:03:35.307Z",
+      "last_ok": "2026-08-03T21:21:01.419Z",
+      "last_attempt": "2026-08-03T21:21:01.419Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-03T18:03:35.884Z",
-      "last_attempt": "2026-08-03T18:03:35.884Z",
+      "last_ok": "2026-08-03T21:21:01.994Z",
+      "last_attempt": "2026-08-03T21:21:01.994Z",
       "error": null
     }
   },
