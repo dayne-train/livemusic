@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 963,
+  "event_count": 965,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -17097,6 +17097,38 @@
       "venue": "Jefferson Spirits",
       "notes": "Robbie DaCosta and Charlee Prayers alternate hosting",
       "event_type": "Open Mic",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7955278525960151",
+      "date": "2026-08-03",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Shae & Jenni",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0e3ffe6c549171e2",
+      "date": "2026-08-03",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
