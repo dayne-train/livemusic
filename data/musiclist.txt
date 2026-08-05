@@ -1,5 +1,5 @@
 --timestamp
-08/02/2026 10:37
+08/04/2026 15:09
 --news
 * date | notes
 --musicians
@@ -564,9 +564,9 @@ The Smokin' Gundersons||||Daisy Creek Vineyard||08/07/26|1700|1900||Band|
 Jeff Kloetzel||||Dancin Vineyards||08/07/26|1700|1900||Band|
 Sonido Alegre||||Rellik Winery||08/07/26|1700|1900||Band|
 Malinka||||Skout Taphouse||08/07/26|1700|1900||Band|
+Encore Five||||Trium Wines||08/07/26|1700|1900||Band|
 Tres Palomas||||Belle Fiore||08/07/26|1730|1930||Band|
 Daniel Nickels Band|||Daniel Nickels|Dunbar Farms||08/07/26|1730|1930||Band|
-Encore Five||||Trium Wines||08/07/26|1730|1930||Band|
 Mid-Pitch Regrets||||Art Bop Beer Co||08/07/26|1800|2000||Band|
 Live Music||||Callahan's Lodge||08/07/26|1800|2100||Band|
 Rogue Suspects||||Dos Mariposas Vineyards||08/07/26|1800|2000|Bonnie Raitt Tribute; Tickets required after 5:30|Band|
@@ -706,6 +706,7 @@ Bryan Oliver Trio||||Bella Union||08/22/26|1900|2200||Band|
 Bill Scholer Trio||||Liquid Lounge||08/22/26|2000|2200||Band|
 The Strivers||||Oberon's Restaurant & Bar||08/22/26|2000|2200||Band|
 Marshall & Friends||||Daisy Creek Vineyard||08/23/26|1400|1600||Band|
+Alissa Weaver Band||||Local Vines Wine Bar||08/23/26|1500|1700||Band|
 Jared Gutridge||||Naumes Suncrest Winery||08/23/26|1500|1700||Band|
 Tim Church||||Weisinger Family Winery||08/23/26|1530|1830||Band|
 Jeff Kloetzel & Bob Evoniuk|||Jeff Kloetzel|Del Rio Vineyards||08/23/26|1600|1800||Band|
