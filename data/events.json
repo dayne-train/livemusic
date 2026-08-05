@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-05T14:31:14.120Z",
+  "generated_at": "2026-08-05T17:53:01.397Z",
   "source_timestamp": "08/04/2026 15:09",
-  "content_hash": "73e135fab08e06ab",
+  "content_hash": "439ac7ba209f3e7f",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 396,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-05T14:30:45.520Z",
-      "last_attempt": "2026-08-05T14:30:45.520Z",
+      "last_ok": "2026-08-05T17:52:33.874Z",
+      "last_attempt": "2026-08-05T17:52:33.874Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-08-05T14:30:45.889Z",
-      "last_attempt": "2026-08-05T14:30:45.889Z",
+      "last_ok": "2026-08-05T17:52:34.483Z",
+      "last_attempt": "2026-08-05T17:52:34.483Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-05T14:30:50.482Z",
-      "last_attempt": "2026-08-05T14:30:50.482Z",
+      "last_ok": "2026-08-05T17:52:37.253Z",
+      "last_attempt": "2026-08-05T17:52:37.253Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-05T14:30:50.908Z",
-      "last_attempt": "2026-08-05T14:30:50.908Z",
+      "last_ok": "2026-08-05T17:52:37.607Z",
+      "last_attempt": "2026-08-05T17:52:37.607Z",
       "error": null
     },
     "sou_localist": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-08-05T10:45:30.288Z",
-      "last_attempt": "2026-08-05T14:30:51.098Z",
-      "error": "fetch failed"
+      "ok": true,
+      "count": 4,
+      "strategy": "live",
+      "last_ok": "2026-08-05T17:52:37.774Z",
+      "last_attempt": "2026-08-05T17:52:37.774Z",
+      "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-05T14:30:51.380Z",
-      "last_attempt": "2026-08-05T14:30:51.380Z",
+      "last_ok": "2026-08-05T17:52:38.540Z",
+      "last_attempt": "2026-08-05T17:52:38.540Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-05T14:30:51.918Z",
-      "last_attempt": "2026-08-05T14:30:51.918Z",
+      "last_ok": "2026-08-05T17:52:39.118Z",
+      "last_attempt": "2026-08-05T17:52:39.118Z",
       "error": null
     }
   },
@@ -2515,7 +2515,8 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "sou_localist"
       ]
     },
     "Sam's Corner": {
@@ -7257,25 +7258,6 @@
       "genres": []
     },
     {
-      "id": "e3d1796ecea4f528",
-      "date": "2026-08-16",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "342ec672681b0e8b",
       "date": "2026-08-16",
       "start_raw": "1500",
@@ -10135,6 +10117,25 @@
       ]
     },
     {
+      "id": "af0ab507c6aaa5a3",
+      "date": "2026-10-02",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Fry Street Quartet with Toby Appel, Viola and Monica Ohuchi, Piano",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Fry Street Quartet is a trailblazing ensemble known for its “blend of technical precision and scorching spontaneity” (The Strad). Described as “a triumph of ensemble playing” (The New York Times),",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
+    },
+    {
       "id": "fac8fefaf87f829d",
       "date": "2026-10-03",
       "start_raw": "1700",
@@ -10351,6 +10352,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "5a7d52d7751d5f91",
+      "date": "2026-10-17",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Balourdet Quartet with Adam W. Sadberry, Flute",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Balourdet Quartet stands out for their vibrant energy and masterful blend of technical precision and emotional depth, earning a 2024 Avery Fisher Career Grant and the 2024 Cleveland Quartet Award.",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
     },
     {
       "id": "e74701a386f6a852",
@@ -10573,6 +10593,25 @@
       "genres": []
     },
     {
+      "id": "2b479e30745ce95b",
+      "date": "2026-11-06",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Arcis Saxophone Quartett",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Arcis Saxophone Quartett (pronounced “Art-sis”) has emerged as one of the most vibrant and active classical ensembles globally. Whether on the highest pass in Ecuador, in the Saudi Arabian desert,",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
+    },
+    {
       "id": "e70474350df3178a",
       "date": "2026-11-08",
       "start_raw": "1530",
@@ -10635,6 +10674,26 @@
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presents-alexander-tutunov-kinga-augustyn/",
       "genres": []
+    },
+    {
+      "id": "0b7045923603905c",
+      "date": "2026-11-21",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Jupiter Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Jupiter String Quartet is an intimately connected group — the members include two sisters and a spouse. Founded in 2001, the ensemble is firmly established as an important voice in the world of ch",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical",
+        "World"
+      ]
     },
     {
       "id": "5d502ce6aadeafb2",
