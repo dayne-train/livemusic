@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-05T21:31:54.530Z",
-  "source_timestamp": "08/04/2026 15:09",
-  "content_hash": "439ac7ba209f3e7f",
+  "generated_at": "2026-08-06T03:34:58.380Z",
+  "source_timestamp": "08/05/2026 15:45",
+  "content_hash": "22ed61218a6a9206",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 396,
+      "count": 397,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-05T21:31:21.784Z",
-      "last_attempt": "2026-08-05T21:31:21.784Z",
+      "last_ok": "2026-08-06T03:34:28.095Z",
+      "last_attempt": "2026-08-06T03:34:28.095Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 31,
+      "count": 28,
       "strategy": "live",
-      "last_ok": "2026-08-05T21:31:22.106Z",
-      "last_attempt": "2026-08-05T21:31:22.106Z",
-      "error": null
+      "last_ok": "2026-08-06T03:34:28.556Z",
+      "last_attempt": "2026-08-06T03:34:28.556Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-08-05T21:31:27.050Z",
-      "last_attempt": "2026-08-05T21:31:27.050Z",
+      "last_ok": "2026-08-06T03:34:38.770Z",
+      "last_attempt": "2026-08-06T03:34:38.770Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-05T21:31:27.374Z",
-      "last_attempt": "2026-08-05T21:31:27.374Z",
+      "last_ok": "2026-08-06T03:34:38.930Z",
+      "last_attempt": "2026-08-06T03:34:38.930Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-05T21:31:27.520Z",
-      "last_attempt": "2026-08-05T21:31:27.520Z",
+      "last_ok": "2026-08-06T03:34:39.070Z",
+      "last_attempt": "2026-08-06T03:34:39.070Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-05T21:31:34.872Z",
-      "last_attempt": "2026-08-05T21:31:34.872Z",
+      "last_ok": "2026-08-06T03:34:40.250Z",
+      "last_attempt": "2026-08-06T03:34:40.250Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-05T21:31:35.389Z",
-      "last_attempt": "2026-08-05T21:31:35.389Z",
+      "last_ok": "2026-08-06T03:34:40.616Z",
+      "last_attempt": "2026-08-06T03:34:40.616Z",
       "error": null
     }
   },
@@ -5153,23 +5153,6 @@
       "genres": []
     },
     {
-      "id": "74d5bf07b5562474",
-      "date": "2026-08-04",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Dean's Funtime Party Band (featuring Teri Coté)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/deans-funtime-party-band-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/deans-funtime-party-band-2/",
-      "genres": []
-    },
-    {
       "id": "c4bd8e82c95f78ab",
       "date": "2026-08-04",
       "start_raw": "2000",
@@ -5590,35 +5573,19 @@
       "genres": []
     },
     {
-      "id": "f0b202872740a1b1",
+      "id": "f7a5233e90ef8938",
       "date": "2026-08-07",
       "start_raw": "1700",
       "end_raw": "1900",
-      "musician": "Encore Five",
+      "musician": "Shybo Torres",
       "genre": "",
       "link": "",
       "link_name": "",
       "venue": "Trium Wines",
-      "notes": "",
+      "notes": "Encore Five outside cancelled due to heat and smoke, Shybo instead",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "5dbcb5ef8fef42f9",
-      "date": "2026-08-07",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
-      "genre": "",
-      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-2/",
-      "link_name": "",
-      "venue": "Trinity Episcopal Church",
-      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-2/",
       "genres": []
     },
     {
@@ -7454,25 +7421,19 @@
       "genres": []
     },
     {
-      "id": "ad35cdf1701285ed",
+      "id": "a76fd04de7ecb484",
       "date": "2026-08-17",
       "start_raw": "1800",
-      "end_raw": "2000",
+      "end_raw": "2100",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
       "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "venue": "Lithia Park Bandshell",
+      "notes": "",
       "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
-      "merged_from": [
-        {
-          "source": "ashland_city",
-          "id": "a76fd04de7ecb484"
-        }
-      ],
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
       "genres": []
     },
     {
@@ -8984,6 +8945,22 @@
       "link": "",
       "link_name": "",
       "venue": "Callahan's Lodge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5303471ce227b387",
+      "date": "2026-08-29",
+      "start_raw": "1830",
+      "end_raw": "2130",
+      "musician": "Alissa Weaver and the Side Effects",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Apple Outlaw Taproom",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",

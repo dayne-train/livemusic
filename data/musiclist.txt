@@ -1,5 +1,5 @@
 --timestamp
-08/04/2026 15:09
+08/05/2026 15:45
 --news
 * date | notes
 --musicians
@@ -564,7 +564,7 @@ The Smokin' Gundersons||||Daisy Creek Vineyard||08/07/26|1700|1900||Band|
 Jeff Kloetzel||||Dancin Vineyards||08/07/26|1700|1900||Band|
 Sonido Alegre||||Rellik Winery||08/07/26|1700|1900||Band|
 Malinka||||Skout Taphouse||08/07/26|1700|1900||Band|
-Encore Five||||Trium Wines||08/07/26|1700|1900||Band|
+Shybo Torres||||Trium Wines||08/07/26|1700|1900|Encore Five outside cancelled due to heat and smoke, Shybo instead|Band|
 Tres Palomas||||Belle Fiore||08/07/26|1730|1930||Band|
 Daniel Nickels Band|||Daniel Nickels|Dunbar Farms||08/07/26|1730|1930||Band|
 Mid-Pitch Regrets||||Art Bop Beer Co||08/07/26|1800|2000||Band|
@@ -751,6 +751,7 @@ Blue Lightning||||Stone River Winery||08/29/26|1700|1900||Band|
 Rogue Suspects||||Belle Fiore||08/29/26|1730|1930|Santana Tribute|Band|
 Bim Jeam and the Sadness||||Dunbar Farms||08/29/26|1730|1930||Band|
 Live Music||||Callahan's Lodge||08/29/26|1800|2100||Band|
+Alissa Weaver and the Side Effects||||Apple Outlaw Taproom||08/29/26|1830|2130||Band|
 Mark Hill & Friends||||Bella Union||08/29/26|1900|2200||Band|
 Mitchell Brothers||||Galice Resort||08/29/26|2000|2300||Band|
 Nick & Shae||||Daisy Creek Vineyard||08/30/26|1400|1600||Band|
