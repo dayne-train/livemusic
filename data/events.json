@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-06T06:44:25.012Z",
+  "generated_at": "2026-08-06T10:48:50.895Z",
   "source_timestamp": "08/05/2026 15:45",
-  "content_hash": "559d2a55c4b853d1",
+  "content_hash": "e1c9b730e97edbae",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 397,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-06T06:44:00.414Z",
-      "last_attempt": "2026-08-06T06:44:00.414Z",
+      "last_ok": "2026-08-06T10:48:26.296Z",
+      "last_attempt": "2026-08-06T10:48:26.296Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 30,
       "strategy": "live",
-      "last_ok": "2026-08-06T06:44:00.748Z",
-      "last_attempt": "2026-08-06T06:44:00.748Z",
+      "last_ok": "2026-08-06T10:48:26.632Z",
+      "last_attempt": "2026-08-06T10:48:26.632Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-08-06T06:44:05.985Z",
-      "last_attempt": "2026-08-06T06:44:05.985Z",
+      "last_ok": "2026-08-06T10:48:32.231Z",
+      "last_attempt": "2026-08-06T10:48:32.231Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-06T06:44:06.544Z",
-      "last_attempt": "2026-08-06T06:44:06.544Z",
+      "last_ok": "2026-08-06T10:48:32.708Z",
+      "last_attempt": "2026-08-06T10:48:32.708Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-06T06:44:07.566Z",
-      "last_attempt": "2026-08-06T06:44:07.566Z",
+      "last_ok": "2026-08-06T10:48:33.758Z",
+      "last_attempt": "2026-08-06T10:48:33.758Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
-      "count": 4,
+      "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-06T06:44:08.821Z",
-      "last_attempt": "2026-08-06T06:44:08.821Z",
+      "last_ok": "2026-08-06T10:48:34.613Z",
+      "last_attempt": "2026-08-06T10:48:34.613Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-06T06:44:09.601Z",
-      "last_attempt": "2026-08-06T06:44:09.601Z",
+      "last_ok": "2026-08-06T10:48:34.957Z",
+      "last_attempt": "2026-08-06T10:48:34.957Z",
       "error": null
     }
   },
@@ -7553,6 +7553,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cd8590fb28d8c388",
+      "date": "2026-08-20",
+      "start_raw": "1815",
+      "end_raw": "2100",
+      "musician": "Ashland City Band",
+      "genre": "",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4420",
+      "link_name": "",
+      "venue": "Butler Bandshell",
+      "notes": "",
+      "event_type": "Band",
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4420",
       "genres": []
     },
     {
