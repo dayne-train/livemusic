@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-07T17:06:21.931Z",
+  "generated_at": "2026-08-07T20:57:35.025Z",
   "source_timestamp": "08/07/2026 09:01",
-  "content_hash": "4d31c1ea9fd06aaf",
+  "content_hash": "74d4253870386e34",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 362,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-07T17:05:47.603Z",
-      "last_attempt": "2026-08-07T17:05:47.603Z",
+      "last_ok": "2026-08-07T20:57:13.553Z",
+      "last_attempt": "2026-08-07T20:57:13.553Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 25,
+      "count": 28,
       "strategy": "live",
-      "last_ok": "2026-08-07T17:05:47.931Z",
-      "last_attempt": "2026-08-07T17:05:47.931Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-07T20:57:13.996Z",
+      "last_attempt": "2026-08-07T20:57:13.996Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-07T17:05:58.137Z",
-      "last_attempt": "2026-08-07T17:05:58.137Z",
+      "last_ok": "2026-08-07T20:57:16.661Z",
+      "last_attempt": "2026-08-07T20:57:16.661Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-07T17:05:58.474Z",
-      "last_attempt": "2026-08-07T17:05:58.474Z",
+      "last_ok": "2026-08-07T20:57:16.970Z",
+      "last_attempt": "2026-08-07T20:57:16.970Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-07T17:05:59.720Z",
-      "last_attempt": "2026-08-07T17:05:59.720Z",
+      "last_ok": "2026-08-07T20:57:17.098Z",
+      "last_attempt": "2026-08-07T20:57:17.098Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-07T17:06:00.776Z",
-      "last_attempt": "2026-08-07T17:06:00.776Z",
+      "last_ok": "2026-08-07T20:57:18.084Z",
+      "last_attempt": "2026-08-07T20:57:18.084Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-07T17:06:01.257Z",
-      "last_attempt": "2026-08-07T17:06:01.257Z",
+      "last_ok": "2026-08-07T20:57:18.552Z",
+      "last_attempt": "2026-08-07T20:57:18.552Z",
       "error": null
     }
   },
@@ -4050,6 +4050,22 @@
       "genres": []
     },
     {
+      "id": "5dbcb5ef8fef42f9",
+      "date": "2026-08-07",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
+      "genre": "",
+      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-2/",
+      "link_name": "",
+      "venue": "Trinity Episcopal Church",
+      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-2/",
+      "genres": []
+    },
+    {
       "id": "b09a71ad47c827f8",
       "date": "2026-08-07",
       "start_raw": "1730",
@@ -6544,19 +6560,25 @@
       "genres": []
     },
     {
-      "id": "a76fd04de7ecb484",
+      "id": "ad35cdf1701285ed",
       "date": "2026-08-17",
       "start_raw": "1800",
-      "end_raw": "2100",
+      "end_raw": "2000",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
       "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
       "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "merged_from": [
+        {
+          "source": "ashland_city",
+          "id": "a76fd04de7ecb484"
+        }
+      ],
       "genres": []
     },
     {
