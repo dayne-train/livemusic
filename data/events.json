@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-07T13:37:39.065Z",
-  "source_timestamp": "08/06/2026 15:24",
-  "content_hash": "4d27b2d1a3fc23d7",
+  "generated_at": "2026-08-07T17:06:21.931Z",
+  "source_timestamp": "08/07/2026 09:01",
+  "content_hash": "4d31c1ea9fd06aaf",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 351,
+      "count": 362,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-07T13:37:11.531Z",
-      "last_attempt": "2026-08-07T13:37:11.531Z",
+      "last_ok": "2026-08-07T17:05:47.603Z",
+      "last_attempt": "2026-08-07T17:05:47.603Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 28,
+      "count": 25,
       "strategy": "live",
-      "last_ok": "2026-08-07T13:37:12.387Z",
-      "last_attempt": "2026-08-07T13:37:12.387Z",
-      "error": null
+      "last_ok": "2026-08-07T17:05:47.931Z",
+      "last_attempt": "2026-08-07T17:05:47.931Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-07T13:37:14.777Z",
-      "last_attempt": "2026-08-07T13:37:14.777Z",
+      "last_ok": "2026-08-07T17:05:58.137Z",
+      "last_attempt": "2026-08-07T17:05:58.137Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-07T13:37:15.196Z",
-      "last_attempt": "2026-08-07T13:37:15.196Z",
+      "last_ok": "2026-08-07T17:05:58.474Z",
+      "last_attempt": "2026-08-07T17:05:58.474Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-07T13:37:16.613Z",
-      "last_attempt": "2026-08-07T13:37:16.613Z",
+      "last_ok": "2026-08-07T17:05:59.720Z",
+      "last_attempt": "2026-08-07T17:05:59.720Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-07T13:37:17.627Z",
-      "last_attempt": "2026-08-07T13:37:17.627Z",
+      "last_ok": "2026-08-07T17:06:00.776Z",
+      "last_attempt": "2026-08-07T17:06:00.776Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-07T13:37:18.223Z",
-      "last_attempt": "2026-08-07T13:37:18.223Z",
+      "last_ok": "2026-08-07T17:06:01.257Z",
+      "last_attempt": "2026-08-07T17:06:01.257Z",
       "error": null
     }
   },
@@ -250,6 +250,17 @@
     },
     "Ashland Armory": {
       "url": "https://www.liveatthearmory.com/",
+      "city": "Ashland",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Ashland Art Works": {
+      "url": "https://ashlandartworks.org/",
       "city": "Ashland",
       "notes": "",
       "address": "",
@@ -2574,6 +2585,17 @@
         "musiclist_txt"
       ]
     },
+    "Serendipity Summer Jam": {
+      "url": "https://discoversiskiyou.com/event/serendipity-summer-jam-2/",
+      "city": "Montague",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
     "Shenanigans": {
       "url": "https://www.facebook.com/515RogueRiverHwyGrantsPass/",
       "city": "Grants Pass",
@@ -3154,6 +3176,17 @@
       "address": "",
       "region": "GrantsPass",
       "type": "Bar",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "The Springs at Anna Maria": {
+      "url": "https://www.thespringsliving.com/senior-living/medford/oregon/anna-maria",
+      "city": "Medford",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
+      "type": "Other",
       "_sources": [
         "musiclist_txt"
       ]
@@ -3883,6 +3916,28 @@
       "genres": []
     },
     {
+      "id": "9161ddf6508a94d3",
+      "date": "2026-08-07",
+      "start_raw": "1200",
+      "end_raw": "1400",
+      "musician": "Grant Ruiz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Lithia Artisans Market",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "merged_from": [
+        {
+          "source": "musiclist_txt",
+          "id": "06bf6434d4967f1a"
+        }
+      ],
+      "genres": []
+    },
+    {
       "id": "f19c5b363a7f0228",
       "date": "2026-08-07",
       "start_raw": "1700",
@@ -3992,22 +4047,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "5dbcb5ef8fef42f9",
-      "date": "2026-08-07",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
-      "genre": "",
-      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-2/",
-      "link_name": "",
-      "venue": "Trinity Episcopal Church",
-      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-2/",
       "genres": []
     },
     {
@@ -5496,11 +5535,13 @@
       "link": "",
       "link_name": "",
       "venue": "Paschal Winery",
-      "notes": "",
+      "notes": "Grant Ruiz attending and special guest classical guitarist Cameron O'Connor from Corvallis",
       "event_type": "Jam",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Classical"
+      ]
     },
     {
       "id": "cd815967bfda55db",
@@ -6503,25 +6544,19 @@
       "genres": []
     },
     {
-      "id": "ad35cdf1701285ed",
+      "id": "a76fd04de7ecb484",
       "date": "2026-08-17",
       "start_raw": "1800",
-      "end_raw": "2000",
+      "end_raw": "2100",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
       "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "venue": "Lithia Park Bandshell",
+      "notes": "",
       "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
-      "merged_from": [
-        {
-          "source": "ashland_city",
-          "id": "a76fd04de7ecb484"
-        }
-      ],
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
       "genres": []
     },
     {
@@ -6690,6 +6725,22 @@
       "genres": []
     },
     {
+      "id": "7e58b0b549098af7",
+      "date": "2026-08-20",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Canto Sol Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "Canto Sol",
+      "venue": "Café Lumina",
+      "notes": "with special guest Paul Turnipseed on bass",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "cd8590fb28d8c388",
       "date": "2026-08-20",
       "start_raw": "1815",
@@ -6764,6 +6815,22 @@
       "link": "",
       "link_name": "",
       "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1367940998a9cb33",
+      "date": "2026-08-21",
+      "start_raw": "1500",
+      "end_raw": "1600",
+      "musician": "Grant Ruiz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Springs at Anna Maria",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7258,6 +7325,22 @@
       ]
     },
     {
+      "id": "4cf3ef9aaebfcaeb",
+      "date": "2026-08-22",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Grant Ruiz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "with special guest, actor and singer René Millán.",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "4005f3555156d99f",
       "date": "2026-08-22",
       "start_raw": "1900",
@@ -7568,6 +7651,24 @@
       "genres": []
     },
     {
+      "id": "20a800d6440d459a",
+      "date": "2026-08-24",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "Serendipity Summer Jam",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
+    },
+    {
       "id": "bb0a1a13fd86a532",
       "date": "2026-08-24",
       "start_raw": "1900",
@@ -7593,6 +7694,22 @@
       "link": "",
       "link_name": "",
       "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2739da1e1069bd5d",
+      "date": "2026-08-26",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Canto Sol Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "Canto Sol",
+      "venue": "Cedarwood Barn",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8512,6 +8629,22 @@
       ]
     },
     {
+      "id": "5cc26ed4840ae5e6",
+      "date": "2026-09-04",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Canto Sol Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "Canto Sol",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "be168b7fad569cb2",
       "date": "2026-09-04",
       "start_raw": "1800",
@@ -8864,6 +8997,22 @@
       "link_name": "",
       "venue": "Butterfly Club 557",
       "notes": "$10",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5bc4b4eb4a59713a",
+      "date": "2026-09-18",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Living Loving Led",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -9388,6 +9537,22 @@
       ]
     },
     {
+      "id": "024c173680413b0f",
+      "date": "2026-10-03",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Living Loving Led",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Walkabout Brewing",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "491fdd8aba50ea05",
       "date": "2026-10-04",
       "start_raw": "1500",
@@ -9772,6 +9937,22 @@
       "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7fc98760d1e319fa",
+      "date": "2026-11-01",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Living Loving Led",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
