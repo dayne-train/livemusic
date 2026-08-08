@@ -1,5 +1,5 @@
 --timestamp
-08/07/2026 09:01
+08/07/2026 20:31
 --news
 * date | notes
 --musicians
@@ -538,7 +538,7 @@ Joanna Serenk||||Wooldridge Creek Winery||08/09/26|1300|1600||Band|
 Jeff Kloetzel||||Daisy Creek Vineyard||08/09/26|1400|1600||Band|
 Jen Ambrose & Annieville Blues|||Jen Ambrose|Dark Hollow Farm||08/09/26|1400|1600||Band|
 Steve Keim||||Taproots Nursery||08/09/26|1400|1600||Band|
-Rick Millward & Friends|||Rick Millward|Local Vines Wine Bar||08/09/26|1500|1700||Band|
+Overtime||||Local Vines Wine Bar||08/09/26|1500|1700||Band|
 JustaDuo||||Naumes Suncrest Winery||08/09/26|1500|1700||Band|
 Enoch and David||||Paschal Winery||08/09/26|1530|1730||Band|
 Doug Warner||||Weisinger Family Winery||08/09/26|1530|1830||Band|
