@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-08T16:50:40.995Z",
-  "source_timestamp": "08/07/2026 20:31",
-  "content_hash": "50504521b2dd7dd1",
+  "generated_at": "2026-08-08T20:47:04.425Z",
+  "source_timestamp": "08/08/2026 09:46",
+  "content_hash": "7cd221472aa58c77",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 362,
+      "count": 382,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-08T16:50:17.783Z",
-      "last_attempt": "2026-08-08T16:50:17.783Z",
+      "last_ok": "2026-08-08T20:46:41.819Z",
+      "last_attempt": "2026-08-08T20:46:41.819Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-08-08T16:50:18.136Z",
-      "last_attempt": "2026-08-08T16:50:18.136Z",
+      "last_ok": "2026-08-08T20:46:42.199Z",
+      "last_attempt": "2026-08-08T20:46:42.199Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-08T16:50:20.027Z",
-      "last_attempt": "2026-08-08T16:50:20.027Z",
+      "last_ok": "2026-08-08T20:46:45.734Z",
+      "last_attempt": "2026-08-08T20:46:45.734Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-08T16:50:20.392Z",
-      "last_attempt": "2026-08-08T16:50:20.392Z",
+      "last_ok": "2026-08-08T20:46:45.881Z",
+      "last_attempt": "2026-08-08T20:46:45.881Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-08T16:50:20.557Z",
-      "last_attempt": "2026-08-08T16:50:20.557Z",
+      "last_ok": "2026-08-08T20:46:46.043Z",
+      "last_attempt": "2026-08-08T20:46:46.043Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-08T16:50:21.803Z",
-      "last_attempt": "2026-08-08T16:50:21.803Z",
+      "last_ok": "2026-08-08T20:46:47.024Z",
+      "last_attempt": "2026-08-08T20:46:47.024Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-08T16:50:22.287Z",
-      "last_attempt": "2026-08-08T16:50:22.287Z",
+      "last_ok": "2026-08-08T20:46:47.520Z",
+      "last_attempt": "2026-08-08T20:46:47.520Z",
       "error": null
     }
   },
@@ -5228,6 +5228,24 @@
       "genres": []
     },
     {
+      "id": "8af125677c015b7e",
+      "date": "2026-08-09",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "David Pinsky",
+      "genre": "blues",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
       "id": "a3434d479c70ed95",
       "date": "2026-08-10",
       "start_raw": "1700",
@@ -5259,6 +5277,25 @@
       "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4427",
       "genres": [
         "Folk"
+      ]
+    },
+    {
+      "id": "ef0c111662798404",
+      "date": "2026-08-10",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Frankie Hernandez",
+      "genre": "soul, funk, reggae",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Reggae",
+        "Funk / Soul"
       ]
     },
     {
@@ -5585,6 +5622,24 @@
       "genres": []
     },
     {
+      "id": "503d3489ead3eac9",
+      "date": "2026-08-13",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Jen Ambrose",
+      "genre": "blues",
+      "link": "",
+      "link_name": "",
+      "venue": "Talon Grill",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
       "id": "3ff1ed0980bae1f3",
       "date": "2026-08-13",
       "start_raw": "1900",
@@ -5647,6 +5702,22 @@
       "event_type": "Open Mic",
       "source": "black_sheep",
       "source_url": "https://theblacksheep.com/events/karaoke-night/",
+      "genres": []
+    },
+    {
+      "id": "647a59cbebec5973",
+      "date": "2026-08-14",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Jim Friend",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -6188,6 +6259,22 @@
       "genres": []
     },
     {
+      "id": "aba566e71c367d0d",
+      "date": "2026-08-15",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Matthew Tavis-Johnson",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "bf8df7005810afa5",
       "date": "2026-08-15",
       "start_raw": "1830",
@@ -6656,6 +6743,22 @@
       "genres": []
     },
     {
+      "id": "2caf9a92e8f5b3ee",
+      "date": "2026-08-19",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Adam Gabriel",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "b8153dd5f2ceb98e",
       "date": "2026-08-19",
       "start_raw": "1900",
@@ -6768,6 +6871,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "b586e1d48dde9b83",
+      "date": "2026-08-20",
+      "start_raw": "1830",
+      "end_raw": "2130",
+      "musician": "David Pinsky",
+      "genre": "blues",
+      "link": "",
+      "link_name": "",
+      "venue": "Talon Grill",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "ad3c3ecb561d01bd",
@@ -7682,6 +7803,38 @@
       "genres": []
     },
     {
+      "id": "44c4b480fc05d2d3",
+      "date": "2026-08-25",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Connor Reese",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5946deaa27c92e66",
+      "date": "2026-08-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Mark Charles Hill",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "c1371888eac893e8",
       "date": "2026-08-26",
       "start_raw": "1800",
@@ -7805,6 +7958,22 @@
       "link": "",
       "link_name": "",
       "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1de416dea2c3834f",
+      "date": "2026-08-27",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Roadsters Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Talon Grill",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8275,6 +8444,22 @@
       "genres": []
     },
     {
+      "id": "d2afc9c3aef27d48",
+      "date": "2026-08-29",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Jim Friend",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Walkabout Brewing",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "2f71427cbecebfab",
       "date": "2026-08-29",
       "start_raw": "1900",
@@ -8439,6 +8624,22 @@
       "venue": "Jefferson Spirits",
       "notes": "Robbie DaCosta and Charlee Prayers alternate hosting",
       "event_type": "Open Mic",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "078a7686148d4824",
+      "date": "2026-08-30",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Ras Gabriel",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -8674,6 +8875,22 @@
       "genres": []
     },
     {
+      "id": "4a761a6eb342121a",
+      "date": "2026-09-04",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Adam Gabriel",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "abb1dc9324ad25e4",
       "date": "2026-09-05",
       "start_raw": "1600",
@@ -8751,6 +8968,22 @@
       "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d910ad57340fd015",
+      "date": "2026-09-05",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Frankie Hernandez Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "Frankie Hernandez",
+      "venue": "Annie Creek Restaurant",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8838,6 +9071,22 @@
       "genres": [
         "Country"
       ]
+    },
+    {
+      "id": "028292195cbfd173",
+      "date": "2026-09-10",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Jen Ambrose w/ Jon Galfano",
+      "genre": "",
+      "link": "",
+      "link_name": "Jen Ambrose",
+      "venue": "Talon Grill",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1e6c3f403ffc4777",
@@ -8952,6 +9201,22 @@
       "genres": []
     },
     {
+      "id": "864c767a46c13224",
+      "date": "2026-09-12",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Frankie Hernandez Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "Frankie Hernandez",
+      "venue": "Walkabout Brewing",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "bcdcca4ee0c15ec7",
       "date": "2026-09-13",
       "start_raw": "1400",
@@ -8994,6 +9259,22 @@
       "link_name": "",
       "venue": "Butterfly Club 557",
       "notes": "$10",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "513aad14f42313d9",
+      "date": "2026-09-17",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Femme Fatale",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Talon Grill",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -9116,6 +9397,22 @@
       ]
     },
     {
+      "id": "5634f31624182e63",
+      "date": "2026-09-19",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "TBA",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Walkabout Brewing",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "31952653389c7049",
       "date": "2026-09-20",
       "start_raw": "1500",
@@ -9193,6 +9490,22 @@
       "link": "",
       "link_name": "",
       "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "dc7e29405fe6cf4d",
+      "date": "2026-09-24",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Jim Friend",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Talon Grill",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -9681,6 +9994,22 @@
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a04e3484987fc53a",
+      "date": "2026-10-10",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Jon Martin",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Walkabout Brewing",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
