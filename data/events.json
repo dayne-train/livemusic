@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-08T05:09:05.016Z",
+  "generated_at": "2026-08-08T08:58:43.190Z",
   "source_timestamp": "08/07/2026 20:31",
-  "content_hash": "54b1449b2cd8802d",
+  "content_hash": "50504521b2dd7dd1",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 362,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-08T05:08:34.888Z",
-      "last_attempt": "2026-08-08T05:08:34.888Z",
+      "last_ok": "2026-08-08T08:58:22.840Z",
+      "last_attempt": "2026-08-08T08:58:22.840Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 27,
+      "count": 26,
       "strategy": "live",
-      "last_ok": "2026-08-08T05:08:35.348Z",
-      "last_attempt": "2026-08-08T05:08:35.348Z",
+      "last_ok": "2026-08-08T08:58:23.168Z",
+      "last_attempt": "2026-08-08T08:58:23.168Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-08T05:08:42.227Z",
-      "last_attempt": "2026-08-08T05:08:42.227Z",
+      "last_ok": "2026-08-08T08:58:25.691Z",
+      "last_attempt": "2026-08-08T08:58:25.691Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-08T05:08:42.651Z",
-      "last_attempt": "2026-08-08T05:08:42.651Z",
+      "last_ok": "2026-08-08T08:58:25.960Z",
+      "last_attempt": "2026-08-08T08:58:25.960Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-08T05:08:42.833Z",
-      "last_attempt": "2026-08-08T05:08:42.833Z",
+      "last_ok": "2026-08-08T08:58:26.120Z",
+      "last_attempt": "2026-08-08T08:58:26.120Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-08T05:08:43.751Z",
-      "last_attempt": "2026-08-08T05:08:43.751Z",
+      "last_ok": "2026-08-08T08:58:27.034Z",
+      "last_attempt": "2026-08-08T08:58:27.034Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-08T05:08:44.207Z",
-      "last_attempt": "2026-08-08T05:08:44.207Z",
+      "last_ok": "2026-08-08T08:58:27.469Z",
+      "last_attempt": "2026-08-08T08:58:27.469Z",
       "error": null
     }
   },
@@ -4056,23 +4056,14 @@
       "end_raw": "1930",
       "musician": "Tres Palomas",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-tres-palomas-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "A local trio known for their smooth Bossa Nova, Latin jazz, and early jazz standards. They perform internationally recognized classics in four languages: English, Spanish, Portuguese, and French",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-tres-palomas-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "9c6488517271018e"
-        }
-      ],
-      "genres": [
-        "Jazz",
-        "Latin"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "199e5db6084e1471",
