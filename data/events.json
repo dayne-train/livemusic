@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-09T16:53:28.291Z",
+  "generated_at": "2026-08-09T20:50:38.475Z",
   "source_timestamp": "08/08/2026 09:46",
-  "content_hash": "ecf79ca1fe232e57",
+  "content_hash": "bdb017d98664820a",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 382,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-09T16:52:59.592Z",
-      "last_attempt": "2026-08-09T16:52:59.592Z",
+      "last_ok": "2026-08-09T20:50:10.577Z",
+      "last_attempt": "2026-08-09T20:50:10.577Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 23,
+      "count": 24,
       "strategy": "live",
-      "last_ok": "2026-08-09T16:52:59.859Z",
-      "last_attempt": "2026-08-09T16:52:59.859Z",
+      "last_ok": "2026-08-09T20:50:11.108Z",
+      "last_attempt": "2026-08-09T20:50:11.108Z",
       "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-09T16:53:10.128Z",
-      "last_attempt": "2026-08-09T16:53:10.128Z",
+      "last_ok": "2026-08-09T20:50:21.259Z",
+      "last_attempt": "2026-08-09T20:50:21.259Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-09T16:53:10.484Z",
-      "last_attempt": "2026-08-09T16:53:10.484Z",
+      "last_ok": "2026-08-09T20:50:21.512Z",
+      "last_attempt": "2026-08-09T20:50:21.512Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-09T16:53:10.640Z",
-      "last_attempt": "2026-08-09T16:53:10.640Z",
+      "last_ok": "2026-08-09T20:50:21.646Z",
+      "last_attempt": "2026-08-09T20:50:21.646Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-09T16:53:11.808Z",
-      "last_attempt": "2026-08-09T16:53:11.808Z",
+      "last_ok": "2026-08-09T20:50:22.701Z",
+      "last_attempt": "2026-08-09T20:50:22.701Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-09T16:53:12.239Z",
-      "last_attempt": "2026-08-09T16:53:12.239Z",
+      "last_ok": "2026-08-09T20:50:23.232Z",
+      "last_attempt": "2026-08-09T20:50:23.232Z",
       "error": null
     }
   },
@@ -9021,6 +9021,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "42516253fad67c54",
+      "date": "2026-09-06",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Nic Gareiss and Simon Chrisman - Rhythm and Tunes",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/nic-gareiss-and-simon-chrisman-rhythm-and-tunes/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Cage Free Concerts presents our friends Simon and Nic to fascinate and inspire us with their signature pairing of Hammered Dulcimer with foot percussion/dance. Nic Gareiss (percussive dance, vocals) a",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/nic-gareiss-and-simon-chrisman-rhythm-and-tunes/",
       "genres": []
     },
     {
