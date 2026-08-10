@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-09T20:50:38.475Z",
+  "generated_at": "2026-08-10T02:33:10.169Z",
   "source_timestamp": "08/08/2026 09:46",
-  "content_hash": "bdb017d98664820a",
+  "content_hash": "d0fbb00288c90c56",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 382,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-09T20:50:10.577Z",
-      "last_attempt": "2026-08-09T20:50:10.577Z",
+      "last_ok": "2026-08-10T02:32:36.460Z",
+      "last_attempt": "2026-08-10T02:32:36.460Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 24,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-08-09T20:50:11.108Z",
-      "last_attempt": "2026-08-09T20:50:11.108Z",
+      "last_ok": "2026-08-10T02:32:36.755Z",
+      "last_attempt": "2026-08-10T02:32:36.755Z",
       "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
-      "ok": true,
-      "count": 5,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-08-09T20:50:21.259Z",
-      "last_attempt": "2026-08-09T20:50:21.259Z",
-      "error": null
+      "last_attempt": "2026-08-10T02:32:46.975Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-09T20:50:21.512Z",
-      "last_attempt": "2026-08-09T20:50:21.512Z",
+      "last_ok": "2026-08-10T02:32:47.282Z",
+      "last_attempt": "2026-08-10T02:32:47.282Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-09T20:50:21.646Z",
-      "last_attempt": "2026-08-09T20:50:21.646Z",
+      "last_ok": "2026-08-10T02:32:47.439Z",
+      "last_attempt": "2026-08-10T02:32:47.439Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-09T20:50:22.701Z",
-      "last_attempt": "2026-08-09T20:50:22.701Z",
+      "last_ok": "2026-08-10T02:32:49.360Z",
+      "last_attempt": "2026-08-10T02:32:49.360Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-09T20:50:23.232Z",
-      "last_attempt": "2026-08-09T20:50:23.232Z",
+      "last_ok": "2026-08-10T02:32:49.847Z",
+      "last_attempt": "2026-08-10T02:32:49.847Z",
       "error": null
     }
   },
@@ -3587,17 +3587,6 @@
         "musiclist_txt"
       ]
     },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
-    },
     "Lithia Park Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -5094,22 +5083,14 @@
       "end_raw": "1800",
       "musician": "Shybo & Twisted Vines",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-shybo-and-the-twisted-vines-august-9/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Shybo and the Twisted Vines, is an original band in Southern Oregon. Along with their originals, they play classic covers. And, featuring Rico Salas on Saxophone. they play at Wineries and special eve",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-shybo-and-the-twisted-vines-august-9/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "f0cf24bb5b6cc5f2"
-        }
-      ],
-      "genres": [
-        "Other"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1a062ccdcafad910",
@@ -7171,23 +7152,6 @@
       "genres": []
     },
     {
-      "id": "2770767eb6b46d0b",
-      "date": "2026-08-21",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Ben Rice and the PDX Hustle",
-      "genre": "",
-      "link": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
-      "genres": []
-    },
-    {
       "id": "1eace99a46b327bf",
       "date": "2026-08-22",
       "start_raw": "1030",
@@ -7489,23 +7453,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "653423eb3390a2ef",
-      "date": "2026-08-22",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Dale Watson",
-      "genre": "",
-      "link": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
       "genres": []
     },
     {
@@ -9596,23 +9543,6 @@
       "genres": []
     },
     {
-      "id": "996814db97d176a6",
-      "date": "2026-09-25",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Magnificent Sanctuary Band",
-      "genre": "",
-      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "genres": []
-    },
-    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -10101,23 +10031,6 @@
       "genres": []
     },
     {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
-      "genres": []
-    },
-    {
       "id": "7a5cd3b82b0db4ce",
       "date": "2026-10-18",
       "start_raw": "1500",
@@ -10199,23 +10112,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "aeaf97860ea4be91",
-      "date": "2026-10-27",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
-      "genre": "",
-      "link": "https://talentclublive.com/event/steely-dead/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/steely-dead/",
       "genres": []
     },
     {
