@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1067,
+  "event_count": 1070,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -18810,6 +18810,57 @@
       "genres": [
         "Blues"
       ]
+    },
+    {
+      "id": "a3434d479c70ed95",
+      "date": "2026-08-10",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "JustaDuo",
+      "genre": "easy listening",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ef0c111662798404",
+      "date": "2026-08-10",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Frankie Hernandez",
+      "genre": "soul, funk, reggae",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Reggae",
+        "Funk / Soul"
+      ]
+    },
+    {
+      "id": "76085046d60ddd23",
+      "date": "2026-08-10",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     }
   ]
 }
