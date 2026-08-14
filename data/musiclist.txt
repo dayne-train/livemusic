@@ -1,5 +1,5 @@
 --timestamp
-08/13/2026 17:58
+08/14/2026 08:10
 --news
 * date | notes
 --musicians
@@ -511,7 +511,7 @@ Sterling 2 Jazz Duo||||Dwell Wines||08/15/26|1500|1700||Band|26/08/13 13:59PM|
 Jim Friend||||Taproots Nursery||08/15/26|1500|1700||Band|26/08/13 13:59PM|
 Stardust Quartet||||Weisinger Family Winery||08/15/26|1530|1830|Featuring Meghan Wilson on vocals|Band||
 Lisa and Dean||||Daisy Creek Vineyard||08/15/26|1600|1800||Band||
-The Bouray||||Del Rio Vineyards||08/15/26|1600|1800||Band||
+Melissa Fairy||||Del Rio Vineyards||08/15/26|1600|1800||Solo|26/08/14 08:10AM|
 Jeff Kloetzel||||Dos Mariposas Vineyards||08/15/26|1600|1800||Band||
 The Smokin' Gundersons||||Rellik Winery||08/15/26|1600|1800||Band|26/08/13 13:59PM|
 Danger Kitty||||Apple Outlaw Taproom||08/15/26|1700|2000||Band|26/08/13 13:59PM|
@@ -561,6 +561,7 @@ Taurus Moon||||The Gold Room||08/18/26|1800|2000||Band|26/08/13 13:59PM|
 Aged to Perplextion||||Local Vines Wine Bar||08/19/26|1700|1900||Band||
 Mitchell Brothers||||Padigan Wines||08/19/26|1700|1900||Band||
 Aaron Reed||||Tap & Vine||08/19/26|1700|1900||Band||
+Rogue Blues Society Blues Jam|||Rogue Blues Society|Curtain Call Cabaret & Lounge||08/19/26|1800|2100|hosted by: 12 Bars Deep|Band|26/08/14 08:10AM|
 Jeff Kloetzel||||South Stage Cellars||08/19/26|1800|2000||Band|26/08/13 13:59PM|
 Bim Jeam and the Sadness||||Weekend Beer Company||08/19/26|1800|2000||Band||
 Rogue Rage Duo||||Weekend Beer Company||08/19/26|1800|2000||Band|26/08/13 13:59PM|
