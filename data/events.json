@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-14T09:19:38.614Z",
+  "generated_at": "2026-08-14T13:40:41.212Z",
   "source_timestamp": "08/13/2026 17:58",
-  "content_hash": "7ddffc1781812aa1",
+  "content_hash": "c911f13862494f74",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 326,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-14T09:19:18.882Z",
-      "last_attempt": "2026-08-14T09:19:18.882Z",
+      "last_ok": "2026-08-14T13:40:20.535Z",
+      "last_attempt": "2026-08-14T13:40:20.535Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 26,
+      "count": 24,
       "strategy": "live",
-      "last_ok": "2026-08-14T09:19:19.441Z",
-      "last_attempt": "2026-08-14T09:19:19.441Z",
-      "error": null
+      "last_ok": "2026-08-14T13:40:20.823Z",
+      "last_attempt": "2026-08-14T13:40:20.823Z",
+      "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 5,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-08-14T09:19:21.641Z",
-      "last_attempt": "2026-08-14T09:19:21.641Z",
-      "error": null
+      "last_attempt": "2026-08-14T13:40:21.826Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-14T09:19:22.169Z",
-      "last_attempt": "2026-08-14T09:19:22.169Z",
+      "last_ok": "2026-08-14T13:40:22.034Z",
+      "last_attempt": "2026-08-14T13:40:22.034Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-14T09:19:22.301Z",
-      "last_attempt": "2026-08-14T09:19:22.301Z",
+      "last_ok": "2026-08-14T13:40:22.140Z",
+      "last_attempt": "2026-08-14T13:40:22.140Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-08-14T09:19:23.497Z",
-      "last_attempt": "2026-08-14T09:19:23.497Z",
+      "last_ok": "2026-08-14T13:40:23.271Z",
+      "last_attempt": "2026-08-14T13:40:23.271Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-14T09:19:23.939Z",
-      "last_attempt": "2026-08-14T09:19:23.939Z",
+      "last_ok": "2026-08-14T13:40:23.736Z",
+      "last_attempt": "2026-08-14T13:40:23.736Z",
       "error": null
     }
   },
@@ -3587,17 +3587,6 @@
         "musiclist_txt"
       ]
     },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
-    },
     "Lithia Park Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -5379,25 +5368,19 @@
       "genres": []
     },
     {
-      "id": "ad35cdf1701285ed",
+      "id": "a76fd04de7ecb484",
       "date": "2026-08-17",
       "start_raw": "1800",
-      "end_raw": "2000",
+      "end_raw": "2100",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-3/",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
       "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
+      "venue": "Lithia Park Bandshell",
+      "notes": "",
       "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
-      "merged_from": [
-        {
-          "source": "ashland_city",
-          "id": "a76fd04de7ecb484"
-        }
-      ],
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
       "genres": []
     },
     {
@@ -6057,23 +6040,6 @@
       "genres": []
     },
     {
-      "id": "2770767eb6b46d0b",
-      "date": "2026-08-21",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Ben Rice and the PDX Hustle",
-      "genre": "",
-      "link": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/ben-rice-and-the-pdx-hustle/",
-      "genres": []
-    },
-    {
       "id": "1eace99a46b327bf",
       "date": "2026-08-22",
       "start_raw": "1030",
@@ -6425,23 +6391,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "653423eb3390a2ef",
-      "date": "2026-08-22",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Dale Watson",
-      "genre": "",
-      "link": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
       "genres": []
     },
     {
@@ -8667,23 +8616,6 @@
       "genres": []
     },
     {
-      "id": "996814db97d176a6",
-      "date": "2026-09-25",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Magnificent Sanctuary Band",
-      "genre": "",
-      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "genres": []
-    },
-    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -9172,23 +9104,6 @@
       "genres": []
     },
     {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
-      "genres": []
-    },
-    {
       "id": "7a5cd3b82b0db4ce",
       "date": "2026-10-18",
       "start_raw": "1500",
@@ -9270,23 +9185,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "aeaf97860ea4be91",
-      "date": "2026-10-27",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
-      "genre": "",
-      "link": "https://talentclublive.com/event/steely-dead/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/steely-dead/",
       "genres": []
     },
     {
