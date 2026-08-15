@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-15T04:45:55.670Z",
+  "generated_at": "2026-08-15T08:44:02.298Z",
   "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "15460672a5373c79",
+  "content_hash": "38c558ff2c4ba763",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-15T04:45:34.398Z",
-      "last_attempt": "2026-08-15T04:45:34.398Z",
+      "last_ok": "2026-08-15T08:43:42.328Z",
+      "last_attempt": "2026-08-15T08:43:42.328Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 25,
+      "count": 24,
       "strategy": "live",
-      "last_ok": "2026-08-15T04:45:34.672Z",
-      "last_attempt": "2026-08-15T04:45:34.672Z",
+      "last_ok": "2026-08-15T08:43:42.559Z",
+      "last_attempt": "2026-08-15T08:43:42.559Z",
       "error": null
     },
     "talent_club": {
@@ -24,39 +24,39 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-08-14T20:44:13.029Z",
-      "last_attempt": "2026-08-15T04:45:37.475Z",
+      "last_attempt": "2026-08-15T08:43:45.518Z",
       "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-15T04:45:37.691Z",
-      "last_attempt": "2026-08-15T04:45:37.691Z",
+      "last_ok": "2026-08-15T08:43:45.798Z",
+      "last_attempt": "2026-08-15T08:43:45.798Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-15T04:45:37.872Z",
-      "last_attempt": "2026-08-15T04:45:37.872Z",
+      "last_ok": "2026-08-15T08:43:45.990Z",
+      "last_attempt": "2026-08-15T08:43:45.990Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-08-15T04:45:38.986Z",
-      "last_attempt": "2026-08-15T04:45:38.986Z",
+      "last_ok": "2026-08-15T08:43:46.966Z",
+      "last_attempt": "2026-08-15T08:43:46.966Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-15T04:45:39.878Z",
-      "last_attempt": "2026-08-15T04:45:39.878Z",
+      "last_ok": "2026-08-15T08:43:47.394Z",
+      "last_attempt": "2026-08-15T08:43:47.394Z",
       "error": null
     }
   },
@@ -4059,22 +4059,14 @@
       "end_raw": "1930",
       "musician": "Duke Street",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-duke-street/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Duke Street is a blues band from Ashland, OR. At their performances they cook up an exciting groove heard during the show seasoned with a fine mixture to satisfy the tastes of old school hipsters and ",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-duke-street/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "76f6c8639d20cb98"
-        }
-      ],
-      "genres": [
-        "Blues"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "4dfcf04850751b45",
