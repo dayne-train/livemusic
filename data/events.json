@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-16T20:36:29.935Z",
+  "generated_at": "2026-08-17T01:54:12.890Z",
   "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "1251e6fd5dfbbeb8",
+  "content_hash": "c3e8a02c02aacbdf",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-16T20:36:07.695Z",
-      "last_attempt": "2026-08-16T20:36:07.695Z",
+      "last_ok": "2026-08-17T01:53:46.334Z",
+      "last_attempt": "2026-08-17T01:53:46.334Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 23,
+      "count": 22,
       "strategy": "live",
-      "last_ok": "2026-08-16T20:36:08.022Z",
-      "last_attempt": "2026-08-16T20:36:08.022Z",
+      "last_ok": "2026-08-17T01:53:46.647Z",
+      "last_attempt": "2026-08-17T01:53:46.647Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-16T20:36:10.786Z",
-      "last_attempt": "2026-08-16T20:36:10.786Z",
+      "last_ok": "2026-08-17T01:53:48.655Z",
+      "last_attempt": "2026-08-17T01:53:48.655Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-16T20:36:11.133Z",
-      "last_attempt": "2026-08-16T20:36:11.133Z",
+      "last_ok": "2026-08-17T01:53:51.523Z",
+      "last_attempt": "2026-08-17T01:53:51.523Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-16T20:36:11.237Z",
-      "last_attempt": "2026-08-16T20:36:11.237Z",
+      "last_ok": "2026-08-17T01:53:51.641Z",
+      "last_attempt": "2026-08-17T01:53:51.641Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-08-16T20:36:12.282Z",
-      "last_attempt": "2026-08-16T20:36:12.282Z",
+      "last_ok": "2026-08-17T01:53:52.973Z",
+      "last_attempt": "2026-08-17T01:53:52.973Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-16T20:36:12.796Z",
-      "last_attempt": "2026-08-16T20:36:12.796Z",
+      "last_ok": "2026-08-17T01:53:53.622Z",
+      "last_attempt": "2026-08-17T01:53:53.622Z",
       "error": null
     }
   },
@@ -5166,24 +5166,14 @@
       "end_raw": "1800",
       "musician": "Grant Ruiz",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-grant-ruiz-august-16/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "The son of a bebop saxophonist, Grant Ruiz has played classical guitar since he was 10 years old. After studying flamenco in Spain and with several renowned artists in the U.S., he became an active pe",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-grant-ruiz-august-16/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "df7a331a1eefd662"
-        }
-      ],
-      "genres": [
-        "Jazz",
-        "Latin",
-        "Classical"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "62ee9bc1cbc0c937",
