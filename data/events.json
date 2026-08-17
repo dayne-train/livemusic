@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-17T13:04:17.934Z",
+  "generated_at": "2026-08-17T16:44:16.790Z",
   "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "94c3d462ae5e9265",
+  "content_hash": "9df4fe9340a831d1",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-17T13:03:49.187Z",
-      "last_attempt": "2026-08-17T13:03:49.187Z",
+      "last_ok": "2026-08-17T16:43:57.436Z",
+      "last_attempt": "2026-08-17T16:43:57.436Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 20,
       "strategy": "live",
-      "last_ok": "2026-08-17T13:03:49.516Z",
-      "last_attempt": "2026-08-17T13:03:49.516Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-17T16:43:57.706Z",
+      "last_attempt": "2026-08-17T16:43:57.706Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-17T13:03:59.735Z",
-      "last_attempt": "2026-08-17T13:03:59.735Z",
+      "last_ok": "2026-08-17T16:43:59.185Z",
+      "last_attempt": "2026-08-17T16:43:59.185Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-17T13:04:00.437Z",
-      "last_attempt": "2026-08-17T13:04:00.437Z",
+      "last_ok": "2026-08-17T16:43:59.511Z",
+      "last_attempt": "2026-08-17T16:43:59.511Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-17T13:04:00.651Z",
-      "last_attempt": "2026-08-17T13:04:00.651Z",
+      "last_ok": "2026-08-17T16:43:59.618Z",
+      "last_attempt": "2026-08-17T16:43:59.618Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-08-17T13:04:01.734Z",
-      "last_attempt": "2026-08-17T13:04:01.734Z",
+      "last_ok": "2026-08-17T16:44:00.906Z",
+      "last_attempt": "2026-08-17T16:44:00.906Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-17T13:04:02.163Z",
-      "last_attempt": "2026-08-17T13:04:02.163Z",
+      "last_ok": "2026-08-17T16:44:01.419Z",
+      "last_attempt": "2026-08-17T16:44:01.419Z",
       "error": null
     }
   },
@@ -5272,22 +5272,6 @@
       "genres": []
     },
     {
-      "id": "9b72869de1a402e4",
-      "date": "2026-08-16",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "The Siskiyou Music Project Presents:  Komaga Trio",
-      "genre": "",
-      "link": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
-      "link_name": "",
-      "venue": "Grizzly Peak Winery",
-      "notes": "Siskiyou Music Project welcomes for the first time to southern Oregon the Komaga Trio! \nVirtuosity and daring improvisation define this ensemble. Harp innovator Motoshi Kosako, fretless-bass legend Mi",
-      "event_type": "Band",
-      "source": "tribe_ics:grizzly_peak",
-      "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
-      "genres": []
-    },
-    {
       "id": "fd0ad4b2a81d1ec2",
       "date": "2026-08-17",
       "start_raw": "1700",
@@ -5304,19 +5288,25 @@
       "genres": []
     },
     {
-      "id": "a76fd04de7ecb484",
+      "id": "ad35cdf1701285ed",
       "date": "2026-08-17",
       "start_raw": "1800",
-      "end_raw": "2100",
+      "end_raw": "2000",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
       "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
       "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "merged_from": [
+        {
+          "source": "ashland_city",
+          "id": "a76fd04de7ecb484"
+        }
+      ],
       "genres": []
     },
     {
