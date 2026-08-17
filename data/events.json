@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-17T04:57:04.918Z",
+  "generated_at": "2026-08-17T08:59:53.666Z",
   "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "589f2be8a39f4bae",
+  "content_hash": "94c3d462ae5e9265",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-17T04:56:35.333Z",
-      "last_attempt": "2026-08-17T04:56:35.333Z",
+      "last_ok": "2026-08-17T08:59:20.803Z",
+      "last_attempt": "2026-08-17T08:59:20.803Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-08-17T04:56:35.718Z",
-      "last_attempt": "2026-08-17T04:56:35.718Z",
+      "last_ok": "2026-08-17T08:59:21.051Z",
+      "last_attempt": "2026-08-17T08:59:21.051Z",
       "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-17T04:56:45.870Z",
-      "last_attempt": "2026-08-17T04:56:45.870Z",
+      "last_ok": "2026-08-17T08:59:31.338Z",
+      "last_attempt": "2026-08-17T08:59:31.338Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-17T04:56:46.234Z",
-      "last_attempt": "2026-08-17T04:56:46.234Z",
+      "last_ok": "2026-08-17T08:59:31.808Z",
+      "last_attempt": "2026-08-17T08:59:31.808Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-17T04:56:46.391Z",
-      "last_attempt": "2026-08-17T04:56:46.391Z",
+      "last_ok": "2026-08-17T08:59:32.013Z",
+      "last_attempt": "2026-08-17T08:59:32.013Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-08-17T04:56:47.722Z",
-      "last_attempt": "2026-08-17T04:56:47.722Z",
+      "last_ok": "2026-08-17T08:59:33.146Z",
+      "last_attempt": "2026-08-17T08:59:33.146Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-17T04:56:48.199Z",
-      "last_attempt": "2026-08-17T04:56:48.199Z",
+      "last_ok": "2026-08-17T08:59:33.668Z",
+      "last_attempt": "2026-08-17T08:59:33.668Z",
       "error": null
     }
   },
@@ -5198,22 +5198,14 @@
       "end_raw": "1900",
       "musician": "Nick & Shae",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-nick-shae-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "The dynamic duo of Shae Celine and Nick Garrett-Powell perform harmony arrangements of pop music and original music. With a love of mashups and stylistic interpretations, the duo always pushes their l",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-nick-shae-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "943659b28bde1358"
-        }
-      ],
-      "genres": [
-        "Pop"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "035238caa5e8015d",
