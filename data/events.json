@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-18T16:47:28.410Z",
+  "generated_at": "2026-08-18T20:39:26.011Z",
   "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "a75a52a8ed5c848b",
+  "content_hash": "b9763f764a427828",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-18T16:47:03.016Z",
-      "last_attempt": "2026-08-18T16:47:03.016Z",
+      "last_ok": "2026-08-18T20:38:56.979Z",
+      "last_attempt": "2026-08-18T20:38:56.979Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 27,
       "strategy": "live",
-      "last_ok": "2026-08-18T16:47:03.526Z",
-      "last_attempt": "2026-08-18T16:47:03.526Z",
+      "last_ok": "2026-08-18T20:38:57.315Z",
+      "last_attempt": "2026-08-18T20:38:57.315Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-18T16:47:05.543Z",
-      "last_attempt": "2026-08-18T16:47:05.543Z",
+      "last_ok": "2026-08-18T20:38:59.807Z",
+      "last_attempt": "2026-08-18T20:38:59.807Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-18T16:47:06.139Z",
-      "last_attempt": "2026-08-18T16:47:06.139Z",
+      "last_ok": "2026-08-18T20:39:00.359Z",
+      "last_attempt": "2026-08-18T20:39:00.359Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-18T16:47:07.588Z",
-      "last_attempt": "2026-08-18T16:47:07.588Z",
+      "last_ok": "2026-08-18T20:39:00.487Z",
+      "last_attempt": "2026-08-18T20:39:00.487Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-18T16:47:08.987Z",
-      "last_attempt": "2026-08-18T16:47:08.987Z",
+      "last_ok": "2026-08-18T20:39:01.893Z",
+      "last_attempt": "2026-08-18T20:39:01.893Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-18T16:47:09.551Z",
-      "last_attempt": "2026-08-18T16:47:09.551Z",
+      "last_ok": "2026-08-18T20:39:02.384Z",
+      "last_attempt": "2026-08-18T20:39:02.384Z",
       "error": null
     }
   },
@@ -5000,6 +5000,25 @@
       "genres": []
     },
     {
+      "id": "e3d1796ecea4f528",
+      "date": "2026-08-16",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "fa8ec6aa7e20fe8d",
       "date": "2026-08-16",
       "start_raw": "1500",
@@ -7576,25 +7595,6 @@
       "genres": []
     },
     {
-      "id": "34656fa14644054b",
-      "date": "2026-09-01",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "f409029458210751",
       "date": "2026-09-02",
       "start_raw": "1700",
@@ -7725,6 +7725,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "fb7ff9cc83665577",
+      "date": "2026-09-04",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
+      "genre": "",
+      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "link_name": "",
+      "venue": "Trinity Episcopal Church",
+      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "genres": []
     },
     {
       "id": "f0660331a3bf31cf",
@@ -8007,6 +8023,22 @@
       "genres": []
     },
     {
+      "id": "670dd7119cc42eb0",
+      "date": "2026-09-06",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Vagabond Empire",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-vagabond-empire-september-6/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Vagabond Empire is an expansive new project by Sam Prestianni, a prolific songwriter, multidisciplinary artist, and former bandleader of acclaimed San Francisco “bluevelvetgrass” string combo Three Ti",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-vagabond-empire-september-6/",
+      "genres": []
+    },
+    {
       "id": "42516253fad67c54",
       "date": "2026-09-06",
       "start_raw": "1900",
@@ -8103,6 +8135,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "6173c612be7d1979",
+      "date": "2026-09-11",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Saucy",
+      "genre": "classic rock, variety",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-saucy-september-11/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Saucy, a renowned local Southern Oregon musical group, joins us at RoxyAnn Winery for a Friday night of dancing and fun! Listen to some songs while sipping on some delicious & award-winning wines, or ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-saucy-september-11/",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "6694bd5525a1bdd3",
@@ -8233,6 +8283,24 @@
       "genres": []
     },
     {
+      "id": "b35a84745db7c328",
+      "date": "2026-09-13",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Kristen & Robbie Duo",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-kristen-robbie-duo/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Join us with talented Robbie Dacosta as he teams up with the incredible Kristen Calvin Gordon for a great evening of tunes from a variety of genres. \nJoin us at RoxyAnn Winery for a Sunday afternoon o",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-kristen-robbie-duo/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "2a7921aa479854a8",
       "date": "2026-09-13",
       "start_raw": "1800",
@@ -8310,22 +8378,6 @@
       "event_type": "Band",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/oktoberfest/",
-      "genres": []
-    },
-    {
-      "id": "a6589fef0aa8efb0",
-      "date": "2026-09-19",
-      "start_raw": "1100",
-      "end_raw": "1900",
-      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
-      "genre": "",
-      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
-      "link_name": "",
-      "venue": "Mt. Ashland",
-      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
       "genres": []
     },
     {
@@ -8461,6 +8513,22 @@
       "genres": []
     },
     {
+      "id": "b93bcd08f1e2606e",
+      "date": "2026-09-20",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Encore 5",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Encore 5 has a mission to provide quality, heart-felt music entertainment delivered in a professional manner. \nJoin us to listen to amazing music while sipping on some delicious & award-winning wines,",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5/",
+      "genres": []
+    },
+    {
       "id": "7e200be6496144ed",
       "date": "2026-09-23",
       "start_raw": "1800",
@@ -8577,6 +8645,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "01599174f32b6f70",
+      "date": "2026-09-25",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Brisbane Project",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-brisbane-project/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Join us at RoxyAnn Winery for a Friday night of dancing and fun as we welcome Southern Oregon’s Brisbane Project to the tasting room!\n\nThe Brisbane Project, is a powerhouse trio of soulful blues, know",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-brisbane-project/",
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "2cc8a4289861cf5e",
@@ -8723,6 +8809,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "42313f3053667b73",
+      "date": "2026-09-27",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Jeff Kloetzl",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-jeff-kloetzl/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Jeff has been the local opening act at the renowned Britt Festival for artists such as America, Chicago, Natalie Merchant, Boz Scaggs, Jake Shimabukuro, Matt Nathanson, Leo Kottke and Rick Springfield",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-jeff-kloetzl/",
       "genres": []
     },
     {
