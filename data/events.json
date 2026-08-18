@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-18T13:06:26.861Z",
+  "generated_at": "2026-08-18T16:47:28.410Z",
   "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "11e056fc8f1b8f8d",
+  "content_hash": "a75a52a8ed5c848b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-18T13:05:51.357Z",
-      "last_attempt": "2026-08-18T13:05:51.357Z",
+      "last_ok": "2026-08-18T16:47:03.016Z",
+      "last_attempt": "2026-08-18T16:47:03.016Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 21,
       "strategy": "live",
-      "last_ok": "2026-08-18T13:05:51.690Z",
-      "last_attempt": "2026-08-18T13:05:51.690Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-18T16:47:03.526Z",
+      "last_attempt": "2026-08-18T16:47:03.526Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-18T13:06:01.888Z",
-      "last_attempt": "2026-08-18T13:06:01.888Z",
+      "last_ok": "2026-08-18T16:47:05.543Z",
+      "last_attempt": "2026-08-18T16:47:05.543Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-18T13:06:02.415Z",
-      "last_attempt": "2026-08-18T13:06:02.415Z",
+      "last_ok": "2026-08-18T16:47:06.139Z",
+      "last_attempt": "2026-08-18T16:47:06.139Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-18T13:06:02.590Z",
-      "last_attempt": "2026-08-18T13:06:02.590Z",
+      "last_ok": "2026-08-18T16:47:07.588Z",
+      "last_attempt": "2026-08-18T16:47:07.588Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-18T13:06:03.875Z",
-      "last_attempt": "2026-08-18T13:06:03.875Z",
+      "last_ok": "2026-08-18T16:47:08.987Z",
+      "last_attempt": "2026-08-18T16:47:08.987Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-18T13:06:04.301Z",
-      "last_attempt": "2026-08-18T13:06:04.301Z",
+      "last_ok": "2026-08-18T16:47:09.551Z",
+      "last_attempt": "2026-08-18T16:47:09.551Z",
       "error": null
     }
   },
@@ -5000,25 +5000,6 @@
       "genres": []
     },
     {
-      "id": "e3d1796ecea4f528",
-      "date": "2026-08-16",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "fa8ec6aa7e20fe8d",
       "date": "2026-08-16",
       "start_raw": "1500",
@@ -7595,6 +7576,25 @@
       "genres": []
     },
     {
+      "id": "34656fa14644054b",
+      "date": "2026-09-01",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "f409029458210751",
       "date": "2026-09-02",
       "start_raw": "1700",
@@ -8310,6 +8310,22 @@
       "event_type": "Band",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/oktoberfest/",
+      "genres": []
+    },
+    {
+      "id": "a6589fef0aa8efb0",
+      "date": "2026-09-19",
+      "start_raw": "1100",
+      "end_raw": "1900",
+      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
+      "genre": "",
+      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
+      "link_name": "",
+      "venue": "Mt. Ashland",
+      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
       "genres": []
     },
     {
