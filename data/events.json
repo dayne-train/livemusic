@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-17T20:42:44.193Z",
+  "generated_at": "2026-08-18T01:49:53.142Z",
   "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "6d336fc4b10b9d18",
+  "content_hash": "21050de65df8c402",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-17T20:42:09.880Z",
-      "last_attempt": "2026-08-17T20:42:09.880Z",
+      "last_ok": "2026-08-18T01:49:29.806Z",
+      "last_attempt": "2026-08-18T01:49:29.806Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 18,
+      "count": 21,
       "strategy": "live",
-      "last_ok": "2026-08-17T20:42:10.348Z",
-      "last_attempt": "2026-08-17T20:42:10.348Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-18T01:49:30.111Z",
+      "last_attempt": "2026-08-18T01:49:30.111Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-17T20:42:20.425Z",
-      "last_attempt": "2026-08-17T20:42:20.425Z",
+      "last_ok": "2026-08-18T01:49:31.768Z",
+      "last_attempt": "2026-08-18T01:49:31.768Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-17T20:42:22.869Z",
-      "last_attempt": "2026-08-17T20:42:22.869Z",
+      "last_ok": "2026-08-18T01:49:32.203Z",
+      "last_attempt": "2026-08-18T01:49:32.203Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-17T20:42:22.933Z",
-      "last_attempt": "2026-08-17T20:42:22.933Z",
+      "last_ok": "2026-08-18T01:49:32.461Z",
+      "last_attempt": "2026-08-18T01:49:32.461Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-08-17T20:42:24.236Z",
-      "last_attempt": "2026-08-17T20:42:24.236Z",
+      "last_ok": "2026-08-18T01:49:33.780Z",
+      "last_attempt": "2026-08-18T01:49:33.780Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-17T20:42:24.780Z",
-      "last_attempt": "2026-08-17T20:42:24.780Z",
+      "last_ok": "2026-08-18T01:49:34.250Z",
+      "last_attempt": "2026-08-18T01:49:34.250Z",
       "error": null
     }
   },
@@ -5288,19 +5288,25 @@
       "genres": []
     },
     {
-      "id": "a76fd04de7ecb484",
+      "id": "ad35cdf1701285ed",
       "date": "2026-08-17",
       "start_raw": "1800",
-      "end_raw": "2100",
+      "end_raw": "2000",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
+      "link": "https://travelashland.com/event/epic-summer-series-3/",
       "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
       "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4423",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
+      "merged_from": [
+        {
+          "source": "ashland_city",
+          "id": "a76fd04de7ecb484"
+        }
+      ],
       "genres": []
     },
     {
@@ -7818,6 +7824,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "f375b5d18e9ceb36",
+      "date": "2026-09-04",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Blue Lightning",
+      "genre": "classic rock",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-blue-lightning-september-4/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Established over 30 years ago in Ashland Oregon, Blue Lightning has evolved into a high energy dance band with tight grooves and lush vocal harmonies.\n\nJoin us for a Friday night full of good times, d",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-blue-lightning-september-4/",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "4a761a6eb342121a",
