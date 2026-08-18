@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1176,
+  "event_count": 1178,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -20606,6 +20606,38 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/the-sisikiyou-music-project-presents-komaga-trio/",
+      "genres": []
+    },
+    {
+      "id": "fd0ad4b2a81d1ec2",
+      "date": "2026-08-17",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Sweet Sixx",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Padigan Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f5dae594fbfc8862",
+      "date": "2026-08-17",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     }
   ]
