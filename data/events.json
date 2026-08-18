@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-18T01:49:53.142Z",
+  "generated_at": "2026-08-18T04:50:20.295Z",
   "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "21050de65df8c402",
+  "content_hash": "2fad489938ebbc17",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 327,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-18T01:49:29.806Z",
-      "last_attempt": "2026-08-18T01:49:29.806Z",
+      "last_ok": "2026-08-18T04:49:57.001Z",
+      "last_attempt": "2026-08-18T04:49:57.001Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 21,
       "strategy": "live",
-      "last_ok": "2026-08-18T01:49:30.111Z",
-      "last_attempt": "2026-08-18T01:49:30.111Z",
+      "last_ok": "2026-08-18T04:49:57.369Z",
+      "last_attempt": "2026-08-18T04:49:57.369Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-18T01:49:31.768Z",
-      "last_attempt": "2026-08-18T01:49:31.768Z",
+      "last_ok": "2026-08-18T04:49:59.110Z",
+      "last_attempt": "2026-08-18T04:49:59.110Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-18T01:49:32.203Z",
-      "last_attempt": "2026-08-18T01:49:32.203Z",
+      "last_ok": "2026-08-18T04:49:59.643Z",
+      "last_attempt": "2026-08-18T04:49:59.643Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-18T01:49:32.461Z",
-      "last_attempt": "2026-08-18T01:49:32.461Z",
+      "last_ok": "2026-08-18T04:49:59.897Z",
+      "last_attempt": "2026-08-18T04:49:59.897Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
-      "count": 2,
+      "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-18T01:49:33.780Z",
-      "last_attempt": "2026-08-18T01:49:33.780Z",
+      "last_ok": "2026-08-18T04:50:01.161Z",
+      "last_attempt": "2026-08-18T04:50:01.161Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-18T01:49:34.250Z",
-      "last_attempt": "2026-08-18T01:49:34.250Z",
+      "last_ok": "2026-08-18T04:50:01.631Z",
+      "last_attempt": "2026-08-18T04:50:01.631Z",
       "error": null
     }
   },
@@ -3598,17 +3598,6 @@
         "talent_club"
       ]
     },
-    "Lithia Park Bandshell": {
-      "url": "https://ashlandparksandrec.org",
-      "city": "Ashland",
-      "notes": "Outdoor concert bandshell in Lithia Park",
-      "address": "Winburn Way, Ashland OR",
-      "region": "Ashland",
-      "type": "Other",
-      "_sources": [
-        "ashland_city"
-      ]
-    },
     "Butler Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -5285,28 +5274,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "ad35cdf1701285ed",
-      "date": "2026-08-17",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-3/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nAu",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-3/",
-      "merged_from": [
-        {
-          "source": "ashland_city",
-          "id": "a76fd04de7ecb484"
-        }
-      ],
       "genres": []
     },
     {
@@ -8343,6 +8310,22 @@
       "event_type": "Band",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/oktoberfest/",
+      "genres": []
+    },
+    {
+      "id": "a6589fef0aa8efb0",
+      "date": "2026-09-19",
+      "start_raw": "1100",
+      "end_raw": "1900",
+      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
+      "genre": "",
+      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
+      "link_name": "",
+      "venue": "Mt. Ashland",
+      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
       "genres": []
     },
     {
