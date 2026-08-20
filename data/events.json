@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-20T16:49:42.884Z",
+  "generated_at": "2026-08-20T20:45:07.388Z",
   "source_timestamp": "08/19/2026 15:12",
-  "content_hash": "fef5fe6e1f5f6c92",
+  "content_hash": "7925b6a46309c33d",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 331,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-20T16:49:18.215Z",
-      "last_attempt": "2026-08-20T16:49:18.215Z",
+      "last_ok": "2026-08-20T20:44:40.952Z",
+      "last_attempt": "2026-08-20T20:44:40.952Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 27,
       "strategy": "live",
-      "last_ok": "2026-08-20T16:49:18.601Z",
-      "last_attempt": "2026-08-20T16:49:18.601Z",
+      "last_ok": "2026-08-20T20:44:41.274Z",
+      "last_attempt": "2026-08-20T20:44:41.274Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 5,
+      "count": 12,
       "strategy": "live",
-      "last_ok": "2026-08-20T16:49:20.193Z",
-      "last_attempt": "2026-08-20T16:49:20.193Z",
+      "last_ok": "2026-08-20T20:44:42.800Z",
+      "last_attempt": "2026-08-20T20:44:42.800Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-20T16:49:20.437Z",
-      "last_attempt": "2026-08-20T16:49:20.437Z",
+      "last_ok": "2026-08-20T20:44:43.012Z",
+      "last_attempt": "2026-08-20T20:44:43.012Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-20T16:49:21.632Z",
-      "last_attempt": "2026-08-20T16:49:21.632Z",
+      "last_ok": "2026-08-20T20:44:43.187Z",
+      "last_attempt": "2026-08-20T20:44:43.187Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-20T16:49:23.005Z",
-      "last_attempt": "2026-08-20T16:49:23.005Z",
+      "last_ok": "2026-08-20T20:44:44.718Z",
+      "last_attempt": "2026-08-20T20:44:44.718Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-20T16:49:23.632Z",
-      "last_attempt": "2026-08-20T16:49:23.632Z",
+      "last_ok": "2026-08-20T20:44:45.326Z",
+      "last_attempt": "2026-08-20T20:44:45.326Z",
       "error": null
     }
   },
@@ -7176,6 +7176,23 @@
       "genres": []
     },
     {
+      "id": "a8a5b5ee723dde91",
+      "date": "2026-08-28",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "State of Terrapin (Night 1)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/state-of-terrapin/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/state-of-terrapin/",
+      "genres": []
+    },
+    {
       "id": "de921e3cd9ee455f",
       "date": "2026-08-29",
       "start_raw": "1600",
@@ -7377,6 +7394,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8ae99ae23343a84f",
+      "date": "2026-08-29",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "State of Terrapin (Night 2)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/state-of-terrapin-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/state-of-terrapin-2/",
       "genres": []
     },
     {
@@ -8163,6 +8197,23 @@
       "genres": []
     },
     {
+      "id": "fbb8fcda0735ccbc",
+      "date": "2026-09-09",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dead Set 805",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dead-set-805/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dead-set-805/",
+      "genres": []
+    },
+    {
       "id": "ecf274cff93d1a93",
       "date": "2026-09-10",
       "start_raw": "1800",
@@ -8657,6 +8708,23 @@
       ]
     },
     {
+      "id": "5e2ae655824d55d6",
+      "date": "2026-09-23",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Joslyn & The Sweet Compression",
+      "genre": "",
+      "link": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "genres": []
+    },
+    {
       "id": "d27ecfece64266ea",
       "date": "2026-09-24",
       "start_raw": "1800",
@@ -9073,6 +9141,23 @@
       "genres": []
     },
     {
+      "id": "fcf7e0164010bcb2",
+      "date": "2026-10-03",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Barry The Fish Melton and The Scholer System",
+      "genre": "",
+      "link": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "genres": []
+    },
+    {
       "id": "491fdd8aba50ea05",
       "date": "2026-10-04",
       "start_raw": "1500",
@@ -9238,6 +9323,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8ab6a928ff5ff250",
+      "date": "2026-10-15",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Analog Dog",
+      "genre": "",
+      "link": "https://talentclublive.com/event/analog-dog/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/analog-dog/",
       "genres": []
     },
     {
@@ -9592,6 +9694,23 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0d3b78c97475167a",
+      "date": "2026-11-15",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "The Sweet Lillies",
+      "genre": "",
+      "link": "https://talentclublive.com/event/the-sweet-lillies/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/the-sweet-lillies/",
       "genres": []
     },
     {
