@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-19T20:44:06.575Z",
-  "source_timestamp": "08/14/2026 08:10",
-  "content_hash": "b9763f764a427828",
+  "generated_at": "2026-08-20T01:50:23.639Z",
+  "source_timestamp": "08/19/2026 15:12",
+  "content_hash": "450f609677f872bb",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 327,
+      "count": 331,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-19T20:43:49.901Z",
-      "last_attempt": "2026-08-19T20:43:49.901Z",
+      "last_ok": "2026-08-20T01:50:02.115Z",
+      "last_attempt": "2026-08-20T01:50:02.115Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 27,
       "strategy": "live",
-      "last_ok": "2026-08-19T20:43:50.147Z",
-      "last_attempt": "2026-08-19T20:43:50.147Z",
+      "last_ok": "2026-08-20T01:50:02.572Z",
+      "last_attempt": "2026-08-20T01:50:02.572Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-19T20:43:52.379Z",
-      "last_attempt": "2026-08-19T20:43:52.379Z",
+      "last_ok": "2026-08-20T01:50:05.490Z",
+      "last_attempt": "2026-08-20T01:50:05.490Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-19T20:43:52.729Z",
-      "last_attempt": "2026-08-19T20:43:52.729Z",
+      "last_ok": "2026-08-20T01:50:05.973Z",
+      "last_attempt": "2026-08-20T01:50:05.973Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-19T20:43:52.842Z",
-      "last_attempt": "2026-08-19T20:43:52.842Z",
+      "last_ok": "2026-08-20T01:50:06.089Z",
+      "last_attempt": "2026-08-20T01:50:06.089Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-19T20:43:54.299Z",
-      "last_attempt": "2026-08-19T20:43:54.299Z",
+      "last_ok": "2026-08-20T01:50:07.606Z",
+      "last_attempt": "2026-08-20T01:50:07.606Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-19T20:43:54.944Z",
-      "last_attempt": "2026-08-19T20:43:54.944Z",
+      "last_ok": "2026-08-20T01:50:08.333Z",
+      "last_attempt": "2026-08-20T01:50:08.333Z",
       "error": null
     }
   },
@@ -1279,6 +1279,17 @@
       "notes": "",
       "address": "",
       "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Hanley Farm": {
+      "url": "https://sohs.org/hanley-farm/",
+      "city": "Jacksonville",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
       "type": "Other",
       "_sources": [
         "musiclist_txt"
@@ -5780,6 +5791,22 @@
       ]
     },
     {
+      "id": "8e8d670c6d65fa7d",
+      "date": "2026-08-21",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "JustaDuo",
+      "genre": "easy listening",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "ac9e4f9fe7b6629f",
       "date": "2026-08-21",
       "start_raw": "1730",
@@ -5903,14 +5930,30 @@
       "genres": []
     },
     {
-      "id": "5c7bbfb42de517a9",
+      "id": "fa767f370a89892a",
+      "date": "2026-08-21",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Aloui Mistas",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Cedarwood Barn",
+      "notes": "7pm dance class, 8pm live set; $15-$25 at the door",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ec8c771efdf23d11",
       "date": "2026-08-21",
       "start_raw": "1900",
       "end_raw": "2100",
-      "musician": "Danielle Kelly",
+      "musician": "Lynx Family Band",
       "genre": "",
       "link": "",
-      "link_name": "Danielle Kelly Soul Project",
+      "link_name": "",
       "venue": "Skout Taphouse",
       "notes": "",
       "event_type": "Band",
@@ -7859,6 +7902,22 @@
       "genres": []
     },
     {
+      "id": "f844aa44c6045f9f",
+      "date": "2026-09-05",
+      "start_raw": "1530",
+      "end_raw": "1730",
+      "musician": "Gil René",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Hanley Farm",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "abb1dc9324ad25e4",
       "date": "2026-09-05",
       "start_raw": "1600",
@@ -7972,6 +8031,22 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/labor-day-weekend-special-flight-tantalizing-taste-of-tempranillo-2/",
+      "genres": []
+    },
+    {
+      "id": "522ad2de4df4de37",
+      "date": "2026-09-06",
+      "start_raw": "1230",
+      "end_raw": "1430",
+      "musician": "Gil René",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Hanley Farm",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
