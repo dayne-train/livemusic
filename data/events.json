@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-21T16:50:13.204Z",
+  "generated_at": "2026-08-21T20:39:48.620Z",
   "source_timestamp": "08/20/2026 14:20",
-  "content_hash": "53f95de32f0cdace",
+  "content_hash": "2c65f14138df566c",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 274,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-21T16:49:50.595Z",
-      "last_attempt": "2026-08-21T16:49:50.595Z",
+      "last_ok": "2026-08-21T20:39:26.896Z",
+      "last_attempt": "2026-08-21T20:39:26.896Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 27,
       "strategy": "live",
-      "last_ok": "2026-08-21T16:49:51.002Z",
-      "last_attempt": "2026-08-21T16:49:51.002Z",
+      "last_ok": "2026-08-21T20:39:27.290Z",
+      "last_attempt": "2026-08-21T20:39:27.290Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "strategy": "live",
-      "last_ok": "2026-08-21T16:49:52.939Z",
-      "last_attempt": "2026-08-21T16:49:52.939Z",
+      "last_ok": "2026-08-21T20:39:29.913Z",
+      "last_attempt": "2026-08-21T20:39:29.913Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-21T16:49:53.257Z",
-      "last_attempt": "2026-08-21T16:49:53.257Z",
+      "last_ok": "2026-08-21T20:39:30.104Z",
+      "last_attempt": "2026-08-21T20:39:30.104Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-21T16:49:53.436Z",
-      "last_attempt": "2026-08-21T16:49:53.436Z",
+      "last_ok": "2026-08-21T20:39:30.289Z",
+      "last_attempt": "2026-08-21T20:39:30.289Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-21T16:49:54.342Z",
-      "last_attempt": "2026-08-21T16:49:54.342Z",
+      "last_ok": "2026-08-21T20:39:31.596Z",
+      "last_attempt": "2026-08-21T20:39:31.596Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-21T16:49:54.842Z",
-      "last_attempt": "2026-08-21T16:49:54.842Z",
+      "last_ok": "2026-08-21T20:39:32.249Z",
+      "last_attempt": "2026-08-21T20:39:32.249Z",
       "error": null
     }
   },
@@ -8730,23 +8730,6 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "0d3b78c97475167a",
-      "date": "2026-11-15",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Sweet Lillies",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-sweet-lillies/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-sweet-lillies/",
       "genres": []
     },
     {
