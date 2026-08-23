@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-23T13:00:54.340Z",
-  "source_timestamp": "08/20/2026 14:20",
-  "content_hash": "6e710853183542c3",
+  "generated_at": "2026-08-23T16:42:30.463Z",
+  "source_timestamp": "08/23/2026 07:34",
+  "content_hash": "d5e8c5b740d1242d",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 274,
+      "count": 283,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-23T13:00:25.700Z",
-      "last_attempt": "2026-08-23T13:00:25.700Z",
+      "last_ok": "2026-08-23T16:42:10.601Z",
+      "last_attempt": "2026-08-23T16:42:10.601Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-08-23T13:00:26.012Z",
-      "last_attempt": "2026-08-23T13:00:26.012Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-23T16:42:10.990Z",
+      "last_attempt": "2026-08-23T16:42:10.990Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-08-23T13:00:36.235Z",
-      "last_attempt": "2026-08-23T13:00:36.235Z",
+      "last_ok": "2026-08-23T16:42:12.331Z",
+      "last_attempt": "2026-08-23T16:42:12.331Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-23T13:00:36.866Z",
-      "last_attempt": "2026-08-23T13:00:36.866Z",
+      "last_ok": "2026-08-23T16:42:12.609Z",
+      "last_attempt": "2026-08-23T16:42:12.609Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-23T13:00:37.427Z",
-      "last_attempt": "2026-08-23T13:00:37.427Z",
+      "last_ok": "2026-08-23T16:42:12.742Z",
+      "last_attempt": "2026-08-23T16:42:12.742Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-23T13:00:38.866Z",
-      "last_attempt": "2026-08-23T13:00:38.866Z",
+      "last_ok": "2026-08-23T16:42:13.968Z",
+      "last_attempt": "2026-08-23T16:42:13.968Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-23T13:00:39.302Z",
-      "last_attempt": "2026-08-23T13:00:39.302Z",
+      "last_ok": "2026-08-23T16:42:14.533Z",
+      "last_attempt": "2026-08-23T16:42:14.533Z",
       "error": null
     }
   },
@@ -3279,6 +3279,17 @@
         "musiclist_txt"
       ]
     },
+    "Tiffany's Marketplace": {
+      "url": "https://www.facebook.com/p/Tiffanys-Marketplace-61573293705809/",
+      "city": "Central Point",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
     "Touvelle Lodge": {
       "url": "https://www.facebook.com/Touvelle-Lodge-316447847194",
       "city": "Central Point",
@@ -6001,6 +6012,22 @@
       "genres": []
     },
     {
+      "id": "3c1716918fb82eff",
+      "date": "2026-08-29",
+      "start_raw": "1200",
+      "end_raw": "1400",
+      "musician": "Chris Bianco",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "af0a103bd844cf96",
       "date": "2026-08-29",
       "start_raw": "1400",
@@ -6010,6 +6037,22 @@
       "link": "",
       "link_name": "",
       "venue": "Taproots Nursery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "52d783a317efcb57",
+      "date": "2026-08-29",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Aimee Barbuto",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6173,6 +6216,22 @@
       "genres": []
     },
     {
+      "id": "d8f19debdca5cd19",
+      "date": "2026-08-29",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Erika Greisen",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "16c3bd8be048bdb4",
       "date": "2026-08-29",
       "start_raw": "1800",
@@ -6318,6 +6377,22 @@
       "genres": []
     },
     {
+      "id": "5ad951a36b4b74f7",
+      "date": "2026-08-30",
+      "start_raw": "1300",
+      "end_raw": "1500",
+      "musician": "Jim Friend",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "3747e4694eff90bf",
       "date": "2026-08-30",
       "start_raw": "1400",
@@ -6428,6 +6503,22 @@
       "link": "",
       "link_name": "Kristen Calvin",
       "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "06de21d54d3c96fa",
+      "date": "2026-08-30",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Two of a Kind",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6754,6 +6845,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "fb7ff9cc83665577",
+      "date": "2026-09-04",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
+      "genre": "",
+      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "link_name": "",
+      "venue": "Trinity Episcopal Church",
+      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "genres": []
     },
     {
       "id": "f0660331a3bf31cf",
@@ -7446,6 +7553,22 @@
       "genres": []
     },
     {
+      "id": "b364f85920f1492a",
+      "date": "2026-09-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Gypsy Gillis",
+      "genre": "",
+      "link": "",
+      "link_name": "Gypsy Gillis Band",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "5bc4b4eb4a59713a",
       "date": "2026-09-18",
       "start_raw": "1730",
@@ -7725,6 +7848,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "d0953b0fab6b39c0",
+      "date": "2026-09-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Saucy",
+      "genre": "classic rock, variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "8a6297f80e0c6160",
@@ -8280,6 +8421,22 @@
       "genres": []
     },
     {
+      "id": "bb891e89cc453bc1",
+      "date": "2026-10-11",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "The Music Bachs",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "1c313b883ee1026d",
       "date": "2026-10-11",
       "start_raw": "1500",
@@ -8311,6 +8468,26 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/analog-dog/",
       "genres": []
+    },
+    {
+      "id": "2898ca4f238cadd6",
+      "date": "2026-10-16",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mercy",
+      "genre": "blues, soul, classic rock",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues",
+        "Funk / Soul",
+        "Rock"
+      ]
     },
     {
       "id": "19c509000095edb9",
