@@ -451,8 +451,7 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt",
-        "tribe_ics"
+        "musiclist_txt"
       ]
     },
     "Growler Guys Grants Pass": {
@@ -990,12 +989,11 @@
       "url": "http://www.theblacksheep.com/",
       "city": "Ashland",
       "notes": "",
-      "address": "51 N Main St, Ashland OR",
+      "address": "",
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt",
-        "black_sheep"
+        "musiclist_txt"
       ]
     },
     "The Copper Plank": {
