@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-23T04:51:03.078Z",
+  "generated_at": "2026-08-23T08:47:10.328Z",
   "source_timestamp": "08/20/2026 14:20",
-  "content_hash": "8bd13205e657aaa8",
+  "content_hash": "1a641e0dd998c7c2",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 274,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-23T04:50:44.782Z",
-      "last_attempt": "2026-08-23T04:50:44.782Z",
+      "last_ok": "2026-08-23T08:46:52.281Z",
+      "last_attempt": "2026-08-23T08:46:52.281Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 24,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-08-23T04:50:45.134Z",
-      "last_attempt": "2026-08-23T04:50:45.134Z",
+      "last_ok": "2026-08-23T08:46:52.616Z",
+      "last_attempt": "2026-08-23T08:46:52.616Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-08-23T04:50:46.648Z",
-      "last_attempt": "2026-08-23T04:50:46.648Z",
+      "last_ok": "2026-08-23T08:46:53.774Z",
+      "last_attempt": "2026-08-23T08:46:53.774Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-23T04:50:46.777Z",
-      "last_attempt": "2026-08-23T04:50:46.777Z",
+      "last_ok": "2026-08-23T08:46:54.174Z",
+      "last_attempt": "2026-08-23T08:46:54.174Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-23T04:50:46.862Z",
-      "last_attempt": "2026-08-23T04:50:46.862Z",
+      "last_ok": "2026-08-23T08:46:54.242Z",
+      "last_attempt": "2026-08-23T08:46:54.242Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-23T04:50:48.101Z",
-      "last_attempt": "2026-08-23T04:50:48.101Z",
+      "last_ok": "2026-08-23T08:46:55.171Z",
+      "last_attempt": "2026-08-23T08:46:55.171Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-23T04:50:48.678Z",
-      "last_attempt": "2026-08-23T04:50:48.678Z",
+      "last_ok": "2026-08-23T08:46:55.755Z",
+      "last_attempt": "2026-08-23T08:46:55.755Z",
       "error": null
     }
   },
@@ -4631,22 +4631,14 @@
       "end_raw": "1930",
       "musician": "Encore Five",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-encore-five/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Encore Five blends classic rock and upbeat favorites for Southern Oregon wineries, private events, and community gatherings.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-encore-five/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "5f60966b87f9e1e2"
-        }
-      ],
-      "genres": [
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1e6cf9726a6ffd6e",
