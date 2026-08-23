@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-23T16:42:30.463Z",
+  "generated_at": "2026-08-23T20:37:28.993Z",
   "source_timestamp": "08/23/2026 07:34",
-  "content_hash": "d5e8c5b740d1242d",
+  "content_hash": "2835586e3073e042",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 283,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-23T16:42:10.601Z",
-      "last_attempt": "2026-08-23T16:42:10.601Z",
+      "last_ok": "2026-08-23T20:37:15.170Z",
+      "last_attempt": "2026-08-23T20:37:15.170Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-08-23T16:42:10.990Z",
-      "last_attempt": "2026-08-23T16:42:10.990Z",
+      "last_ok": "2026-08-23T20:37:15.440Z",
+      "last_attempt": "2026-08-23T20:37:15.440Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 10,
+      "count": 9,
       "strategy": "live",
-      "last_ok": "2026-08-23T16:42:12.331Z",
-      "last_attempt": "2026-08-23T16:42:12.331Z",
+      "last_ok": "2026-08-23T20:37:17.032Z",
+      "last_attempt": "2026-08-23T20:37:17.032Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-23T16:42:12.609Z",
-      "last_attempt": "2026-08-23T16:42:12.609Z",
+      "last_ok": "2026-08-23T20:37:17.428Z",
+      "last_attempt": "2026-08-23T20:37:17.428Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-23T16:42:12.742Z",
-      "last_attempt": "2026-08-23T16:42:12.742Z",
+      "last_ok": "2026-08-23T20:37:17.667Z",
+      "last_attempt": "2026-08-23T20:37:17.667Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-23T16:42:13.968Z",
-      "last_attempt": "2026-08-23T16:42:13.968Z",
+      "last_ok": "2026-08-23T20:37:19.723Z",
+      "last_attempt": "2026-08-23T20:37:19.723Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-23T16:42:14.533Z",
-      "last_attempt": "2026-08-23T16:42:14.533Z",
+      "last_ok": "2026-08-23T20:37:20.247Z",
+      "last_attempt": "2026-08-23T20:37:20.247Z",
       "error": null
     }
   },
@@ -4909,23 +4909,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "653423eb3390a2ef",
-      "date": "2026-08-22",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Dale Watson",
-      "genre": "",
-      "link": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/dale-watson-his-lone-stars/",
       "genres": []
     },
     {
