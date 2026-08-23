@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-23T08:47:10.328Z",
+  "generated_at": "2026-08-23T13:00:54.340Z",
   "source_timestamp": "08/20/2026 14:20",
-  "content_hash": "1a641e0dd998c7c2",
+  "content_hash": "6e710853183542c3",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 274,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-23T08:46:52.281Z",
-      "last_attempt": "2026-08-23T08:46:52.281Z",
+      "last_ok": "2026-08-23T13:00:25.700Z",
+      "last_attempt": "2026-08-23T13:00:25.700Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 23,
+      "count": 21,
       "strategy": "live",
-      "last_ok": "2026-08-23T08:46:52.616Z",
-      "last_attempt": "2026-08-23T08:46:52.616Z",
-      "error": null
+      "last_ok": "2026-08-23T13:00:26.012Z",
+      "last_attempt": "2026-08-23T13:00:26.012Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-08-23T08:46:53.774Z",
-      "last_attempt": "2026-08-23T08:46:53.774Z",
+      "last_ok": "2026-08-23T13:00:36.235Z",
+      "last_attempt": "2026-08-23T13:00:36.235Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-23T08:46:54.174Z",
-      "last_attempt": "2026-08-23T08:46:54.174Z",
+      "last_ok": "2026-08-23T13:00:36.866Z",
+      "last_attempt": "2026-08-23T13:00:36.866Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-23T08:46:54.242Z",
-      "last_attempt": "2026-08-23T08:46:54.242Z",
+      "last_ok": "2026-08-23T13:00:37.427Z",
+      "last_attempt": "2026-08-23T13:00:37.427Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-23T08:46:55.171Z",
-      "last_attempt": "2026-08-23T08:46:55.171Z",
+      "last_ok": "2026-08-23T13:00:38.866Z",
+      "last_attempt": "2026-08-23T13:00:38.866Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-23T08:46:55.755Z",
-      "last_attempt": "2026-08-23T08:46:55.755Z",
+      "last_ok": "2026-08-23T13:00:39.302Z",
+      "last_attempt": "2026-08-23T13:00:39.302Z",
       "error": null
     }
   },
@@ -6754,22 +6754,6 @@
       "genres": [
         "Rock"
       ]
-    },
-    {
-      "id": "fb7ff9cc83665577",
-      "date": "2026-09-04",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
-      "genre": "",
-      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
-      "link_name": "",
-      "venue": "Trinity Episcopal Church",
-      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
-      "genres": []
     },
     {
       "id": "f0660331a3bf31cf",
