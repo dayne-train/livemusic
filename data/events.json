@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-24T16:54:18.424Z",
-  "source_timestamp": "08/23/2026 16:13",
-  "content_hash": "b6e18a95d925707d",
+  "generated_at": "2026-08-24T20:47:15.514Z",
+  "source_timestamp": "08/24/2026 12:56",
+  "content_hash": "00da7601b34a2fdb",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 290,
+      "count": 297,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-24T16:53:56.263Z",
-      "last_attempt": "2026-08-24T16:53:56.263Z",
+      "last_ok": "2026-08-24T20:46:49.190Z",
+      "last_attempt": "2026-08-24T20:46:49.190Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 21,
       "strategy": "live",
-      "last_ok": "2026-08-24T16:53:56.546Z",
-      "last_attempt": "2026-08-24T16:53:56.546Z",
+      "last_ok": "2026-08-24T20:46:49.491Z",
+      "last_attempt": "2026-08-24T20:46:49.491Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-08-24T16:54:00.099Z",
-      "last_attempt": "2026-08-24T16:54:00.099Z",
+      "last_ok": "2026-08-24T20:46:51.980Z",
+      "last_attempt": "2026-08-24T20:46:51.980Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-24T16:54:00.423Z",
-      "last_attempt": "2026-08-24T16:54:00.423Z",
+      "last_ok": "2026-08-24T20:46:54.755Z",
+      "last_attempt": "2026-08-24T20:46:54.755Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-24T16:54:00.563Z",
-      "last_attempt": "2026-08-24T16:54:00.563Z",
+      "last_ok": "2026-08-24T20:46:54.920Z",
+      "last_attempt": "2026-08-24T20:46:54.920Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-24T16:54:01.605Z",
-      "last_attempt": "2026-08-24T16:54:01.605Z",
+      "last_ok": "2026-08-24T20:46:56.230Z",
+      "last_attempt": "2026-08-24T20:46:56.230Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-24T16:54:02.108Z",
-      "last_attempt": "2026-08-24T16:54:02.108Z",
+      "last_ok": "2026-08-24T20:46:56.645Z",
+      "last_attempt": "2026-08-24T20:46:56.645Z",
       "error": null
     }
   },
@@ -1922,6 +1922,17 @@
         "musiclist_txt"
       ]
     },
+    "Medford Drag Strip": {
+      "url": "https://medforddragstrip.com/",
+      "city": "Medford",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
     "Medford Market of Choice": {
       "url": "",
       "city": "Medford",
@@ -2304,6 +2315,17 @@
       "address": "",
       "region": "Ashland",
       "type": "Winery",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Rally At Ethos": {
+      "url": "https://rallyethos.com/",
+      "city": "Phoenix",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
+      "type": "Bar",
       "_sources": [
         "musiclist_txt"
       ]
@@ -3853,23 +3875,6 @@
       "genres": []
     },
     {
-      "id": "7c34aa7f0d6e9894",
-      "date": "2026-08-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
-      "genres": []
-    },
-    {
       "id": "d188cb47f1deceba",
       "date": "2026-08-21",
       "start_raw": "1400",
@@ -4996,25 +5001,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "b13c5a81fb3c76be",
-      "date": "2026-08-23",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
     },
     {
       "id": "f827ba2e2ecccc8a",
@@ -6683,21 +6669,21 @@
       "genres": []
     },
     {
-      "id": "c2e675ed5b8e3150",
-      "date": "2026-09-03",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "Simple Dreams",
-      "genre": "",
+      "id": "94a826f56217c16d",
+      "date": "2026-09-02",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Rogue Blues Society Blues Jam",
+      "genre": "blues",
       "link": "",
-      "link_name": "",
-      "venue": "Naumes Suncrest Winery",
-      "notes": "tribute to Fleetwood Mac, Heart, Journey; $22",
-      "event_type": "Band",
+      "link_name": "Rogue Blues Society",
+      "venue": "Curtain Call Cabaret & Lounge",
+      "notes": "",
+      "event_type": "Jam",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": [
-        "Other"
+        "Blues"
       ]
     },
     {
@@ -7112,6 +7098,24 @@
       "genres": []
     },
     {
+      "id": "433f6ab8c171b494",
+      "date": "2026-09-05",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "Rally At Ethos",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
+    },
+    {
       "id": "d910ad57340fd015",
       "date": "2026-09-05",
       "start_raw": "1830",
@@ -7273,6 +7277,25 @@
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/nic-gareiss-and-simon-chrisman-rhythm-and-tunes/",
       "genres": []
+    },
+    {
+      "id": "b9f645624f95debf",
+      "date": "2026-09-08",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "0bfc5c35ba5cbe5e",
@@ -7570,6 +7593,42 @@
       "genres": []
     },
     {
+      "id": "fa135f62a934c459",
+      "date": "2026-09-16",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "id": "5842f06b3c8757a9",
+      "date": "2026-09-16",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Rogue Blues Society Blues Jam",
+      "genre": "blues",
+      "link": "",
+      "link_name": "Rogue Blues Society",
+      "venue": "Curtain Call Cabaret & Lounge",
+      "notes": "",
+      "event_type": "Jam",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
       "id": "513aad14f42313d9",
       "date": "2026-09-17",
       "start_raw": "1830",
@@ -7796,6 +7855,24 @@
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-encore-5/",
       "genres": []
+    },
+    {
+      "id": "2dca03655ff64fec",
+      "date": "2026-09-21",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "Medford Drag Strip",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "a88db00fa8de5f46",
@@ -8114,6 +8191,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "1369b992b650e9d5",
+      "date": "2026-09-27",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Simple Dreams",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Naumes Suncrest Winery",
+      "notes": "tribute to Fleetwood Mac, Heart, Journey; $22",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "32166eacb30fbaa4",
@@ -8624,6 +8719,24 @@
       "genres": []
     },
     {
+      "id": "7f96b84c2a9025d6",
+      "date": "2026-10-17",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
+    },
+    {
       "id": "13ce2b277a6dc83f",
       "date": "2026-10-17",
       "start_raw": "2000",
@@ -8876,6 +8989,24 @@
       "source_url": null,
       "genres": [
         "Classical"
+      ]
+    },
+    {
+      "id": "a9e43b39e5aac04a",
+      "date": "2026-11-07",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "Apple Outlaw Taproom",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
       ]
     },
     {
