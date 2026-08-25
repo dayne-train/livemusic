@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-25T08:59:07.369Z",
+  "generated_at": "2026-08-25T13:10:28.766Z",
   "source_timestamp": "08/24/2026 16:02",
-  "content_hash": "df1660260ae819d4",
+  "content_hash": "5eb653eed010fcc6",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 304,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-25T08:58:35.503Z",
-      "last_attempt": "2026-08-25T08:58:35.503Z",
+      "last_ok": "2026-08-25T13:09:51.997Z",
+      "last_attempt": "2026-08-25T13:09:51.997Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-08-25T08:58:35.899Z",
-      "last_attempt": "2026-08-25T08:58:35.899Z",
+      "last_ok": "2026-08-25T13:09:52.796Z",
+      "last_attempt": "2026-08-25T13:09:52.796Z",
       "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-08-25T04:52:23.187Z",
-      "last_attempt": "2026-08-25T08:58:46.111Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 9,
+      "strategy": "live",
+      "last_ok": "2026-08-25T13:10:02.880Z",
+      "last_attempt": "2026-08-25T13:10:02.880Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-25T08:58:46.319Z",
-      "last_attempt": "2026-08-25T08:58:46.319Z",
+      "last_ok": "2026-08-25T13:10:03.256Z",
+      "last_attempt": "2026-08-25T13:10:03.256Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-25T08:58:46.405Z",
-      "last_attempt": "2026-08-25T08:58:46.405Z",
+      "last_ok": "2026-08-25T13:10:03.511Z",
+      "last_attempt": "2026-08-25T13:10:03.511Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-25T08:58:47.823Z",
-      "last_attempt": "2026-08-25T08:58:47.823Z",
+      "last_ok": "2026-08-25T13:10:05.060Z",
+      "last_attempt": "2026-08-25T13:10:05.060Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-25T08:58:48.257Z",
-      "last_attempt": "2026-08-25T08:58:48.257Z",
+      "last_ok": "2026-08-25T13:10:05.577Z",
+      "last_attempt": "2026-08-25T13:10:05.577Z",
       "error": null
     }
   },
@@ -3630,6 +3630,17 @@
       "_sources": [
         "musiclist_txt"
       ]
+    },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
     }
   },
   "events": [
@@ -3861,23 +3872,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "7c34aa7f0d6e9894",
-      "date": "2026-08-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -5009,25 +5003,6 @@
       "genres": []
     },
     {
-      "id": "b13c5a81fb3c76be",
-      "date": "2026-08-23",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "f827ba2e2ecccc8a",
       "date": "2026-08-23",
       "start_raw": "1500",
@@ -5975,6 +5950,23 @@
       "genres": []
     },
     {
+      "id": "a8a5b5ee723dde91",
+      "date": "2026-08-28",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "State of Terrapin (Night 1)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/state-of-terrapin/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/state-of-terrapin/",
+      "genres": []
+    },
+    {
       "id": "3c1716918fb82eff",
       "date": "2026-08-29",
       "start_raw": "1200",
@@ -6320,6 +6312,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8ae99ae23343a84f",
+      "date": "2026-08-29",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "State of Terrapin (Night 2)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/state-of-terrapin-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/state-of-terrapin-2/",
       "genres": []
     },
     {
@@ -7254,6 +7263,25 @@
       "genres": []
     },
     {
+      "id": "b9f645624f95debf",
+      "date": "2026-09-08",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "0bfc5c35ba5cbe5e",
       "date": "2026-09-09",
       "start_raw": "1700",
@@ -7267,6 +7295,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fbb8fcda0735ccbc",
+      "date": "2026-09-09",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dead Set 805",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dead-set-805/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dead-set-805/",
       "genres": []
     },
     {
@@ -7866,6 +7911,23 @@
       ]
     },
     {
+      "id": "5e2ae655824d55d6",
+      "date": "2026-09-23",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Joslyn & The Sweet Compression",
+      "genre": "",
+      "link": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "genres": []
+    },
+    {
       "id": "e5b5a7023fd2925a",
       "date": "2026-09-24",
       "start_raw": "1730",
@@ -8029,6 +8091,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "996814db97d176a6",
+      "date": "2026-09-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Magnificent Sanctuary Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
       "genres": []
     },
     {
@@ -8317,6 +8396,23 @@
       "genres": []
     },
     {
+      "id": "fcf7e0164010bcb2",
+      "date": "2026-10-03",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Barry The Fish Melton and The Scholer System",
+      "genre": "",
+      "link": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "genres": []
+    },
+    {
       "id": "335a13f2c4064dc6",
       "date": "2026-10-04",
       "start_raw": "1400",
@@ -8533,6 +8629,23 @@
       "genres": []
     },
     {
+      "id": "8ab6a928ff5ff250",
+      "date": "2026-10-15",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Analog Dog",
+      "genre": "",
+      "link": "https://talentclublive.com/event/analog-dog/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/analog-dog/",
+      "genres": []
+    },
+    {
       "id": "3f10eaa1f88e8222",
       "date": "2026-10-16",
       "start_raw": "1700",
@@ -8656,6 +8769,23 @@
       ]
     },
     {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
+    },
+    {
       "id": "7a5cd3b82b0db4ce",
       "date": "2026-10-18",
       "start_raw": "1500",
@@ -8755,6 +8885,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "aeaf97860ea4be91",
+      "date": "2026-10-27",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
+      "genre": "",
+      "link": "https://talentclublive.com/event/steely-dead/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/steely-dead/",
       "genres": []
     },
     {
