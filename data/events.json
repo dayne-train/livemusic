@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-25T16:54:07.947Z",
+  "generated_at": "2026-08-25T20:44:34.487Z",
   "source_timestamp": "08/24/2026 16:02",
-  "content_hash": "59326018a5903e41",
+  "content_hash": "ab392190b5f0ce42",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 304,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-25T16:53:39.415Z",
-      "last_attempt": "2026-08-25T16:53:39.415Z",
+      "last_ok": "2026-08-25T20:44:21.501Z",
+      "last_attempt": "2026-08-25T20:44:21.501Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-08-25T16:53:39.814Z",
-      "last_attempt": "2026-08-25T16:53:39.814Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-25T20:44:22.007Z",
+      "last_attempt": "2026-08-25T20:44:22.007Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-08-25T16:53:49.958Z",
-      "last_attempt": "2026-08-25T16:53:49.958Z",
+      "last_ok": "2026-08-25T20:44:23.175Z",
+      "last_attempt": "2026-08-25T20:44:23.175Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-25T16:53:50.280Z",
-      "last_attempt": "2026-08-25T16:53:50.280Z",
+      "last_ok": "2026-08-25T20:44:23.573Z",
+      "last_attempt": "2026-08-25T20:44:23.573Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-25T16:53:50.483Z",
-      "last_attempt": "2026-08-25T16:53:50.483Z",
+      "last_ok": "2026-08-25T20:44:23.709Z",
+      "last_attempt": "2026-08-25T20:44:23.709Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-25T16:53:51.371Z",
-      "last_attempt": "2026-08-25T16:53:51.371Z",
+      "last_ok": "2026-08-25T20:44:25.423Z",
+      "last_attempt": "2026-08-25T20:44:25.423Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-25T16:53:51.832Z",
-      "last_attempt": "2026-08-25T16:53:51.832Z",
+      "last_ok": "2026-08-25T20:44:27.187Z",
+      "last_attempt": "2026-08-25T20:44:27.187Z",
       "error": null
     }
   },
@@ -6173,19 +6173,31 @@
       "end_raw": "1930",
       "musician": "Rogue Suspects",
       "genre": "classic rock",
-      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "Santana Tribute; $10-$15",
       "event_type": "Band",
       "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "1342dc9dccc700de",
+      "date": "2026-08-29",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Rogue Suspects - Santana Tribute! SOLD OUT",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-2/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "This show highlights Carlos Santana’s music from his early beginnings to his collaborations with the biggest rock stars in history. Be prepared to dance as this show features three stellar female lead",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
       "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "d723dd85ce80e7e2"
-        }
-      ],
       "genres": [
         "Rock"
       ]
@@ -6852,6 +6864,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "fb7ff9cc83665577",
+      "date": "2026-09-04",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
+      "genre": "",
+      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "link_name": "",
+      "venue": "Trinity Episcopal Church",
+      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "genres": []
     },
     {
       "id": "f0660331a3bf31cf",
@@ -7630,6 +7658,22 @@
       ]
     },
     {
+      "id": "59dc8ddf5ca57400",
+      "date": "2026-09-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Comedy: Fine Wines & Punch Lines (Third Wednesdays)",
+      "genre": "",
+      "link": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Join us for a monthly Comedy Night, Age 18+ only: Fine Wines & Punch Lines! \nThis event is FREE to attend; 2 Drink Minimum \nGrab a glass of wine or one of our many other beverage choices and settle in",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays/",
+      "genres": []
+    },
+    {
       "id": "513aad14f42313d9",
       "date": "2026-09-17",
       "start_raw": "1830",
@@ -7723,6 +7767,22 @@
       "event_type": "Jam",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "6d8573da86e75a94",
+      "date": "2026-09-19",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Rick Millward Presents Open Mic - Semi Final!",
+      "genre": "",
+      "link": "https://roxyann.com/event/rick-millward-presents-open-mic-2/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "The RoxyAnn Open Mic will be this Saturday, and we’ve come up with a way to make 2026 bigger and more exciting. In October the top 3 from the previous 8 month’s shows will win a paid date on a Friday ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/rick-millward-presents-open-mic-2/",
       "genres": []
     },
     {
