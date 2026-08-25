@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-24T20:47:15.514Z",
-  "source_timestamp": "08/24/2026 12:56",
-  "content_hash": "00da7601b34a2fdb",
+  "generated_at": "2026-08-25T01:51:25.053Z",
+  "source_timestamp": "08/24/2026 16:02",
+  "content_hash": "59326018a5903e41",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 297,
+      "count": 304,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-24T20:46:49.190Z",
-      "last_attempt": "2026-08-24T20:46:49.190Z",
+      "last_ok": "2026-08-25T01:50:55.393Z",
+      "last_attempt": "2026-08-25T01:50:55.393Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-08-24T20:46:49.491Z",
-      "last_attempt": "2026-08-24T20:46:49.491Z",
-      "error": null
+      "last_ok": "2026-08-25T01:50:55.864Z",
+      "last_attempt": "2026-08-25T01:50:55.864Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-08-24T20:46:51.980Z",
-      "last_attempt": "2026-08-24T20:46:51.980Z",
+      "last_ok": "2026-08-25T01:51:06.093Z",
+      "last_attempt": "2026-08-25T01:51:06.093Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-24T20:46:54.755Z",
-      "last_attempt": "2026-08-24T20:46:54.755Z",
+      "last_ok": "2026-08-25T01:51:06.493Z",
+      "last_attempt": "2026-08-25T01:51:06.493Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-24T20:46:54.920Z",
-      "last_attempt": "2026-08-24T20:46:54.920Z",
+      "last_ok": "2026-08-25T01:51:06.672Z",
+      "last_attempt": "2026-08-25T01:51:06.672Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-24T20:46:56.230Z",
-      "last_attempt": "2026-08-24T20:46:56.230Z",
+      "last_ok": "2026-08-25T01:51:07.911Z",
+      "last_attempt": "2026-08-25T01:51:07.911Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-24T20:46:56.645Z",
-      "last_attempt": "2026-08-24T20:46:56.645Z",
+      "last_ok": "2026-08-25T01:51:08.399Z",
+      "last_attempt": "2026-08-25T01:51:08.399Z",
       "error": null
     }
   },
@@ -3875,6 +3875,23 @@
       "genres": []
     },
     {
+      "id": "7c34aa7f0d6e9894",
+      "date": "2026-08-20",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Karaoke",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/karaoke-night/",
+      "genres": []
+    },
+    {
       "id": "d188cb47f1deceba",
       "date": "2026-08-21",
       "start_raw": "1400",
@@ -5001,6 +5018,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "b13c5a81fb3c76be",
+      "date": "2026-08-23",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "f827ba2e2ecccc8a",
@@ -6818,22 +6854,6 @@
       ]
     },
     {
-      "id": "fb7ff9cc83665577",
-      "date": "2026-09-04",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
-      "genre": "",
-      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
-      "link_name": "",
-      "venue": "Trinity Episcopal Church",
-      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
-      "genres": []
-    },
-    {
       "id": "f0660331a3bf31cf",
       "date": "2026-09-04",
       "start_raw": "1730",
@@ -7277,25 +7297,6 @@
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/nic-gareiss-and-simon-chrisman-rhythm-and-tunes/",
       "genres": []
-    },
-    {
-      "id": "b9f645624f95debf",
-      "date": "2026-09-08",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "0bfc5c35ba5cbe5e",
@@ -7944,6 +7945,22 @@
       "genres": []
     },
     {
+      "id": "e5b5a7023fd2925a",
+      "date": "2026-09-24",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Rick Millward",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "d27ecfece64266ea",
       "date": "2026-09-24",
       "start_raw": "1800",
@@ -8445,6 +8462,22 @@
       "genres": []
     },
     {
+      "id": "8315ad51e7b953ca",
+      "date": "2026-10-04",
+      "start_raw": "1530",
+      "end_raw": "1730",
+      "musician": "Rick Millward",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Paschal Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "4101a1c4ca2160ec",
       "date": "2026-10-04",
       "start_raw": "1600",
@@ -8627,6 +8660,22 @@
       "event_type": "Band",
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/analog-dog/",
+      "genres": []
+    },
+    {
+      "id": "3f10eaa1f88e8222",
+      "date": "2026-10-16",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Rick Millward",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Padigan Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -8957,6 +9006,22 @@
       "genres": []
     },
     {
+      "id": "990275822bfef151",
+      "date": "2026-11-06",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Rick Millward",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Padigan Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "83a6ebaffe744a56",
       "date": "2026-11-06",
       "start_raw": "1700",
@@ -9053,6 +9118,38 @@
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "bf1aa51b5784bf24",
+      "date": "2026-11-19",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Rick Millward",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "180033fc81cb4177",
+      "date": "2026-11-20",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Rick Millward",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -9174,6 +9271,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "5de4e556f41ef7cd",
+      "date": "2026-12-26",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Rick Millward",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "45b96ee5cf9a81fe",
