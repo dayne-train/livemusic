@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-25T20:44:34.487Z",
-  "source_timestamp": "08/24/2026 16:02",
-  "content_hash": "ab392190b5f0ce42",
+  "generated_at": "2026-08-26T01:57:10.645Z",
+  "source_timestamp": "08/25/2026 16:03",
+  "content_hash": "d9e411828d953a1c",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 304,
+      "count": 311,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-25T20:44:21.501Z",
-      "last_attempt": "2026-08-25T20:44:21.501Z",
+      "last_ok": "2026-08-26T01:56:48.594Z",
+      "last_attempt": "2026-08-26T01:56:48.594Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-08-25T20:44:22.007Z",
-      "last_attempt": "2026-08-25T20:44:22.007Z",
+      "last_ok": "2026-08-26T01:56:48.917Z",
+      "last_attempt": "2026-08-26T01:56:48.917Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-08-25T20:44:23.175Z",
-      "last_attempt": "2026-08-25T20:44:23.175Z",
+      "last_ok": "2026-08-26T01:56:50.654Z",
+      "last_attempt": "2026-08-26T01:56:50.654Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-25T20:44:23.573Z",
-      "last_attempt": "2026-08-25T20:44:23.573Z",
+      "last_ok": "2026-08-26T01:56:51.006Z",
+      "last_attempt": "2026-08-26T01:56:51.006Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-25T20:44:23.709Z",
-      "last_attempt": "2026-08-25T20:44:23.709Z",
+      "last_ok": "2026-08-26T01:56:51.206Z",
+      "last_attempt": "2026-08-26T01:56:51.206Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-25T20:44:25.423Z",
-      "last_attempt": "2026-08-25T20:44:25.423Z",
+      "last_ok": "2026-08-26T01:56:52.219Z",
+      "last_attempt": "2026-08-26T01:56:52.219Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-25T20:44:27.187Z",
-      "last_attempt": "2026-08-25T20:44:27.187Z",
+      "last_ok": "2026-08-26T01:56:52.685Z",
+      "last_attempt": "2026-08-26T01:56:52.685Z",
       "error": null
     }
   },
@@ -2838,6 +2838,17 @@
         "musiclist_txt"
       ]
     },
+    "Talent Local Goods Market": {
+      "url": "https://www.facebook.com/profile.php/?id=100094978751225",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
     "Talent Show Music Festival": {
       "url": "https://www.facebook.com/people/The-Talent-Show-Music-Festival/61575957696168/",
       "city": "Talent",
@@ -4815,22 +4826,6 @@
       "link": "",
       "link_name": "",
       "venue": "Apple Outlaw Taproom",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "cba8d2f254029088",
-      "date": "2026-08-22",
-      "start_raw": "1830",
-      "end_raw": "2030",
-      "musician": "Phil & Darren",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Morrtons Too",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6998,6 +6993,26 @@
       "genres": []
     },
     {
+      "id": "14faa656839ee206",
+      "date": "2026-09-04",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "Robbie Dacosta",
+      "genre": "blues, classic rock, pop, variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues",
+        "Rock",
+        "Pop"
+      ]
+    },
+    {
       "id": "8a9f33d82f3b0785",
       "date": "2026-09-05",
       "start_raw": "1200",
@@ -7173,6 +7188,22 @@
       "link": "",
       "link_name": "Frankie Hernandez",
       "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "92631dc44b4310e1",
+      "date": "2026-09-05",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "Connor Reese",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7394,6 +7425,24 @@
       "genres": []
     },
     {
+      "id": "912300a1bbe09161",
+      "date": "2026-09-10",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
+    },
+    {
       "id": "cb35f040a9103b17",
       "date": "2026-09-11",
       "start_raw": "1700",
@@ -7458,6 +7507,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "1388c6a9539b249d",
+      "date": "2026-09-11",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "John Johns",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6694bd5525a1bdd3",
@@ -7549,6 +7614,22 @@
       "link": "",
       "link_name": "Frankie Hernandez",
       "venue": "Walkabout Brewing",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "aeca8433dc4f2645",
+      "date": "2026-09-12",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "Charlee Prayers Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7715,6 +7796,22 @@
       "link": "",
       "link_name": "",
       "venue": "South Stage Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5ac4ea65d1a33c1b",
+      "date": "2026-09-18",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "Victoria Lawton",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8263,6 +8360,22 @@
       "link": "",
       "link_name": "",
       "venue": "Walkabout Brewing",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "94eb09a6c98e4bb5",
+      "date": "2026-09-26",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Gil René",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Morrtons Too",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -9014,6 +9127,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "461df7bf19f55ffd",
+      "date": "2026-10-31",
+      "start_raw": "1300",
+      "end_raw": "1430",
+      "musician": "Gil René",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Talent Local Goods Market",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "087195c9c45338b2",
