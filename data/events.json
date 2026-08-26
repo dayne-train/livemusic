@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-26T09:01:06.396Z",
+  "generated_at": "2026-08-26T13:15:25.844Z",
   "source_timestamp": "08/25/2026 16:03",
-  "content_hash": "f88a0d87859cc8ce",
+  "content_hash": "d9e411828d953a1c",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 311,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-26T09:00:41.789Z",
-      "last_attempt": "2026-08-26T09:00:41.789Z",
+      "last_ok": "2026-08-26T13:15:02.199Z",
+      "last_attempt": "2026-08-26T13:15:02.199Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-08-26T09:00:42.095Z",
-      "last_attempt": "2026-08-26T09:00:42.095Z",
+      "last_ok": "2026-08-26T13:15:02.461Z",
+      "last_attempt": "2026-08-26T13:15:02.461Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-08-26T09:00:43.861Z",
-      "last_attempt": "2026-08-26T09:00:43.861Z",
+      "last_ok": "2026-08-26T13:15:04.469Z",
+      "last_attempt": "2026-08-26T13:15:04.469Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-26T09:00:44.108Z",
-      "last_attempt": "2026-08-26T09:00:44.108Z",
+      "last_ok": "2026-08-26T13:15:04.796Z",
+      "last_attempt": "2026-08-26T13:15:04.796Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-26T09:00:44.269Z",
-      "last_attempt": "2026-08-26T09:00:44.269Z",
+      "last_ok": "2026-08-26T13:15:05.027Z",
+      "last_attempt": "2026-08-26T13:15:05.027Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-26T09:00:45.238Z",
-      "last_attempt": "2026-08-26T09:00:45.238Z",
+      "last_ok": "2026-08-26T13:15:06.204Z",
+      "last_attempt": "2026-08-26T13:15:06.204Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-26T09:00:45.630Z",
-      "last_attempt": "2026-08-26T09:00:45.630Z",
+      "last_ok": "2026-08-26T13:15:06.715Z",
+      "last_attempt": "2026-08-26T13:15:06.715Z",
       "error": null
     }
   },
@@ -3886,6 +3886,23 @@
       "genres": []
     },
     {
+      "id": "7c34aa7f0d6e9894",
+      "date": "2026-08-20",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Karaoke",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/karaoke-night/",
+      "genres": []
+    },
+    {
       "id": "d188cb47f1deceba",
       "date": "2026-08-21",
       "start_raw": "1400",
@@ -4996,6 +5013,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "b13c5a81fb3c76be",
+      "date": "2026-08-23",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "f827ba2e2ecccc8a",
@@ -7320,25 +7356,6 @@
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/nic-gareiss-and-simon-chrisman-rhythm-and-tunes/",
       "genres": []
-    },
-    {
-      "id": "b9f645624f95debf",
-      "date": "2026-09-08",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "0bfc5c35ba5cbe5e",
