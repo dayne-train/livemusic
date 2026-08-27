@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1289,
+  "event_count": 1298,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -1016,6 +1016,17 @@
       "address": "",
       "region": "Medford",
       "type": "Bar",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "The Curtain Call": {
+      "url": "https://www.curtaincallcollective.com",
+      "city": "Medford",
+      "notes": "120 E 6th St",
+      "address": "120 E 6th St",
+      "region": "Medford",
+      "type": "Other",
       "_sources": [
         "musiclist_txt"
       ]
@@ -22481,6 +22492,152 @@
       "genres": [
         "Other"
       ]
+    },
+    {
+      "id": "5946deaa27c92e66",
+      "date": "2026-08-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Mark Charles Hill",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Annie Creek Restaurant",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "12309192bb77e48f",
+      "date": "2026-08-26",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Niesja",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Padigan Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "587211f711ab1a34",
+      "date": "2026-08-26",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "96ba127c6d48530a",
+      "date": "2026-08-26",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Victoria Lawton-Diez",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "c1371888eac893e8",
+      "date": "2026-08-26",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "edf4ca4edb5f4b70",
+      "date": "2026-08-26",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Brothers Reed",
+      "genre": "Folk",
+      "link": "",
+      "link_name": "",
+      "venue": "Weekend Beer Company",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Folk"
+      ]
+    },
+    {
+      "id": "2739da1e1069bd5d",
+      "date": "2026-08-26",
+      "start_raw": "1830",
+      "end_raw": "1930",
+      "musician": "Canto Sol Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "Canto Sol",
+      "venue": "Cedarwood Barn",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "aafb973af6efa1e4",
+      "date": "2026-08-26",
+      "start_raw": "1900",
+      "end_raw": "2145",
+      "musician": "Dan Doshier",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5ceb0e6db494e6ca",
+      "date": "2026-08-26",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "musician": "Rushadicus the Cello Goblin",
+      "genre": "cello",
+      "link": "",
+      "link_name": "",
+      "venue": "The Curtain Call",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     }
   ]
 }
