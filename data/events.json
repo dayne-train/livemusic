@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-29T19:24:38.727Z",
-  "source_timestamp": "08/27/2026 12:57",
-  "content_hash": "809a89794e02e7dd",
+  "generated_at": "2026-08-29T22:39:51.190Z",
+  "source_timestamp": "08/29/2026 12:39",
+  "content_hash": "21af1874bb724252",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 254,
+      "count": 257,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-29T19:24:09.093Z",
-      "last_attempt": "2026-08-29T19:24:09.093Z",
+      "last_ok": "2026-08-29T22:39:30.318Z",
+      "last_attempt": "2026-08-29T22:39:30.318Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 21,
       "strategy": "live",
-      "last_ok": "2026-08-29T19:24:09.591Z",
-      "last_attempt": "2026-08-29T19:24:09.591Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-29T22:39:30.809Z",
+      "last_attempt": "2026-08-29T22:39:30.809Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-08-29T19:24:19.732Z",
-      "last_attempt": "2026-08-29T19:24:19.732Z",
+      "last_ok": "2026-08-29T22:39:33.154Z",
+      "last_attempt": "2026-08-29T22:39:33.154Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-29T19:24:20.275Z",
-      "last_attempt": "2026-08-29T19:24:20.275Z",
+      "last_ok": "2026-08-29T22:39:33.802Z",
+      "last_attempt": "2026-08-29T22:39:33.802Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-29T19:24:20.584Z",
-      "last_attempt": "2026-08-29T19:24:20.584Z",
+      "last_ok": "2026-08-29T22:39:33.997Z",
+      "last_attempt": "2026-08-29T22:39:33.997Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-29T19:24:22.166Z",
-      "last_attempt": "2026-08-29T19:24:22.166Z",
+      "last_ok": "2026-08-29T22:39:35.305Z",
+      "last_attempt": "2026-08-29T22:39:35.305Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-29T19:24:22.637Z",
-      "last_attempt": "2026-08-29T19:24:22.637Z",
+      "last_ok": "2026-08-29T22:39:35.811Z",
+      "last_attempt": "2026-08-29T22:39:35.811Z",
       "error": null
     }
   },
@@ -244,6 +244,17 @@
       "address": "",
       "region": "Ashland",
       "type": "Bar",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Art Presence Art Center": {
+      "url": "https://art-presence.org/",
+      "city": "Jacksonville",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
+      "type": "Other",
       "_sources": [
         "musiclist_txt"
       ]
@@ -1287,6 +1298,17 @@
     "Hanley Farm": {
       "url": "https://sohs.org/hanley-farm/",
       "city": "Jacksonville",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Harry & David Store": {
+      "url": "https://www.harryanddavid.com/h/store/or/medford",
+      "city": "Medford",
       "notes": "",
       "address": "",
       "region": "Medford",
@@ -5624,6 +5646,22 @@
       ]
     },
     {
+      "id": "fb7ff9cc83665577",
+      "date": "2026-09-04",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
+      "genre": "",
+      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "link_name": "",
+      "venue": "Trinity Episcopal Church",
+      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "genres": []
+    },
+    {
       "id": "f0660331a3bf31cf",
       "date": "2026-09-04",
       "start_raw": "1730",
@@ -5838,6 +5876,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "91b45d711ade85e6",
+      "date": "2026-09-05",
+      "start_raw": "1530",
+      "end_raw": "1700",
+      "musician": "Jon Galfano",
+      "genre": "classic rock, variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Harry & David Store",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "f94ef0176ff338cc",
@@ -6705,6 +6761,22 @@
       "genres": []
     },
     {
+      "id": "9f62cfa68866b877",
+      "date": "2026-09-17",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Jen Ambrose w/ Jon Galfano",
+      "genre": "",
+      "link": "",
+      "link_name": "Jen Ambrose",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "513aad14f42313d9",
       "date": "2026-09-17",
       "start_raw": "1830",
@@ -6815,6 +6887,24 @@
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/oktoberfest/",
       "genres": []
+    },
+    {
+      "id": "d2fbf6802bd237ed",
+      "date": "2026-09-19",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Jon Galfano",
+      "genre": "classic rock, variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Art Presence Art Center",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "508cc6f1e96e020b",

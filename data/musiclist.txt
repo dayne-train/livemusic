@@ -1,5 +1,5 @@
 --timestamp
-08/27/2026 12:57
+08/29/2026 12:39
 --news
 * date | notes
 --musicians
@@ -150,6 +150,7 @@ Apricity Vineyard|https://www.apricityvineyard.com/|Grants Pass|N||GrantsPass|Wi
 Area 61 Taphouse|https://www.facebook.com/p/Area-61-Taphouse-Grants-Pass-Or-100094586757282|Grants Pass|N||GrantsPass|Other||
 Art Along the Rogue|https://visitgrantspass.com/art-along-the-rogue/|Grants Pass|N||GrantsPass|Other||
 Art Bop Beer Co|https://www.facebook.com/artbopbeerco/|Talent|N||Ashland|Bar|1|
+Art Presence Art Center|https://art-presence.org/|Jacksonville|N||Medford|Other||
 Ashland Armory|https://www.liveatthearmory.com/|Ashland|N||Ashland|Other||
 Ashland Art Works|https://ashlandartworks.org/|Ashland|N||Ashland|Other||
 Ashland Plaza||Ashland|N||Ashland|Other||
@@ -245,6 +246,7 @@ Gypsy Blues Bar|https://www.facebook.com/p/The-GypsyBlues-Bar-100063503235541/|M
 Gypsy Road Studio|https://gypsyroadstudio.com/|Ashland|N||Ashland|Other||
 Handlebar Bike Shop|https://www.handlebarashland.com/|Ashland|N||Ashland|Other||
 Hanley Farm|https://sohs.org/hanley-farm/|Jacksonville|N||Medford|Other||
+Harry & David Store|https://www.harryanddavid.com/h/store/or/medford|Medford|N||Medford|Other||
 Hearsay|http://www.hearsayashland.com/events/|Ashland|N||Ashland|Bar||
 Hemi and Hogs Bar|https://www.facebook.com/Hemi-and-Hogs-Bar-and-Grill-113834450054093/|Medford|N||Medford|Bar||
 Hidden Door Cafe|http://www.hiddendoorcafe.com/|Medford|N||Medford|Other||
@@ -584,6 +586,7 @@ Adam Gabriel||||Annie Creek Restaurant||09/04/26|1830|2030||Band|26/08/08 09:46A
 Robbie Dacosta||||Liquid Lounge||09/04/26|2000|2200||Band|26/08/25 16:03PM|2|
 Jeff Kloetzel||||Naumes Suncrest Winery||09/05/26|1500|1700||Band|26/08/20 14:20PM|6|
 Gil René||||Hanley Farm||09/05/26|1530|1730||Band|26/08/19 15:12PM|6|
+Jon Galfano||||Harry & David Store||09/05/26|1530|1700||Band|26/08/29 12:39PM|3|
 Sonido Alegre||||Paschal Winery||09/05/26|1530|1730||Band|26/08/23 16:13PM|6|
 Dr Pain and the Remedy||||Lake of the Woods||09/05/26|1600|2000||Band||6|
 Pozitronics||||Rellik Winery||09/05/26|1600|1800||Band||6|
@@ -625,12 +628,14 @@ Joshua Paul||||Paschal Winery||09/13/26|1530|1730||Band||6|
 Tres Palomas||||Butterfly Club 557||09/13/26|1800|1900|$10|Band||6|
 Santa Fe Band||||South Stage Cellars||09/16/26|1730|1930||Band|26/08/24 10:33AM|6|
 Rogue Blues Society Blues Jam|blues||Rogue Blues Society|Curtain Call Cabaret & Lounge||09/16/26|1800|2100||Jam|26/08/25 07:53AM|4|
+Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Belle Fiore||09/17/26|1730|1930||Band|26/08/29 12:39PM|3|
 Femme Fatale||||Talon Grill||09/17/26|1830|2030||Band|26/08/08 09:46AM|6|
 Pandora Band||||Alibi Tavern||09/17/26|1900|2200||Band|26/08/27 12:57PM|4|
 Gypsy Gillis|||Gypsy Gillis Band|Tiffany's Marketplace||09/18/26|1700|1900||Band|26/08/23 07:34AM|6|
 Living Loving Led||||South Stage Cellars||09/18/26|1730|1930||Band||6|
 Victoria Lawton||||Liquid Lounge||09/18/26|2000|2200||Band|26/08/25 16:03PM|2|
 The Gus Factor||||The Copper Plank||09/18/26|2000|2300||Band||6|
+Jon Galfano||||Art Presence Art Center||09/19/26|1400|1600||Band|26/08/29 12:39PM|3|
 Ukulele Jam||||Pebblestone Cellars||09/19/26|1400|1600||Jam||6|
 Dr Pain and the Remedy||||Padigan Wines||09/19/26|1700|1900||Band||6|
 Nick & Shae||||Stone River Winery||09/19/26|1700|1900||Band||6|
