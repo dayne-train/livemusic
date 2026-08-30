@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-30T13:47:53.617Z",
-  "source_timestamp": "08/29/2026 12:39",
-  "content_hash": "66e189460ce31873",
+  "generated_at": "2026-08-30T19:18:53.968Z",
+  "source_timestamp": "08/30/2026 08:40",
+  "content_hash": "26c7ad96cc1ab4cc",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 257,
+      "count": 258,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-30T13:47:29.369Z",
-      "last_attempt": "2026-08-30T13:47:29.369Z",
+      "last_ok": "2026-08-30T19:18:25.942Z",
+      "last_attempt": "2026-08-30T19:18:25.942Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-08-30T13:47:29.885Z",
-      "last_attempt": "2026-08-30T13:47:29.885Z",
-      "error": null
+      "last_ok": "2026-08-30T19:18:26.677Z",
+      "last_attempt": "2026-08-30T19:18:26.677Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-30T13:47:32.324Z",
-      "last_attempt": "2026-08-30T13:47:32.324Z",
+      "last_ok": "2026-08-30T19:18:36.801Z",
+      "last_attempt": "2026-08-30T19:18:36.801Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-30T13:47:32.741Z",
-      "last_attempt": "2026-08-30T13:47:32.741Z",
+      "last_ok": "2026-08-30T19:18:36.906Z",
+      "last_attempt": "2026-08-30T19:18:36.906Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-30T13:47:32.917Z",
-      "last_attempt": "2026-08-30T13:47:32.917Z",
+      "last_ok": "2026-08-30T19:18:37.053Z",
+      "last_attempt": "2026-08-30T19:18:37.053Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-30T13:47:34.328Z",
-      "last_attempt": "2026-08-30T13:47:34.328Z",
+      "last_ok": "2026-08-30T19:18:42.366Z",
+      "last_attempt": "2026-08-30T19:18:42.366Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-30T13:47:34.789Z",
-      "last_attempt": "2026-08-30T13:47:34.789Z",
+      "last_ok": "2026-08-30T19:18:42.847Z",
+      "last_attempt": "2026-08-30T19:18:42.847Z",
       "error": null
     }
   },
@@ -5611,22 +5611,6 @@
       ]
     },
     {
-      "id": "fb7ff9cc83665577",
-      "date": "2026-09-04",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
-      "genre": "",
-      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
-      "link_name": "",
-      "venue": "Trinity Episcopal Church",
-      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
-      "genres": []
-    },
-    {
       "id": "f0660331a3bf31cf",
       "date": "2026-09-04",
       "start_raw": "1730",
@@ -6468,6 +6452,22 @@
       "link": "",
       "link_name": "",
       "venue": "Deer Creek Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "dc3856c50f2a35e3",
+      "date": "2026-09-12",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "JustaDuo",
+      "genre": "easy listening",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",

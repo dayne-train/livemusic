@@ -1,5 +1,5 @@
 --timestamp
-08/29/2026 12:39
+08/30/2026 08:40
 --news
 * date | notes
 --musicians
@@ -616,6 +616,7 @@ John Johns||||Liquid Lounge||09/11/26|2000|2200||Band|26/08/25 16:03PM|2|
 Enoch and David||||Wanderlust Vineyard||09/12/26|1330|1530||Band||6|
 Dawna Crocker||||Deer Creek Vineyards||09/12/26|1400|1600||Band|26/08/27 12:57PM|1|
 Tatjana Juliette||||Deer Creek Vineyards||09/12/26|1600|1900||Band|26/08/27 12:57PM|1|
+JustaDuo||||Rellik Winery||09/12/26|1600|1800||Band|26/08/30 08:40AM|3|
 Keenan Pruett||||Remotion Wine||09/12/26|1700|1900||Band||6|
 Lisa and Dean||||Stone River Winery||09/12/26|1700|1900||Band||6|
 Rogue Suspects||||Dunbar Farms||09/12/26|1800|2000|Bonnie Raitt tribute; $12|Band|26/08/27 12:57PM|1|
