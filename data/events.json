@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-30T05:22:32.652Z",
+  "generated_at": "2026-08-30T13:47:53.617Z",
   "source_timestamp": "08/29/2026 12:39",
-  "content_hash": "1ab75463e5e427af",
+  "content_hash": "66e189460ce31873",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 257,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-30T05:22:01.295Z",
-      "last_attempt": "2026-08-30T05:22:01.295Z",
+      "last_ok": "2026-08-30T13:47:29.369Z",
+      "last_attempt": "2026-08-30T13:47:29.369Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 20,
       "strategy": "live",
-      "last_ok": "2026-08-30T05:22:01.638Z",
-      "last_attempt": "2026-08-30T05:22:01.638Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-08-30T13:47:29.885Z",
+      "last_attempt": "2026-08-30T13:47:29.885Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-30T05:22:11.824Z",
-      "last_attempt": "2026-08-30T05:22:11.824Z",
+      "last_ok": "2026-08-30T13:47:32.324Z",
+      "last_attempt": "2026-08-30T13:47:32.324Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-30T05:22:12.382Z",
-      "last_attempt": "2026-08-30T05:22:12.382Z",
+      "last_ok": "2026-08-30T13:47:32.741Z",
+      "last_attempt": "2026-08-30T13:47:32.741Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-30T05:22:12.596Z",
-      "last_attempt": "2026-08-30T05:22:12.596Z",
+      "last_ok": "2026-08-30T13:47:32.917Z",
+      "last_attempt": "2026-08-30T13:47:32.917Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-30T05:22:14.023Z",
-      "last_attempt": "2026-08-30T05:22:14.023Z",
+      "last_ok": "2026-08-30T13:47:34.328Z",
+      "last_attempt": "2026-08-30T13:47:34.328Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-30T05:22:14.527Z",
-      "last_attempt": "2026-08-30T05:22:14.527Z",
+      "last_ok": "2026-08-30T13:47:34.789Z",
+      "last_attempt": "2026-08-30T13:47:34.789Z",
       "error": null
     }
   },
@@ -4702,24 +4702,6 @@
       ]
     },
     {
-      "id": "1342dc9dccc700de",
-      "date": "2026-08-29",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "Rogue Suspects - Santana Tribute! SOLD OUT",
-      "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-2/",
-      "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "This show highlights Carlos Santana’s music from his early beginnings to his collaborations with the biggest rock stars in history. Be prepared to dance as this show features three stellar female lead",
-      "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-2/",
-      "genres": [
-        "Rock"
-      ]
-    },
-    {
       "id": "9009637d91084e16",
       "date": "2026-08-29",
       "start_raw": "1730",
@@ -5627,6 +5609,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "fb7ff9cc83665577",
+      "date": "2026-09-04",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
+      "genre": "",
+      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "link_name": "",
+      "venue": "Trinity Episcopal Church",
+      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "genres": []
     },
     {
       "id": "f0660331a3bf31cf",
