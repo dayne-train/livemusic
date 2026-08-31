@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-31T16:09:00.873Z",
+  "generated_at": "2026-08-31T21:28:07.518Z",
   "source_timestamp": "08/30/2026 08:40",
-  "content_hash": "89ef52255ca5d2ef",
+  "content_hash": "fe7378570188b2b9",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 258,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-31T16:08:39.169Z",
-      "last_attempt": "2026-08-31T16:08:39.169Z",
+      "last_ok": "2026-08-31T21:27:48.636Z",
+      "last_attempt": "2026-08-31T21:27:48.636Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-08-31T16:08:39.835Z",
-      "last_attempt": "2026-08-31T16:08:39.835Z",
+      "last_ok": "2026-08-31T21:27:48.913Z",
+      "last_attempt": "2026-08-31T21:27:48.913Z",
       "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-31T16:08:42.115Z",
-      "last_attempt": "2026-08-31T16:08:42.115Z",
+      "last_ok": "2026-08-31T21:27:52.171Z",
+      "last_attempt": "2026-08-31T21:27:52.171Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-31T16:08:42.581Z",
-      "last_attempt": "2026-08-31T16:08:42.581Z",
+      "last_ok": "2026-08-31T21:27:52.383Z",
+      "last_attempt": "2026-08-31T21:27:52.383Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 4,
+      "count": 5,
       "strategy": "live",
-      "last_ok": "2026-08-31T16:08:42.738Z",
-      "last_attempt": "2026-08-31T16:08:42.738Z",
+      "last_ok": "2026-08-31T21:27:52.611Z",
+      "last_attempt": "2026-08-31T21:27:52.611Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-31T16:08:44.499Z",
-      "last_attempt": "2026-08-31T16:08:44.499Z",
+      "last_ok": "2026-08-31T21:27:54.009Z",
+      "last_attempt": "2026-08-31T21:27:54.009Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-31T16:08:45.132Z",
-      "last_attempt": "2026-08-31T16:08:45.132Z",
+      "last_ok": "2026-08-31T21:27:54.468Z",
+      "last_attempt": "2026-08-31T21:27:54.468Z",
       "error": null
     }
   },
@@ -8469,6 +8469,23 @@
       "notes": "w/Steve Swift",
       "event_type": "Band",
       "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "27723964b7c0901f",
+      "date": "2026-12-01",
+      "start_raw": "1930",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "MUSIX Concert",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "MUSIX is SOU’s premiere house band. Students in MUSIX (both music majors and non-majors, undergrads and grads) write, perform, and record their own work for the band. Packed with diverse array of styl",
+      "event_type": "Band",
+      "source": "sou_localist",
       "source_url": null,
       "genres": []
     },
