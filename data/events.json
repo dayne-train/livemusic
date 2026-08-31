@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-08-31T05:31:47.303Z",
+  "generated_at": "2026-08-31T16:09:00.873Z",
   "source_timestamp": "08/30/2026 08:40",
-  "content_hash": "e3a31d83f01a0358",
+  "content_hash": "89ef52255ca5d2ef",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 258,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-08-31T05:31:31.169Z",
-      "last_attempt": "2026-08-31T05:31:31.169Z",
+      "last_ok": "2026-08-31T16:08:39.169Z",
+      "last_attempt": "2026-08-31T16:08:39.169Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-08-31T05:31:31.537Z",
-      "last_attempt": "2026-08-31T05:31:31.537Z",
-      "error": null
+      "last_ok": "2026-08-31T16:08:39.835Z",
+      "last_attempt": "2026-08-31T16:08:39.835Z",
+      "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-08-31T05:31:34.002Z",
-      "last_attempt": "2026-08-31T05:31:34.002Z",
+      "last_ok": "2026-08-31T16:08:42.115Z",
+      "last_attempt": "2026-08-31T16:08:42.115Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-08-31T05:31:34.321Z",
-      "last_attempt": "2026-08-31T05:31:34.321Z",
+      "last_ok": "2026-08-31T16:08:42.581Z",
+      "last_attempt": "2026-08-31T16:08:42.581Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-08-31T05:31:34.576Z",
-      "last_attempt": "2026-08-31T05:31:34.576Z",
+      "last_ok": "2026-08-31T16:08:42.738Z",
+      "last_attempt": "2026-08-31T16:08:42.738Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-08-31T05:31:36.003Z",
-      "last_attempt": "2026-08-31T05:31:36.003Z",
+      "last_ok": "2026-08-31T16:08:44.499Z",
+      "last_attempt": "2026-08-31T16:08:44.499Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-08-31T05:31:36.506Z",
-      "last_attempt": "2026-08-31T05:31:36.506Z",
+      "last_ok": "2026-08-31T16:08:45.132Z",
+      "last_attempt": "2026-08-31T16:08:45.132Z",
       "error": null
     }
   },
@@ -399,8 +399,7 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt",
-        "tribe_ics"
+        "musiclist_txt"
       ]
     },
     "Bellview Grange": {
@@ -5152,23 +5151,14 @@
       "end_raw": "1900",
       "musician": "Roadsters",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-the-roadsters-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "An energetic, interactive and dynamic country/rock band whose strong male and female vocals offer variety for their fans. With a hard-hitting rhythm section, they capture the best in modern and classi",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-the-roadsters-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "dba3ffe8a2fe7f60"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "cd15a66182ee40fd",
