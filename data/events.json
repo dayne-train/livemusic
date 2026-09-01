@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-01T05:05:17.270Z",
+  "generated_at": "2026-09-01T13:29:02.171Z",
   "source_timestamp": "08/30/2026 08:40",
-  "content_hash": "4155a7f0694df977",
+  "content_hash": "f7c646dffbfbfe11",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 258,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-01T05:05:02.388Z",
-      "last_attempt": "2026-09-01T05:05:02.388Z",
+      "last_ok": "2026-09-01T13:28:53.346Z",
+      "last_attempt": "2026-09-01T13:28:53.346Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 34,
       "strategy": "live",
-      "last_ok": "2026-09-01T05:05:02.744Z",
-      "last_attempt": "2026-09-01T05:05:02.744Z",
-      "error": "belle_fiore: belle_fiore no VEVENT in response"
+      "last_ok": "2026-09-01T13:28:53.596Z",
+      "last_attempt": "2026-09-01T13:28:53.596Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-01T05:05:07.076Z",
-      "last_attempt": "2026-09-01T05:05:07.076Z",
+      "last_ok": "2026-09-01T13:28:56.098Z",
+      "last_attempt": "2026-09-01T13:28:56.098Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-01T05:05:07.506Z",
-      "last_attempt": "2026-09-01T05:05:07.506Z",
+      "last_ok": "2026-09-01T13:28:56.443Z",
+      "last_attempt": "2026-09-01T13:28:56.443Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-01T05:05:07.644Z",
-      "last_attempt": "2026-09-01T05:05:07.644Z",
+      "last_ok": "2026-09-01T13:28:56.555Z",
+      "last_attempt": "2026-09-01T13:28:56.555Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-01T05:05:09.018Z",
-      "last_attempt": "2026-09-01T05:05:09.018Z",
+      "last_ok": "2026-09-01T13:28:57.616Z",
+      "last_attempt": "2026-09-01T13:28:57.616Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-01T05:05:09.585Z",
-      "last_attempt": "2026-09-01T05:05:09.585Z",
+      "last_ok": "2026-09-01T13:28:58.385Z",
+      "last_attempt": "2026-09-01T13:28:58.385Z",
       "error": null
     }
   },
@@ -399,7 +399,8 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Bellview Grange": {
@@ -5427,14 +5428,22 @@
       "end_raw": "1930",
       "musician": "Stillwater Road",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-stillwater-road-3/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Acoustic guitar duo featuring the combined talents of Ted Koch & Bryce Pettyjohn.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-stillwater-road-3/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "d1ab7fb6603e843c"
+        }
+      ],
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "id": "9714ae6b0f717401",
@@ -5606,15 +5615,23 @@
       "end_raw": "1930",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-pozitronics-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "The Pozitronics is the Rogue Valley’s premier all-you-can dance band, consistently bringing positive vibes & upbeat tunes in classic rock, R&B, & pop styles, performed by a fun-loving group of talente",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-pozitronics-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "11a4fa03634dc0e2"
+        }
+      ],
       "genres": [
-        "Rock"
+        "Rock",
+        "Funk / Soul",
+        "Pop"
       ]
     },
     {
@@ -5924,14 +5941,23 @@
       "end_raw": "1930",
       "musician": "Duke Street",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-duke-street-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Big Band Blues that’ll have you dancing and rollicking the night away. \nCover charge: Free for members, $6 for non-members.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-duke-street-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "754341e5053a7884"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Swing"
+      ]
     },
     {
       "id": "433f6ab8c171b494",
@@ -6149,6 +6175,26 @@
       "genres": []
     },
     {
+      "id": "32b5995c90f1c2ab",
+      "date": "2026-09-06",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Shabby Guys",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-shabby-guys/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Wizardly four-piece instrumental band covering blues, jazz, R&B, and pop hits.",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-shabby-guys/",
+      "genres": [
+        "Blues",
+        "Jazz",
+        "Funk / Soul"
+      ]
+    },
+    {
       "id": "42516253fad67c54",
       "date": "2026-09-06",
       "start_raw": "1900",
@@ -6231,6 +6277,25 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/dead-set-805/",
       "genres": []
+    },
+    {
+      "id": "e7676cd680e2a842",
+      "date": "2026-09-10",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Aaron Reed",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-aaron-reed-2/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Aaron Reed, of the Brothers Reed. Their style evokes finger picking folk singers from the 60’s and 70’s with a contemporary and boundless bluegrass edge.",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-aaron-reed-2/",
+      "genres": [
+        "Bluegrass",
+        "Folk"
+      ]
     },
     {
       "id": "ecf274cff93d1a93",
@@ -6347,6 +6412,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "bfc9585a8f81bd3f",
+      "date": "2026-09-11",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Shae & Jenni",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-shae-jenni/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Shae & Jenni present an alluring set of enchanting music, full of soulful harmonies and magical moments perfect for creating an amazing ambiance. Enjoy the vibes as they blend their voices in harmony ",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-shae-jenni/",
       "genres": []
     },
     {
@@ -6494,6 +6575,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "1c1b1773803985a2",
+      "date": "2026-09-12",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "https://bellefiorewine.com/event/live-music-canto-sol-2/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Flamenco and classical guitarists Dan Fellman & Grant Ruiz present Spanish music and singing.",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-canto-sol-2/",
+      "genres": [
+        "Latin",
+        "Classical"
+      ]
     },
     {
       "id": "64d5cbe1a41e3809",
@@ -6647,6 +6747,25 @@
       ]
     },
     {
+      "id": "c107eb7d634d465b",
+      "date": "2026-09-13",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "The Smokin' Gundersons",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-the-smokin-gundersons/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Formerly known as The Giantess, this is a husband-and-wife musical duo with a full-band sound from Southern Oregon’s Rogue Valley. They play all original music that ranges from dreamy Pop Rock to sult",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-the-smokin-gundersons/",
+      "genres": [
+        "Rock",
+        "Pop"
+      ]
+    },
+    {
       "id": "2a7921aa479854a8",
       "date": "2026-09-13",
       "start_raw": "1800",
@@ -6721,14 +6840,24 @@
       "end_raw": "1930",
       "musician": "Jen Ambrose w/ Jon Galfano",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-jen-jon/",
       "link_name": "Jen Ambrose",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Dynamic duo featuring Jon Galfano on guitar, keys and vocals, and Jen Ambrose on guitar, flute and vocals. Their genres range from Classic Rock, Blues, Jazz, and everything in between!",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-jen-jon/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "5256f6d4261b3d58"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Jazz",
+        "Rock"
+      ]
     },
     {
       "id": "513aad14f42313d9",
@@ -6793,6 +6922,26 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "b824b1e088530565",
+      "date": "2026-09-18",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged rock to Americana and simple songwrit",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
+      "genres": [
+        "Country",
+        "Folk",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "5ac4ea65d1a33c1b",
@@ -7041,6 +7190,26 @@
       "genres": []
     },
     {
+      "id": "7777763ccd6f6ba5",
+      "date": "2026-09-20",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Cathy Bolton",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-cathy-bolton/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Cathy Bolton’s soul-filled and heartfelt musical style blends folk, country, light pop, and blues. She intuitively connects with her listeners, creating performances that soothe the soul, fill your he",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-cathy-bolton/",
+      "genres": [
+        "Country",
+        "Blues",
+        "Folk"
+      ]
+    },
+    {
       "id": "2dca03655ff64fec",
       "date": "2026-09-21",
       "start_raw": "2100",
@@ -7134,14 +7303,23 @@
       "end_raw": "1930",
       "musician": "Rick Millward",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-rick-millward/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Rick Millward is a seasoned musician and songwriter who draws inspiration from a wide range of genres, including rock, country, and Americana.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-rick-millward/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "41f95956ac93fe0b"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Rock"
+      ]
     },
     {
       "id": "d27ecfece64266ea",
@@ -7258,6 +7436,26 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "0e130cf138fd83ef",
+      "date": "2026-09-25",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "12 Bars Deep",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-12-bars-deep/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "12 Bars Deep is a good time-music dance band designed to rock the room. They cover Blues, R&B and Swing by some of the top artists you know and love. Decades of live performance by the band members cr",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-12-bars-deep/",
+      "genres": [
+        "Blues",
+        "Swing",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "01599174f32b6f70",
@@ -7377,6 +7575,25 @@
       "genres": []
     },
     {
+      "id": "42c9ce3384f4062e",
+      "date": "2026-09-26",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "John Johns",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-john-johns-2/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "John Johns utilizes his prodigious classical guitar training to blend fingerstyle guitar with his nature-centric folk style of playing. Upbeat and introspective, his songwriting is best described by f",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-john-johns-2/",
+      "genres": [
+        "Folk",
+        "Classical"
+      ]
+    },
+    {
       "id": "f63cfe2b472d816c",
       "date": "2026-09-26",
       "start_raw": "1800",
@@ -7491,6 +7708,26 @@
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-jeff-kloetzl/",
       "genres": []
+    },
+    {
+      "id": "42fd21acaaa90072",
+      "date": "2026-09-27",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Rogue Suspects Concert",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-concert/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Rogue Valley’s celebrated Rogue Suspects present a wide-ranging concert featuring all of their musical stylings. Prepare for a rocking blend of Blues, Motown, Funk, Pop, R&B, Jazz & more! \nTicketed ev",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-concert/",
+      "genres": [
+        "Blues",
+        "Jazz",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "d6268e1569075a0f",

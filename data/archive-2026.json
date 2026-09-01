@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1390,
+  "event_count": 1393,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -87,7 +87,8 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Bridgeview Vineyards": {
@@ -24156,6 +24157,54 @@
       "link_name": "",
       "venue": "Annie Creek Restaurant",
       "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4430a63c9b00024c",
+      "date": "2026-08-31",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Allison and Victor",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7c45d18896290217",
+      "date": "2026-08-31",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Marissa Joan",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e973817a1c5df826",
+      "date": "2026-08-31",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
