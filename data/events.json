@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-02T04:30:59.611Z",
-  "source_timestamp": "08/30/2026 08:40",
-  "content_hash": "eb654ed854f33bb0",
+  "generated_at": "2026-09-02T12:45:59.262Z",
+  "source_timestamp": "09/01/2026 12:23",
+  "content_hash": "7e7e1f9c1a7206b4",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 258,
+      "count": 397,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-02T04:30:33.995Z",
-      "last_attempt": "2026-09-02T04:30:33.995Z",
+      "last_ok": "2026-09-02T12:45:39.097Z",
+      "last_attempt": "2026-09-02T12:45:39.097Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 32,
+      "count": 34,
       "strategy": "live",
-      "last_ok": "2026-09-02T04:30:34.401Z",
-      "last_attempt": "2026-09-02T04:30:34.401Z",
-      "error": "travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-09-02T12:45:39.394Z",
+      "last_attempt": "2026-09-02T12:45:39.394Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-09-01T19:22:51.450Z",
-      "last_attempt": "2026-09-02T04:30:35.307Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 7,
+      "strategy": "live",
+      "last_ok": "2026-09-02T12:45:42.039Z",
+      "last_attempt": "2026-09-02T12:45:42.039Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-02T04:30:36.295Z",
-      "last_attempt": "2026-09-02T04:30:36.295Z",
+      "last_ok": "2026-09-02T12:45:42.480Z",
+      "last_attempt": "2026-09-02T12:45:42.480Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-02T04:30:37.887Z",
-      "last_attempt": "2026-09-02T04:30:37.887Z",
+      "last_ok": "2026-09-02T12:45:42.578Z",
+      "last_attempt": "2026-09-02T12:45:42.578Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-02T04:30:39.364Z",
-      "last_attempt": "2026-09-02T04:30:39.364Z",
+      "last_ok": "2026-09-02T12:45:44.384Z",
+      "last_attempt": "2026-09-02T12:45:44.384Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-02T04:30:39.842Z",
-      "last_attempt": "2026-09-02T04:30:39.842Z",
+      "last_ok": "2026-09-02T12:45:44.990Z",
+      "last_attempt": "2026-09-02T12:45:44.990Z",
       "error": null
     }
   },
@@ -3663,6 +3663,17 @@
       "_sources": [
         "musiclist_txt"
       ]
+    },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
     }
   },
   "events": [
@@ -4567,22 +4578,6 @@
       "genres": []
     },
     {
-      "id": "894f472b407b8757",
-      "date": "2026-08-29",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "33 String Drive",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Dos Mariposas Vineyards",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "055066e25b45fa0f",
       "date": "2026-08-29",
       "start_raw": "1600",
@@ -4951,22 +4946,6 @@
       "genres": []
     },
     {
-      "id": "3747e4694eff90bf",
-      "date": "2026-08-30",
-      "start_raw": "1400",
-      "end_raw": "1600",
-      "musician": "Nick & Shae",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Daisy Creek Vineyard",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "270e0b63524de4d9",
       "date": "2026-08-30",
       "start_raw": "1400",
@@ -5275,6 +5254,26 @@
       "genres": []
     },
     {
+      "id": "eb24012b9292c1af",
+      "date": "2026-09-01",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Robbie Dacosta",
+      "genre": "blues, classic rock, pop, variety",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues",
+        "Rock",
+        "Pop"
+      ]
+    },
+    {
       "id": "34656fa14644054b",
       "date": "2026-09-01",
       "start_raw": "2000",
@@ -5392,6 +5391,22 @@
       "genres": []
     },
     {
+      "id": "231a05de738a9809",
+      "date": "2026-09-02",
+      "start_raw": "1900",
+      "end_raw": "2145",
+      "musician": "Dan Doshier",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "2cb2f52014b2657c",
       "date": "2026-09-03",
       "start_raw": "1730",
@@ -5416,6 +5431,24 @@
       ]
     },
     {
+      "id": "dc6d0ec7b68eef5c",
+      "date": "2026-09-03",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Traditional Irish Music and Dancing",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "9714ae6b0f717401",
       "date": "2026-09-03",
       "start_raw": "1800",
@@ -5425,6 +5458,22 @@
       "link": "",
       "link_name": "",
       "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d297aa63f1efe021",
+      "date": "2026-09-03",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Actual Wolf",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -5497,6 +5546,32 @@
       "genres": []
     },
     {
+      "id": "8d1a26810a32261b",
+      "date": "2026-09-04",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Robbie Dacosta",
+      "genre": "blues, classic rock, pop, variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "merged_from": [
+        {
+          "source": "musiclist_txt",
+          "id": "14faa656839ee206"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Rock",
+        "Pop"
+      ]
+    },
+    {
       "id": "47c7920bc1cb6cda",
       "date": "2026-09-04",
       "start_raw": "1700",
@@ -5563,6 +5638,22 @@
       ]
     },
     {
+      "id": "fb7ff9cc83665577",
+      "date": "2026-09-04",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
+      "genre": "",
+      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "link_name": "",
+      "venue": "Trinity Episcopal Church",
+      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
+      "genres": []
+    },
+    {
       "id": "f0660331a3bf31cf",
       "date": "2026-09-04",
       "start_raw": "1730",
@@ -5598,6 +5689,22 @@
       "link": "",
       "link_name": "Canto Sol",
       "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9402ac545e6c461e",
+      "date": "2026-09-04",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Josh Gross",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -5653,6 +5760,30 @@
       "genres": []
     },
     {
+      "id": "43f3d61c30bbb2a3",
+      "date": "2026-09-04",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Blue Lightning",
+      "genre": "classic rock",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-blue-lightning-september-4/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Established over 30 years ago in Ashland Oregon, Blue Lightning has evolved into a high energy dance band with tight grooves and lush vocal harmonies.\n\nJoin us for a Friday night full of good times, d",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-blue-lightning-september-4/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "f375b5d18e9ceb36"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "5f400a049513d708",
       "date": "2026-09-04",
       "start_raw": "1800",
@@ -5685,24 +5816,6 @@
       "genres": []
     },
     {
-      "id": "f375b5d18e9ceb36",
-      "date": "2026-09-04",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Blue Lightning",
-      "genre": "classic rock",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-blue-lightning-september-4/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Established over 30 years ago in Ashland Oregon, Blue Lightning has evolved into a high energy dance band with tight grooves and lush vocal harmonies.\n\nJoin us for a Friday night full of good times, d",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-blue-lightning-september-4/",
-      "genres": [
-        "Rock"
-      ]
-    },
-    {
       "id": "4a761a6eb342121a",
       "date": "2026-09-04",
       "start_raw": "1830",
@@ -5719,24 +5832,36 @@
       "genres": []
     },
     {
-      "id": "14faa656839ee206",
+      "id": "e62ddfb25726ff20",
       "date": "2026-09-04",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "musician": "Robbie Dacosta",
-      "genre": "blues, classic rock, pop, variety",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Haley Lynn",
+      "genre": "",
       "link": "",
       "link_name": "",
-      "venue": "Liquid Lounge",
+      "venue": "The Gold Room",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": [
-        "Blues",
-        "Rock",
-        "Pop"
-      ]
+      "genres": []
+    },
+    {
+      "id": "830efd12ee3e4941",
+      "date": "2026-09-04",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "Thunderchud and the Victims",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8a9f33d82f3b0785",
@@ -5814,6 +5939,22 @@
       "link": "",
       "link_name": "",
       "venue": "Paschal Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "be0166e210fb9409",
+      "date": "2026-09-05",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Borderline",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -5914,6 +6055,22 @@
       ]
     },
     {
+      "id": "2f27e861e897de40",
+      "date": "2026-09-05",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "12 Bars Deep",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "433f6ab8c171b494",
       "date": "2026-09-05",
       "start_raw": "1800",
@@ -5966,6 +6123,38 @@
       "genres": []
     },
     {
+      "id": "b0a0478e1bf50f77",
+      "date": "2026-09-05",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Paul Jenny & Tom Freeman",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4ab977b8a6d0df02",
+      "date": "2026-09-05",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Ponderosas",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "92631dc44b4310e1",
       "date": "2026-09-05",
       "start_raw": "2000",
@@ -5976,6 +6165,38 @@
       "link_name": "",
       "venue": "Liquid Lounge",
       "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "acde952c1ebe9f98",
+      "date": "2026-09-05",
+      "start_raw": "2000",
+      "end_raw": "2330",
+      "musician": "The Doctor Is In",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "af8a68f907e67e24",
+      "date": "2026-09-06",
+      "start_raw": "1000",
+      "end_raw": "1400",
+      "musician": "Shae & Jenni",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "Special Brunch",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -6007,6 +6228,22 @@
       "link": "",
       "link_name": "",
       "venue": "Hanley Farm",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3ebc48ba7328debe",
+      "date": "2026-09-06",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Shybo & Twisted Vines",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6065,6 +6302,41 @@
       ]
     },
     {
+      "id": "2df75441f27cad79",
+      "date": "2026-09-06",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Frankie Hernandez",
+      "genre": "soul, funk, reggae",
+      "link": "",
+      "link_name": "",
+      "venue": "Del Rio Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Reggae",
+        "Funk / Soul"
+      ]
+    },
+    {
+      "id": "51b907dd2d7c0b93",
+      "date": "2026-09-06",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "The Ponderosas",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "6978f50d0e602799",
       "date": "2026-09-06",
       "start_raw": "1500",
@@ -6113,7 +6385,23 @@
       "genres": []
     },
     {
-      "id": "670dd7119cc42eb0",
+      "id": "dfbd00c4f459ae92",
+      "date": "2026-09-06",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Vinyl Tap",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fa14a4112a1a4339",
       "date": "2026-09-06",
       "start_raw": "1600",
       "end_raw": "1800",
@@ -6124,12 +6412,18 @@
       "venue": "Roxy Ann Winery",
       "notes": "Vagabond Empire is an expansive new project by Sam Prestianni, a prolific songwriter, multidisciplinary artist, and former bandleader of acclaimed San Francisco “bluevelvetgrass” string combo Three Ti",
       "event_type": "Band",
-      "source": "tribe_ics:roxyann",
+      "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-vagabond-empire-september-6/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "670dd7119cc42eb0"
+        }
+      ],
       "genres": []
     },
     {
-      "id": "32b5995c90f1c2ab",
+      "id": "00beab5eb76e17ec",
       "date": "2026-09-06",
       "start_raw": "1700",
       "end_raw": "1900",
@@ -6140,13 +6434,35 @@
       "venue": "Belle Fiore",
       "notes": "Wizardly four-piece instrumental band covering blues, jazz, R&B, and pop hits.",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
+      "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-shabby-guys/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "32b5995c90f1c2ab"
+        }
+      ],
       "genres": [
         "Blues",
         "Jazz",
         "Funk / Soul"
       ]
+    },
+    {
+      "id": "43d58cf4f318f9b0",
+      "date": "2026-09-06",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "42516253fad67c54",
@@ -6162,6 +6478,38 @@
       "event_type": "Band",
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/nic-gareiss-and-simon-chrisman-rhythm-and-tunes/",
+      "genres": []
+    },
+    {
+      "id": "3ab9629639242e05",
+      "date": "2026-09-07",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Shae & Jenni",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e66d064d02809065",
+      "date": "2026-09-08",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Highway Bound",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -6182,6 +6530,22 @@
       "genres": [
         "Other"
       ]
+    },
+    {
+      "id": "d03d16bb602046d0",
+      "date": "2026-09-09",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jared Gutridge",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "cc2460a811e0737b",
@@ -6209,14 +6573,47 @@
       "link": "",
       "link_name": "",
       "venue": "South Stage Cellars",
-      "notes": "$5",
+      "notes": "wine and dine $18",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
     },
     {
-      "id": "e7676cd680e2a842",
+      "id": "f16a11936418bf56",
+      "date": "2026-09-09",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "TBA",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weekend Beer Company",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fbb8fcda0735ccbc",
+      "date": "2026-09-09",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dead Set 805",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dead-set-805/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dead-set-805/",
+      "genres": []
+    },
+    {
+      "id": "65639b040137fa13",
       "date": "2026-09-10",
       "start_raw": "1730",
       "end_raw": "1930",
@@ -6227,11 +6624,35 @@
       "venue": "Belle Fiore",
       "notes": "Aaron Reed, of the Brothers Reed. Their style evokes finger picking folk singers from the 60’s and 70’s with a contemporary and boundless bluegrass edge.",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
+      "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-aaron-reed-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "e7676cd680e2a842"
+        }
+      ],
       "genres": [
         "Bluegrass",
         "Folk"
+      ]
+    },
+    {
+      "id": "b71b122323937cdc",
+      "date": "2026-09-10",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Traditional Irish Music and Dancing",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
       ]
     },
     {
@@ -6251,6 +6672,22 @@
       "genres": [
         "Country"
       ]
+    },
+    {
+      "id": "76e79f5d52b9d4ca",
+      "date": "2026-09-10",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Actual Wolf",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "028292195cbfd173",
@@ -6278,6 +6715,22 @@
       "link": "",
       "link_name": "",
       "venue": "Alibi Tavern",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "664efd4d3f63e2f3",
+      "date": "2026-09-10",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6320,6 +6773,54 @@
       "genres": []
     },
     {
+      "id": "7bb5272fd3f25ae1",
+      "date": "2026-09-11",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "The Smokin' Gundersons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a4867fe103ef8d2a",
+      "date": "2026-09-11",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "TBA",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "6477ec4cc4795d01",
+      "date": "2026-09-11",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Connor Reese",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "cb35f040a9103b17",
       "date": "2026-09-11",
       "start_raw": "1700",
@@ -6333,6 +6834,28 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d9c6c626a00b488d",
+      "date": "2026-09-11",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Shae & Jenni",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-shae-jenni/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Shae & Jenni present an alluring set of enchanting music, full of soulful harmonies and magical moments perfect for creating an amazing ambiance. Enjoy the vibes as they blend their voices in harmony ",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": "https://bellefiorewine.com/event/live-music-shae-jenni/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "bfc9585a8f81bd3f"
+        }
+      ],
       "genres": []
     },
     {
@@ -6352,19 +6875,19 @@
       "genres": []
     },
     {
-      "id": "bfc9585a8f81bd3f",
+      "id": "ac4379a60745824b",
       "date": "2026-09-11",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "Shae & Jenni",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Highway 99",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-shae-jenni/",
+      "link": "",
       "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "Shae & Jenni present an alluring set of enchanting music, full of soulful harmonies and magical moments perfect for creating an amazing ambiance. Enjoy the vibes as they blend their voices in harmony ",
+      "venue": "Del Rio Vineyards",
+      "notes": "",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-shae-jenni/",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -6384,7 +6907,7 @@
       "genres": []
     },
     {
-      "id": "6173c612be7d1979",
+      "id": "58120672f441fc8d",
       "date": "2026-09-11",
       "start_raw": "1800",
       "end_raw": "2000",
@@ -6395,11 +6918,65 @@
       "venue": "Roxy Ann Winery",
       "notes": "Saucy, a renowned local Southern Oregon musical group, joins us at RoxyAnn Winery for a Friday night of dancing and fun! Listen to some songs while sipping on some delicious & award-winning wines, or ",
       "event_type": "Band",
-      "source": "tribe_ics:roxyann",
+      "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-saucy-september-11/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "6173c612be7d1979"
+        }
+      ],
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "7f6b7f7e6683c6d7",
+      "date": "2026-09-11",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Vinyl Tap",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0c589f002c3ac46c",
+      "date": "2026-09-11",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "bbf9b0e2b9fc035e",
+      "date": "2026-09-11",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Adam Gabriel",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "1388c6a9539b249d",
@@ -6416,6 +6993,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "6bf4598064fb2422",
+      "date": "2026-09-12",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "musician": "Peter Anestos Jazz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "6694bd5525a1bdd3",
@@ -6459,6 +7054,22 @@
       "link": "",
       "link_name": "",
       "venue": "Deer Creek Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "b7ab367b34aa18d8",
+      "date": "2026-09-12",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Brisbane Project",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6514,7 +7125,7 @@
       "genres": []
     },
     {
-      "id": "1c1b1773803985a2",
+      "id": "a71a4a2af639ba4e",
       "date": "2026-09-12",
       "start_raw": "1730",
       "end_raw": "1930",
@@ -6525,8 +7136,14 @@
       "venue": "Belle Fiore",
       "notes": "Flamenco and classical guitarists Dan Fellman & Grant Ruiz present Spanish music and singing.",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
+      "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-canto-sol-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "1c1b1773803985a2"
+        }
+      ],
       "genres": [
         "Latin",
         "Classical"
@@ -6599,6 +7216,38 @@
       "genres": []
     },
     {
+      "id": "b00e95ea7b8464f6",
+      "date": "2026-09-12",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Adam Gabriel & The Cavaliers",
+      "genre": "",
+      "link": "",
+      "link_name": "Adam Gabriel",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "56062333f2286da5",
+      "date": "2026-09-12",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Femme Fatale",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "aeca8433dc4f2645",
       "date": "2026-09-12",
       "start_raw": "2000",
@@ -6608,6 +7257,38 @@
       "link": "",
       "link_name": "",
       "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4e723067a88f75fe",
+      "date": "2026-09-12",
+      "start_raw": "2000",
+      "end_raw": "1200",
+      "musician": "Dan Doshier and Anders",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "b8542fb9c1b5fab1",
+      "date": "2026-09-13",
+      "start_raw": "1330",
+      "end_raw": "1530",
+      "musician": "Jimmy Limo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6650,6 +7331,38 @@
       ]
     },
     {
+      "id": "0a71bbe29c558104",
+      "date": "2026-09-13",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Aimee Barbuto",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "bfb2919d8cccd248",
+      "date": "2026-09-13",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "87b475a2a70b66f3",
       "date": "2026-09-13",
       "start_raw": "1530",
@@ -6666,25 +7379,47 @@
       "genres": []
     },
     {
-      "id": "b35a84745db7c328",
+      "id": "3ff9ef0e65dd7f3f",
       "date": "2026-09-13",
       "start_raw": "1600",
       "end_raw": "1800",
-      "musician": "Kristen & Robbie Duo",
+      "musician": "Dennis Konecny",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "bbbe844c073fb3ec",
+      "date": "2026-09-13",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Kristen Calvin & Robbie Dacosta",
       "genre": "",
       "link": "https://roxyann.com/event/music-wine-series-featuring-kristen-robbie-duo/",
-      "link_name": "",
+      "link_name": "Kristen Calvin",
       "venue": "Roxy Ann Winery",
       "notes": "Join us with talented Robbie Dacosta as he teams up with the incredible Kristen Calvin Gordon for a great evening of tunes from a variety of genres. \nJoin us at RoxyAnn Winery for a Sunday afternoon o",
       "event_type": "Band",
-      "source": "tribe_ics:roxyann",
+      "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-kristen-robbie-duo/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "b35a84745db7c328"
+        }
+      ],
       "genres": [
         "Other"
       ]
     },
     {
-      "id": "c107eb7d634d465b",
+      "id": "d90080006d9c0c2c",
       "date": "2026-09-13",
       "start_raw": "1700",
       "end_raw": "1900",
@@ -6695,12 +7430,34 @@
       "venue": "Belle Fiore",
       "notes": "Formerly known as The Giantess, this is a husband-and-wife musical duo with a full-band sound from Southern Oregon’s Rogue Valley. They play all original music that ranges from dreamy Pop Rock to sult",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
+      "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-the-smokin-gundersons/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "c107eb7d634d465b"
+        }
+      ],
       "genres": [
         "Rock",
         "Pop"
       ]
+    },
+    {
+      "id": "1a99d2bcb6f0c63b",
+      "date": "2026-09-13",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Dave Scoggin",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2a7921aa479854a8",
@@ -6713,6 +7470,38 @@
       "link_name": "",
       "venue": "Butterfly Club 557",
       "notes": "$10",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "aea49a57be7af4cf",
+      "date": "2026-09-14",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Lisa and Dean",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2dd5f956426ebb20",
+      "date": "2026-09-15",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Taurus Moon",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -6738,22 +7527,36 @@
       ]
     },
     {
-      "id": "fa135f62a934c459",
+      "id": "c9aac3f5451facdf",
       "date": "2026-09-16",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "Santa Fe Band",
-      "genre": "Country",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "JustaDuo",
+      "genre": "easy listening",
       "link": "",
       "link_name": "",
-      "venue": "South Stage Cellars",
+      "venue": "Dancin Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": [
-        "Country"
-      ]
+      "genres": []
+    },
+    {
+      "id": "194726ac2c268156",
+      "date": "2026-09-16",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "HopStone",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "5842f06b3c8757a9",
@@ -6772,6 +7575,22 @@
       "genres": [
         "Blues"
       ]
+    },
+    {
+      "id": "bba959e304803c39",
+      "date": "2026-09-16",
+      "start_raw": "1900",
+      "end_raw": "2145",
+      "musician": "Dan Doshier",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "59dc8ddf5ca57400",
@@ -6816,6 +7635,40 @@
       ]
     },
     {
+      "id": "09fce7c1e6ae9780",
+      "date": "2026-09-17",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Traditional Irish Music and Dancing",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "4158f5de0732cb3f",
+      "date": "2026-09-17",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Actual Wolf",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "513aad14f42313d9",
       "date": "2026-09-17",
       "start_raw": "1830",
@@ -6848,6 +7701,72 @@
       "genres": []
     },
     {
+      "id": "8b8f1e59f90780a0",
+      "date": "2026-09-17",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Aaron Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cabf8aa81e319329",
+      "date": "2026-09-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jen Ambrose",
+      "genre": "blues",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
+      "id": "9f8a2ed6b958fe51",
+      "date": "2026-09-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Marshall Thompson Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "255a5313c578eaa9",
+      "date": "2026-09-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mike Brons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "b364f85920f1492a",
       "date": "2026-09-18",
       "start_raw": "1700",
@@ -6857,6 +7776,48 @@
       "link": "",
       "link_name": "Gypsy Gillis Band",
       "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0e8b68abd73a423b",
+      "date": "2026-09-18",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged rock to Americana and simple songwrit",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "b824b1e088530565"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Folk",
+        "Funk / Soul"
+      ]
+    },
+    {
+      "id": "30c43c4fb4d7659b",
+      "date": "2026-09-18",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Shine On",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6880,24 +7841,68 @@
       "genres": []
     },
     {
-      "id": "b824b1e088530565",
+      "id": "24af03dd38f1e359",
       "date": "2026-09-18",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "Jeff Kloetzel",
-      "genre": "Rhythmic Guitar",
-      "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Daniel Nickels Band",
+      "genre": "",
+      "link": "",
       "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged rock to Americana and simple songwrit",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "$10",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
-      "genres": [
-        "Country",
-        "Folk",
-        "Funk / Soul"
-      ]
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a3a569c989bc858c",
+      "date": "2026-09-18",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Vinyl Tap",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "890f75a20b6628ef",
+      "date": "2026-09-18",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Aaron Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "702ba080d9c9cc8d",
+      "date": "2026-09-18",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Soft E",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "5ac4ea65d1a33c1b",
@@ -6982,19 +7987,47 @@
       "genres": []
     },
     {
-      "id": "6d8573da86e75a94",
+      "id": "170e93ba7313b27a",
       "date": "2026-09-19",
       "start_raw": "1500",
       "end_raw": "1700",
-      "musician": "Rick Millward Presents Open Mic - Semi Final!",
+      "musician": "Aaron Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Naumes Suncrest Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "merged_from": [
+        {
+          "source": "musiclist_txt",
+          "id": "1bb9ab42cdf1349b"
+        }
+      ],
+      "genres": []
+    },
+    {
+      "id": "21a5f238b1f989a0",
+      "date": "2026-09-19",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Rick Millward",
       "genre": "",
       "link": "https://roxyann.com/event/rick-millward-presents-open-mic-2/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "The RoxyAnn Open Mic will be this Saturday, and we’ve come up with a way to make 2026 bigger and more exciting. In October the top 3 from the previous 8 month’s shows will win a paid date on a Friday ",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
+      "notes": "Open Mic - Semi Final",
+      "event_type": "Open Mic",
+      "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/rick-millward-presents-open-mic-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "6d8573da86e75a94"
+        }
+      ],
       "genres": []
     },
     {
@@ -7032,6 +8065,24 @@
       "genres": []
     },
     {
+      "id": "a5bef1bd1dda69d3",
+      "date": "2026-09-19",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Blue Lightning",
+      "genre": "classic rock",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "bb3c5997a8e20209",
       "date": "2026-09-19",
       "start_raw": "1800",
@@ -7050,6 +8101,22 @@
       ]
     },
     {
+      "id": "9b8380395ba9332a",
+      "date": "2026-09-19",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Simple Dreams",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "5634f31624182e63",
       "date": "2026-09-19",
       "start_raw": "1830",
@@ -7059,6 +8126,22 @@
       "link": "",
       "link_name": "",
       "venue": "Walkabout Brewing",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d00a4ed16b085937",
+      "date": "2026-09-19",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "John & Jean Mazzei",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7098,6 +8181,54 @@
       "genres": []
     },
     {
+      "id": "2c8d1b1c5b19f877",
+      "date": "2026-09-20",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3289f9562a3ec613",
+      "date": "2026-09-20",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Del Rio Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "68932ba3be0546a8",
+      "date": "2026-09-20",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "HopStone",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "31952653389c7049",
       "date": "2026-09-20",
       "start_raw": "1500",
@@ -7107,6 +8238,38 @@
       "link": "",
       "link_name": "",
       "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "b4f8c3052dc6759b",
+      "date": "2026-09-20",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Shine On",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Naumes Suncrest Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7a867a56461c168a",
+      "date": "2026-09-20",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "David Pinsky & Phil Newton",
+      "genre": "",
+      "link": "",
+      "link_name": "David Pinsky",
+      "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7146,7 +8309,7 @@
       "genres": []
     },
     {
-      "id": "7777763ccd6f6ba5",
+      "id": "579ef845cefd06fb",
       "date": "2026-09-20",
       "start_raw": "1700",
       "end_raw": "1900",
@@ -7156,14 +8319,52 @@
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "Cathy Bolton’s soul-filled and heartfelt musical style blends folk, country, light pop, and blues. She intuitively connects with her listeners, creating performances that soothe the soul, fill your he",
-      "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-cathy-bolton/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "7777763ccd6f6ba5"
+        }
+      ],
       "genres": [
         "Country",
         "Blues",
         "Folk"
       ]
+    },
+    {
+      "id": "0c51c44bdd005ed8",
+      "date": "2026-09-20",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5d3f2d79b6c2e09e",
+      "date": "2026-09-21",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2dca03655ff64fec",
@@ -7200,6 +8401,40 @@
       "genres": []
     },
     {
+      "id": "fc51a561fa98bf01",
+      "date": "2026-09-23",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mercy Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "Mercy",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5522cc264aba1077",
+      "date": "2026-09-23",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "7e200be6496144ed",
       "date": "2026-09-23",
       "start_raw": "1800",
@@ -7218,22 +8453,37 @@
       ]
     },
     {
-      "id": "90641273bddec796",
+      "id": "feb34be1c54dcb7f",
       "date": "2026-09-23",
       "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "Pozitronics",
-      "genre": "Rock variety",
+      "end_raw": "2145",
+      "musician": "Dan Doshier",
+      "genre": "",
       "link": "",
       "link_name": "",
-      "venue": "Local Vines Wine Bar",
+      "venue": "Oberon's Restaurant & Bar",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": [
-        "Rock"
-      ]
+      "genres": []
+    },
+    {
+      "id": "5e2ae655824d55d6",
+      "date": "2026-09-23",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Joslyn & The Sweet Compression",
+      "genre": "",
+      "link": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "genres": []
     },
     {
       "id": "e5b5a7023fd2925a",
@@ -7261,6 +8511,24 @@
       ]
     },
     {
+      "id": "905b876bcada30a3",
+      "date": "2026-09-24",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Traditional Irish Music and Dancing",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "d27ecfece64266ea",
       "date": "2026-09-24",
       "start_raw": "1800",
@@ -7270,6 +8538,22 @@
       "link": "",
       "link_name": "",
       "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "b858522fa084b6b9",
+      "date": "2026-09-24",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "Actual Wolf",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7309,6 +8593,70 @@
       "genres": []
     },
     {
+      "id": "3132d7a0b2a7c43a",
+      "date": "2026-09-24",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Jared Gutridge Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8766d45fc19ed85f",
+      "date": "2026-09-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Marshall & Friends",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8aa2bd4df9483f41",
+      "date": "2026-09-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jared Gutridge Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9ec460d128f235c9",
+      "date": "2026-09-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Cathy Bolton",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "d0953b0fab6b39c0",
       "date": "2026-09-25",
       "start_raw": "1700",
@@ -7325,6 +8673,48 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "cb5c47e4775ef541",
+      "date": "2026-09-25",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "12 Bars Deep",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-12-bars-deep/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "12 Bars Deep is a good time-music dance band designed to rock the room. They cover Blues, R&B and Swing by some of the top artists you know and love. Decades of live performance by the band members cr",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": "https://bellefiorewine.com/event/live-music-12-bars-deep/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "0e130cf138fd83ef"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Swing",
+        "Funk / Soul"
+      ]
+    },
+    {
+      "id": "472285564979a191",
+      "date": "2026-09-25",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8a6297f80e0c6160",
@@ -7377,27 +8767,7 @@
       "genres": []
     },
     {
-      "id": "0e130cf138fd83ef",
-      "date": "2026-09-25",
-      "start_raw": "1730",
-      "end_raw": "1930",
-      "musician": "12 Bars Deep",
-      "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-12-bars-deep/",
-      "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "12 Bars Deep is a good time-music dance band designed to rock the room. They cover Blues, R&B and Swing by some of the top artists you know and love. Decades of live performance by the band members cr",
-      "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-12-bars-deep/",
-      "genres": [
-        "Blues",
-        "Swing",
-        "Funk / Soul"
-      ]
-    },
-    {
-      "id": "01599174f32b6f70",
+      "id": "7ca57b6814119bd7",
       "date": "2026-09-25",
       "start_raw": "1800",
       "end_raw": "2000",
@@ -7408,11 +8778,33 @@
       "venue": "Roxy Ann Winery",
       "notes": "Join us at RoxyAnn Winery for a Friday night of dancing and fun as we welcome Southern Oregon’s Brisbane Project to the tasting room!\n\nThe Brisbane Project, is a powerhouse trio of soulful blues, know",
       "event_type": "Band",
-      "source": "tribe_ics:roxyann",
+      "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-brisbane-project/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "01599174f32b6f70"
+        }
+      ],
       "genres": [
         "Blues"
       ]
+    },
+    {
+      "id": "31ecbf8766bcf136",
+      "date": "2026-09-25",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "The Kind",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "2cc8a4289861cf5e",
@@ -7447,6 +8839,55 @@
       "genres": []
     },
     {
+      "id": "996814db97d176a6",
+      "date": "2026-09-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Magnificent Sanctuary Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "genres": []
+    },
+    {
+      "id": "f7c0c1409e347e3b",
+      "date": "2026-09-26",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "musician": "Iryna K",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "81591e6869aaacdf",
+      "date": "2026-09-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "The Smokin' Gundersons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "ea2ae2bae4f235c8",
       "date": "2026-09-26",
       "start_raw": "1600",
@@ -7463,6 +8904,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "2770aa4cb538d57d",
+      "date": "2026-09-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Kristen Calvin & Robbie Dacosta",
+      "genre": "",
+      "link": "",
+      "link_name": "Kristen Calvin",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a3348d00011e61c3",
@@ -7497,7 +8954,7 @@
       "genres": []
     },
     {
-      "id": "42c9ce3384f4062e",
+      "id": "250b2cee3c0703f7",
       "date": "2026-09-26",
       "start_raw": "1730",
       "end_raw": "1930",
@@ -7508,11 +8965,35 @@
       "venue": "Belle Fiore",
       "notes": "John Johns utilizes his prodigious classical guitar training to blend fingerstyle guitar with his nature-centric folk style of playing. Upbeat and introspective, his songwriting is best described by f",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
+      "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-john-johns-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "42c9ce3384f4062e"
+        }
+      ],
       "genres": [
         "Folk",
         "Classical"
+      ]
+    },
+    {
+      "id": "8ea784f629f86f9d",
+      "date": "2026-09-26",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Brothers Reed",
+      "genre": "Folk",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Folk"
       ]
     },
     {
@@ -7582,6 +9063,86 @@
       "genres": []
     },
     {
+      "id": "6c8303c3675dbbe6",
+      "date": "2026-09-26",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Shabby Guys",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "78cd2cc359761e77",
+      "date": "2026-09-26",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Ann Kelly & Mark Ross",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "486fb96a1ab8119f",
+      "date": "2026-09-27",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Shae & Jenni",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "36b47bd0dcc0a9c8",
+      "date": "2026-09-27",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Adam Gabriel",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Del Rio Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fb5211398508b031",
+      "date": "2026-09-27",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Broadway Phil & The Shouters",
+      "genre": "",
+      "link": "",
+      "link_name": "Broadway Phil and the Shouters",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "1369b992b650e9d5",
       "date": "2026-09-27",
       "start_raw": "1600",
@@ -7616,6 +9177,22 @@
       "genres": []
     },
     {
+      "id": "af9c4b44b9062526",
+      "date": "2026-09-27",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "42313f3053667b73",
       "date": "2026-09-27",
       "start_raw": "1600",
@@ -7632,24 +9209,226 @@
       "genres": []
     },
     {
-      "id": "42fd21acaaa90072",
+      "id": "1a1ad59b28958114",
       "date": "2026-09-27",
       "start_raw": "1700",
       "end_raw": "1900",
-      "musician": "Rogue Suspects Concert",
-      "genre": "",
+      "musician": "Rogue Suspects",
+      "genre": "classic rock",
       "link": "https://bellefiorewine.com/event/live-music-rogue-suspects-concert/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Rogue Valley’s celebrated Rogue Suspects present a wide-ranging concert featuring all of their musical stylings. Prepare for a rocking blend of Blues, Motown, Funk, Pop, R&B, Jazz & more! \nTicketed ev",
+      "notes": "$10-$15",
       "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
+      "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-rogue-suspects-concert/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "42fd21acaaa90072"
+        }
+      ],
       "genres": [
-        "Blues",
-        "Jazz",
-        "Funk / Soul"
+        "Rock"
       ]
+    },
+    {
+      "id": "7784f8f1b9a83f14",
+      "date": "2026-09-27",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8e6ea133e98b9b53",
+      "date": "2026-09-27",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Petty Thievery",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "Tickets",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9c062c43b47bf718",
+      "date": "2026-09-28",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Danielle Kelly & Emily Turner",
+      "genre": "",
+      "link": "",
+      "link_name": "Danielle Kelly Soul Project",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ab33a1268e8fde1a",
+      "date": "2026-09-28",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Mike Brons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8da9d07f2ad24de8",
+      "date": "2026-09-28",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Scottish Fish",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "Tickets",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "b1d4b46a1d7d4648",
+      "date": "2026-09-29",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Conrad",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1a795e7360bb6afe",
+      "date": "2026-09-30",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Back Door Blues Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
+      "id": "69a57ef3b8671e91",
+      "date": "2026-09-30",
+      "start_raw": "1900",
+      "end_raw": "2145",
+      "musician": "Dan Doshier",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5b6142634e1cf60d",
+      "date": "2026-10-01",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Stillwater Road",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4bebc42feedc74c9",
+      "date": "2026-10-01",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Dave Scoggin",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "81eb1b526743c1d0",
+      "date": "2026-10-01",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Traditional Irish Music and Dancing",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "6098d7a227dd62c1",
+      "date": "2026-10-01",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Young Kidz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d6268e1569075a0f",
@@ -7668,6 +9447,22 @@
       "genres": [
         "Jazz"
       ]
+    },
+    {
+      "id": "62005b6a7de6ce93",
+      "date": "2026-10-02",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0b0102d2c90e8eed",
@@ -7702,6 +9497,70 @@
       "genres": []
     },
     {
+      "id": "34eb26424cb59423",
+      "date": "2026-10-02",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Dennis Konecny",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3f8ba9dc66f21067",
+      "date": "2026-10-02",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Nick & Shae",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "b6250120a7e15e2e",
+      "date": "2026-10-02",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "12 Bars Deep",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fae16e9acffd1030",
+      "date": "2026-10-02",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Femme Fatale",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "382fb3555b95c30c",
       "date": "2026-10-02",
       "start_raw": "1730",
@@ -7718,6 +9577,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "b2ad65b33edd1275",
+      "date": "2026-10-02",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Young Kidz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "af0ab507c6aaa5a3",
@@ -7739,6 +9614,56 @@
       ]
     },
     {
+      "id": "8c9c1d2966c6041e",
+      "date": "2026-10-03",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Blue Lightning",
+      "genre": "classic rock",
+      "link": "",
+      "link_name": "",
+      "venue": "Naumes Suncrest Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "03ebed170c91c416",
+      "date": "2026-10-03",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "J Brothers Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "J Brothers",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7dec871dd3f58fd1",
+      "date": "2026-10-03",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Mark Hill",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "fac8fefaf87f829d",
       "date": "2026-10-03",
       "start_raw": "1700",
@@ -7755,15 +9680,49 @@
       "genres": []
     },
     {
-      "id": "a227c0fa43ea1538",
+      "id": "09f059052a66a5e1",
       "date": "2026-10-03",
       "start_raw": "1700",
       "end_raw": "1900",
-      "musician": "The Giantess",
+      "musician": "The Smokin' Gundersons",
       "genre": "",
       "link": "",
       "link_name": "",
       "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "833fcebd818c3b46",
+      "date": "2026-10-03",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Saucy",
+      "genre": "classic rock, variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "265d143a7f75cc43",
+      "date": "2026-10-03",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7805,6 +9764,39 @@
       "genres": []
     },
     {
+      "id": "2d9a12dc95bfe5fc",
+      "date": "2026-10-03",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Young Kidz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fcf7e0164010bcb2",
+      "date": "2026-10-03",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Barry The Fish Melton and The Scholer System",
+      "genre": "",
+      "link": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "genres": []
+    },
+    {
       "id": "335a13f2c4064dc6",
       "date": "2026-10-04",
       "start_raw": "1400",
@@ -7814,6 +9806,22 @@
       "link": "",
       "link_name": "",
       "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d3c9098e986ae994",
+      "date": "2026-10-04",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7871,6 +9879,22 @@
       ]
     },
     {
+      "id": "cfe61bccb78bd630",
+      "date": "2026-10-05",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Shae & Jenni",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "d60fdb64de8f8710",
       "date": "2026-10-07",
       "start_raw": "1700",
@@ -7879,6 +9903,38 @@
       "genre": "",
       "link": "",
       "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "914f1891965486d4",
+      "date": "2026-10-08",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "034be70d8fc181c0",
+      "date": "2026-10-09",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "David Pinsky & Phil Newton",
+      "genre": "",
+      "link": "",
+      "link_name": "David Pinsky",
       "venue": "Dancin Vineyards",
       "notes": "",
       "event_type": "Band",
@@ -7896,6 +9952,22 @@
       "link": "",
       "link_name": "",
       "venue": "Phoodery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e656591634ee395c",
+      "date": "2026-10-09",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7989,6 +10061,22 @@
       "genres": []
     },
     {
+      "id": "99897e05f73ccde9",
+      "date": "2026-10-10",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Adam Gabriel & The Cavaliers",
+      "genre": "",
+      "link": "",
+      "link_name": "Adam Gabriel",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "bb891e89cc453bc1",
       "date": "2026-10-11",
       "start_raw": "1400",
@@ -8018,6 +10106,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8ab6a928ff5ff250",
+      "date": "2026-10-15",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Analog Dog",
+      "genre": "",
+      "link": "https://talentclublive.com/event/analog-dog/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/analog-dog/",
       "genres": []
     },
     {
@@ -8144,6 +10249,23 @@
       ]
     },
     {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
+    },
+    {
       "id": "7a5cd3b82b0db4ce",
       "date": "2026-10-18",
       "start_raw": "1500",
@@ -8243,6 +10365,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "aeaf97860ea4be91",
+      "date": "2026-10-27",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
+      "genre": "",
+      "link": "https://talentclublive.com/event/steely-dead/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/steely-dead/",
       "genres": []
     },
     {
@@ -8531,6 +10670,22 @@
       ]
     },
     {
+      "id": "59ce773e60dcc4f0",
+      "date": "2026-11-21",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Shybo Torres",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "5d502ce6aadeafb2",
       "date": "2026-11-21",
       "start_raw": "1730",
@@ -8542,6 +10697,22 @@
       "venue": "The Miner's Bazaar",
       "notes": "w/Steve Swift",
       "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1a5947c290b8aeab",
+      "date": "2026-11-28",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jared Gutridge Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -8580,6 +10751,22 @@
       "genres": []
     },
     {
+      "id": "834b7f555d8b2daa",
+      "date": "2026-12-05",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Lisa and Dean",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "662cf3a08c5e8349",
       "date": "2026-12-06",
       "start_raw": "1300",
@@ -8589,6 +10776,38 @@
       "link": "",
       "link_name": "",
       "venue": "Paschal Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9de7314ad0122fb7",
+      "date": "2026-12-12",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "The Smokin' Gundersons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3011b610be7be976",
+      "date": "2026-12-19",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mercy Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "Mercy",
+      "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
