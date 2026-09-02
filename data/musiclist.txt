@@ -1,5 +1,5 @@
 --timestamp
-09/01/2026 12:23
+09/02/2026 12:01
 --news
 * date | notes
 --musicians
@@ -573,6 +573,7 @@ Craig Martin||||Wild Goose Cafe||09/03/26|1800|2030||Band||6|
 Actual Wolf||||Oberon's Restaurant & Bar||09/03/26|1830|2030||Band|26/09/01 12:23PM|4|
 Pandora Band||||Alibi Tavern||09/03/26|1900|2200||Band|26/08/27 12:57PM|6|
 Eric Leadbetter||||Bella Union||09/03/26|1900|2100||Band|26/08/27 12:57PM|6|
+Live Music||||Local 31 Pub||09/03/26|2100|1200|Lightnin Luke, Yes Ma'am, John Dough Boys|Band|26/09/02 12:01PM|2|
 Robbie Dacosta||||Daisy Creek Vineyard||09/04/26|1700|1900||Band|26/09/01 12:23PM|0|
 Jeff Kloetzel||||Dancin Vineyards||09/04/26|1700|1900||Band||6|
 Rick Millward||||Rellik Winery||09/04/26|1700|1900||Band|26/09/01 12:23PM|0|
@@ -591,6 +592,7 @@ Adam Gabriel||||Annie Creek Restaurant||09/04/26|1830|2030||Band|26/08/08 09:46A
 Haley Lynn||||The Gold Room||09/04/26|1900|2100||Band|26/09/01 12:23PM|2|
 Robbie Dacosta||||Liquid Lounge||09/04/26|2000|2200||Band|26/08/25 16:03PM|6|
 Thunderchud and the Victims||||Oberon's Restaurant & Bar||09/04/26|2000|2200||Band|26/09/01 12:23PM|0|
+Live Music||||Local 31 Pub||09/04/26|2100|1200|Sky System, Blue Jay Blue, Jerit Fourman|Band|26/09/02 12:01PM|2|
 Jeff Kloetzel||||Naumes Suncrest Winery||09/05/26|1500|1700||Band|26/08/20 14:20PM|6|
 Gil René||||Hanley Farm||09/05/26|1530|1730||Band|26/08/19 15:12PM|6|
 Jon Galfano||||Harry & David Store||09/05/26|1530|1700||Band|26/08/29 12:39PM|6|
@@ -609,6 +611,7 @@ Paul Jenny & Tom Freeman||||Bella Union||09/05/26|1900|2200||Band|26/09/01 12:23
 The Ponderosas||||The Gold Room||09/05/26|1900|2100||Band|26/09/01 12:23PM|2|
 Connor Reese||||Liquid Lounge||09/05/26|2000|2200||Band|26/08/25 16:03PM|6|
 The Doctor Is In||||Oberon's Restaurant & Bar||09/05/26|2000|2330||Band|26/09/01 12:23PM|0|
+Live Music||||Local 31 Pub||09/05/26|2100|1200|Fantastic Flying Foelschs, Neon Chrome, Amnesia, Victim Zero|Band|26/09/02 12:01PM|2|
 Shae & Jenni||||Dancin Vineyards||09/06/26|1000|1400|Special Brunch|Band|26/09/01 12:23PM|0|
 Gil René||||Hanley Farm||09/06/26|1230|1430||Band|26/08/19 15:12PM|6|
 Shybo & Twisted Vines||||Daisy Creek Vineyard||09/06/26|1400|1600||Band|26/09/01 12:23PM|0|

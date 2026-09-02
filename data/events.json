@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-02T12:45:59.262Z",
-  "source_timestamp": "09/01/2026 12:23",
-  "content_hash": "7e7e1f9c1a7206b4",
+  "generated_at": "2026-09-02T19:22:52.609Z",
+  "source_timestamp": "09/02/2026 12:01",
+  "content_hash": "0e66651ebbd56afd",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 397,
+      "count": 400,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-02T12:45:39.097Z",
-      "last_attempt": "2026-09-02T12:45:39.097Z",
+      "last_ok": "2026-09-02T19:22:34.749Z",
+      "last_attempt": "2026-09-02T19:22:34.749Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 34,
       "strategy": "live",
-      "last_ok": "2026-09-02T12:45:39.394Z",
-      "last_attempt": "2026-09-02T12:45:39.394Z",
+      "last_ok": "2026-09-02T19:22:35.271Z",
+      "last_attempt": "2026-09-02T19:22:35.271Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-02T12:45:42.039Z",
-      "last_attempt": "2026-09-02T12:45:42.039Z",
+      "last_ok": "2026-09-02T19:22:36.668Z",
+      "last_attempt": "2026-09-02T19:22:36.668Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-02T12:45:42.480Z",
-      "last_attempt": "2026-09-02T12:45:42.480Z",
+      "last_ok": "2026-09-02T19:22:37.119Z",
+      "last_attempt": "2026-09-02T19:22:37.119Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-02T12:45:42.578Z",
-      "last_attempt": "2026-09-02T12:45:42.578Z",
+      "last_ok": "2026-09-02T19:22:37.324Z",
+      "last_attempt": "2026-09-02T19:22:37.324Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-02T12:45:44.384Z",
-      "last_attempt": "2026-09-02T12:45:44.384Z",
+      "last_ok": "2026-09-02T19:22:38.322Z",
+      "last_attempt": "2026-09-02T19:22:38.322Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-02T12:45:44.990Z",
-      "last_attempt": "2026-09-02T12:45:44.990Z",
+      "last_ok": "2026-09-02T19:22:39.002Z",
+      "last_attempt": "2026-09-02T19:22:39.002Z",
       "error": null
     }
   },
@@ -5530,6 +5530,22 @@
       "genres": []
     },
     {
+      "id": "80dcd75091d1745c",
+      "date": "2026-09-03",
+      "start_raw": "2100",
+      "end_raw": "1200",
+      "musician": "Live Music",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Lightnin Luke, Yes Ma'am, John Dough Boys",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "4c53e00bb7a4e611",
       "date": "2026-09-04",
       "start_raw": "1200",
@@ -5864,6 +5880,22 @@
       "genres": []
     },
     {
+      "id": "2efcb586ea9f90a5",
+      "date": "2026-09-04",
+      "start_raw": "2100",
+      "end_raw": "1200",
+      "musician": "Live Music",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Sky System, Blue Jay Blue, Jerit Fourman",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "8a9f33d82f3b0785",
       "date": "2026-09-05",
       "start_raw": "1200",
@@ -6181,6 +6213,22 @@
       "link_name": "",
       "venue": "Oberon's Restaurant & Bar",
       "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9cafbca2cbc94720",
+      "date": "2026-09-05",
+      "start_raw": "2100",
+      "end_raw": "1200",
+      "musician": "Live Music",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Fantastic Flying Foelschs, Neon Chrome, Amnesia, Victim Zero",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
