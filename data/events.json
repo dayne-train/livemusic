@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-02T19:22:52.609Z",
-  "source_timestamp": "09/02/2026 12:01",
-  "content_hash": "0e66651ebbd56afd",
+  "generated_at": "2026-09-02T22:38:08.156Z",
+  "source_timestamp": "09/02/2026 12:49",
+  "content_hash": "ba99a6f7bdfdff79",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 400,
+      "count": 399,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-02T19:22:34.749Z",
-      "last_attempt": "2026-09-02T19:22:34.749Z",
+      "last_ok": "2026-09-02T22:37:48.800Z",
+      "last_attempt": "2026-09-02T22:37:48.800Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 34,
       "strategy": "live",
-      "last_ok": "2026-09-02T19:22:35.271Z",
-      "last_attempt": "2026-09-02T19:22:35.271Z",
+      "last_ok": "2026-09-02T22:37:49.201Z",
+      "last_attempt": "2026-09-02T22:37:49.201Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-02T19:22:36.668Z",
-      "last_attempt": "2026-09-02T19:22:36.668Z",
+      "last_ok": "2026-09-02T22:37:50.731Z",
+      "last_attempt": "2026-09-02T22:37:50.731Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-02T19:22:37.119Z",
-      "last_attempt": "2026-09-02T19:22:37.119Z",
+      "last_ok": "2026-09-02T22:37:51.232Z",
+      "last_attempt": "2026-09-02T22:37:51.232Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-02T19:22:37.324Z",
-      "last_attempt": "2026-09-02T19:22:37.324Z",
+      "last_ok": "2026-09-02T22:37:51.440Z",
+      "last_attempt": "2026-09-02T22:37:51.440Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-02T19:22:38.322Z",
-      "last_attempt": "2026-09-02T19:22:38.322Z",
+      "last_ok": "2026-09-02T22:37:53.257Z",
+      "last_attempt": "2026-09-02T22:37:53.257Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-02T19:22:39.002Z",
-      "last_attempt": "2026-09-02T19:22:39.002Z",
+      "last_ok": "2026-09-02T22:37:53.826Z",
+      "last_attempt": "2026-09-02T22:37:53.826Z",
       "error": null
     }
   },
@@ -5302,22 +5302,6 @@
       "link": "",
       "link_name": "Danielle Kelly Soul Project",
       "venue": "Dancin Vineyards",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "d9028379eb084bee",
-      "date": "2026-09-02",
-      "start_raw": "1700",
-      "end_raw": "1900",
-      "musician": "Encore Five",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Local Vines Wine Bar",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",

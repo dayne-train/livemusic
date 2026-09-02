@@ -1,5 +1,5 @@
 --timestamp
-09/02/2026 12:01
+09/02/2026 12:49
 --news
 * date | notes
 --musicians
@@ -561,7 +561,6 @@ Marissa Joan||||Rellik Winery||08/31/26|1800|2000||Band|26/08/20 14:20PM|6|
 Paul Schmeling Quartet||||Martino's Upstairs||08/31/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band||6|
 Robbie Dacosta||||The Gold Room||09/01/26|1800|2000||Band|26/09/01 12:23PM|2|
 Danielle Kelly & Paul Turnipseed|||Danielle Kelly Soul Project|Dancin Vineyards||09/02/26|1700|1900||Band|26/09/01 12:23PM|0|
-Encore Five||||Local Vines Wine Bar||09/02/26|1700|1900||Band|26/08/27 12:57PM|6|
 John Ivey||||Tap & Vine||09/02/26|1700|1900||Band|26/08/27 12:57PM|6|
 Rogue Blues Society Blues Jam|blues||Rogue Blues Society|Curtain Call Cabaret & Lounge||09/02/26|1800|2100||Jam|26/08/25 07:53AM|6|
 Jeff Kloetzel||||South Stage Cellars||09/02/26|1800|2000|$5|Band|26/08/27 12:57PM|6|
