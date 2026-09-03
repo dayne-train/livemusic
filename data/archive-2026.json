@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1395,
+  "event_count": 1401,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -24248,6 +24248,104 @@
       "genres": [
         "Other"
       ]
+    },
+    {
+      "id": "bec477948860d3a0",
+      "date": "2026-09-02",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "John Ivey",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f409029458210751",
+      "date": "2026-09-02",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Danielle Kelly & Paul Turnipseed",
+      "genre": "",
+      "link": "",
+      "link_name": "Danielle Kelly Soul Project",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2b227c40a0872784",
+      "date": "2026-09-02",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "$5",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9264266faa5b5519",
+      "date": "2026-09-02",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "John Dough Boys",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weekend Beer Company",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "94a826f56217c16d",
+      "date": "2026-09-02",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Rogue Blues Society Blues Jam",
+      "genre": "blues",
+      "link": "",
+      "link_name": "Rogue Blues Society",
+      "venue": "Curtain Call Cabaret & Lounge",
+      "notes": "",
+      "event_type": "Jam",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
+      "id": "231a05de738a9809",
+      "date": "2026-09-02",
+      "start_raw": "1900",
+      "end_raw": "2145",
+      "musician": "Dan Doshier",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     }
   ]
 }
