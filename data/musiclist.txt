@@ -1,5 +1,5 @@
 --timestamp
-09/02/2026 12:49
+09/02/2026 15:40
 --news
 * date | notes
 --musicians
@@ -206,7 +206,7 @@ Dancing in the Streets|https://www.facebook.com/DancingAndDiningInTheStreets/|Me
 Dark Hollow Farm|https://darkhollow.farm/|Medford|N||Medford|Winery||
 Deer Creek Vineyards|https://www.deercreekvineyards.com/|Selma|N||GrantsPass|Winery||
 Del Rio Vineyards|http://www.delriovineyards.com/events/|Gold Hill|N|cover $10|Medford|Winery|1|
-District Wine Bar|https://thedistrictwinebar.com/||N||Medford|Winery||
+District Wine Bar|https://thedistrictwinebar.com/|Medford|N||Medford|Winery||
 Dos Mariposas Vineyards|https://dosmariposasvineyards.com/|Jacksonville|N||Medford|Winery|1|
 Double R Bar and Grill|https://www.facebook.com/profile.php?id=61556640382519&sk=about|Rogue River|N||RogueRiver|Bar||
 Drift Collective|https://www.thedriftcoashland.com/|Ashland|N||Ashland|Other||
@@ -327,6 +327,7 @@ Opposition Brewing|https://www.oppositionbrewing.com/|Medford|N||Medford|Other||
 PAC-Performing Arts Center|https://gphs.grantspass.k12.or.us/academics/performing-arts-center-pac|Grants Pass|N||GrantsPass|Other||
 Pacifica's Annual Winterfest|https://www.facebook.com/events/1267064537764646/?acontext=%7B%22event_action_history%22%3A[]%7D|Williams|N||GrantsPass|Other||
 Padigan Wines|https://padigan.com/index.html|Phoenix|N||Medford|Winery||
+Pallet Wine Company|https://palletwine.com/|Medford|N||Medford|Winery||
 Parkhurst Wine Cellars|https://parkhurstwine.com/|Jacksonville|N||Medford|Winery||
 Paschal Winery|http://www.paschalwinery.com|Talent|N||Ashland|Winery||
 Pear Blossom Park|http://medfordmom.com/2017/04/07/summer-concert-series/|Medford|N||Medford|Other||
