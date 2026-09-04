@@ -1,5 +1,5 @@
 --timestamp
-09/03/2026 13:43
+09/04/2026 12:54
 --news
 * date | notes
 --musicians
@@ -310,6 +310,7 @@ Medford Multicultural Fair|https://www.medfordparksfoundation.org/events/multicu
 Medford United Methodist Church|https://www.medfordumchurch.org/|Medford|N||Medford|Other||
 Merlin Moose Lodge|https://www.facebook.com/groups/1922794797954772/|Merlin|N||GrantsPass|Other||
 Morrtons Too|https://morrtons.com/|Talent|N||Medford|Bar||
+Mountain Meadows|https://mountainmeadowsashland.com/|Ashkand|N||Ashland|Other||
 Moxie Brew|https://www.moxiebrew.com/|Phoenix|N||Medford|Bar||
 Mt Ashland Lodge|https://www.mtashland.com/event-directory/|Ashland|N||Ashland|Other|1|
 Music on Porch|https://www.whattodoinsouthernoregon.com/summer-festivals/play-music-on-the-porch-talent|Talent|N||Ashland|Other||
@@ -558,7 +559,7 @@ Frankie Hernandez||||Del Rio Vineyards||09/06/26|1500|1700||Band|26/09/01 12:23P
 The Ponderosas||||Dos Mariposas Vineyards||09/06/26|1500|1700||Band|26/09/01 12:23PM|0|
 Nick Garrett-Powell||||Naumes Suncrest Winery||09/06/26|1500|1700||Band|26/09/03 13:43PM|1|
 The Smokin' Gundersons||||Valley View Winery||09/06/26|1500|1700||Band|26/09/03 13:43PM|1|
-Grant Ruiz & Dan Fellman||||Paschal Winery||09/06/26|1530|1730||Band|26/09/03 13:43PM|1|
+Canto Sol||||Paschal Winery||09/06/26|1530|1730||Band|26/09/04 12:54PM|3|
 Stardust Trio||||Weisinger Family Winery||09/06/26|1530|1830|Featuring Meghan Wilson on vocals|Band||6|
 Vinyl Tap||||Rellik Winery||09/06/26|1600|1800||Band|26/09/01 11:37AM|0|
 Vagabond Empire||||Roxy Ann Winery||09/06/26|1600|1800||Band|26/09/01 11:37AM|6|
@@ -620,6 +621,8 @@ Charlee Prayers Band||||Liquid Lounge||09/12/26|2000|2200||Band|26/08/25 16:03PM
 Dan Doshier and Anders||||Oberon's Restaurant & Bar||09/12/26|2000|1200||Band|26/09/01 12:23PM|0|
 Jimmy Limo||||Daisy Creek Vineyard||09/13/26|1330|1530||Band|26/09/01 12:23PM|0|
 Enoch and David||||Sams Creek Cellars||09/13/26|1400|1600||Band||6|
+Erika Griesen||||Tiffany's Marketplace||09/13/26|1400|1600||Band|26/09/04 12:54PM|2|
+Jeff Kloetzel||||Valley View Winery||09/13/26|1400|1600||Band|26/09/04 12:54PM|2|
 Aimee Barbuto||||Dos Mariposas Vineyards||09/13/26|1500|1700||Band|26/09/01 12:23PM|0|
 Mitchell Brothers||||Local Vines Wine Bar||09/13/26|1500|1700||Band|26/09/01 12:23PM|0|
 Joshua Paul||||Paschal Winery||09/13/26|1530|1730||Band||6|
@@ -660,6 +663,7 @@ Jon Galfano||||Art Presence Art Center||09/19/26|1400|1600||Band|26/08/29 12:39P
 Ukulele Jam||||Pebblestone Cellars||09/19/26|1400|1600||Jam||6|
 Aaron Reed||||Naumes Suncrest Winery||09/19/26|1500|1700||Band|26/09/01 12:23PM|0|
 Rick Millward||||Roxy Ann Winery||09/19/26|1500|1700|Open Mic - Semi Final|Open Mic|26/09/01 11:37AM|6|
+Andre Feriante||||Valley View Winery||09/19/26|1600|1800||Band|26/09/04 12:54PM|2|
 Dr Pain and the Remedy||||Padigan Wines||09/19/26|1700|1900||Band||6|
 Nick & Shae||||Stone River Winery||09/19/26|1700|1900||Band||6|
 Malinka||||Wonder Woods Faire||09/19/26|1700|1900||Band|26/09/03 13:43PM|3|
@@ -673,6 +677,7 @@ Aaron Reed||||Bella Union||09/19/26|1900|2200||Band|26/09/01 12:23PM|0|
 John & Jean Mazzei||||The Gold Room||09/19/26|1900|2100||Band|26/09/01 12:23PM|2|
 Nina & The Notes||||Liquid Lounge||09/19/26|2000|2200||Band|26/08/27 12:57PM|6|
 Jeff Kloetzel||||Daisy Creek Vineyard||09/20/26|1400|1600||Band|26/09/01 12:23PM|0|
+Jim Friend||||Tiffany's Marketplace||09/20/26|1400|1600||Band|26/09/04 12:54PM|2|
 Mitchell Brothers||||Del Rio Vineyards||09/20/26|1500|1700||Band|26/09/01 12:23PM|0|
 HopStone||||Dos Mariposas Vineyards||09/20/26|1500|1700||Band|26/09/01 12:23PM|0|
 Sonido Alegre||||Local Vines Wine Bar||09/20/26|1500|1700||Band|26/09/01 12:23PM|0|
@@ -692,6 +697,7 @@ Dr Pain and the Remedy||||Britt||09/23/26|1800|1915||Band||6|
 Dan Doshier||||Oberon's Restaurant & Bar||09/23/26|1900|2145||Band|26/09/01 12:23PM|4|
 Rick Millward||||Belle Fiore||09/24/26|1730|1930||Band|26/08/24 16:02PM|6|
 Traditional Irish Music and Dancing||||Dunbar Farms||09/24/26|1730|1930||Band|26/09/01 12:23PM|0|
+Canto Sol||||Café Lumina||09/24/26|1800|2000||Band|26/09/04 12:54PM|3|
 Wild Goose Chase Trio||||Wild Goose Cafe||09/24/26|1800|2030||Band||6|
 Actual Wolf||||Oberon's Restaurant & Bar||09/24/26|1830|2030||Band|26/09/01 12:23PM|4|
 Jim Friend||||Talon Grill||09/24/26|1830|2030||Band|26/08/08 09:46AM|6|
@@ -731,6 +737,7 @@ Ann Kelly & Mark Ross||||The Gold Room||09/26/26|1900|2100||Band|26/09/01 12:23P
 Shae & Jenni||||Daisy Creek Vineyard||09/27/26|1400|1600||Band|26/09/01 12:23PM|0|
 Adam Gabriel||||Del Rio Vineyards||09/27/26|1500|1700||Band|26/09/01 12:23PM|0|
 Broadway Phil & The Shouters|||Broadway Phil and the Shouters|Local Vines Wine Bar||09/27/26|1500|1700||Band|26/09/01 12:23PM|0|
+Aimee Barbuto||||Valley View Winery||09/27/26|1500|1700||Band|26/09/04 12:54PM|2|
 Simple Dreams||||Naumes Suncrest Winery||09/27/26|1600|1800|tribute to Fleetwood Mac, Heart, Journey; $22|Band|26/08/24 12:56PM|6|
 Enoch and David||||Rellik Winery||09/27/26|1600|1800||Band||6|
 Jeff Kloetzel||||Roxy Ann Winery||09/27/26|1600|1800||Band|26/09/01 11:37AM|6|
@@ -741,6 +748,7 @@ Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||09/27/26|1800|2100|Robbi
 Danielle Kelly & Emily Turner|||Danielle Kelly Soul Project|Dancin Vineyards||09/28/26|1700|1900||Band|26/09/01 12:23PM|0|
 Mike Brons||||Rellik Winery||09/28/26|1800|2000||Solo|26/09/01 12:23PM|0|
 The Scottish Fish||||Dos Mariposas Vineyards||09/28/26|1900|2100|Tickets|Band|26/09/01 12:23PM|0|
+Canto Sol||||Mountain Meadows||09/29/26|1300|1400|as part of their special La Viva picnic|Band|26/09/04 12:54PM|3|
 Conrad||||The Gold Room||09/29/26|1800|2000||Band|26/09/01 12:23PM|2|
 Back Door Blues Band||||Local Vines Wine Bar||09/30/26|1700|1900||Band|26/09/01 12:23PM|0|
 Dan Doshier||||Oberon's Restaurant & Bar||09/30/26|1900|2145||Band|26/09/01 12:23PM|4|
@@ -752,10 +760,12 @@ Jeff Kloetzel||||Dancin Vineyards||10/02/26|1700|1900||Band|26/09/01 12:23PM|0|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|Del Rio Vineyards||10/02/26|1700|1900||Band|26/09/03 13:43PM|2|
 Gil René||||Pebblestone Cellars||10/02/26|1700|1900||Band||6|
 Dennis Konecny||||Rellik Winery||10/02/26|1700|1900||Solo|26/09/01 12:23PM|0|
+Velvet Cheeta||||Tiffany's Marketplace||10/02/26|1700|1900||Band|26/09/04 12:54PM|2|
 Nick & Shae||||Belle Fiore||10/02/26|1730|1930||Band|26/09/01 12:23PM|0|
 12 Bars Deep||||Dos Mariposas Vineyards||10/02/26|1730|1930||Band|26/09/01 12:23PM|0|
 Femme Fatale||||Dunbar Farms||10/02/26|1730|1930||Band|26/09/01 12:23PM|0|
 Pozitronics||||Zi Spice||10/02/26|1730|1930|First Friday|Band||6|
+Canto Sol||||The Miner's Bazaar||10/02/26|1800|2000||Band|26/09/04 12:54PM|3|
 Young Kidz||||Bella Union||10/02/26|1900|2200||Band|26/09/01 12:23PM|0|
 Blue Lightning||||Naumes Suncrest Winery||10/03/26|1500|1700||Band|26/09/01 12:23PM|0|
 J Brothers Quartet|||J Brothers|Dos Mariposas Vineyards||10/03/26|1600|1800||Band|26/09/01 12:23PM|0|
@@ -776,9 +786,11 @@ Shae & Jenni||||Dancin Vineyards||10/05/26|1700|1900||Band|26/09/01 12:23PM|0|
 Allison and Victor||||Dancin Vineyards||10/07/26|1700|1900||Band||6|
 Mitchell Brothers||||Bella Union||10/08/26|1900|2100||Band|26/09/01 12:23PM|0|
 David Pinsky & Phil Newton|||David Pinsky|Dancin Vineyards||10/09/26|1700|1900||Band|26/09/01 12:23PM|0|
+Wyldfire||||Tiffany's Marketplace||10/09/26|1700|1900||Band|26/09/04 12:54PM|2|
 Bim Jeam and the Sadness||||Phoodery||10/09/26|1800|2000||Band||6|
 Mitchell Brothers||||Bella Union||10/09/26|1900|2200||Band|26/09/01 12:23PM|0|
 Pozitronics||||Skout Taphouse||10/09/26|1900|2100||Band||6|
+Zarina Jensen||||Valley View Winery||10/10/26|1600|1800||Band|26/09/04 12:54PM|2|
 Bekkah McAlvage||||Remotion Wine||10/10/26|1700|1900||Band||6|
 Cathy Bolton Duo|||Cathy Bolton|Stone River Winery||10/10/26|1700|1900||Solo||6|
 Jon Martin||||Walkabout Brewing||10/10/26|1800|2000||Band|26/08/08 09:46AM|6|
@@ -791,34 +803,48 @@ Pozitronics||||Apple Outlaw Taproom||10/17/26|1700|2000||Band||6|
 Mercy Duo|||Mercy|Stone River Winery||10/17/26|1700|1900||Band||6|
 Vanessa Finney & Mark Hamersly|||Vanessa Finney|Belle Fiore||10/17/26|1730|1930||Band|26/09/03 13:43PM|3|
 Santa Fe Band||||South Stage Cellars||10/17/26|1730|1930||Band|26/08/24 10:33AM|6|
+Mike Williams||||Tiffany's Marketplace||10/18/26|1400|1600||Band|26/09/04 12:54PM|2|
 Dr Pain and the Remedy||||Del Rio Vineyards||10/18/26|1500|1700||Band||6|
+Paul Mozina||||Valley View Winery||10/18/26|1500|1700||Band|26/09/04 12:54PM|2|
 Allison and Victor||||Dancin Vineyards||10/23/26|1700|1900||Band||6|
 Joshua Paul||||Schmidt Vineyard||10/23/26|1700|2000||Band||6|
 Saucy||||Tiffany's Marketplace||10/23/26|1700|1900||Band|26/08/23 16:13PM|6|
 Pozitronics||||Belle Fiore||10/24/26|1700|1900|Costume Party|Band||6|
 The Reverberays||||Stone River Winery||10/24/26|1700|1900||Band||6|
+Aimee Barbuto||||Tiffany's Marketplace||10/25/26|1400|1600||Band|26/09/04 12:54PM|2|
 Enoch and David||||Pebblestone Cellars||10/30/26|1700|1900||Band|26/08/13 13:59PM|6|
+Taurus Moon||||Tiffany's Marketplace||10/30/26|1700|1900||Band|26/09/04 12:54PM|2|
 Pozitronics||||Roxy Ann Winery||10/30/26|1800|2000|Costume Party|Band||6|
 Gil René||||Talent Local Goods Market||10/31/26|1300|1430||Band|26/08/25 16:03PM|6|
 Pozitronics||||Padigan Wines||10/31/26|1700|1900|Costume Party|Band||6|
+Milo Matthews Band||||Valley View Winery||10/31/26|1700|2000||Band|26/09/04 12:54PM|2|
 Encore Five||||Belle Fiore||10/31/26|1730|1930||Band||6|
+Aaron Reed||||Tiffany's Marketplace||11/01/26|1400|1600||Band|26/09/04 12:54PM|2|
 Living Loving Led||||Roxy Ann Winery||11/01/26|1600|1800||Band||6|
 Rick Millward||||Padigan Wines||11/06/26|1700|1900||Band|26/08/24 16:02PM|6|
 Enoch and David||||Rellik Winery||11/06/26|1700|1900||Band||6|
+Quartz Creek Band||||Tiffany's Marketplace||11/06/26|1700|1900||Band|26/09/04 12:54PM|2|
+Michael Whipple||||Valley View Winery||11/07/26|1700|1900||Band|26/09/04 12:54PM|2|
 Santa Fe Band||||Apple Outlaw Taproom||11/07/26|1730|1930||Band|26/08/24 10:33AM|6|
+The Smokin' Gundersons||||Valley View Winery||11/08/26|1400|1600||Band|26/09/04 12:54PM|2|
 Joshua Paul||||Paschal Winery||11/08/26|1530|1730||Band||6|
 Bim Jeam & The Sadness|||Bim Jeam and the Sadness|Local Vines Wine Bar||11/11/26|1700|1900||Band||6|
 Cathy Bolton Duo|||Cathy Bolton|Stone River Winery||11/14/26|1700|1900||Solo||6|
+Zarina Jensen||||Valley View Winery||11/15/26|1500|1700||Band|26/09/04 12:54PM|2|
 Rick Millward||||Belle Fiore||11/19/26|1700|1900||Band|26/08/24 16:02PM|6|
 Rick Millward||||Rellik Winery||11/20/26|1700|1900||Band|26/08/24 16:02PM|6|
 Shybo Torres||||Stone River Winery||11/21/26|1700|1900||Solo|26/09/01 11:37AM|6|
 Bim Jeam & The Sadness||||The Miner's Bazaar||11/21/26|1730|1930|w/Steve Swift|Band||6|
+Paul Mozina||||Valley View Winery||11/27/26|1500|1700||Band|26/09/04 12:54PM|2|
 Jared Gutridge Duo||||Stone River Winery||11/28/26|1700|1900||Solo|26/09/01 11:37AM|6|
+Phillip Reed||||Tiffany's Marketplace||11/29/26|1400|1600||Band|26/09/04 12:54PM|2|
 Bim Jeam & The Sadness||||Rellik Winery||12/04/26|1700|1900||Band||6|
 Lisa and Dean||||Stone River Winery||12/05/26|1700|1900||Solo|26/09/01 11:37AM|6|
 Enoch and David||||Paschal Winery||12/06/26|1300|1500||Band||6|
 The Smokin' Gundersons||||Stone River Winery||12/12/26|1700|1900||Solo|26/09/01 11:37AM|6|
+Zarina Jensen||||Valley View Winery||12/13/26|1500|1700||Band|26/09/04 12:54PM|2|
 Mercy Duo|||Mercy|Stone River Winery||12/19/26|1700|1900||Band|26/09/01 11:37AM|6|
+The Smokin' Gundersons||||Valley View Winery||12/20/26|1400|1600||Band|26/09/04 12:54PM|2|
 Enoch and David||||Pebblestone Cellars||12/20/26|1500|1700||Band|26/08/13 13:59PM|6|
 Pozitronics||||Belle Fiore||12/20/26|1700|1900|Xmas show|Band||6|
 Rick Millward||||Belle Fiore||12/26/26|1730|1930||Band|26/08/24 16:02PM|6|

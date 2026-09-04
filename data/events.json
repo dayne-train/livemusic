@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-04T18:59:04.086Z",
-  "source_timestamp": "09/03/2026 13:43",
-  "content_hash": "b4fa4d6b967d686b",
+  "generated_at": "2026-09-04T22:20:42.275Z",
+  "source_timestamp": "09/04/2026 12:54",
+  "content_hash": "eb8b3713b008311f",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 358,
+      "count": 383,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-04T18:58:38.752Z",
-      "last_attempt": "2026-09-04T18:58:38.752Z",
+      "last_ok": "2026-09-04T22:20:18.417Z",
+      "last_attempt": "2026-09-04T22:20:18.417Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 31,
       "strategy": "live",
-      "last_ok": "2026-09-04T18:58:39.029Z",
-      "last_attempt": "2026-09-04T18:58:39.029Z",
+      "last_ok": "2026-09-04T22:20:18.828Z",
+      "last_attempt": "2026-09-04T22:20:18.828Z",
       "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-09-04T12:42:36.025Z",
-      "last_attempt": "2026-09-04T18:58:49.289Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 7,
+      "strategy": "live",
+      "last_ok": "2026-09-04T22:20:29.061Z",
+      "last_attempt": "2026-09-04T22:20:29.061Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-04T18:58:49.430Z",
-      "last_attempt": "2026-09-04T18:58:49.430Z",
+      "last_ok": "2026-09-04T22:20:29.460Z",
+      "last_attempt": "2026-09-04T22:20:29.460Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-04T18:58:50.657Z",
-      "last_attempt": "2026-09-04T18:58:50.657Z",
+      "last_ok": "2026-09-04T22:20:29.658Z",
+      "last_attempt": "2026-09-04T22:20:29.658Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-04T18:58:51.527Z",
-      "last_attempt": "2026-09-04T18:58:51.527Z",
+      "last_ok": "2026-09-04T22:20:30.562Z",
+      "last_attempt": "2026-09-04T22:20:30.562Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-04T18:58:52.030Z",
-      "last_attempt": "2026-09-04T18:58:52.030Z",
+      "last_ok": "2026-09-04T22:20:31.065Z",
+      "last_attempt": "2026-09-04T22:20:31.065Z",
       "error": null
     }
   },
@@ -2010,6 +2010,17 @@
         "musiclist_txt"
       ]
     },
+    "Mountain Meadows": {
+      "url": "https://mountainmeadowsashland.com/",
+      "city": "Ashkand",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
     "Moxie Brew": {
       "url": "https://www.moxiebrew.com/",
       "city": "Phoenix",
@@ -3696,6 +3707,17 @@
       "_sources": [
         "musiclist_txt"
       ]
+    },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
+      ]
     }
   },
   "events": [
@@ -5294,12 +5316,12 @@
       "genres": []
     },
     {
-      "id": "db1b16cb97ba061a",
+      "id": "07803daee195f79c",
       "date": "2026-09-06",
       "start_raw": "1530",
       "end_raw": "1730",
-      "musician": "Grant Ruiz & Dan Fellman",
-      "genre": "",
+      "musician": "Canto Sol",
+      "genre": "Latin",
       "link": "",
       "link_name": "",
       "venue": "Paschal Winery",
@@ -5307,7 +5329,9 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
+      "genres": [
+        "Latin"
+      ]
     },
     {
       "id": "3ccc7f34b5c3bb8a",
@@ -5614,6 +5638,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fbb8fcda0735ccbc",
+      "date": "2026-09-09",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dead Set 805",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dead-set-805/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dead-set-805/",
       "genres": []
     },
     {
@@ -6389,6 +6430,38 @@
       "link": "",
       "link_name": "",
       "venue": "Sams Creek Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a3e7387dc60ecf2d",
+      "date": "2026-09-13",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Erika Griesen",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "92515515f8d5f842",
+      "date": "2026-09-13",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7180,6 +7253,22 @@
       "genres": []
     },
     {
+      "id": "29e154c94597f1ce",
+      "date": "2026-09-19",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Andre Feriante",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "e4be53db42fd0fe2",
       "date": "2026-09-19",
       "start_raw": "1700",
@@ -7387,6 +7476,22 @@
       "link": "",
       "link_name": "",
       "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "80e8923e138c3818",
+      "date": "2026-09-20",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Jim Friend",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7717,6 +7822,23 @@
       "genres": []
     },
     {
+      "id": "5e2ae655824d55d6",
+      "date": "2026-09-23",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Joslyn & The Sweet Compression",
+      "genre": "",
+      "link": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "genres": []
+    },
+    {
       "id": "e5b5a7023fd2925a",
       "date": "2026-09-24",
       "start_raw": "1730",
@@ -7757,6 +7879,24 @@
       "source_url": null,
       "genres": [
         "Celtic"
+      ]
+    },
+    {
+      "id": "18199d614f27b41a",
+      "date": "2026-09-24",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "Café Lumina",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Latin"
       ]
     },
     {
@@ -8120,6 +8260,23 @@
       "genres": []
     },
     {
+      "id": "996814db97d176a6",
+      "date": "2026-09-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Magnificent Sanctuary Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "genres": []
+    },
+    {
       "id": "f7c0c1409e347e3b",
       "date": "2026-09-26",
       "start_raw": "1030",
@@ -8423,6 +8580,22 @@
       "genres": []
     },
     {
+      "id": "628da96d28440b53",
+      "date": "2026-09-27",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Aimee Barbuto",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "1369b992b650e9d5",
       "date": "2026-09-27",
       "start_raw": "1600",
@@ -8608,6 +8781,24 @@
       "source_url": null,
       "genres": [
         "Celtic"
+      ]
+    },
+    {
+      "id": "eb53cb59d36f5158",
+      "date": "2026-09-29",
+      "start_raw": "1300",
+      "end_raw": "1400",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "Mountain Meadows",
+      "notes": "as part of their special La Viva picnic",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Latin"
       ]
     },
     {
@@ -8809,6 +9000,22 @@
       "genres": []
     },
     {
+      "id": "775d13f3f078dfd5",
+      "date": "2026-10-02",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Velvet Cheeta",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "3f8ba9dc66f21067",
       "date": "2026-10-02",
       "start_raw": "1730",
@@ -8872,6 +9079,24 @@
       "source_url": null,
       "genres": [
         "Rock"
+      ]
+    },
+    {
+      "id": "a62c62e23781e392",
+      "date": "2026-10-02",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "The Miner's Bazaar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Latin"
       ]
     },
     {
@@ -9076,6 +9301,23 @@
       "genres": []
     },
     {
+      "id": "fcf7e0164010bcb2",
+      "date": "2026-10-03",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Barry The Fish Melton and The Scholer System",
+      "genre": "",
+      "link": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "genres": []
+    },
+    {
       "id": "335a13f2c4064dc6",
       "date": "2026-10-04",
       "start_raw": "1400",
@@ -9222,6 +9464,22 @@
       "genres": []
     },
     {
+      "id": "00f33daf79a3675b",
+      "date": "2026-10-09",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Wyldfire",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "632b15799b6d6014",
       "date": "2026-10-09",
       "start_raw": "1800",
@@ -9290,6 +9548,22 @@
         "Swing",
         "World"
       ]
+    },
+    {
+      "id": "89b1eef0bfb98a25",
+      "date": "2026-10-10",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Zarina Jensen",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "0902f9abf44f90b3",
@@ -9385,6 +9659,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8ab6a928ff5ff250",
+      "date": "2026-10-15",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Analog Dog",
+      "genre": "",
+      "link": "https://talentclublive.com/event/analog-dog/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/analog-dog/",
       "genres": []
     },
     {
@@ -9511,6 +9802,39 @@
       ]
     },
     {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
+    },
+    {
+      "id": "db8248910e53657a",
+      "date": "2026-10-18",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Mike Williams",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "7a5cd3b82b0db4ce",
       "date": "2026-10-18",
       "start_raw": "1500",
@@ -9527,6 +9851,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "a80004e1f005a945",
+      "date": "2026-10-18",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Paul Mozina",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e7c8507716e27828",
@@ -9613,6 +9953,39 @@
       "genres": []
     },
     {
+      "id": "842233c4bcfa9acc",
+      "date": "2026-10-25",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Aimee Barbuto",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "aeaf97860ea4be91",
+      "date": "2026-10-27",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
+      "genre": "",
+      "link": "https://talentclublive.com/event/steely-dead/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/steely-dead/",
+      "genres": []
+    },
+    {
       "id": "ee4b7239cd5b387e",
       "date": "2026-10-30",
       "start_raw": "1700",
@@ -9622,6 +9995,22 @@
       "link": "",
       "link_name": "",
       "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "623c9fe08715cc90",
+      "date": "2026-10-30",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Taurus Moon",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -9681,6 +10070,22 @@
       ]
     },
     {
+      "id": "c338897c4f4b6d76",
+      "date": "2026-10-31",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Milo Matthews Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "329e246a69389a72",
       "date": "2026-10-31",
       "start_raw": "1730",
@@ -9690,6 +10095,22 @@
       "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cf33199b20feca27",
+      "date": "2026-11-01",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Aaron Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -9745,6 +10166,22 @@
       "genres": []
     },
     {
+      "id": "e8773c3619f07955",
+      "date": "2026-11-06",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Quartz Creek Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "2b479e30745ce95b",
       "date": "2026-11-06",
       "start_raw": "1930",
@@ -9764,6 +10201,22 @@
       ]
     },
     {
+      "id": "71035512fe51a4aa",
+      "date": "2026-11-07",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Michael Whipple",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "a9e43b39e5aac04a",
       "date": "2026-11-07",
       "start_raw": "1730",
@@ -9780,6 +10233,22 @@
       "genres": [
         "Country"
       ]
+    },
+    {
+      "id": "0dc6e3fbbca7966d",
+      "date": "2026-11-08",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "The Smokin' Gundersons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e70474350df3178a",
@@ -9825,6 +10294,22 @@
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4e1c5d286e8b4f91",
+      "date": "2026-11-15",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Zarina Jensen",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -9930,6 +10415,22 @@
       "genres": []
     },
     {
+      "id": "b921f1b3410924d4",
+      "date": "2026-11-27",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Paul Mozina",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "1a5947c290b8aeab",
       "date": "2026-11-28",
       "start_raw": "1700",
@@ -9941,6 +10442,22 @@
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3e4a15e553ab02bd",
+      "date": "2026-11-29",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -10027,6 +10544,22 @@
       "genres": []
     },
     {
+      "id": "ffcc0be71c7eb0e4",
+      "date": "2026-12-13",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Zarina Jensen",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "3011b610be7be976",
       "date": "2026-12-19",
       "start_raw": "1700",
@@ -10036,6 +10569,22 @@
       "link": "",
       "link_name": "Mercy",
       "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "da5500cae3081297",
+      "date": "2026-12-20",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "The Smokin' Gundersons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Valley View Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
