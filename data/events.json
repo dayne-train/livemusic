@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-04T12:42:50.881Z",
+  "generated_at": "2026-09-04T18:59:04.086Z",
   "source_timestamp": "09/03/2026 13:43",
-  "content_hash": "e61018d7ccb193f1",
+  "content_hash": "b4fa4d6b967d686b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 358,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-04T12:42:33.516Z",
-      "last_attempt": "2026-09-04T12:42:33.516Z",
+      "last_ok": "2026-09-04T18:58:38.752Z",
+      "last_attempt": "2026-09-04T18:58:38.752Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 33,
+      "count": 31,
       "strategy": "live",
-      "last_ok": "2026-09-04T12:42:33.928Z",
-      "last_attempt": "2026-09-04T12:42:33.928Z",
-      "error": null
+      "last_ok": "2026-09-04T18:58:39.029Z",
+      "last_attempt": "2026-09-04T18:58:39.029Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-09-04T12:42:36.025Z",
-      "last_attempt": "2026-09-04T12:42:36.025Z",
-      "error": null
+      "last_attempt": "2026-09-04T18:58:49.289Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-04T12:42:36.576Z",
-      "last_attempt": "2026-09-04T12:42:36.576Z",
+      "last_ok": "2026-09-04T18:58:49.430Z",
+      "last_attempt": "2026-09-04T18:58:49.430Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-04T12:42:38.029Z",
-      "last_attempt": "2026-09-04T12:42:38.029Z",
+      "last_ok": "2026-09-04T18:58:50.657Z",
+      "last_attempt": "2026-09-04T18:58:50.657Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-04T12:42:39.334Z",
-      "last_attempt": "2026-09-04T12:42:39.334Z",
+      "last_ok": "2026-09-04T18:58:51.527Z",
+      "last_attempt": "2026-09-04T18:58:51.527Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-04T12:42:39.847Z",
-      "last_attempt": "2026-09-04T12:42:39.847Z",
+      "last_ok": "2026-09-04T18:58:52.030Z",
+      "last_attempt": "2026-09-04T18:58:52.030Z",
       "error": null
     }
   },
@@ -3696,17 +3696,6 @@
       "_sources": [
         "musiclist_txt"
       ]
-    },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
     }
   },
   "events": [
@@ -4109,22 +4098,6 @@
       "genres": [
         "Rock"
       ]
-    },
-    {
-      "id": "fb7ff9cc83665577",
-      "date": "2026-09-04",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "musician": "Trinity Episcopal Church and Labyrinth: Open House with Art Exhibit",
-      "genre": "",
-      "link": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
-      "link_name": "",
-      "venue": "Trinity Episcopal Church",
-      "notes": "First Friday Art Walk \nCome & Listen – Jodi French will be playing the organ from 530 to 7 pm. \nCome & Walk – our flower-adorned Labyrinth, with streamers for children, is open to all as a place to po",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/trinity-episcopal-church-and-labyrinth-open-house-with-art-exhibit-3/",
-      "genres": []
     },
     {
       "id": "f0660331a3bf31cf",
@@ -5641,23 +5614,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "fbb8fcda0735ccbc",
-      "date": "2026-09-09",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Dead Set 805",
-      "genre": "",
-      "link": "https://talentclublive.com/event/dead-set-805/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/dead-set-805/",
       "genres": []
     },
     {
@@ -7761,23 +7717,6 @@
       "genres": []
     },
     {
-      "id": "5e2ae655824d55d6",
-      "date": "2026-09-23",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Joslyn & The Sweet Compression",
-      "genre": "",
-      "link": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
-      "genres": []
-    },
-    {
       "id": "e5b5a7023fd2925a",
       "date": "2026-09-24",
       "start_raw": "1730",
@@ -8178,23 +8117,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "996814db97d176a6",
-      "date": "2026-09-25",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Magnificent Sanctuary Band",
-      "genre": "",
-      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
       "genres": []
     },
     {
@@ -9154,23 +9076,6 @@
       "genres": []
     },
     {
-      "id": "fcf7e0164010bcb2",
-      "date": "2026-10-03",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Barry The Fish Melton and The Scholer System",
-      "genre": "",
-      "link": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
-      "genres": []
-    },
-    {
       "id": "335a13f2c4064dc6",
       "date": "2026-10-04",
       "start_raw": "1400",
@@ -9483,23 +9388,6 @@
       "genres": []
     },
     {
-      "id": "8ab6a928ff5ff250",
-      "date": "2026-10-15",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Analog Dog",
-      "genre": "",
-      "link": "https://talentclublive.com/event/analog-dog/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/analog-dog/",
-      "genres": []
-    },
-    {
       "id": "3f10eaa1f88e8222",
       "date": "2026-10-16",
       "start_raw": "1700",
@@ -9623,23 +9511,6 @@
       ]
     },
     {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
-      "genres": []
-    },
-    {
       "id": "7a5cd3b82b0db4ce",
       "date": "2026-10-18",
       "start_raw": "1500",
@@ -9739,23 +9610,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "aeaf97860ea4be91",
-      "date": "2026-10-27",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
-      "genre": "",
-      "link": "https://talentclublive.com/event/steely-dead/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/steely-dead/",
       "genres": []
     },
     {
