@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-04T04:30:02.556Z",
+  "generated_at": "2026-09-04T12:42:50.881Z",
   "source_timestamp": "09/03/2026 13:43",
-  "content_hash": "b355473bb5da75f7",
+  "content_hash": "e61018d7ccb193f1",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 358,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-04T04:29:48.104Z",
-      "last_attempt": "2026-09-04T04:29:48.104Z",
+      "last_ok": "2026-09-04T12:42:33.516Z",
+      "last_attempt": "2026-09-04T12:42:33.516Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 34,
+      "count": 33,
       "strategy": "live",
-      "last_ok": "2026-09-04T04:29:48.536Z",
-      "last_attempt": "2026-09-04T04:29:48.536Z",
+      "last_ok": "2026-09-04T12:42:33.928Z",
+      "last_attempt": "2026-09-04T12:42:33.928Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-04T04:29:50.748Z",
-      "last_attempt": "2026-09-04T04:29:50.748Z",
+      "last_ok": "2026-09-04T12:42:36.025Z",
+      "last_attempt": "2026-09-04T12:42:36.025Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-04T04:29:51.322Z",
-      "last_attempt": "2026-09-04T04:29:51.322Z",
+      "last_ok": "2026-09-04T12:42:36.576Z",
+      "last_attempt": "2026-09-04T12:42:36.576Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-04T04:29:51.472Z",
-      "last_attempt": "2026-09-04T04:29:51.472Z",
+      "last_ok": "2026-09-04T12:42:38.029Z",
+      "last_attempt": "2026-09-04T12:42:38.029Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-04T04:29:53.056Z",
-      "last_attempt": "2026-09-04T04:29:53.056Z",
+      "last_ok": "2026-09-04T12:42:39.334Z",
+      "last_attempt": "2026-09-04T12:42:39.334Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-04T04:29:53.557Z",
-      "last_attempt": "2026-09-04T04:29:53.557Z",
+      "last_ok": "2026-09-04T12:42:39.847Z",
+      "last_attempt": "2026-09-04T12:42:39.847Z",
       "error": null
     }
   },
@@ -3815,22 +3815,14 @@
       "end_raw": "1930",
       "musician": "Stillwater Road",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-stillwater-road-3/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Acoustic guitar duo featuring the combined talents of Ted Koch & Bryce Pettyjohn.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-stillwater-road-3/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "d1ab7fb6603e843c"
-        }
-      ],
-      "genres": [
-        "Folk"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "dc6d0ec7b68eef5c",
@@ -3944,23 +3936,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "6ece20baabf90866",
-      "date": "2026-09-03",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
