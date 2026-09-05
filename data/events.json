@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-05T04:25:19.937Z",
+  "generated_at": "2026-09-05T11:49:55.839Z",
   "source_timestamp": "09/04/2026 12:54",
-  "content_hash": "b4b22b12e89d1e16",
+  "content_hash": "67baa42d8eec2551",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 383,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-05T04:24:58.672Z",
-      "last_attempt": "2026-09-05T04:24:58.672Z",
+      "last_ok": "2026-09-05T11:49:30.720Z",
+      "last_attempt": "2026-09-05T11:49:30.720Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 30,
+      "count": 31,
       "strategy": "live",
-      "last_ok": "2026-09-05T04:24:59.003Z",
-      "last_attempt": "2026-09-05T04:24:59.003Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-09-05T11:49:31.197Z",
+      "last_attempt": "2026-09-05T11:49:31.197Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-05T04:25:09.205Z",
-      "last_attempt": "2026-09-05T04:25:09.205Z",
+      "last_ok": "2026-09-05T11:49:33.635Z",
+      "last_attempt": "2026-09-05T11:49:33.635Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-05T04:25:09.573Z",
-      "last_attempt": "2026-09-05T04:25:09.573Z",
+      "last_ok": "2026-09-05T11:49:34.132Z",
+      "last_attempt": "2026-09-05T11:49:34.132Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-05T04:25:09.680Z",
-      "last_attempt": "2026-09-05T04:25:09.680Z",
+      "last_ok": "2026-09-05T11:49:35.379Z",
+      "last_attempt": "2026-09-05T11:49:35.379Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-05T04:25:10.603Z",
-      "last_attempt": "2026-09-05T04:25:10.603Z",
+      "last_ok": "2026-09-05T11:49:37.047Z",
+      "last_attempt": "2026-09-05T11:49:37.047Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-05T04:25:11.086Z",
-      "last_attempt": "2026-09-05T04:25:11.086Z",
+      "last_ok": "2026-09-05T11:49:37.558Z",
+      "last_attempt": "2026-09-05T11:49:37.558Z",
       "error": null
     }
   },
@@ -4128,23 +4128,15 @@
       "end_raw": "1930",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "https://bellefiorewine.com/event/live-music-pozitronics-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "The Pozitronics is the Rogue Valley’s premier all-you-can dance band, consistently bringing positive vibes & upbeat tunes in classic rock, R&B, & pop styles, performed by a fun-loving group of talente",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-pozitronics-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "11a4fa03634dc0e2"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Rock",
-        "Funk / Soul",
-        "Pop"
+        "Rock"
       ]
     },
     {
@@ -7166,6 +7158,22 @@
       "event_type": "Band",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/oktoberfest/",
+      "genres": []
+    },
+    {
+      "id": "a6589fef0aa8efb0",
+      "date": "2026-09-19",
+      "start_raw": "1100",
+      "end_raw": "1900",
+      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
+      "genre": "",
+      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
+      "link_name": "",
+      "venue": "Mt. Ashland",
+      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
       "genres": []
     },
     {
