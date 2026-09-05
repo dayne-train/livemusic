@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-05T15:11:55.371Z",
+  "generated_at": "2026-09-05T18:17:03.415Z",
   "source_timestamp": "09/04/2026 12:54",
-  "content_hash": "67baa42d8eec2551",
+  "content_hash": "e724ce9215aa03e6",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 383,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-05T15:11:31.828Z",
-      "last_attempt": "2026-09-05T15:11:31.828Z",
+      "last_ok": "2026-09-05T18:16:35.989Z",
+      "last_attempt": "2026-09-05T18:16:35.989Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 31,
+      "count": 30,
       "strategy": "live",
-      "last_ok": "2026-09-05T15:11:32.088Z",
-      "last_attempt": "2026-09-05T15:11:32.088Z",
+      "last_ok": "2026-09-05T18:16:36.795Z",
+      "last_attempt": "2026-09-05T18:16:36.795Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-05T15:11:34.662Z",
-      "last_attempt": "2026-09-05T15:11:34.662Z",
+      "last_ok": "2026-09-05T18:16:40.168Z",
+      "last_attempt": "2026-09-05T18:16:40.168Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-05T15:11:35.060Z",
-      "last_attempt": "2026-09-05T15:11:35.060Z",
+      "last_ok": "2026-09-05T18:16:41.275Z",
+      "last_attempt": "2026-09-05T18:16:41.275Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-05T15:11:35.329Z",
-      "last_attempt": "2026-09-05T15:11:35.329Z",
+      "last_ok": "2026-09-05T18:16:43.140Z",
+      "last_attempt": "2026-09-05T18:16:43.140Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-05T15:11:36.404Z",
-      "last_attempt": "2026-09-05T15:11:36.404Z",
+      "last_ok": "2026-09-05T18:16:45.227Z",
+      "last_attempt": "2026-09-05T18:16:45.227Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-05T15:11:36.956Z",
-      "last_attempt": "2026-09-05T15:11:36.956Z",
+      "last_ok": "2026-09-05T18:16:46.404Z",
+      "last_attempt": "2026-09-05T18:16:46.404Z",
       "error": null
     }
   },
@@ -3963,22 +3963,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "4c53e00bb7a4e611",
-      "date": "2026-09-04",
-      "start_raw": "1200",
-      "end_raw": "1600",
-      "musician": "Labor Day Weekend Special Flight:  Tantalizing Taste of Tempranillo",
-      "genre": "",
-      "link": "https://grizzlypeakwinery.com/event/labor-day-special-flight-a-tantalizing-taste-of-tempranillo/",
-      "link_name": "",
-      "venue": "Grizzly Peak Winery",
-      "notes": "A Tantalizing Taste of Tempranillo!\nA special flight that showcases all the ways the Tempranillo grape can be utilized.\nFlight to include: traditional Tempranillo, White Tempranillo, Tempranillo Rosé,",
-      "event_type": "Band",
-      "source": "tribe_ics:grizzly_peak",
-      "source_url": "https://grizzlypeakwinery.com/event/labor-day-special-flight-a-tantalizing-taste-of-tempranillo/",
       "genres": []
     },
     {
