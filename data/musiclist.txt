@@ -1,5 +1,5 @@
 --timestamp
-09/04/2026 12:54
+09/05/2026 13:42
 --news
 * date | notes
 --musicians
@@ -570,6 +570,7 @@ Jim Quinby||||Wild Goose Cafe||09/06/26|1700|1900||Band|26/09/01 11:37AM|6|
 The Gist||||Galice Resort||09/06/26|1730|2030||Band|26/09/03 13:43PM|1|
 Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||09/06/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|26/09/03 13:43PM|4|
 Shae & Jenni||||Dancin Vineyards||09/07/26|1700|1900||Band|26/09/01 12:23PM|0|
+Paul Schmeling Quartet||||Martino's Upstairs||09/07/26|1900|2100|CLOSED|Band|26/09/05 13:42PM|4|
 Highway Bound||||The Gold Room||09/08/26|1800|2000||Band|26/09/01 12:23PM|2|
 Jared Gutridge||||Dancin Vineyards||09/09/26|1700|1900||Band|26/09/01 12:23PM|0|
 Kristen Calvin & Robbie Dacosta|||Kristen Calvin|Local Vines Wine Bar||09/09/26|1700|1900||Band|26/08/27 12:57PM|6|
@@ -634,6 +635,7 @@ Tres Palomas||||Butterfly Club 557||09/13/26|1800|1900|$10|Band||6|
 Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||09/13/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|26/09/03 13:43PM|4|
 Malinka||||OSF Green Show||09/13/26|1830|1915||Band|26/09/03 13:43PM|3|
 Lisa and Dean||||Dancin Vineyards||09/14/26|1700|1900||Band|26/09/01 12:23PM|0|
+Paul Schmeling Quartet||||Martino's Upstairs||09/14/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/09/05 13:42PM|4|
 Taurus Moon||||The Gold Room||09/15/26|1800|2000||Band|26/09/01 12:23PM|2|
 JustaDuo||||Dancin Vineyards||09/16/26|1700|1900||Band|26/09/01 12:23PM|0|
 HopStone||||Local Vines Wine Bar||09/16/26|1700|1900||Band|26/09/01 12:23PM|0|
@@ -688,6 +690,7 @@ Cathy Bolton||||Belle Fiore||09/20/26|1700|1900||Solo|26/09/01 12:23PM|0|
 Jim Quinby||||Wild Goose Cafe||09/20/26|1700|1900||Band|26/09/01 11:37AM|6|
 Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||09/20/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|26/09/03 13:43PM|4|
 Jeff Kloetzel||||Dancin Vineyards||09/21/26|1700|1900||Band|26/09/01 12:23PM|0|
+Paul Schmeling Quartet||||Martino's Upstairs||09/21/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/09/05 13:42PM|4|
 Santa Fe Band||||Medford Drag Strip||09/21/26|2100|2300||Band|26/08/24 10:33AM|6|
 Sonido Alegre||||The Gold Room||09/22/26|1800|2000||Band|26/08/23 16:13PM|6|
 Nina & The Notes||||OSF Green Show||09/22/26|1830|1915||Band|26/09/03 13:43PM|0|
@@ -748,6 +751,7 @@ Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||09/27/26|1800|2100|Robbi
 Danielle Kelly & Emily Turner|||Danielle Kelly Soul Project|Dancin Vineyards||09/28/26|1700|1900||Band|26/09/01 12:23PM|0|
 Mike Brons||||Rellik Winery||09/28/26|1800|2000||Solo|26/09/01 12:23PM|0|
 The Scottish Fish||||Dos Mariposas Vineyards||09/28/26|1900|2100|Tickets|Band|26/09/01 12:23PM|0|
+Paul Schmeling Quartet||||Martino's Upstairs||09/28/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/09/05 13:42PM|4|
 Canto Sol||||Mountain Meadows||09/29/26|1300|1400|as part of their special La Viva picnic|Band|26/09/04 12:54PM|3|
 Conrad||||The Gold Room||09/29/26|1800|2000||Band|26/09/01 12:23PM|2|
 Back Door Blues Band||||Local Vines Wine Bar||09/30/26|1700|1900||Band|26/09/01 12:23PM|0|

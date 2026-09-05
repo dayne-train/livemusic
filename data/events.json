@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-05T18:17:03.415Z",
-  "source_timestamp": "09/04/2026 12:54",
-  "content_hash": "e724ce9215aa03e6",
+  "generated_at": "2026-09-05T22:03:15.075Z",
+  "source_timestamp": "09/05/2026 13:42",
+  "content_hash": "544d64338ed6aa40",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 383,
+      "count": 387,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-05T18:16:35.989Z",
-      "last_attempt": "2026-09-05T18:16:35.989Z",
+      "last_ok": "2026-09-05T22:02:55.111Z",
+      "last_attempt": "2026-09-05T22:02:55.111Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 30,
+      "count": 31,
       "strategy": "live",
-      "last_ok": "2026-09-05T18:16:36.795Z",
-      "last_attempt": "2026-09-05T18:16:36.795Z",
+      "last_ok": "2026-09-05T22:02:55.478Z",
+      "last_attempt": "2026-09-05T22:02:55.478Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-05T18:16:40.168Z",
-      "last_attempt": "2026-09-05T18:16:40.168Z",
+      "last_ok": "2026-09-05T22:02:57.908Z",
+      "last_attempt": "2026-09-05T22:02:57.908Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-05T18:16:41.275Z",
-      "last_attempt": "2026-09-05T18:16:41.275Z",
+      "last_ok": "2026-09-05T22:02:58.358Z",
+      "last_attempt": "2026-09-05T22:02:58.358Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-05T18:16:43.140Z",
-      "last_attempt": "2026-09-05T18:16:43.140Z",
+      "last_ok": "2026-09-05T22:02:58.558Z",
+      "last_attempt": "2026-09-05T22:02:58.558Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-05T18:16:45.227Z",
-      "last_attempt": "2026-09-05T18:16:45.227Z",
+      "last_ok": "2026-09-05T22:02:59.568Z",
+      "last_attempt": "2026-09-05T22:02:59.568Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-05T18:16:46.404Z",
-      "last_attempt": "2026-09-05T18:16:46.404Z",
+      "last_ok": "2026-09-05T22:03:00.108Z",
+      "last_attempt": "2026-09-05T22:03:00.108Z",
       "error": null
     }
   },
@@ -3966,6 +3966,22 @@
       "genres": []
     },
     {
+      "id": "4c53e00bb7a4e611",
+      "date": "2026-09-04",
+      "start_raw": "1200",
+      "end_raw": "1600",
+      "musician": "Labor Day Weekend Special Flight:  Tantalizing Taste of Tempranillo",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/labor-day-special-flight-a-tantalizing-taste-of-tempranillo/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "A Tantalizing Taste of Tempranillo!\nA special flight that showcases all the ways the Tempranillo grape can be utilized.\nFlight to include: traditional Tempranillo, White Tempranillo, Tempranillo Rosé,",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/labor-day-special-flight-a-tantalizing-taste-of-tempranillo/",
+      "genres": []
+    },
+    {
       "id": "8d1a26810a32261b",
       "date": "2026-09-04",
       "start_raw": "1700",
@@ -5496,6 +5512,22 @@
       "genres": []
     },
     {
+      "id": "62e4a72d54c000d0",
+      "date": "2026-09-07",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "CLOSED",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "e66d064d02809065",
       "date": "2026-09-08",
       "start_raw": "1800",
@@ -6651,6 +6683,22 @@
       "genres": []
     },
     {
+      "id": "dad1d24696fc04af",
+      "date": "2026-09-14",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "2dd5f956426ebb20",
       "date": "2026-09-15",
       "start_raw": "1800",
@@ -7684,6 +7732,22 @@
       "link_name": "",
       "venue": "Dancin Vineyards",
       "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "067a0aa9b9de2f80",
+      "date": "2026-09-21",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -8768,6 +8832,22 @@
       "genres": [
         "Celtic"
       ]
+    },
+    {
+      "id": "4bd2be8dd1abaa53",
+      "date": "2026-09-28",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "eb53cb59d36f5158",
