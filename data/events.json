@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-07T04:38:08.489Z",
+  "generated_at": "2026-09-07T14:14:22.305Z",
   "source_timestamp": "09/06/2026 14:52",
-  "content_hash": "18b5733e464e6df0",
+  "content_hash": "2bb90ed4820c8147",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 389,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-07T04:37:44.922Z",
-      "last_attempt": "2026-09-07T04:37:44.922Z",
+      "last_ok": "2026-09-07T14:14:00.142Z",
+      "last_attempt": "2026-09-07T14:14:00.142Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 29,
+      "count": 28,
       "strategy": "live",
-      "last_ok": "2026-09-07T04:37:45.390Z",
-      "last_attempt": "2026-09-07T04:37:45.390Z",
+      "last_ok": "2026-09-07T14:14:00.501Z",
+      "last_attempt": "2026-09-07T14:14:00.501Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-07T04:37:47.803Z",
-      "last_attempt": "2026-09-07T04:37:47.803Z",
+      "last_ok": "2026-09-07T14:14:03.518Z",
+      "last_attempt": "2026-09-07T14:14:03.518Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-07T04:37:48.233Z",
-      "last_attempt": "2026-09-07T04:37:48.233Z",
+      "last_ok": "2026-09-07T14:14:03.795Z",
+      "last_attempt": "2026-09-07T14:14:03.795Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-07T04:37:48.370Z",
-      "last_attempt": "2026-09-07T04:37:48.370Z",
+      "last_ok": "2026-09-07T14:14:04.015Z",
+      "last_attempt": "2026-09-07T14:14:04.015Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
-      "count": 0,
+      "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-07T04:37:49.599Z",
-      "last_attempt": "2026-09-07T04:37:49.599Z",
+      "last_ok": "2026-09-07T14:14:05.230Z",
+      "last_attempt": "2026-09-07T14:14:05.230Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-07T04:37:50.122Z",
-      "last_attempt": "2026-09-07T04:37:50.122Z",
+      "last_ok": "2026-09-07T14:14:05.761Z",
+      "last_attempt": "2026-09-07T14:14:05.761Z",
       "error": null
     }
   },
@@ -3718,6 +3718,17 @@
       "_sources": [
         "talent_club"
       ]
+    },
+    "Lithia Park Bandshell": {
+      "url": "https://ashlandparksandrec.org",
+      "city": "Ashland",
+      "notes": "Outdoor concert bandshell in Lithia Park",
+      "address": "Winburn Way, Ashland OR",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "ashland_city"
+      ]
     }
   },
   "events": [
@@ -5368,24 +5379,14 @@
       "end_raw": "1900",
       "musician": "Shabby Guys",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-shabby-guys/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Wizardly four-piece instrumental band covering blues, jazz, R&B, and pop hits.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-shabby-guys/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "32b5995c90f1c2ab"
-        }
-      ],
-      "genres": [
-        "Blues",
-        "Jazz",
-        "Funk / Soul"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "55eb475ede80122f",
@@ -7741,6 +7742,22 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "6517ac2f9d2473b5",
+      "date": "2026-09-21",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Epic Ashland Summer Sounds Concert Series",
+      "genre": "",
+      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4424",
+      "link_name": "",
+      "venue": "Lithia Park Bandshell",
+      "notes": "",
+      "event_type": "Band",
+      "source": "ashland_city",
+      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4424",
       "genres": []
     },
     {
