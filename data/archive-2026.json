@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1507,
+  "event_count": 1513,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -26122,6 +26122,103 @@
       "genres": [
         "Other"
       ]
+    },
+    {
+      "id": "c6a123c0992b1c43",
+      "date": "2026-09-09",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Taurus Moon",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cc2460a811e0737b",
+      "date": "2026-09-09",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Kristen Calvin & Robbie Dacosta",
+      "genre": "",
+      "link": "",
+      "link_name": "Kristen Calvin",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d03d16bb602046d0",
+      "date": "2026-09-09",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jared Gutridge",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "289f3a2ec61790bf",
+      "date": "2026-09-09",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Erica Rochel Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weekend Beer Company",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "eef6f13158900f24",
+      "date": "2026-09-09",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "wine and dine $18",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fbb8fcda0735ccbc",
+      "date": "2026-09-09",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dead Set 805",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dead-set-805/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dead-set-805/",
+      "genres": []
     }
   ]
 }
