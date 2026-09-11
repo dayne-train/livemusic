@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-11T04:37:48.201Z",
+  "generated_at": "2026-09-11T12:49:08.781Z",
   "source_timestamp": "09/10/2026 13:48",
-  "content_hash": "6db6df5e0ae5f657",
+  "content_hash": "5e708a809ac5c048",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 311,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-11T04:37:19.966Z",
-      "last_attempt": "2026-09-11T04:37:19.966Z",
+      "last_ok": "2026-09-11T12:48:28.985Z",
+      "last_attempt": "2026-09-11T12:48:28.985Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 22,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-09-11T04:37:20.211Z",
-      "last_attempt": "2026-09-11T04:37:20.211Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-09-11T12:48:29.297Z",
+      "last_attempt": "2026-09-11T12:48:29.297Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-11T04:37:30.499Z",
-      "last_attempt": "2026-09-11T04:37:30.499Z",
+      "last_ok": "2026-09-11T12:48:30.632Z",
+      "last_attempt": "2026-09-11T12:48:30.632Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-11T04:37:30.809Z",
-      "last_attempt": "2026-09-11T04:37:30.809Z",
+      "last_ok": "2026-09-11T12:48:30.848Z",
+      "last_attempt": "2026-09-11T12:48:30.848Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-11T04:37:30.927Z",
-      "last_attempt": "2026-09-11T04:37:30.927Z",
+      "last_ok": "2026-09-11T12:48:31.019Z",
+      "last_attempt": "2026-09-11T12:48:31.019Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-11T04:37:32.165Z",
-      "last_attempt": "2026-09-11T04:37:32.165Z",
+      "last_ok": "2026-09-11T12:48:32.405Z",
+      "last_attempt": "2026-09-11T12:48:32.405Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-11T04:37:33.044Z",
-      "last_attempt": "2026-09-11T04:37:33.044Z",
+      "last_ok": "2026-09-11T12:48:32.857Z",
+      "last_attempt": "2026-09-11T12:48:32.857Z",
       "error": null
     }
   },
@@ -3787,23 +3787,14 @@
       "end_raw": "1930",
       "musician": "Aaron Reed",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-aaron-reed-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Aaron Reed, of the Brothers Reed. Their style evokes finger picking folk singers from the 60’s and 70’s with a contemporary and boundless bluegrass edge.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-aaron-reed-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "e7676cd680e2a842"
-        }
-      ],
-      "genres": [
-        "Bluegrass",
-        "Folk"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b71b122323937cdc",
@@ -5704,6 +5695,22 @@
       "event_type": "Band",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/oktoberfest/",
+      "genres": []
+    },
+    {
+      "id": "a6589fef0aa8efb0",
+      "date": "2026-09-19",
+      "start_raw": "1100",
+      "end_raw": "1900",
+      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
+      "genre": "",
+      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
+      "link_name": "",
+      "venue": "Mt. Ashland",
+      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
       "genres": []
     },
     {
