@@ -1,5 +1,5 @@
 --timestamp
-09/10/2026 13:48
+09/11/2026 08:05
 --news
 * date | notes
 --musicians
@@ -497,7 +497,6 @@ Vinyl Tap||||South Stage Cellars||09/11/26|1800|2000||Band|26/09/03 13:43PM|1|
 Shybo Torres||||Taproots Nursery||09/11/26|1800|2000||Band|26/09/10 13:48PM|1|
 Mitchell Brothers||||Bella Union||09/11/26|1900|2200||Band|26/09/01 12:23PM|0|
 Daniel Nickels Band|||Daniel Nickels|Growler Guys Grants Pass||09/11/26|1900|2200||Band|26/09/10 13:48PM|1|
-Pozitronics||||Skout Taphouse||09/11/26|1900|2100||Band|26/09/10 13:48PM|1|
 The Kind||||Steelhead Tavern||09/11/26|1900|2200||Band|26/09/10 13:48PM|1|
 Adam Gabriel||||The Gold Room||09/11/26|1900|2100||Band|26/09/01 12:23PM|2|
 Johnny Young||||Cedarwood Saloon||09/11/26|2000|1200||Band|26/09/10 13:48PM|1|
@@ -717,7 +716,6 @@ David Pinsky & Phil Newton|||David Pinsky|Dancin Vineyards||10/09/26|1700|1900||
 Wyldfire||||Tiffany's Marketplace||10/09/26|1700|1900||Band|26/09/04 12:54PM|2|
 Bim Jeam and the Sadness||||Phoodery||10/09/26|1800|2000||Band||6|
 Mitchell Brothers||||Bella Union||10/09/26|1900|2200||Band|26/09/01 12:23PM|0|
-Pozitronics||||Skout Taphouse||10/09/26|1900|2100||Band||6|
 Zarina Jensen||||Valley View Winery||10/10/26|1600|1800||Band|26/09/04 12:54PM|2|
 Bekkah McAlvage||||Remotion Wine||10/10/26|1700|1900||Band||6|
 Cathy Bolton Duo|||Cathy Bolton|Stone River Winery||10/10/26|1700|1900||Solo||6|
@@ -743,6 +741,7 @@ Aimee Barbuto||||Tiffany's Marketplace||10/25/26|1400|1600||Band|26/09/04 12:54P
 Enoch and David||||Pebblestone Cellars||10/30/26|1700|1900||Band|26/08/13 13:59PM|6|
 Taurus Moon||||Tiffany's Marketplace||10/30/26|1700|1900||Band|26/09/04 12:54PM|2|
 Pozitronics||||Roxy Ann Winery||10/30/26|1800|2000|Costume Party|Band||6|
+Pozitronics||||Rellik Winery||10/31/26|1300|1500|Halloween Costume Party|Band|26/09/11 08:05AM|3|
 Gil René||||Talent Local Goods Market||10/31/26|1300|1430||Band|26/08/25 16:03PM|6|
 Pozitronics||||Padigan Wines||10/31/26|1700|1900|Costume Party|Band||6|
 Milo Matthews Band||||Valley View Winery||10/31/26|1700|2000||Band|26/09/04 12:54PM|2|
