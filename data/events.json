@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-12T18:21:55.567Z",
+  "generated_at": "2026-09-12T22:16:17.468Z",
   "source_timestamp": "09/11/2026 08:05",
-  "content_hash": "f4bc4c37dbf7100c",
+  "content_hash": "28bb22f5df764f64",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 310,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-12T18:21:28.622Z",
-      "last_attempt": "2026-09-12T18:21:28.622Z",
+      "last_ok": "2026-09-12T22:15:35.032Z",
+      "last_attempt": "2026-09-12T22:15:35.032Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-09-12T18:21:28.872Z",
-      "last_attempt": "2026-09-12T18:21:28.872Z",
-      "error": null
+      "last_ok": "2026-09-12T22:15:35.449Z",
+      "last_attempt": "2026-09-12T22:15:35.449Z",
+      "error": "travel_ashland: travel_ashland no VEVENT in response"
     },
     "talent_club": {
-      "ok": true,
-      "count": 6,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-09-12T18:21:31.439Z",
-      "last_attempt": "2026-09-12T18:21:31.439Z",
-      "error": null
+      "last_attempt": "2026-09-12T22:15:36.197Z",
+      "error": "page missing event blocks"
     },
     "black_sheep": {
       "ok": true,
-      "count": 7,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-09-12T18:21:31.933Z",
-      "last_attempt": "2026-09-12T18:21:31.933Z",
+      "last_ok": "2026-09-12T22:15:36.565Z",
+      "last_attempt": "2026-09-12T22:15:36.565Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-12T18:21:32.039Z",
-      "last_attempt": "2026-09-12T18:21:32.039Z",
+      "last_ok": "2026-09-12T22:15:36.693Z",
+      "last_attempt": "2026-09-12T22:15:36.693Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-12T18:21:37.329Z",
-      "last_attempt": "2026-09-12T18:21:37.329Z",
+      "last_ok": "2026-09-12T22:15:38.135Z",
+      "last_attempt": "2026-09-12T22:15:38.135Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-12T18:21:37.775Z",
-      "last_attempt": "2026-09-12T18:21:37.775Z",
+      "last_ok": "2026-09-12T22:15:38.823Z",
+      "last_attempt": "2026-09-12T22:15:38.823Z",
       "error": null
     }
   },
@@ -3708,17 +3708,6 @@
         "musiclist_txt"
       ]
     },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
-    },
     "Lithia Park Bandshell": {
       "url": "https://ashlandparksandrec.org",
       "city": "Ashland",
@@ -5668,22 +5657,6 @@
       "genres": []
     },
     {
-      "id": "a6589fef0aa8efb0",
-      "date": "2026-09-19",
-      "start_raw": "1100",
-      "end_raw": "1900",
-      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
-      "genre": "",
-      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
-      "link_name": "",
-      "venue": "Mt. Ashland",
-      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
-      "genres": []
-    },
-    {
       "id": "d2fbf6802bd237ed",
       "date": "2026-09-19",
       "start_raw": "1400",
@@ -6449,23 +6422,6 @@
       "genres": []
     },
     {
-      "id": "5e2ae655824d55d6",
-      "date": "2026-09-23",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Joslyn & The Sweet Compression",
-      "genre": "",
-      "link": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
-      "genres": []
-    },
-    {
       "id": "f9c47bdca84db799",
       "date": "2026-09-24",
       "start_raw": "1330",
@@ -6921,23 +6877,6 @@
       "genres": []
     },
     {
-      "id": "996814db97d176a6",
-      "date": "2026-09-25",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Magnificent Sanctuary Band",
-      "genre": "",
-      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
-      "genres": []
-    },
-    {
       "id": "f7c0c1409e347e3b",
       "date": "2026-09-26",
       "start_raw": "1030",
@@ -7223,6 +7162,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "7ace91d1c10eac17",
+      "date": "2026-09-27",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "36b47bd0dcc0a9c8",
@@ -8044,23 +8002,6 @@
       "genres": []
     },
     {
-      "id": "fcf7e0164010bcb2",
-      "date": "2026-10-03",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Barry The Fish Melton and The Scholer System",
-      "genre": "",
-      "link": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
-      "genres": []
-    },
-    {
       "id": "335a13f2c4064dc6",
       "date": "2026-10-04",
       "start_raw": "1400",
@@ -8387,23 +8328,6 @@
       "genres": []
     },
     {
-      "id": "8ab6a928ff5ff250",
-      "date": "2026-10-15",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Analog Dog",
-      "genre": "",
-      "link": "https://talentclublive.com/event/analog-dog/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/analog-dog/",
-      "genres": []
-    },
-    {
       "id": "3f10eaa1f88e8222",
       "date": "2026-10-16",
       "start_raw": "1700",
@@ -8525,23 +8449,6 @@
       "genres": [
         "Country"
       ]
-    },
-    {
-      "id": "13ce2b277a6dc83f",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Two21Fly",
-      "genre": "",
-      "link": "https://talentclublive.com/event/two21fly/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/two21fly/",
-      "genres": []
     },
     {
       "id": "db8248910e53657a",
@@ -8691,23 +8598,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "aeaf97860ea4be91",
-      "date": "2026-10-27",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
-      "genre": "",
-      "link": "https://talentclublive.com/event/steely-dead/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/steely-dead/",
       "genres": []
     },
     {
