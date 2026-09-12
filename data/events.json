@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-12T04:32:16.662Z",
+  "generated_at": "2026-09-12T12:09:50.352Z",
   "source_timestamp": "09/11/2026 08:05",
-  "content_hash": "eeb45b3903851aeb",
+  "content_hash": "478d58eaeba85fa7",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 310,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-12T04:31:50.074Z",
-      "last_attempt": "2026-09-12T04:31:50.074Z",
+      "last_ok": "2026-09-12T12:09:12.940Z",
+      "last_attempt": "2026-09-12T12:09:12.940Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 22,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-09-12T04:31:50.395Z",
-      "last_attempt": "2026-09-12T04:31:50.395Z",
-      "error": null
+      "last_ok": "2026-09-12T12:09:13.298Z",
+      "last_attempt": "2026-09-12T12:09:13.298Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-12T04:31:51.721Z",
-      "last_attempt": "2026-09-12T04:31:51.721Z",
+      "last_ok": "2026-09-12T12:09:23.473Z",
+      "last_attempt": "2026-09-12T12:09:23.473Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-09-12T04:31:52.261Z",
-      "last_attempt": "2026-09-12T04:31:52.261Z",
+      "last_ok": "2026-09-12T12:09:23.988Z",
+      "last_attempt": "2026-09-12T12:09:23.988Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-12T04:31:52.395Z",
-      "last_attempt": "2026-09-12T04:31:52.395Z",
+      "last_ok": "2026-09-12T12:09:24.182Z",
+      "last_attempt": "2026-09-12T12:09:24.182Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-12T04:31:53.425Z",
-      "last_attempt": "2026-09-12T04:31:53.425Z",
+      "last_ok": "2026-09-12T12:09:26.351Z",
+      "last_attempt": "2026-09-12T12:09:26.351Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-12T04:31:54.147Z",
-      "last_attempt": "2026-09-12T04:31:54.147Z",
+      "last_ok": "2026-09-12T12:09:26.836Z",
+      "last_attempt": "2026-09-12T12:09:26.836Z",
       "error": null
     }
   },
@@ -4082,19 +4082,13 @@
       "end_raw": "1930",
       "musician": "Shae & Jenni",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-shae-jenni/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Shae & Jenni present an alluring set of enchanting music, full of soulful harmonies and magical moments perfect for creating an amazing ambiance. Enjoy the vibes as they blend their voices in harmony ",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-shae-jenni/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "bfc9585a8f81bd3f"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -5671,22 +5665,6 @@
       "event_type": "Band",
       "source": "mt_ashland",
       "source_url": "https://www.mtashland.com/events/oktoberfest/",
-      "genres": []
-    },
-    {
-      "id": "a6589fef0aa8efb0",
-      "date": "2026-09-19",
-      "start_raw": "1100",
-      "end_raw": "1900",
-      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
-      "genre": "",
-      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
-      "link_name": "",
-      "venue": "Mt. Ashland",
-      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
       "genres": []
     },
     {
