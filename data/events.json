@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-13T04:44:53.859Z",
+  "generated_at": "2026-09-13T13:18:19.755Z",
   "source_timestamp": "09/11/2026 08:05",
-  "content_hash": "4f780231300afa45",
+  "content_hash": "344c345936c581dd",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 310,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-13T04:44:29.018Z",
-      "last_attempt": "2026-09-13T04:44:29.018Z",
+      "last_ok": "2026-09-13T13:17:54.108Z",
+      "last_attempt": "2026-09-13T13:17:54.108Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 21,
+      "count": 20,
       "strategy": "live",
-      "last_ok": "2026-09-13T04:44:29.358Z",
-      "last_attempt": "2026-09-13T04:44:29.358Z",
+      "last_ok": "2026-09-13T13:17:54.434Z",
+      "last_attempt": "2026-09-13T13:17:54.434Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-13T04:44:31.149Z",
-      "last_attempt": "2026-09-13T04:44:31.149Z",
+      "last_ok": "2026-09-13T13:17:56.654Z",
+      "last_attempt": "2026-09-13T13:17:56.654Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-09-13T04:44:31.610Z",
-      "last_attempt": "2026-09-13T04:44:31.610Z",
+      "last_ok": "2026-09-13T13:17:57.085Z",
+      "last_attempt": "2026-09-13T13:17:57.085Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-13T04:44:31.795Z",
-      "last_attempt": "2026-09-13T04:44:31.795Z",
+      "last_ok": "2026-09-13T13:17:57.212Z",
+      "last_attempt": "2026-09-13T13:17:57.212Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-13T04:44:32.964Z",
-      "last_attempt": "2026-09-13T04:44:32.964Z",
+      "last_ok": "2026-09-13T13:17:58.511Z",
+      "last_attempt": "2026-09-13T13:17:58.511Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-13T04:44:33.501Z",
-      "last_attempt": "2026-09-13T04:44:33.501Z",
+      "last_ok": "2026-09-13T13:17:59.082Z",
+      "last_attempt": "2026-09-13T13:17:59.082Z",
       "error": null
     }
   },
@@ -4518,22 +4518,15 @@
       "end_raw": "1930",
       "musician": "Canto Sol",
       "genre": "Latin",
-      "link": "https://bellefiorewine.com/event/live-music-canto-sol-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Flamenco and classical guitarists Dan Fellman & Grant Ruiz present Spanish music and singing.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-canto-sol-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "1c1b1773803985a2"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Latin",
-        "Classical"
+        "Latin"
       ]
     },
     {
