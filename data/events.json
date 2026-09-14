@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-09-13T22:24:25.213Z",
+  "generated_at": "2026-09-14T04:53:25.688Z",
   "source_timestamp": "09/11/2026 08:05",
-  "content_hash": "b1de15f01ada2c15",
+  "content_hash": "9d005618237b9f9b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 310,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-13T22:23:36.476Z",
-      "last_attempt": "2026-09-13T22:23:36.476Z",
+      "last_ok": "2026-09-14T04:52:59.725Z",
+      "last_attempt": "2026-09-14T04:52:59.725Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 19,
       "strategy": "live",
-      "last_ok": "2026-09-13T22:23:36.780Z",
-      "last_attempt": "2026-09-13T22:23:36.780Z",
+      "last_ok": "2026-09-14T04:52:59.990Z",
+      "last_attempt": "2026-09-14T04:52:59.990Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-13T22:23:39.029Z",
-      "last_attempt": "2026-09-13T22:23:39.029Z",
+      "last_ok": "2026-09-14T04:53:02.589Z",
+      "last_attempt": "2026-09-14T04:53:02.589Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-13T22:23:39.357Z",
-      "last_attempt": "2026-09-13T22:23:39.357Z",
+      "last_ok": "2026-09-14T04:53:02.982Z",
+      "last_attempt": "2026-09-14T04:53:02.982Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-13T22:23:39.485Z",
-      "last_attempt": "2026-09-13T22:23:39.485Z",
+      "last_ok": "2026-09-14T04:53:03.230Z",
+      "last_attempt": "2026-09-14T04:53:03.230Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-13T22:23:41.100Z",
-      "last_attempt": "2026-09-13T22:23:41.100Z",
+      "last_ok": "2026-09-14T04:53:05.157Z",
+      "last_attempt": "2026-09-14T04:53:05.157Z",
       "error": null
     },
     "mt_ashland": {
-      "ok": true,
-      "count": 1,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-09-13T22:23:41.651Z",
-      "last_attempt": "2026-09-13T22:23:41.651Z",
-      "error": null
+      "last_attempt": "2026-09-14T04:53:05.601Z",
+      "error": "The operation was aborted due to timeout"
     }
   },
   "venues": {
@@ -2035,13 +2035,12 @@
     "Mt Ashland Lodge": {
       "url": "https://www.mtashland.com/event-directory/",
       "city": "Ashland",
-      "notes": "Outdoor stages at the Mt. Ashland Ski Area, elevation 6,500 ft",
-      "address": "11 Mt. Ashland Ski Road, Ashland, OR 97520",
+      "notes": "",
+      "address": "",
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "mt_ashland"
+        "musiclist_txt"
       ]
     },
     "Music on Porch": {
@@ -4928,22 +4927,14 @@
       "end_raw": "1800",
       "musician": "Kristen Calvin & Robbie Dacosta",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-kristen-robbie-duo/",
+      "link": "",
       "link_name": "Kristen Calvin",
       "venue": "Roxy Ann Winery",
-      "notes": "Join us with talented Robbie Dacosta as he teams up with the incredible Kristen Calvin Gordon for a great evening of tunes from a variety of genres. \nJoin us at RoxyAnn Winery for a Sunday afternoon o",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-kristen-robbie-duo/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "b35a84745db7c328"
-        }
-      ],
-      "genres": [
-        "Other"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "d90080006d9c0c2c",
@@ -5642,22 +5633,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "9a3ba580caf74cc0",
-      "date": "2026-09-19",
-      "start_raw": "1100",
-      "end_raw": "1900",
-      "musician": "Oktoberfest",
-      "genre": "",
-      "link": "https://www.mtashland.com/events/oktoberfest/",
-      "link_name": "",
-      "venue": "Mt Ashland Lodge",
-      "notes": "",
-      "event_type": "Band",
-      "source": "mt_ashland",
-      "source_url": "https://www.mtashland.com/events/oktoberfest/",
       "genres": []
     },
     {
