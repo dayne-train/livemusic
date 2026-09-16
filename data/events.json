@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-16T19:33:15.186Z",
-  "source_timestamp": "09/11/2026 08:05",
-  "content_hash": "9b303319d355d4e2",
+  "generated_at": "2026-09-16T22:55:32.738Z",
+  "source_timestamp": "09/16/2026 15:36",
+  "content_hash": "f3a23f6f639ede76",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 310,
+      "count": 318,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-16T19:32:41.653Z",
-      "last_attempt": "2026-09-16T19:32:41.653Z",
+      "last_ok": "2026-09-16T22:54:56.216Z",
+      "last_attempt": "2026-09-16T22:54:56.216Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 16,
+      "count": 25,
       "strategy": "live",
-      "last_ok": "2026-09-16T19:32:42.131Z",
-      "last_attempt": "2026-09-16T19:32:42.131Z",
-      "error": "travel_ashland: travel_ashland no VEVENT in response"
+      "last_ok": "2026-09-16T22:54:56.463Z",
+      "last_attempt": "2026-09-16T22:54:56.463Z",
+      "error": null
     },
     "talent_club": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-09-16T13:28:58.189Z",
-      "last_attempt": "2026-09-16T19:32:43.519Z",
-      "error": "page missing event blocks"
+      "ok": true,
+      "count": 6,
+      "strategy": "live",
+      "last_ok": "2026-09-16T22:54:59.255Z",
+      "last_attempt": "2026-09-16T22:54:59.255Z",
+      "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-16T19:32:43.909Z",
-      "last_attempt": "2026-09-16T19:32:43.909Z",
+      "last_ok": "2026-09-16T22:54:59.593Z",
+      "last_attempt": "2026-09-16T22:54:59.593Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-16T19:32:44.049Z",
-      "last_attempt": "2026-09-16T19:32:44.049Z",
+      "last_ok": "2026-09-16T22:54:59.750Z",
+      "last_attempt": "2026-09-16T22:54:59.750Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-16T19:32:45.864Z",
-      "last_attempt": "2026-09-16T19:32:45.864Z",
+      "last_ok": "2026-09-16T22:55:01.335Z",
+      "last_attempt": "2026-09-16T22:55:01.335Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-16T19:32:48.500Z",
-      "last_attempt": "2026-09-16T19:32:48.500Z",
+      "last_ok": "2026-09-16T22:55:01.931Z",
+      "last_attempt": "2026-09-16T22:55:01.931Z",
       "error": null
     }
   },
@@ -2883,7 +2883,7 @@
       ]
     },
     "Talent Harvest Festival": {
-      "url": "https://www.talentbusinessalliance.org/harvestfestival",
+      "url": "https://www.talentharvestfestival.org/",
       "city": "Talent",
       "notes": "",
       "address": "",
@@ -3706,6 +3706,17 @@
       "type": "Other",
       "_sources": [
         "musiclist_txt"
+      ]
+    },
+    "The Talent Club": {
+      "url": "https://talentclublive.com",
+      "city": "Talent",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Bar",
+      "_sources": [
+        "talent_club"
       ]
     },
     "Lithia Park Bandshell": {
@@ -5597,6 +5608,22 @@
       "genres": []
     },
     {
+      "id": "a6589fef0aa8efb0",
+      "date": "2026-09-19",
+      "start_raw": "1100",
+      "end_raw": "1900",
+      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
+      "genre": "",
+      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
+      "link_name": "",
+      "venue": "Mt. Ashland",
+      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
+      "event_type": "Band",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
+      "genres": []
+    },
+    {
       "id": "d2fbf6802bd237ed",
       "date": "2026-09-19",
       "start_raw": "1400",
@@ -5802,7 +5829,7 @@
       "link": "",
       "link_name": "",
       "venue": "South Stage Cellars",
-      "notes": "",
+      "notes": "Band CANCELED; There may be other music",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -6015,6 +6042,22 @@
       "venue": "Naumes Suncrest Winery",
       "notes": "",
       "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "887a45b2e345fa8e",
+      "date": "2026-09-20",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Alissa and the Side Effects",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Jam",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -6359,6 +6402,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5e2ae655824d55d6",
+      "date": "2026-09-23",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Joslyn & The Sweet Compression",
+      "genre": "",
+      "link": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/joslyn-the-sweet-compression/",
       "genres": []
     },
     {
@@ -6817,6 +6877,23 @@
       "genres": []
     },
     {
+      "id": "996814db97d176a6",
+      "date": "2026-09-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Magnificent Sanctuary Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/magnificent-sanctuary-band/",
+      "genres": []
+    },
+    {
       "id": "f7c0c1409e347e3b",
       "date": "2026-09-26",
       "start_raw": "1030",
@@ -7024,6 +7101,22 @@
       "genres": []
     },
     {
+      "id": "66e97c1c5f6ce337",
+      "date": "2026-09-26",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Alissa and the Side Effects",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "",
+      "event_type": "Jam",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "9e800f2b51aba06f",
       "date": "2026-09-26",
       "start_raw": "1800",
@@ -7097,6 +7190,22 @@
       "link": "",
       "link_name": "",
       "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "321813a2fccf21d5",
+      "date": "2026-09-27",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Joshua Paul",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Sams Creek Cellars",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7726,6 +7835,25 @@
       ]
     },
     {
+      "id": "6f89c06689d638c9",
+      "date": "2026-10-02",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Dr. Pain & The Remedy",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-dr-pain-the-remedy-october-2/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Classic rock favorites featuring energetic power pop and more!\n\nJoin us for a fun-filled Friday night to kick off your weekend! Listen to some amazing music while sipping on delicious, award-winning w",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-dr-pain-the-remedy-october-2/",
+      "genres": [
+        "Rock",
+        "Pop"
+      ]
+    },
+    {
       "id": "b2ad65b33edd1275",
       "date": "2026-10-02",
       "start_raw": "1900",
@@ -7961,6 +8089,23 @@
       "genres": []
     },
     {
+      "id": "fcf7e0164010bcb2",
+      "date": "2026-10-03",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Barry The Fish Melton and The Scholer System",
+      "genre": "",
+      "link": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
+      "genres": []
+    },
+    {
       "id": "335a13f2c4064dc6",
       "date": "2026-10-04",
       "start_raw": "1400",
@@ -8043,6 +8188,25 @@
       ]
     },
     {
+      "id": "750f66c158904aba",
+      "date": "2026-10-04",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Canto Sol",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-canto-sol-october-4/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Dan and Grant play a variety of Latin music, everything from Flamenco to Tango, including traditional Spanish and Mexican music, as well as Brazilian Jazz and Cuban Salsa. \nJoin us to listen to amazin",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-canto-sol-october-4/",
+      "genres": [
+        "Jazz",
+        "Latin"
+      ]
+    },
+    {
       "id": "cfe61bccb78bd630",
       "date": "2026-10-05",
       "start_raw": "1700",
@@ -8053,6 +8217,22 @@
       "link_name": "",
       "venue": "Dancin Vineyards",
       "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9ab871c063421405",
+      "date": "2026-10-05",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -8137,6 +8317,26 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "83f51526e0f77add",
+      "date": "2026-10-09",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Mercy",
+      "genre": "blues, soul, classic rock",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-mercy-october-9/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Based in beautiful Southern Oregon, Mercy Featuring Lynda Day is one of the premier acts in the region.  Attending a Mercy performance is more than just attending a concert or dancing at your favorite",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-mercy-october-9/",
+      "genres": [
+        "Blues",
+        "Funk / Soul",
+        "Rock"
+      ]
     },
     {
       "id": "e656591634ee395c",
@@ -8287,6 +8487,73 @@
       "genres": []
     },
     {
+      "id": "21cef35f24d77ed2",
+      "date": "2026-10-11",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Dennis Konecny",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-dennis-konecny-october-11/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Join us at RoxyAnn Winery for a Sunday afternoon of dancing and fun as we welcome Southern Oregon’s Dennis Konecny to the tasting room! Listen to live music while sipping on some delicious & award-win",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-dennis-konecny-october-11/",
+      "genres": []
+    },
+    {
+      "id": "78593ae124257dd5",
+      "date": "2026-10-12",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8ab6a928ff5ff250",
+      "date": "2026-10-15",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Analog Dog",
+      "genre": "",
+      "link": "https://talentclublive.com/event/analog-dog/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/analog-dog/",
+      "genres": []
+    },
+    {
+      "id": "663d4416269bd1ef",
+      "date": "2026-10-16",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Deluxe",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-deluxe-october-16/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Classic rock & roll on demand! They play the hits!\n\nListen to live dance-worthy music while sipping on some delicious & award-winning wines, or crisp & refreshing beer from the tap: grab all your frie",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-deluxe-october-16/",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
       "id": "3f10eaa1f88e8222",
       "date": "2026-10-16",
       "start_raw": "1700",
@@ -8410,6 +8677,23 @@
       ]
     },
     {
+      "id": "13ce2b277a6dc83f",
+      "date": "2026-10-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Two21Fly",
+      "genre": "",
+      "link": "https://talentclublive.com/event/two21fly/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/two21fly/",
+      "genres": []
+    },
+    {
       "id": "db8248910e53657a",
       "date": "2026-10-18",
       "start_raw": "1400",
@@ -8454,6 +8738,22 @@
       "link_name": "",
       "venue": "Valley View Winery",
       "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "efe9c908e4c4d6b6",
+      "date": "2026-10-19",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -8560,6 +8860,57 @@
       "genres": []
     },
     {
+      "id": "849e93af14e4e5c8",
+      "date": "2026-10-25",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Vanessa Finney Jazz Duet",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-jazz-duet-october-25/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Vanessa is a singer based in Ashland, OR. \nJoin us at RoxyAnn Winery for a Sunday afternoon of dancing and fun as we welcome Southern Oregon’s Vanessa Finney to the tasting room! Listen to live music ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-jazz-duet-october-25/",
+      "genres": [
+        "Jazz"
+      ]
+    },
+    {
+      "id": "82ecedf11a49a8e8",
+      "date": "2026-10-26",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "aeaf97860ea4be91",
+      "date": "2026-10-27",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
+      "genre": "",
+      "link": "https://talentclublive.com/event/steely-dead/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/steely-dead/",
+      "genres": []
+    },
+    {
       "id": "ee4b7239cd5b387e",
       "date": "2026-10-30",
       "start_raw": "1700",
@@ -8598,13 +8949,19 @@
       "end_raw": "2000",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-october-30/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
       "notes": "Costume Party",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-october-30/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "c35c1c7f4f6aaa84"
+        }
+      ],
       "genres": [
         "Rock"
       ]
@@ -9069,6 +9426,22 @@
       "link": "",
       "link_name": "",
       "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "31c8fdf03abecf7d",
+      "date": "2026-12-05",
+      "start_raw": "1300",
+      "end_raw": "1500",
+      "musician": "Joshua Paul",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Paschal Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
