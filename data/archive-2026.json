@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1595,
+  "event_count": 1602,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -27557,6 +27557,122 @@
       "genres": [
         "Other"
       ]
+    },
+    {
+      "id": "194726ac2c268156",
+      "date": "2026-09-16",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "HopStone",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "c9aac3f5451facdf",
+      "date": "2026-09-16",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "JustaDuo",
+      "genre": "easy listening",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cedc8325b4d973fb",
+      "date": "2026-09-16",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jared Gutridge",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "fa135f62a934c459",
+      "date": "2026-09-16",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "id": "5842f06b3c8757a9",
+      "date": "2026-09-16",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Rogue Blues Society Blues Jam",
+      "genre": "blues",
+      "link": "",
+      "link_name": "Rogue Blues Society",
+      "venue": "Curtain Call Cabaret & Lounge",
+      "notes": "",
+      "event_type": "Jam",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
+      "id": "afeab29fc96ac824",
+      "date": "2026-09-16",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Christina Hanks",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weekend Beer Company",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "bba959e304803c39",
+      "date": "2026-09-16",
+      "start_raw": "1900",
+      "end_raw": "2145",
+      "musician": "Dan Doshier",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Oberon's Restaurant & Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     }
   ]
 }
