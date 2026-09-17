@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-16T22:55:32.738Z",
-  "source_timestamp": "09/16/2026 15:36",
-  "content_hash": "f3a23f6f639ede76",
+  "generated_at": "2026-09-17T04:50:43.951Z",
+  "source_timestamp": "09/16/2026 16:47",
+  "content_hash": "e8530ad730ccd986",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 318,
+      "count": 319,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-16T22:54:56.216Z",
-      "last_attempt": "2026-09-16T22:54:56.216Z",
+      "last_ok": "2026-09-17T04:50:13.542Z",
+      "last_attempt": "2026-09-17T04:50:13.542Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 25,
+      "count": 24,
       "strategy": "live",
-      "last_ok": "2026-09-16T22:54:56.463Z",
-      "last_attempt": "2026-09-16T22:54:56.463Z",
+      "last_ok": "2026-09-17T04:50:13.797Z",
+      "last_attempt": "2026-09-17T04:50:13.797Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-16T22:54:59.255Z",
-      "last_attempt": "2026-09-16T22:54:59.255Z",
+      "last_ok": "2026-09-17T04:50:15.730Z",
+      "last_attempt": "2026-09-17T04:50:15.730Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-16T22:54:59.593Z",
-      "last_attempt": "2026-09-16T22:54:59.593Z",
+      "last_ok": "2026-09-17T04:50:16.090Z",
+      "last_attempt": "2026-09-17T04:50:16.090Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-16T22:54:59.750Z",
-      "last_attempt": "2026-09-16T22:54:59.750Z",
+      "last_ok": "2026-09-17T04:50:16.209Z",
+      "last_attempt": "2026-09-17T04:50:16.209Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-16T22:55:01.335Z",
-      "last_attempt": "2026-09-16T22:55:01.335Z",
+      "last_ok": "2026-09-17T04:50:17.260Z",
+      "last_attempt": "2026-09-17T04:50:17.260Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-16T22:55:01.931Z",
-      "last_attempt": "2026-09-16T22:55:01.931Z",
+      "last_ok": "2026-09-17T04:50:17.949Z",
+      "last_attempt": "2026-09-17T04:50:17.949Z",
       "error": null
     }
   },
@@ -5199,22 +5199,6 @@
       "genres": []
     },
     {
-      "id": "59dc8ddf5ca57400",
-      "date": "2026-09-16",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "Comedy: Fine Wines & Punch Lines (Third Wednesdays)",
-      "genre": "",
-      "link": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Join us for a monthly Comedy Night, Age 18+ only: Fine Wines & Punch Lines! \nThis event is FREE to attend; 2 Drink Minimum \nGrab a glass of wine or one of our many other beverage choices and settle in",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays/",
-      "genres": []
-    },
-    {
       "id": "9f62cfa68866b877",
       "date": "2026-09-17",
       "start_raw": "1730",
@@ -7887,6 +7871,22 @@
       "genres": [
         "Classical"
       ]
+    },
+    {
+      "id": "d451b58830711444",
+      "date": "2026-10-03",
+      "start_raw": "1200",
+      "end_raw": "1330",
+      "musician": "Gil René",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Talent Harvest Festival",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "b8b652ffd8a0fc5e",

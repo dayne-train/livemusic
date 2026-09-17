@@ -1,5 +1,5 @@
 --timestamp
-09/16/2026 15:36
+09/16/2026 16:47
 --news
 * date | notes
 --musicians
@@ -695,6 +695,7 @@ Femme Fatale||||Dunbar Farms||10/02/26|1730|1930||Band|26/09/01 12:23PM|0|
 Pozitronics||||Zi Spice||10/02/26|1730|1930|First Friday|Band||6|
 Canto Sol||||The Miner's Bazaar||10/02/26|1800|2000||Band|26/09/04 12:54PM|3|
 Young Kidz||||Bella Union||10/02/26|1900|2200||Band|26/09/01 12:23PM|0|
+Gil René||||Talent Harvest Festival||10/03/26|1200|1330||Band|26/09/16 16:47PM|3|
 Santa Fe Band||||Talent Harvest Festival||10/03/26|1215|1345||Band|26/09/06 14:52PM|3|
 Jeff Kloetzel||||Cowhorn Vineyard||10/03/26|1300|1600||Band|26/09/10 13:48PM|1|
 Blue Lightning||||Naumes Suncrest Winery||10/03/26|1500|1700||Band|26/09/01 12:23PM|0|
