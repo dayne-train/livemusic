@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-18T04:41:19.950Z",
+  "generated_at": "2026-09-18T12:57:49.592Z",
   "source_timestamp": "09/17/2026 19:04",
-  "content_hash": "4d7cbe54375c67ee",
+  "content_hash": "ba90a67c667484e0",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 261,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-18T04:40:58.454Z",
-      "last_attempt": "2026-09-18T04:40:58.454Z",
+      "last_ok": "2026-09-18T12:57:16.257Z",
+      "last_attempt": "2026-09-18T12:57:16.257Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 24,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-09-18T04:40:58.845Z",
-      "last_attempt": "2026-09-18T04:40:58.845Z",
+      "last_ok": "2026-09-18T12:57:16.499Z",
+      "last_attempt": "2026-09-18T12:57:16.499Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-18T04:41:01.589Z",
-      "last_attempt": "2026-09-18T04:41:01.589Z",
+      "last_ok": "2026-09-18T12:57:19.191Z",
+      "last_attempt": "2026-09-18T12:57:19.191Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-09-18T04:41:02.149Z",
-      "last_attempt": "2026-09-18T04:41:02.149Z",
+      "last_ok": "2026-09-18T12:57:19.445Z",
+      "last_attempt": "2026-09-18T12:57:19.445Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-18T04:41:02.269Z",
-      "last_attempt": "2026-09-18T04:41:02.269Z",
+      "last_ok": "2026-09-18T12:57:19.614Z",
+      "last_attempt": "2026-09-18T12:57:19.614Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-18T04:41:04.072Z",
-      "last_attempt": "2026-09-18T04:41:04.072Z",
+      "last_ok": "2026-09-18T12:57:20.945Z",
+      "last_attempt": "2026-09-18T12:57:20.945Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-18T04:41:04.670Z",
-      "last_attempt": "2026-09-18T04:41:04.670Z",
+      "last_ok": "2026-09-18T12:57:21.575Z",
+      "last_attempt": "2026-09-18T12:57:21.575Z",
       "error": null
     }
   },
@@ -3823,24 +3823,14 @@
       "end_raw": "1930",
       "musician": "Jen Ambrose w/ Jon Galfano",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-jen-jon/",
+      "link": "",
       "link_name": "Jen Ambrose",
       "venue": "Belle Fiore",
-      "notes": "Dynamic duo featuring Jon Galfano on guitar, keys and vocals, and Jen Ambrose on guitar, flute and vocals. Their genres range from Classic Rock, Blues, Jazz, and everything in between!",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-jen-jon/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "5256f6d4261b3d58"
-        }
-      ],
-      "genres": [
-        "Blues",
-        "Jazz",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "09fce7c1e6ae9780",
