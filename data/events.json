@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-19T04:35:21.900Z",
+  "generated_at": "2026-09-19T12:29:22.505Z",
   "source_timestamp": "09/17/2026 19:04",
-  "content_hash": "142a3436fa195971",
+  "content_hash": "0e129d6abb5201aa",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 261,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-19T04:35:04.148Z",
-      "last_attempt": "2026-09-19T04:35:04.148Z",
+      "last_ok": "2026-09-19T12:28:52.859Z",
+      "last_attempt": "2026-09-19T12:28:52.859Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 23,
+      "count": 22,
       "strategy": "live",
-      "last_ok": "2026-09-19T04:35:04.394Z",
-      "last_attempt": "2026-09-19T04:35:04.394Z",
+      "last_ok": "2026-09-19T12:28:53.155Z",
+      "last_attempt": "2026-09-19T12:28:53.155Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-19T04:35:07.471Z",
-      "last_attempt": "2026-09-19T04:35:07.471Z",
+      "last_ok": "2026-09-19T12:28:55.463Z",
+      "last_attempt": "2026-09-19T12:28:55.463Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-09-19T04:35:07.948Z",
-      "last_attempt": "2026-09-19T04:35:07.948Z",
+      "last_ok": "2026-09-19T12:28:55.817Z",
+      "last_attempt": "2026-09-19T12:28:55.817Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-19T04:35:08.085Z",
-      "last_attempt": "2026-09-19T04:35:08.085Z",
+      "last_ok": "2026-09-19T12:28:55.932Z",
+      "last_attempt": "2026-09-19T12:28:55.932Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-19T04:35:09.219Z",
-      "last_attempt": "2026-09-19T04:35:09.219Z",
+      "last_ok": "2026-09-19T12:28:57.736Z",
+      "last_attempt": "2026-09-19T12:28:57.736Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-19T04:35:09.758Z",
-      "last_attempt": "2026-09-19T04:35:09.758Z",
+      "last_ok": "2026-09-19T12:28:58.185Z",
+      "last_attempt": "2026-09-19T12:28:58.185Z",
       "error": null
     }
   },
@@ -4052,24 +4052,14 @@
       "end_raw": "1930",
       "musician": "Jeff Kloetzel",
       "genre": "Rhythmic Guitar",
-      "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged rock to Americana and simple songwrit",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "b824b1e088530565"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Folk",
-        "Funk / Soul"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "30c43c4fb4d7659b",
