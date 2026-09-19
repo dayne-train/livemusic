@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-19T18:36:40.247Z",
+  "generated_at": "2026-09-19T22:19:44.845Z",
   "source_timestamp": "09/17/2026 19:04",
-  "content_hash": "abf12eafc6073aa2",
+  "content_hash": "439f5ebb5c7793ab",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 261,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-19T18:35:41.883Z",
-      "last_attempt": "2026-09-19T18:35:41.883Z",
+      "last_ok": "2026-09-19T22:18:58.901Z",
+      "last_attempt": "2026-09-19T22:18:58.901Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 22,
+      "count": 20,
       "strategy": "live",
-      "last_ok": "2026-09-19T18:35:42.132Z",
-      "last_attempt": "2026-09-19T18:35:42.132Z",
-      "error": null
+      "last_ok": "2026-09-19T22:18:59.191Z",
+      "last_attempt": "2026-09-19T22:18:59.191Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-19T18:35:43.859Z",
-      "last_attempt": "2026-09-19T18:35:43.859Z",
+      "last_ok": "2026-09-19T22:19:09.428Z",
+      "last_attempt": "2026-09-19T22:19:09.428Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-09-19T18:35:44.121Z",
-      "last_attempt": "2026-09-19T18:35:44.121Z",
+      "last_ok": "2026-09-19T22:19:09.953Z",
+      "last_attempt": "2026-09-19T22:19:09.953Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-19T18:35:44.178Z",
-      "last_attempt": "2026-09-19T18:35:44.178Z",
+      "last_ok": "2026-09-19T22:19:10.122Z",
+      "last_attempt": "2026-09-19T22:19:10.122Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-19T18:35:45.141Z",
-      "last_attempt": "2026-09-19T18:35:45.141Z",
+      "last_ok": "2026-09-19T22:19:11.492Z",
+      "last_attempt": "2026-09-19T22:19:11.492Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-19T18:35:45.701Z",
-      "last_attempt": "2026-09-19T18:35:45.701Z",
+      "last_ok": "2026-09-19T22:19:12.001Z",
+      "last_attempt": "2026-09-19T22:19:12.001Z",
       "error": null
     }
   },
@@ -4269,22 +4269,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "a6589fef0aa8efb0",
-      "date": "2026-09-19",
-      "start_raw": "1100",
-      "end_raw": "1900",
-      "musician": "Mt. Ashland's Second Annual Oktoberfest Celebration",
-      "genre": "",
-      "link": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
-      "link_name": "",
-      "venue": "Mt. Ashland",
-      "notes": "Mt. Ashland Ski Area’s Second Annual Oktoberfest is fun for the whole family! Guests can kick off the day with the Mt. Ashland Trail Run and then find themselves at the Karen and Sid DeBoer Lodge to e",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/mt-ashlands-inaugural-oktoberfest-celebration/",
       "genres": []
     },
     {
