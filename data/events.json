@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-19T22:19:44.845Z",
+  "generated_at": "2026-09-20T04:52:12.016Z",
   "source_timestamp": "09/17/2026 19:04",
-  "content_hash": "439f5ebb5c7793ab",
+  "content_hash": "a78a1ea5db63f530",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 261,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-19T22:18:58.901Z",
-      "last_attempt": "2026-09-19T22:18:58.901Z",
+      "last_ok": "2026-09-20T04:51:49.925Z",
+      "last_attempt": "2026-09-20T04:51:49.925Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 20,
+      "count": 21,
       "strategy": "live",
-      "last_ok": "2026-09-19T22:18:59.191Z",
-      "last_attempt": "2026-09-19T22:18:59.191Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-09-20T04:51:50.229Z",
+      "last_attempt": "2026-09-20T04:51:50.229Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-19T22:19:09.428Z",
-      "last_attempt": "2026-09-19T22:19:09.428Z",
+      "last_ok": "2026-09-20T04:51:51.983Z",
+      "last_attempt": "2026-09-20T04:51:51.983Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-09-19T22:19:09.953Z",
-      "last_attempt": "2026-09-19T22:19:09.953Z",
+      "last_ok": "2026-09-20T04:51:52.392Z",
+      "last_attempt": "2026-09-20T04:51:52.392Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-19T22:19:10.122Z",
-      "last_attempt": "2026-09-19T22:19:10.122Z",
+      "last_ok": "2026-09-20T04:51:52.554Z",
+      "last_attempt": "2026-09-20T04:51:52.554Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-09-19T22:19:11.492Z",
-      "last_attempt": "2026-09-19T22:19:11.492Z",
+      "last_ok": "2026-09-20T04:51:57.132Z",
+      "last_attempt": "2026-09-20T04:51:57.132Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-19T22:19:12.001Z",
-      "last_attempt": "2026-09-19T22:19:12.001Z",
+      "last_ok": "2026-09-20T04:51:57.631Z",
+      "last_attempt": "2026-09-20T04:51:57.631Z",
       "error": null
     }
   },
@@ -4350,19 +4350,13 @@
       "end_raw": "1700",
       "musician": "Rick Millward",
       "genre": "",
-      "link": "https://roxyann.com/event/rick-millward-presents-open-mic-2/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
       "notes": "Open Mic - Semi Final",
       "event_type": "Open Mic",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/rick-millward-presents-open-mic-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "6d8573da86e75a94"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -5066,19 +5060,25 @@
       "genres": []
     },
     {
-      "id": "6517ac2f9d2473b5",
+      "id": "7c677473a83c9e6b",
       "date": "2026-09-21",
       "start_raw": "1800",
-      "end_raw": "2100",
+      "end_raw": "2000",
       "musician": "Epic Ashland Summer Sounds Concert Series",
       "genre": "",
-      "link": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4424",
+      "link": "https://travelashland.com/event/epic-summer-series-free-concerts-in-lithia-park/",
       "link_name": "",
-      "venue": "Lithia Park Bandshell",
-      "notes": "",
+      "venue": "Lithia Park Ashland Oregon",
+      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nFi",
       "event_type": "Band",
-      "source": "ashland_city",
-      "source_url": "https://www.ashlandoregon.gov/Calendar.aspx?EID=4424",
+      "source": "tribe_ics:travel_ashland",
+      "source_url": "https://travelashland.com/event/epic-summer-series-free-concerts-in-lithia-park/",
+      "merged_from": [
+        {
+          "source": "ashland_city",
+          "id": "6517ac2f9d2473b5"
+        }
+      ],
       "genres": []
     },
     {
