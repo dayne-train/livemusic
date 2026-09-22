@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1675,
+  "event_count": 1678,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -659,6 +659,17 @@
       "notes": "",
       "address": "",
       "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Medford Drag Strip": {
+      "url": "https://medforddragstrip.com/",
+      "city": "Medford",
+      "notes": "",
+      "address": "",
+      "region": "Medford",
       "type": "Other",
       "_sources": [
         "musiclist_txt"
@@ -28901,6 +28912,56 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/after-party-w-slow-corpse/",
       "genres": []
+    },
+    {
+      "id": "5d3f2d79b6c2e09e",
+      "date": "2026-09-21",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "067a0aa9b9de2f80",
+      "date": "2026-09-21",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2dca03655ff64fec",
+      "date": "2026-09-21",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "musician": "Santa Fe Band",
+      "genre": "Country",
+      "link": "",
+      "link_name": "",
+      "venue": "Medford Drag Strip",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Country"
+      ]
     }
   ]
 }
