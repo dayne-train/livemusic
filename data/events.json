@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-22T13:24:04.211Z",
-  "source_timestamp": "09/21/2026 13:10",
-  "content_hash": "82cfff6dc6ee878b",
+  "generated_at": "2026-09-22T19:44:08.414Z",
+  "source_timestamp": "09/22/2026 11:40",
+  "content_hash": "72ddbf1fa9286e53",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 282,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-22T13:23:35.154Z",
-      "last_attempt": "2026-09-22T13:23:35.154Z",
+      "last_ok": "2026-09-22T19:43:46.495Z",
+      "last_attempt": "2026-09-22T19:43:46.495Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 17,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-09-22T13:23:35.419Z",
-      "last_attempt": "2026-09-22T13:23:35.419Z",
+      "last_ok": "2026-09-22T19:43:46.726Z",
+      "last_attempt": "2026-09-22T19:43:46.726Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-22T13:23:36.895Z",
-      "last_attempt": "2026-09-22T13:23:36.895Z",
+      "last_ok": "2026-09-22T19:43:49.451Z",
+      "last_attempt": "2026-09-22T19:43:49.451Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-22T13:23:37.164Z",
-      "last_attempt": "2026-09-22T13:23:37.164Z",
+      "last_ok": "2026-09-22T19:43:49.639Z",
+      "last_attempt": "2026-09-22T19:43:49.639Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-22T13:23:37.312Z",
-      "last_attempt": "2026-09-22T13:23:37.312Z",
+      "last_ok": "2026-09-22T19:43:51.142Z",
+      "last_attempt": "2026-09-22T19:43:51.142Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-22T13:23:38.517Z",
-      "last_attempt": "2026-09-22T13:23:38.517Z",
+      "last_ok": "2026-09-22T19:43:52.360Z",
+      "last_attempt": "2026-09-22T19:43:52.360Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-22T13:23:39.069Z",
-      "last_attempt": "2026-09-22T13:23:39.069Z",
+      "last_ok": "2026-09-22T19:43:52.895Z",
+      "last_attempt": "2026-09-22T19:43:52.895Z",
       "error": null
     }
   },
@@ -6582,10 +6582,10 @@
       "genres": []
     },
     {
-      "id": "c7535dab83d40f87",
+      "id": "544a732cd669f217",
       "date": "2026-10-02",
-      "start_raw": "1630",
-      "end_raw": "1830",
+      "start_raw": "1700",
+      "end_raw": "1900",
       "musician": "Sonido Alegre",
       "genre": "",
       "link": "",
@@ -7757,6 +7757,22 @@
       "genres": []
     },
     {
+      "id": "6ee8ca41f5f87d29",
+      "date": "2026-10-21",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Comedy: Fine Wines & Punch Lines (Third Wednesdays)",
+      "genre": "",
+      "link": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-october-21/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Join us for a monthly Comedy Night, Age 18+ only: Fine Wines & Punch Lines! \nThis event is $10 to attend. Please call the Tasting Room to make a reservation at (541) 776-2315, Option 1. \nGrab a glass ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-october-21/",
+      "genres": []
+    },
+    {
       "id": "e7c8507716e27828",
       "date": "2026-10-23",
       "start_raw": "1700",
@@ -7978,20 +7994,33 @@
       "end_raw": "2000",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-october-30/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
       "notes": "Costume Party",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-october-30/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "c35c1c7f4f6aaa84"
-        }
-      ],
+      "source_url": null,
       "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "9d6cf30abdd4d779",
+      "date": "2026-10-30",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Pozitronics & Halloween Party🎃🎶👻",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-october-30/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "The Pozitronics are southern Oregon’s premier “all-you-can-dance” band playing a unique mix of classic rock, R&B, and funk, with love, positive vibes, and a whole lot of energy. You bring the dance mo",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-october-30/",
+      "genres": [
+        "Funk / Soul",
         "Rock"
       ]
     },

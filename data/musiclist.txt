@@ -1,5 +1,5 @@
 --timestamp
-09/21/2026 13:10
+09/22/2026 11:40
 --news
 * date | notes
 --musicians
@@ -629,7 +629,7 @@ Stillwater Road||||Belle Fiore||10/01/26|1700|1900||Band|26/09/01 12:23PM|0|
 Dave Scoggin||||Wild Goose Cafe||10/01/26|1700|1900||Band|26/09/01 11:37AM|6|
 Traditional Irish Music and Dancing||||Dunbar Farms||10/01/26|1730|1930||Band|26/09/01 12:23PM|0|
 Young Kidz||||Bella Union||10/01/26|1900|2100||Band|26/09/01 12:23PM|0|
-Sonido Alegre||||Daisy Creek Vineyard||10/02/26|1630|1830||Band|26/09/21 13:10PM|3|
+Sonido Alegre||||Daisy Creek Vineyard||10/02/26|1700|1900||Band|26/09/22 11:40AM|3|
 Jeff Kloetzel||||Dancin Vineyards||10/02/26|1700|1900||Band|26/09/01 12:23PM|0|
 Vanessa Finney & Jason Wolverton|||Vanessa Finney|Del Rio Vineyards||10/02/26|1700|1900||Band|26/09/03 13:43PM|2|
 Gil René||||Pebblestone Cellars||10/02/26|1700|1900||Band||6|
