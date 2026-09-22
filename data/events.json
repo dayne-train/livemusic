@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-21T20:25:13.325Z",
-  "source_timestamp": "09/17/2026 19:04",
-  "content_hash": "73219eb191734f6c",
+  "generated_at": "2026-09-22T04:52:52.303Z",
+  "source_timestamp": "09/21/2026 13:10",
+  "content_hash": "82cfff6dc6ee878b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 261,
+      "count": 282,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-21T20:24:43.123Z",
-      "last_attempt": "2026-09-21T20:24:43.123Z",
+      "last_ok": "2026-09-22T04:52:30.238Z",
+      "last_attempt": "2026-09-22T04:52:30.238Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 18,
+      "count": 17,
       "strategy": "live",
-      "last_ok": "2026-09-21T20:24:43.425Z",
-      "last_attempt": "2026-09-21T20:24:43.425Z",
+      "last_ok": "2026-09-22T04:52:30.471Z",
+      "last_attempt": "2026-09-22T04:52:30.471Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-21T20:24:45.091Z",
-      "last_attempt": "2026-09-21T20:24:45.091Z",
+      "last_ok": "2026-09-22T04:52:32.156Z",
+      "last_attempt": "2026-09-22T04:52:32.156Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-21T20:24:45.359Z",
-      "last_attempt": "2026-09-21T20:24:45.359Z",
+      "last_ok": "2026-09-22T04:52:32.557Z",
+      "last_attempt": "2026-09-22T04:52:32.557Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-21T20:24:46.789Z",
-      "last_attempt": "2026-09-21T20:24:46.789Z",
+      "last_ok": "2026-09-22T04:52:32.741Z",
+      "last_attempt": "2026-09-22T04:52:32.741Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
-      "count": 1,
+      "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-21T20:24:48.969Z",
-      "last_attempt": "2026-09-21T20:24:48.969Z",
+      "last_ok": "2026-09-22T04:52:34.119Z",
+      "last_attempt": "2026-09-22T04:52:34.119Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-21T20:24:49.466Z",
-      "last_attempt": "2026-09-21T20:24:49.466Z",
+      "last_ok": "2026-09-22T04:52:34.594Z",
+      "last_attempt": "2026-09-22T04:52:34.594Z",
       "error": null
     }
   },
@@ -3717,17 +3717,6 @@
       "_sources": [
         "talent_club"
       ]
-    },
-    "Lithia Park Bandshell": {
-      "url": "https://ashlandparksandrec.org",
-      "city": "Ashland",
-      "notes": "Outdoor concert bandshell in Lithia Park",
-      "address": "Winburn Way, Ashland OR",
-      "region": "Ashland",
-      "type": "Other",
-      "_sources": [
-        "ashland_city"
-      ]
     }
   },
   "events": [
@@ -4949,23 +4938,6 @@
       ]
     },
     {
-      "id": "c98e92e7b29e232d",
-      "date": "2026-09-20",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "end_estimated": true,
-      "musician": "After-Party w/ SLOW CORPSE!",
-      "genre": "",
-      "link": "https://talentclublive.com/event/after-party-w-slow-corpse/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/after-party-w-slow-corpse/",
-      "genres": []
-    },
-    {
       "id": "5d3f2d79b6c2e09e",
       "date": "2026-09-21",
       "start_raw": "1700",
@@ -4979,28 +4951,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "7c677473a83c9e6b",
-      "date": "2026-09-21",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Epic Ashland Summer Sounds Concert Series",
-      "genre": "",
-      "link": "https://travelashland.com/event/epic-summer-series-free-concerts-in-lithia-park/",
-      "link_name": "",
-      "venue": "Lithia Park Ashland Oregon",
-      "notes": "Epic Ashland Summer Sounds Concert Series!  Free Concerts at the Bandshell in Lithia Park with live music, food trucks, beer and wine garden, bike valet and fun for all ages.  www.epicashland.com \n\nFi",
-      "event_type": "Band",
-      "source": "tribe_ics:travel_ashland",
-      "source_url": "https://travelashland.com/event/epic-summer-series-free-concerts-in-lithia-park/",
-      "merged_from": [
-        {
-          "source": "ashland_city",
-          "id": "6517ac2f9d2473b5"
-        }
-      ],
       "genres": []
     },
     {
@@ -5495,6 +5445,22 @@
       ]
     },
     {
+      "id": "97a7df63afb36f18",
+      "date": "2026-09-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "JustaDuo",
+      "genre": "easy listening",
+      "link": "",
+      "link_name": "",
+      "venue": "Trium Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "cb5c47e4775ef541",
       "date": "2026-09-25",
       "start_raw": "1730",
@@ -5840,6 +5806,22 @@
       "genres": []
     },
     {
+      "id": "aa6d4c7317ceecd3",
+      "date": "2026-09-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Commotion Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "0454ac0f404eedd7",
       "date": "2026-09-26",
       "start_raw": "1700",
@@ -5965,11 +5947,11 @@
       ]
     },
     {
-      "id": "6cc05b20adfe60d7",
+      "id": "d9efbbc943f6cca0",
       "date": "2026-09-26",
       "start_raw": "1800",
       "end_raw": "2100",
-      "musician": "Live Music",
+      "musician": "Anders Van Pitlya and Dale Vidmar",
       "genre": "",
       "link": "",
       "link_name": "",
@@ -6086,6 +6068,22 @@
       "link": "",
       "link_name": "",
       "venue": "Sams Creek Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a1eb5bc5116271e6",
+      "date": "2026-09-27",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Taurus Moon Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -6581,6 +6579,22 @@
       "event_type": "Open Mic",
       "source": "black_sheep",
       "source_url": "https://theblacksheep.com/events/karaoke-night/",
+      "genres": []
+    },
+    {
+      "id": "c7535dab83d40f87",
+      "date": "2026-10-02",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -7486,6 +7500,22 @@
       "genres": []
     },
     {
+      "id": "bc5e468aa95d8de2",
+      "date": "2026-10-14",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "8ab6a928ff5ff250",
       "date": "2026-10-15",
       "start_raw": "2000",
@@ -7743,6 +7773,22 @@
       "genres": []
     },
     {
+      "id": "ee5c99eef02293e7",
+      "date": "2026-10-23",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "25eb7369ce55a4bd",
       "date": "2026-10-23",
       "start_raw": "1700",
@@ -7775,6 +7821,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "d723ed84978e5c1f",
+      "date": "2026-10-24",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "946357d37d936c8d",
@@ -7932,6 +7994,22 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "d06822cb6de07ffa",
+      "date": "2026-10-30",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Sonido Alegre",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "de39abef49e74aaa",
@@ -8139,6 +8217,22 @@
       ]
     },
     {
+      "id": "fe532053a25b139a",
+      "date": "2026-11-08",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Teresa Jordan",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "0dc6e3fbbca7966d",
       "date": "2026-11-08",
       "start_raw": "1400",
@@ -8187,6 +8281,24 @@
       "genres": []
     },
     {
+      "id": "43c614fb99a28563",
+      "date": "2026-11-13",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jen Ambrose & Annieville Blues",
+      "genre": "",
+      "link": "",
+      "link_name": "Jen Ambrose",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
       "id": "a895eb595be50179",
       "date": "2026-11-14",
       "start_raw": "1700",
@@ -8198,6 +8310,22 @@
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2de297580b6bcc35",
+      "date": "2026-11-15",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Chris Murphy",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -8244,6 +8372,22 @@
       "link": "",
       "link_name": "",
       "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "59b7b5a39e58968c",
+      "date": "2026-11-20",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Stillwater Road",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8319,6 +8463,24 @@
       "genres": []
     },
     {
+      "id": "110c1dcf643cc918",
+      "date": "2026-11-22",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Jen Ambrose",
+      "genre": "blues",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
       "id": "b921f1b3410924d4",
       "date": "2026-11-27",
       "start_raw": "1500",
@@ -8328,6 +8490,22 @@
       "link": "",
       "link_name": "",
       "venue": "Valley View Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1bae3ad1cf643056",
+      "date": "2026-11-27",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8400,6 +8578,22 @@
       "genres": []
     },
     {
+      "id": "c1b5842fe0a7631c",
+      "date": "2026-12-04",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Erica Rochel Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "31c8fdf03abecf7d",
       "date": "2026-12-05",
       "start_raw": "1300",
@@ -8410,6 +8604,22 @@
       "link_name": "",
       "venue": "Paschal Winery",
       "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "719cf44e051d9cf7",
+      "date": "2026-12-05",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Mercy Trio",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "Christmas Show",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
@@ -8448,6 +8658,40 @@
       "genres": []
     },
     {
+      "id": "f23ee041f3b78eea",
+      "date": "2026-12-06",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Tristan Moonbow Duo",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a7ab7768cbf1cb01",
+      "date": "2026-12-11",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Back Door Blues Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
       "id": "9de7314ad0122fb7",
       "date": "2026-12-12",
       "start_raw": "1700",
@@ -8459,6 +8703,22 @@
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a0349cac475e6ef1",
+      "date": "2026-12-13",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Bryce Pettyjohn",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -8480,6 +8740,22 @@
       "genres": []
     },
     {
+      "id": "fadd366bc2f11502",
+      "date": "2026-12-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Commotion Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "3011b610be7be976",
       "date": "2026-12-19",
       "start_raw": "1700",
@@ -8489,6 +8765,22 @@
       "link": "",
       "link_name": "Mercy",
       "venue": "Stone River Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "38c446334907f0eb",
+      "date": "2026-12-20",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Papermoon",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
