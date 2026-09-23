@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-23T19:40:34.411Z",
+  "generated_at": "2026-09-23T22:56:57.989Z",
   "source_timestamp": "09/22/2026 11:40",
-  "content_hash": "e0ee0ffef0e7987f",
+  "content_hash": "20450ebad2d3f32a",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 282,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-23T19:39:59.130Z",
-      "last_attempt": "2026-09-23T19:39:59.130Z",
+      "last_ok": "2026-09-23T22:56:13.158Z",
+      "last_attempt": "2026-09-23T22:56:13.158Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-09-23T19:39:59.692Z",
-      "last_attempt": "2026-09-23T19:39:59.692Z",
+      "last_ok": "2026-09-23T22:56:13.548Z",
+      "last_attempt": "2026-09-23T22:56:13.548Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-23T19:40:03.792Z",
-      "last_attempt": "2026-09-23T19:40:03.792Z",
+      "last_ok": "2026-09-23T22:56:16.272Z",
+      "last_attempt": "2026-09-23T22:56:16.272Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-23T19:40:04.168Z",
-      "last_attempt": "2026-09-23T19:40:04.168Z",
+      "last_ok": "2026-09-23T22:56:16.438Z",
+      "last_attempt": "2026-09-23T22:56:16.438Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-23T19:40:04.373Z",
-      "last_attempt": "2026-09-23T19:40:04.373Z",
+      "last_ok": "2026-09-23T22:56:16.634Z",
+      "last_attempt": "2026-09-23T22:56:16.634Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-23T19:40:07.259Z",
-      "last_attempt": "2026-09-23T19:40:07.259Z",
+      "last_ok": "2026-09-23T22:56:18.026Z",
+      "last_attempt": "2026-09-23T22:56:18.026Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-23T19:40:07.797Z",
-      "last_attempt": "2026-09-23T19:40:07.797Z",
+      "last_ok": "2026-09-23T22:56:19.205Z",
+      "last_attempt": "2026-09-23T22:56:19.205Z",
       "error": null
     }
   },
@@ -5020,6 +5020,25 @@
       "genres": []
     },
     {
+      "id": "1cd12484c234cb51",
+      "date": "2026-09-22",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/open-mic-night-2/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "fc51a561fa98bf01",
       "date": "2026-09-23",
       "start_raw": "1700",
@@ -7230,23 +7249,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "903f0584ac35221a",
-      "date": "2026-10-08",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
