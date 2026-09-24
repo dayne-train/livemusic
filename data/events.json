@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-23T22:56:57.989Z",
+  "generated_at": "2026-09-24T04:47:55.736Z",
   "source_timestamp": "09/22/2026 11:40",
-  "content_hash": "20450ebad2d3f32a",
+  "content_hash": "319e74e2ad6ab1f8",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 282,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-23T22:56:13.158Z",
-      "last_attempt": "2026-09-23T22:56:13.158Z",
+      "last_ok": "2026-09-24T04:47:12.877Z",
+      "last_attempt": "2026-09-24T04:47:12.877Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 19,
       "strategy": "live",
-      "last_ok": "2026-09-23T22:56:13.548Z",
-      "last_attempt": "2026-09-23T22:56:13.548Z",
+      "last_ok": "2026-09-24T04:47:13.335Z",
+      "last_attempt": "2026-09-24T04:47:13.335Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 6,
+      "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-23T22:56:16.272Z",
-      "last_attempt": "2026-09-23T22:56:16.272Z",
+      "last_ok": "2026-09-24T04:47:15.539Z",
+      "last_attempt": "2026-09-24T04:47:15.539Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-23T22:56:16.438Z",
-      "last_attempt": "2026-09-23T22:56:16.438Z",
+      "last_ok": "2026-09-24T04:47:16.054Z",
+      "last_attempt": "2026-09-24T04:47:16.054Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-23T22:56:16.634Z",
-      "last_attempt": "2026-09-23T22:56:16.634Z",
+      "last_ok": "2026-09-24T04:47:17.340Z",
+      "last_attempt": "2026-09-24T04:47:17.340Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-23T22:56:18.026Z",
-      "last_attempt": "2026-09-23T22:56:18.026Z",
+      "last_ok": "2026-09-24T04:47:18.709Z",
+      "last_attempt": "2026-09-24T04:47:18.709Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-23T22:56:19.205Z",
-      "last_attempt": "2026-09-23T22:56:19.205Z",
+      "last_ok": "2026-09-24T04:47:19.197Z",
+      "last_attempt": "2026-09-24T04:47:19.197Z",
       "error": null
     }
   },
@@ -5020,25 +5020,6 @@
       "genres": []
     },
     {
-      "id": "1cd12484c234cb51",
-      "date": "2026-09-22",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "fc51a561fa98bf01",
       "date": "2026-09-23",
       "start_raw": "1700",
@@ -6816,6 +6797,25 @@
       ]
     },
     {
+      "id": "77737458c047f67c",
+      "date": "2026-10-02",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Blues Dogs",
+      "genre": "",
+      "link": "https://talentclublive.com/event/blues-dogs/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/blues-dogs/",
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
       "id": "d451b58830711444",
       "date": "2026-10-03",
       "start_raw": "1200",
@@ -7252,6 +7252,23 @@
       "genres": []
     },
     {
+      "id": "903f0584ac35221a",
+      "date": "2026-10-08",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Karaoke",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/karaoke-night/",
+      "genres": []
+    },
+    {
       "id": "034be70d8fc181c0",
       "date": "2026-10-09",
       "start_raw": "1700",
@@ -7436,6 +7453,23 @@
       "genres": []
     },
     {
+      "id": "d82db1676492049b",
+      "date": "2026-10-10",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Sean McLean and the Vibetenders",
+      "genre": "",
+      "link": "https://talentclublive.com/event/sean-mclean-and-the-vibetenders/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/sean-mclean-and-the-vibetenders/",
+      "genres": []
+    },
+    {
       "id": "bb891e89cc453bc1",
       "date": "2026-10-11",
       "start_raw": "1400",
@@ -7514,6 +7548,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "a00940a7c9a01f0d",
+      "date": "2026-10-14",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Wes Urbaniak and The Mountain Folk",
+      "genre": "",
+      "link": "https://talentclublive.com/event/wes-urbaniak-and-the-mountain-folk/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/wes-urbaniak-and-the-mountain-folk/",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "id": "8ab6a928ff5ff250",
@@ -7972,6 +8025,23 @@
       "genres": []
     },
     {
+      "id": "7ad743810d00e762",
+      "date": "2026-10-29",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "State of Terrapin (Night 1)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/state-of-terrapin/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/state-of-terrapin/",
+      "genres": []
+    },
+    {
       "id": "ee4b7239cd5b387e",
       "date": "2026-10-30",
       "start_raw": "1700",
@@ -8057,6 +8127,23 @@
       "genres": []
     },
     {
+      "id": "8e399facc2aa31b2",
+      "date": "2026-10-30",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "State of Terrapin (Night 2)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/state-of-terrapin-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/state-of-terrapin-2/",
+      "genres": []
+    },
+    {
       "id": "de39abef49e74aaa",
       "date": "2026-10-31",
       "start_raw": "1300",
@@ -8127,6 +8214,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "3dcd1325915f32eb",
+      "date": "2026-10-31",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Collin & Co. Big Band Halloween Hootenanny",
+      "genre": "",
+      "link": "https://talentclublive.com/event/halloween-anniversary-bash-w-collin-co/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/halloween-anniversary-bash-w-collin-co/",
+      "genres": [
+        "Swing"
+      ]
     },
     {
       "id": "cf33199b20feca27",
@@ -8440,6 +8546,23 @@
       "genres": []
     },
     {
+      "id": "24282637d25b6aaa",
+      "date": "2026-11-20",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Watkins Glen’s Super Deluxe Allstar Band",
+      "genre": "",
+      "link": "https://talentclublive.com/event/watkins-glen/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/watkins-glen/",
+      "genres": []
+    },
+    {
       "id": "3b26e4eb53173f97",
       "date": "2026-11-21",
       "start_raw": "1500",
@@ -8505,6 +8628,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "898282b9e4e7b007",
+      "date": "2026-11-21",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Brett's House Party",
+      "genre": "",
+      "link": "https://talentclublive.com/event/bretts-house-party/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/bretts-house-party/",
       "genres": []
     },
     {
