@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-25T04:55:23.886Z",
+  "generated_at": "2026-09-25T13:45:24.885Z",
   "source_timestamp": "09/24/2026 17:49",
-  "content_hash": "3abe695e2ef8e937",
+  "content_hash": "5bd940baf1f26ac0",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 231,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-25T04:55:03.555Z",
-      "last_attempt": "2026-09-25T04:55:03.555Z",
+      "last_ok": "2026-09-25T13:44:54.706Z",
+      "last_attempt": "2026-09-25T13:44:54.706Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 19,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-09-25T04:55:03.865Z",
-      "last_attempt": "2026-09-25T04:55:03.865Z",
+      "last_ok": "2026-09-25T13:44:55.036Z",
+      "last_attempt": "2026-09-25T13:44:55.036Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-25T04:55:07.594Z",
-      "last_attempt": "2026-09-25T04:55:07.594Z",
+      "last_ok": "2026-09-25T13:44:56.548Z",
+      "last_attempt": "2026-09-25T13:44:56.548Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-25T04:55:08.144Z",
-      "last_attempt": "2026-09-25T04:55:08.144Z",
+      "last_ok": "2026-09-25T13:44:56.993Z",
+      "last_attempt": "2026-09-25T13:44:56.993Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 6,
+      "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-25T04:55:08.289Z",
-      "last_attempt": "2026-09-25T04:55:08.289Z",
+      "last_ok": "2026-09-25T13:45:00.108Z",
+      "last_attempt": "2026-09-25T13:45:00.108Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-25T04:55:09.507Z",
-      "last_attempt": "2026-09-25T04:55:09.507Z",
+      "last_ok": "2026-09-25T13:45:01.387Z",
+      "last_attempt": "2026-09-25T13:45:01.387Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-25T04:55:10.015Z",
-      "last_attempt": "2026-09-25T04:55:10.015Z",
+      "last_ok": "2026-09-25T13:45:01.950Z",
+      "last_attempt": "2026-09-25T13:45:01.950Z",
       "error": null
     }
   },
@@ -3811,46 +3811,20 @@
       "genres": []
     },
     {
-      "id": "f9c47bdca84db799",
-      "date": "2026-09-24",
-      "start_raw": "1330",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "Matthew Petersen: Junior Recital",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "Join us for a recital featuring SOU student Matthew Petersen, double-bass with Tereza Golombkova, piano. Thursday, Sept 24th at 1:30 PM. This program will include: \n\n \n\nWaltz in A Major Domenico Drago",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "e5b5a7023fd2925a",
       "date": "2026-09-24",
       "start_raw": "1730",
       "end_raw": "1930",
       "musician": "Rick Millward",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-rick-millward/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Rick Millward is a seasoned musician and songwriter who draws inspiration from a wide range of genres, including rock, country, and Americana.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-rick-millward/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "41f95956ac93fe0b"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Rock"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "905b876bcada30a3",
@@ -3982,23 +3956,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "d0ae648587beb04b",
-      "date": "2026-09-24",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -6596,6 +6553,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "2fe3b00b2989f18e",
+      "date": "2026-10-11",
+      "start_raw": "1400",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Black Sheep Celtic Session",
+      "genre": "",
+      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "link_name": "",
+      "venue": "The Black Sheep",
+      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
+      "event_type": "Open Mic",
+      "source": "black_sheep",
+      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "d73adeedcfc4f874",
