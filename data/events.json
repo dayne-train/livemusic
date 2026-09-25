@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-25T20:01:00.416Z",
-  "source_timestamp": "09/24/2026 17:49",
-  "content_hash": "5bd940baf1f26ac0",
+  "generated_at": "2026-09-25T23:17:47.330Z",
+  "source_timestamp": "09/25/2026 13:04",
+  "content_hash": "86defd14040ea4ba",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 231,
+      "count": 239,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-25T20:00:31.427Z",
-      "last_attempt": "2026-09-25T20:00:31.427Z",
+      "last_ok": "2026-09-25T23:17:23.459Z",
+      "last_attempt": "2026-09-25T23:17:23.459Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 17,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-09-25T20:00:31.800Z",
-      "last_attempt": "2026-09-25T20:00:31.800Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-09-25T23:17:23.758Z",
+      "last_attempt": "2026-09-25T23:17:23.758Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-25T20:00:41.959Z",
-      "last_attempt": "2026-09-25T20:00:41.959Z",
+      "last_ok": "2026-09-25T23:17:26.146Z",
+      "last_attempt": "2026-09-25T23:17:26.146Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-25T20:00:42.571Z",
-      "last_attempt": "2026-09-25T20:00:42.571Z",
+      "last_ok": "2026-09-25T23:17:26.602Z",
+      "last_attempt": "2026-09-25T23:17:26.602Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-25T20:00:42.803Z",
-      "last_attempt": "2026-09-25T20:00:42.803Z",
+      "last_ok": "2026-09-25T23:17:26.785Z",
+      "last_attempt": "2026-09-25T23:17:26.785Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-25T20:00:45.690Z",
-      "last_attempt": "2026-09-25T20:00:45.690Z",
+      "last_ok": "2026-09-25T23:17:29.810Z",
+      "last_attempt": "2026-09-25T23:17:29.810Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-25T20:00:46.212Z",
-      "last_attempt": "2026-09-25T20:00:46.212Z",
+      "last_ok": "2026-09-25T23:17:30.360Z",
+      "last_attempt": "2026-09-25T23:17:30.360Z",
       "error": null
     }
   },
@@ -4213,6 +4213,22 @@
       "genres": []
     },
     {
+      "id": "5ae94afa819d0c27",
+      "date": "2026-09-25",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Two of a Kind",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "7ca57b6814119bd7",
       "date": "2026-09-25",
       "start_raw": "1800",
@@ -5955,6 +5971,22 @@
       ]
     },
     {
+      "id": "1f1460ed0c056b8a",
+      "date": "2026-10-03",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Rogue Rage",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "024c173680413b0f",
       "date": "2026-10-03",
       "start_raw": "1800",
@@ -6331,6 +6363,22 @@
       "link": "",
       "link_name": "",
       "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9c7585a3014d42f3",
+      "date": "2026-10-09",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "The Have Nothings",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7051,6 +7099,24 @@
       ]
     },
     {
+      "id": "3b5c7852e0bf5b03",
+      "date": "2026-10-23",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Traditional Irish Music",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "948c6691a2ed1b85",
       "date": "2026-10-23",
       "start_raw": "1800",
@@ -7226,6 +7292,22 @@
       "link": "",
       "link_name": "",
       "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "055e35be9cc267b1",
+      "date": "2026-10-30",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Mid pitch Regrets",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -7527,6 +7609,22 @@
       ]
     },
     {
+      "id": "c1d36750d9162034",
+      "date": "2026-11-07",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Angelic Noise",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "fe532053a25b139a",
       "date": "2026-11-08",
       "start_raw": "1400",
@@ -7607,6 +7705,22 @@
       "genres": [
         "Blues"
       ]
+    },
+    {
+      "id": "28e4799d9241485e",
+      "date": "2026-11-13",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "John Johns",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "a895eb595be50179",
@@ -7868,6 +7982,22 @@
       "venue": "Stone River Winery",
       "notes": "",
       "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a0fc05b836b277d1",
+      "date": "2026-11-28",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Dan & Zara",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
