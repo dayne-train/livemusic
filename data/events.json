@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-27T05:16:46.569Z",
+  "generated_at": "2026-09-27T13:56:34.604Z",
   "source_timestamp": "09/25/2026 13:04",
-  "content_hash": "a8e4f7af35c5d363",
+  "content_hash": "22003a064ac6289f",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 239,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-27T05:16:13.653Z",
-      "last_attempt": "2026-09-27T05:16:13.653Z",
+      "last_ok": "2026-09-27T13:56:19.096Z",
+      "last_attempt": "2026-09-27T13:56:19.096Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-09-27T05:16:13.897Z",
-      "last_attempt": "2026-09-27T05:16:13.897Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-09-27T13:56:19.482Z",
+      "last_attempt": "2026-09-27T13:56:19.482Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-09-27T05:16:24.188Z",
-      "last_attempt": "2026-09-27T05:16:24.188Z",
+      "last_ok": "2026-09-27T13:56:21.616Z",
+      "last_attempt": "2026-09-27T13:56:21.616Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-27T05:16:24.503Z",
-      "last_attempt": "2026-09-27T05:16:24.503Z",
+      "last_ok": "2026-09-27T13:56:22.108Z",
+      "last_attempt": "2026-09-27T13:56:22.108Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-27T05:16:24.548Z",
-      "last_attempt": "2026-09-27T05:16:24.548Z",
+      "last_ok": "2026-09-27T13:56:22.255Z",
+      "last_attempt": "2026-09-27T13:56:22.255Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-27T05:16:25.736Z",
-      "last_attempt": "2026-09-27T05:16:25.736Z",
+      "last_ok": "2026-09-27T13:56:23.758Z",
+      "last_attempt": "2026-09-27T13:56:23.758Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-27T05:16:26.288Z",
-      "last_attempt": "2026-09-27T05:16:26.288Z",
+      "last_ok": "2026-09-27T13:56:24.294Z",
+      "last_attempt": "2026-09-27T13:56:24.294Z",
       "error": null
     }
   },
@@ -4596,23 +4596,14 @@
       "end_raw": "1930",
       "musician": "John Johns",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-john-johns-2/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "John Johns utilizes his prodigious classical guitar training to blend fingerstyle guitar with his nature-centric folk style of playing. Upbeat and introspective, his songwriting is best described by f",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-john-johns-2/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "42c9ce3384f4062e"
-        }
-      ],
-      "genres": [
-        "Folk",
-        "Classical"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "8ea784f629f86f9d",
