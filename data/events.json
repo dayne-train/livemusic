@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-27T23:01:53.310Z",
+  "generated_at": "2026-09-28T05:21:11.067Z",
   "source_timestamp": "09/25/2026 13:04",
-  "content_hash": "22003a064ac6289f",
+  "content_hash": "ecb20042e58ec1b9",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 239,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-27T23:01:36.622Z",
-      "last_attempt": "2026-09-27T23:01:36.622Z",
+      "last_ok": "2026-09-28T05:20:52.782Z",
+      "last_attempt": "2026-09-28T05:20:52.782Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 15,
+      "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-27T23:01:36.874Z",
-      "last_attempt": "2026-09-27T23:01:36.874Z",
+      "last_ok": "2026-09-28T05:20:53.082Z",
+      "last_attempt": "2026-09-28T05:20:53.082Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-09-27T23:01:39.181Z",
-      "last_attempt": "2026-09-27T23:01:39.181Z",
+      "last_ok": "2026-09-28T05:20:56.086Z",
+      "last_attempt": "2026-09-28T05:20:56.086Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-27T23:01:39.612Z",
-      "last_attempt": "2026-09-27T23:01:39.612Z",
+      "last_ok": "2026-09-28T05:20:59.445Z",
+      "last_attempt": "2026-09-28T05:20:59.445Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-27T23:01:39.828Z",
-      "last_attempt": "2026-09-27T23:01:39.828Z",
+      "last_ok": "2026-09-28T05:20:59.595Z",
+      "last_attempt": "2026-09-28T05:20:59.595Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-27T23:01:40.884Z",
-      "last_attempt": "2026-09-27T23:01:40.884Z",
+      "last_ok": "2026-09-28T05:21:01.069Z",
+      "last_attempt": "2026-09-28T05:21:01.069Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-27T23:01:41.398Z",
-      "last_attempt": "2026-09-27T23:01:41.398Z",
+      "last_ok": "2026-09-28T05:21:01.572Z",
+      "last_attempt": "2026-09-28T05:21:01.572Z",
       "error": null
     }
   },
@@ -4982,22 +4982,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "42313f3053667b73",
-      "date": "2026-09-27",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "FREE MUSIC + WINE SERIES FEATURING Jeff Kloetzl",
-      "genre": "",
-      "link": "https://roxyann.com/event/free-music-wine-series-featuring-jeff-kloetzl/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Jeff has been the local opening act at the renowned Britt Festival for artists such as America, Chicago, Natalie Merchant, Boz Scaggs, Jake Shimabukuro, Matt Nathanson, Leo Kottke and Rick Springfield",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-jeff-kloetzl/",
       "genres": []
     },
     {
