@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1770,
+  "event_count": 1774,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -30502,6 +30502,72 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "9c062c43b47bf718",
+      "date": "2026-09-28",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Danielle Kelly & Emily Turner",
+      "genre": "",
+      "link": "",
+      "link_name": "Danielle Kelly Soul Project",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ab33a1268e8fde1a",
+      "date": "2026-09-28",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Mike Brons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4bd2be8dd1abaa53",
+      "date": "2026-09-28",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8da9d07f2ad24de8",
+      "date": "2026-09-28",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Scottish Fish",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "Tickets",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
     }
   ]
 }

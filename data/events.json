@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-29T00:21:34.856Z",
+  "generated_at": "2026-09-29T10:39:49.028Z",
   "source_timestamp": "09/25/2026 13:04",
-  "content_hash": "450a360b6850c849",
+  "content_hash": "f800eebc0d6a1908",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 239,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-29T00:21:14.679Z",
-      "last_attempt": "2026-09-29T00:21:14.679Z",
+      "last_ok": "2026-09-29T10:39:30.554Z",
+      "last_attempt": "2026-09-29T10:39:30.554Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-09-29T00:21:14.906Z",
-      "last_attempt": "2026-09-29T00:21:14.906Z",
+      "last_ok": "2026-09-29T10:39:30.808Z",
+      "last_attempt": "2026-09-29T10:39:30.808Z",
       "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
-      "count": 12,
+      "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-29T00:21:17.430Z",
-      "last_attempt": "2026-09-29T00:21:17.430Z",
+      "last_ok": "2026-09-29T10:39:33.330Z",
+      "last_attempt": "2026-09-29T10:39:33.330Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-29T00:21:17.838Z",
-      "last_attempt": "2026-09-29T00:21:17.838Z",
+      "last_ok": "2026-09-29T10:39:33.669Z",
+      "last_attempt": "2026-09-29T10:39:33.669Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-29T00:21:18.016Z",
-      "last_attempt": "2026-09-29T00:21:18.016Z",
+      "last_ok": "2026-09-29T10:39:33.884Z",
+      "last_attempt": "2026-09-29T10:39:33.884Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-29T00:21:19.160Z",
-      "last_attempt": "2026-09-29T00:21:19.160Z",
+      "last_ok": "2026-09-29T10:39:35.429Z",
+      "last_attempt": "2026-09-29T10:39:35.429Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-29T00:21:19.638Z",
-      "last_attempt": "2026-09-29T00:21:19.638Z",
+      "last_ok": "2026-09-29T10:39:35.927Z",
+      "last_attempt": "2026-09-29T10:39:35.927Z",
       "error": null
     }
   },
@@ -7049,6 +7049,23 @@
       "genres": []
     },
     {
+      "id": "31b6729bc097a62d",
+      "date": "2026-10-23",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Dusk Dept.",
+      "genre": "",
+      "link": "https://talentclublive.com/event/dusk-dept/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/dusk-dept/",
+      "genres": []
+    },
+    {
       "id": "d723ed84978e5c1f",
       "date": "2026-10-24",
       "start_raw": "1600",
@@ -7097,6 +7114,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "e7c7c5c4bc7e6300",
+      "date": "2026-10-24",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Electric Eel w/ Blackstrap Bluegrass",
+      "genre": "",
+      "link": "https://talentclublive.com/event/electric-eel-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/electric-eel-2/",
+      "genres": [
+        "Bluegrass"
+      ]
     },
     {
       "id": "842233c4bcfa9acc",
