@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-29T10:39:49.028Z",
+  "fetched_at": "2026-09-29T18:04:36.375Z",
   "source_timestamp": "09/25/2026 13:04",
   "bytes": 57791,
   "sources": {
@@ -7,62 +7,62 @@
       "ok": true,
       "count": 239,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-29T10:39:30.554Z",
-      "last_attempt": "2026-09-29T10:39:30.554Z",
+      "last_ok": "2026-09-29T18:04:09.163Z",
+      "last_attempt": "2026-09-29T18:04:09.163Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "strategy": "live",
-      "last_ok": "2026-09-29T10:39:30.808Z",
-      "last_attempt": "2026-09-29T10:39:30.808Z",
-      "error": "belle_fiore: belle_fiore no VEVENT in response"
+      "last_ok": "2026-09-29T18:04:09.482Z",
+      "last_attempt": "2026-09-29T18:04:09.482Z",
+      "error": "belle_fiore: belle_fiore no VEVENT in response; travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-29T10:39:33.330Z",
-      "last_attempt": "2026-09-29T10:39:33.330Z",
+      "last_ok": "2026-09-29T18:04:19.700Z",
+      "last_attempt": "2026-09-29T18:04:19.700Z",
       "error": null
     },
     "black_sheep": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-09-29T10:39:33.669Z",
-      "last_attempt": "2026-09-29T10:39:33.669Z",
+      "last_ok": "2026-09-29T18:04:20.265Z",
+      "last_attempt": "2026-09-29T18:04:20.265Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 5,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-29T10:39:33.884Z",
-      "last_attempt": "2026-09-29T10:39:33.884Z",
+      "last_ok": "2026-09-29T18:04:20.502Z",
+      "last_attempt": "2026-09-29T18:04:20.502Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-29T10:39:35.429Z",
-      "last_attempt": "2026-09-29T10:39:35.429Z",
+      "last_ok": "2026-09-29T18:04:23.143Z",
+      "last_attempt": "2026-09-29T18:04:23.143Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-29T10:39:35.927Z",
-      "last_attempt": "2026-09-29T10:39:35.927Z",
+      "last_ok": "2026-09-29T18:04:23.686Z",
+      "last_attempt": "2026-09-29T18:04:23.686Z",
       "error": null
     }
   },
-  "event_count": 276,
+  "event_count": 277,
   "venue_count": 331,
   "deduped": 1,
-  "archived": 88,
-  "content_hash": "f800eebc0d6a1908"
+  "archived": 87,
+  "content_hash": "1340b44822ad605d"
 }
