@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T05:30:21.444Z",
+  "generated_at": "2026-09-30T14:55:42.355Z",
   "source_timestamp": "09/29/2026 11:51",
   "content_hash": "4fe3a2304eaf541b",
   "sources": {
@@ -7,120 +7,120 @@
       "ok": true,
       "count": 369,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-30T05:29:50.344Z",
-      "last_attempt": "2026-09-30T05:29:50.344Z",
+      "last_ok": "2026-09-30T14:54:03.560Z",
+      "last_attempt": "2026-09-30T14:54:03.560Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:29:50.661Z",
-      "last_attempt": "2026-09-30T05:29:50.661Z",
+      "last_ok": "2026-09-30T14:54:03.916Z",
+      "last_attempt": "2026-09-30T14:54:03.916Z",
       "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:29:51.644Z",
-      "last_attempt": "2026-09-30T05:29:51.644Z",
+      "last_ok": "2026-09-30T14:54:07.021Z",
+      "last_attempt": "2026-09-30T14:54:07.021Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:29:51.997Z",
-      "last_attempt": "2026-09-30T05:29:51.997Z",
+      "last_ok": "2026-09-30T14:54:07.494Z",
+      "last_attempt": "2026-09-30T14:54:07.494Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:29:53.069Z",
-      "last_attempt": "2026-09-30T05:29:53.069Z",
+      "last_ok": "2026-09-30T14:54:09.793Z",
+      "last_attempt": "2026-09-30T14:54:09.793Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:29:53.598Z",
-      "last_attempt": "2026-09-30T05:29:53.598Z",
+      "last_ok": "2026-09-30T14:54:10.414Z",
+      "last_attempt": "2026-09-30T14:54:10.414Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:00.771Z",
-      "last_attempt": "2026-09-30T05:30:00.771Z",
+      "last_ok": "2026-09-30T14:54:25.605Z",
+      "last_attempt": "2026-09-30T14:54:25.605Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:01.772Z",
-      "last_attempt": "2026-09-30T05:30:01.772Z",
+      "last_ok": "2026-09-30T14:54:26.985Z",
+      "last_attempt": "2026-09-30T14:54:26.985Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:11.355Z",
-      "last_attempt": "2026-09-30T05:30:11.355Z",
+      "last_ok": "2026-09-30T14:55:33.531Z",
+      "last_attempt": "2026-09-30T14:55:33.531Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 80,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:11.743Z",
-      "last_attempt": "2026-09-30T05:30:11.743Z",
+      "last_ok": "2026-09-30T14:55:33.978Z",
+      "last_attempt": "2026-09-30T14:55:33.978Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:16.342Z",
-      "last_attempt": "2026-09-30T05:30:16.342Z",
+      "last_ok": "2026-09-30T14:55:38.241Z",
+      "last_attempt": "2026-09-30T14:55:38.241Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:17.156Z",
-      "last_attempt": "2026-09-30T05:30:17.156Z",
+      "last_ok": "2026-09-30T14:55:38.783Z",
+      "last_attempt": "2026-09-30T14:55:38.783Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:18.049Z",
-      "last_attempt": "2026-09-30T05:30:18.049Z",
+      "last_ok": "2026-09-30T14:55:39.331Z",
+      "last_attempt": "2026-09-30T14:55:39.331Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:18.424Z",
-      "last_attempt": "2026-09-30T05:30:18.424Z",
+      "last_ok": "2026-09-30T14:55:39.418Z",
+      "last_attempt": "2026-09-30T14:55:39.418Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-09-30T05:30:20.952Z",
-      "last_attempt": "2026-09-30T05:30:20.952Z",
+      "last_ok": "2026-09-30T14:55:41.327Z",
+      "last_attempt": "2026-09-30T14:55:41.327Z",
       "error": null
     }
   },

@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1748,
+  "event_count": 1750,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -717,6 +717,17 @@
       "address": "",
       "region": "Medford",
       "type": "Bar",
+      "_sources": [
+        "musiclist_txt"
+      ]
+    },
+    "Mountain Meadows": {
+      "url": "https://mountainmeadowsashland.com/",
+      "city": "Ashkand",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
       "_sources": [
         "musiclist_txt"
       ]
@@ -30088,6 +30099,40 @@
       "genres": [
         "Celtic"
       ]
+    },
+    {
+      "id": "eb53cb59d36f5158",
+      "date": "2026-09-29",
+      "start_raw": "1300",
+      "end_raw": "1400",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "Mountain Meadows",
+      "notes": "as part of their special La Viva picnic",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
+    },
+    {
+      "id": "b1d4b46a1d7d4648",
+      "date": "2026-09-29",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Conrad",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     }
   ]
 }
