@@ -13,6 +13,9 @@ Builds `data/events.json` by running adapters and merging their output. Runs eve
 | `rockafairy` | `rockafairy.org/events` JSON list + each show's BetterWorld page for times and ticket price (chess/workshops/comedy filtered out) | 85 |
 | `craterian` | `craterian.org` The Events Calendar REST API; prices from each event page. No music category, so theater/dance/circus/comedy/film are filtered by keyword | 85 |
 | `holly` | `hollytheatre.org` Wix Data query (anonymous token). Show date = Pacific date of `date`, time from `time`; ballet/film/comedy filtered | 85 |
+| `venue_ics` | Plain iCalendar feeds, repeat rules expanded by `lib/ics.mjs`: Local 31 Pub (Modern Events Calendar), The Wonder Bur Cafe and Wild Goose Cafe (public Google Calendars). Karaoke/trivia/pool nights filtered per venue | 85 |
+| `code4` | `code4taphouse.com` The Events Calendar REST API, `live-music` category only | 85 |
+| `armory` | `liveatthearmory.com` Squarespace `?format=json`; price/doors from the body, ticket link from Tixr/TicketWeb/Eventbrite hrefs | 85 |
 | `mt_ashland` | `mtashland.com/event-directory/` EventON HTML scrape (music events only; multi-day events split per day; ticket cost pulled from detail pages) | 85 |
 
 Higher trust wins on dedup overlaps. The volunteer list is the floor.

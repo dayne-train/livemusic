@@ -9,6 +9,9 @@ import { ingest as ingestMtAshland } from './adapters/mt_ashland.mjs';
 import { ingest as ingestRockafairy } from './adapters/rockafairy.mjs';
 import { ingest as ingestCraterian } from './adapters/craterian.mjs';
 import { ingest as ingestHolly } from './adapters/holly.mjs';
+import { ingest as ingestVenueIcs } from './adapters/venue_ics.mjs';
+import { ingest as ingestCode4 } from './adapters/code4.mjs';
+import { ingest as ingestArmory } from './adapters/armory.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
 import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
 
@@ -83,6 +86,9 @@ const ADAPTERS = [
   { name: 'rockafairy',    trust: 85,  run: () => ingestRockafairy({ offline: OFFLINE }) },
   { name: 'craterian',     trust: 85,  run: () => ingestCraterian({ offline: OFFLINE }) },
   { name: 'holly',         trust: 85,  run: () => ingestHolly({ offline: OFFLINE }) },
+  { name: 'venue_ics',     trust: 85,  run: () => ingestVenueIcs({ offline: OFFLINE }) },
+  { name: 'code4',         trust: 85,  run: () => ingestCode4({ offline: OFFLINE }) },
+  { name: 'armory',        trust: 85,  run: () => ingestArmory({ offline: OFFLINE }) },
 ];
 
 const TIME_WINDOW_MIN = 90;
