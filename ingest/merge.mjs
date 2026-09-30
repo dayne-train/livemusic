@@ -8,6 +8,8 @@ import { ingest as ingestSouLocalist } from './adapters/sou_localist.mjs';
 import { ingest as ingestAshlandCity } from './adapters/ashland_city.mjs';
 import { ingest as ingestMtAshland } from './adapters/mt_ashland.mjs';
 import { ingest as ingestRockafairy } from './adapters/rockafairy.mjs';
+import { ingest as ingestCraterian } from './adapters/craterian.mjs';
+import { ingest as ingestHolly } from './adapters/holly.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
 import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
 
@@ -81,6 +83,8 @@ const ADAPTERS = [
   { name: 'mt_ashland',    trust: 85,  run: () => ingestMtAshland({ offline: OFFLINE }) },
   // 85: first-party source for its own shows, same as mt_ashland.
   { name: 'rockafairy',    trust: 85,  run: () => ingestRockafairy({ offline: OFFLINE }) },
+  { name: 'craterian',     trust: 85,  run: () => ingestCraterian({ offline: OFFLINE }) },
+  { name: 'holly',         trust: 85,  run: () => ingestHolly({ offline: OFFLINE }) },
 ];
 
 const TIME_WINDOW_MIN = 90;

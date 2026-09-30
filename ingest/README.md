@@ -12,6 +12,8 @@ Builds `data/events.json` by running adapters and merging their output. Runs eve
 | `black_sheep` | `theblacksheep.com/events/` schema.org Event JSON-LD | 80 |
 | `sou_localist` | `events.sou.edu` Localist public JSON API | 80 |
 | `rockafairy` | `rockafairy.org/events` JSON list + each show's BetterWorld page for times and ticket price (chess/workshops/comedy filtered out) | 85 |
+| `craterian` | `craterian.org` The Events Calendar REST API; prices from each event page. No music category, so theater/dance/circus/comedy/film are filtered by keyword | 85 |
+| `holly` | `hollytheatre.org` Wix Data query (anonymous token). Show date = Pacific date of `date`, time from `time`; ballet/film/comedy filtered | 85 |
 | `mt_ashland` | `mtashland.com/event-directory/` EventON HTML scrape (music events only; multi-day events split per day; ticket cost pulled from detail pages) | 85 |
 
 Higher trust wins on dedup overlaps. The volunteer list is the floor.
