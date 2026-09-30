@@ -9,7 +9,6 @@ Builds `data/events.json` by running adapters and merging their output. Runs eve
 | `musiclist_txt` | `roguevalleylivemusicnightlife.com/musiclist.txt` (volunteer-maintained pipe-delimited file) | 100 |
 | `tribe_ics` | Belle Fiore, Grizzly Peak, Roxy Ann Winery, Travel Ashland (aggregator) ICS feeds (WordPress + Tribe Events) | 80 |
 | `talent_club` | `talentclublive.com/live-music/` HTML scrape | 80 |
-| `black_sheep` | `theblacksheep.com/events/` schema.org Event JSON-LD | 80 |
 | `sou_localist` | `events.sou.edu` Localist public JSON API | 80 |
 | `rockafairy` | `rockafairy.org/events` JSON list + each show's BetterWorld page for times and ticket price (chess/workshops/comedy filtered out) | 85 |
 | `craterian` | `craterian.org` The Events Calendar REST API; prices from each event page. No music category, so theater/dance/circus/comedy/film are filtered by keyword | 85 |
