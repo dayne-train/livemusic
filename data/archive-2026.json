@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1726,
+  "event_count": 1738,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -187,6 +187,18 @@
       "type": "Bar",
       "_sources": [
         "musiclist_txt"
+      ]
+    },
+    "Code 4 Taphouse": {
+      "url": "https://code4taphouse.com/",
+      "city": "Grants Pass",
+      "notes": "",
+      "address": "",
+      "region": "GrantsPass",
+      "type": "BrewPub",
+      "_sources": [
+        "musiclist_txt",
+        "code4"
       ]
     },
     "Concerts In The Park- Grants Pass": {
@@ -634,11 +646,12 @@
       "url": "https://local31pub.ai/",
       "city": "Ashland",
       "notes": "",
-      "address": "",
+      "address": "31 Water St, Ashland OR",
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "venue_ics"
       ]
     },
     "Local Vines Wine Bar": {
@@ -892,6 +905,18 @@
       "type": "Winery",
       "_sources": [
         "musiclist_txt"
+      ]
+    },
+    "Rockafairy": {
+      "url": "https://www.rockafairy.org/",
+      "city": "Medford",
+      "notes": "",
+      "address": "Rogue Valley Mall, 1600 N Riverside Ave #1130, Medford OR",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt",
+        "rockafairy"
       ]
     },
     "Rogue Pub-N-Putt": {
@@ -1223,7 +1248,8 @@
       "region": "GrantsPass",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "venue_ics"
       ]
     },
     "Tiffany's Marketplace": {
@@ -1366,7 +1392,8 @@
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "venue_ics"
       ]
     },
     "Willie's Tavern": {
@@ -27797,6 +27824,23 @@
       "genres": []
     },
     {
+      "id": "d0ad95d2b212286c",
+      "date": "2026-09-19",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Slow Corpse, Micah McCaw, Yaaro Light, Cactus Lips",
+      "genre": "",
+      "link": "https://rockafairy.betterworld.org/events/sep19",
+      "link_name": "",
+      "venue": "Rockafairy",
+      "notes": "",
+      "event_type": "Band",
+      "source": "rockafairy",
+      "source_url": "https://rockafairy.betterworld.org/events/sep19",
+      "genres": []
+    },
+    {
       "id": "04f2650e6952d0c6",
       "date": "2026-09-20",
       "start_raw": "1300",
@@ -28407,6 +28451,23 @@
       "genres": []
     },
     {
+      "id": "ff8a689f96d18bcf",
+      "date": "2026-09-24",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Jim and Jeff",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "b858522fa084b6b9",
       "date": "2026-09-24",
       "start_raw": "1830",
@@ -28469,6 +28530,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "d471f0a26a25a992",
+      "date": "2026-09-24",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Johnny Young",
+      "genre": "",
+      "link": "https://local31pub.ai/events/johnny-young/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "It seems Johnny has traveled most every mile of highway in America, playing his heart out for audiences both intimate, and grand. From The Nashville Palace, to The Vans Warped Tour, 30 Rock, to the Wi",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/johnny-young/",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "fa3fd13126f10697",
@@ -28747,6 +28827,23 @@
       "genres": []
     },
     {
+      "id": "7571c6857b9476f2",
+      "date": "2026-09-25",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Nathan Stone Live",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/nathan-stone-live/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/nathan-stone-live/",
+      "genres": []
+    },
+    {
       "id": "7ca57b6814119bd7",
       "date": "2026-09-25",
       "start_raw": "1800",
@@ -28926,6 +29023,42 @@
       "genres": []
     },
     {
+      "id": "6e9af2927b05cbeb",
+      "date": "2026-09-25",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "The Collection",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-collection/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Paul Deller and friends will perform all original music plus a few familiar deep cuts. A unique take sure to delight!",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-collection/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
+      "id": "bbe378ce2bc96804",
+      "date": "2026-09-25",
+      "start_raw": "2100",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "https://wonderbur.net/",
+      "link_name": "",
+      "venue": "The Wonder Bur Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wonderbur",
+      "source_url": "https://wonderbur.net/",
+      "genres": []
+    },
+    {
       "id": "f7c0c1409e347e3b",
       "date": "2026-09-26",
       "start_raw": "1030",
@@ -29069,6 +29202,25 @@
       "source_url": null,
       "genres": [
         "Rock"
+      ]
+    },
+    {
+      "id": "38b045afec8b7ba0",
+      "date": "2026-09-26",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
       ]
     },
     {
@@ -29316,6 +29468,60 @@
       "genres": []
     },
     {
+      "id": "61f2d7727c23d39a",
+      "date": "2026-09-26",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Dearheart \"Until All the Light in Us Is Given Up\" Album Release Show with Fairweatherfriend & Seroba",
+      "genre": "",
+      "link": "https://rockafairy.betterworld.org/events/dearheart",
+      "link_name": "",
+      "venue": "Rockafairy",
+      "notes": "",
+      "event_type": "Band",
+      "source": "rockafairy",
+      "source_url": "https://rockafairy.betterworld.org/events/dearheart",
+      "genres": []
+    },
+    {
+      "id": "c249a506602149a2",
+      "date": "2026-09-26",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Too Short Live in Grants Pass",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/too-short-live-in-grants-pass/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Tickets on Eventbrite",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/too-short-live-in-grants-pass/",
+      "genres": []
+    },
+    {
+      "id": "39a543870f93961a",
+      "date": "2026-09-26",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Cook & Green",
+      "genre": "",
+      "link": "https://local31pub.ai/events/cook-green-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Cook & Green is a mix of funk, jazz and Dead to create a danceable night of original music by some of the best musicians around! Come and enjoy! https://www.instagram.com/p/DOcvU7jkd-T ( https://www.i",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/cook-green-2/",
+      "genres": [
+        "Jazz",
+        "Funk / Soul"
+      ]
+    },
+    {
       "id": "c2cc07320ba68b17",
       "date": "2026-09-27",
       "start_raw": "1100",
@@ -29552,13 +29758,13 @@
       "end_raw": "1900",
       "musician": "Jim Quinby",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
     },
     {
@@ -29610,6 +29816,23 @@
       "genres": []
     },
     {
+      "id": "9f69b21657cf4ca4",
+      "date": "2026-09-27",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "9c062c43b47bf718",
       "date": "2026-09-28",
       "start_raw": "1700",
@@ -29623,6 +29846,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e3a572bfb8f43750",
+      "date": "2026-09-28",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-24/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-24/",
       "genres": []
     },
     {

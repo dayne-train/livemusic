@@ -1,62 +1,102 @@
 {
-  "generated_at": "2026-09-29T23:42:11.216Z",
+  "generated_at": "2026-09-30T04:44:40.248Z",
   "source_timestamp": "09/29/2026 11:51",
-  "content_hash": "b6e46fe2830d24bd",
+  "content_hash": "82ff7394610cf848",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 369,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-29T23:41:40.771Z",
-      "last_attempt": "2026-09-29T23:41:40.771Z",
+      "last_ok": "2026-09-30T04:44:13.282Z",
+      "last_attempt": "2026-09-30T04:44:13.282Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-09-29T23:41:41.055Z",
-      "last_attempt": "2026-09-29T23:41:41.055Z",
-      "error": "belle_fiore: belle_fiore no VEVENT in response; travel_ashland: fetch failed"
+      "last_ok": "2026-09-30T04:44:13.699Z",
+      "last_attempt": "2026-09-30T04:44:13.699Z",
+      "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-29T23:41:51.290Z",
-      "last_attempt": "2026-09-29T23:41:51.290Z",
-      "error": null
-    },
-    "black_sheep": {
-      "ok": true,
-      "count": 7,
-      "strategy": "live",
-      "last_ok": "2026-09-29T23:41:51.709Z",
-      "last_attempt": "2026-09-29T23:41:51.709Z",
+      "last_ok": "2026-09-30T04:44:14.480Z",
+      "last_attempt": "2026-09-30T04:44:14.480Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-29T23:41:56.199Z",
-      "last_attempt": "2026-09-29T23:41:56.199Z",
+      "last_ok": "2026-09-30T04:44:14.880Z",
+      "last_attempt": "2026-09-30T04:44:14.880Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-29T23:41:57.393Z",
-      "last_attempt": "2026-09-29T23:41:57.393Z",
+      "last_ok": "2026-09-30T04:44:15.938Z",
+      "last_attempt": "2026-09-30T04:44:15.938Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-29T23:41:57.949Z",
-      "last_attempt": "2026-09-29T23:41:57.949Z",
+      "last_ok": "2026-09-30T04:44:16.461Z",
+      "last_attempt": "2026-09-30T04:44:16.461Z",
+      "error": null
+    },
+    "rockafairy": {
+      "ok": true,
+      "count": 5,
+      "strategy": "live",
+      "last_ok": "2026-09-30T04:44:27.716Z",
+      "last_attempt": "2026-09-30T04:44:27.716Z",
+      "error": null
+    },
+    "craterian": {
+      "ok": true,
+      "count": 15,
+      "strategy": "live",
+      "last_ok": "2026-09-30T04:44:28.951Z",
+      "last_attempt": "2026-09-30T04:44:28.951Z",
+      "error": null
+    },
+    "holly": {
+      "ok": true,
+      "count": 9,
+      "strategy": "live",
+      "last_ok": "2026-09-30T04:44:32.296Z",
+      "last_attempt": "2026-09-30T04:44:32.296Z",
+      "error": null
+    },
+    "venue_ics": {
+      "ok": true,
+      "count": 80,
+      "strategy": "live",
+      "last_ok": "2026-09-30T04:44:32.761Z",
+      "last_attempt": "2026-09-30T04:44:32.761Z",
+      "error": null
+    },
+    "code4": {
+      "ok": true,
+      "count": 13,
+      "strategy": "live",
+      "last_ok": "2026-09-30T04:44:38.531Z",
+      "last_attempt": "2026-09-30T04:44:38.531Z",
+      "error": null
+    },
+    "armory": {
+      "ok": true,
+      "count": 4,
+      "strategy": "live",
+      "last_ok": "2026-09-30T04:44:39.826Z",
+      "last_attempt": "2026-09-30T04:44:39.826Z",
       "error": null
     }
   },
@@ -252,11 +292,12 @@
       "url": "https://www.liveatthearmory.com/",
       "city": "Ashland",
       "notes": "",
-      "address": "",
+      "address": "208 Oak St, Ashland OR",
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "armory"
       ]
     },
     "Ashland Art Works": {
@@ -685,7 +726,8 @@
       "region": "GrantsPass",
       "type": "BrewPub",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "code4"
       ]
     },
     "Columbia Hotel": {
@@ -1353,11 +1395,12 @@
       "url": "https://www.hollytheatre.org/",
       "city": "Medford",
       "notes": "",
-      "address": "",
+      "address": "226 W 6th St, Medford OR",
       "region": "Medford",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "holly"
       ]
     },
     "Homestead Lounge": {
@@ -1749,11 +1792,12 @@
       "url": "https://local31pub.ai/",
       "city": "Ashland",
       "notes": "",
-      "address": "",
+      "address": "31 Water St, Ashland OR",
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "venue_ics"
       ]
     },
     "Local Vines Wine Bar": {
@@ -2475,11 +2519,12 @@
       "url": "https://www.rockafairy.org/",
       "city": "Medford",
       "notes": "",
-      "address": "",
+      "address": "Rogue Valley Mall, 1600 N Riverside Ave #1130, Medford OR",
       "region": "Medford",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "rockafairy"
       ]
     },
     "Rocky Tonk Saloon": {
@@ -3005,12 +3050,11 @@
       "url": "http://www.theblacksheep.com/",
       "city": "Ashland",
       "notes": "",
-      "address": "51 N Main St, Ashland OR",
+      "address": "",
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt",
-        "black_sheep"
+        "musiclist_txt"
       ]
     },
     "The Copper Plank": {
@@ -3351,7 +3395,8 @@
       "region": "GrantsPass",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "venue_ics"
       ]
     },
     "Tiffany's Marketplace": {
@@ -3593,7 +3638,8 @@
       "region": "Ashland",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "venue_ics"
       ]
     },
     "Wild River Brewery & Pizza": {
@@ -3695,6 +3741,17 @@
         "musiclist_txt"
       ]
     },
+    "Craterian Theater": {
+      "url": "https://craterian.org/",
+      "city": "Medford",
+      "notes": "",
+      "address": "23 S Central Ave, Medford OR",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "craterian"
+      ]
+    },
     "The Talent Club": {
       "url": "https://talentclublive.com",
       "city": "Talent",
@@ -3708,6 +3765,23 @@
     }
   },
   "events": [
+    {
+      "id": "d0ad95d2b212286c",
+      "date": "2026-09-19",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Slow Corpse, Micah McCaw, Yaaro Light, Cactus Lips",
+      "genre": "",
+      "link": "https://rockafairy.betterworld.org/events/sep19",
+      "link_name": "",
+      "venue": "Rockafairy",
+      "notes": "",
+      "event_type": "Band",
+      "source": "rockafairy",
+      "source_url": "https://rockafairy.betterworld.org/events/sep19",
+      "genres": []
+    },
     {
       "id": "fc51a561fa98bf01",
       "date": "2026-09-23",
@@ -3861,6 +3935,23 @@
       "genres": []
     },
     {
+      "id": "ff8a689f96d18bcf",
+      "date": "2026-09-24",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Jim and Jeff",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "b858522fa084b6b9",
       "date": "2026-09-24",
       "start_raw": "1830",
@@ -3939,6 +4030,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "d471f0a26a25a992",
+      "date": "2026-09-24",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Johnny Young",
+      "genre": "",
+      "link": "https://local31pub.ai/events/johnny-young/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "It seems Johnny has traveled most every mile of highway in America, playing his heart out for audiences both intimate, and grand. From The Nashville Palace, to The Vans Warped Tour, 30 Rock, to the Wi",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/johnny-young/",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "8766d45fc19ed85f",
@@ -4233,6 +4343,23 @@
       "genres": []
     },
     {
+      "id": "7571c6857b9476f2",
+      "date": "2026-09-25",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Nathan Stone Live",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/nathan-stone-live/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/nathan-stone-live/",
+      "genres": []
+    },
+    {
       "id": "2b447badd818472e",
       "date": "2026-09-25",
       "start_raw": "1830",
@@ -4360,6 +4487,42 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "6e9af2927b05cbeb",
+      "date": "2026-09-25",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "The Collection",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-collection/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Paul Deller and friends will perform all original music plus a few familiar deep cuts. A unique take sure to delight!",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-collection/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
+      "id": "bbe378ce2bc96804",
+      "date": "2026-09-25",
+      "start_raw": "2100",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "https://wonderbur.net/",
+      "link_name": "",
+      "venue": "The Wonder Bur Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wonderbur",
+      "source_url": "https://wonderbur.net/",
       "genres": []
     },
     {
@@ -4507,6 +4670,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "38b045afec8b7ba0",
+      "date": "2026-09-26",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "0454ac0f404eedd7",
@@ -4751,6 +4933,60 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "61f2d7727c23d39a",
+      "date": "2026-09-26",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Dearheart \"Until All the Light in Us Is Given Up\" Album Release Show with Fairweatherfriend & Seroba",
+      "genre": "",
+      "link": "https://rockafairy.betterworld.org/events/dearheart",
+      "link_name": "",
+      "venue": "Rockafairy",
+      "notes": "",
+      "event_type": "Band",
+      "source": "rockafairy",
+      "source_url": "https://rockafairy.betterworld.org/events/dearheart",
+      "genres": []
+    },
+    {
+      "id": "c249a506602149a2",
+      "date": "2026-09-26",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Too Short Live in Grants Pass",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/too-short-live-in-grants-pass/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Tickets on Eventbrite",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/too-short-live-in-grants-pass/",
+      "genres": []
+    },
+    {
+      "id": "39a543870f93961a",
+      "date": "2026-09-26",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Cook & Green",
+      "genre": "",
+      "link": "https://local31pub.ai/events/cook-green-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Cook & Green is a mix of funk, jazz and Dead to create a danceable night of original music by some of the best musicians around! Come and enjoy! https://www.instagram.com/p/DOcvU7jkd-T ( https://www.i",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/cook-green-2/",
+      "genres": [
+        "Jazz",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "c2cc07320ba68b17",
@@ -5005,13 +5241,19 @@
       "end_raw": "1900",
       "musician": "Jim Quinby",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "302fd1ca71b1be56"
+        }
+      ],
       "genres": []
     },
     {
@@ -5047,6 +5289,23 @@
       "genres": []
     },
     {
+      "id": "9f69b21657cf4ca4",
+      "date": "2026-09-27",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "9c062c43b47bf718",
       "date": "2026-09-28",
       "start_raw": "1700",
@@ -5060,6 +5319,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e3a572bfb8f43750",
+      "date": "2026-09-28",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-24/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-24/",
       "genres": []
     },
     {
@@ -5145,25 +5421,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "0f7cdb72d6e217b1",
-      "date": "2026-09-29",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "1a795e7360bb6afe",
@@ -5280,6 +5537,43 @@
       "genres": []
     },
     {
+      "id": "7af1fb691dbe7ea7",
+      "date": "2026-09-30",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Earth Eater, Mirror Fear, Oddities, Crucible of Absolution",
+      "genre": "",
+      "link": "https://rockafairy.betterworld.org/events/sep30",
+      "link_name": "",
+      "venue": "Rockafairy",
+      "notes": "",
+      "event_type": "Band",
+      "source": "rockafairy",
+      "source_url": "https://rockafairy.betterworld.org/events/sep30",
+      "genres": []
+    },
+    {
+      "id": "48a05a598ee4d548",
+      "date": "2026-09-30",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
+    },
+    {
       "id": "439f653211c2ab95",
       "date": "2026-10-01",
       "start_raw": "1700",
@@ -5336,13 +5630,19 @@
       "end_raw": "2030",
       "musician": "Craig Martin",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "d742e7609346a063"
+        }
+      ],
       "genres": []
     },
     {
@@ -5380,21 +5680,23 @@
       ]
     },
     {
-      "id": "1f4856b08bf0951f",
+      "id": "2ac66fc14968ed29",
       "date": "2026-10-01",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Psychotic Reaction, Lazer Beam and Elk Witch",
       "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
+      "link": "https://local31pub.ai/events/psychotic-reaction-lazer-beam-and-elk-witch/",
       "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
-      "genres": []
+      "venue": "Local 31 Pub",
+      "notes": "Psychotic Reaction is a High Energy Rock and Roll band from Norman, OK. est. 2007 heavily influenced by The Stooges, MC5, Radio Birdman, 13th Floor Elevators, The Yardbirds, Black Sabbath, Pink Floyd,",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/psychotic-reaction-lazer-beam-and-elk-witch/",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "544a732cd669f217",
@@ -5678,6 +5980,23 @@
       "genres": []
     },
     {
+      "id": "e84d0258db4709f7",
+      "date": "2026-10-02",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Hopfinger Wishes",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-hopfinger-wishes/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-hopfinger-wishes/",
+      "genres": []
+    },
+    {
       "id": "b2ad65b33edd1275",
       "date": "2026-10-02",
       "start_raw": "1900",
@@ -5729,6 +6048,26 @@
       "source_url": "https://talentclublive.com/event/blues-dogs/",
       "genres": [
         "Blues"
+      ]
+    },
+    {
+      "id": "bbc369ee4af356b6",
+      "date": "2026-10-02",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Thunderchud, Family Obligation and Special Guest",
+      "genre": "",
+      "link": "https://local31pub.ai/events/thunderchud-family-obligation-and-special-guest/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Thunderchud is Josh, Will, and Travis—licensed and bonded rock’n’roll dreamboats dropping power-pop bops. #OregonBois Family Obligation delivers catchy pop melodies dripping with angst, glitter, and d",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/thunderchud-family-obligation-and-special-guest/",
+      "genres": [
+        "Rock",
+        "Pop"
       ]
     },
     {
@@ -5862,6 +6201,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "62b08b33817a827b",
+      "date": "2026-10-03",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "36f67fed2873419b",
@@ -6028,6 +6386,23 @@
       "genres": []
     },
     {
+      "id": "593adadef501364c",
+      "date": "2026-10-03",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "David Kai",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-david-kai/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-david-kai/",
+      "genres": []
+    },
+    {
       "id": "2d9a12dc95bfe5fc",
       "date": "2026-10-03",
       "start_raw": "1900",
@@ -6059,6 +6434,26 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
       "genres": []
+    },
+    {
+      "id": "09a2f8dfabfc0566",
+      "date": "2026-10-03",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Black Light Ritual",
+      "genre": "",
+      "link": "https://local31pub.ai/events/black-light-ritual/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Black Light Ritual is a Southern Oregon-based band from the White City and Medford area that blends 1990s-style alternative rock, dark funk, and heavy groove. https://www.facebook.com/p/Black-Light-Ri",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/black-light-ritual/",
+      "genres": [
+        "Funk / Soul",
+        "Rock"
+      ]
     },
     {
       "id": "b0a0e448e6854496",
@@ -6109,25 +6504,6 @@
       "genres": []
     },
     {
-      "id": "973ef4ced7b6665e",
-      "date": "2026-10-04",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "d3c9098e986ae994",
       "date": "2026-10-04",
       "start_raw": "1500",
@@ -6174,6 +6550,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "e86b2d2eb876926e",
+      "date": "2026-10-04",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "A Rocky Mountain High - Remembering John Denver - A Ted Vigil Tribute",
+      "genre": "",
+      "link": "https://craterian.org/event/a-rocky-mountain-high-remembering-john-denver-a-ted-vigil-tribute/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/a-rocky-mountain-high-remembering-john-denver-a-ted-vigil-tribute/",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "8315ad51e7b953ca",
@@ -6269,13 +6664,19 @@
       "end_raw": "1900",
       "musician": "Jim Quinby",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "4dbd71a68223ac86"
+        }
+      ],
       "genres": []
     },
     {
@@ -6295,6 +6696,23 @@
       "genres": []
     },
     {
+      "id": "58dfc80c5e601f1b",
+      "date": "2026-10-04",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "cfe61bccb78bd630",
       "date": "2026-10-05",
       "start_raw": "1700",
@@ -6308,6 +6726,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f162b23850412e65",
+      "date": "2026-10-05",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-25/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-25/",
       "genres": []
     },
     {
@@ -6341,25 +6776,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "daac6adb7c56dce2",
-      "date": "2026-10-06",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "d60fdb64de8f8710",
@@ -6484,13 +6900,19 @@
       "end_raw": "2030",
       "musician": "Sage Meadows Country Band",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "970002ca8aafd734"
+        }
+      ],
       "genres": [
         "Country"
       ]
@@ -6509,23 +6931,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "903f0584ac35221a",
-      "date": "2026-10-08",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Karaoke",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/karaoke-night/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "      hosted by KJ Merripen or KJ Fox            Every Thursday at 8:00pm    Come and #SingYourHeartOut at #Karaoke!    All ages welcome!    THEMED THIRD THURSDAYS  We’re celebrate the third Thursday ",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/karaoke-night/",
       "genres": []
     },
     {
@@ -6785,6 +7190,25 @@
       ]
     },
     {
+      "id": "afb1ad332b0ede40",
+      "date": "2026-10-09",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Cool Cat Funk",
+      "genre": "",
+      "link": "https://local31pub.ai/events/cool-cat-funk-6/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Saturday Single Release Pawty! Dress as a kitty and get free entry to the funkiest Cool Cat night of the year! https://coolcatfunk.com ( https://coolcatfunk.com )",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/cool-cat-funk-6/",
+      "genres": [
+        "Funk / Soul"
+      ]
+    },
+    {
       "id": "4a2a89ca533abda5",
       "date": "2026-10-10",
       "start_raw": "1500",
@@ -6867,6 +7291,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "473c223bb98ae62f",
+      "date": "2026-10-10",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "0902f9abf44f90b3",
@@ -7046,25 +7489,6 @@
       "genres": []
     },
     {
-      "id": "2fe3b00b2989f18e",
-      "date": "2026-10-11",
-      "start_raw": "1400",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Black Sheep Celtic Session",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Black Sheep's very own  Open Celtic Jam Session  Every Sunday from 2-5pm  Come enjoy classic Celtic Traditionals from many local musicians. Bring an instrument to play along or just enjoy the session!",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/black-sheep-celtic-session/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
       "id": "d73adeedcfc4f874",
       "date": "2026-10-11",
       "start_raw": "1500",
@@ -7173,13 +7597,19 @@
       "end_raw": "1900",
       "musician": "Jim Quinby",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "ce19abe9d2d217a3"
+        }
+      ],
       "genres": []
     },
     {
@@ -7199,6 +7629,23 @@
       "genres": []
     },
     {
+      "id": "7429605c4272ad77",
+      "date": "2026-10-11",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "8b36b33584bab1ce",
       "date": "2026-10-12",
       "start_raw": "1700",
@@ -7212,6 +7659,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1c027ca959327a0a",
+      "date": "2026-10-12",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-26/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-26/",
       "genres": []
     },
     {
@@ -7245,25 +7709,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "f003abee9f96f615",
-      "date": "2026-10-13",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://theblacksheep.com/events/open-mic-night-2/",
-      "link_name": "",
-      "venue": "The Black Sheep",
-      "notes": "Tuesdays - 8pm  All Ages - No Cover  **one purchase minimum**    We are thrilled to announce that we are bringing back the Tuesday night open mic this month!!!!  Everyone is welcome to come share your",
-      "event_type": "Open Mic",
-      "source": "black_sheep",
-      "source_url": "https://theblacksheep.com/events/open-mic-night-2/",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "beb67ad747911ee3",
@@ -7624,6 +8069,23 @@
       "genres": []
     },
     {
+      "id": "54922d029b327215",
+      "date": "2026-10-16",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "No Ordinary Love",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-no-ordinary-love/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-no-ordinary-love/",
+      "genres": []
+    },
+    {
       "id": "f09ff659be326d18",
       "date": "2026-10-16",
       "start_raw": "1900",
@@ -7658,6 +8120,40 @@
       ]
     },
     {
+      "id": "a374068cbe3c8173",
+      "date": "2026-10-16",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Octopoulpe, Steaksauce Mustache, Tabsplitter, Seclusionist",
+      "genre": "",
+      "link": "https://rockafairy.betterworld.org/events/oct16",
+      "link_name": "",
+      "venue": "Rockafairy",
+      "notes": "",
+      "event_type": "Band",
+      "source": "rockafairy",
+      "source_url": "https://rockafairy.betterworld.org/events/oct16",
+      "genres": []
+    },
+    {
+      "id": "5b296a91cd42ee17",
+      "date": "2026-10-16",
+      "start_raw": "2100",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "Oregon Punks",
+      "genre": "",
+      "link": "https://wonderbur.net/",
+      "link_name": "",
+      "venue": "The Wonder Bur Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wonderbur",
+      "source_url": "https://wonderbur.net/",
+      "genres": []
+    },
+    {
       "id": "1715f10dd10d9700",
       "date": "2026-10-17",
       "start_raw": "1030",
@@ -7672,6 +8168,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "0aa3a40c10969a7e",
+      "date": "2026-10-17",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "The Tommy Dorsey Orchestra with Hayden Grove: Tribute to Frank Sinatra",
+      "genre": "",
+      "link": "https://craterian.org/event/the-tommy-dorsey-orchestra-with-hayden-grove-tribute-to-frank-sinatra/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$34-$46 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/the-tommy-dorsey-orchestra-with-hayden-grove-tribute-to-frank-sinatra/",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "5a7d52d7751d5f91",
@@ -7690,6 +8205,25 @@
       "source_url": null,
       "genres": [
         "Classical"
+      ]
+    },
+    {
+      "id": "772a705c63f51846",
+      "date": "2026-10-17",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
       ]
     },
     {
@@ -8014,13 +8548,19 @@
       "end_raw": "1900",
       "musician": "Jim Quinby",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "0f9c1ec9f6305397"
+        }
+      ],
       "genres": []
     },
     {
@@ -8056,6 +8596,23 @@
       "genres": []
     },
     {
+      "id": "50fbe36b524dd183",
+      "date": "2026-10-18",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "5ea68c7c741eb771",
       "date": "2026-10-19",
       "start_raw": "1700",
@@ -8069,6 +8626,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "c304b3dbf0ebfbf9",
+      "date": "2026-10-19",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-27/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-27/",
       "genres": []
     },
     {
@@ -8170,22 +8744,6 @@
       "genres": []
     },
     {
-      "id": "6ee8ca41f5f87d29",
-      "date": "2026-10-21",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "musician": "Comedy: Fine Wines & Punch Lines (Third Wednesdays)",
-      "genre": "",
-      "link": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-october-21/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Join us for a monthly Comedy Night, Age 18+ only: Fine Wines & Punch Lines! \nThis event is $10 to attend. Please call the Tasting Room to make a reservation at (541) 776-2315, Option 1. \nGrab a glass ",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/comedy-fine-wines-punch-lines-third-wednesdays-october-21/",
-      "genres": []
-    },
-    {
       "id": "11b790b2e8a769ef",
       "date": "2026-10-22",
       "start_raw": "1700",
@@ -8244,13 +8802,19 @@
       "end_raw": "2000",
       "musician": "Jim and Julia",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "36ffe318372f589a"
+        }
+      ],
       "genres": []
     },
     {
@@ -8434,6 +8998,23 @@
       "genres": []
     },
     {
+      "id": "73e1c3e9e8371ff3",
+      "date": "2026-10-23",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Starvation Heights",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-starvation-heights/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-starvation-heights/",
+      "genres": []
+    },
+    {
       "id": "948c6691a2ed1b85",
       "date": "2026-10-23",
       "start_raw": "1800",
@@ -8466,6 +9047,23 @@
       "genres": []
     },
     {
+      "id": "e5cf0ad369bf025c",
+      "date": "2026-10-23",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Yesterday and Today, The Interactive Beatles Experience",
+      "genre": "",
+      "link": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$28-$44 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
+      "genres": []
+    },
+    {
       "id": "31b6729bc097a62d",
       "date": "2026-10-23",
       "start_raw": "2000",
@@ -8480,6 +9078,23 @@
       "event_type": "Band",
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/dusk-dept/",
+      "genres": []
+    },
+    {
+      "id": "2a8a7746e0e6f53a",
+      "date": "2026-10-23",
+      "start_raw": "2100",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "More or Les Paul",
+      "genre": "",
+      "link": "https://wonderbur.net/",
+      "link_name": "",
+      "venue": "The Wonder Bur Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wonderbur",
+      "source_url": "https://wonderbur.net/",
       "genres": []
     },
     {
@@ -8529,6 +9144,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "cc872fc48df26af9",
+      "date": "2026-10-24",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "946357d37d936c8d",
@@ -8629,6 +9263,23 @@
       "genres": []
     },
     {
+      "id": "e184ce6a7b62d944",
+      "date": "2026-10-24",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Bim Jeam & The Sadness",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-bim-jeam-the-sadness/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-bim-jeam-the-sadness/",
+      "genres": []
+    },
+    {
       "id": "478726d8e056945d",
       "date": "2026-10-24",
       "start_raw": "1900",
@@ -8657,10 +9308,27 @@
       "link": "",
       "link_name": "",
       "venue": "SOU Music Recital Hall",
-      "notes": "Join us for the 30th anniversary of Company and Clark. Multi-generational dance company in Ashland under the artistic direction of Tina Clark. \n\nPerformance located in Music Recital Hall on Southern O",
+      "notes": "Company & Clark Dancers, an independent, multigenerational dance company based in Ashland, Oregon, was founded in the late 1990s by Artistic Director and Choreographer Tina Clark~~\n\nMFA University of ",
       "event_type": "Band",
       "source": "sou_localist",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e74a8916284c9f8b",
+      "date": "2026-10-24",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Squid Pisser w/ Locutus, Graveburner, Malum Veneficus",
+      "genre": "",
+      "link": "https://rockafairy.betterworld.org/events/squidpisser",
+      "link_name": "",
+      "venue": "Rockafairy",
+      "notes": "",
+      "event_type": "Band",
+      "source": "rockafairy",
+      "source_url": "https://rockafairy.betterworld.org/events/squidpisser",
       "genres": []
     },
     {
@@ -8813,13 +9481,19 @@
       "end_raw": "1900",
       "musician": "Jim Quinby",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "a75dccffd708db95"
+        }
+      ],
       "genres": []
     },
     {
@@ -8836,6 +9510,74 @@
       "event_type": "Open Mic",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7692a77207af7ba4",
+      "date": "2026-10-25",
+      "start_raw": "1830",
+      "end_raw": "2330",
+      "end_estimated": false,
+      "musician": "Bridge City Sinners",
+      "genre": "",
+      "link": "https://www.tixr.com/groups/1988entertainment/events/bridge-city-sinners-trick-or-treat-200324",
+      "link_name": "",
+      "venue": "Ashland Armory",
+      "notes": "Pre-Sale Tickets $30 Available. Doors 6:30 PM. All Ages",
+      "event_type": "Band",
+      "source": "armory",
+      "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/10/25/bridg-city-sinners",
+      "genres": []
+    },
+    {
+      "id": "950286e243931678",
+      "date": "2026-10-25",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "17725a70bb8665f9",
+      "date": "2026-10-25",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "Lyle Lovett",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/lyle-lovett",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 6:30 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/lyle-lovett",
+      "genres": []
+    },
+    {
+      "id": "70d702d473e59ace",
+      "date": "2026-10-26",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-28/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-28/",
       "genres": []
     },
     {
@@ -8946,13 +9688,19 @@
       "end_raw": "2030",
       "musician": "Trebled Souls",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "593d3e7cd68e6258"
+        }
+      ],
       "genres": []
     },
     {
@@ -9140,6 +9888,23 @@
       ]
     },
     {
+      "id": "1bf2a16f9200e625",
+      "date": "2026-10-30",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Erica Rochelle Live",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/erica-rochelle-live-2/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/erica-rochelle-live-2/",
+      "genres": []
+    },
+    {
       "id": "d06822cb6de07ffa",
       "date": "2026-10-30",
       "start_raw": "1900",
@@ -9153,6 +9918,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cea1c8798d5c6181",
+      "date": "2026-10-30",
+      "start_raw": "2000",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "SUNN O)))",
+      "genre": "",
+      "link": "https://www.ticketweb.com/event/sunn-o-the-historic-ashland-armory-tickets/14253964",
+      "link_name": "",
+      "venue": "Ashland Armory",
+      "notes": "Pre Sale Tickets $40. Doors at 7 pm. All Ages",
+      "event_type": "Band",
+      "source": "armory",
+      "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/10/30/sunn-o",
       "genres": []
     },
     {
@@ -9171,6 +9953,25 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/state-of-terrapin-2/",
       "genres": []
+    },
+    {
+      "id": "2cb6bfc9919e9213",
+      "date": "2026-10-30",
+      "start_raw": "2100",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "Lee Spivey & The Flavor",
+      "genre": "",
+      "link": "https://wonderbur.net/",
+      "link_name": "",
+      "venue": "The Wonder Bur Cafe",
+      "notes": "21+ No Cover",
+      "event_type": "Band",
+      "source": "venue_ics:wonderbur",
+      "source_url": "https://wonderbur.net/",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "de39abef49e74aaa",
@@ -9227,6 +10028,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "4e6d9a2d9852a9b3",
+      "date": "2026-10-31",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "c338897c4f4b6d76",
@@ -9328,6 +10148,23 @@
       ]
     },
     {
+      "id": "dec5572bc4f76ad6",
+      "date": "2026-10-31",
+      "start_raw": "2100",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "https://wonderbur.net/",
+      "link_name": "",
+      "venue": "The Wonder Bur Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wonderbur",
+      "source_url": "https://wonderbur.net/",
+      "genres": []
+    },
+    {
       "id": "cf33199b20feca27",
       "date": "2026-11-01",
       "start_raw": "1400",
@@ -9360,6 +10197,40 @@
       "genres": []
     },
     {
+      "id": "9a4e95bef5f3f473",
+      "date": "2026-11-01",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "446de086e6f39dae",
+      "date": "2026-11-01",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "78652a4f88b6738b",
       "date": "2026-11-05",
       "start_raw": "1730",
@@ -9384,13 +10255,19 @@
       "end_raw": "2030",
       "musician": "Craig Martin",
       "genre": "",
-      "link": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
       "link_name": "",
       "venue": "Wild Goose Cafe",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "b7369e9fd2674a96"
+        }
+      ],
       "genres": []
     },
     {
@@ -9490,6 +10367,25 @@
       "source_url": null,
       "genres": [
         "Classical"
+      ]
+    },
+    {
+      "id": "2263c19ddd3227d0",
+      "date": "2026-11-07",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
       ]
     },
     {
@@ -9623,6 +10519,40 @@
       "genres": []
     },
     {
+      "id": "cf7abc1426efeee8",
+      "date": "2026-11-08",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "6a62f4485ae81ac4",
+      "date": "2026-11-08",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "5ecb198bf24d4a45",
       "date": "2026-11-11",
       "start_raw": "1700",
@@ -9654,6 +10584,25 @@
       "source_url": null,
       "genres": [
         "Celtic"
+      ]
+    },
+    {
+      "id": "3c529837d46bcde4",
+      "date": "2026-11-12",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Sage Meadows Country Band",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": [
+        "Country"
       ]
     },
     {
@@ -9707,6 +10656,25 @@
       "genres": []
     },
     {
+      "id": "a276d61fa92168aa",
+      "date": "2026-11-14",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "75b9a61b5894b585",
       "date": "2026-11-14",
       "start_raw": "1700",
@@ -9739,6 +10707,23 @@
       "genres": []
     },
     {
+      "id": "31d56b8d26915bed",
+      "date": "2026-11-14",
+      "start_raw": "1930",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Youth Symphony of Southern Oregon Fall 2026",
+      "genre": "",
+      "link": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$14-$19 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
+      "genres": []
+    },
+    {
       "id": "2de297580b6bcc35",
       "date": "2026-11-15",
       "start_raw": "1400",
@@ -9768,6 +10753,74 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "15553d0bf0a9e280",
+      "date": "2026-11-15",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "48256339bb800dcd",
+      "date": "2026-11-15",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "cb3088038425ba8a",
+      "date": "2026-11-15",
+      "start_raw": "2000",
+      "end_raw": "2300",
+      "end_estimated": false,
+      "musician": "Berner",
+      "genre": "",
+      "link": "https://www.liveatthearmory.com/calendar-of-events/2026/11/15/berner",
+      "link_name": "",
+      "venue": "Ashland Armory",
+      "notes": "$30 - Adv / $35 - Door. Doors 7:00 PM. All Ages",
+      "event_type": "Band",
+      "source": "armory",
+      "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/11/15/berner",
+      "genres": []
+    },
+    {
+      "id": "f25b2b09e646cc5d",
+      "date": "2026-11-17",
+      "start_raw": "1800",
+      "end_raw": "2330",
+      "end_estimated": false,
+      "musician": "The California Honeydrops",
+      "genre": "",
+      "link": "https://www.ticketweb.com/event/the-california-honeydrops-the-historic-ashland-armory-tickets/14990453&pl=jmax",
+      "link_name": "",
+      "venue": "Ashland Armory",
+      "notes": "$35 Pre-Sale / $40 at the Door. Doors 7:00 PM. All Ages",
+      "event_type": "Band",
+      "source": "armory",
+      "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/11/17/the-california-honeydrops",
       "genres": []
     },
     {
@@ -9835,6 +10888,23 @@
       "genres": []
     },
     {
+      "id": "9bc652c9d5887733",
+      "date": "2026-11-20",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Chris Botti",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/chris-botti-",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/chris-botti-",
+      "genres": []
+    },
+    {
       "id": "24282637d25b6aaa",
       "date": "2026-11-20",
       "start_raw": "2000",
@@ -9849,6 +10919,23 @@
       "event_type": "Band",
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/watkins-glen/",
+      "genres": []
+    },
+    {
+      "id": "a0a7b3e0b07ba66a",
+      "date": "2026-11-20",
+      "start_raw": "2100",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "https://wonderbur.net/",
+      "link_name": "",
+      "venue": "The Wonder Bur Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wonderbur",
+      "source_url": "https://wonderbur.net/",
       "genres": []
     },
     {
@@ -9885,6 +10972,25 @@
       "genres": [
         "Classical",
         "World"
+      ]
+    },
+    {
+      "id": "878e2aefdabeb788",
+      "date": "2026-11-21",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
       ]
     },
     {
@@ -9971,6 +11077,40 @@
       ]
     },
     {
+      "id": "e39fb75463b29471",
+      "date": "2026-11-22",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "fe85574cab518f28",
+      "date": "2026-11-22",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "b921f1b3410924d4",
       "date": "2026-11-27",
       "start_raw": "1500",
@@ -10035,6 +11175,25 @@
       "genres": []
     },
     {
+      "id": "a53c628d1e426a76",
+      "date": "2026-11-28",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "1a5947c290b8aeab",
       "date": "2026-11-28",
       "start_raw": "1700",
@@ -10083,6 +11242,57 @@
       "genres": []
     },
     {
+      "id": "439a127cbdda0afa",
+      "date": "2026-11-29",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "ceca540b6886fcf0",
+      "date": "2026-11-29",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "d87133760c04d394",
+      "date": "2026-11-30",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "HOME FREE: Coming Home for the Holidays",
+      "genre": "",
+      "link": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$60-$162 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
+      "genres": []
+    },
+    {
       "id": "27723964b7c0901f",
       "date": "2026-12-01",
       "start_raw": "1930",
@@ -10097,6 +11307,23 @@
       "event_type": "Band",
       "source": "sou_localist",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "44561e306f83113b",
+      "date": "2026-12-03",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Craig Martin",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
     },
     {
@@ -10132,6 +11359,40 @@
       "genres": []
     },
     {
+      "id": "97505b72d25c0e33",
+      "date": "2026-12-04",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "ANDY GRAMMER – Greater Than Pt. II: A One Man Show",
+      "genre": "",
+      "link": "https://craterian.org/event/andy-grammer-one-man-show/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$70-$260 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/andy-grammer-one-man-show/",
+      "genres": []
+    },
+    {
+      "id": "23a2fb85f28f803e",
+      "date": "2026-12-04",
+      "start_raw": "2100",
+      "end_raw": "2359",
+      "end_estimated": false,
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "https://wonderbur.net/",
+      "link_name": "",
+      "venue": "The Wonder Bur Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wonderbur",
+      "source_url": "https://wonderbur.net/",
+      "genres": []
+    },
+    {
       "id": "31c8fdf03abecf7d",
       "date": "2026-12-05",
       "start_raw": "1300",
@@ -10145,6 +11406,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3ab5b2a35794dd66",
+      "date": "2026-12-05",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": true,
+      "musician": "Home for the Holidays: Songs for the Season",
+      "genre": "",
+      "link": "https://craterian.org/event/home-for-the-holidays-songs-for-the-season/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/home-for-the-holidays-songs-for-the-season/",
       "genres": []
     },
     {
@@ -10162,6 +11440,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "09bede6a83d598c9",
+      "date": "2026-12-05",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "834b7f555d8b2daa",
@@ -10212,6 +11509,59 @@
       "genres": []
     },
     {
+      "id": "dfc3db60f0c771fd",
+      "date": "2026-12-06",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "7d10715b256211a0",
+      "date": "2026-12-06",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "257cd3e8719ab663",
+      "date": "2026-12-10",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Sage Meadows Country Band",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
       "id": "a7ab7768cbf1cb01",
       "date": "2026-12-11",
       "start_raw": "1700",
@@ -10227,6 +11577,25 @@
       "source_url": null,
       "genres": [
         "Blues"
+      ]
+    },
+    {
+      "id": "3a5e145beae5cbdd",
+      "date": "2026-12-12",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
       ]
     },
     {
@@ -10278,6 +11647,40 @@
       "genres": []
     },
     {
+      "id": "2c8314b8daf6b30c",
+      "date": "2026-12-13",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "38924c407cdaa074",
+      "date": "2026-12-13",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "fadd366bc2f11502",
       "date": "2026-12-18",
       "start_raw": "1700",
@@ -10292,6 +11695,42 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "7ce4a79fd51a8fed",
+      "date": "2026-12-18",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "A Scattered Light in Winter",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/sors-a-scattered-light-in-winter",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 6:30 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/sors-a-scattered-light-in-winter",
+      "genres": []
+    },
+    {
+      "id": "ff1e8aa8ddf31aa4",
+      "date": "2026-12-19",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "3011b610be7be976",
@@ -10358,6 +11797,25 @@
       "genres": []
     },
     {
+      "id": "43d246a699bf4856",
+      "date": "2026-12-20",
+      "start_raw": "1500",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Tomáseen Foley’s A Celtic Christmas",
+      "genre": "",
+      "link": "https://craterian.org/event/tomaseen-foleys-a-celtic-christmas-3/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$30-$48 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/tomaseen-foleys-a-celtic-christmas-3/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "4e64be2956fb1e27",
       "date": "2026-12-20",
       "start_raw": "1700",
@@ -10373,6 +11831,59 @@
       "source_url": null,
       "genres": [
         "Rock"
+      ]
+    },
+    {
+      "id": "30ef5af5db1b7c06",
+      "date": "2026-12-20",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "0065e0f07b079a03",
+      "date": "2026-12-20",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "e9ce9ff916b146c3",
+      "date": "2026-12-26",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
       ]
     },
     {
@@ -10392,6 +11903,40 @@
       "genres": []
     },
     {
+      "id": "1f6d1cc8503eb0b7",
+      "date": "2026-12-27",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "10581faabc9d01cc",
+      "date": "2026-12-27",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "45b96ee5cf9a81fe",
       "date": "2026-12-31",
       "start_raw": "1500",
@@ -10408,6 +11953,475 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "e484297f81f84af6",
+      "date": "2027-01-02",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "c59642cc9a5450a3",
+      "date": "2027-01-03",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "55f93f9e9d183854",
+      "date": "2027-01-03",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "8439fab141f54462",
+      "date": "2027-01-07",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Craig Martin",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "12216ae08fadc193",
+      "date": "2027-01-09",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "b66f5a160f906cd9",
+      "date": "2027-01-10",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "d3eb472347ea3fb1",
+      "date": "2027-01-10",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "c3eea8717063e62b",
+      "date": "2027-01-14",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Sage Meadows Country Band",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "id": "9d2780bc230b7e2f",
+      "date": "2027-01-16",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "a64012f17127f6b2",
+      "date": "2027-01-17",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "6c96ce6ca9bee795",
+      "date": "2027-01-17",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "2372ab8f35c0676e",
+      "date": "2027-01-23",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "43849e1128bed3de",
+      "date": "2027-01-24",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Naturally 7",
+      "genre": "",
+      "link": "https://craterian.org/event/naturally-7/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$32-$50 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/naturally-7/",
+      "genres": []
+    },
+    {
+      "id": "3b82c41d05b487e2",
+      "date": "2027-01-24",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "2b0be10d346633f2",
+      "date": "2027-01-24",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "35129de2283144ce",
+      "date": "2027-01-30",
+      "start_raw": "1900",
+      "end_raw": "2130",
+      "end_estimated": false,
+      "musician": "3 Redneck Tenors",
+      "genre": "",
+      "link": "https://craterian.org/event/3-redneck-tenors/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$24-$39 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/3-redneck-tenors/",
+      "genres": []
+    },
+    {
+      "id": "ab040221abc76db7",
+      "date": "2027-02-12",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "80s kids",
+      "genre": "",
+      "link": "https://craterian.org/event/80s-kids/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$36-$39 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/80s-kids/",
+      "genres": []
+    },
+    {
+      "id": "5ea5281799cd24c7",
+      "date": "2027-02-13",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "LUCIUS: A History Worth Repeating",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/lucius-a-history-worth-repeating",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/lucius-a-history-worth-repeating",
+      "genres": []
+    },
+    {
+      "id": "fb8ffcb727e6187c",
+      "date": "2027-02-24",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "The Mavericks & Friends",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/the-mavericks-and-friends",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 6:30 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/the-mavericks-and-friends",
+      "genres": []
+    },
+    {
+      "id": "638625de12b4efac",
+      "date": "2027-03-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "BERTHA: Grateful Drag",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/bertha-grateful-drag",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/bertha-grateful-drag",
+      "genres": []
+    },
+    {
+      "id": "8d8363ddeb814cc4",
+      "date": "2027-04-03",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Phat Cat Swinger",
+      "genre": "",
+      "link": "https://craterian.org/event/phat-cat-swinger/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$46-$58 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/phat-cat-swinger/",
+      "genres": []
+    },
+    {
+      "id": "42aab1da1e4fd452",
+      "date": "2027-04-04",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "Bruce Cockburn",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/bruce-cockburn",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 6:30 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/bruce-cockburn",
+      "genres": []
+    },
+    {
+      "id": "d4db4fcdb6efd51e",
+      "date": "2027-04-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "end_estimated": true,
+      "musician": "Take3 Dancing Queens: an ABBA Remix Party",
+      "genre": "",
+      "link": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$27-$42 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
+      "genres": []
+    },
+    {
+      "id": "3fbd270f9e2fac13",
+      "date": "2027-05-01",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Mat & Savanna Shaw",
+      "genre": "",
+      "link": "https://craterian.org/event/mat-savanna-shaw/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$23-$46 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/mat-savanna-shaw/",
+      "genres": []
+    },
+    {
+      "id": "c18379c2e23c9f3c",
+      "date": "2027-05-04",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "Don Was and the Pan-Detroit Ensemble",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/don-was-and-the-pan-detroit-ensemble",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 6:30 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/don-was-and-the-pan-detroit-ensemble",
+      "genres": []
+    },
+    {
+      "id": "71f8618dce9191bd",
+      "date": "2027-05-12",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "Classic Albums Live performs: AC/DC: Highway to Hell",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/cal-acdc-highway-to-hell",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 6:30 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/cal-acdc-highway-to-hell",
+      "genres": []
+    },
+    {
+      "id": "0f7b693a6283c9de",
+      "date": "2027-05-15",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "PEACHERINE RAGTIME SOCIETY ORCHESTRA",
+      "genre": "",
+      "link": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$34-$52 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
+      "genres": []
     }
   ]
 }
