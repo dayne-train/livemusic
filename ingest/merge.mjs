@@ -7,6 +7,7 @@ import { ingest as ingestBlackSheep } from './adapters/black_sheep.mjs';
 import { ingest as ingestSouLocalist } from './adapters/sou_localist.mjs';
 import { ingest as ingestAshlandCity } from './adapters/ashland_city.mjs';
 import { ingest as ingestMtAshland } from './adapters/mt_ashland.mjs';
+import { ingest as ingestRockafairy } from './adapters/rockafairy.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
 import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
 
@@ -78,6 +79,8 @@ const ADAPTERS = [
   // 85: first-party source for its own events — outranks aggregator copies
   // (Travel Ashland) so the entry with ticket cost + per-day split wins dedup.
   { name: 'mt_ashland',    trust: 85,  run: () => ingestMtAshland({ offline: OFFLINE }) },
+  // 85: first-party source for its own shows, same as mt_ashland.
+  { name: 'rockafairy',    trust: 85,  run: () => ingestRockafairy({ offline: OFFLINE }) },
 ];
 
 const TIME_WINDOW_MIN = 90;
