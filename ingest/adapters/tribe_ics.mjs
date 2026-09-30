@@ -32,7 +32,7 @@ const VENUES = [
     venue_type: 'Winery',
     venue_url: 'https://roxyann.com',
     ics_url: 'https://roxyann.com/?post_type=tribe_events&ical=1',
-    include_summary: /MUSIC \+ WINE|Open Mic|Bluegrass|Brews,?\s*Bluegrass|Comedy:/i,
+    include_summary: /MUSIC \+ WINE|Open Mic|Bluegrass|Brews,?\s*Bluegrass/i,
     title_strip: /^MUSIC \+ WINE SERIES FEATURING\s*/i,
     event_type: 'Band',
   },
