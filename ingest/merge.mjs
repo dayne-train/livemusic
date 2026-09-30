@@ -12,6 +12,9 @@ import { ingest as ingestHolly } from './adapters/holly.mjs';
 import { ingest as ingestVenueIcs } from './adapters/venue_ics.mjs';
 import { ingest as ingestCode4 } from './adapters/code4.mjs';
 import { ingest as ingestArmory } from './adapters/armory.mjs';
+import { ingest as ingestTapAndVine } from './adapters/tap_and_vine.mjs';
+import { ingest as ingestRogueTheatre } from './adapters/rogue_theatre.mjs';
+import { ingest as ingestLaBaguette } from './adapters/la_baguette.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
 import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
 
@@ -89,6 +92,9 @@ const ADAPTERS = [
   { name: 'venue_ics',     trust: 85,  run: () => ingestVenueIcs({ offline: OFFLINE }) },
   { name: 'code4',         trust: 85,  run: () => ingestCode4({ offline: OFFLINE }) },
   { name: 'armory',        trust: 85,  run: () => ingestArmory({ offline: OFFLINE }) },
+  { name: 'tap_and_vine',  trust: 85,  run: () => ingestTapAndVine({ offline: OFFLINE }) },
+  { name: 'rogue_theatre', trust: 85,  run: () => ingestRogueTheatre({ offline: OFFLINE }) },
+  { name: 'la_baguette',   trust: 85,  run: () => ingestLaBaguette({ offline: OFFLINE }) },
 ];
 
 const TIME_WINDOW_MIN = 90;
