@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1738,
+  "event_count": 1748,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -540,7 +540,8 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "la_baguette"
       ]
     },
     "La Boveda Labs": {
@@ -1072,7 +1073,8 @@
       "region": "Medford",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tap_and_vine"
       ]
     },
     "Taproots Nursery": {
@@ -16105,6 +16107,23 @@
       "genres": []
     },
     {
+      "id": "6108a18bcf25a091",
+      "date": "2026-08-01",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Sweet Clementine",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/1/sweet-clementine",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/1/sweet-clementine",
+      "genres": []
+    },
+    {
       "id": "8fd5f8b4f90d554b",
       "date": "2026-08-01",
       "start_raw": "1030",
@@ -17667,6 +17686,23 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "4861ef73de66139e",
+      "date": "2026-08-08",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Mark Turnbull",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/8/mark-turnbull",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/8/mark-turnbull",
+      "genres": []
     },
     {
       "id": "73e8e8b633c9b35a",
@@ -19368,6 +19404,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "78d37bc347698813",
+      "date": "2026-08-15",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Paul Jenny & Tom Freeman",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/15/paul-jenny-amp-tom-freeman",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/15/paul-jenny-amp-tom-freeman",
       "genres": []
     },
     {
@@ -21100,6 +21153,23 @@
       "genres": []
     },
     {
+      "id": "c88fb090fed362e3",
+      "date": "2026-08-22",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Cabaret of the Flowers",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/22/cabaret-of-the-flowers",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/22/cabaret-of-the-flowers",
+      "genres": []
+    },
+    {
       "id": "62bc890616d0fd20",
       "date": "2026-08-22",
       "start_raw": "1330",
@@ -22802,6 +22872,23 @@
       "genres": []
     },
     {
+      "id": "5a0b7efabd7c6298",
+      "date": "2026-08-29",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Skrimshaw",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/29/skrimshaw",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/8/29/skrimshaw",
+      "genres": []
+    },
+    {
       "id": "3c1716918fb82eff",
       "date": "2026-08-29",
       "start_raw": "1200",
@@ -24485,6 +24572,23 @@
       "genres": []
     },
     {
+      "id": "c01ba877b0fefaeb",
+      "date": "2026-09-05",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Tim Church and Craig Martin",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/5/tim-church-and-craig-martin",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/5/tim-church-and-craig-martin",
+      "genres": []
+    },
+    {
       "id": "8a9f33d82f3b0785",
       "date": "2026-09-05",
       "start_raw": "1200",
@@ -26129,6 +26233,23 @@
       ]
     },
     {
+      "id": "73baef725c18dfcd",
+      "date": "2026-09-12",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Peter Anestos",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/12/peter-anestos",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/12/peter-anestos",
+      "genres": []
+    },
+    {
       "id": "6694bd5525a1bdd3",
       "date": "2026-09-12",
       "start_raw": "1330",
@@ -26858,6 +26979,23 @@
       "genres": []
     },
     {
+      "id": "0b412950287a6f2f",
+      "date": "2026-09-16",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman and Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/16/christian-and-smith",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/16/christian-and-smith",
+      "genres": []
+    },
+    {
       "id": "194726ac2c268156",
       "date": "2026-09-16",
       "start_raw": "1700",
@@ -27410,6 +27548,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2a039d22b6ce95ca",
+      "date": "2026-09-19",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Mountaintop",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/19/mountaintop",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/19/mountaintop",
       "genres": []
     },
     {
@@ -28231,6 +28386,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "c76e6ea09c962972",
+      "date": "2026-09-23",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/23/house-country-band",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/23/house-country-band",
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "5522cc264aba1077",
@@ -29065,13 +29239,13 @@
       "end_raw": "1230",
       "musician": "Iryna K",
       "genre": "",
-      "link": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/26/iryna",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/26/iryna",
       "genres": []
     },
     {

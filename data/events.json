@@ -1,102 +1,126 @@
 {
-  "generated_at": "2026-09-30T04:44:40.248Z",
+  "generated_at": "2026-09-30T05:30:21.444Z",
   "source_timestamp": "09/29/2026 11:51",
-  "content_hash": "82ff7394610cf848",
+  "content_hash": "4fe3a2304eaf541b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 369,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-30T04:44:13.282Z",
-      "last_attempt": "2026-09-30T04:44:13.282Z",
+      "last_ok": "2026-09-30T05:29:50.344Z",
+      "last_attempt": "2026-09-30T05:29:50.344Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:13.699Z",
-      "last_attempt": "2026-09-30T04:44:13.699Z",
+      "last_ok": "2026-09-30T05:29:50.661Z",
+      "last_attempt": "2026-09-30T05:29:50.661Z",
       "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:14.480Z",
-      "last_attempt": "2026-09-30T04:44:14.480Z",
+      "last_ok": "2026-09-30T05:29:51.644Z",
+      "last_attempt": "2026-09-30T05:29:51.644Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:14.880Z",
-      "last_attempt": "2026-09-30T04:44:14.880Z",
+      "last_ok": "2026-09-30T05:29:51.997Z",
+      "last_attempt": "2026-09-30T05:29:51.997Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:15.938Z",
-      "last_attempt": "2026-09-30T04:44:15.938Z",
+      "last_ok": "2026-09-30T05:29:53.069Z",
+      "last_attempt": "2026-09-30T05:29:53.069Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:16.461Z",
-      "last_attempt": "2026-09-30T04:44:16.461Z",
+      "last_ok": "2026-09-30T05:29:53.598Z",
+      "last_attempt": "2026-09-30T05:29:53.598Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:27.716Z",
-      "last_attempt": "2026-09-30T04:44:27.716Z",
+      "last_ok": "2026-09-30T05:30:00.771Z",
+      "last_attempt": "2026-09-30T05:30:00.771Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:28.951Z",
-      "last_attempt": "2026-09-30T04:44:28.951Z",
+      "last_ok": "2026-09-30T05:30:01.772Z",
+      "last_attempt": "2026-09-30T05:30:01.772Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:32.296Z",
-      "last_attempt": "2026-09-30T04:44:32.296Z",
+      "last_ok": "2026-09-30T05:30:11.355Z",
+      "last_attempt": "2026-09-30T05:30:11.355Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 80,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:32.761Z",
-      "last_attempt": "2026-09-30T04:44:32.761Z",
+      "last_ok": "2026-09-30T05:30:11.743Z",
+      "last_attempt": "2026-09-30T05:30:11.743Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:38.531Z",
-      "last_attempt": "2026-09-30T04:44:38.531Z",
+      "last_ok": "2026-09-30T05:30:16.342Z",
+      "last_attempt": "2026-09-30T05:30:16.342Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-09-30T04:44:39.826Z",
-      "last_attempt": "2026-09-30T04:44:39.826Z",
+      "last_ok": "2026-09-30T05:30:17.156Z",
+      "last_attempt": "2026-09-30T05:30:17.156Z",
+      "error": null
+    },
+    "tap_and_vine": {
+      "ok": true,
+      "count": 10,
+      "strategy": "live",
+      "last_ok": "2026-09-30T05:30:18.049Z",
+      "last_attempt": "2026-09-30T05:30:18.049Z",
+      "error": null
+    },
+    "rogue_theatre": {
+      "ok": true,
+      "count": 5,
+      "strategy": "live",
+      "last_ok": "2026-09-30T05:30:18.424Z",
+      "last_attempt": "2026-09-30T05:30:18.424Z",
+      "error": null
+    },
+    "la_baguette": {
+      "ok": true,
+      "count": 15,
+      "strategy": "live",
+      "last_ok": "2026-09-30T05:30:20.952Z",
+      "last_attempt": "2026-09-30T05:30:20.952Z",
       "error": null
     }
   },
@@ -1642,7 +1666,8 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "la_baguette"
       ]
     },
     "La Boveda Labs": {
@@ -2966,7 +2991,8 @@
       "region": "Medford",
       "type": "Bar",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tap_and_vine"
       ]
     },
     "Taprock Northwest Grill": {
@@ -3752,6 +3778,17 @@
         "craterian"
       ]
     },
+    "Rogue Theatre": {
+      "url": "https://www.roguetheatre.org/",
+      "city": "Grants Pass",
+      "notes": "",
+      "address": "",
+      "region": "GrantsPass",
+      "type": "Other",
+      "_sources": [
+        "rogue_theatre"
+      ]
+    },
     "The Talent Club": {
       "url": "https://talentclublive.com",
       "city": "Talent",
@@ -3765,6 +3802,74 @@
     }
   },
   "events": [
+    {
+      "id": "c01ba877b0fefaeb",
+      "date": "2026-09-05",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Tim Church and Craig Martin",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/5/tim-church-and-craig-martin",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/5/tim-church-and-craig-martin",
+      "genres": []
+    },
+    {
+      "id": "73baef725c18dfcd",
+      "date": "2026-09-12",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Peter Anestos",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/12/peter-anestos",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/12/peter-anestos",
+      "genres": []
+    },
+    {
+      "id": "0b412950287a6f2f",
+      "date": "2026-09-16",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman and Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/16/christian-and-smith",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/16/christian-and-smith",
+      "genres": []
+    },
+    {
+      "id": "2a039d22b6ce95ca",
+      "date": "2026-09-19",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Mountaintop",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/19/mountaintop",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/19/mountaintop",
+      "genres": []
+    },
     {
       "id": "d0ad95d2b212286c",
       "date": "2026-09-19",
@@ -3781,6 +3886,25 @@
       "source": "rockafairy",
       "source_url": "https://rockafairy.betterworld.org/events/sep19",
       "genres": []
+    },
+    {
+      "id": "c76e6ea09c962972",
+      "date": "2026-09-23",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/23/house-country-band",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/23/house-country-band",
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "fc51a561fa98bf01",
@@ -4532,13 +4656,19 @@
       "end_raw": "1230",
       "musician": "Iryna K",
       "genre": "",
-      "link": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/26/iryna",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/26/iryna",
+      "merged_from": [
+        {
+          "source": "la_baguette",
+          "id": "610ac3189e6e68ec"
+        }
+      ],
       "genres": []
     },
     {
@@ -5479,13 +5609,19 @@
       "end_raw": "1900",
       "musician": "Jeff Kloetzel",
       "genre": "Rhythmic Guitar",
-      "link": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
       "link_name": "",
       "venue": "Tap & Vine",
-      "notes": "",
+      "notes": "On the patio",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "merged_from": [
+        {
+          "source": "tap_and_vine",
+          "id": "2cd5151428720ed9"
+        }
+      ],
       "genres": []
     },
     {
@@ -6032,6 +6168,23 @@
       ]
     },
     {
+      "id": "d568b48b37f52762",
+      "date": "2026-10-02",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Judy Collins: Sweet Judy Blue Eyes Farewell Tour",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/judy-collins-sweet-judy-blue-eyes-farewell-tour",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/judy-collins-sweet-judy-blue-eyes-farewell-tour",
+      "genres": []
+    },
+    {
       "id": "77737458c047f67c",
       "date": "2026-10-02",
       "start_raw": "2000",
@@ -6077,13 +6230,19 @@
       "end_raw": "1230",
       "musician": "Sidewalk Cafe",
       "genre": "",
-      "link": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/3/sidewalk-cafe",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/3/sidewalk-cafe",
+      "merged_from": [
+        {
+          "source": "la_baguette",
+          "id": "1285a7fc5b18e324"
+        }
+      ],
       "genres": []
     },
     {
@@ -6169,6 +6328,23 @@
       "genres": [
         "Rock"
       ]
+    },
+    {
+      "id": "8543f6ce4817b137",
+      "date": "2026-10-03",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Skyler & the Sketchy Kids",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "Outdoor stage on The Village Promenade",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "genres": []
     },
     {
       "id": "03ebed170c91c416",
@@ -6283,6 +6459,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f46ede693a5d5f8b",
+      "date": "2026-10-03",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "The John Dough Boys",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "Outdoor stage on The Village Promenade",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
       "genres": []
     },
     {
@@ -6680,6 +6873,23 @@
       "genres": []
     },
     {
+      "id": "f99397636f9f15bb",
+      "date": "2026-10-04",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "Jack Hopfinger & B Wishes",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "On the patio",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "genres": []
+    },
+    {
       "id": "6ca3a338a7303a76",
       "date": "2026-10-04",
       "start_raw": "1800",
@@ -6807,6 +7017,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "37769f67b7014149",
+      "date": "2026-10-07",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "Nathan Stone",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "On the patio",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
       "genres": []
     },
     {
@@ -7613,6 +7840,23 @@
       "genres": []
     },
     {
+      "id": "6541bc63e406afc2",
+      "date": "2026-10-11",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "Aaron Reed (of The Brothers Reed)",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "On the patio",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "genres": []
+    },
+    {
       "id": "0fdb0ea7bb90ce8e",
       "date": "2026-10-11",
       "start_raw": "1800",
@@ -7740,6 +7984,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "6801e553958748f7",
+      "date": "2026-10-14",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "John Ivey",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "On the patio",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
       "genres": []
     },
     {
@@ -8160,13 +8421,19 @@
       "end_raw": "1230",
       "musician": "Sweet Clementine",
       "genre": "",
-      "link": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
+      "merged_from": [
+        {
+          "source": "la_baguette",
+          "id": "78469ef2700a9030"
+        }
+      ],
       "genres": []
     },
     {
@@ -8530,13 +8797,19 @@
       "end_raw": "1900",
       "musician": "Canto Sol",
       "genre": "Latin",
-      "link": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
       "link_name": "",
       "venue": "Tap & Vine",
-      "notes": "",
+      "notes": "On the patio",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "merged_from": [
+        {
+          "source": "tap_and_vine",
+          "id": "284c71d5c203d3a4"
+        }
+      ],
       "genres": [
         "Latin"
       ]
@@ -8708,6 +8981,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "96933da8303ce497",
+      "date": "2026-10-21",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "Jen Ambrose",
+      "genre": "blues",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "On the patio",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "00ff25105a0273ec",
@@ -9064,6 +9356,25 @@
       "genres": []
     },
     {
+      "id": "5f6662def3c482b9",
+      "date": "2026-10-23",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "The Stinkfoot Orchestra: Zappa Tribute",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/the-stinkfoot-orchestra-zappa-tribute",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/the-stinkfoot-orchestra-zappa-tribute",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "31b6729bc097a62d",
       "date": "2026-10-23",
       "start_raw": "2000",
@@ -9104,13 +9415,19 @@
       "end_raw": "1230",
       "musician": "Mark Turnbull",
       "genre": "",
-      "link": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
+      "merged_from": [
+        {
+          "source": "la_baguette",
+          "id": "dbc9a4d13f9974f0"
+        }
+      ],
       "genres": []
     },
     {
@@ -9630,6 +9947,23 @@
       "genres": []
     },
     {
+      "id": "ead3ae903e41971f",
+      "date": "2026-10-28",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "The Brisbane Project Duo",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "On the patio",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "genres": []
+    },
+    {
       "id": "2b0ebc0d4e161035",
       "date": "2026-10-29",
       "start_raw": "1700",
@@ -9971,6 +10305,25 @@
       "source_url": "https://wonderbur.net/",
       "genres": [
         "Other"
+      ]
+    },
+    {
+      "id": "a5b4534252d1b7a9",
+      "date": "2026-10-31",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Jazz Trio-Mark Hamersly, Bob Rawlings, Margaret Reno",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/31/jazz-trio",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/31/jazz-trio",
+      "genres": [
+        "Jazz"
       ]
     },
     {
@@ -10469,6 +10822,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "e2570cd2aac219dd",
+      "date": "2026-11-07",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Fan Halen: Van Halen Tribute",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/fan-halen-van-halen-tribute",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/fan-halen-van-halen-tribute",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "fe532053a25b139a",
@@ -11580,6 +11952,23 @@
       ]
     },
     {
+      "id": "921ba60263af2c4f",
+      "date": "2026-12-11",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Pablo Cruise Live '26",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
+      "genres": []
+    },
+    {
       "id": "3a5e145beae5cbdd",
       "date": "2026-12-12",
       "start_raw": "1630",
@@ -12337,6 +12726,25 @@
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/bruce-cockburn",
       "genres": []
+    },
+    {
+      "id": "c01b9707d2a42613",
+      "date": "2027-04-09",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "One Of These Nights: Eagles Tribute",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "d4db4fcdb6efd51e",
