@@ -15,6 +15,7 @@ import { ingest as ingestArmory } from './adapters/armory.mjs';
 import { ingest as ingestTapAndVine } from './adapters/tap_and_vine.mjs';
 import { ingest as ingestRogueTheatre } from './adapters/rogue_theatre.mjs';
 import { ingest as ingestLaBaguette } from './adapters/la_baguette.mjs';
+import { ingest as ingestAshlandNews } from './adapters/ashland_news.mjs';
 import { venueKey, artistKey, artistTokens, jaccard, minutesFromRaw } from './lib/text.mjs';
 import { canonicalizeGenres, hasOtherSignal } from './lib/genres.mjs';
 
@@ -95,6 +96,8 @@ const ADAPTERS = [
   { name: 'tap_and_vine',  trust: 85,  run: () => ingestTapAndVine({ offline: OFFLINE }) },
   { name: 'rogue_theatre', trust: 85,  run: () => ingestRogueTheatre({ offline: OFFLINE }) },
   { name: 'la_baguette',   trust: 85,  run: () => ingestLaBaguette({ offline: OFFLINE }) },
+  // 75: community aggregator; venue-owned sources win overlaps.
+  { name: 'ashland_news',  trust: 75,  run: () => ingestAshlandNews({ offline: OFFLINE }) },
 ];
 
 const TIME_WINDOW_MIN = 90;

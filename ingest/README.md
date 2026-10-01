@@ -19,6 +19,7 @@ Builds `data/events.json` by running adapters and merging their output. Runs eve
 | `tap_and_vine` | `tapandvine559.com` SpotHopper events page (server HTML); only "Music on the Patio/Promenade ft. <Artist>" rows, artist as the listing name, year inferred | 85 |
 | `rogue_theatre` | `roguetheatre.org` homepage cards + each TicketSpice page for title and show time; stand-up comedy dropped | 85 |
 | `la_baguette` | `labaguettemusiccafe.com` Squarespace calendar `?format=json&month=<month-year>`, last month through two ahead | 85 |
+| `ashland_news` | `ashland.news` community calendar, The Events Calendar REST API filtered to the `music` category; per-event venue (renamed to match existing names), skips venues with their own adapter, drops dance sessions/services/meetings | 75 |
 | `mt_ashland` | `mtashland.com/event-directory/` EventON HTML scrape (music events only; multi-day events split per day; ticket cost pulled from detail pages) | 85 |
 
 Higher trust wins on dedup overlaps. The volunteer list is the floor.
