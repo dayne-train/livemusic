@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-01T05:52:56.058Z",
+  "generated_at": "2026-10-01T15:27:10.709Z",
   "source_timestamp": "09/29/2026 11:51",
-  "content_hash": "a0cb3ae1278b6416",
+  "content_hash": "fdea7c53ecb79dc1",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 369,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-01T05:48:54.867Z",
-      "last_attempt": "2026-10-01T05:48:54.867Z",
+      "last_ok": "2026-10-01T15:25:50.623Z",
+      "last_attempt": "2026-10-01T15:25:50.623Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 11,
+      "count": 28,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:48:55.109Z",
-      "last_attempt": "2026-10-01T05:48:55.109Z",
-      "error": "belle_fiore: belle_fiore no VEVENT in response"
+      "last_ok": "2026-10-01T15:25:50.877Z",
+      "last_attempt": "2026-10-01T15:25:50.877Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:48:57.594Z",
-      "last_attempt": "2026-10-01T05:48:57.594Z",
+      "last_ok": "2026-10-01T15:25:53.451Z",
+      "last_attempt": "2026-10-01T15:25:53.451Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:48:57.870Z",
-      "last_attempt": "2026-10-01T05:48:57.870Z",
+      "last_ok": "2026-10-01T15:25:53.647Z",
+      "last_attempt": "2026-10-01T15:25:53.647Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:48:58.823Z",
-      "last_attempt": "2026-10-01T05:48:58.823Z",
+      "last_ok": "2026-10-01T15:25:55.459Z",
+      "last_attempt": "2026-10-01T15:25:55.459Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:48:59.486Z",
-      "last_attempt": "2026-10-01T05:48:59.486Z",
+      "last_ok": "2026-10-01T15:25:56.088Z",
+      "last_attempt": "2026-10-01T15:25:56.088Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:49:16.908Z",
-      "last_attempt": "2026-10-01T05:49:16.908Z",
+      "last_ok": "2026-10-01T15:26:07.895Z",
+      "last_attempt": "2026-10-01T15:26:07.895Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:49:17.619Z",
-      "last_attempt": "2026-10-01T05:49:17.619Z",
+      "last_ok": "2026-10-01T15:26:08.372Z",
+      "last_attempt": "2026-10-01T15:26:08.372Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:52:47.208Z",
-      "last_attempt": "2026-10-01T05:52:47.208Z",
+      "last_ok": "2026-10-01T15:26:58.726Z",
+      "last_attempt": "2026-10-01T15:26:58.726Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 83,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:52:47.573Z",
-      "last_attempt": "2026-10-01T05:52:47.573Z",
+      "last_ok": "2026-10-01T15:26:59.129Z",
+      "last_attempt": "2026-10-01T15:26:59.129Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:52:51.387Z",
-      "last_attempt": "2026-10-01T05:52:51.387Z",
+      "last_ok": "2026-10-01T15:27:06.053Z",
+      "last_attempt": "2026-10-01T15:27:06.053Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:52:51.967Z",
-      "last_attempt": "2026-10-01T05:52:51.967Z",
+      "last_ok": "2026-10-01T15:27:06.795Z",
+      "last_attempt": "2026-10-01T15:27:06.795Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
-      "count": 11,
+      "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:52:52.856Z",
-      "last_attempt": "2026-10-01T05:52:52.856Z",
+      "last_ok": "2026-10-01T15:27:07.054Z",
+      "last_attempt": "2026-10-01T15:27:07.054Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:52:53.232Z",
-      "last_attempt": "2026-10-01T05:52:53.232Z",
+      "last_ok": "2026-10-01T15:27:07.451Z",
+      "last_attempt": "2026-10-01T15:27:07.451Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
-      "count": 16,
+      "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-01T05:52:55.190Z",
-      "last_attempt": "2026-10-01T05:52:55.190Z",
+      "last_ok": "2026-10-01T15:27:09.622Z",
+      "last_attempt": "2026-10-01T15:27:09.622Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-01T05:52:55.967Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-23&end_date=2027-01-28"
+      "last_attempt": "2026-10-01T15:27:10.394Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-24&end_date=2027-01-29"
     }
   },
   "venues": {
@@ -461,7 +461,8 @@
       "region": "Ashland",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "Bellview Grange": {
@@ -5617,19 +5618,13 @@
       "end_raw": "1900",
       "musician": "Jeff Kloetzel",
       "genre": "Rhythmic Guitar",
-      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link": "",
       "link_name": "",
       "venue": "Tap & Vine",
-      "notes": "On the patio",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
-      "merged_from": [
-        {
-          "source": "tap_and_vine",
-          "id": "2cd5151428720ed9"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -5720,14 +5715,22 @@
       "end_raw": "1900",
       "musician": "Stillwater Road",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-stillwater-road/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Acoustic guitar duo featuring the combined talents of Ted Koch & Bryce Pettyjohn.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-stillwater-road/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "8dc9f3e7a78e7cbc"
+        }
+      ],
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "id": "81eb1b526743c1d0",
@@ -6849,13 +6852,19 @@
       "end_raw": "1900",
       "musician": "Roadsters",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-the-roadsters/",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "$6",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-the-roadsters/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "69808ac3cfeb6fed"
+        }
+      ],
       "genres": []
     },
     {
@@ -7085,14 +7094,24 @@
       "end_raw": "1900",
       "musician": "Cathy Bolton & Tony Askins",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-cathy-bolton-tony-askins/",
       "link_name": "Cathy Bolton",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Cathy Bolton and Tony Askins meet halfway as they deliver a full course of sweet harmonies of folk, country, pop, light rock, blues and original tunes. With Tony’s impeccable instrumental talent of fi",
       "event_type": "Solo",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-cathy-bolton-tony-askins/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "d5229a15517a561a"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Blues",
+        "Folk"
+      ]
     },
     {
       "id": "50d137f36a171a21",
@@ -7259,14 +7278,22 @@
       "end_raw": "1930",
       "musician": "Shine On",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-shine-on-motown/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Improvisational cover band that celebrates the timeless music of the Grateful Dead, while also paying homage to legendary artists like The Beatles, Bob Dylan, Chuck Berry, Jimmy Cliff, and Van Morriso",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-shine-on-motown/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "caeb80f33617c420"
+        }
+      ],
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "e0e55824ece3f6a4",
@@ -7605,13 +7632,19 @@
       "end_raw": "1930",
       "musician": "Jones",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-jones-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "The duo of Joshua Jones and Shelley Kristen Jones.  Joshua is a gifted guitarist, singer and arranger.  Shelley is a talented singer, songwriter and producer.  The two powerful and passionate vocalist",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-jones-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "709c80d2af5f9c1d"
+        }
+      ],
       "genres": []
     },
     {
@@ -7853,14 +7886,24 @@
       "end_raw": "1900",
       "musician": "Shabby Guys",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-shabby-guys-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Wizardly four-piece instrumental band covering blues, jazz, R&B, and pop hits.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-shabby-guys-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "5906e3d183efdcc7"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Jazz",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "ff1d8a5760f3b480",
@@ -8119,6 +8162,25 @@
       "genres": []
     },
     {
+      "id": "f2a96780a0766512",
+      "date": "2026-10-15",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Phil Reed",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-phil-reed/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Phil Reed, of the Brothers Reed. Their style evokes finger picking folk singers from the 60’s and 70’s with a contemporary and boundless bluegrass edge.",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-phil-reed/",
+      "genres": [
+        "Bluegrass",
+        "Folk"
+      ]
+    },
+    {
       "id": "98a519da2808c5ac",
       "date": "2026-10-15",
       "start_raw": "1730",
@@ -8334,14 +8396,24 @@
       "end_raw": "1930",
       "musician": "Jeff Kloetzel",
       "genre": "Rhythmic Guitar",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-4/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Solo singer, songwriter and guitarist who has played at Belle Fiore since our beginning! Jeff’s genre is a wide range from modern folk pop to soul, country-tinged rock to Americana and simple songwrit",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-jeff-kloetzel-4/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "c2f17e131d8694d3"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Folk",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "427b4d0633ab9046",
@@ -8628,14 +8700,22 @@
       "end_raw": "1930",
       "musician": "Vanessa Finney & Mark Hamersly",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-vanessa-finney-mark-hamersly/",
       "link_name": "Vanessa Finney",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Delightful union of vocals and guitar performing jazz standards.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-vanessa-finney-mark-hamersly/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "d9a46c8360321801"
+        }
+      ],
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "8efa9e6e7151ec2d",
@@ -8899,6 +8979,24 @@
       "genres": []
     },
     {
+      "id": "48d9f68317e02c95",
+      "date": "2026-10-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Rod Petrone",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-rod-petrone/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Rod’s musical repertoire is as diverse as it is impressive, encompassing a rich tapestry of international sounds from the sultry rhythms of Brazilian music to the lively strains of Latin American, the",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-rod-petrone/",
+      "genres": [
+        "Latin"
+      ]
+    },
+    {
       "id": "5ba227c6baa9036a",
       "date": "2026-10-18",
       "start_raw": "1800",
@@ -9104,14 +9202,23 @@
       "end_raw": "1900",
       "musician": "Rogue Hot Club",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-rogue-hot-club-3/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "The Rogue Hot Club is a musical group that performs Minor Swing and upbeat gypsy jazz tunes, known for its lively and energetic performances. The talented musicians bring a unique blend of jazz and gy",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-rogue-hot-club-3/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "24a4693bbe1a34f9"
+        }
+      ],
+      "genres": [
+        "Jazz",
+        "Swing"
+      ]
     },
     {
       "id": "6f8d962886653976",
@@ -9316,6 +9423,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "8717f6f1510d8106",
+      "date": "2026-10-23",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Tres Palomas",
+      "genre": "",
+      "link": "https://bellefiorewine.com/event/live-music-tres-palomas-3/",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "Tres Palomas is comprised of Mari Simone on vocals, Sean Chon on upright bass & Jason Wolverton on guitar, specializing in Bossa Nova, Ballads & Early Jazz. Their repertoire is a wonderful blend of th",
+      "event_type": "Band",
+      "source": "tribe_ics:belle_fiore",
+      "source_url": "https://bellefiorewine.com/event/live-music-tres-palomas-3/",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "id": "3b5c7852e0bf5b03",
@@ -9550,13 +9675,19 @@
       "end_raw": "1900",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-pozitronics-4/",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "Costume Party",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-pozitronics-4/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "ce2158fbeecf9b6e"
+        }
+      ],
       "genres": [
         "Rock"
       ]
@@ -9842,15 +9973,22 @@
       "end_raw": "1900",
       "musician": "Sterling Vintage Jazz",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-sterling-vintage-jazz-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Margaret Reno on vocals, Linda Powers on violin and vocals, Tim Church on guitar, and Steve Fain on bass — performing diverse swing and jazz standards of the 1920s, ‘30s and ‘40s.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-sterling-vintage-jazz-2/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "0bc69156fbf744f3"
+        }
+      ],
       "genres": [
-        "Jazz"
+        "Jazz",
+        "Swing"
       ]
     },
     {
@@ -10051,14 +10189,24 @@
       "end_raw": "1900",
       "musician": "Jen Ambrose w/ Jon Galfano",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-jen-jon-3/",
       "link_name": "Jen Ambrose",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Dynamic duo featuring Jon Galfano on guitar, keys and vocals, and Jen Ambrose on guitar, flute and vocals. Their genres range from class rock, Blues, Jazz, and everything in between!",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-jen-jon-3/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "7d24fdda80a54453"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Jazz",
+        "Rock"
+      ]
     },
     {
       "id": "94d4e64f88dbd526",
@@ -10206,15 +10354,22 @@
       "end_raw": "1930",
       "musician": "Backdoor Blues band",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-backdoor-blues/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Longtime Rogue Valley musicians specializing in good-time Blues and R&B, guaranteed to have you on your feet! \nCover charge: Free for members, $6 for non-members",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://bellefiorewine.com/event/live-music-backdoor-blues/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "06293069df61244a"
+        }
+      ],
       "genres": [
-        "Blues"
+        "Blues",
+        "Funk / Soul"
       ]
     },
     {
@@ -10505,14 +10660,23 @@
       "end_raw": "1930",
       "musician": "Encore Five",
       "genre": "",
-      "link": "",
+      "link": "https://bellefiorewine.com/event/live-music-encore-five-halloween-show/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "",
+      "notes": "Celebrate Halloween with the talented 5-piece ensemble Encore Five, bringing passion and excitement to a wide range of music, from Blues to Santana to Swing.",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
+      "source_url": "https://bellefiorewine.com/event/live-music-encore-five-halloween-show/",
+      "merged_from": [
+        {
+          "source": "tribe_ics",
+          "id": "45431acda491dcdb"
+        }
+      ],
+      "genres": [
+        "Blues",
+        "Swing"
+      ]
     },
     {
       "id": "d05538aaab3a16ef",
@@ -11187,7 +11351,7 @@
       "link": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "",
+      "notes": "$14-$19 incl. fees",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
@@ -11756,7 +11920,7 @@
       "link": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "",
+      "notes": "$60-$162 incl. fees",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
@@ -11839,7 +12003,7 @@
       "link": "https://craterian.org/event/andy-grammer-one-man-show/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "",
+      "notes": "$70-$260 incl. fees",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/andy-grammer-one-man-show/",
@@ -12198,6 +12362,23 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/sors-a-scattered-light-in-winter",
+      "genres": []
+    },
+    {
+      "id": "f26d6b0b67436f08",
+      "date": "2026-12-19",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Iryna",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/12/19/iryna",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/12/19/iryna",
       "genres": []
     },
     {
