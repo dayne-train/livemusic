@@ -1,127 +1,135 @@
 {
-  "generated_at": "2026-09-30T20:48:55.214Z",
+  "generated_at": "2026-10-01T05:52:56.058Z",
   "source_timestamp": "09/29/2026 11:51",
-  "content_hash": "c4b125b50029d77a",
+  "content_hash": "a0cb3ae1278b6416",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 369,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-09-30T20:47:53.195Z",
-      "last_attempt": "2026-09-30T20:47:53.195Z",
+      "last_ok": "2026-10-01T05:48:54.867Z",
+      "last_attempt": "2026-10-01T05:48:54.867Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:47:53.426Z",
-      "last_attempt": "2026-09-30T20:47:53.426Z",
+      "last_ok": "2026-10-01T05:48:55.109Z",
+      "last_attempt": "2026-10-01T05:48:55.109Z",
       "error": "belle_fiore: belle_fiore no VEVENT in response"
     },
     "talent_club": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:47:55.952Z",
-      "last_attempt": "2026-09-30T20:47:55.952Z",
+      "last_ok": "2026-10-01T05:48:57.594Z",
+      "last_attempt": "2026-10-01T05:48:57.594Z",
       "error": null
     },
     "sou_localist": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-09-30T14:54:07.494Z",
-      "last_attempt": "2026-09-30T20:47:56.357Z",
-      "error": "fetch failed"
+      "ok": true,
+      "count": 6,
+      "strategy": "live",
+      "last_ok": "2026-10-01T05:48:57.870Z",
+      "last_attempt": "2026-10-01T05:48:57.870Z",
+      "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:47:56.807Z",
-      "last_attempt": "2026-09-30T20:47:56.807Z",
+      "last_ok": "2026-10-01T05:48:58.823Z",
+      "last_attempt": "2026-10-01T05:48:58.823Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:47:57.352Z",
-      "last_attempt": "2026-09-30T20:47:57.352Z",
+      "last_ok": "2026-10-01T05:48:59.486Z",
+      "last_attempt": "2026-10-01T05:48:59.486Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:04.808Z",
-      "last_attempt": "2026-09-30T20:48:04.808Z",
+      "last_ok": "2026-10-01T05:49:16.908Z",
+      "last_attempt": "2026-10-01T05:49:16.908Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:05.599Z",
-      "last_attempt": "2026-09-30T20:48:05.599Z",
+      "last_ok": "2026-10-01T05:49:17.619Z",
+      "last_attempt": "2026-10-01T05:49:17.619Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:45.616Z",
-      "last_attempt": "2026-09-30T20:48:45.616Z",
+      "last_ok": "2026-10-01T05:52:47.208Z",
+      "last_attempt": "2026-10-01T05:52:47.208Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 82,
+      "count": 83,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:45.954Z",
-      "last_attempt": "2026-09-30T20:48:45.954Z",
+      "last_ok": "2026-10-01T05:52:47.573Z",
+      "last_attempt": "2026-10-01T05:52:47.573Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:49.944Z",
-      "last_attempt": "2026-09-30T20:48:49.944Z",
+      "last_ok": "2026-10-01T05:52:51.387Z",
+      "last_attempt": "2026-10-01T05:52:51.387Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:50.625Z",
-      "last_attempt": "2026-09-30T20:48:50.625Z",
+      "last_ok": "2026-10-01T05:52:51.967Z",
+      "last_attempt": "2026-10-01T05:52:51.967Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
-      "count": 10,
+      "count": 11,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:50.927Z",
-      "last_attempt": "2026-09-30T20:48:50.927Z",
+      "last_ok": "2026-10-01T05:52:52.856Z",
+      "last_attempt": "2026-10-01T05:52:52.856Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:51.293Z",
-      "last_attempt": "2026-09-30T20:48:51.293Z",
+      "last_ok": "2026-10-01T05:52:53.232Z",
+      "last_attempt": "2026-10-01T05:52:53.232Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-09-30T20:48:54.423Z",
-      "last_attempt": "2026-09-30T20:48:54.423Z",
+      "last_ok": "2026-10-01T05:52:55.190Z",
+      "last_attempt": "2026-10-01T05:52:55.190Z",
       "error": null
+    },
+    "ashland_news": {
+      "ok": false,
+      "count": 0,
+      "strategy": null,
+      "last_ok": null,
+      "last_attempt": "2026-10-01T05:52:55.967Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-23&end_date=2027-01-28"
     }
   },
   "venues": {
@@ -2671,7 +2679,8 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "sou_localist"
       ]
     },
     "Sam's Corner": {
@@ -5689,26 +5698,6 @@
       "genres": []
     },
     {
-      "id": "48a05a598ee4d548",
-      "date": "2026-09-30",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
-      ]
-    },
-    {
       "id": "439f653211c2ab95",
       "date": "2026-10-01",
       "start_raw": "1700",
@@ -5831,6 +5820,26 @@
       "source_url": "https://local31pub.ai/events/psychotic-reaction-lazer-beam-and-elk-witch/",
       "genres": [
         "Rock"
+      ]
+    },
+    {
+      "id": "929f164e9c4a8246",
+      "date": "2026-10-01",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
       ]
     },
     {
@@ -6146,6 +6155,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "af0ab507c6aaa5a3",
+      "date": "2026-10-02",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Fry Street Quartet with Toby Appel, Viola and Monica Ohuchi, Piano",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Fry Street Quartet is a trailblazing ensemble known for its “blend of technical precision and scorching spontaneity” (The Strad). Described as “a triumph of ensemble playing” (The New York Times),",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
     },
     {
       "id": "d568b48b37f52762",
@@ -8127,6 +8155,23 @@
       ]
     },
     {
+      "id": "31269a1bd385f2b8",
+      "date": "2026-10-15",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Wildegeeses",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "2176ff6b1d96344d",
       "date": "2026-10-15",
       "start_raw": "1900",
@@ -8470,6 +8515,25 @@
       "source_url": "https://craterian.org/event/the-tommy-dorsey-orchestra-with-hayden-grove-tribute-to-frank-sinatra/",
       "genres": [
         "Other"
+      ]
+    },
+    {
+      "id": "5a7d52d7751d5f91",
+      "date": "2026-10-17",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Balourdet Quartet with Adam W. Sadberry, Flute",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Balourdet Quartet stands out for their vibrant energy and masterful blend of technical precision and emotional depth, earning a 2024 Avery Fisher Career Grant and the 2024 Cleveland Quartet Award.",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
       ]
     },
     {
@@ -9613,6 +9677,23 @@
       ]
     },
     {
+      "id": "82ba607f392d97c1",
+      "date": "2026-10-24",
+      "start_raw": "1930",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "Company & Clark Dance Concert",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "Company & Clark Dancers, an independent, multigenerational dance company based in Ashland, Oregon, was founded in the late 1990s by Artistic Director and Choreographer Tina Clark~~\n\nMFA University of ",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "e74a8916284c9f8b",
       "date": "2026-10-24",
       "start_raw": "2000",
@@ -9793,6 +9874,25 @@
         }
       ],
       "genres": []
+    },
+    {
+      "id": "daff17cb3b6afeda",
+      "date": "2026-10-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "David & Phil Blues Duo",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "On the patio",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "genres": [
+        "Blues"
+      ]
     },
     {
       "id": "7be18b7ca6252718",
@@ -10685,6 +10785,42 @@
       "genres": []
     },
     {
+      "id": "2b479e30745ce95b",
+      "date": "2026-11-06",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Arcis Saxophone Quartett",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Arcis Saxophone Quartett (pronounced “Art-sis”) has emerged as one of the most vibrant and active classical ensembles globally. Whether on the highest pass in Ecuador, in the Saudi Arabian desert,",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
+    },
+    {
+      "id": "d969a34bcce619cd",
+      "date": "2026-11-07",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Jim Quinby and Julia Roupp",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/14/jim-quinby-and-julia-roupp",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/14/jim-quinby-and-julia-roupp",
+      "genres": []
+    },
+    {
       "id": "2263c19ddd3227d0",
       "date": "2026-11-07",
       "start_raw": "1630",
@@ -10990,23 +11126,6 @@
       "genres": []
     },
     {
-      "id": "a13ec0932ba7ad6a",
-      "date": "2026-11-14",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Jim Quinby and Julia Roupp",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/14/jim-quinby-and-julia-roupp",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/14/jim-quinby-and-julia-roupp",
-      "genres": []
-    },
-    {
       "id": "a276d61fa92168aa",
       "date": "2026-11-14",
       "start_raw": "1630",
@@ -11068,7 +11187,7 @@
       "link": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "$14-$19 incl. fees",
+      "notes": "",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
@@ -11304,6 +11423,26 @@
       "source": "tribe_ics:grizzly_peak",
       "source_url": "https://grizzlypeakwinery.com/event/siskiyou-music-project-presents-alexander-tutunov-kinga-augustyn/",
       "genres": []
+    },
+    {
+      "id": "0b7045923603905c",
+      "date": "2026-11-21",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Jupiter Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Jupiter String Quartet is an intimately connected group — the members include two sisters and a spouse. Founded in 2001, the ensemble is firmly established as an important voice in the world of ch",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical",
+        "World"
+      ]
     },
     {
       "id": "878e2aefdabeb788",
@@ -11617,10 +11756,27 @@
       "link": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "$60-$162 incl. fees",
+      "notes": "",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
+      "genres": []
+    },
+    {
+      "id": "27723964b7c0901f",
+      "date": "2026-12-01",
+      "start_raw": "1930",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "MUSIX Concert",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "MUSIX is SOU’s premiere house band. Students in MUSIX (both music majors and non-majors, undergrads and grads) write, perform, and record their own work for the band. Packed with diverse array of styl",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
       "genres": []
     },
     {
@@ -11683,7 +11839,7 @@
       "link": "https://craterian.org/event/andy-grammer-one-man-show/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "$70-$260 incl. fees",
+      "notes": "",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/andy-grammer-one-man-show/",
