@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1758,
+  "event_count": 1767,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -29245,6 +29245,23 @@
       "genres": []
     },
     {
+      "id": "610ac3189e6e68ec",
+      "date": "2026-09-26",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Iryna",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/26/iryna",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/26/iryna",
+      "genres": []
+    },
+    {
       "id": "f7c0c1409e347e3b",
       "date": "2026-09-26",
       "start_raw": "1030",
@@ -29938,6 +29955,23 @@
       ]
     },
     {
+      "id": "302fd1ca71b1be56",
+      "date": "2026-09-27",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "7784f8f1b9a83f14",
       "date": "2026-09-27",
       "start_raw": "1700",
@@ -30265,6 +30299,123 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "439f653211c2ab95",
+      "date": "2026-10-01",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "musician": "Erica Rochel Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Apple Outlaw Taproom",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "5b6142634e1cf60d",
+      "date": "2026-10-01",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Stillwater Road",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "81eb1b526743c1d0",
+      "date": "2026-10-01",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Traditional Irish Music and Dancing",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "5a7d877e88208e2b",
+      "date": "2026-10-01",
+      "start_raw": "1800",
+      "end_raw": "2200",
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Alibi Tavern",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a89b80b22a05d32d",
+      "date": "2026-10-01",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "musician": "Craig Martin",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "6098d7a227dd62c1",
+      "date": "2026-10-01",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Young Kidz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2ac66fc14968ed29",
+      "date": "2026-10-01",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Psychotic Reaction, Lazer Beam and Elk Witch",
+      "genre": "",
+      "link": "https://local31pub.ai/events/psychotic-reaction-lazer-beam-and-elk-witch/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Psychotic Reaction is a High Energy Rock and Roll band from Norman, OK. est. 2007 heavily influenced by The Stooges, MC5, Radio Birdman, 13th Floor Elevators, The Yardbirds, Black Sabbath, Pink Floyd,",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/psychotic-reaction-lazer-beam-and-elk-witch/",
+      "genres": [
+        "Rock"
+      ]
     }
   ]
 }
