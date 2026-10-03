@@ -1,5 +1,5 @@
 --timestamp
-10/01/2026 14:35
+10/02/2026 14:57
 --news
 * date | notes
 --musicians
@@ -636,7 +636,7 @@ Santa Fe Band||||South Stage Cellars||10/17/26|1730|1930||Band|26/08/24 10:33AM|
 Live Music||||Callahan's Lodge||10/17/26|1800|2100||Band|26/10/01 14:35PM|4|
 David Kai||||The Gold Room||10/17/26|1800|2000||Band|26/09/29 11:51AM|2|
 David Pinsky & Phil Newton|||David Pinsky|Bella Union||10/17/26|1900|2200||Band|26/09/29 11:51AM|0|
-Ciao Felicia||||The Annex Dance Studio||10/17/26|1900|2200|Doors open at 7:00 pm with a free beginner tango lesson with Morgan. Social tango dancing kicks off at 7:30 pm, band starts at 8; $20; Do you just want to see what tango is all about? Entry is free for newbies!|Band|26/10/01 14:35PM|2|
+Ciao Felicia||||The Annex Dance Studio||10/17/26|1900|2200|Doors open at 7:00 pm with a free beginner tango lesson with Morgan. Social tango dancing kicks off at 7:30 pm, band starts at 8; $20|Band|26/10/02 14:57PM|2|
 Scott Pemberton|folk|||The Copper Plank||10/17/26|2000|2200|$15+|Band|26/09/24 17:49PM|1|
 Jeff Kloetzel||||Daisy Creek Vineyard||10/18/26|1400|1600||Band|26/09/29 11:51AM|0|
 Mike Williams||||Tiffany's Marketplace||10/18/26|1400|1600||Band|26/09/04 12:54PM|2|
