@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-04T23:09:01.411Z",
+  "generated_at": "2026-10-05T05:37:15.833Z",
   "source_timestamp": "10/02/2026 14:57",
-  "content_hash": "1434d38b4a121fca",
+  "content_hash": "e812ba1c43ba3bc0",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 321,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-04T23:07:32.386Z",
-      "last_attempt": "2026-10-04T23:07:32.386Z",
+      "last_ok": "2026-10-05T05:35:54.221Z",
+      "last_attempt": "2026-10-05T05:35:54.221Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 25,
+      "count": 24,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:07:32.763Z",
-      "last_attempt": "2026-10-04T23:07:32.763Z",
+      "last_ok": "2026-10-05T05:35:54.527Z",
+      "last_attempt": "2026-10-05T05:35:54.527Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:07:34.631Z",
-      "last_attempt": "2026-10-04T23:07:34.631Z",
+      "last_ok": "2026-10-05T05:35:56.379Z",
+      "last_attempt": "2026-10-05T05:35:56.379Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:07:35.127Z",
-      "last_attempt": "2026-10-04T23:07:35.127Z",
+      "last_ok": "2026-10-05T05:35:56.718Z",
+      "last_attempt": "2026-10-05T05:35:56.718Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:07:36.507Z",
-      "last_attempt": "2026-10-04T23:07:36.507Z",
+      "last_ok": "2026-10-05T05:35:59.984Z",
+      "last_attempt": "2026-10-05T05:35:59.984Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:07:37.078Z",
-      "last_attempt": "2026-10-04T23:07:37.078Z",
+      "last_ok": "2026-10-05T05:36:00.521Z",
+      "last_attempt": "2026-10-05T05:36:00.521Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:07:52.688Z",
-      "last_attempt": "2026-10-04T23:07:52.688Z",
+      "last_ok": "2026-10-05T05:36:12.739Z",
+      "last_attempt": "2026-10-05T05:36:12.739Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:07:54.508Z",
-      "last_attempt": "2026-10-04T23:07:54.508Z",
+      "last_ok": "2026-10-05T05:36:13.818Z",
+      "last_attempt": "2026-10-05T05:36:13.818Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:08:48.157Z",
-      "last_attempt": "2026-10-04T23:08:48.157Z",
+      "last_ok": "2026-10-05T05:37:05.437Z",
+      "last_attempt": "2026-10-05T05:37:05.437Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 84,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:08:48.449Z",
-      "last_attempt": "2026-10-04T23:08:48.449Z",
+      "last_ok": "2026-10-05T05:37:05.902Z",
+      "last_attempt": "2026-10-05T05:37:05.902Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:08:55.600Z",
-      "last_attempt": "2026-10-04T23:08:55.600Z",
+      "last_ok": "2026-10-05T05:37:10.433Z",
+      "last_attempt": "2026-10-05T05:37:10.433Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:08:56.242Z",
-      "last_attempt": "2026-10-04T23:08:56.242Z",
+      "last_ok": "2026-10-05T05:37:11.101Z",
+      "last_attempt": "2026-10-05T05:37:11.101Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:08:57.410Z",
-      "last_attempt": "2026-10-04T23:08:57.410Z",
+      "last_ok": "2026-10-05T05:37:11.927Z",
+      "last_attempt": "2026-10-05T05:37:11.927Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:08:57.674Z",
-      "last_attempt": "2026-10-04T23:08:57.674Z",
+      "last_ok": "2026-10-05T05:37:12.281Z",
+      "last_attempt": "2026-10-05T05:37:12.281Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-04T23:08:59.740Z",
-      "last_attempt": "2026-10-04T23:08:59.740Z",
+      "last_ok": "2026-10-05T05:37:14.857Z",
+      "last_attempt": "2026-10-05T05:37:14.857Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-04T23:09:00.702Z",
+      "last_attempt": "2026-10-05T05:37:15.579Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-27&end_date=2027-02-01"
     }
   },
@@ -5299,25 +5299,6 @@
       ]
     },
     {
-      "id": "750f66c158904aba",
-      "date": "2026-10-04",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "FREE MUSIC + WINE SERIES FEATURING Canto Sol",
-      "genre": "",
-      "link": "https://roxyann.com/event/free-music-wine-series-featuring-canto-sol-october-4/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Dan and Grant play a variety of Latin music, everything from Flamenco to Tango, including traditional Spanish and Mexican music, as well as Brazilian Jazz and Cuban Salsa. \nJoin us to listen to amazin",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-canto-sol-october-4/",
-      "genres": [
-        "Jazz",
-        "Latin"
-      ]
-    },
-    {
       "id": "6c063acf9f326331",
       "date": "2026-10-04",
       "start_raw": "1700",
@@ -5417,26 +5398,6 @@
       "genres": []
     },
     {
-      "id": "ef00a5fbb64d0442",
-      "date": "2026-10-04",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
-      ]
-    },
-    {
       "id": "cfe61bccb78bd630",
       "date": "2026-10-05",
       "start_raw": "1700",
@@ -5484,6 +5445,26 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "d4aba39109734041",
+      "date": "2026-10-05",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     },
     {
       "id": "b9aa67014da3f928",
@@ -8654,9 +8635,9 @@
       ]
     },
     {
-      "id": "82ba607f392d97c1",
+      "id": "daa17ccb54d4c676",
       "date": "2026-10-24",
-      "start_raw": "1930",
+      "start_raw": "1900",
       "end_raw": "",
       "end_estimated": true,
       "musician": "Company & Clark Dance Concert",
