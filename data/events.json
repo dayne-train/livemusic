@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-05T05:37:15.833Z",
+  "generated_at": "2026-10-05T17:09:28.372Z",
   "source_timestamp": "10/02/2026 14:57",
-  "content_hash": "e812ba1c43ba3bc0",
+  "content_hash": "9d4db1ec79c06432",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 321,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-05T05:35:54.221Z",
-      "last_attempt": "2026-10-05T05:35:54.221Z",
+      "last_ok": "2026-10-05T17:07:36.818Z",
+      "last_attempt": "2026-10-05T17:07:36.818Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 24,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:35:54.527Z",
-      "last_attempt": "2026-10-05T05:35:54.527Z",
-      "error": null
+      "last_ok": "2026-10-05T17:07:37.134Z",
+      "last_attempt": "2026-10-05T17:07:37.134Z",
+      "error": "travel_ashland: fetch failed"
     },
     "talent_club": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:35:56.379Z",
-      "last_attempt": "2026-10-05T05:35:56.379Z",
+      "last_ok": "2026-10-05T17:07:47.341Z",
+      "last_attempt": "2026-10-05T17:07:47.341Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:35:56.718Z",
-      "last_attempt": "2026-10-05T05:35:56.718Z",
+      "last_ok": "2026-10-05T17:07:47.794Z",
+      "last_attempt": "2026-10-05T17:07:47.794Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:35:59.984Z",
-      "last_attempt": "2026-10-05T05:35:59.984Z",
+      "last_ok": "2026-10-05T17:07:49.176Z",
+      "last_attempt": "2026-10-05T17:07:49.176Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:36:00.521Z",
-      "last_attempt": "2026-10-05T05:36:00.521Z",
+      "last_ok": "2026-10-05T17:07:52.062Z",
+      "last_attempt": "2026-10-05T17:07:52.062Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:36:12.739Z",
-      "last_attempt": "2026-10-05T05:36:12.739Z",
+      "last_ok": "2026-10-05T17:08:18.345Z",
+      "last_attempt": "2026-10-05T17:08:18.345Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:36:13.818Z",
-      "last_attempt": "2026-10-05T05:36:13.818Z",
+      "last_ok": "2026-10-05T17:08:20.039Z",
+      "last_attempt": "2026-10-05T17:08:20.039Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:37:05.437Z",
-      "last_attempt": "2026-10-05T05:37:05.437Z",
+      "last_ok": "2026-10-05T17:09:17.916Z",
+      "last_attempt": "2026-10-05T17:09:17.916Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 84,
+      "count": 82,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:37:05.902Z",
-      "last_attempt": "2026-10-05T05:37:05.902Z",
+      "last_ok": "2026-10-05T17:09:18.258Z",
+      "last_attempt": "2026-10-05T17:09:18.258Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:37:10.433Z",
-      "last_attempt": "2026-10-05T05:37:10.433Z",
+      "last_ok": "2026-10-05T17:09:22.344Z",
+      "last_attempt": "2026-10-05T17:09:22.344Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:37:11.101Z",
-      "last_attempt": "2026-10-05T05:37:11.101Z",
+      "last_ok": "2026-10-05T17:09:22.998Z",
+      "last_attempt": "2026-10-05T17:09:22.998Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:37:11.927Z",
-      "last_attempt": "2026-10-05T05:37:11.927Z",
+      "last_ok": "2026-10-05T17:09:24.269Z",
+      "last_attempt": "2026-10-05T17:09:24.269Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:37:12.281Z",
-      "last_attempt": "2026-10-05T05:37:12.281Z",
+      "last_ok": "2026-10-05T17:09:24.540Z",
+      "last_attempt": "2026-10-05T17:09:24.540Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-05T05:37:14.857Z",
-      "last_attempt": "2026-10-05T05:37:14.857Z",
+      "last_ok": "2026-10-05T17:09:27.266Z",
+      "last_attempt": "2026-10-05T17:09:27.266Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-05T05:37:15.579Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-27&end_date=2027-02-01"
+      "last_attempt": "2026-10-05T17:09:28.259Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-28&end_date=2027-02-02"
     }
   },
   "venues": {
@@ -3961,40 +3961,6 @@
       "genres": []
     },
     {
-      "id": "302fd1ca71b1be56",
-      "date": "2026-09-27",
-      "start_raw": "1700",
-      "end_raw": "1845",
-      "end_estimated": false,
-      "musician": "Jim Quinby",
-      "genre": "",
-      "link": "http://www.wildgoosecafe.com/events.html",
-      "link_name": "",
-      "venue": "Wild Goose Cafe",
-      "notes": "",
-      "event_type": "Band",
-      "source": "venue_ics:wildgoose",
-      "source_url": "http://www.wildgoosecafe.com/events.html",
-      "genres": []
-    },
-    {
-      "id": "9f69b21657cf4ca4",
-      "date": "2026-09-27",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "Open Mic",
-      "genre": "",
-      "link": "http://www.wildgoosecafe.com/events.html",
-      "link_name": "",
-      "venue": "Wild Goose Cafe",
-      "notes": "",
-      "event_type": "Open Mic",
-      "source": "venue_ics:wildgoose",
-      "source_url": "http://www.wildgoosecafe.com/events.html",
-      "genres": []
-    },
-    {
       "id": "e3a572bfb8f43750",
       "date": "2026-09-28",
       "start_raw": "1700",
@@ -5305,19 +5271,13 @@
       "end_raw": "1900",
       "musician": "Roadsters",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-the-roadsters/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
       "notes": "$6",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-the-roadsters/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "69808ac3cfeb6fed"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -5327,19 +5287,13 @@
       "end_raw": "1900",
       "musician": "Jack Hopfinger & B Wishes",
       "genre": "",
-      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link": "",
       "link_name": "",
       "venue": "Tap & Vine",
-      "notes": "On the patio",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
-      "merged_from": [
-        {
-          "source": "tap_and_vine",
-          "id": "f99397636f9f15bb"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -8645,7 +8599,7 @@
       "link": "",
       "link_name": "",
       "venue": "SOU Music Recital Hall",
-      "notes": "Company & Clark Dancers, an independent, multigenerational dance company based in Ashland, Oregon, was founded in the late 1990s by Artistic Director and Choreographer Tina Clark~~\n\nMFA University of ",
+      "notes": "I’m at a stage in my life where I’m really focused on making sure dance keeps going strong, even when things get tough, and that we can all find inspiration in each other.\n\nI’m drawn to dances that br",
       "event_type": "Band",
       "source": "sou_localist",
       "source_url": null,
