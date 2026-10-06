@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-05T17:09:28.372Z",
+  "generated_at": "2026-10-06T01:18:45.637Z",
   "source_timestamp": "10/02/2026 14:57",
-  "content_hash": "9d4db1ec79c06432",
+  "content_hash": "1997a87b2a684e49",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 321,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-05T17:07:36.818Z",
-      "last_attempt": "2026-10-05T17:07:36.818Z",
+      "last_ok": "2026-10-06T01:17:18.500Z",
+      "last_attempt": "2026-10-06T01:17:18.500Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:07:37.134Z",
-      "last_attempt": "2026-10-05T17:07:37.134Z",
-      "error": "travel_ashland: fetch failed"
+      "last_ok": "2026-10-06T01:17:18.756Z",
+      "last_attempt": "2026-10-06T01:17:18.756Z",
+      "error": null
     },
     "talent_club": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:07:47.341Z",
-      "last_attempt": "2026-10-05T17:07:47.341Z",
+      "last_ok": "2026-10-06T01:17:21.376Z",
+      "last_attempt": "2026-10-06T01:17:21.376Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:07:47.794Z",
-      "last_attempt": "2026-10-05T17:07:47.794Z",
+      "last_ok": "2026-10-06T01:17:21.630Z",
+      "last_attempt": "2026-10-06T01:17:21.630Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:07:49.176Z",
-      "last_attempt": "2026-10-05T17:07:49.176Z",
+      "last_ok": "2026-10-06T01:17:22.337Z",
+      "last_attempt": "2026-10-06T01:17:22.337Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:07:52.062Z",
-      "last_attempt": "2026-10-05T17:07:52.062Z",
+      "last_ok": "2026-10-06T01:17:23.476Z",
+      "last_attempt": "2026-10-06T01:17:23.476Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:08:18.345Z",
-      "last_attempt": "2026-10-05T17:08:18.345Z",
+      "last_ok": "2026-10-06T01:17:43.913Z",
+      "last_attempt": "2026-10-06T01:17:43.913Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:08:20.039Z",
-      "last_attempt": "2026-10-05T17:08:20.039Z",
+      "last_ok": "2026-10-06T01:17:44.390Z",
+      "last_attempt": "2026-10-06T01:17:44.390Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:09:17.916Z",
-      "last_attempt": "2026-10-05T17:09:17.916Z",
+      "last_ok": "2026-10-06T01:18:36.648Z",
+      "last_attempt": "2026-10-06T01:18:36.648Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 82,
+      "count": 84,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:09:18.258Z",
-      "last_attempt": "2026-10-05T17:09:18.258Z",
+      "last_ok": "2026-10-06T01:18:37.017Z",
+      "last_attempt": "2026-10-06T01:18:37.017Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:09:22.344Z",
-      "last_attempt": "2026-10-05T17:09:22.344Z",
+      "last_ok": "2026-10-06T01:18:41.344Z",
+      "last_attempt": "2026-10-06T01:18:41.344Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:09:22.998Z",
-      "last_attempt": "2026-10-05T17:09:22.998Z",
+      "last_ok": "2026-10-06T01:18:41.941Z",
+      "last_attempt": "2026-10-06T01:18:41.941Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:09:24.269Z",
-      "last_attempt": "2026-10-05T17:09:24.269Z",
+      "last_ok": "2026-10-06T01:18:42.159Z",
+      "last_attempt": "2026-10-06T01:18:42.159Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:09:24.540Z",
-      "last_attempt": "2026-10-05T17:09:24.540Z",
+      "last_ok": "2026-10-06T01:18:42.561Z",
+      "last_attempt": "2026-10-06T01:18:42.561Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-05T17:09:27.266Z",
-      "last_attempt": "2026-10-05T17:09:27.266Z",
+      "last_ok": "2026-10-06T01:18:44.851Z",
+      "last_attempt": "2026-10-06T01:18:44.851Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-05T17:09:28.259Z",
+      "last_attempt": "2026-10-06T01:18:45.556Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-28&end_date=2027-02-02"
     }
   },
@@ -5061,23 +5061,6 @@
       "genres": []
     },
     {
-      "id": "fcf7e0164010bcb2",
-      "date": "2026-10-03",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Barry The Fish Melton and The Scholer System",
-      "genre": "",
-      "link": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/barry-the-fish-melton-and-the-scholer-system/",
-      "genres": []
-    },
-    {
       "id": "09a2f8dfabfc0566",
       "date": "2026-10-03",
       "start_raw": "2100",
@@ -5401,8 +5384,24 @@
       "genres": []
     },
     {
-      "id": "d4aba39109734041",
-      "date": "2026-10-05",
+      "id": "b9aa67014da3f928",
+      "date": "2026-10-06",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Duo Sonorous",
+      "genre": "",
+      "link": "",
+      "link_name": "Jen Ambrose",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "101c508fda67f10f",
+      "date": "2026-10-06",
       "start_raw": "2100",
       "end_raw": "2300",
       "end_estimated": true,
@@ -5419,22 +5418,6 @@
         "Bluegrass",
         "Celtic"
       ]
-    },
-    {
-      "id": "b9aa67014da3f928",
-      "date": "2026-10-06",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Duo Sonorous",
-      "genre": "",
-      "link": "",
-      "link_name": "Jen Ambrose",
-      "venue": "The Gold Room",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
     },
     {
       "id": "d60fdb64de8f8710",
@@ -9358,6 +9341,25 @@
       "genres": []
     },
     {
+      "id": "f138c474a3623a0a",
+      "date": "2026-10-30",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Long Distance Runner",
+      "genre": "",
+      "link": "https://local31pub.ai/events/long-distance-runner-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Playing the music of Little Feet, The Band and The Dead! Ashland’s hottest band is back for a rocking night of excellent covers and high-flying solos!",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/long-distance-runner-2/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "2cb6bfc9919e9213",
       "date": "2026-10-30",
       "start_raw": "2100",
@@ -9592,6 +9594,25 @@
       "source_url": "https://talentclublive.com/event/halloween-anniversary-bash-w-collin-co/",
       "genres": [
         "Swing"
+      ]
+    },
+    {
+      "id": "caea6ea1b07e78c5",
+      "date": "2026-10-31",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Halloween Bands from the Rockin’ Past!",
+      "genre": "",
+      "link": "https://local31pub.ai/events/halloween-bands-from-the-rockin-past/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "On Halloween night, the scariest Rock music from the past will be performed – Black Sabbath, Cheap Trick, The Cure and Josie & the Pussycats! Great music along with scary drink and food specials will ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/halloween-bands-from-the-rockin-past/",
+      "genres": [
+        "Rock"
       ]
     },
     {
