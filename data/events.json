@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-06T01:18:45.637Z",
+  "generated_at": "2026-10-06T11:16:42.369Z",
   "source_timestamp": "10/02/2026 14:57",
-  "content_hash": "1997a87b2a684e49",
+  "content_hash": "1ba9629ecc60363f",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 321,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-06T01:17:18.500Z",
-      "last_attempt": "2026-10-06T01:17:18.500Z",
+      "last_ok": "2026-10-06T11:14:58.466Z",
+      "last_attempt": "2026-10-06T11:14:58.466Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:17:18.756Z",
-      "last_attempt": "2026-10-06T01:17:18.756Z",
+      "last_ok": "2026-10-06T11:14:58.874Z",
+      "last_attempt": "2026-10-06T11:14:58.874Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:17:21.376Z",
-      "last_attempt": "2026-10-06T01:17:21.376Z",
+      "last_ok": "2026-10-06T11:15:01.426Z",
+      "last_attempt": "2026-10-06T11:15:01.426Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:17:21.630Z",
-      "last_attempt": "2026-10-06T01:17:21.630Z",
+      "last_ok": "2026-10-06T11:15:01.955Z",
+      "last_attempt": "2026-10-06T11:15:01.955Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:17:22.337Z",
-      "last_attempt": "2026-10-06T01:17:22.337Z",
+      "last_ok": "2026-10-06T11:15:03.827Z",
+      "last_attempt": "2026-10-06T11:15:03.827Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:17:23.476Z",
-      "last_attempt": "2026-10-06T01:17:23.476Z",
+      "last_ok": "2026-10-06T11:15:04.403Z",
+      "last_attempt": "2026-10-06T11:15:04.403Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:17:43.913Z",
-      "last_attempt": "2026-10-06T01:17:43.913Z",
+      "last_ok": "2026-10-06T11:15:23.749Z",
+      "last_attempt": "2026-10-06T11:15:23.749Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:17:44.390Z",
-      "last_attempt": "2026-10-06T01:17:44.390Z",
+      "last_ok": "2026-10-06T11:15:25.476Z",
+      "last_attempt": "2026-10-06T11:15:25.476Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:18:36.648Z",
-      "last_attempt": "2026-10-06T01:18:36.648Z",
+      "last_ok": "2026-10-06T11:16:31.770Z",
+      "last_attempt": "2026-10-06T11:16:31.770Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 84,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:18:37.017Z",
-      "last_attempt": "2026-10-06T01:18:37.017Z",
+      "last_ok": "2026-10-06T11:16:32.381Z",
+      "last_attempt": "2026-10-06T11:16:32.381Z",
       "error": null
     },
     "code4": {
       "ok": true,
-      "count": 11,
+      "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:18:41.344Z",
-      "last_attempt": "2026-10-06T01:18:41.344Z",
+      "last_ok": "2026-10-06T11:16:37.422Z",
+      "last_attempt": "2026-10-06T11:16:37.422Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:18:41.941Z",
-      "last_attempt": "2026-10-06T01:18:41.941Z",
+      "last_ok": "2026-10-06T11:16:38.040Z",
+      "last_attempt": "2026-10-06T11:16:38.040Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:18:42.159Z",
-      "last_attempt": "2026-10-06T01:18:42.159Z",
+      "last_ok": "2026-10-06T11:16:39.291Z",
+      "last_attempt": "2026-10-06T11:16:39.291Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:18:42.561Z",
-      "last_attempt": "2026-10-06T01:18:42.561Z",
+      "last_ok": "2026-10-06T11:16:39.539Z",
+      "last_attempt": "2026-10-06T11:16:39.539Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-06T01:18:44.851Z",
-      "last_attempt": "2026-10-06T01:18:44.851Z",
+      "last_ok": "2026-10-06T11:16:41.195Z",
+      "last_attempt": "2026-10-06T11:16:41.195Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-06T01:18:45.556Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-28&end_date=2027-02-02"
+      "last_attempt": "2026-10-06T11:16:42.263Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-29&end_date=2027-02-03"
     }
   },
   "venues": {
@@ -3823,23 +3823,6 @@
   },
   "events": [
     {
-      "id": "c01ba877b0fefaeb",
-      "date": "2026-09-05",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Tim Church and Craig Martin",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/5/tim-church-and-craig-martin",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/5/tim-church-and-craig-martin",
-      "genres": []
-    },
-    {
       "id": "73baef725c18dfcd",
       "date": "2026-09-12",
       "start_raw": "1030",
@@ -3958,23 +3941,6 @@
       "event_type": "Band",
       "source": "rockafairy",
       "source_url": "https://rockafairy.betterworld.org/events/dearheart",
-      "genres": []
-    },
-    {
-      "id": "e3a572bfb8f43750",
-      "date": "2026-09-28",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "end_estimated": false,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://code4taphouse.com/event/open-mic-night-24/",
-      "link_name": "",
-      "venue": "Code 4 Taphouse",
-      "notes": "Free",
-      "event_type": "Open Mic",
-      "source": "code4",
-      "source_url": "https://code4taphouse.com/event/open-mic-night-24/",
       "genres": []
     },
     {
