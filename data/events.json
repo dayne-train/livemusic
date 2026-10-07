@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-07T06:01:21.488Z",
+  "generated_at": "2026-10-07T15:33:51.346Z",
   "source_timestamp": "10/02/2026 14:57",
-  "content_hash": "7128974bb70795a9",
+  "content_hash": "723576d44a8a66c7",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 321,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-07T05:56:22.105Z",
-      "last_attempt": "2026-10-07T05:56:22.105Z",
+      "last_ok": "2026-10-07T15:32:07.883Z",
+      "last_attempt": "2026-10-07T15:32:07.883Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 23,
       "strategy": "live",
-      "last_ok": "2026-10-07T05:56:22.410Z",
-      "last_attempt": "2026-10-07T05:56:22.410Z",
+      "last_ok": "2026-10-07T15:32:08.244Z",
+      "last_attempt": "2026-10-07T15:32:08.244Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-07T05:56:26.352Z",
-      "last_attempt": "2026-10-07T05:56:26.352Z",
+      "last_ok": "2026-10-07T15:32:10.873Z",
+      "last_attempt": "2026-10-07T15:32:10.873Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-07T05:56:26.580Z",
-      "last_attempt": "2026-10-07T05:56:26.580Z",
+      "last_ok": "2026-10-07T15:32:11.180Z",
+      "last_attempt": "2026-10-07T15:32:11.180Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-07T05:56:27.593Z",
-      "last_attempt": "2026-10-07T05:56:27.593Z",
+      "last_ok": "2026-10-07T15:32:12.468Z",
+      "last_attempt": "2026-10-07T15:32:12.468Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-07T05:56:28.094Z",
-      "last_attempt": "2026-10-07T05:56:28.094Z",
+      "last_ok": "2026-10-07T15:32:12.901Z",
+      "last_attempt": "2026-10-07T15:32:12.901Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-07T05:56:40.204Z",
-      "last_attempt": "2026-10-07T05:56:40.204Z",
+      "last_ok": "2026-10-07T15:32:26.570Z",
+      "last_attempt": "2026-10-07T15:32:26.570Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-07T05:56:41.249Z",
-      "last_attempt": "2026-10-07T05:56:41.249Z",
+      "last_ok": "2026-10-07T15:32:27.365Z",
+      "last_attempt": "2026-10-07T15:32:27.365Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-07T06:01:08.752Z",
-      "last_attempt": "2026-10-07T06:01:08.752Z",
+      "last_ok": "2026-10-07T15:33:38.587Z",
+      "last_attempt": "2026-10-07T15:33:38.587Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 84,
+      "count": 85,
       "strategy": "live",
-      "last_ok": "2026-10-07T06:01:09.065Z",
-      "last_attempt": "2026-10-07T06:01:09.065Z",
+      "last_ok": "2026-10-07T15:33:38.937Z",
+      "last_attempt": "2026-10-07T15:33:38.937Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-07T06:01:15.835Z",
-      "last_attempt": "2026-10-07T06:01:15.835Z",
+      "last_ok": "2026-10-07T15:33:45.574Z",
+      "last_attempt": "2026-10-07T15:33:45.574Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-07T06:01:17.022Z",
-      "last_attempt": "2026-10-07T06:01:17.022Z",
+      "last_ok": "2026-10-07T15:33:46.332Z",
+      "last_attempt": "2026-10-07T15:33:46.332Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-07T06:01:18.022Z",
-      "last_attempt": "2026-10-07T06:01:18.022Z",
+      "last_ok": "2026-10-07T15:33:47.374Z",
+      "last_attempt": "2026-10-07T15:33:47.374Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-07T06:01:18.492Z",
-      "last_attempt": "2026-10-07T06:01:18.492Z",
+      "last_ok": "2026-10-07T15:33:47.716Z",
+      "last_attempt": "2026-10-07T15:33:47.716Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-07T06:01:20.522Z",
-      "last_attempt": "2026-10-07T06:01:20.522Z",
+      "last_ok": "2026-10-07T15:33:50.112Z",
+      "last_attempt": "2026-10-07T15:33:50.112Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-07T06:01:21.142Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-29&end_date=2027-02-03"
+      "last_attempt": "2026-10-07T15:33:50.974Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-30&end_date=2027-02-04"
     }
   },
   "venues": {
@@ -9966,7 +9966,7 @@
       "link": "https://craterian.org/event/warren-millers-days-off/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "",
+      "notes": "$20-$30 incl. fees",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/warren-millers-days-off/",
@@ -11945,6 +11945,23 @@
       "genres": []
     },
     {
+      "id": "cb0b0d8ca8e68b2a",
+      "date": "2027-02-04",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Craig Martin",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "ab040221abc76db7",
       "date": "2027-02-12",
       "start_raw": "1900",
@@ -12093,7 +12110,7 @@
       "link": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "",
+      "notes": "$27-$42 incl. fees",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
@@ -12110,7 +12127,7 @@
       "link": "https://craterian.org/event/mat-savanna-shaw/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "",
+      "notes": "$23-$46 incl. fees",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/mat-savanna-shaw/",
@@ -12161,7 +12178,7 @@
       "link": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "",
+      "notes": "$34-$52 incl. fees",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
