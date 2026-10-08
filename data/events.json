@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-08T15:36:26.464Z",
-  "source_timestamp": "10/02/2026 14:57",
-  "content_hash": "2cdf31e16bc33851",
+  "generated_at": "2026-10-08T21:19:55.032Z",
+  "source_timestamp": "10/08/2026 12:24",
+  "content_hash": "f3f18e1cae3ce7dd",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 321,
+      "count": 338,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-08T15:34:35.061Z",
-      "last_attempt": "2026-10-08T15:34:35.061Z",
+      "last_ok": "2026-10-08T21:18:12.062Z",
+      "last_attempt": "2026-10-08T21:18:12.062Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 22,
+      "count": 23,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:34:35.480Z",
-      "last_attempt": "2026-10-08T15:34:35.480Z",
+      "last_ok": "2026-10-08T21:18:12.438Z",
+      "last_attempt": "2026-10-08T21:18:12.438Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:34:37.721Z",
-      "last_attempt": "2026-10-08T15:34:37.721Z",
+      "last_ok": "2026-10-08T21:18:14.849Z",
+      "last_attempt": "2026-10-08T21:18:14.849Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 6,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:34:38.115Z",
-      "last_attempt": "2026-10-08T15:34:38.115Z",
+      "last_ok": "2026-10-08T21:18:15.351Z",
+      "last_attempt": "2026-10-08T21:18:15.351Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:34:39.172Z",
-      "last_attempt": "2026-10-08T15:34:39.172Z",
+      "last_ok": "2026-10-08T21:18:17.279Z",
+      "last_attempt": "2026-10-08T21:18:17.279Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:34:39.775Z",
-      "last_attempt": "2026-10-08T15:34:39.775Z",
+      "last_ok": "2026-10-08T21:18:17.854Z",
+      "last_attempt": "2026-10-08T21:18:17.854Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:34:54.261Z",
-      "last_attempt": "2026-10-08T15:34:54.261Z",
+      "last_ok": "2026-10-08T21:18:34.976Z",
+      "last_attempt": "2026-10-08T21:18:34.976Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:34:55.502Z",
-      "last_attempt": "2026-10-08T15:34:55.502Z",
+      "last_ok": "2026-10-08T21:18:36.253Z",
+      "last_attempt": "2026-10-08T21:18:36.253Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:36:15.588Z",
-      "last_attempt": "2026-10-08T15:36:15.588Z",
+      "last_ok": "2026-10-08T21:19:42.066Z",
+      "last_attempt": "2026-10-08T21:19:42.066Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 85,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:36:16.185Z",
-      "last_attempt": "2026-10-08T15:36:16.185Z",
+      "last_ok": "2026-10-08T21:19:42.547Z",
+      "last_attempt": "2026-10-08T21:19:42.547Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:36:19.762Z",
-      "last_attempt": "2026-10-08T15:36:19.762Z",
+      "last_ok": "2026-10-08T21:19:49.558Z",
+      "last_attempt": "2026-10-08T21:19:49.558Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:36:20.510Z",
-      "last_attempt": "2026-10-08T15:36:20.510Z",
+      "last_ok": "2026-10-08T21:19:50.202Z",
+      "last_attempt": "2026-10-08T21:19:50.202Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:36:21.800Z",
-      "last_attempt": "2026-10-08T15:36:21.800Z",
+      "last_ok": "2026-10-08T21:19:51.410Z",
+      "last_attempt": "2026-10-08T21:19:51.410Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:36:22.004Z",
-      "last_attempt": "2026-10-08T15:36:22.004Z",
+      "last_ok": "2026-10-08T21:19:51.661Z",
+      "last_attempt": "2026-10-08T21:19:51.661Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-08T15:36:24.345Z",
-      "last_attempt": "2026-10-08T15:36:24.345Z",
+      "last_ok": "2026-10-08T21:19:53.832Z",
+      "last_attempt": "2026-10-08T21:19:53.832Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-08T15:36:25.511Z",
+      "last_attempt": "2026-10-08T21:19:54.863Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-01&end_date=2027-02-05"
     }
   },
@@ -5596,6 +5596,22 @@
       "genres": []
     },
     {
+      "id": "b0d09c445ab23382",
+      "date": "2026-10-08",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "cc68246494b80a09",
       "date": "2026-10-08",
       "start_raw": "1900",
@@ -5892,6 +5908,40 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "31120be61b643e44",
+      "date": "2026-10-09",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Scholer System",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "aa096973439ba49d",
+      "date": "2026-10-09",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Pozitronics",
+      "genre": "Rock variety",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "042f24830b274533",
@@ -7057,6 +7107,38 @@
       "genres": []
     },
     {
+      "id": "b2f15bf3c67a58cf",
+      "date": "2026-10-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Peter Gross",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "75163df9a01e5b03",
+      "date": "2026-10-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Rogue Hot Club",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "850059b65a635f5b",
       "date": "2026-10-16",
       "start_raw": "2000",
@@ -7538,6 +7620,22 @@
       "link": "",
       "link_name": "",
       "venue": "Naumes Suncrest Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8f1aa714954a991f",
+      "date": "2026-10-18",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Jen Ambrose w/ Jon Galfano",
+      "genre": "",
+      "link": "",
+      "link_name": "Jen Ambrose",
+      "venue": "Pebblestone Cellars",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8154,6 +8252,24 @@
       ]
     },
     {
+      "id": "c3b03f6007cd45c5",
+      "date": "2026-10-23",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Brothers Reed",
+      "genre": "Folk",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Folk"
+      ]
+    },
+    {
       "id": "00c4a180518ce0b8",
       "date": "2026-10-23",
       "start_raw": "1800",
@@ -8249,6 +8365,22 @@
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
+      "genres": []
+    },
+    {
+      "id": "9e223228663c18b6",
+      "date": "2026-10-23",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "musician": "John Johns",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -8353,6 +8485,22 @@
       "link": "",
       "link_name": "",
       "venue": "Dos Mariposas Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2ca35856c051ffc8",
+      "date": "2026-10-24",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Danielle Kelly & Paul Turnipseed",
+      "genre": "",
+      "link": "",
+      "link_name": "Danielle Kelly Soul Project",
+      "venue": "Liquid Lounge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -9246,6 +9394,22 @@
       ]
     },
     {
+      "id": "4da93dc57e10d5b1",
+      "date": "2026-10-30",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Angelic Noise",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "1bf2a16f9200e625",
       "date": "2026-10-30",
       "start_raw": "1800",
@@ -9272,6 +9436,22 @@
       "link": "",
       "link_name": "",
       "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f0452f96e7047c88",
+      "date": "2026-10-30",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Nina & The Notes",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Liquid Lounge",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -10028,6 +10208,24 @@
       "genres": []
     },
     {
+      "id": "864513164b5d7331",
+      "date": "2026-11-08",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Cage Free Concerts Presents:  Dick Hensold and Rosalind Buda",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/cage-free-concerts-presents-dick-hensold-and-rosalind-buda/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Innovative Celtic Trad and Original tunes, All set to Pipes, Bassoon & sundry Winds\nNorthumbrian smallpiper Dick Hensold and bassoonist Rosalind Buda perform a rollicking blend of traditional Celtic t",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/cage-free-concerts-presents-dick-hensold-and-rosalind-buda/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "e70474350df3178a",
       "date": "2026-11-08",
       "start_raw": "1530",
@@ -10190,6 +10388,22 @@
       "link": "",
       "link_name": "",
       "venue": "Moxie Brew",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "897e3f568f87d324",
+      "date": "2026-11-13",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Dana Wirth",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -10438,6 +10652,22 @@
       "link": "",
       "link_name": "",
       "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cb245cb6c41d0702",
+      "date": "2026-11-20",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Bekkah McAlvage",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -10732,6 +10962,22 @@
       "genres": []
     },
     {
+      "id": "441ef1bead80f14b",
+      "date": "2026-11-27",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Dave Brendlinger",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "49a7f92e06c7810d",
       "date": "2026-11-28",
       "start_raw": "1600",
@@ -10925,6 +11171,22 @@
       "link": "",
       "link_name": "",
       "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9940d1409f4c172e",
+      "date": "2026-12-04",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Malinka",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -11153,6 +11415,22 @@
       ]
     },
     {
+      "id": "317d35d11b390f1d",
+      "date": "2026-12-11",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Dave Brendlinger",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "921ba60263af2c4f",
       "date": "2026-12-11",
       "start_raw": "2000",
@@ -11271,6 +11549,25 @@
       "genres": []
     },
     {
+      "id": "92432b2187b0428a",
+      "date": "2026-12-15",
+      "start_raw": "1900",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "The Nutcracker: Symphony of Lights",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "Grand Kyiv returns to OCA for The Nutcracker!\n\n \n\nThe Nutcracker: Symphony of Lights brings the beloved holiday classic to life through classical ballet, Tchaikovsky’s iconic music, dazzling illuminat",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
+    },
+    {
       "id": "fadd366bc2f11502",
       "date": "2026-12-18",
       "start_raw": "1700",
@@ -11280,6 +11577,22 @@
       "link": "",
       "link_name": "",
       "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "6f812e9601f85cd1",
+      "date": "2026-12-18",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Bekkah McAlvage",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Skout Taphouse",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
