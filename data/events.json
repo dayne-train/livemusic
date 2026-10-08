@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-08T06:02:32.117Z",
+  "generated_at": "2026-10-08T15:36:26.464Z",
   "source_timestamp": "10/02/2026 14:57",
-  "content_hash": "eccd85b0a0cc411e",
+  "content_hash": "2cdf31e16bc33851",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 321,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-08T06:00:31.924Z",
-      "last_attempt": "2026-10-08T06:00:31.924Z",
+      "last_ok": "2026-10-08T15:34:35.061Z",
+      "last_attempt": "2026-10-08T15:34:35.061Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 22,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:00:32.254Z",
-      "last_attempt": "2026-10-08T06:00:32.254Z",
+      "last_ok": "2026-10-08T15:34:35.480Z",
+      "last_attempt": "2026-10-08T15:34:35.480Z",
       "error": null
     },
     "talent_club": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:00:37.711Z",
-      "last_attempt": "2026-10-08T06:00:37.711Z",
+      "last_ok": "2026-10-08T15:34:37.721Z",
+      "last_attempt": "2026-10-08T15:34:37.721Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:00:38.145Z",
-      "last_attempt": "2026-10-08T06:00:38.145Z",
+      "last_ok": "2026-10-08T15:34:38.115Z",
+      "last_attempt": "2026-10-08T15:34:38.115Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:00:39.526Z",
-      "last_attempt": "2026-10-08T06:00:39.526Z",
+      "last_ok": "2026-10-08T15:34:39.172Z",
+      "last_attempt": "2026-10-08T15:34:39.172Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:00:40.006Z",
-      "last_attempt": "2026-10-08T06:00:40.006Z",
+      "last_ok": "2026-10-08T15:34:39.775Z",
+      "last_attempt": "2026-10-08T15:34:39.775Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:00:56.419Z",
-      "last_attempt": "2026-10-08T06:00:56.419Z",
+      "last_ok": "2026-10-08T15:34:54.261Z",
+      "last_attempt": "2026-10-08T15:34:54.261Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:00:58.320Z",
-      "last_attempt": "2026-10-08T06:00:58.320Z",
+      "last_ok": "2026-10-08T15:34:55.502Z",
+      "last_attempt": "2026-10-08T15:34:55.502Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:02:22.852Z",
-      "last_attempt": "2026-10-08T06:02:22.852Z",
+      "last_ok": "2026-10-08T15:36:15.588Z",
+      "last_attempt": "2026-10-08T15:36:15.588Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 85,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:02:23.441Z",
-      "last_attempt": "2026-10-08T06:02:23.441Z",
+      "last_ok": "2026-10-08T15:36:16.185Z",
+      "last_attempt": "2026-10-08T15:36:16.185Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:02:27.593Z",
-      "last_attempt": "2026-10-08T06:02:27.593Z",
+      "last_ok": "2026-10-08T15:36:19.762Z",
+      "last_attempt": "2026-10-08T15:36:19.762Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:02:28.191Z",
-      "last_attempt": "2026-10-08T06:02:28.191Z",
+      "last_ok": "2026-10-08T15:36:20.510Z",
+      "last_attempt": "2026-10-08T15:36:20.510Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:02:28.751Z",
-      "last_attempt": "2026-10-08T06:02:28.751Z",
+      "last_ok": "2026-10-08T15:36:21.800Z",
+      "last_attempt": "2026-10-08T15:36:21.800Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:02:28.954Z",
-      "last_attempt": "2026-10-08T06:02:28.954Z",
+      "last_ok": "2026-10-08T15:36:22.004Z",
+      "last_attempt": "2026-10-08T15:36:22.004Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-08T06:02:30.780Z",
-      "last_attempt": "2026-10-08T06:02:30.780Z",
+      "last_ok": "2026-10-08T15:36:24.345Z",
+      "last_attempt": "2026-10-08T15:36:24.345Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-08T06:02:31.780Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-09-30&end_date=2027-02-04"
+      "last_attempt": "2026-10-08T15:36:25.511Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-01&end_date=2027-02-05"
     }
   },
   "venues": {
@@ -5404,19 +5404,13 @@
       "end_raw": "1900",
       "musician": "Nathan Stone",
       "genre": "",
-      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link": "",
       "link_name": "",
       "venue": "Tap & Vine",
-      "notes": "On the patio",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
-      "merged_from": [
-        {
-          "source": "tap_and_vine",
-          "id": "37769f67b7014149"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -8821,7 +8815,7 @@
       "link": "https://www.tixr.com/groups/1988entertainment/events/bridge-city-sinners-trick-or-treat-200324",
       "link_name": "",
       "venue": "Ashland Armory",
-      "notes": "Pre-Sale Tickets $30 Available. Doors 6:30 PM. All Ages",
+      "notes": "Pre-Sale Tickets $30 Available. Doors 6:30 PM / Show 7:30 PM. All Ages",
       "event_type": "Band",
       "source": "armory",
       "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/10/25/bridg-city-sinners",
@@ -9295,7 +9289,7 @@
       "link": "https://www.ticketweb.com/event/sunn-o-the-historic-ashland-armory-tickets/14253964",
       "link_name": "",
       "venue": "Ashland Armory",
-      "notes": "Pre Sale Tickets $40. Doors at 7 pm. All Ages",
+      "notes": "Pre Sale Tickets $32.50 + fees. Doors at 7 pm, Show 8 pm. All Ages",
       "event_type": "Band",
       "source": "armory",
       "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/10/30/sunn-o",
@@ -10360,7 +10354,7 @@
       "end_estimated": false,
       "musician": "Berner",
       "genre": "",
-      "link": "https://www.liveatthearmory.com/calendar-of-events/2026/11/15/berner",
+      "link": "https://www.ticketweb.com/event/berner-the-historic-ashland-armory-tickets/14337184?pl=jmax",
       "link_name": "",
       "venue": "Ashland Armory",
       "notes": "$30 - Adv / $35 - Door. Doors 7:00 PM. All Ages",
@@ -10372,7 +10366,7 @@
     {
       "id": "f25b2b09e646cc5d",
       "date": "2026-11-17",
-      "start_raw": "1800",
+      "start_raw": "1900",
       "end_raw": "2330",
       "end_estimated": false,
       "musician": "The California Honeydrops",
@@ -10380,7 +10374,7 @@
       "link": "https://www.ticketweb.com/event/the-california-honeydrops-the-historic-ashland-armory-tickets/14990453&pl=jmax",
       "link_name": "",
       "venue": "Ashland Armory",
-      "notes": "$35 Pre-Sale / $40 at the Door. Doors 7:00 PM. All Ages",
+      "notes": "$35 Pre-Sale / $40 at the Door. Doors 7:00 PM / Show 8 pm. All Ages",
       "event_type": "Band",
       "source": "armory",
       "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/11/17/the-california-honeydrops",
