@@ -1,5 +1,5 @@
 --timestamp
-10/08/2026 18:23
+10/09/2026 09:16
 --news
 * date | notes
 --musicians
@@ -534,7 +534,7 @@ Aimee Barbuto||||Growler Guys Grants Pass||10/10/26|1900|2100||Band|26/10/08 13:
 Grant Ruiz||||Liquid Lounge||10/10/26|1900|2100||Band|26/09/29 11:51AM|3|
 Jen Ambrose & The Mystics Trio|||Jen Ambrose|Daisy Creek Vineyard||10/11/26|1400|1600||Band|26/09/29 11:51AM|0|
 The Music Bachs||||Tiffany's Marketplace||10/11/26|1400|1600||Band|26/08/23 07:34AM|6|
-Alissa and the Side Effects||||Local Vines Wine Bar||10/11/26|1500|1700||Band|26/09/24 17:49PM|1|
+Nick Garrett-Powell||||Local Vines Wine Bar||10/11/26|1500|1700||Band|26/10/09 09:16AM|2|
 JustaDuo||||Naumes Suncrest Winery||10/11/26|1500|1700||Band|26/09/29 11:51AM|0|
 Encore Five||||Pebblestone Cellars||10/11/26|1500|1700||Band||6|
 Jared Gutridge Duo||||Paschal Winery||10/11/26|1530|1730||Jam|26/10/01 14:35PM|1|
