@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1849,
+  "event_count": 1852,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -30416,6 +30416,23 @@
       "genres": []
     },
     {
+      "id": "d742e7609346a063",
+      "date": "2026-10-01",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Craig Martin",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "6098d7a227dd62c1",
       "date": "2026-10-01",
       "start_raw": "1900",
@@ -30931,6 +30948,23 @@
         "Rock",
         "Pop"
       ]
+    },
+    {
+      "id": "1285a7fc5b18e324",
+      "date": "2026-10-03",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Sidewalk Cafe",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/3/sidewalk-cafe",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/3/sidewalk-cafe",
+      "genres": []
     },
     {
       "id": "6c077e5a07133197",
@@ -31594,6 +31628,23 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "4dbd71a68223ac86",
+      "date": "2026-10-04",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
     },
