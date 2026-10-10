@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-09T20:53:38.569Z",
+  "generated_at": "2026-10-10T05:53:38.008Z",
   "source_timestamp": "10/09/2026 09:16",
-  "content_hash": "57abaffbb15043a6",
+  "content_hash": "bc5621eefded26bd",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 297,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-09T20:52:21.049Z",
-      "last_attempt": "2026-10-09T20:52:21.049Z",
+      "last_ok": "2026-10-10T05:49:21.726Z",
+      "last_attempt": "2026-10-10T05:49:21.726Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 22,
+      "count": 21,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:52:21.413Z",
-      "last_attempt": "2026-10-09T20:52:21.413Z",
+      "last_ok": "2026-10-10T05:49:22.074Z",
+      "last_attempt": "2026-10-10T05:49:22.074Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:52:22.417Z",
-      "last_attempt": "2026-10-09T20:52:22.417Z",
+      "last_ok": "2026-10-10T05:49:22.854Z",
+      "last_attempt": "2026-10-10T05:49:22.854Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:52:22.713Z",
-      "last_attempt": "2026-10-09T20:52:22.713Z",
+      "last_ok": "2026-10-10T05:49:23.321Z",
+      "last_attempt": "2026-10-10T05:49:23.321Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:52:23.953Z",
-      "last_attempt": "2026-10-09T20:52:23.953Z",
+      "last_ok": "2026-10-10T05:49:24.366Z",
+      "last_attempt": "2026-10-10T05:49:24.366Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:52:24.494Z",
-      "last_attempt": "2026-10-09T20:52:24.494Z",
+      "last_ok": "2026-10-10T05:49:24.886Z",
+      "last_attempt": "2026-10-10T05:49:24.886Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:52:24.735Z",
-      "last_attempt": "2026-10-09T20:52:24.735Z",
+      "last_ok": "2026-10-10T05:49:39.722Z",
+      "last_attempt": "2026-10-10T05:49:39.722Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:52:26.321Z",
-      "last_attempt": "2026-10-09T20:52:26.321Z",
+      "last_ok": "2026-10-10T05:49:41.371Z",
+      "last_attempt": "2026-10-10T05:49:41.371Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:53:28.962Z",
-      "last_attempt": "2026-10-09T20:53:28.962Z",
+      "last_ok": "2026-10-10T05:53:29.389Z",
+      "last_attempt": "2026-10-10T05:53:29.389Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 84,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:53:29.365Z",
-      "last_attempt": "2026-10-09T20:53:29.365Z",
+      "last_ok": "2026-10-10T05:53:29.764Z",
+      "last_attempt": "2026-10-10T05:53:29.764Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:53:33.216Z",
-      "last_attempt": "2026-10-09T20:53:33.216Z",
+      "last_ok": "2026-10-10T05:53:33.299Z",
+      "last_attempt": "2026-10-10T05:53:33.299Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:53:33.892Z",
-      "last_attempt": "2026-10-09T20:53:33.892Z",
+      "last_ok": "2026-10-10T05:53:33.800Z",
+      "last_attempt": "2026-10-10T05:53:33.800Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:53:35.010Z",
-      "last_attempt": "2026-10-09T20:53:35.010Z",
+      "last_ok": "2026-10-10T05:53:34.284Z",
+      "last_attempt": "2026-10-10T05:53:34.284Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:53:35.241Z",
-      "last_attempt": "2026-10-09T20:53:35.241Z",
+      "last_ok": "2026-10-10T05:53:34.414Z",
+      "last_attempt": "2026-10-10T05:53:34.414Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
-      "count": 13,
+      "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-09T20:53:37.359Z",
-      "last_attempt": "2026-10-09T20:53:37.359Z",
+      "last_ok": "2026-10-10T05:53:36.460Z",
+      "last_attempt": "2026-10-10T05:53:36.460Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-09T20:53:38.474Z",
+      "last_attempt": "2026-10-10T05:53:37.695Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-02&end_date=2027-02-06"
     }
   },
@@ -4716,19 +4716,13 @@
       "end_raw": "2000",
       "musician": "Mercy",
       "genre": "blues, soul, classic rock",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-mercy-october-9/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Based in beautiful Southern Oregon, Mercy Featuring Lynda Day is one of the premier acts in the region.  Attending a Mercy performance is more than just attending a concert or dancing at your favorite",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-mercy-october-9/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "83f51526e0f77add"
-        }
-      ],
+      "source_url": null,
       "genres": [
         "Blues",
         "Funk / Soul",
@@ -4891,24 +4885,21 @@
       ]
     },
     {
-      "id": "d662950b53d95c38",
-      "date": "2026-10-09",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
+      "id": "de15da87087c666c",
+      "date": "2026-10-10",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Bread & Jam",
       "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/10/bread-amp-jam",
       "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "venue": "La Baguette",
+      "notes": "",
       "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
-      ]
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/10/bread-amp-jam",
+      "genres": []
     },
     {
       "id": "2c5e9a16e319d0ab",
@@ -5366,6 +5357,26 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/sean-mclean-and-the-vibetenders/",
       "genres": []
+    },
+    {
+      "id": "5fe6ffa26b2b4214",
+      "date": "2026-10-10",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     },
     {
       "id": "49fa8f7d5156334b",
@@ -6413,7 +6424,7 @@
       "link": "https://craterian.org/event/the-tommy-dorsey-orchestra-with-hayden-grove-tribute-to-frank-sinatra/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "$34-$46 incl. fees",
+      "notes": "",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/the-tommy-dorsey-orchestra-with-hayden-grove-tribute-to-frank-sinatra/",
@@ -7563,7 +7574,7 @@
       "link": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
       "link_name": "",
       "venue": "Craterian Theater",
-      "notes": "$28-$44 incl. fees",
+      "notes": "",
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
