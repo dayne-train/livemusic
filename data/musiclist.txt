@@ -1,5 +1,5 @@
 --timestamp
-10/09/2026 09:16
+10/11/2026 10:55
 --news
 * date | notes
 --musicians
@@ -104,6 +104,7 @@ Rock Candy|classic rock, variety|https://www.facebook.com/Tbradley65||Band|
 Rogue Blues Society|blues|https://www.rogueblues.org/||Jam|
 Rogue Suspects|classic rock|http://www.roguesuspects.com||Band|
 SO Jazz Orchestra|jazz|http://www.sojazzorchestra.com||Band|
+SOUP - Ukulele Jam|ukulele|https://www.facebook.com/groups/ukegetaway/||Jam|
 SUNQ|electronic space rock|https://sunq.bandcamp.com/||Band|
 Salsa Brava|latin|https://www.reverbnation.com/dancesalsabrava||Band|
 Santa Fe Band|Country|https://www.facebook.com/profile.php?id=61590048247826||Band|
@@ -578,6 +579,7 @@ Rogue Hot Club||||Skout Taphouse||10/16/26|1900|2100||Band|26/10/08 12:24PM|0|
 Saucy||||Cedarwood Saloon||10/16/26|2000|2300||Band|26/10/08 13:53PM|1|
 The Ghost Ballads|folk|||The Copper Plank||10/16/26|2000|2200|Songs of Murder, Josh Gross & Tristan Jensen; $15+|Band|26/09/24 17:49PM|1|
 Sweet Clementine||||La Baguette||10/17/26|1030|1230||Band|26/09/29 11:51AM|0|
+SOUP - Ukulele Jam||||Pebblestone Cellars||10/17/26|1400|1600||Jam|26/10/11 10:50AM|3|
 Mountaintop Sound||||Common Block Brewing||10/17/26|1500|1700|Bales and Ales|Band|26/10/08 18:23PM|3|
 Nick & Julia||||Dark Hollow Farm||10/17/26|1500|1700||Band|26/10/08 13:53PM|1|
 Pozitronics||||Apple Outlaw Taproom||10/17/26|1700|2000||Band||6|
@@ -710,6 +712,7 @@ Teresa Jordan||||Tiffany's Marketplace||11/08/26|1400|1600||Band|26/09/21 13:10P
 The Smokin' Gundersons||||Valley View Winery||11/08/26|1400|1600||Band|26/09/04 12:54PM|2|
 Joshua Paul||||Paschal Winery||11/08/26|1530|1730||Band||6|
 Nick Garrett-Powell||||Butterfly Club 557||11/09/26|1800|2000|$10|Band|26/10/01 14:35PM|1|
+Live Music||||The Gold Room||11/10/26|1800|2000|<a href='https://www.eventbrite.com/e/music-for-a-cause-atrium-foundation-fundraiser-tickets-2002980121462'>Tickets</a> Music for a Cause, Atrium Foundation Fundraiser featuring Adam Gabriel, Sharaya Summers, and Jeff Kloetzel.|Band|26/10/11 09:54AM|3|
 Bim Jeam & The Sadness|||Bim Jeam and the Sadness|Local Vines Wine Bar||11/11/26|1700|1900||Band||6|
 Traditional Irish Music and Dancing||||Dunbar Farms||11/12/26|1730|1930||Band|26/09/29 11:51AM|0|
 Jeff Kloetzel||||Dancin Vineyards||11/13/26|1700|1900||Band|26/09/29 11:51AM|0|
@@ -728,6 +731,7 @@ Stillwater Road||||Tiffany's Marketplace||11/20/26|1700|1900||Band|26/09/21 13:1
 Bekkah McAlvage||||Skout Taphouse||11/20/26|1800|2000||Band|26/10/08 12:24PM|0|
 Jon Martin||||Talon Grill||11/20/26|1800|2000||Band|26/10/01 14:35PM|2|
 Rogue Suspects||||Paschal Winery||11/20/26|1900|2100|$20|Band|26/10/08 13:53PM|1|
+SOUP - Ukulele Jam||||Pebblestone Cellars||11/21/26|1400|1600||Jam|26/10/11 10:50AM|3|
 Jeff Kloetzel||||Remotion Wine||11/21/26|1700|1900||Band|26/09/29 11:51AM|2|
 Shybo Torres||||Stone River Winery||11/21/26|1700|1900||Solo|26/09/01 11:37AM|6|
 Bim Jeam & The Sadness||||The Miner's Bazaar||11/21/26|1730|1930|w/Steve Swift|Band||6|
@@ -756,6 +760,7 @@ Bryce Pettyjohn||||Tiffany's Marketplace||12/13/26|1400|1600||Band|26/09/21 13:1
 Zarina Jensen||||Valley View Winery||12/13/26|1500|1700||Band|26/09/04 12:54PM|2|
 Commotion Band||||Tiffany's Marketplace||12/18/26|1700|1900||Band|26/09/21 13:10PM|2|
 Bekkah McAlvage||||Skout Taphouse||12/18/26|1800|2000||Band|26/10/08 12:24PM|0|
+SOUP - Ukulele Jam||||Pebblestone Cellars||12/19/26|1400|1600||Jam|26/10/11 10:50AM|3|
 Mercy Duo|||Mercy|Stone River Winery||12/19/26|1700|1900||Band|26/09/01 11:37AM|6|
 Papermoon||||Tiffany's Marketplace||12/20/26|1400|1600||Band|26/09/21 13:10PM|2|
 The Smokin' Gundersons||||Valley View Winery||12/20/26|1400|1600||Band|26/09/04 12:54PM|2|
