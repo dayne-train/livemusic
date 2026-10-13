@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-12T17:53:54.486Z",
+  "generated_at": "2026-10-13T02:01:22.490Z",
   "source_timestamp": "10/11/2026 10:55",
-  "content_hash": "97e160ec34e015b9",
+  "content_hash": "15d20126c9025e94",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 301,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-12T17:52:28.644Z",
-      "last_attempt": "2026-10-12T17:52:28.644Z",
+      "last_ok": "2026-10-13T01:59:57.607Z",
+      "last_attempt": "2026-10-13T01:59:57.607Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:52:31.141Z",
-      "last_attempt": "2026-10-12T17:52:31.141Z",
+      "last_ok": "2026-10-13T01:59:57.917Z",
+      "last_attempt": "2026-10-13T01:59:57.917Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:52:32.269Z",
-      "last_attempt": "2026-10-12T17:52:32.269Z",
+      "last_ok": "2026-10-13T01:59:59.467Z",
+      "last_attempt": "2026-10-13T01:59:59.467Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:52:32.825Z",
-      "last_attempt": "2026-10-12T17:52:32.825Z",
+      "last_ok": "2026-10-13T01:59:59.650Z",
+      "last_attempt": "2026-10-13T01:59:59.650Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:52:34.708Z",
-      "last_attempt": "2026-10-12T17:52:34.708Z",
+      "last_ok": "2026-10-13T02:00:01.040Z",
+      "last_attempt": "2026-10-13T02:00:01.040Z",
       "error": null
     },
     "mt_ashland": {
-      "ok": true,
+      "ok": false,
       "count": 0,
-      "strategy": "live",
+      "strategy": null,
       "last_ok": "2026-10-12T17:52:35.421Z",
-      "last_attempt": "2026-10-12T17:52:35.421Z",
-      "error": null
+      "last_attempt": "2026-10-13T02:00:01.546Z",
+      "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:52:52.708Z",
-      "last_attempt": "2026-10-12T17:52:52.708Z",
+      "last_ok": "2026-10-13T02:00:06.124Z",
+      "last_attempt": "2026-10-13T02:00:06.124Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:52:53.938Z",
-      "last_attempt": "2026-10-12T17:52:53.938Z",
+      "last_ok": "2026-10-13T02:00:07.047Z",
+      "last_attempt": "2026-10-13T02:00:07.047Z",
       "error": null
     },
     "holly": {
       "ok": true,
-      "count": 9,
+      "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:53:37.705Z",
-      "last_attempt": "2026-10-12T17:53:37.705Z",
+      "last_ok": "2026-10-13T02:01:12.457Z",
+      "last_attempt": "2026-10-13T02:01:12.457Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 81,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:53:38.225Z",
-      "last_attempt": "2026-10-12T17:53:38.225Z",
+      "last_ok": "2026-10-13T02:01:12.817Z",
+      "last_attempt": "2026-10-13T02:01:12.817Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:53:44.633Z",
-      "last_attempt": "2026-10-12T17:53:44.633Z",
+      "last_ok": "2026-10-13T02:01:17.203Z",
+      "last_attempt": "2026-10-13T02:01:17.203Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:53:45.417Z",
-      "last_attempt": "2026-10-12T17:53:45.417Z",
+      "last_ok": "2026-10-13T02:01:18.012Z",
+      "last_attempt": "2026-10-13T02:01:18.012Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:53:46.045Z",
-      "last_attempt": "2026-10-12T17:53:46.045Z",
+      "last_ok": "2026-10-13T02:01:18.556Z",
+      "last_attempt": "2026-10-13T02:01:18.556Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:53:46.481Z",
-      "last_attempt": "2026-10-12T17:53:46.481Z",
+      "last_ok": "2026-10-13T02:01:18.891Z",
+      "last_attempt": "2026-10-13T02:01:18.891Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-12T17:53:52.356Z",
-      "last_attempt": "2026-10-12T17:53:52.356Z",
+      "last_ok": "2026-10-13T02:01:21.171Z",
+      "last_attempt": "2026-10-13T02:01:21.171Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-12T17:53:54.290Z",
+      "last_attempt": "2026-10-13T02:01:22.306Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-05&end_date=2027-02-09"
     }
   },
@@ -5162,23 +5162,6 @@
       ]
     },
     {
-      "id": "d82db1676492049b",
-      "date": "2026-10-10",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Sean McLean and the Vibetenders",
-      "genre": "",
-      "link": "https://talentclublive.com/event/sean-mclean-and-the-vibetenders/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/sean-mclean-and-the-vibetenders/",
-      "genres": []
-    },
-    {
       "id": "49fa8f7d5156334b",
       "date": "2026-10-11",
       "start_raw": "1400",
@@ -5459,8 +5442,24 @@
       "genres": []
     },
     {
-      "id": "cf63847a1f417a79",
-      "date": "2026-10-12",
+      "id": "100a231c75f918a1",
+      "date": "2026-10-13",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nathan Stone",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3bf8e1f3909ebd6a",
+      "date": "2026-10-13",
       "start_raw": "2100",
       "end_raw": "2300",
       "end_estimated": true,
@@ -5477,22 +5476,6 @@
         "Bluegrass",
         "Celtic"
       ]
-    },
-    {
-      "id": "100a231c75f918a1",
-      "date": "2026-10-13",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Nathan Stone",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "The Gold Room",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
     },
     {
       "id": "beb67ad747911ee3",
@@ -10571,6 +10554,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "90e4b718b65cd493",
+      "date": "2026-12-11",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "Garrison Keillor",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/garrison-keillor",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 6:30 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/garrison-keillor",
       "genres": []
     },
     {
