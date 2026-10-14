@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-10-14T20:12:41.710Z",
+  "generated_at": "2026-10-14T23:15:05.102Z",
   "source_timestamp": "10/14/2026 10:43",
-  "content_hash": "009c18e9a1d370f9",
+  "content_hash": "8824896d934f7abd",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 304,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-14T20:11:08.008Z",
-      "last_attempt": "2026-10-14T20:11:08.008Z",
+      "last_ok": "2026-10-14T23:13:10.886Z",
+      "last_attempt": "2026-10-14T23:13:10.886Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:11:08.273Z",
-      "last_attempt": "2026-10-14T20:11:08.273Z",
+      "last_ok": "2026-10-14T23:13:11.192Z",
+      "last_attempt": "2026-10-14T23:13:11.192Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:11:09.447Z",
-      "last_attempt": "2026-10-14T20:11:09.447Z",
+      "last_ok": "2026-10-14T23:13:12.362Z",
+      "last_attempt": "2026-10-14T23:13:12.362Z",
       "error": null
     },
     "sou_localist": {
-      "ok": true,
-      "count": 3,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-10-14T20:11:09.622Z",
-      "last_attempt": "2026-10-14T20:11:09.622Z",
-      "error": null
+      "last_attempt": "2026-10-14T23:13:12.613Z",
+      "error": "fetch failed"
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:11:12.773Z",
-      "last_attempt": "2026-10-14T20:11:12.773Z",
+      "last_ok": "2026-10-14T23:13:13.071Z",
+      "last_attempt": "2026-10-14T23:13:13.071Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,79 +48,79 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-10-12T17:52:35.421Z",
-      "last_attempt": "2026-10-14T20:11:13.425Z",
+      "last_attempt": "2026-10-14T23:13:13.564Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:11:21.116Z",
-      "last_attempt": "2026-10-14T20:11:21.116Z",
+      "last_ok": "2026-10-14T23:13:18.224Z",
+      "last_attempt": "2026-10-14T23:13:18.224Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:11:22.559Z",
-      "last_attempt": "2026-10-14T20:11:22.559Z",
+      "last_ok": "2026-10-14T23:13:34.276Z",
+      "last_attempt": "2026-10-14T23:13:34.276Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:12:31.067Z",
-      "last_attempt": "2026-10-14T20:12:31.067Z",
+      "last_ok": "2026-10-14T23:14:36.488Z",
+      "last_attempt": "2026-10-14T23:14:36.488Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 82,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:12:31.696Z",
-      "last_attempt": "2026-10-14T20:12:31.696Z",
+      "last_ok": "2026-10-14T23:14:40.921Z",
+      "last_attempt": "2026-10-14T23:14:40.921Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:12:36.169Z",
-      "last_attempt": "2026-10-14T20:12:36.169Z",
+      "last_ok": "2026-10-14T23:14:49.039Z",
+      "last_attempt": "2026-10-14T23:14:49.039Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:12:36.931Z",
-      "last_attempt": "2026-10-14T20:12:36.931Z",
+      "last_ok": "2026-10-14T23:14:49.922Z",
+      "last_attempt": "2026-10-14T23:14:49.922Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:12:37.212Z",
-      "last_attempt": "2026-10-14T20:12:37.212Z",
+      "last_ok": "2026-10-14T23:14:50.277Z",
+      "last_attempt": "2026-10-14T23:14:50.277Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:12:37.519Z",
-      "last_attempt": "2026-10-14T20:12:37.519Z",
+      "last_ok": "2026-10-14T23:14:50.662Z",
+      "last_attempt": "2026-10-14T23:14:50.662Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-14T20:12:40.312Z",
-      "last_attempt": "2026-10-14T20:12:40.312Z",
+      "last_ok": "2026-10-14T23:15:00.167Z",
+      "last_attempt": "2026-10-14T23:15:00.167Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-14T20:12:41.298Z",
+      "last_attempt": "2026-10-14T23:15:01.126Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-07&end_date=2027-02-11"
     }
   },
@@ -2680,8 +2680,7 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "sou_localist"
+        "musiclist_txt"
       ]
     },
     "Sam's Corner": {
@@ -6196,25 +6195,6 @@
       ]
     },
     {
-      "id": "5a7d52d7751d5f91",
-      "date": "2026-10-17",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Chamber Music Concerts presents the Balourdet Quartet with Adam W. Sadberry, Flute",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "The Balourdet Quartet stands out for their vibrant energy and masterful blend of technical precision and emotional depth, earning a 2024 Avery Fisher Career Grant and the 2024 Cleveland Quartet Award.",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical"
-      ]
-    },
-    {
       "id": "772a705c63f51846",
       "date": "2026-10-17",
       "start_raw": "1630",
@@ -7686,23 +7666,6 @@
       ]
     },
     {
-      "id": "daa17ccb54d4c676",
-      "date": "2026-10-24",
-      "start_raw": "1900",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "Company & Clark Dance Concert",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "I’m at a stage in my life where I’m really focused on making sure dance keeps going strong, even when things get tough, and that we can all find inspiration in each other.\n\nI’m drawn to dances that br",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "e74a8916284c9f8b",
       "date": "2026-10-24",
       "start_raw": "2000",
@@ -9027,25 +8990,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "2b479e30745ce95b",
-      "date": "2026-11-06",
-      "start_raw": "1930",
-      "end_raw": "2130",
-      "end_estimated": false,
-      "musician": "Chamber Music Concerts presents the Arcis Saxophone Quartett",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "The Arcis Saxophone Quartett (pronounced “Art-sis”) has emerged as one of the most vibrant and active classical ensembles globally. Whether on the highest pass in Ecuador, in the Saudi Arabian desert,",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical"
-      ]
     },
     {
       "id": "d969a34bcce619cd",
