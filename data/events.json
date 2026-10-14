@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-10-14T13:43:37.576Z",
-  "source_timestamp": "10/11/2026 10:55",
-  "content_hash": "0304e04a3618216c",
+  "generated_at": "2026-10-14T20:12:41.710Z",
+  "source_timestamp": "10/14/2026 10:43",
+  "content_hash": "009c18e9a1d370f9",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 301,
+      "count": 304,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-14T13:41:54.814Z",
-      "last_attempt": "2026-10-14T13:41:54.814Z",
+      "last_ok": "2026-10-14T20:11:08.008Z",
+      "last_attempt": "2026-10-14T20:11:08.008Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:41:55.095Z",
-      "last_attempt": "2026-10-14T13:41:55.095Z",
+      "last_ok": "2026-10-14T20:11:08.273Z",
+      "last_attempt": "2026-10-14T20:11:08.273Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:41:56.363Z",
-      "last_attempt": "2026-10-14T13:41:56.363Z",
+      "last_ok": "2026-10-14T20:11:09.447Z",
+      "last_attempt": "2026-10-14T20:11:09.447Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 7,
+      "count": 3,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:41:56.684Z",
-      "last_attempt": "2026-10-14T13:41:56.684Z",
+      "last_ok": "2026-10-14T20:11:09.622Z",
+      "last_attempt": "2026-10-14T20:11:09.622Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:41:58.726Z",
-      "last_attempt": "2026-10-14T13:41:58.726Z",
+      "last_ok": "2026-10-14T20:11:12.773Z",
+      "last_attempt": "2026-10-14T20:11:12.773Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,79 +48,79 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-10-12T17:52:35.421Z",
-      "last_attempt": "2026-10-14T13:41:59.306Z",
+      "last_attempt": "2026-10-14T20:11:13.425Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:42:04.417Z",
-      "last_attempt": "2026-10-14T13:42:04.417Z",
+      "last_ok": "2026-10-14T20:11:21.116Z",
+      "last_attempt": "2026-10-14T20:11:21.116Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:42:05.543Z",
-      "last_attempt": "2026-10-14T13:42:05.543Z",
+      "last_ok": "2026-10-14T20:11:22.559Z",
+      "last_attempt": "2026-10-14T20:11:22.559Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:43:22.090Z",
-      "last_attempt": "2026-10-14T13:43:22.090Z",
+      "last_ok": "2026-10-14T20:12:31.067Z",
+      "last_attempt": "2026-10-14T20:12:31.067Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 82,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:43:22.652Z",
-      "last_attempt": "2026-10-14T13:43:22.652Z",
+      "last_ok": "2026-10-14T20:12:31.696Z",
+      "last_attempt": "2026-10-14T20:12:31.696Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:43:30.677Z",
-      "last_attempt": "2026-10-14T13:43:30.677Z",
+      "last_ok": "2026-10-14T20:12:36.169Z",
+      "last_attempt": "2026-10-14T20:12:36.169Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:43:31.456Z",
-      "last_attempt": "2026-10-14T13:43:31.456Z",
+      "last_ok": "2026-10-14T20:12:36.931Z",
+      "last_attempt": "2026-10-14T20:12:36.931Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:43:32.597Z",
-      "last_attempt": "2026-10-14T13:43:32.597Z",
+      "last_ok": "2026-10-14T20:12:37.212Z",
+      "last_attempt": "2026-10-14T20:12:37.212Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:43:32.984Z",
-      "last_attempt": "2026-10-14T13:43:32.984Z",
+      "last_ok": "2026-10-14T20:12:37.519Z",
+      "last_attempt": "2026-10-14T20:12:37.519Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-14T13:43:36.433Z",
-      "last_attempt": "2026-10-14T13:43:36.433Z",
+      "last_ok": "2026-10-14T20:12:40.312Z",
+      "last_attempt": "2026-10-14T20:12:40.312Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-14T13:43:37.422Z",
+      "last_attempt": "2026-10-14T20:12:41.298Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-07&end_date=2027-02-11"
     }
   },
@@ -9252,6 +9252,22 @@
       ]
     },
     {
+      "id": "7630e8a08eb42b1a",
+      "date": "2026-11-08",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Cathy Bolton",
+      "genre": "",
+      "link": "",
+      "link_name": "Cathy Bolton",
+      "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "e70474350df3178a",
       "date": "2026-11-08",
       "start_raw": "1530",
@@ -9504,11 +9520,11 @@
       "genres": []
     },
     {
-      "id": "a895eb595be50179",
+      "id": "a612ce1134b8ab5b",
       "date": "2026-11-14",
       "start_raw": "1700",
       "end_raw": "1900",
-      "musician": "Cathy Bolton Duo",
+      "musician": "Cathy Bolton",
       "genre": "",
       "link": "",
       "link_name": "Cathy Bolton",
@@ -9834,26 +9850,6 @@
       "genres": []
     },
     {
-      "id": "0b7045923603905c",
-      "date": "2026-11-21",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Chamber Music Concerts presents the Jupiter Quartet",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "The Jupiter String Quartet is an intimately connected group — the members include two sisters and a spouse. Founded in 2001, the ensemble is firmly established as an important voice in the world of ch",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical",
-        "World"
-      ]
-    },
-    {
       "id": "878e2aefdabeb788",
       "date": "2026-11-21",
       "start_raw": "1630",
@@ -9956,6 +9952,22 @@
       ]
     },
     {
+      "id": "f8f60d887bf0665e",
+      "date": "2026-11-22",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Cathy Bolton",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "e39fb75463b29471",
       "date": "2026-11-22",
       "start_raw": "1700",
@@ -10033,6 +10045,22 @@
       "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "736d7d60112cbdb7",
+      "date": "2026-11-27",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Cathy Bolton",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Trium Wines",
+      "notes": "",
+      "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
@@ -10201,23 +10229,6 @@
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
-      "genres": []
-    },
-    {
-      "id": "27723964b7c0901f",
-      "date": "2026-12-01",
-      "start_raw": "1930",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "MUSIX Concert",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "MUSIX is SOU’s premiere house band. Students in MUSIX (both music majors and non-majors, undergrads and grads) write, perform, and record their own work for the band. Packed with diverse array of styl",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
       "genres": []
     },
     {
@@ -10673,25 +10684,6 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
-    },
-    {
-      "id": "92432b2187b0428a",
-      "date": "2026-12-15",
-      "start_raw": "1900",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "The Nutcracker: Symphony of Lights",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "Grand Kyiv returns to OCA for The Nutcracker!\n\n \n\nThe Nutcracker: Symphony of Lights brings the beloved holiday classic to life through classical ballet, Tchaikovsky’s iconic music, dazzling illuminat",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical"
-      ]
     },
     {
       "id": "fadd366bc2f11502",
@@ -11313,25 +11305,6 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
-    },
-    {
-      "id": "9ed61d2a19c6a0d2",
-      "date": "2027-01-30",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Chamber Music Concerts presents the Aris Quartett",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "Expressive, dynamic, spectacular — the Aris Quartet has been at home on international stages for more than a decade. Founded in Frankfurt am Main in 2009, the musicians have performed in venues includ",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical"
-      ]
     },
     {
       "id": "c90975b4114b87b2",
