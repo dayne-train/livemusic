@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 1945,
+  "event_count": 1947,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -31933,6 +31933,25 @@
       "genres": []
     },
     {
+      "id": "970002ca8aafd734",
+      "date": "2026-10-08",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Sage Meadows Country Band",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
       "id": "a2ee96476faaa2c5",
       "date": "2026-10-08",
       "start_raw": "1800",
@@ -33167,6 +33186,23 @@
       "event_type": "Band",
       "source": "tap_and_vine",
       "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "genres": []
+    },
+    {
+      "id": "ce19abe9d2d217a3",
+      "date": "2026-10-11",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
     },
     {
