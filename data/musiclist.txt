@@ -1,5 +1,5 @@
 --timestamp
-10/15/2026 14:12
+10/16/2026 10:53
 --news
 * date | notes
 --musicians
@@ -481,6 +481,7 @@ Deluxe||||Roxy Ann Winery||10/16/26|1600|1800||Band|26/09/29 11:51AM|0|
 J Brothers||||Daisy Creek Vineyard||10/16/26|1700|1900||Band|26/09/29 11:51AM|0|
 The Smokin' Gundersons||||Dancin Vineyards||10/16/26|1700|1900||Band|26/09/29 11:51AM|0|
 Rick Millward||||Padigan Wines||10/16/26|1700|1900||Band|26/08/24 16:02PM|6|
+Carla Bauer||||Pebblestone Cellars||10/16/26|1700|1900||Band|26/10/16 10:53AM|3|
 Rogue Suspects||||Rellik Winery||10/16/26|1700|1900||Band|26/09/29 11:51AM|0|
 Jared Gutridge||||Schmidt Vineyard||10/16/26|1700|2000||Band|26/10/15 14:12PM|1|
 Mercy||||Tiffany's Marketplace||10/16/26|1700|1900||Band|26/08/23 07:34AM|6|
@@ -643,6 +644,8 @@ Mountaintop Sound||||Art Bop Beer Co||10/31/26|1900|2100|Halloween party|Band|26
 Bryan Oliver||||Bella Union||10/31/26|1900|2200||Band|26/09/29 11:51AM|0|
 Aaron Reed||||Tiffany's Marketplace||11/01/26|1400|1600||Band|26/09/04 12:54PM|2|
 Living Loving Led||||Roxy Ann Winery||11/01/26|1600|1800||Band||6|
+Paul Schmeling Quartet||||Martino's Upstairs||11/02/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/10/16 10:53AM|4|
+Cathy Bolton||||Local Vines Wine Bar||11/04/26|1700|1900||Solo|26/10/16 10:53AM|3|
 Traditional Irish Music and Dancing||||Dunbar Farms||11/05/26|1730|1930||Band|26/09/29 11:51AM|0|
 Craig Martin||||Wild Goose Cafe||11/05/26|1800|2030||Band|26/09/29 11:51AM|0|
 David Pinsky & Phil Newton|||David Pinsky|Dancin Vineyards||11/06/26|1700|1900||Band|26/09/29 11:51AM|0|
@@ -663,6 +666,7 @@ The Smokin' Gundersons||||Valley View Winery||11/08/26|1400|1600||Band|26/09/04 
 Cathy Bolton|||Cathy Bolton|Pebblestone Cellars||11/08/26|1500|1700||Solo|26/10/14 10:43AM|3|
 Joshua Paul||||Paschal Winery||11/08/26|1530|1730||Band||6|
 Nick Garrett-Powell||||Butterfly Club 557||11/08/26|1800|2000|$10|Band|26/10/15 14:12PM|1|
+Paul Schmeling Quartet||||Martino's Upstairs||11/09/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/10/16 10:53AM|4|
 Live Music||||The Gold Room||11/10/26|1800|2000|<a href='https://www.eventbrite.com/e/music-for-a-cause-atrium-foundation-fundraiser-tickets-2002980121462'>Tickets</a> Music for a Cause, Atrium Foundation Fundraiser featuring Adam Gabriel, Sharaya Summers, and Jeff Kloetzel.|Band|26/10/11 09:54AM|3|
 Bim Jeam & The Sadness|||Bim Jeam and the Sadness|Local Vines Wine Bar||11/11/26|1700|1900||Band||6|
 Traditional Irish Music and Dancing||||Dunbar Farms||11/12/26|1730|1930||Band|26/09/29 11:51AM|0|
@@ -675,6 +679,7 @@ Keenan Pruett||||Remotion Wine||11/14/26|1700|1900||Band|26/09/29 11:51AM|2|
 Cathy Bolton|||Cathy Bolton|Stone River Winery||11/14/26|1700|1900||Solo|26/10/14 10:43AM|3|
 Chris Murphy||||Tiffany's Marketplace||11/15/26|1400|1600||Band|26/09/21 13:10PM|2|
 Zarina Jensen||||Valley View Winery||11/15/26|1500|1700||Band|26/09/04 12:54PM|2|
+Paul Schmeling Quartet||||Martino's Upstairs||11/16/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/10/16 10:53AM|4|
 Rick Millward||||Belle Fiore||11/19/26|1700|1900||Band|26/08/24 16:02PM|6|
 Lisa and Dean||||Dancin Vineyards||11/20/26|1700|1900||Band|26/09/29 11:51AM|0|
 Rick Millward||||Rellik Winery||11/20/26|1700|1900||Band|26/08/24 16:02PM|6|
@@ -688,6 +693,7 @@ Shybo Torres||||Stone River Winery||11/21/26|1700|1900||Solo|26/09/01 11:37AM|6|
 Bim Jeam & The Sadness||||The Miner's Bazaar||11/21/26|1730|1930|w/Steve Swift|Band||6|
 Jen Ambrose||||Tiffany's Marketplace||11/22/26|1400|1600||Band|26/09/21 13:10PM|2|
 Cathy Bolton||||Rellik Winery||11/22/26|1600|1800||Solo|26/10/14 10:43AM|3|
+Paul Schmeling Quartet||||Martino's Upstairs||11/23/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/10/16 10:53AM|4|
 Paul Mozina||||Valley View Winery||11/27/26|1500|1700||Band|26/09/04 12:54PM|2|
 Jared Gutridge||||Dancin Vineyards||11/27/26|1700|1900||Band|26/09/29 11:51AM|0|
 Mitchell Brothers||||Tiffany's Marketplace||11/27/26|1700|1900||Band|26/09/21 13:10PM|2|
@@ -698,6 +704,7 @@ Jared Gutridge Duo||||Stone River Winery||11/28/26|1700|1900||Solo|26/09/01 11:3
 Mountaintop Sound||||The Miner's Bazaar||11/28/26|1730|1930||Band|26/10/08 18:23PM|3|
 Dan & Zara||||Moxie Brew||11/28/26|1800|2000||Band|26/09/25 13:04PM|2|
 Phillip Reed||||Tiffany's Marketplace||11/29/26|1400|1600||Band|26/09/04 12:54PM|2|
+Paul Schmeling Quartet||||Martino's Upstairs||11/30/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/10/16 10:53AM|4|
 Bim Jeam & The Sadness||||Rellik Winery||12/04/26|1700|1900||Band||6|
 Erica Rochel Band||||Tiffany's Marketplace||12/04/26|1700|1900||Band|26/09/21 13:10PM|2|
 Malinka||||Skout Taphouse||12/04/26|1800|2000||Band|26/10/08 12:24PM|0|
@@ -718,6 +725,7 @@ Mercy Duo|||Mercy|Stone River Winery||12/19/26|1700|1900||Band|26/09/01 11:37AM|
 Papermoon||||Tiffany's Marketplace||12/20/26|1400|1600||Band|26/09/21 13:10PM|2|
 The Smokin' Gundersons||||Valley View Winery||12/20/26|1400|1600||Band|26/09/04 12:54PM|2|
 Enoch and David||||Pebblestone Cellars||12/20/26|1500|1700||Band|26/08/13 13:59PM|6|
+Cathy Bolton||||Roxy Ann Winery||12/20/26|1600|1800||Solo|26/10/16 10:53AM|3|
 Pozitronics||||Belle Fiore||12/20/26|1700|1900|Xmas show|Band||6|
 Rick Millward||||Belle Fiore||12/26/26|1730|1930||Band|26/08/24 16:02PM|6|
 Mountaintop Sound||||Art Bop Beer Co||12/26/26|1800|2000|after Christmas show|Band|26/10/08 18:23PM|3|
