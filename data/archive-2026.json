@@ -198,7 +198,8 @@
       "region": "GrantsPass",
       "type": "BrewPub",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "code4"
       ]
     },
     "Common Block Brewing": {
