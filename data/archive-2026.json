@@ -574,7 +574,8 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "la_baguette"
       ]
     },
     "La Boveda Labs": {
@@ -34156,13 +34157,13 @@
       "end_raw": "1230",
       "musician": "Sweet Clementine",
       "genre": "",
-      "link": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
       "genres": []
     },
     {
