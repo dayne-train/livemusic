@@ -1,135 +1,135 @@
 {
-  "generated_at": "2026-10-20T04:48:00.764Z",
+  "generated_at": "2026-10-20T13:33:09.782Z",
   "source_timestamp": "10/16/2026 10:53",
-  "content_hash": "a84bd466c390ab49",
+  "content_hash": "c1c1e84f8508d06b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 262,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-20T04:46:50.761Z",
-      "last_attempt": "2026-10-20T04:46:50.761Z",
+      "last_ok": "2026-10-20T13:32:27.187Z",
+      "last_attempt": "2026-10-20T13:32:27.187Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:46:51.037Z",
-      "last_attempt": "2026-10-20T04:46:51.037Z",
+      "last_ok": "2026-10-20T13:32:27.470Z",
+      "last_attempt": "2026-10-20T13:32:27.470Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
-      "ok": true,
-      "count": 8,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-10-20T04:46:52.163Z",
-      "last_attempt": "2026-10-20T04:46:52.163Z",
-      "error": null
+      "last_attempt": "2026-10-20T13:32:28.729Z",
+      "error": "page missing event blocks"
     },
     "sou_localist": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:46:52.467Z",
-      "last_attempt": "2026-10-20T04:46:52.467Z",
+      "last_ok": "2026-10-20T13:32:28.912Z",
+      "last_attempt": "2026-10-20T13:32:28.912Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:46:54.930Z",
-      "last_attempt": "2026-10-20T04:46:54.930Z",
+      "last_ok": "2026-10-20T13:32:31.470Z",
+      "last_attempt": "2026-10-20T13:32:31.470Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:46:55.676Z",
-      "last_attempt": "2026-10-20T04:46:55.676Z",
+      "last_ok": "2026-10-20T13:32:32.164Z",
+      "last_attempt": "2026-10-20T13:32:32.164Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:47:04.908Z",
-      "last_attempt": "2026-10-20T04:47:04.908Z",
+      "last_ok": "2026-10-20T13:32:35.661Z",
+      "last_attempt": "2026-10-20T13:32:35.661Z",
       "error": null
     },
     "craterian": {
-      "ok": true,
-      "count": 15,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-10-20T04:47:05.725Z",
-      "last_attempt": "2026-10-20T04:47:05.725Z",
-      "error": null
+      "last_attempt": "2026-10-20T13:32:36.641Z",
+      "error": "fetch failed"
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:47:50.616Z",
-      "last_attempt": "2026-10-20T04:47:50.616Z",
+      "last_ok": "2026-10-20T13:32:46.640Z",
+      "last_attempt": "2026-10-20T13:32:46.640Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 81,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:47:51.127Z",
-      "last_attempt": "2026-10-20T04:47:51.127Z",
+      "last_ok": "2026-10-20T13:32:47.059Z",
+      "last_attempt": "2026-10-20T13:32:47.059Z",
       "error": null
     },
     "code4": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:47:55.403Z",
-      "last_attempt": "2026-10-20T04:47:55.403Z",
+      "last_ok": "2026-10-20T13:32:52.511Z",
+      "last_attempt": "2026-10-20T13:32:52.511Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:47:56.465Z",
-      "last_attempt": "2026-10-20T04:47:56.465Z",
+      "last_ok": "2026-10-20T13:32:53.258Z",
+      "last_attempt": "2026-10-20T13:32:53.258Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-10-20T04:47:57.365Z",
-      "last_attempt": "2026-10-20T04:47:57.365Z",
+      "last_ok": "2026-10-20T13:32:54.388Z",
+      "last_attempt": "2026-10-20T13:32:54.388Z",
       "error": null
     },
     "rogue_theatre": {
-      "ok": true,
-      "count": 5,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-10-20T04:47:57.780Z",
-      "last_attempt": "2026-10-20T04:47:57.780Z",
-      "error": null
+      "last_attempt": "2026-10-20T13:32:54.774Z",
+      "error": "no show cards found"
     },
     "la_baguette": {
-      "ok": true,
-      "count": 16,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-10-20T04:48:00.063Z",
-      "last_attempt": "2026-10-20T04:48:00.063Z",
-      "error": null
+      "last_attempt": "2026-10-20T13:32:55.463Z",
+      "error": "HTTP 503 for december-2026"
     },
     "ashland_news": {
       "ok": false,
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-20T04:48:00.680Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-12&end_date=2027-02-16"
+      "last_attempt": "2026-10-20T13:33:09.619Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-13&end_date=2027-02-17"
     }
   },
   "venues": {
@@ -1675,8 +1675,7 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "la_baguette"
+        "musiclist_txt"
       ]
     },
     "La Boveda Labs": {
@@ -3787,112 +3786,9 @@
       "_sources": [
         "musiclist_txt"
       ]
-    },
-    "Craterian Theater": {
-      "url": "https://craterian.org/",
-      "city": "Medford",
-      "notes": "",
-      "address": "23 S Central Ave, Medford OR",
-      "region": "Medford",
-      "type": "Other",
-      "_sources": [
-        "craterian"
-      ]
-    },
-    "Rogue Theatre": {
-      "url": "https://www.roguetheatre.org/",
-      "city": "Grants Pass",
-      "notes": "",
-      "address": "",
-      "region": "GrantsPass",
-      "type": "Other",
-      "_sources": [
-        "rogue_theatre"
-      ]
-    },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
     }
   },
   "events": [
-    {
-      "id": "2a039d22b6ce95ca",
-      "date": "2026-09-19",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Mountaintop",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/19/mountaintop",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/19/mountaintop",
-      "genres": []
-    },
-    {
-      "id": "d0ad95d2b212286c",
-      "date": "2026-09-19",
-      "start_raw": "2000",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Slow Corpse, Micah McCaw, Yaaro Light, Cactus Lips",
-      "genre": "",
-      "link": "https://rockafairy.betterworld.org/events/sep19",
-      "link_name": "",
-      "venue": "Rockafairy",
-      "notes": "",
-      "event_type": "Band",
-      "source": "rockafairy",
-      "source_url": "https://rockafairy.betterworld.org/events/sep19",
-      "genres": []
-    },
-    {
-      "id": "c76e6ea09c962972",
-      "date": "2026-09-23",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "House Country Band",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/23/house-country-band",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/23/house-country-band",
-      "genres": [
-        "Country"
-      ]
-    },
-    {
-      "id": "610ac3189e6e68ec",
-      "date": "2026-09-26",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Iryna",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/26/iryna",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/9/26/iryna",
-      "genres": []
-    },
     {
       "id": "61f2d7727c23d39a",
       "date": "2026-09-26",
@@ -3925,74 +3821,6 @@
       "event_type": "Band",
       "source": "rockafairy",
       "source_url": "https://rockafairy.betterworld.org/events/sep30",
-      "genres": []
-    },
-    {
-      "id": "1285a7fc5b18e324",
-      "date": "2026-10-03",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Sidewalk Cafe",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/3/sidewalk-cafe",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/3/sidewalk-cafe",
-      "genres": []
-    },
-    {
-      "id": "d50bde6440a54b90",
-      "date": "2026-10-08",
-      "start_raw": "1800",
-      "end_raw": "1900",
-      "end_estimated": false,
-      "musician": "The La Baguette Band",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/8/the-la-baguette-band",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/8/the-la-baguette-band",
-      "genres": []
-    },
-    {
-      "id": "de15da87087c666c",
-      "date": "2026-10-10",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Bread & Jam",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/10/bread-amp-jam",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/10/bread-amp-jam",
-      "genres": []
-    },
-    {
-      "id": "1c027ca959327a0a",
-      "date": "2026-10-12",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "end_estimated": false,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://code4taphouse.com/event/open-mic-night-26/",
-      "link_name": "",
-      "venue": "Code 4 Taphouse",
-      "notes": "Free",
-      "event_type": "Open Mic",
-      "source": "code4",
-      "source_url": "https://code4taphouse.com/event/open-mic-night-26/",
       "genres": []
     },
     {
@@ -4707,19 +4535,13 @@
       "end_raw": "1230",
       "musician": "Sweet Clementine",
       "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
+      "link": "",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
-      "merged_from": [
-        {
-          "source": "la_baguette",
-          "id": "78469ef2700a9030"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -6132,23 +5954,6 @@
       "genres": []
     },
     {
-      "id": "e5cf0ad369bf025c",
-      "date": "2026-10-23",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "Yesterday and Today, The Interactive Beatles Experience",
-      "genre": "",
-      "link": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$28-$44 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
-      "genres": []
-    },
-    {
       "id": "9e223228663c18b6",
       "date": "2026-10-23",
       "start_raw": "2000",
@@ -6162,42 +5967,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "5f6662def3c482b9",
-      "date": "2026-10-23",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Stinkfoot Orchestra: Zappa Tribute",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/the-stinkfoot-orchestra-zappa-tribute",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/the-stinkfoot-orchestra-zappa-tribute",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
-      "id": "31b6729bc097a62d",
-      "date": "2026-10-23",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Dusk Dept.",
-      "genre": "",
-      "link": "https://talentclublive.com/event/dusk-dept/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/dusk-dept/",
       "genres": []
     },
     {
@@ -6241,19 +6010,13 @@
       "end_raw": "1230",
       "musician": "Mark Turnbull",
       "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
+      "link": "",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
-      "merged_from": [
-        {
-          "source": "la_baguette",
-          "id": "dbc9a4d13f9974f0"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -6270,23 +6033,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "18a0ad3bf540bc1e",
-      "date": "2026-10-24",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Masterworks 2",
-      "genre": "",
-      "link": "https://craterian.org/event/masterworks-2/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/masterworks-2/",
       "genres": []
     },
     {
@@ -6572,25 +6318,6 @@
       "source": "rockafairy",
       "source_url": "https://rockafairy.betterworld.org/events/squidpisser",
       "genres": []
-    },
-    {
-      "id": "e7c7c5c4bc7e6300",
-      "date": "2026-10-24",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Electric Eel w/ Blackstrap Bluegrass",
-      "genre": "",
-      "link": "https://talentclublive.com/event/electric-eel-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/electric-eel-2/",
-      "genres": [
-        "Bluegrass"
-      ]
     },
     {
       "id": "576e4b43218df109",
@@ -6933,23 +6660,6 @@
       "genres": []
     },
     {
-      "id": "aeaf97860ea4be91",
-      "date": "2026-10-27",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Steely Dead - A Sonic Fusion of the Grateful Dead and Steely Dan",
-      "genre": "",
-      "link": "https://talentclublive.com/event/steely-dead/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/steely-dead/",
-      "genres": []
-    },
-    {
       "id": "ead3ae903e41971f",
       "date": "2026-10-28",
       "start_raw": "1700",
@@ -7080,23 +6790,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "7ad743810d00e762",
-      "date": "2026-10-29",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "State of Terrapin (Night 1)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/state-of-terrapin/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/state-of-terrapin/",
       "genres": []
     },
     {
@@ -7388,23 +7081,6 @@
       "genres": []
     },
     {
-      "id": "8e399facc2aa31b2",
-      "date": "2026-10-30",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "State of Terrapin (Night 2)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/state-of-terrapin-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/state-of-terrapin-2/",
-      "genres": []
-    },
-    {
       "id": "c737fa0021970187",
       "date": "2026-10-30",
       "start_raw": "2100",
@@ -7456,25 +7132,6 @@
       "source_url": "https://local31pub.ai/events/long-distance-runner-2/",
       "genres": [
         "Other"
-      ]
-    },
-    {
-      "id": "a5b4534252d1b7a9",
-      "date": "2026-10-31",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Jazz Trio-Mark Hamersly, Bob Rawlings, Margaret Reno",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/31/jazz-trio",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/31/jazz-trio",
-      "genres": [
-        "Jazz"
       ]
     },
     {
@@ -7688,25 +7345,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "3dcd1325915f32eb",
-      "date": "2026-10-31",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Collin & Co. Big Band Halloween Hootenanny",
-      "genre": "",
-      "link": "https://talentclublive.com/event/halloween-anniversary-bash-w-collin-co/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/halloween-anniversary-bash-w-collin-co/",
-      "genres": [
-        "Swing"
-      ]
     },
     {
       "id": "caea6ea1b07e78c5",
@@ -8014,23 +7652,6 @@
       ]
     },
     {
-      "id": "07ecd0796f18eb51",
-      "date": "2026-11-07",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Jim Quinby and Julia Roupp",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/7/jim-quinby-and-julia-roupp",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/7/jim-quinby-and-julia-roupp",
-      "genres": []
-    },
-    {
       "id": "bb5e0d2ad47f006b",
       "date": "2026-11-07",
       "start_raw": "1400",
@@ -8132,23 +7753,6 @@
       "genres": []
     },
     {
-      "id": "2903b33cebf758a1",
-      "date": "2026-11-07",
-      "start_raw": "1730",
-      "end_raw": "2000",
-      "end_estimated": false,
-      "musician": "Warren Miller's Days Off",
-      "genre": "",
-      "link": "https://craterian.org/event/warren-millers-days-off/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$20-$30 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/warren-millers-days-off/",
-      "genres": []
-    },
-    {
       "id": "c1d36750d9162034",
       "date": "2026-11-07",
       "start_raw": "1800",
@@ -8179,25 +7783,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "e2570cd2aac219dd",
-      "date": "2026-11-07",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Fan Halen: Van Halen Tribute",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/fan-halen-van-halen-tribute",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/fan-halen-van-halen-tribute",
-      "genres": [
-        "Other"
-      ]
     },
     {
       "id": "fe532053a25b139a",
@@ -8499,23 +8084,6 @@
       "genres": []
     },
     {
-      "id": "7f3c6ffbcff840ed",
-      "date": "2026-11-14",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Peter Anestos",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/14/peter-anestos",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/14/peter-anestos",
-      "genres": []
-    },
-    {
       "id": "a276d61fa92168aa",
       "date": "2026-11-14",
       "start_raw": "1630",
@@ -8564,23 +8132,6 @@
       "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "31d56b8d26915bed",
-      "date": "2026-11-14",
-      "start_raw": "1930",
-      "end_raw": "2100",
-      "end_estimated": false,
-      "musician": "Youth Symphony of Southern Oregon Fall 2026",
-      "genre": "",
-      "link": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$14-$19 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
       "genres": []
     },
     {
@@ -8831,23 +8382,6 @@
       "genres": []
     },
     {
-      "id": "24282637d25b6aaa",
-      "date": "2026-11-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Watkins Glen’s Super Deluxe Allstar Band",
-      "genre": "",
-      "link": "https://talentclublive.com/event/watkins-glen/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/watkins-glen/",
-      "genres": []
-    },
-    {
       "id": "a0a7b3e0b07ba66a",
       "date": "2026-11-20",
       "start_raw": "2100",
@@ -8961,23 +8495,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "898282b9e4e7b007",
-      "date": "2026-11-21",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Brett's House Party",
-      "genre": "",
-      "link": "https://talentclublive.com/event/bretts-house-party/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/bretts-house-party/",
       "genres": []
     },
     {
@@ -9294,23 +8811,6 @@
       "genres": []
     },
     {
-      "id": "d87133760c04d394",
-      "date": "2026-11-30",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "HOME FREE: Coming Home for the Holidays",
-      "genre": "",
-      "link": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$60-$162 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
-      "genres": []
-    },
-    {
       "id": "6b4d7f825f7700d9",
       "date": "2026-12-02",
       "start_raw": "1930",
@@ -9393,23 +8893,6 @@
       "genres": []
     },
     {
-      "id": "97505b72d25c0e33",
-      "date": "2026-12-04",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "ANDY GRAMMER – Greater Than Pt. II: A One Man Show",
-      "genre": "",
-      "link": "https://craterian.org/event/andy-grammer-one-man-show/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$70-$260 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/andy-grammer-one-man-show/",
-      "genres": []
-    },
-    {
       "id": "23a2fb85f28f803e",
       "date": "2026-12-04",
       "start_raw": "2100",
@@ -9440,23 +8923,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "3ab5b2a35794dd66",
-      "date": "2026-12-05",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "end_estimated": true,
-      "musician": "Home for the Holidays: Songs for the Season",
-      "genre": "",
-      "link": "https://craterian.org/event/home-for-the-holidays-songs-for-the-season/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/home-for-the-holidays-songs-for-the-season/",
       "genres": []
     },
     {
@@ -9647,40 +9113,6 @@
       "genres": []
     },
     {
-      "id": "921ba60263af2c4f",
-      "date": "2026-12-11",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Pablo Cruise Live '26",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
-      "genres": []
-    },
-    {
-      "id": "add8dd4350cb775c",
-      "date": "2026-12-12",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Nina and the Notes",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/12/12/nina-and-the-notes",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/12/12/nina-and-the-notes",
-      "genres": []
-    },
-    {
       "id": "3a5e145beae5cbdd",
       "date": "2026-12-12",
       "start_raw": "1630",
@@ -9831,23 +9263,6 @@
       "genres": []
     },
     {
-      "id": "f26d6b0b67436f08",
-      "date": "2026-12-19",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Iryna",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/12/19/iryna",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/12/19/iryna",
-      "genres": []
-    },
-    {
       "id": "62d2c156cf0e8a85",
       "date": "2026-12-19",
       "start_raw": "1400",
@@ -9945,25 +9360,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "43d246a699bf4856",
-      "date": "2026-12-20",
-      "start_raw": "1500",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "Tomáseen Foley’s A Celtic Christmas",
-      "genre": "",
-      "link": "https://craterian.org/event/tomaseen-foleys-a-celtic-christmas-3/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$30-$48 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/tomaseen-foleys-a-celtic-christmas-3/",
-      "genres": [
-        "Celtic"
-      ]
     },
     {
       "id": "08b8f1e3a2d1c7bb",
@@ -10351,23 +9747,6 @@
       ]
     },
     {
-      "id": "43849e1128bed3de",
-      "date": "2027-01-24",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Naturally 7",
-      "genre": "",
-      "link": "https://craterian.org/event/naturally-7/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$32-$50 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/naturally-7/",
-      "genres": []
-    },
-    {
       "id": "3b82c41d05b487e2",
       "date": "2027-01-24",
       "start_raw": "1700",
@@ -10436,23 +9815,6 @@
       "genres": [
         "Celtic"
       ]
-    },
-    {
-      "id": "35129de2283144ce",
-      "date": "2027-01-30",
-      "start_raw": "1900",
-      "end_raw": "2130",
-      "end_estimated": false,
-      "musician": "3 Redneck Tenors",
-      "genre": "",
-      "link": "https://craterian.org/event/3-redneck-tenors/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$24-$39 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/3-redneck-tenors/",
-      "genres": []
     },
     {
       "id": "02f1d35b985a9fae",
@@ -10578,23 +9940,6 @@
       ]
     },
     {
-      "id": "ab040221abc76db7",
-      "date": "2027-02-12",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "80s kids",
-      "genre": "",
-      "link": "https://craterian.org/event/80s-kids/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$36-$39 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/80s-kids/",
-      "genres": []
-    },
-    {
       "id": "0f14315d23e14d0e",
       "date": "2027-02-13",
       "start_raw": "1630",
@@ -10699,40 +10044,6 @@
       "genres": []
     },
     {
-      "id": "0803bf9150b9d1bc",
-      "date": "2027-03-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Patrick Warburton Standup Comedy",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/patrick-warburton-standup-comedy",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/patrick-warburton-standup-comedy",
-      "genres": []
-    },
-    {
-      "id": "8d8363ddeb814cc4",
-      "date": "2027-04-03",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "Phat Cat Swinger",
-      "genre": "",
-      "link": "https://craterian.org/event/phat-cat-swinger/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$46-$58 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/phat-cat-swinger/",
-      "genres": []
-    },
-    {
       "id": "42aab1da1e4fd452",
       "date": "2027-04-04",
       "start_raw": "1930",
@@ -10747,59 +10058,6 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/bruce-cockburn",
-      "genres": []
-    },
-    {
-      "id": "c01b9707d2a42613",
-      "date": "2027-04-09",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "One Of These Nights: Eagles Tribute",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
-      "id": "d4db4fcdb6efd51e",
-      "date": "2027-04-16",
-      "start_raw": "1900",
-      "end_raw": "2100",
-      "end_estimated": true,
-      "musician": "Take3 Dancing Queens: an ABBA Remix Party",
-      "genre": "",
-      "link": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$27-$42 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
-      "genres": []
-    },
-    {
-      "id": "3fbd270f9e2fac13",
-      "date": "2027-05-01",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "Mat & Savanna Shaw",
-      "genre": "",
-      "link": "https://craterian.org/event/mat-savanna-shaw/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$23-$46 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/mat-savanna-shaw/",
       "genres": []
     },
     {
@@ -10834,23 +10092,6 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/cal-acdc-highway-to-hell",
-      "genres": []
-    },
-    {
-      "id": "0f7b693a6283c9de",
-      "date": "2027-05-15",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "PEACHERINE RAGTIME SOCIETY ORCHESTRA",
-      "genre": "",
-      "link": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$34-$52 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
       "genres": []
     }
   ]

@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2033,
+  "event_count": 2036,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -574,8 +574,7 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "la_baguette"
+        "musiclist_txt"
       ]
     },
     "La Boveda Labs": {
@@ -34157,13 +34156,13 @@
       "end_raw": "1230",
       "musician": "Sweet Clementine",
       "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
+      "link": "",
       "link_name": "",
       "venue": "La Baguette",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
+      "source_url": null,
       "genres": []
     },
     {
@@ -34906,6 +34905,55 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "5ea68c7c741eb771",
+      "date": "2026-10-19",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jared Gutridge",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dancin Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "c304b3dbf0ebfbf9",
+      "date": "2026-10-19",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-27/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-27/",
+      "genres": []
+    },
+    {
+      "id": "efe9c908e4c4d6b6",
+      "date": "2026-10-19",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     }
   ]
