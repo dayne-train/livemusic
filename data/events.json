@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-20T23:10:35.533Z",
+  "generated_at": "2026-10-21T04:43:06.772Z",
   "source_timestamp": "10/16/2026 10:53",
-  "content_hash": "28d66cf3933f6bdf",
+  "content_hash": "e0bb3db76ef44abb",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 262,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-20T23:09:48.905Z",
-      "last_attempt": "2026-10-20T23:09:48.905Z",
+      "last_ok": "2026-10-21T04:42:27.464Z",
+      "last_attempt": "2026-10-21T04:42:27.464Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 17,
+      "count": 18,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:09:49.193Z",
-      "last_attempt": "2026-10-20T23:09:49.193Z",
+      "last_ok": "2026-10-21T04:42:27.757Z",
+      "last_attempt": "2026-10-21T04:42:27.757Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:09:51.703Z",
-      "last_attempt": "2026-10-20T23:09:51.703Z",
+      "last_ok": "2026-10-21T04:42:28.835Z",
+      "last_attempt": "2026-10-21T04:42:28.835Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:09:52.139Z",
-      "last_attempt": "2026-10-20T23:09:52.139Z",
+      "last_ok": "2026-10-21T04:42:28.997Z",
+      "last_attempt": "2026-10-21T04:42:28.997Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:09:55.239Z",
-      "last_attempt": "2026-10-20T23:09:55.239Z",
+      "last_ok": "2026-10-21T04:42:33.270Z",
+      "last_attempt": "2026-10-21T04:42:33.270Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:09:55.723Z",
-      "last_attempt": "2026-10-20T23:09:55.723Z",
+      "last_ok": "2026-10-21T04:42:33.701Z",
+      "last_attempt": "2026-10-21T04:42:33.701Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:10:12.457Z",
-      "last_attempt": "2026-10-20T23:10:12.457Z",
+      "last_ok": "2026-10-21T04:42:42.227Z",
+      "last_attempt": "2026-10-21T04:42:42.227Z",
       "error": null
     },
     "craterian": {
@@ -64,63 +64,63 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-10-20T19:59:21.828Z",
-      "last_attempt": "2026-10-20T23:10:13.344Z",
+      "last_attempt": "2026-10-21T04:42:43.825Z",
       "error": "fetch failed"
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:10:23.436Z",
-      "last_attempt": "2026-10-20T23:10:23.436Z",
+      "last_ok": "2026-10-21T04:42:54.221Z",
+      "last_attempt": "2026-10-21T04:42:54.221Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 81,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:10:24.147Z",
-      "last_attempt": "2026-10-20T23:10:24.147Z",
+      "last_ok": "2026-10-21T04:42:54.964Z",
+      "last_attempt": "2026-10-21T04:42:54.964Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:10:31.486Z",
-      "last_attempt": "2026-10-20T23:10:31.486Z",
+      "last_ok": "2026-10-21T04:43:00.903Z",
+      "last_attempt": "2026-10-21T04:43:00.903Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:10:32.154Z",
-      "last_attempt": "2026-10-20T23:10:32.154Z",
+      "last_ok": "2026-10-21T04:43:02.366Z",
+      "last_attempt": "2026-10-21T04:43:02.366Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:10:32.298Z",
-      "last_attempt": "2026-10-20T23:10:32.298Z",
+      "last_ok": "2026-10-21T04:43:02.631Z",
+      "last_attempt": "2026-10-21T04:43:02.631Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:10:32.598Z",
-      "last_attempt": "2026-10-20T23:10:32.598Z",
+      "last_ok": "2026-10-21T04:43:02.983Z",
+      "last_attempt": "2026-10-21T04:43:02.983Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-20T23:10:35.085Z",
-      "last_attempt": "2026-10-20T23:10:35.085Z",
+      "last_ok": "2026-10-21T04:43:05.698Z",
+      "last_attempt": "2026-10-21T04:43:05.698Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-20T23:10:35.250Z",
+      "last_attempt": "2026-10-21T04:43:06.606Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-13&end_date=2027-02-17"
     }
   },
@@ -5419,26 +5419,6 @@
       "genres": []
     },
     {
-      "id": "c9d65507ed07d200",
-      "date": "2026-10-20",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
-      ]
-    },
-    {
       "id": "6de8f74b808c90a9",
       "date": "2026-10-21",
       "start_raw": "1700",
@@ -5575,6 +5555,26 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "87b25f5cd9c3fb3e",
+      "date": "2026-10-21",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     },
     {
       "id": "11b790b2e8a769ef",
@@ -9267,6 +9267,24 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
+    },
+    {
+      "id": "403e45386f798f35",
+      "date": "2026-11-30",
+      "start_raw": "1830",
+      "end_raw": "2030",
+      "musician": "The Kabbalah of Inner Peace: Eliminating Stress & Anxiety in a Troubled World",
+      "genre": "",
+      "link": "https://grizzlypeakwinery.com/event/the-kabbalah-of-inner-peace-eliminating-stress-anxiety-in-a-troubled-world/",
+      "link_name": "",
+      "venue": "Grizzly Peak Winery",
+      "notes": "Between rising antisemitism, economic uncertainty, and the daily pressures of an increasingly troubled world, finding calm, balance, and resilience matters more than ever. \nChabad of Southern Oregon i",
+      "event_type": "Band",
+      "source": "tribe_ics:grizzly_peak",
+      "source_url": "https://grizzlypeakwinery.com/event/the-kabbalah-of-inner-peace-eliminating-stress-anxiety-in-a-troubled-world/",
+      "genres": [
+        "World"
+      ]
     },
     {
       "id": "dc98e35a1ef2ba4b",
