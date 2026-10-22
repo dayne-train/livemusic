@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-22T04:41:47.521Z",
+  "generated_at": "2026-10-22T13:46:49.870Z",
   "source_timestamp": "10/16/2026 10:53",
-  "content_hash": "751e83a0e0df1092",
+  "content_hash": "03f94fcd7d1a7f7e",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 262,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-22T04:40:27.361Z",
-      "last_attempt": "2026-10-22T04:40:27.361Z",
+      "last_ok": "2026-10-22T13:45:38.970Z",
+      "last_attempt": "2026-10-22T13:45:38.970Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 18,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:40:27.770Z",
-      "last_attempt": "2026-10-22T04:40:27.770Z",
+      "last_ok": "2026-10-22T13:45:39.255Z",
+      "last_attempt": "2026-10-22T13:45:39.255Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:40:28.826Z",
-      "last_attempt": "2026-10-22T04:40:28.826Z",
+      "last_ok": "2026-10-22T13:45:40.304Z",
+      "last_attempt": "2026-10-22T13:45:40.304Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:40:29.141Z",
-      "last_attempt": "2026-10-22T04:40:29.141Z",
+      "last_ok": "2026-10-22T13:45:40.769Z",
+      "last_attempt": "2026-10-22T13:45:40.769Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:40:35.847Z",
-      "last_attempt": "2026-10-22T04:40:35.847Z",
+      "last_ok": "2026-10-22T13:45:42.873Z",
+      "last_attempt": "2026-10-22T13:45:42.873Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:40:36.392Z",
-      "last_attempt": "2026-10-22T04:40:36.392Z",
+      "last_ok": "2026-10-22T13:45:43.672Z",
+      "last_attempt": "2026-10-22T13:45:43.672Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:40:43.404Z",
-      "last_attempt": "2026-10-22T04:40:43.404Z",
+      "last_ok": "2026-10-22T13:45:51.769Z",
+      "last_attempt": "2026-10-22T13:45:51.769Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:40:44.400Z",
-      "last_attempt": "2026-10-22T04:40:44.400Z",
+      "last_ok": "2026-10-22T13:45:53.231Z",
+      "last_attempt": "2026-10-22T13:45:53.231Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:41:37.206Z",
-      "last_attempt": "2026-10-22T04:41:37.206Z",
+      "last_ok": "2026-10-22T13:46:39.641Z",
+      "last_attempt": "2026-10-22T13:46:39.641Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 81,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:41:37.586Z",
-      "last_attempt": "2026-10-22T04:41:37.586Z",
+      "last_ok": "2026-10-22T13:46:40.184Z",
+      "last_attempt": "2026-10-22T13:46:40.184Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:41:42.773Z",
-      "last_attempt": "2026-10-22T04:41:42.773Z",
+      "last_ok": "2026-10-22T13:46:44.657Z",
+      "last_attempt": "2026-10-22T13:46:44.657Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:41:43.850Z",
-      "last_attempt": "2026-10-22T04:41:43.850Z",
+      "last_ok": "2026-10-22T13:46:45.200Z",
+      "last_attempt": "2026-10-22T13:46:45.200Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
-      "count": 3,
+      "count": 2,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:41:44.073Z",
-      "last_attempt": "2026-10-22T04:41:44.073Z",
+      "last_ok": "2026-10-22T13:46:46.461Z",
+      "last_attempt": "2026-10-22T13:46:46.461Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:41:44.446Z",
-      "last_attempt": "2026-10-22T04:41:44.446Z",
+      "last_ok": "2026-10-22T13:46:46.715Z",
+      "last_attempt": "2026-10-22T13:46:46.715Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-22T04:41:46.620Z",
-      "last_attempt": "2026-10-22T04:41:46.620Z",
+      "last_ok": "2026-10-22T13:46:48.700Z",
+      "last_attempt": "2026-10-22T13:46:48.700Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-22T04:41:47.307Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-14&end_date=2027-02-18"
+      "last_attempt": "2026-10-22T13:46:49.754Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-15&end_date=2027-02-19"
     }
   },
   "venues": {
@@ -5484,19 +5484,13 @@
       "end_raw": "1900",
       "musician": "Jen Ambrose",
       "genre": "blues",
-      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link": "",
       "link_name": "",
       "venue": "Tap & Vine",
-      "notes": "On the patio",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
-      "merged_from": [
-        {
-          "source": "tap_and_vine",
-          "id": "96933da8303ce497"
-        }
-      ],
+      "source_url": null,
       "genres": [
         "Blues"
       ]
