@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-23T04:47:06.155Z",
+  "generated_at": "2026-10-23T13:24:59.517Z",
   "source_timestamp": "10/22/2026 14:40",
-  "content_hash": "3425c530c4375989",
+  "content_hash": "9413b4dede9adfc7",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 225,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-23T04:45:46.003Z",
-      "last_attempt": "2026-10-23T04:45:46.003Z",
+      "last_ok": "2026-10-23T13:23:44.617Z",
+      "last_attempt": "2026-10-23T13:23:44.617Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 18,
+      "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:45:46.253Z",
-      "last_attempt": "2026-10-23T04:45:46.253Z",
+      "last_ok": "2026-10-23T13:23:44.864Z",
+      "last_attempt": "2026-10-23T13:23:44.864Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:45:47.261Z",
-      "last_attempt": "2026-10-23T04:45:47.261Z",
+      "last_ok": "2026-10-23T13:23:46.375Z",
+      "last_attempt": "2026-10-23T13:23:46.375Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 3,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:45:47.618Z",
-      "last_attempt": "2026-10-23T04:45:47.618Z",
+      "last_ok": "2026-10-23T13:23:46.787Z",
+      "last_attempt": "2026-10-23T13:23:46.787Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:45:51.840Z",
-      "last_attempt": "2026-10-23T04:45:51.840Z",
+      "last_ok": "2026-10-23T13:23:54.890Z",
+      "last_attempt": "2026-10-23T13:23:54.890Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:45:52.296Z",
-      "last_attempt": "2026-10-23T04:45:52.296Z",
+      "last_ok": "2026-10-23T13:23:55.377Z",
+      "last_attempt": "2026-10-23T13:23:55.377Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:46:00.622Z",
-      "last_attempt": "2026-10-23T04:46:00.622Z",
+      "last_ok": "2026-10-23T13:24:02.196Z",
+      "last_attempt": "2026-10-23T13:24:02.196Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:46:01.621Z",
-      "last_attempt": "2026-10-23T04:46:01.621Z",
+      "last_ok": "2026-10-23T13:24:03.090Z",
+      "last_attempt": "2026-10-23T13:24:03.090Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:46:54.467Z",
-      "last_attempt": "2026-10-23T04:46:54.467Z",
+      "last_ok": "2026-10-23T13:24:46.633Z",
+      "last_attempt": "2026-10-23T13:24:46.633Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 81,
+      "count": 80,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:46:54.851Z",
-      "last_attempt": "2026-10-23T04:46:54.851Z",
+      "last_ok": "2026-10-23T13:24:47.180Z",
+      "last_attempt": "2026-10-23T13:24:47.180Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:47:00.650Z",
-      "last_attempt": "2026-10-23T04:47:00.650Z",
+      "last_ok": "2026-10-23T13:24:53.536Z",
+      "last_attempt": "2026-10-23T13:24:53.536Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:47:01.214Z",
-      "last_attempt": "2026-10-23T04:47:01.214Z",
+      "last_ok": "2026-10-23T13:24:54.265Z",
+      "last_attempt": "2026-10-23T13:24:54.265Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:47:02.315Z",
-      "last_attempt": "2026-10-23T04:47:02.315Z",
+      "last_ok": "2026-10-23T13:24:55.371Z",
+      "last_attempt": "2026-10-23T13:24:55.371Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:47:02.579Z",
-      "last_attempt": "2026-10-23T04:47:02.579Z",
+      "last_ok": "2026-10-23T13:24:55.768Z",
+      "last_attempt": "2026-10-23T13:24:55.768Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-23T04:47:05.011Z",
-      "last_attempt": "2026-10-23T04:47:05.011Z",
+      "last_ok": "2026-10-23T13:24:58.259Z",
+      "last_attempt": "2026-10-23T13:24:58.259Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-23T04:47:05.999Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-15&end_date=2027-02-19"
+      "last_attempt": "2026-10-23T13:24:59.240Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-16&end_date=2027-02-20"
     }
   },
   "venues": {
@@ -3956,40 +3956,6 @@
       "genres": []
     },
     {
-      "id": "31269a1bd385f2b8",
-      "date": "2026-10-15",
-      "start_raw": "1800",
-      "end_raw": "2030",
-      "end_estimated": false,
-      "musician": "Wildegeeses",
-      "genre": "",
-      "link": "http://www.wildgoosecafe.com/events.html",
-      "link_name": "",
-      "venue": "Wild Goose Cafe",
-      "notes": "",
-      "event_type": "Band",
-      "source": "venue_ics:wildgoose",
-      "source_url": "http://www.wildgoosecafe.com/events.html",
-      "genres": []
-    },
-    {
-      "id": "a1c21ae5a8885f2f",
-      "date": "2026-10-15",
-      "start_raw": "2130",
-      "end_raw": "2330",
-      "end_estimated": false,
-      "musician": "Local Jam Session",
-      "genre": "",
-      "link": "https://local31pub.ai/events/local-jam-session/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Local 31 Pubs Jam Session starts at 9:30p.m. Our House Band will back up some very talented musicians that have signed up to strut their stuff! All Slots are full for this week, so it’s going to be ep",
-      "event_type": "Open Mic",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/local-jam-session/",
-      "genres": []
-    },
-    {
       "id": "54922d029b327215",
       "date": "2026-10-16",
       "start_raw": "1800",
@@ -4255,23 +4221,14 @@
       "end_raw": "1900",
       "musician": "Rogue Hot Club",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-rogue-hot-club-3/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "The Rogue Hot Club is a musical group that performs Minor Swing and upbeat gypsy jazz tunes, known for its lively and energetic performances. The talented musicians bring a unique blend of jazz and gy",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-rogue-hot-club-3/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "24a4693bbe1a34f9"
-        }
-      ],
-      "genres": [
-        "Jazz",
-        "Swing"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "6f8d962886653976",
@@ -8208,6 +8165,26 @@
       "genres": []
     },
     {
+      "id": "0b7045923603905c",
+      "date": "2026-11-21",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Chamber Music Concerts presents the Jupiter Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "The Jupiter String Quartet is an intimately connected group — the members include two sisters and a spouse. Founded in 2001, the ensemble is firmly established as an important voice in the world of ch",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical",
+        "World"
+      ]
+    },
+    {
       "id": "878e2aefdabeb788",
       "date": "2026-11-21",
       "start_raw": "1630",
@@ -10139,6 +10116,25 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
+    },
+    {
+      "id": "e1d19cd59ce8626c",
+      "date": "2027-02-20",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
+      ]
     },
     {
       "id": "fb8ffcb727e6187c",
