@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2045,
+  "event_count": 2047,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -34167,6 +34167,23 @@
       "genres": []
     },
     {
+      "id": "78469ef2700a9030",
+      "date": "2026-10-17",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Sweet Clementine",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
+      "genres": []
+    },
+    {
       "id": "cd72c1d083ab841b",
       "date": "2026-10-17",
       "start_raw": "1400",
@@ -34791,6 +34808,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0f9c1ec9f6305397",
+      "date": "2026-10-18",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
     },
     {
