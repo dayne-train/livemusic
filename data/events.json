@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-24T18:48:19.478Z",
-  "source_timestamp": "10/22/2026 14:40",
-  "content_hash": "6c4a5a6396c14189",
+  "generated_at": "2026-10-24T22:28:57.733Z",
+  "source_timestamp": "10/24/2026 13:04",
+  "content_hash": "5c45853a62f9e12e",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 225,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-24T18:46:26.296Z",
-      "last_attempt": "2026-10-24T18:46:26.296Z",
+      "last_ok": "2026-10-24T22:27:38.372Z",
+      "last_attempt": "2026-10-24T22:27:38.372Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:46:26.532Z",
-      "last_attempt": "2026-10-24T18:46:26.532Z",
+      "last_ok": "2026-10-24T22:27:38.566Z",
+      "last_attempt": "2026-10-24T22:27:38.566Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:46:27.655Z",
-      "last_attempt": "2026-10-24T18:46:27.655Z",
+      "last_ok": "2026-10-24T22:27:40.307Z",
+      "last_attempt": "2026-10-24T22:27:40.307Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:46:31.048Z",
-      "last_attempt": "2026-10-24T18:46:31.048Z",
+      "last_ok": "2026-10-24T22:27:40.787Z",
+      "last_attempt": "2026-10-24T22:27:40.787Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:46:33.109Z",
-      "last_attempt": "2026-10-24T18:46:33.109Z",
+      "last_ok": "2026-10-24T22:27:43.442Z",
+      "last_attempt": "2026-10-24T22:27:43.442Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:46:33.648Z",
-      "last_attempt": "2026-10-24T18:46:33.648Z",
+      "last_ok": "2026-10-24T22:27:43.970Z",
+      "last_attempt": "2026-10-24T22:27:43.970Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:46:52.818Z",
-      "last_attempt": "2026-10-24T18:46:52.818Z",
+      "last_ok": "2026-10-24T22:27:52.491Z",
+      "last_attempt": "2026-10-24T22:27:52.491Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:46:53.460Z",
-      "last_attempt": "2026-10-24T18:46:53.460Z",
+      "last_ok": "2026-10-24T22:27:54.085Z",
+      "last_attempt": "2026-10-24T22:27:54.085Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:48:10.484Z",
-      "last_attempt": "2026-10-24T18:48:10.484Z",
+      "last_ok": "2026-10-24T22:28:49.155Z",
+      "last_attempt": "2026-10-24T22:28:49.155Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 80,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:48:10.866Z",
-      "last_attempt": "2026-10-24T18:48:10.866Z",
+      "last_ok": "2026-10-24T22:28:49.550Z",
+      "last_attempt": "2026-10-24T22:28:49.550Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:48:15.396Z",
-      "last_attempt": "2026-10-24T18:48:15.396Z",
+      "last_ok": "2026-10-24T22:28:52.916Z",
+      "last_attempt": "2026-10-24T22:28:52.916Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:48:16.048Z",
-      "last_attempt": "2026-10-24T18:48:16.048Z",
+      "last_ok": "2026-10-24T22:28:53.535Z",
+      "last_attempt": "2026-10-24T22:28:53.535Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:48:16.237Z",
-      "last_attempt": "2026-10-24T18:48:16.237Z",
+      "last_ok": "2026-10-24T22:28:53.999Z",
+      "last_attempt": "2026-10-24T22:28:53.999Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:48:16.594Z",
-      "last_attempt": "2026-10-24T18:48:16.594Z",
+      "last_ok": "2026-10-24T22:28:54.158Z",
+      "last_attempt": "2026-10-24T22:28:54.158Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-24T18:48:18.492Z",
-      "last_attempt": "2026-10-24T18:48:18.492Z",
+      "last_ok": "2026-10-24T22:28:56.822Z",
+      "last_attempt": "2026-10-24T22:28:56.822Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-24T18:48:19.240Z",
+      "last_attempt": "2026-10-24T22:28:57.640Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-17&end_date=2027-02-21"
     }
   },
@@ -4778,6 +4778,22 @@
       "genres": []
     },
     {
+      "id": "db89eaabffcab0a0",
+      "date": "2026-10-24",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "JustaDuo",
+      "genre": "easy listening",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "18a0ad3bf540bc1e",
       "date": "2026-10-24",
       "start_raw": "1500",
@@ -4820,22 +4836,6 @@
       "link": "",
       "link_name": "Danielle Kelly Soul Project",
       "venue": "Liquid Lounge",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "d2503a683b46dc55",
-      "date": "2026-10-24",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "JustaDuo",
-      "genre": "easy listening",
-      "link": "",
-      "link_name": "",
-      "venue": "Rellik Winery",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -5214,17 +5214,17 @@
       ]
     },
     {
-      "id": "576e4b43218df109",
+      "id": "0a65134287afa8bc",
       "date": "2026-10-24",
       "start_raw": "2100",
       "end_raw": "2355",
       "end_estimated": false,
-      "musician": "Clark Engine Company and Dangerous Lee and the Rattlin Three",
+      "musician": "Clark Engine Company, Moth Daughter and Dangerous Lee and the Rattlin Three",
       "genre": "",
       "link": "https://local31pub.ai/events/clark-engine-company-and-dangerous-lee-and-the-rattlin-three/",
       "link_name": "",
       "venue": "Local 31 Pub",
-      "notes": "Clark Engine Company is a Country-rock, cosmic-Americana combo barreling down the boulevard form Portland, Oregon. Dangerous Lee and the Rattlin Three play edgy, upbeat old-time and Country. https://w",
+      "notes": "Clark Engine Company is a Country-rock, cosmic-Americana combo barreling down the boulevard from Portland, Oregon. Plus, the man himself – Dangerous Lee and his Rattlin‘ Three play edgy, upbeat old-ti",
       "event_type": "Band",
       "source": "venue_ics:local31",
       "source_url": "https://local31pub.ai/events/clark-engine-company-and-dangerous-lee-and-the-rattlin-three/",

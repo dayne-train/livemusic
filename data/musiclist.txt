@@ -1,5 +1,5 @@
 --timestamp
-10/22/2026 14:40
+10/24/2026 13:04
 --news
 * date | notes
 --musicians
@@ -506,9 +506,9 @@ HoneyPot||||Cedarwood Saloon||10/23/26|2000|2300||Band|26/10/22 14:40PM|1|
 John Johns||||Liquid Lounge||10/23/26|2000|2200||Band|26/10/08 12:24PM|2|
 Mark Turnbull||||La Baguette||10/24/26|1030|1230||Band|26/09/29 11:51AM|0|
 Enoch and David||||Two Rivers Vineyard||10/24/26|1400|1700||Band|26/10/15 14:12PM|1|
+JustaDuo||||Rellik Winery||10/24/26|1500|1700||Band|26/10/24 13:04PM|3|
 Sonido Alegre||||Dos Mariposas Vineyards||10/24/26|1600|1800||Band|26/09/21 13:10PM|3|
 Danielle Kelly & Paul Turnipseed|||Danielle Kelly Soul Project|Liquid Lounge||10/24/26|1600|1800||Band|26/10/08 12:24PM|2|
-JustaDuo||||Rellik Winery||10/24/26|1600|1800||Band|26/09/29 11:51AM|0|
 Pozitronics||||Belle Fiore||10/24/26|1700|1900|Costume Party|Band||6|
 Jeff Kloetzel||||Padigan Wines||10/24/26|1700|1900||Band|26/10/22 14:40PM|1|
 Mountaintop Sound||||Remotion Wine||10/24/26|1700|1900|Halloween Party|Band|26/09/29 11:51AM|2|
