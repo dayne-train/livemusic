@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-25T04:38:59.080Z",
+  "generated_at": "2026-10-25T13:11:53.892Z",
   "source_timestamp": "10/24/2026 13:04",
-  "content_hash": "f8816e0c235dd7d7",
+  "content_hash": "294ad26dafdc8b22",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 225,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-25T04:37:35.872Z",
-      "last_attempt": "2026-10-25T04:37:35.872Z",
+      "last_ok": "2026-10-25T13:10:19.068Z",
+      "last_attempt": "2026-10-25T13:10:19.068Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:37:36.232Z",
-      "last_attempt": "2026-10-25T04:37:36.232Z",
+      "last_ok": "2026-10-25T13:10:19.301Z",
+      "last_attempt": "2026-10-25T13:10:19.301Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:37:37.396Z",
-      "last_attempt": "2026-10-25T04:37:37.396Z",
+      "last_ok": "2026-10-25T13:10:20.382Z",
+      "last_attempt": "2026-10-25T13:10:20.382Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:37:37.736Z",
-      "last_attempt": "2026-10-25T04:37:37.736Z",
+      "last_ok": "2026-10-25T13:10:20.605Z",
+      "last_attempt": "2026-10-25T13:10:20.605Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:37:41.903Z",
-      "last_attempt": "2026-10-25T04:37:41.903Z",
+      "last_ok": "2026-10-25T13:10:23.365Z",
+      "last_attempt": "2026-10-25T13:10:23.365Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:37:42.709Z",
-      "last_attempt": "2026-10-25T04:37:42.709Z",
+      "last_ok": "2026-10-25T13:10:24.001Z",
+      "last_attempt": "2026-10-25T13:10:24.001Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:37:49.851Z",
-      "last_attempt": "2026-10-25T04:37:49.851Z",
+      "last_ok": "2026-10-25T13:10:31.629Z",
+      "last_attempt": "2026-10-25T13:10:31.629Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:37:51.047Z",
-      "last_attempt": "2026-10-25T04:37:51.047Z",
+      "last_ok": "2026-10-25T13:10:32.996Z",
+      "last_attempt": "2026-10-25T13:10:32.996Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:38:50.080Z",
-      "last_attempt": "2026-10-25T04:38:50.080Z",
+      "last_ok": "2026-10-25T13:11:45.087Z",
+      "last_attempt": "2026-10-25T13:11:45.087Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 80,
+      "count": 78,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:38:50.482Z",
-      "last_attempt": "2026-10-25T04:38:50.482Z",
+      "last_ok": "2026-10-25T13:11:45.524Z",
+      "last_attempt": "2026-10-25T13:11:45.524Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:38:54.226Z",
-      "last_attempt": "2026-10-25T04:38:54.226Z",
+      "last_ok": "2026-10-25T13:11:49.666Z",
+      "last_attempt": "2026-10-25T13:11:49.666Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:38:54.839Z",
-      "last_attempt": "2026-10-25T04:38:54.839Z",
+      "last_ok": "2026-10-25T13:11:50.213Z",
+      "last_attempt": "2026-10-25T13:11:50.213Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:38:55.194Z",
-      "last_attempt": "2026-10-25T04:38:55.194Z",
+      "last_ok": "2026-10-25T13:11:50.603Z",
+      "last_attempt": "2026-10-25T13:11:50.603Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:38:55.553Z",
-      "last_attempt": "2026-10-25T04:38:55.553Z",
+      "last_ok": "2026-10-25T13:11:50.898Z",
+      "last_attempt": "2026-10-25T13:11:50.898Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-25T04:38:57.841Z",
-      "last_attempt": "2026-10-25T04:38:57.841Z",
+      "last_ok": "2026-10-25T13:11:52.732Z",
+      "last_attempt": "2026-10-25T13:11:52.732Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-25T04:38:58.831Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-17&end_date=2027-02-21"
+      "last_attempt": "2026-10-25T13:11:53.755Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-18&end_date=2027-02-22"
     }
   },
   "venues": {
@@ -3971,44 +3971,6 @@
       "genres": []
     },
     {
-      "id": "772a705c63f51846",
-      "date": "2026-10-17",
-      "start_raw": "1630",
-      "end_raw": "1830",
-      "end_estimated": false,
-      "musician": "The Fluid Druids",
-      "genre": "",
-      "link": "https://local31pub.ai/events/the-fluid-druids/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
-      "id": "4017243dd46655d7",
-      "date": "2026-10-17",
-      "start_raw": "2000",
-      "end_raw": "2355",
-      "end_estimated": false,
-      "musician": "YAARO LIGHT and DJ Ghoulian",
-      "genre": "",
-      "link": "https://local31pub.ai/events/yaaro-light-and-dj-ghoulian/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "YAARO Light will blow your mind with creative sounds and grooves! DJ Ghoulian will close the night his Darkwave dance music!",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/yaaro-light-and-dj-ghoulian/",
-      "genres": [
-        "Electronic / DJ"
-      ]
-    },
-    {
       "id": "0f9c1ec9f6305397",
       "date": "2026-10-18",
       "start_raw": "1700",
@@ -5141,23 +5103,6 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "daa17ccb54d4c676",
-      "date": "2026-10-24",
-      "start_raw": "1900",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "Company & Clark Dance Concert",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "I’m at a stage in my life where I’m really focused on making sure dance keeps going strong, even when things get tough, and that we can all find inspiration in each other.\n\nI’m drawn to dances that br",
-      "event_type": "Band",
-      "source": "sou_localist",
       "source_url": null,
       "genres": []
     },
@@ -8714,6 +8659,25 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
+    },
+    {
+      "id": "00da1a2827120a93",
+      "date": "2026-12-03",
+      "start_raw": "1930",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "SOU Chamber Choir Presents: If Music Be",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "\"Where words fail, music speaks.\" — Hans Christian Andersen\n\n \n\nIn observance of the day music (almost) died at SOU, the Chamber Choir will present a musical love letter to music! Join us for an eveni",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
     },
     {
       "id": "4096ff3113c2d920",
