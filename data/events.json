@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-26T15:10:58.991Z",
-  "source_timestamp": "10/25/2026 18:06",
-  "content_hash": "5ad4a9e06da2cd2b",
+  "generated_at": "2026-10-26T21:01:04.598Z",
+  "source_timestamp": "10/26/2026 12:36",
+  "content_hash": "00270a4af5b0e269",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 226,
+      "count": 223,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-26T15:09:51.139Z",
-      "last_attempt": "2026-10-26T15:09:51.139Z",
+      "last_ok": "2026-10-26T20:59:59.800Z",
+      "last_attempt": "2026-10-26T20:59:59.800Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:09:51.749Z",
-      "last_attempt": "2026-10-26T15:09:51.749Z",
+      "last_ok": "2026-10-26T21:00:00.089Z",
+      "last_attempt": "2026-10-26T21:00:00.089Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:09:52.768Z",
-      "last_attempt": "2026-10-26T15:09:52.768Z",
+      "last_ok": "2026-10-26T21:00:01.080Z",
+      "last_attempt": "2026-10-26T21:00:01.080Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:09:53.346Z",
-      "last_attempt": "2026-10-26T15:09:53.346Z",
+      "last_ok": "2026-10-26T21:00:01.441Z",
+      "last_attempt": "2026-10-26T21:00:01.441Z",
       "error": null
     },
     "ashland_city": {
-      "ok": true,
+      "ok": false,
       "count": 0,
-      "strategy": "live",
+      "strategy": null,
       "last_ok": "2026-10-26T15:10:10.684Z",
-      "last_attempt": "2026-10-26T15:10:10.684Z",
-      "error": null
+      "last_attempt": "2026-10-26T21:00:04.012Z",
+      "error": "The operation was aborted due to timeout"
     },
     "mt_ashland": {
       "ok": true,
-      "count": 0,
+      "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:11.362Z",
-      "last_attempt": "2026-10-26T15:10:11.362Z",
+      "last_ok": "2026-10-26T21:00:24.014Z",
+      "last_attempt": "2026-10-26T21:00:24.014Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:26.576Z",
-      "last_attempt": "2026-10-26T15:10:26.576Z",
+      "last_ok": "2026-10-26T21:00:40.353Z",
+      "last_attempt": "2026-10-26T21:00:40.353Z",
       "error": null
     },
     "craterian": {
@@ -64,63 +64,63 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-10-26T04:43:22.928Z",
-      "last_attempt": "2026-10-26T15:10:28.015Z",
-      "error": "The operation was aborted due to timeout"
+      "last_attempt": "2026-10-26T21:00:41.206Z",
+      "error": "fetch failed"
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:48.016Z",
-      "last_attempt": "2026-10-26T15:10:48.016Z",
+      "last_ok": "2026-10-26T21:00:51.335Z",
+      "last_attempt": "2026-10-26T21:00:51.335Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 76,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:48.474Z",
-      "last_attempt": "2026-10-26T15:10:48.474Z",
+      "last_ok": "2026-10-26T21:00:51.788Z",
+      "last_attempt": "2026-10-26T21:00:51.788Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:52.889Z",
-      "last_attempt": "2026-10-26T15:10:52.889Z",
+      "last_ok": "2026-10-26T21:00:57.658Z",
+      "last_attempt": "2026-10-26T21:00:57.658Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:53.498Z",
-      "last_attempt": "2026-10-26T15:10:53.498Z",
+      "last_ok": "2026-10-26T21:00:58.290Z",
+      "last_attempt": "2026-10-26T21:00:58.290Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:54.110Z",
-      "last_attempt": "2026-10-26T15:10:54.110Z",
+      "last_ok": "2026-10-26T21:00:59.623Z",
+      "last_attempt": "2026-10-26T21:00:59.623Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:54.391Z",
-      "last_attempt": "2026-10-26T15:10:54.391Z",
+      "last_ok": "2026-10-26T21:00:59.894Z",
+      "last_attempt": "2026-10-26T21:00:59.894Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-26T15:10:57.693Z",
-      "last_attempt": "2026-10-26T15:10:57.693Z",
+      "last_ok": "2026-10-26T21:01:03.295Z",
+      "last_attempt": "2026-10-26T21:01:03.295Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-26T15:10:58.892Z",
+      "last_attempt": "2026-10-26T21:01:04.412Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-19&end_date=2027-02-23"
     }
   },
@@ -2101,12 +2101,13 @@
     "Mt Ashland Lodge": {
       "url": "https://www.mtashland.com/event-directory/",
       "city": "Ashland",
-      "notes": "",
-      "address": "",
+      "notes": "Outdoor stages at the Mt. Ashland Ski Area, elevation 6,500 ft",
+      "address": "11 Mt. Ashland Ski Road, Ashland, OR 97520",
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "mt_ashland"
       ]
     },
     "Music on Porch": {
@@ -5043,25 +5044,6 @@
       "genres": []
     },
     {
-      "id": "e7c7c5c4bc7e6300",
-      "date": "2026-10-24",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Electric Eel w/ Blackstrap Bluegrass",
-      "genre": "",
-      "link": "https://talentclublive.com/event/electric-eel-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/electric-eel-2/",
-      "genres": [
-        "Bluegrass"
-      ]
-    },
-    {
       "id": "0a65134287afa8bc",
       "date": "2026-10-24",
       "start_raw": "2100",
@@ -6450,22 +6432,6 @@
       "genres": []
     },
     {
-      "id": "cf33199b20feca27",
-      "date": "2026-11-01",
-      "start_raw": "1400",
-      "end_raw": "1600",
-      "musician": "Aaron Reed",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Tiffany's Marketplace",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "3f5f4606d0b502be",
       "date": "2026-11-01",
       "start_raw": "1500",
@@ -6864,6 +6830,22 @@
       "event_type": "Band",
       "source": "la_baguette",
       "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/7/jim-quinby-and-julia-roupp",
+      "genres": []
+    },
+    {
+      "id": "bb5e0d2ad47f006b",
+      "date": "2026-11-07",
+      "start_raw": "1400",
+      "end_raw": "1900",
+      "musician": "Mt. Ashland Winter Kick-Off",
+      "genre": "",
+      "link": "https://www.mtashland.com/events/mt-ashland-winter-kick-off/",
+      "link_name": "",
+      "venue": "Mt Ashland Lodge",
+      "notes": "",
+      "event_type": "Band",
+      "source": "mt_ashland",
+      "source_url": "https://www.mtashland.com/events/mt-ashland-winter-kick-off/",
       "genres": []
     },
     {
@@ -7964,24 +7946,6 @@
       "genres": []
     },
     {
-      "id": "110c1dcf643cc918",
-      "date": "2026-11-22",
-      "start_raw": "1400",
-      "end_raw": "1600",
-      "musician": "Jen Ambrose",
-      "genre": "blues",
-      "link": "",
-      "link_name": "",
-      "venue": "Tiffany's Marketplace",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": [
-        "Blues"
-      ]
-    },
-    {
       "id": "f8f60d887bf0665e",
       "date": "2026-11-22",
       "start_raw": "1600",
@@ -8227,6 +8191,22 @@
       "genres": []
     },
     {
+      "id": "3fd239be3be2e66e",
+      "date": "2026-11-28",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Alissa & the Side Effects",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "a53c628d1e426a76",
       "date": "2026-11-28",
       "start_raw": "1630",
@@ -8303,22 +8283,6 @@
       "link": "",
       "link_name": "",
       "venue": "Moxie Brew",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "3e4a15e553ab02bd",
-      "date": "2026-11-29",
-      "start_raw": "1400",
-      "end_raw": "1600",
-      "musician": "Phillip Reed",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -8654,22 +8618,6 @@
       "link": "",
       "link_name": "",
       "venue": "Paschal Winery",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "f23ee041f3b78eea",
-      "date": "2026-12-06",
-      "start_raw": "1400",
-      "end_raw": "1600",
-      "musician": "Tristan Moonbow Duo",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -9033,22 +8981,6 @@
       "genres": []
     },
     {
-      "id": "38c446334907f0eb",
-      "date": "2026-12-20",
-      "start_raw": "1400",
-      "end_raw": "1600",
-      "musician": "Papermoon",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Tiffany's Marketplace",
-      "notes": "",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "da5500cae3081297",
       "date": "2026-12-20",
       "start_raw": "1400",
@@ -9146,6 +9078,22 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "f9a35e2427927285",
+      "date": "2026-12-26",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "The Smokin' Gundersons",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
