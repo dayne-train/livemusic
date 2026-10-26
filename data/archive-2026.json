@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2113,
+  "event_count": 2130,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -66,6 +66,18 @@
       "type": "Other",
       "_sources": [
         "musiclist_txt"
+      ]
+    },
+    "Ashland Armory": {
+      "url": "https://www.liveatthearmory.com/",
+      "city": "Ashland",
+      "notes": "",
+      "address": "208 Oak St, Ashland OR",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt",
+        "armory"
       ]
     },
     "Bayer Family Estate": {
@@ -544,6 +556,18 @@
         "musiclist_txt"
       ]
     },
+    "Holly Theater": {
+      "url": "https://www.hollytheatre.org/",
+      "city": "Medford",
+      "notes": "",
+      "address": "226 W 6th St, Medford OR",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "musiclist_txt",
+        "holly"
+      ]
+    },
     "Hummingbird Estate": {
       "url": "https://www.hummingbirdestate.com/",
       "city": "Central Point",
@@ -780,13 +804,12 @@
     "Mt Ashland Lodge": {
       "url": "https://www.mtashland.com/event-directory/",
       "city": "Ashland",
-      "notes": "Outdoor stages at the Mt. Ashland Ski Area, elevation 6,500 ft",
-      "address": "11 Mt. Ashland Ski Road, Ashland, OR 97520",
+      "notes": "",
+      "address": "",
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "mt_ashland"
+        "musiclist_txt"
       ]
     },
     "Naumes Suncrest Winery": {
@@ -36259,6 +36282,290 @@
         "Country",
         "Rock"
       ]
+    },
+    {
+      "id": "766d931437431531",
+      "date": "2026-10-25",
+      "start_raw": "1300",
+      "end_raw": "1600",
+      "musician": "Actual Wolf",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Wooldridge Creek Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "842233c4bcfa9acc",
+      "date": "2026-10-25",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Aimee Barbuto",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Tiffany's Marketplace",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "bce0be9a5e4bd786",
+      "date": "2026-10-25",
+      "start_raw": "1400",
+      "end_raw": "1600",
+      "musician": "Shae & Jenni",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Daisy Creek Vineyard",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2c85fbc467fa9e43",
+      "date": "2026-10-25",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Kristen Calvin & Robbie Dacosta",
+      "genre": "",
+      "link": "",
+      "link_name": "Kristen Calvin",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4790cbef4bc8d6cc",
+      "date": "2026-10-25",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Del Rio Vineyards",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "1f43e3a1e80f49fc",
+      "date": "2026-10-25",
+      "start_raw": "1530",
+      "end_raw": "1730",
+      "musician": "Canto Sol",
+      "genre": "Latin",
+      "link": "",
+      "link_name": "",
+      "venue": "Paschal Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Latin"
+      ]
+    },
+    {
+      "id": "0c739dbde66fcd42",
+      "date": "2026-10-25",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Starvation Heights",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Rellik Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "cb8405160b78fc3c",
+      "date": "2026-10-25",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "Vanessa Finney Jazz Duet",
+      "genre": "",
+      "link": "",
+      "link_name": "Vanessa Finney",
+      "venue": "Roxy Ann Winery",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
+    },
+    {
+      "id": "170fcd55c0841f33",
+      "date": "2026-10-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "David Pinsky & Phil Newton",
+      "genre": "",
+      "link": "",
+      "link_name": "David Pinsky",
+      "venue": "Tap & Vine",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "60536b97516bc7d6",
+      "date": "2026-10-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Bim Jeam & The Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "Bim Jeam and the Sadness",
+      "venue": "Padigan Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "713165d2d064b632",
+      "date": "2026-10-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Sterling Vintage Jazz",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Jazz"
+      ]
+    },
+    {
+      "id": "cc7c2ba81addd1ef",
+      "date": "2026-10-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "daff17cb3b6afeda",
+      "date": "2026-10-25",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "David & Phil Blues Duo",
+      "genre": "",
+      "link": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "link_name": "",
+      "venue": "Tap & Vine",
+      "notes": "On the patio",
+      "event_type": "Band",
+      "source": "tap_and_vine",
+      "source_url": "https://tapandvine559.com/medford-the-village-tap-and-vine-at-559-events",
+      "genres": [
+        "Blues"
+      ]
+    },
+    {
+      "id": "7be18b7ca6252718",
+      "date": "2026-10-25",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "musician": "Charlee Prayers or Robbie DaCosta",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Jefferson Spirits",
+      "notes": "Robbie DaCosta and Charlee Prayers alternate hosting",
+      "event_type": "Open Mic",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7692a77207af7ba4",
+      "date": "2026-10-25",
+      "start_raw": "1830",
+      "end_raw": "2330",
+      "end_estimated": false,
+      "musician": "Bridge City Sinners",
+      "genre": "",
+      "link": "https://www.tixr.com/groups/1988entertainment/events/bridge-city-sinners-trick-or-treat-200324",
+      "link_name": "",
+      "venue": "Ashland Armory",
+      "notes": "Pre-Sale Tickets $30 Available. Doors 6:30 PM / Show 7:30 PM. All Ages",
+      "event_type": "Band",
+      "source": "armory",
+      "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/10/25/bridg-city-sinners",
+      "genres": []
+    },
+    {
+      "id": "950286e243931678",
+      "date": "2026-10-25",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "17725a70bb8665f9",
+      "date": "2026-10-25",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "Lyle Lovett",
+      "genre": "",
+      "link": "https://hollytheatre.ticketspice.com/lyle-lovett",
+      "link_name": "",
+      "venue": "Holly Theater",
+      "notes": "Doors 6:30 PM",
+      "event_type": "Band",
+      "source": "holly",
+      "source_url": "https://hollytheatre.ticketspice.com/lyle-lovett",
+      "genres": []
     }
   ]
 }
