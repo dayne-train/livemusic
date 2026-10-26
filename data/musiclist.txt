@@ -1,5 +1,5 @@
 --timestamp
-10/24/2026 13:04
+10/25/2026 18:06
 --news
 * date | notes
 --musicians
@@ -576,7 +576,7 @@ Bluebirds||||Dos Mariposas Vineyards||10/31/26|1500|1700|Halloween songs|Band|26
 Jeff Kloetzel||||Naumes Suncrest Winery||10/31/26|1500|1700||Band|26/09/29 11:51AM|0|
 Pozitronics||||Padigan Wines||10/31/26|1700|1900|Costume Party|Band||6|
 Milo Matthews Band||||Valley View Winery||10/31/26|1700|2000||Band|26/09/04 12:54PM|2|
-Encore Five||||Belle Fiore||10/31/26|1730|1930||Band||6|
+Encore Five||||Belle Fiore||10/31/26|1730|1930|Halloween costume/party|Band|26/10/25 18:06PM|3|
 Robbie Dacosta Band|||Robbie Dacosta|Dunbar Farms||10/31/26|1730|1930|Halloween Party|Band|26/09/29 11:51AM|0|
 Avery Goffinet||||The Miner's Bazaar||10/31/26|1730|1930||Band|26/10/22 14:40PM|1|
 Saucy||||Apple Outlaw Taproom||10/31/26|1800|2100||Band|26/10/22 14:40PM|1|
@@ -587,6 +587,7 @@ Bryan Oliver||||Bella Union||10/31/26|1900|2200||Band|26/09/29 11:51AM|0|
 Shakedown||||Corvette Bar & Grill||10/31/26|2000|1200|Halloween Party, costume contest with cash prizes|Band|26/10/22 14:40PM|1|
 Hopfinger Wishes||||Sams Creek Cellars||11/01/26|1400|1600||Band|26/10/22 14:40PM|1|
 Aaron Reed||||Tiffany's Marketplace||11/01/26|1400|1600||Band|26/09/04 12:54PM|2|
+Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Pebblestone Cellars||11/01/26|1500|1700||Solo|26/10/25 16:39PM|3|
 Living Loving Led||||Roxy Ann Winery||11/01/26|1600|1800||Band||6|
 Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||11/01/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|26/10/22 14:40PM|4|
 Paul Schmeling Quartet||||Martino's Upstairs||11/02/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/10/16 10:53AM|4|

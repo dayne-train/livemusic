@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-25T22:32:59.245Z",
-  "source_timestamp": "10/24/2026 13:04",
-  "content_hash": "99eafe6588bd8e5d",
+  "generated_at": "2026-10-26T04:44:34.067Z",
+  "source_timestamp": "10/25/2026 18:06",
+  "content_hash": "a8cd24e1682f8ade",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 225,
+      "count": 226,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-25T22:31:29.703Z",
-      "last_attempt": "2026-10-25T22:31:29.703Z",
+      "last_ok": "2026-10-26T04:43:08.736Z",
+      "last_attempt": "2026-10-26T04:43:08.736Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 15,
+      "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:31:29.985Z",
-      "last_attempt": "2026-10-25T22:31:29.985Z",
+      "last_ok": "2026-10-26T04:43:08.967Z",
+      "last_attempt": "2026-10-26T04:43:08.967Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:31:30.972Z",
-      "last_attempt": "2026-10-25T22:31:30.972Z",
+      "last_ok": "2026-10-26T04:43:09.857Z",
+      "last_attempt": "2026-10-26T04:43:09.857Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:31:31.270Z",
-      "last_attempt": "2026-10-25T22:31:31.270Z",
+      "last_ok": "2026-10-26T04:43:10.371Z",
+      "last_attempt": "2026-10-26T04:43:10.371Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:31:34.165Z",
-      "last_attempt": "2026-10-25T22:31:34.165Z",
+      "last_ok": "2026-10-26T04:43:12.729Z",
+      "last_attempt": "2026-10-26T04:43:12.729Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:31:34.633Z",
-      "last_attempt": "2026-10-25T22:31:34.633Z",
+      "last_ok": "2026-10-26T04:43:13.224Z",
+      "last_attempt": "2026-10-26T04:43:13.224Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:31:41.134Z",
-      "last_attempt": "2026-10-25T22:31:41.134Z",
+      "last_ok": "2026-10-26T04:43:21.332Z",
+      "last_attempt": "2026-10-26T04:43:21.332Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:31:42.800Z",
-      "last_attempt": "2026-10-25T22:31:42.800Z",
+      "last_ok": "2026-10-26T04:43:22.928Z",
+      "last_attempt": "2026-10-26T04:43:22.928Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:32:48.161Z",
-      "last_attempt": "2026-10-25T22:32:48.161Z",
+      "last_ok": "2026-10-26T04:44:26.183Z",
+      "last_attempt": "2026-10-26T04:44:26.183Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 78,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:32:48.671Z",
-      "last_attempt": "2026-10-25T22:32:48.671Z",
+      "last_ok": "2026-10-26T04:44:26.624Z",
+      "last_attempt": "2026-10-26T04:44:26.624Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:32:54.879Z",
-      "last_attempt": "2026-10-25T22:32:54.879Z",
+      "last_ok": "2026-10-26T04:44:30.149Z",
+      "last_attempt": "2026-10-26T04:44:30.149Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:32:55.417Z",
-      "last_attempt": "2026-10-25T22:32:55.417Z",
+      "last_ok": "2026-10-26T04:44:30.646Z",
+      "last_attempt": "2026-10-26T04:44:30.646Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:32:56.023Z",
-      "last_attempt": "2026-10-25T22:32:56.023Z",
+      "last_ok": "2026-10-26T04:44:31.091Z",
+      "last_attempt": "2026-10-26T04:44:31.091Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:32:56.280Z",
-      "last_attempt": "2026-10-25T22:32:56.280Z",
+      "last_ok": "2026-10-26T04:44:31.246Z",
+      "last_attempt": "2026-10-26T04:44:31.246Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-25T22:32:57.952Z",
-      "last_attempt": "2026-10-25T22:32:57.952Z",
+      "last_ok": "2026-10-26T04:44:32.882Z",
+      "last_attempt": "2026-10-26T04:44:32.882Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-25T22:32:58.917Z",
+      "last_attempt": "2026-10-26T04:44:33.957Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-18&end_date=2027-02-22"
     }
   },
@@ -5282,22 +5282,15 @@
       "end_raw": "1800",
       "musician": "Vanessa Finney Jazz Duet",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-jazz-duet-october-25/",
+      "link": "",
       "link_name": "Vanessa Finney",
       "venue": "Roxy Ann Winery",
-      "notes": "Vanessa is a singer based in Ashland, OR with a wide repertoire of jazz styles. Since 2018, Vanessa has been bringing the bella vita atmosphere of jazz to Southern Oregon Wine Country.\n\nJoin us at Rox",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-vanessa-finney-jazz-duet-october-25/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "849e93af14e4e5c8"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Jazz",
-        "Country"
+        "Jazz"
       ]
     },
     {
@@ -5466,26 +5459,6 @@
       "genres": []
     },
     {
-      "id": "9adcd8d5743ed576",
-      "date": "2026-10-25",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
-      ]
-    },
-    {
       "id": "70d702d473e59ace",
       "date": "2026-10-26",
       "start_raw": "1700",
@@ -5517,6 +5490,26 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "67dd120ad7f91f4f",
+      "date": "2026-10-26",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     },
     {
       "id": "b9a5be0faf7cf6d6",
@@ -6332,7 +6325,7 @@
       "link": "https://bellefiorewine.com/event/live-music-encore-five-halloween-show/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Celebrate Halloween with the talented 5-piece ensemble Encore Five, bringing passion and excitement to a wide range of music, from Blues to Santana to Swing.",
+      "notes": "Halloween costume/party",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-encore-five-halloween-show/",
@@ -6342,10 +6335,7 @@
           "id": "45431acda491dcdb"
         }
       ],
-      "genres": [
-        "Blues",
-        "Swing"
-      ]
+      "genres": []
     },
     {
       "id": "d05538aaab3a16ef",
@@ -6577,6 +6567,22 @@
       "venue": "Tiffany's Marketplace",
       "notes": "",
       "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3f5f4606d0b502be",
+      "date": "2026-11-01",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Jen Ambrose w/ Jon Galfano",
+      "genre": "",
+      "link": "",
+      "link_name": "Jen Ambrose",
+      "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Solo",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
