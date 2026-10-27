@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-27T14:29:15.402Z",
+  "generated_at": "2026-10-27T20:42:10.481Z",
   "source_timestamp": "10/26/2026 12:36",
-  "content_hash": "7c0ace60008c1a69",
+  "content_hash": "eb5e4d6fb758290a",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 223,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-27T14:28:39.980Z",
-      "last_attempt": "2026-10-27T14:28:39.980Z",
+      "last_ok": "2026-10-27T20:40:43.931Z",
+      "last_attempt": "2026-10-27T20:40:43.931Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 13,
+      "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:28:40.291Z",
-      "last_attempt": "2026-10-27T14:28:40.291Z",
+      "last_ok": "2026-10-27T20:40:44.143Z",
+      "last_attempt": "2026-10-27T20:40:44.143Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:28:41.566Z",
-      "last_attempt": "2026-10-27T14:28:41.566Z",
+      "last_ok": "2026-10-27T20:40:45.010Z",
+      "last_attempt": "2026-10-27T20:40:45.010Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:28:41.917Z",
-      "last_attempt": "2026-10-27T14:28:41.917Z",
+      "last_ok": "2026-10-27T20:40:45.402Z",
+      "last_attempt": "2026-10-27T20:40:45.402Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:28:44.229Z",
-      "last_attempt": "2026-10-27T14:28:44.229Z",
+      "last_ok": "2026-10-27T20:40:48.570Z",
+      "last_attempt": "2026-10-27T20:40:48.570Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:28:44.807Z",
-      "last_attempt": "2026-10-27T14:28:44.807Z",
+      "last_ok": "2026-10-27T20:40:49.107Z",
+      "last_attempt": "2026-10-27T20:40:49.107Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:28:52.193Z",
-      "last_attempt": "2026-10-27T14:28:52.193Z",
+      "last_ok": "2026-10-27T20:40:54.189Z",
+      "last_attempt": "2026-10-27T20:40:54.189Z",
       "error": null
     },
     "craterian": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-10-27T05:00:21.393Z",
-      "last_attempt": "2026-10-27T14:28:53.226Z",
-      "error": "fetch failed"
+      "ok": true,
+      "count": 15,
+      "strategy": "live",
+      "last_ok": "2026-10-27T20:40:55.924Z",
+      "last_attempt": "2026-10-27T20:40:55.924Z",
+      "error": null
     },
     "holly": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:29:03.684Z",
-      "last_attempt": "2026-10-27T14:29:03.684Z",
+      "last_ok": "2026-10-27T20:41:59.963Z",
+      "last_attempt": "2026-10-27T20:41:59.963Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 76,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:29:04.066Z",
-      "last_attempt": "2026-10-27T14:29:04.066Z",
+      "last_ok": "2026-10-27T20:42:00.640Z",
+      "last_attempt": "2026-10-27T20:42:00.640Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:29:09.017Z",
-      "last_attempt": "2026-10-27T14:29:09.017Z",
+      "last_ok": "2026-10-27T20:42:05.933Z",
+      "last_attempt": "2026-10-27T20:42:05.933Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:29:11.080Z",
-      "last_attempt": "2026-10-27T14:29:11.080Z",
+      "last_ok": "2026-10-27T20:42:06.576Z",
+      "last_attempt": "2026-10-27T20:42:06.576Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:29:11.573Z",
-      "last_attempt": "2026-10-27T14:29:11.573Z",
+      "last_ok": "2026-10-27T20:42:07.104Z",
+      "last_attempt": "2026-10-27T20:42:07.104Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:29:11.910Z",
-      "last_attempt": "2026-10-27T14:29:11.910Z",
+      "last_ok": "2026-10-27T20:42:07.287Z",
+      "last_attempt": "2026-10-27T20:42:07.287Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-27T14:29:13.794Z",
-      "last_attempt": "2026-10-27T14:29:13.794Z",
+      "last_ok": "2026-10-27T20:42:09.090Z",
+      "last_attempt": "2026-10-27T20:42:09.090Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-27T14:29:15.052Z",
+      "last_attempt": "2026-10-27T20:42:10.320Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-20&end_date=2027-02-24"
     }
   },
@@ -3799,6 +3799,17 @@
         "musiclist_txt"
       ]
     },
+    "Craterian Theater": {
+      "url": "https://craterian.org/",
+      "city": "Medford",
+      "notes": "",
+      "address": "23 S Central Ave, Medford OR",
+      "region": "Medford",
+      "type": "Other",
+      "_sources": [
+        "craterian"
+      ]
+    },
     "Rogue Theatre": {
       "url": "https://www.roguetheatre.org/",
       "city": "Grants Pass",
@@ -4506,6 +4517,23 @@
       "genres": []
     },
     {
+      "id": "e5cf0ad369bf025c",
+      "date": "2026-10-23",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Yesterday and Today, The Interactive Beatles Experience",
+      "genre": "",
+      "link": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$28-$44 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
+      "genres": []
+    },
+    {
       "id": "fc64fc8aadad50d0",
       "date": "2026-10-23",
       "start_raw": "2000",
@@ -4623,6 +4651,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "18a0ad3bf540bc1e",
+      "date": "2026-10-24",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Masterworks 2",
+      "genre": "",
+      "link": "https://craterian.org/event/masterworks-2/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/masterworks-2/",
       "genres": []
     },
     {
@@ -6883,6 +6928,23 @@
       "genres": []
     },
     {
+      "id": "2903b33cebf758a1",
+      "date": "2026-11-07",
+      "start_raw": "1730",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Warren Miller's Days Off",
+      "genre": "",
+      "link": "https://craterian.org/event/warren-millers-days-off/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$20-$30 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/warren-millers-days-off/",
+      "genres": []
+    },
+    {
       "id": "ae73a658a93837d7",
       "date": "2026-11-07",
       "start_raw": "1800",
@@ -7030,6 +7092,24 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "1c7f9b674cbce681",
+      "date": "2026-11-08",
+      "start_raw": "1600",
+      "end_raw": "1800",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Jason Wolverton",
+      "genre": "",
+      "link": "https://roxyann.com/event/free-music-wine-series-featuring-jason-wolverton-november-8/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "Jason is a classical guitarist based in Southern Oregon. Join us for a relaxing Sunday afternoon: listen to amazing music while sipping on some delicious & award-winning wines, or crisp & refreshing b",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-jason-wolverton-november-8/",
+      "genres": [
+        "Classical"
+      ]
     },
     {
       "id": "cf7abc1426efeee8",
@@ -7415,6 +7495,23 @@
       "genres": []
     },
     {
+      "id": "31d56b8d26915bed",
+      "date": "2026-11-14",
+      "start_raw": "1930",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Youth Symphony of Southern Oregon Fall 2026",
+      "genre": "",
+      "link": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$14-$19 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
+      "genres": []
+    },
+    {
       "id": "2de297580b6bcc35",
       "date": "2026-11-15",
       "start_raw": "1400",
@@ -7672,6 +7769,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "8c977a23bd56b71a",
+      "date": "2026-11-20",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Robbie DeCosta",
+      "genre": "",
+      "link": "https://roxyann.com/event/music-wine-series-featuring-robbie-decosta-november-20/",
+      "link_name": "",
+      "venue": "Roxy Ann Winery",
+      "notes": "A guitarist and singer with a ba-zillion tunes and wide appeal, Robbie plays everything from R&B, rockabilly, ballads,- music from the 1950s through the 1970s.\n\nJoin us at RoxyAnn Winery for a Friday ",
+      "event_type": "Band",
+      "source": "tribe_ics:roxyann",
+      "source_url": "https://roxyann.com/event/music-wine-series-featuring-robbie-decosta-november-20/",
+      "genres": [
+        "Rockabilly",
+        "Funk / Soul"
+      ]
     },
     {
       "id": "9dbb4eb11e52565f",
@@ -8339,6 +8455,23 @@
       "genres": []
     },
     {
+      "id": "d87133760c04d394",
+      "date": "2026-11-30",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "HOME FREE: Coming Home for the Holidays",
+      "genre": "",
+      "link": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$60-$162 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/home-free-coming-home-for-the-holidays/",
+      "genres": []
+    },
+    {
       "id": "27723964b7c0901f",
       "date": "2026-12-01",
       "start_raw": "1930",
@@ -8457,6 +8590,23 @@
       "genres": []
     },
     {
+      "id": "97505b72d25c0e33",
+      "date": "2026-12-04",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "ANDY GRAMMER – Greater Than Pt. II: A One Man Show",
+      "genre": "",
+      "link": "https://craterian.org/event/andy-grammer-one-man-show/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$70-$260 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/andy-grammer-one-man-show/",
+      "genres": []
+    },
+    {
       "id": "23a2fb85f28f803e",
       "date": "2026-12-04",
       "start_raw": "2100",
@@ -8504,6 +8654,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3ab5b2a35794dd66",
+      "date": "2026-12-05",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": true,
+      "musician": "Home for the Holidays: Songs for the Season",
+      "genre": "",
+      "link": "https://craterian.org/event/home-for-the-holidays-songs-for-the-season/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/home-for-the-holidays-songs-for-the-season/",
       "genres": []
     },
     {
@@ -8962,6 +9129,25 @@
       "genres": []
     },
     {
+      "id": "43d246a699bf4856",
+      "date": "2026-12-20",
+      "start_raw": "1500",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Tomáseen Foley’s A Celtic Christmas",
+      "genre": "",
+      "link": "https://craterian.org/event/tomaseen-foleys-a-celtic-christmas-3/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$30-$48 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/tomaseen-foleys-a-celtic-christmas-3/",
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
       "id": "08b8f1e3a2d1c7bb",
       "date": "2026-12-20",
       "start_raw": "1600",
@@ -9363,6 +9549,23 @@
       ]
     },
     {
+      "id": "43849e1128bed3de",
+      "date": "2027-01-24",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "end_estimated": false,
+      "musician": "Naturally 7",
+      "genre": "",
+      "link": "https://craterian.org/event/naturally-7/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$32-$50 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/naturally-7/",
+      "genres": []
+    },
+    {
       "id": "3b82c41d05b487e2",
       "date": "2027-01-24",
       "start_raw": "1700",
@@ -9431,6 +9634,23 @@
       "genres": [
         "Celtic"
       ]
+    },
+    {
+      "id": "35129de2283144ce",
+      "date": "2027-01-30",
+      "start_raw": "1900",
+      "end_raw": "2130",
+      "end_estimated": false,
+      "musician": "3 Redneck Tenors",
+      "genre": "",
+      "link": "https://craterian.org/event/3-redneck-tenors/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$24-$39 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/3-redneck-tenors/",
+      "genres": []
     },
     {
       "id": "02f1d35b985a9fae",
@@ -9554,6 +9774,23 @@
       "genres": [
         "Country"
       ]
+    },
+    {
+      "id": "ab040221abc76db7",
+      "date": "2027-02-12",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "80s kids",
+      "genre": "",
+      "link": "https://craterian.org/event/80s-kids/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$36-$39 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/80s-kids/",
+      "genres": []
     },
     {
       "id": "0f14315d23e14d0e",
@@ -9730,6 +9967,23 @@
       "genres": []
     },
     {
+      "id": "8d8363ddeb814cc4",
+      "date": "2027-04-03",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Phat Cat Swinger",
+      "genre": "",
+      "link": "https://craterian.org/event/phat-cat-swinger/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$46-$58 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/phat-cat-swinger/",
+      "genres": []
+    },
+    {
       "id": "42aab1da1e4fd452",
       "date": "2027-04-04",
       "start_raw": "1930",
@@ -9766,6 +10020,40 @@
       ]
     },
     {
+      "id": "d4db4fcdb6efd51e",
+      "date": "2027-04-16",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "end_estimated": true,
+      "musician": "Take3 Dancing Queens: an ABBA Remix Party",
+      "genre": "",
+      "link": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$27-$42 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
+      "genres": []
+    },
+    {
+      "id": "3fbd270f9e2fac13",
+      "date": "2027-05-01",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Mat & Savanna Shaw",
+      "genre": "",
+      "link": "https://craterian.org/event/mat-savanna-shaw/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$23-$46 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/mat-savanna-shaw/",
+      "genres": []
+    },
+    {
       "id": "c18379c2e23c9f3c",
       "date": "2027-05-04",
       "start_raw": "1930",
@@ -9797,6 +10085,23 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/cal-acdc-highway-to-hell",
+      "genres": []
+    },
+    {
+      "id": "0f7b693a6283c9de",
+      "date": "2027-05-15",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "PEACHERINE RAGTIME SOCIETY ORCHESTRA",
+      "genre": "",
+      "link": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
+      "link_name": "",
+      "venue": "Craterian Theater",
+      "notes": "$34-$52 incl. fees",
+      "event_type": "Band",
+      "source": "craterian",
+      "source_url": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
       "genres": []
     }
   ]
