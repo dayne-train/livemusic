@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2134,
+  "event_count": 2137,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -35252,6 +35252,23 @@
       "genres": []
     },
     {
+      "id": "36ffe318372f589a",
+      "date": "2026-10-22",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Jim and Julia",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "5ca36531f6e255a8",
       "date": "2026-10-22",
       "start_raw": "1800",
@@ -35809,6 +35826,23 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
+      "genres": []
+    },
+    {
+      "id": "dbc9a4d13f9974f0",
+      "date": "2026-10-24",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Mark Turnbull",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
       "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
       "genres": []
     },
@@ -36465,6 +36499,23 @@
       "genres": [
         "Jazz"
       ]
+    },
+    {
+      "id": "a75dccffd708db95",
+      "date": "2026-10-25",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
     },
     {
       "id": "cc7c2ba81addd1ef",
