@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-30T15:02:54.638Z",
+  "generated_at": "2026-10-30T20:47:50.776Z",
   "source_timestamp": "10/29/2026 14:20",
-  "content_hash": "ca73a4bfeff4a309",
+  "content_hash": "224594fe7df4b9a6",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 267,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-30T15:01:18.433Z",
-      "last_attempt": "2026-10-30T15:01:18.433Z",
+      "last_ok": "2026-10-30T20:46:20.559Z",
+      "last_attempt": "2026-10-30T20:46:20.559Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:01:18.685Z",
-      "last_attempt": "2026-10-30T15:01:18.685Z",
+      "last_ok": "2026-10-30T20:46:20.909Z",
+      "last_attempt": "2026-10-30T20:46:20.909Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:01:23.470Z",
-      "last_attempt": "2026-10-30T15:01:23.470Z",
+      "last_ok": "2026-10-30T20:46:21.811Z",
+      "last_attempt": "2026-10-30T20:46:21.811Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:01:23.739Z",
-      "last_attempt": "2026-10-30T15:01:23.739Z",
+      "last_ok": "2026-10-30T20:46:22.432Z",
+      "last_attempt": "2026-10-30T20:46:22.432Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:01:34.067Z",
-      "last_attempt": "2026-10-30T15:01:34.067Z",
+      "last_ok": "2026-10-30T20:46:29.296Z",
+      "last_attempt": "2026-10-30T20:46:29.296Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:01:34.547Z",
-      "last_attempt": "2026-10-30T15:01:34.547Z",
+      "last_ok": "2026-10-30T20:46:29.789Z",
+      "last_attempt": "2026-10-30T20:46:29.789Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:01:43.560Z",
-      "last_attempt": "2026-10-30T15:01:43.560Z",
+      "last_ok": "2026-10-30T20:46:33.035Z",
+      "last_attempt": "2026-10-30T20:46:33.035Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:01:44.360Z",
-      "last_attempt": "2026-10-30T15:01:44.360Z",
+      "last_ok": "2026-10-30T20:46:34.593Z",
+      "last_attempt": "2026-10-30T20:46:34.593Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:02:44.490Z",
-      "last_attempt": "2026-10-30T15:02:44.490Z",
+      "last_ok": "2026-10-30T20:47:38.634Z",
+      "last_attempt": "2026-10-30T20:47:38.634Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 78,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:02:44.938Z",
-      "last_attempt": "2026-10-30T15:02:44.938Z",
+      "last_ok": "2026-10-30T20:47:39.088Z",
+      "last_attempt": "2026-10-30T20:47:39.088Z",
       "error": null
     },
     "code4": {
       "ok": true,
-      "count": 4,
+      "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:02:49.648Z",
-      "last_attempt": "2026-10-30T15:02:49.648Z",
+      "last_ok": "2026-10-30T20:47:44.883Z",
+      "last_attempt": "2026-10-30T20:47:44.883Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:02:50.267Z",
-      "last_attempt": "2026-10-30T15:02:50.267Z",
+      "last_ok": "2026-10-30T20:47:45.634Z",
+      "last_attempt": "2026-10-30T20:47:45.634Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:02:50.651Z",
-      "last_attempt": "2026-10-30T15:02:50.651Z",
+      "last_ok": "2026-10-30T20:47:46.967Z",
+      "last_attempt": "2026-10-30T20:47:46.967Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:02:50.945Z",
-      "last_attempt": "2026-10-30T15:02:50.945Z",
+      "last_ok": "2026-10-30T20:47:47.224Z",
+      "last_attempt": "2026-10-30T20:47:47.224Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-30T15:02:53.167Z",
-      "last_attempt": "2026-10-30T15:02:53.167Z",
+      "last_ok": "2026-10-30T20:47:49.120Z",
+      "last_attempt": "2026-10-30T20:47:49.120Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-30T15:02:54.311Z",
+      "last_attempt": "2026-10-30T20:47:50.413Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-23&end_date=2027-02-27"
     }
   },
@@ -5379,6 +5379,23 @@
       "genres": []
     },
     {
+      "id": "acf5be9cd177b2a4",
+      "date": "2026-11-02",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-29/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-29/",
+      "genres": []
+    },
+    {
       "id": "22e3c206e281289d",
       "date": "2026-11-02",
       "start_raw": "1900",
@@ -5642,6 +5659,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "7ca21da3490744e6",
+      "date": "2026-11-06",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-mitchell-brothers/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-mitchell-brothers/",
       "genres": []
     },
     {
@@ -6321,22 +6355,39 @@
       "genres": []
     },
     {
-      "id": "1c7f9b674cbce681",
+      "id": "cecb0f365cacb362",
       "date": "2026-11-08",
       "start_raw": "1600",
       "end_raw": "1800",
-      "musician": "FREE MUSIC + WINE SERIES FEATURING Jason Wolverton",
+      "musician": "FREE MUSIC + WINE SERIES FEATURING Jason Wolverton & Michael Vannice",
       "genre": "",
       "link": "https://roxyann.com/event/free-music-wine-series-featuring-jason-wolverton-november-8/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Jason is a classical guitarist based in Southern Oregon. Join us for a relaxing Sunday afternoon: listen to amazing music while sipping on some delicious & award-winning wines, or crisp & refreshing b",
+      "notes": "Jason is a classical guitarist based in Southern Oregon. He will be joined by Michael Vannice for a relaxing Sunday afternoon of amazing music. Sip on some delicious & award-winning wines, or crisp & ",
       "event_type": "Band",
       "source": "tribe_ics:roxyann",
       "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-jason-wolverton-november-8/",
       "genres": [
         "Classical"
       ]
+    },
+    {
+      "id": "542a358f5246302b",
+      "date": "2026-11-08",
+      "start_raw": "1600",
+      "end_raw": "1900",
+      "end_estimated": false,
+      "musician": "David Kai",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-david-kai-2/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-david-kai-2/",
+      "genres": []
     },
     {
       "id": "eee78b59a4bdb1ed",
@@ -6423,6 +6474,23 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "4f00b7c544a7cf96",
+      "date": "2026-11-09",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-30/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-30/",
       "genres": []
     },
     {
@@ -6763,6 +6831,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "18b1ac23d3854770",
+      "date": "2026-11-13",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "No Ordinary Love",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-no-ordinary-love-2/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-no-ordinary-love-2/",
       "genres": []
     },
     {
@@ -7254,6 +7339,23 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "52b00d8b526dd13c",
+      "date": "2026-11-16",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-31/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-31/",
       "genres": []
     },
     {
@@ -7938,6 +8040,23 @@
       "genres": []
     },
     {
+      "id": "7224e1f2e81b63d5",
+      "date": "2026-11-21",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Gretchen Owens Live",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/gretchen-owens-live/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/gretchen-owens-live/",
+      "genres": []
+    },
+    {
       "id": "898282b9e4e7b007",
       "date": "2026-11-21",
       "start_raw": "2000",
@@ -8103,6 +8222,23 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "525bd061c35819c9",
+      "date": "2026-11-23",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-32/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-32/",
       "genres": []
     },
     {
@@ -8323,6 +8459,23 @@
       "genres": []
     },
     {
+      "id": "accae11a134b7c20",
+      "date": "2026-11-27",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Starvation Heights",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-starvation-heights-2/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-starvation-heights-2/",
+      "genres": []
+    },
+    {
       "id": "4182399d17cfede1",
       "date": "2026-11-27",
       "start_raw": "1900",
@@ -8535,6 +8688,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ff3b42b875c36fbe",
+      "date": "2026-11-28",
+      "start_raw": "1800",
+      "end_raw": "2100",
+      "end_estimated": false,
+      "musician": "Velvet Cheetah Duo",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/live-music-w-velvet-cheetah-duo/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Band",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/live-music-w-velvet-cheetah-duo/",
       "genres": []
     },
     {
