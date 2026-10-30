@@ -1,5 +1,5 @@
 --timestamp
-10/28/2026 10:26
+10/29/2026 14:20
 --news
 * date | notes
 --musicians
@@ -469,7 +469,6 @@ Yreka Golden City Days|https://www.yrekagoldencitydays.com/|Yreka|N||Ashland|Oth
 Zi Spice|https://www.zispice.com/|Ashland|N||Ashland|Other||
 --events
 * musician | genre | link | link name | venue | venuelink | date | time | end time | notes | event Type
-Jeff Kloetzel||||The Gold Room||10/27/26|1800|2000||Band|26/09/29 11:51AM|2|
 Mitchell Brothers||||Local Vines Wine Bar||10/28/26|1700|1900||Band|26/10/22 14:40PM|1|
 Shae & Jenni||||Padigan Wines||10/28/26|1700|1900||Band|26/10/22 14:40PM|1|
 Brisbane Project Duo||||Tap & Vine||10/28/26|1700|1900||Band|26/10/22 14:40PM|1|
@@ -483,11 +482,12 @@ Trebled Souls||||Wild Goose Cafe||10/29/26|1800|2030||Band|26/09/29 11:51AM|0|
 Paul Jenny & Tom Freeman||||Bella Union||10/29/26|1900|2100||Band|26/09/29 11:51AM|0|
 Enoch and David||||Pebblestone Cellars||10/30/26|1700|1900||Band|26/08/13 13:59PM|6|
 Connor Reese||||Rellik Winery||10/30/26|1700|1900||Band|26/09/29 11:51AM|0|
+Bekkah McAlvage||||Schmidt Vineyard||10/30/26|1700|2000||Band|26/10/29 14:20PM|1|
 Mark Hill Trio||||South Stage Cellars||10/30/26|1700|1900||Band|26/10/22 14:40PM|1|
 Taurus Moon||||Tiffany's Marketplace||10/30/26|1700|1900||Band|26/09/04 12:54PM|2|
 Femme Fatale||||Trium Wines||10/30/26|1700|1900||Band|26/10/15 14:12PM|1|
 Backdoor Blues band||||Belle Fiore||10/30/26|1730|1930||Band|26/09/29 11:51AM|0|
-Nick & Shae||||Dunbar Farms||10/30/26|1730|1930||Band|26/09/29 11:51AM|0|
+Shae & Jenni||||Dunbar Farms||10/30/26|1730|1930||Band|26/10/29 14:20PM|0|
 Nicole Jasmine||||The Miner's Bazaar||10/30/26|1730|1930||Band|26/10/22 14:40PM|1|
 Bluebirds||||Art Bop Beer Co||10/30/26|1800|2000|Halloween Prefunk|Band|26/09/29 11:51AM|0|
 Live Music||||Callahan's Lodge||10/30/26|1800|2100||Band|26/10/01 14:35PM|4|
@@ -497,6 +497,7 @@ Pozitronics||||Roxy Ann Winery||10/30/26|1800|2000|Costume Party|Band||6|
 Angelic Noise||||Skout Taphouse||10/30/26|1800|2000||Band|26/10/08 12:24PM|0|
 Sonido Alegre||||Bella Union||10/30/26|1900|2200||Band|26/09/21 13:10PM|3|
 Nina & The Notes||||Liquid Lounge||10/30/26|1900|2100||Band|26/10/08 12:24PM|2|
+Two of a Kind||||Steelhead Tavern||10/30/26|1900|2200||Band|26/10/29 14:20PM|1|
 Rogue Suspects||||The Copper Plank||10/30/26|2000|1200|$15+; music of Bonnie Raitt|Band|26/10/22 14:40PM|1|
 The Flavor||||The Wonder Bur Cafe||10/30/26|2100|1200|Halloween Party; $5|Band|26/10/08 13:53PM|1|
 Pozitronics||||Rellik Winery||10/31/26|1300|1500|Halloween Costume Party|Band|26/09/11 08:05AM|3|
@@ -513,11 +514,13 @@ Live Music||||Callahan's Lodge||10/31/26|1800|2100||Band|26/10/01 14:35PM|4|
 Julia and Nick||||The Gold Room||10/31/26|1800|2000||Band|26/09/29 11:51AM|2|
 Mountaintop Sound||||Art Bop Beer Co||10/31/26|1900|2100|Halloween party|Band|26/10/08 18:23PM|3|
 Billy Rock Trio||||Bella Union||10/31/26|1900|2200||Band|26/10/28 10:26AM|0|
+The Rogue Runners||||Cedarwood Saloon||10/31/26|1900|2300|costume contest with cash prizes|Band|26/10/29 14:20PM|1|
 Shakedown||||Corvette Bar & Grill||10/31/26|2000|1200|Halloween Party, costume contest with cash prizes|Band|26/10/22 14:40PM|1|
 Hopfinger Wishes||||Sams Creek Cellars||11/01/26|1400|1600||Band|26/10/22 14:40PM|1|
 Aaron Reed||||Del Rio Vineyards||11/01/26|1500|1700||Band|26/10/28 10:26AM|0|
 No Ordinary Love||||Local Vines Wine Bar||11/01/26|1500|1700||Solo|26/10/28 10:26AM|0|
 Jen Ambrose w/ Jon Galfano|||Jen Ambrose|Pebblestone Cellars||11/01/26|1500|1700||Solo|26/10/25 16:39PM|3|
+Jeff Kloetzel||||Paschal Winery||11/01/26|1530|1730||Band|26/10/29 14:20PM|1|
 Aimee Barbuto||||Rellik Winery||11/01/26|1600|1800||Band|26/10/28 10:26AM|0|
 John Johns||||Belle Fiore||11/01/26|1700|1900||Band|26/10/28 10:26AM|6|
 Jim Quinby||||Wild Goose Cafe||11/01/26|1700|1900||Band|26/10/28 10:26AM|4|
@@ -534,6 +537,7 @@ Aaron Reed||||Bella Union||11/05/26|1900|2100||Band|26/10/28 10:26AM|0|
 David Pinsky & Phil Newton|||David Pinsky|Dancin Vineyards||11/06/26|1700|1900||Band|26/09/29 11:51AM|0|
 Rick Millward||||Padigan Wines||11/06/26|1700|1900||Band|26/08/24 16:02PM|6|
 Enoch and David||||Rellik Winery||11/06/26|1700|1900||Band||6|
+Manuel Bair||||Schmidt Vineyard||11/06/26|1700|2000||Band|26/10/29 14:20PM|1|
 Quartz Creek Band||||Tiffany's Marketplace||11/06/26|1700|1900||Band|26/09/04 12:54PM|2|
 Blue Lightning||||Belle Fiore||11/06/26|1730|1930||Band|26/10/28 10:26AM|0|
 Adam Gabriel||||Dos Mariposas Vineyards||11/06/26|1730|1930|$10|Band|26/10/28 10:26AM|0|
@@ -552,6 +556,7 @@ Michael Whipple||||Valley View Winery||11/07/26|1700|1900||Band|26/09/04 12:54PM
 Santa Fe Band||||Apple Outlaw Taproom||11/07/26|1730|1930||Band|26/08/24 10:33AM|6|
 Canto Sol||||Belle Fiore||11/07/26|1730|1930||Band|26/10/28 10:26AM|0|
 Danielle Kelly Duo|||Danielle Kelly Soul Project|Dunbar Farms||11/07/26|1730|1930||Band|26/09/29 11:51AM|0|
+Phillip Reed||||Remotion Wine||11/07/26|1730|1930||Band|26/10/29 14:20PM|1|
 Live Music||||Callahan's Lodge||11/07/26|1800|2100||Band|26/10/22 14:40PM|4|
 Steely Dean||||Local Vines Wine Bar||11/07/26|1800|2000|A Steely Dan Tribute; Tickets: $16/$20|Solo|26/10/28 10:26AM|0|
 Angelic Noise||||Moxie Brew||11/07/26|1800|2000||Band|26/09/25 13:04PM|2|
@@ -598,10 +603,11 @@ The Smokin' Gundersons||||Naumes Suncrest Winery||11/14/26|1500|1700||Band|26/10
 JustaDuo||||Dos Mariposas Vineyards||11/14/26|1600|1800||Band|26/10/28 10:26AM|0|
 J Brothers||||Rellik Winery||11/14/26|1600|1800||Band|26/10/28 10:26AM|0|
 Keenan Pruett||||Remotion Wine||11/14/26|1700|1900||Band|26/09/29 11:51AM|2|
-Cathy Bolton|||Cathy Bolton|Stone River Winery||11/14/26|1700|1900||Solo|26/10/14 10:43AM|3|
+Cathy Bolton Duo|||Cathy Bolton|Stone River Winery||11/14/26|1700|1900||Solo|26/10/29 14:20PM|1|
 Stardust Trio||||Belle Fiore||11/14/26|1730|1930||Band|26/10/28 10:26AM|0|
 Dave Brendlinger||||Dunbar Farms||11/14/26|1730|1930||Band|26/10/28 10:26AM|0|
 Live Music||||Callahan's Lodge||11/14/26|1800|2100||Band|26/10/22 14:40PM|4|
+Alcyon Massive||||Resistance Wine Company||11/14/26|1800|2000||Band|26/10/29 14:20PM|1|
 Adam Gabriel & The Cavaliers|||Adam Gabriel|Bella Union||11/14/26|1900|2200||Band|26/10/28 10:26AM|0|
 Adam Gabriel||||Dunbar Farms||11/15/26|1400|1600||Band|26/10/28 10:26AM|0|
 J.R. “Old Dog” Stevens||||Sams Creek Cellars||11/15/26|1400|1600||Band|26/10/28 10:26AM|0|
