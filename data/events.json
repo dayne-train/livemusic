@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-31T05:38:40.930Z",
+  "generated_at": "2026-10-31T14:31:46.092Z",
   "source_timestamp": "10/29/2026 14:20",
-  "content_hash": "caa97e32d2f69bde",
+  "content_hash": "8355a7144b46d040",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 267,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-31T05:37:13.251Z",
-      "last_attempt": "2026-10-31T05:37:13.251Z",
+      "last_ok": "2026-10-31T14:30:27.810Z",
+      "last_attempt": "2026-10-31T14:30:27.810Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 14,
+      "count": 13,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:37:13.431Z",
-      "last_attempt": "2026-10-31T05:37:13.431Z",
+      "last_ok": "2026-10-31T14:30:27.991Z",
+      "last_attempt": "2026-10-31T14:30:27.991Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:37:16.011Z",
-      "last_attempt": "2026-10-31T05:37:16.011Z",
+      "last_ok": "2026-10-31T14:30:28.778Z",
+      "last_attempt": "2026-10-31T14:30:28.778Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:37:16.442Z",
-      "last_attempt": "2026-10-31T05:37:16.442Z",
+      "last_ok": "2026-10-31T14:30:29.379Z",
+      "last_attempt": "2026-10-31T14:30:29.379Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:37:18.654Z",
-      "last_attempt": "2026-10-31T05:37:18.654Z",
+      "last_ok": "2026-10-31T14:30:32.700Z",
+      "last_attempt": "2026-10-31T14:30:32.700Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:37:19.262Z",
-      "last_attempt": "2026-10-31T05:37:19.262Z",
+      "last_ok": "2026-10-31T14:30:33.302Z",
+      "last_attempt": "2026-10-31T14:30:33.302Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:37:24.193Z",
-      "last_attempt": "2026-10-31T05:37:24.193Z",
+      "last_ok": "2026-10-31T14:30:38.120Z",
+      "last_attempt": "2026-10-31T14:30:38.120Z",
       "error": null
     },
     "craterian": {
       "ok": true,
-      "count": 16,
+      "count": 15,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:37:25.603Z",
-      "last_attempt": "2026-10-31T05:37:25.603Z",
+      "last_ok": "2026-10-31T14:30:39.373Z",
+      "last_attempt": "2026-10-31T14:30:39.373Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:38:31.717Z",
-      "last_attempt": "2026-10-31T05:38:31.717Z",
+      "last_ok": "2026-10-31T14:31:35.626Z",
+      "last_attempt": "2026-10-31T14:31:35.626Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 78,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:38:32.141Z",
-      "last_attempt": "2026-10-31T05:38:32.141Z",
+      "last_ok": "2026-10-31T14:31:35.989Z",
+      "last_attempt": "2026-10-31T14:31:35.989Z",
       "error": null
     },
     "code4": {
       "ok": true,
-      "count": 14,
+      "count": 13,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:38:36.541Z",
-      "last_attempt": "2026-10-31T05:38:36.541Z",
+      "last_ok": "2026-10-31T14:31:41.751Z",
+      "last_attempt": "2026-10-31T14:31:41.751Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:38:37.124Z",
-      "last_attempt": "2026-10-31T05:38:37.124Z",
+      "last_ok": "2026-10-31T14:31:42.433Z",
+      "last_attempt": "2026-10-31T14:31:42.433Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:38:37.653Z",
-      "last_attempt": "2026-10-31T05:38:37.653Z",
+      "last_ok": "2026-10-31T14:31:42.969Z",
+      "last_attempt": "2026-10-31T14:31:42.969Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:38:37.845Z",
-      "last_attempt": "2026-10-31T05:38:37.845Z",
+      "last_ok": "2026-10-31T14:31:43.188Z",
+      "last_attempt": "2026-10-31T14:31:43.188Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-31T05:38:39.642Z",
-      "last_attempt": "2026-10-31T05:38:39.642Z",
+      "last_ok": "2026-10-31T14:31:44.661Z",
+      "last_attempt": "2026-10-31T14:31:44.661Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-31T05:38:40.697Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-23&end_date=2027-02-27"
+      "last_attempt": "2026-10-31T14:31:45.818Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-24&end_date=2027-02-28"
     }
   },
   "venues": {
@@ -3835,23 +3835,6 @@
   },
   "events": [
     {
-      "id": "7af1fb691dbe7ea7",
-      "date": "2026-09-30",
-      "start_raw": "2000",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Earth Eater, Mirror Fear, Oddities, Crucible of Absolution",
-      "genre": "",
-      "link": "https://rockafairy.betterworld.org/events/sep30",
-      "link_name": "",
-      "venue": "Rockafairy",
-      "notes": "",
-      "event_type": "Band",
-      "source": "rockafairy",
-      "source_url": "https://rockafairy.betterworld.org/events/sep30",
-      "genres": []
-    },
-    {
       "id": "1285a7fc5b18e324",
       "date": "2026-10-03",
       "start_raw": "1030",
@@ -3934,74 +3917,6 @@
       "event_type": "Band",
       "source": "la_baguette",
       "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/17/sweet-clementine",
-      "genres": []
-    },
-    {
-      "id": "73e1c3e9e8371ff3",
-      "date": "2026-10-23",
-      "start_raw": "1800",
-      "end_raw": "2100",
-      "end_estimated": false,
-      "musician": "Starvation Heights",
-      "genre": "",
-      "link": "https://code4taphouse.com/event/live-music-w-starvation-heights/",
-      "link_name": "",
-      "venue": "Code 4 Taphouse",
-      "notes": "Free",
-      "event_type": "Band",
-      "source": "code4",
-      "source_url": "https://code4taphouse.com/event/live-music-w-starvation-heights/",
-      "genres": []
-    },
-    {
-      "id": "e5cf0ad369bf025c",
-      "date": "2026-10-23",
-      "start_raw": "1900",
-      "end_raw": "2200",
-      "end_estimated": false,
-      "musician": "Yesterday and Today, The Interactive Beatles Experience",
-      "genre": "",
-      "link": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$28-$44 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/yesterday-and-today-the-interactive-beatles-experience/",
-      "genres": []
-    },
-    {
-      "id": "32841a32b011a770",
-      "date": "2026-10-23",
-      "start_raw": "2100",
-      "end_raw": "2355",
-      "end_estimated": false,
-      "musician": "Skyler & Robbie – Guitar Wizards!",
-      "genre": "",
-      "link": "https://local31pub.ai/events/skyler-robbie-guitar-wizards/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Skyler Squglio and Robbie DaCosta are two of the best guitarist and entertainers in Southern Oregon! Put them together and Wizardry happens! That’s what you’ll get when you come to this show – Guitar ",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/skyler-robbie-guitar-wizards/",
-      "genres": []
-    },
-    {
-      "id": "2a8a7746e0e6f53a",
-      "date": "2026-10-23",
-      "start_raw": "2100",
-      "end_raw": "2359",
-      "end_estimated": false,
-      "musician": "More or Les Paul",
-      "genre": "",
-      "link": "https://wonderbur.net/",
-      "link_name": "",
-      "venue": "The Wonder Bur Cafe",
-      "notes": "",
-      "event_type": "Band",
-      "source": "venue_ics:wonderbur",
-      "source_url": "https://wonderbur.net/",
       "genres": []
     },
     {
@@ -4485,22 +4400,15 @@
       "end_raw": "1930",
       "musician": "Backdoor Blues band",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-backdoor-blues/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Longtime Rogue Valley musicians specializing in good-time Blues and R&B, guaranteed to have you on your feet! \nCover charge: Free for members, $8 for non-members",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-backdoor-blues/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "06293069df61244a"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Blues",
-        "Funk / Soul"
+        "Blues"
       ]
     },
     {
@@ -10678,6 +10586,40 @@
       "genres": [
         "Celtic"
       ]
+    },
+    {
+      "id": "3d2fac3e69a5d30e",
+      "date": "2027-02-28",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "65f3d189a50e101b",
+      "date": "2027-02-28",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
     },
     {
       "id": "638625de12b4efac",
