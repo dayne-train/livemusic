@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-10-30T20:47:50.776Z",
+  "generated_at": "2026-10-31T05:38:40.930Z",
   "source_timestamp": "10/29/2026 14:20",
-  "content_hash": "224594fe7df4b9a6",
+  "content_hash": "caa97e32d2f69bde",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 267,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-10-30T20:46:20.559Z",
-      "last_attempt": "2026-10-30T20:46:20.559Z",
+      "last_ok": "2026-10-31T05:37:13.251Z",
+      "last_attempt": "2026-10-31T05:37:13.251Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 15,
+      "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:46:20.909Z",
-      "last_attempt": "2026-10-30T20:46:20.909Z",
+      "last_ok": "2026-10-31T05:37:13.431Z",
+      "last_attempt": "2026-10-31T05:37:13.431Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:46:21.811Z",
-      "last_attempt": "2026-10-30T20:46:21.811Z",
+      "last_ok": "2026-10-31T05:37:16.011Z",
+      "last_attempt": "2026-10-31T05:37:16.011Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:46:22.432Z",
-      "last_attempt": "2026-10-30T20:46:22.432Z",
+      "last_ok": "2026-10-31T05:37:16.442Z",
+      "last_attempt": "2026-10-31T05:37:16.442Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:46:29.296Z",
-      "last_attempt": "2026-10-30T20:46:29.296Z",
+      "last_ok": "2026-10-31T05:37:18.654Z",
+      "last_attempt": "2026-10-31T05:37:18.654Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:46:29.789Z",
-      "last_attempt": "2026-10-30T20:46:29.789Z",
+      "last_ok": "2026-10-31T05:37:19.262Z",
+      "last_attempt": "2026-10-31T05:37:19.262Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:46:33.035Z",
-      "last_attempt": "2026-10-30T20:46:33.035Z",
+      "last_ok": "2026-10-31T05:37:24.193Z",
+      "last_attempt": "2026-10-31T05:37:24.193Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 16,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:46:34.593Z",
-      "last_attempt": "2026-10-30T20:46:34.593Z",
+      "last_ok": "2026-10-31T05:37:25.603Z",
+      "last_attempt": "2026-10-31T05:37:25.603Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:47:38.634Z",
-      "last_attempt": "2026-10-30T20:47:38.634Z",
+      "last_ok": "2026-10-31T05:38:31.717Z",
+      "last_attempt": "2026-10-31T05:38:31.717Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 78,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:47:39.088Z",
-      "last_attempt": "2026-10-30T20:47:39.088Z",
+      "last_ok": "2026-10-31T05:38:32.141Z",
+      "last_attempt": "2026-10-31T05:38:32.141Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:47:44.883Z",
-      "last_attempt": "2026-10-30T20:47:44.883Z",
+      "last_ok": "2026-10-31T05:38:36.541Z",
+      "last_attempt": "2026-10-31T05:38:36.541Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:47:45.634Z",
-      "last_attempt": "2026-10-30T20:47:45.634Z",
+      "last_ok": "2026-10-31T05:38:37.124Z",
+      "last_attempt": "2026-10-31T05:38:37.124Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:47:46.967Z",
-      "last_attempt": "2026-10-30T20:47:46.967Z",
+      "last_ok": "2026-10-31T05:38:37.653Z",
+      "last_attempt": "2026-10-31T05:38:37.653Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:47:47.224Z",
-      "last_attempt": "2026-10-30T20:47:47.224Z",
+      "last_ok": "2026-10-31T05:38:37.845Z",
+      "last_attempt": "2026-10-31T05:38:37.845Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 17,
       "strategy": "live",
-      "last_ok": "2026-10-30T20:47:49.120Z",
-      "last_attempt": "2026-10-30T20:47:49.120Z",
+      "last_ok": "2026-10-31T05:38:39.642Z",
+      "last_attempt": "2026-10-31T05:38:39.642Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-10-30T20:47:50.413Z",
+      "last_attempt": "2026-10-31T05:38:40.697Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-23&end_date=2027-02-27"
     }
   },
@@ -4618,25 +4618,6 @@
       ]
     },
     {
-      "id": "9d6cf30abdd4d779",
-      "date": "2026-10-30",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Pozitronics & Halloween Party🎃🎶👻",
-      "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-october-30/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "The Pozitronics are southern Oregon’s premier “all-you-can-dance” band playing a unique mix of classic rock, R&B, and funk, with love, positive vibes, and a whole lot of energy. You bring the dance mo",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-october-30/",
-      "genres": [
-        "Funk / Soul",
-        "Rock"
-      ]
-    },
-    {
       "id": "4da93dc57e10d5b1",
       "date": "2026-10-30",
       "start_raw": "1800",
@@ -4821,26 +4802,6 @@
       "source_url": "https://local31pub.ai/events/long-distance-runner-2/",
       "genres": [
         "Other"
-      ]
-    },
-    {
-      "id": "fae087d9a838227a",
-      "date": "2026-10-30",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
       ]
     },
     {
@@ -5192,6 +5153,26 @@
       "source_url": "https://local31pub.ai/events/halloween-bands-from-the-rockin-past/",
       "genres": [
         "Rock"
+      ]
+    },
+    {
+      "id": "35c0a278210bedba",
+      "date": "2026-10-31",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
       ]
     },
     {
