@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T05:59:11.845Z",
+  "fetched_at": "2026-11-02T18:21:08.491Z",
   "source_timestamp": "10/29/2026 14:20",
   "bytes": 61267,
   "sources": {
@@ -7,120 +7,120 @@
       "ok": true,
       "count": 267,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-02T05:58:01.454Z",
-      "last_attempt": "2026-11-02T05:58:01.454Z",
+      "last_ok": "2026-11-02T18:19:10.069Z",
+      "last_attempt": "2026-11-02T18:19:10.069Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 26,
+      "count": 25,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:58:01.711Z",
-      "last_attempt": "2026-11-02T05:58:01.711Z",
+      "last_ok": "2026-11-02T18:19:10.300Z",
+      "last_attempt": "2026-11-02T18:19:10.300Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:58:02.818Z",
-      "last_attempt": "2026-11-02T05:58:02.818Z",
+      "last_ok": "2026-11-02T18:19:13.126Z",
+      "last_attempt": "2026-11-02T18:19:13.126Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:58:03.416Z",
-      "last_attempt": "2026-11-02T05:58:03.416Z",
+      "last_ok": "2026-11-02T18:19:13.492Z",
+      "last_attempt": "2026-11-02T18:19:13.492Z",
       "error": null
     },
     "ashland_city": {
-      "ok": true,
+      "ok": false,
       "count": 0,
-      "strategy": "live",
+      "strategy": null,
       "last_ok": "2026-11-02T05:58:07.185Z",
-      "last_attempt": "2026-11-02T05:58:07.185Z",
-      "error": null
+      "last_attempt": "2026-11-02T18:19:15.770Z",
+      "error": "fetch failed"
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:58:07.699Z",
-      "last_attempt": "2026-11-02T05:58:07.699Z",
+      "last_ok": "2026-11-02T18:19:26.260Z",
+      "last_attempt": "2026-11-02T18:19:26.260Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:58:12.139Z",
-      "last_attempt": "2026-11-02T05:58:12.139Z",
+      "last_ok": "2026-11-02T18:19:32.821Z",
+      "last_attempt": "2026-11-02T18:19:32.821Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:58:12.647Z",
-      "last_attempt": "2026-11-02T05:58:12.647Z",
+      "last_ok": "2026-11-02T18:19:34.370Z",
+      "last_attempt": "2026-11-02T18:19:34.370Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:59:01.952Z",
-      "last_attempt": "2026-11-02T05:59:01.952Z",
+      "last_ok": "2026-11-02T18:20:42.240Z",
+      "last_attempt": "2026-11-02T18:20:42.240Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 79,
+      "count": 77,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:59:02.315Z",
-      "last_attempt": "2026-11-02T05:59:02.315Z",
+      "last_ok": "2026-11-02T18:20:42.827Z",
+      "last_attempt": "2026-11-02T18:20:42.827Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:59:07.193Z",
-      "last_attempt": "2026-11-02T05:59:07.193Z",
+      "last_ok": "2026-11-02T18:20:48.596Z",
+      "last_attempt": "2026-11-02T18:20:48.596Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:59:07.871Z",
-      "last_attempt": "2026-11-02T05:59:07.871Z",
+      "last_ok": "2026-11-02T18:20:49.289Z",
+      "last_attempt": "2026-11-02T18:20:49.289Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:59:08.092Z",
-      "last_attempt": "2026-11-02T05:59:08.092Z",
+      "last_ok": "2026-11-02T18:20:49.710Z",
+      "last_attempt": "2026-11-02T18:20:49.710Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:59:08.422Z",
-      "last_attempt": "2026-11-02T05:59:08.422Z",
+      "last_ok": "2026-11-02T18:20:50.019Z",
+      "last_attempt": "2026-11-02T18:20:50.019Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-02T05:59:10.924Z",
-      "last_attempt": "2026-11-02T05:59:10.924Z",
+      "last_ok": "2026-11-02T18:21:07.210Z",
+      "last_attempt": "2026-11-02T18:21:07.210Z",
       "error": null
     },
     "ashland_news": {
@@ -128,13 +128,13 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-02T05:59:11.666Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-25&end_date=2027-03-01"
+      "last_attempt": "2026-11-02T18:21:08.326Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-26&end_date=2027-03-02"
     }
   },
-  "event_count": 408,
+  "event_count": 406,
   "venue_count": 335,
-  "deduped": 33,
-  "archived": 70,
-  "content_hash": "17f331bdf31be53c"
+  "deduped": 32,
+  "archived": 79,
+  "content_hash": "0c77c3bd8806f4e6"
 }
