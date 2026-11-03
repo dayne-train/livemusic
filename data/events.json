@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-03T11:55:27.693Z",
-  "source_timestamp": "11/02/2026 12:30",
-  "content_hash": "111a92fe685cebbe",
+  "generated_at": "2026-11-03T19:29:21.304Z",
+  "source_timestamp": "11/03/2026 07:18",
+  "content_hash": "2d240fef91d27297",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 268,
+      "count": 271,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-03T11:54:23.406Z",
-      "last_attempt": "2026-11-03T11:54:23.406Z",
+      "last_ok": "2026-11-03T19:28:23.010Z",
+      "last_attempt": "2026-11-03T19:28:23.010Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:54:23.753Z",
-      "last_attempt": "2026-11-03T11:54:23.753Z",
+      "last_ok": "2026-11-03T19:28:23.222Z",
+      "last_attempt": "2026-11-03T19:28:23.222Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:54:24.692Z",
-      "last_attempt": "2026-11-03T11:54:24.692Z",
+      "last_ok": "2026-11-03T19:28:24.339Z",
+      "last_attempt": "2026-11-03T19:28:24.339Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:54:24.945Z",
-      "last_attempt": "2026-11-03T11:54:24.945Z",
+      "last_ok": "2026-11-03T19:28:25.059Z",
+      "last_attempt": "2026-11-03T19:28:25.059Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:54:27.591Z",
-      "last_attempt": "2026-11-03T11:54:27.591Z",
+      "last_ok": "2026-11-03T19:28:27.788Z",
+      "last_attempt": "2026-11-03T19:28:27.788Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:54:28.147Z",
-      "last_attempt": "2026-11-03T11:54:28.147Z",
+      "last_ok": "2026-11-03T19:28:28.328Z",
+      "last_attempt": "2026-11-03T19:28:28.328Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:54:35.379Z",
-      "last_attempt": "2026-11-03T11:54:35.379Z",
+      "last_ok": "2026-11-03T19:28:36.674Z",
+      "last_attempt": "2026-11-03T19:28:36.674Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:54:36.759Z",
-      "last_attempt": "2026-11-03T11:54:36.759Z",
+      "last_ok": "2026-11-03T19:28:38.173Z",
+      "last_attempt": "2026-11-03T19:28:38.173Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:55:13.470Z",
-      "last_attempt": "2026-11-03T11:55:13.470Z",
+      "last_ok": "2026-11-03T19:29:10.869Z",
+      "last_attempt": "2026-11-03T19:29:10.869Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 77,
+      "count": 80,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:55:14.134Z",
-      "last_attempt": "2026-11-03T11:55:14.134Z",
+      "last_ok": "2026-11-03T19:29:11.419Z",
+      "last_attempt": "2026-11-03T19:29:11.419Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:55:18.847Z",
-      "last_attempt": "2026-11-03T11:55:18.847Z",
+      "last_ok": "2026-11-03T19:29:15.998Z",
+      "last_attempt": "2026-11-03T19:29:15.998Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:55:19.501Z",
-      "last_attempt": "2026-11-03T11:55:19.501Z",
+      "last_ok": "2026-11-03T19:29:16.642Z",
+      "last_attempt": "2026-11-03T19:29:16.642Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:55:20.870Z",
-      "last_attempt": "2026-11-03T11:55:20.870Z",
+      "last_ok": "2026-11-03T19:29:17.360Z",
+      "last_attempt": "2026-11-03T19:29:17.360Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:55:21.152Z",
-      "last_attempt": "2026-11-03T11:55:21.152Z",
+      "last_ok": "2026-11-03T19:29:17.550Z",
+      "last_attempt": "2026-11-03T19:29:17.550Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-03T11:55:26.297Z",
-      "last_attempt": "2026-11-03T11:55:26.297Z",
+      "last_ok": "2026-11-03T19:29:19.303Z",
+      "last_attempt": "2026-11-03T19:29:19.303Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-03T11:55:27.349Z",
+      "last_attempt": "2026-11-03T19:29:20.541Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-27&end_date=2027-03-03"
     }
   },
@@ -5080,20 +5080,26 @@
       "genres": []
     },
     {
-      "id": "ec75660e5ad2b123",
+      "id": "8d718da22c2996ac",
       "date": "2026-11-03",
-      "start_raw": "2100",
-      "end_raw": "2300",
+      "start_raw": "1930",
+      "end_raw": "2030",
       "end_estimated": true,
       "musician": "Broken Bows Fiddle Ensemble",
       "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-3/",
       "link_name": "",
       "venue": "Local 31 Pub",
       "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
       "event_type": "Band",
       "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-3/",
+      "merged_from": [
+        {
+          "source": "venue_ics",
+          "id": "ec75660e5ad2b123"
+        }
+      ],
       "genres": [
         "Bluegrass",
         "Celtic"
@@ -5288,6 +5294,22 @@
       "link": "",
       "link_name": "",
       "venue": "Padigan Wines",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "34810dd2691c752f",
+      "date": "2026-11-06",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Waxin' Moon",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Pebblestone Cellars",
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
@@ -5659,6 +5681,22 @@
       "genres": [
         "Celtic"
       ]
+    },
+    {
+      "id": "5836fa3e215574a4",
+      "date": "2026-11-07",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Waxin' Moon",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "71035512fe51a4aa",
@@ -6361,6 +6399,25 @@
       "genres": []
     },
     {
+      "id": "4c8cdd5de0eab04c",
+      "date": "2026-11-12",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": false,
+      "musician": "Three for Silver",
+      "genre": "",
+      "link": "https://local31pub.ai/events/three-for-silver/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "On their Fall Tour, Three for Silver is an aggressively original band that is impervious to easy description. If asked what they sounds like, the most accurate answer would be, “They sound like Three ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/three-for-silver/",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "5ff023873b12c1a4",
       "date": "2026-11-13",
       "start_raw": "1700",
@@ -6620,6 +6677,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "5b6627db821657da",
+      "date": "2026-11-13",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "The Bouray",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-bouray-6/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "The Bouray is an Ashland, Oregon-based “sci-funk” project active since 2015, blending cosmic-themed funk-fusion with danceable, thought-provoking music featuring the magic of John Johns! https://www.i",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-bouray-6/",
+      "genres": [
+        "Funk / Soul"
+      ]
     },
     {
       "id": "daa335406739c08d",
@@ -6925,6 +7001,22 @@
       "venue": "Local Vines Wine Bar",
       "notes": "",
       "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "0ff35dd4107da639",
+      "date": "2026-11-15",
+      "start_raw": "1500",
+      "end_raw": "1700",
+      "musician": "Gary Dunsmoor",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Pebblestone Cellars",
+      "notes": "",
+      "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
