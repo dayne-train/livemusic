@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2208,
+  "event_count": 2210,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -37874,6 +37874,42 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "2c2cd47fed96af48",
+      "date": "2026-11-03",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "The Tannahill Weavers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dos Mariposas Vineyards",
+      "notes": "Doors open 5:30; Ticketed event $18/$20",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "8d718da22c2996ac",
+      "date": "2026-11-03",
+      "start_raw": "1930",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-3/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-3/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     }
   ]
 }
