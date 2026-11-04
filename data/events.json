@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-03T19:29:21.304Z",
+  "generated_at": "2026-11-04T00:36:40.401Z",
   "source_timestamp": "11/03/2026 07:18",
-  "content_hash": "2d240fef91d27297",
+  "content_hash": "367adaacaf0c6186",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 271,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-03T19:28:23.010Z",
-      "last_attempt": "2026-11-03T19:28:23.010Z",
+      "last_ok": "2026-11-04T00:35:32.941Z",
+      "last_attempt": "2026-11-04T00:35:32.941Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:28:23.222Z",
-      "last_attempt": "2026-11-03T19:28:23.222Z",
+      "last_ok": "2026-11-04T00:35:33.138Z",
+      "last_attempt": "2026-11-04T00:35:33.138Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:28:24.339Z",
-      "last_attempt": "2026-11-03T19:28:24.339Z",
+      "last_ok": "2026-11-04T00:35:33.880Z",
+      "last_attempt": "2026-11-04T00:35:33.880Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:28:25.059Z",
-      "last_attempt": "2026-11-03T19:28:25.059Z",
+      "last_ok": "2026-11-04T00:35:34.253Z",
+      "last_attempt": "2026-11-04T00:35:34.253Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:28:27.788Z",
-      "last_attempt": "2026-11-03T19:28:27.788Z",
+      "last_ok": "2026-11-04T00:35:39.798Z",
+      "last_attempt": "2026-11-04T00:35:39.798Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:28:28.328Z",
-      "last_attempt": "2026-11-03T19:28:28.328Z",
+      "last_ok": "2026-11-04T00:35:40.342Z",
+      "last_attempt": "2026-11-04T00:35:40.342Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:28:36.674Z",
-      "last_attempt": "2026-11-03T19:28:36.674Z",
+      "last_ok": "2026-11-04T00:35:56.181Z",
+      "last_attempt": "2026-11-04T00:35:56.181Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:28:38.173Z",
-      "last_attempt": "2026-11-03T19:28:38.173Z",
+      "last_ok": "2026-11-04T00:35:57.362Z",
+      "last_attempt": "2026-11-04T00:35:57.362Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:29:10.869Z",
-      "last_attempt": "2026-11-03T19:29:10.869Z",
+      "last_ok": "2026-11-04T00:36:31.182Z",
+      "last_attempt": "2026-11-04T00:36:31.182Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 80,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:29:11.419Z",
-      "last_attempt": "2026-11-03T19:29:11.419Z",
+      "last_ok": "2026-11-04T00:36:31.559Z",
+      "last_attempt": "2026-11-04T00:36:31.559Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:29:15.998Z",
-      "last_attempt": "2026-11-03T19:29:15.998Z",
+      "last_ok": "2026-11-04T00:36:35.905Z",
+      "last_attempt": "2026-11-04T00:36:35.905Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:29:16.642Z",
-      "last_attempt": "2026-11-03T19:29:16.642Z",
+      "last_ok": "2026-11-04T00:36:36.482Z",
+      "last_attempt": "2026-11-04T00:36:36.482Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:29:17.360Z",
-      "last_attempt": "2026-11-03T19:29:17.360Z",
+      "last_ok": "2026-11-04T00:36:36.980Z",
+      "last_attempt": "2026-11-04T00:36:36.980Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:29:17.550Z",
-      "last_attempt": "2026-11-03T19:29:17.550Z",
+      "last_ok": "2026-11-04T00:36:37.217Z",
+      "last_attempt": "2026-11-04T00:36:37.217Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-03T19:29:19.303Z",
-      "last_attempt": "2026-11-03T19:29:19.303Z",
+      "last_ok": "2026-11-04T00:36:39.028Z",
+      "last_attempt": "2026-11-04T00:36:39.028Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-03T19:29:20.541Z",
+      "last_attempt": "2026-11-04T00:36:39.964Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-27&end_date=2027-03-03"
     }
   },
@@ -5084,7 +5084,7 @@
       "date": "2026-11-03",
       "start_raw": "1930",
       "end_raw": "2030",
-      "end_estimated": true,
+      "end_estimated": false,
       "musician": "Broken Bows Fiddle Ensemble",
       "genre": "",
       "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-3/",
@@ -5094,12 +5094,6 @@
       "event_type": "Band",
       "source": "venue_ics:local31",
       "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-3/",
-      "merged_from": [
-        {
-          "source": "venue_ics",
-          "id": "ec75660e5ad2b123"
-        }
-      ],
       "genres": [
         "Bluegrass",
         "Celtic"
@@ -5153,6 +5147,26 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/petunia-the-vipers/",
       "genres": []
+    },
+    {
+      "id": "520c75970633d1f7",
+      "date": "2026-11-04",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     },
     {
       "id": "32b866ce9c952acc",
