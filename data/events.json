@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-05T01:04:02.567Z",
+  "generated_at": "2026-11-05T12:18:17.575Z",
   "source_timestamp": "11/03/2026 07:18",
-  "content_hash": "6f20c2c6446ac16c",
+  "content_hash": "d9f267d23ae7a5df",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 271,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-05T01:02:42.762Z",
-      "last_attempt": "2026-11-05T01:02:42.762Z",
+      "last_ok": "2026-11-05T12:17:05.455Z",
+      "last_attempt": "2026-11-05T12:17:05.455Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:02:53.386Z",
-      "last_attempt": "2026-11-05T01:02:53.386Z",
+      "last_ok": "2026-11-05T12:17:05.699Z",
+      "last_attempt": "2026-11-05T12:17:05.699Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:02:55.052Z",
-      "last_attempt": "2026-11-05T01:02:55.052Z",
+      "last_ok": "2026-11-05T12:17:07.257Z",
+      "last_attempt": "2026-11-05T12:17:07.257Z",
       "error": null
     },
     "sou_localist": {
-      "ok": true,
-      "count": 4,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-11-05T01:02:55.697Z",
-      "last_attempt": "2026-11-05T01:02:55.697Z",
-      "error": null
+      "last_attempt": "2026-11-05T12:17:07.659Z",
+      "error": "The operation was aborted due to timeout"
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:03.488Z",
-      "last_attempt": "2026-11-05T01:03:03.488Z",
+      "last_ok": "2026-11-05T12:17:27.659Z",
+      "last_attempt": "2026-11-05T12:17:27.659Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:04.047Z",
-      "last_attempt": "2026-11-05T01:03:04.047Z",
+      "last_ok": "2026-11-05T12:17:28.096Z",
+      "last_attempt": "2026-11-05T12:17:28.096Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:09.624Z",
-      "last_attempt": "2026-11-05T01:03:09.624Z",
+      "last_ok": "2026-11-05T12:17:33.480Z",
+      "last_attempt": "2026-11-05T12:17:33.480Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:11.082Z",
-      "last_attempt": "2026-11-05T01:03:11.082Z",
+      "last_ok": "2026-11-05T12:17:34.148Z",
+      "last_attempt": "2026-11-05T12:17:34.148Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:42.237Z",
-      "last_attempt": "2026-11-05T01:03:42.237Z",
+      "last_ok": "2026-11-05T12:18:06.726Z",
+      "last_attempt": "2026-11-05T12:18:06.726Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 81,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:43.010Z",
-      "last_attempt": "2026-11-05T01:03:43.010Z",
+      "last_ok": "2026-11-05T12:18:07.324Z",
+      "last_attempt": "2026-11-05T12:18:07.324Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:48.012Z",
-      "last_attempt": "2026-11-05T01:03:48.012Z",
+      "last_ok": "2026-11-05T12:18:12.568Z",
+      "last_attempt": "2026-11-05T12:18:12.568Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:48.871Z",
-      "last_attempt": "2026-11-05T01:03:48.871Z",
+      "last_ok": "2026-11-05T12:18:13.237Z",
+      "last_attempt": "2026-11-05T12:18:13.237Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:03:50.095Z",
-      "last_attempt": "2026-11-05T01:03:50.095Z",
+      "last_ok": "2026-11-05T12:18:13.657Z",
+      "last_attempt": "2026-11-05T12:18:13.657Z",
       "error": null
     },
     "rogue_theatre": {
-      "ok": false,
-      "count": 0,
-      "strategy": null,
-      "last_ok": "2026-11-04T19:44:11.079Z",
-      "last_attempt": "2026-11-05T01:03:50.478Z",
-      "error": "fetch failed"
+      "ok": true,
+      "count": 6,
+      "strategy": "live",
+      "last_ok": "2026-11-05T12:18:13.969Z",
+      "last_attempt": "2026-11-05T12:18:13.969Z",
+      "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-05T01:04:00.584Z",
-      "last_attempt": "2026-11-05T01:04:00.584Z",
+      "last_ok": "2026-11-05T12:18:16.242Z",
+      "last_attempt": "2026-11-05T12:18:16.242Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-05T01:04:02.109Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-28&end_date=2027-03-04"
+      "last_attempt": "2026-11-05T12:18:17.439Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-29&end_date=2027-03-05"
     }
   },
   "venues": {
@@ -2692,8 +2692,7 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "sou_localist"
+        "musiclist_txt"
       ]
     },
     "Sam's Corner": {
@@ -3810,6 +3809,17 @@
         "craterian"
       ]
     },
+    "Rogue Theatre": {
+      "url": "https://www.roguetheatre.org/",
+      "city": "Grants Pass",
+      "notes": "",
+      "address": "",
+      "region": "GrantsPass",
+      "type": "Other",
+      "_sources": [
+        "rogue_theatre"
+      ]
+    },
     "The Talent Club": {
       "url": "https://talentclublive.com",
       "city": "Talent",
@@ -3819,17 +3829,6 @@
       "type": "Bar",
       "_sources": [
         "talent_club"
-      ]
-    },
-    "Rogue Valley Mall": {
-      "url": "https://events.sou.edu",
-      "city": "Ashland",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Other",
-      "_sources": [
-        "sou_localist"
       ]
     }
   },
@@ -5572,25 +5571,6 @@
       "genres": []
     },
     {
-      "id": "2b479e30745ce95b",
-      "date": "2026-11-06",
-      "start_raw": "1930",
-      "end_raw": "2130",
-      "end_estimated": false,
-      "musician": "Chamber Music Concerts presents the Arcis Saxophone Quartett",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "The Arcis Saxophone Quartett (pronounced “Art-sis”) has emerged as one of the most vibrant and active classical ensembles globally. Whether on the highest pass in Ecuador, in the Saudi Arabian desert,",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical"
-      ]
-    },
-    {
       "id": "8e260bb947fb3830",
       "date": "2026-11-06",
       "start_raw": "2100",
@@ -5917,6 +5897,25 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "e2570cd2aac219dd",
+      "date": "2026-11-07",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Fan Halen: Van Halen Tribute",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/fan-halen-van-halen-tribute",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/fan-halen-van-halen-tribute",
+      "genres": [
+        "Other"
+      ]
     },
     {
       "id": "9c6fe79ef4556931",
@@ -7756,26 +7755,6 @@
       "genres": []
     },
     {
-      "id": "0b7045923603905c",
-      "date": "2026-11-21",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Chamber Music Concerts presents the Jupiter Quartet",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "The Jupiter String Quartet is an intimately connected group — the members include two sisters and a spouse. Founded in 2001, the ensemble is firmly established as an important voice in the world of ch",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical",
-        "World"
-      ]
-    },
-    {
       "id": "87e98aa97e1beeed",
       "date": "2026-11-21",
       "start_raw": "1600",
@@ -8884,23 +8863,6 @@
       "genres": []
     },
     {
-      "id": "d02004f954fd8472",
-      "date": "2026-12-01",
-      "start_raw": "1930",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "MUSIX Concert at Rockafairy",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "Rogue Valley Mall",
-      "notes": "MUSIX is SOU’s premiere house band. Students in MUSIX (both music majors and non-majors, undergrads and grads) write, perform, and record their own work for the band. Packed with diverse array of styl",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": []
-    },
-    {
       "id": "c434c90b28cf1ceb",
       "date": "2026-12-02",
       "start_raw": "1030",
@@ -8973,25 +8935,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "00da1a2827120a93",
-      "date": "2026-12-03",
-      "start_raw": "1930",
-      "end_raw": "2030",
-      "end_estimated": false,
-      "musician": "SOU Chamber Choir Presents: If Music Be",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "\"Where words fail, music speaks.\" — Hans Christian Andersen\n\n \n\nIn observance of the day music (almost) died at SOU, the Chamber Choir will present a musical love letter to music! Join us for an eveni",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical"
-      ]
     },
     {
       "id": "b1795a3832a37290",
@@ -9464,6 +9407,23 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/garrison-keillor",
+      "genres": []
+    },
+    {
+      "id": "921ba60263af2c4f",
+      "date": "2026-12-11",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Pablo Cruise Live '26",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
       "genres": []
     },
     {
@@ -10933,6 +10893,23 @@
       "genres": []
     },
     {
+      "id": "0803bf9150b9d1bc",
+      "date": "2027-03-20",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Patrick Warburton Standup Comedy",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/patrick-warburton-standup-comedy",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/patrick-warburton-standup-comedy",
+      "genres": []
+    },
+    {
       "id": "8d8363ddeb814cc4",
       "date": "2027-04-03",
       "start_raw": "1900",
@@ -10967,6 +10944,25 @@
       "genres": []
     },
     {
+      "id": "c01b9707d2a42613",
+      "date": "2027-04-09",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "One Of These Nights: Eagles Tribute",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
+      "genres": [
+        "Other"
+      ]
+    },
+    {
       "id": "d4db4fcdb6efd51e",
       "date": "2027-04-16",
       "start_raw": "1900",
@@ -10981,6 +10977,23 @@
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
+      "genres": []
+    },
+    {
+      "id": "4021d39ced9e1f1b",
+      "date": "2027-04-24",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Pigs On The Wing: Beyond Pompeii",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/pigs-on-the-wing-beyond-pompeii",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/pigs-on-the-wing-beyond-pompeii",
       "genres": []
     },
     {
@@ -11049,6 +11062,23 @@
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
+      "genres": []
+    },
+    {
+      "id": "f23e71d82a53dd4b",
+      "date": "2027-05-22",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Wild Rumours: A Fleetwood Mac Experience",
+      "genre": "",
+      "link": "https://theroguetheatre.ticketspice.com/wild-rumours-a-fleetwood-mac-experience",
+      "link_name": "",
+      "venue": "Rogue Theatre",
+      "notes": "Doors 7:00 PM",
+      "event_type": "Band",
+      "source": "rogue_theatre",
+      "source_url": "https://theroguetheatre.ticketspice.com/wild-rumours-a-fleetwood-mac-experience",
       "genres": []
     }
   ]

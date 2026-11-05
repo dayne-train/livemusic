@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2210,
+  "event_count": 2213,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -1065,8 +1065,7 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt",
-        "sou_localist"
+        "musiclist_txt"
       ]
     },
     "Sams Creek Cellars": {
@@ -37910,6 +37909,55 @@
         "Bluegrass",
         "Celtic"
       ]
+    },
+    {
+      "id": "dd5db225e98ee6ff",
+      "date": "2026-11-04",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Cathy Bolton",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "ffb1d854681139c6",
+      "date": "2026-11-04",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Phillip Reed",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "$18; Wine and Dine",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "939c80b4ea269212",
+      "date": "2026-11-04",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Petunia & The Vipers",
+      "genre": "",
+      "link": "https://talentclublive.com/event/petunia-the-vipers/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/petunia-the-vipers/",
+      "genres": []
     }
   ]
 }
