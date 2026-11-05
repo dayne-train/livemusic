@@ -1065,7 +1065,8 @@
       "region": "Ashland",
       "type": "Other",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "sou_localist"
       ]
     },
     "Sams Creek Cellars": {
