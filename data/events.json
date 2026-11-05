@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-04T19:44:14.559Z",
+  "generated_at": "2026-11-05T01:04:02.567Z",
   "source_timestamp": "11/03/2026 07:18",
-  "content_hash": "499626b2add5b4d5",
+  "content_hash": "6f20c2c6446ac16c",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 271,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-04T19:43:09.826Z",
-      "last_attempt": "2026-11-04T19:43:09.826Z",
+      "last_ok": "2026-11-05T01:02:42.762Z",
+      "last_attempt": "2026-11-05T01:02:42.762Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:10.142Z",
-      "last_attempt": "2026-11-04T19:43:10.142Z",
+      "last_ok": "2026-11-05T01:02:53.386Z",
+      "last_attempt": "2026-11-05T01:02:53.386Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:11.471Z",
-      "last_attempt": "2026-11-04T19:43:11.471Z",
+      "last_ok": "2026-11-05T01:02:55.052Z",
+      "last_attempt": "2026-11-05T01:02:55.052Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 5,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:11.700Z",
-      "last_attempt": "2026-11-04T19:43:11.700Z",
+      "last_ok": "2026-11-05T01:02:55.697Z",
+      "last_attempt": "2026-11-05T01:02:55.697Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:20.010Z",
-      "last_attempt": "2026-11-04T19:43:20.010Z",
+      "last_ok": "2026-11-05T01:03:03.488Z",
+      "last_attempt": "2026-11-05T01:03:03.488Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:20.586Z",
-      "last_attempt": "2026-11-04T19:43:20.586Z",
+      "last_ok": "2026-11-05T01:03:04.047Z",
+      "last_attempt": "2026-11-05T01:03:04.047Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:26.417Z",
-      "last_attempt": "2026-11-04T19:43:26.417Z",
+      "last_ok": "2026-11-05T01:03:09.624Z",
+      "last_attempt": "2026-11-05T01:03:09.624Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:26.968Z",
-      "last_attempt": "2026-11-04T19:43:26.968Z",
+      "last_ok": "2026-11-05T01:03:11.082Z",
+      "last_attempt": "2026-11-05T01:03:11.082Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:57.969Z",
-      "last_attempt": "2026-11-04T19:43:57.969Z",
+      "last_ok": "2026-11-05T01:03:42.237Z",
+      "last_attempt": "2026-11-05T01:03:42.237Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 81,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:43:58.261Z",
-      "last_attempt": "2026-11-04T19:43:58.261Z",
+      "last_ok": "2026-11-05T01:03:43.010Z",
+      "last_attempt": "2026-11-05T01:03:43.010Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 11,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:44:07.897Z",
-      "last_attempt": "2026-11-04T19:44:07.897Z",
+      "last_ok": "2026-11-05T01:03:48.012Z",
+      "last_attempt": "2026-11-05T01:03:48.012Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 3,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:44:08.647Z",
-      "last_attempt": "2026-11-04T19:44:08.647Z",
+      "last_ok": "2026-11-05T01:03:48.871Z",
+      "last_attempt": "2026-11-05T01:03:48.871Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:44:10.746Z",
-      "last_attempt": "2026-11-04T19:44:10.746Z",
+      "last_ok": "2026-11-05T01:03:50.095Z",
+      "last_attempt": "2026-11-05T01:03:50.095Z",
       "error": null
     },
     "rogue_theatre": {
-      "ok": true,
-      "count": 6,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-11-04T19:44:11.079Z",
-      "last_attempt": "2026-11-04T19:44:11.079Z",
-      "error": null
+      "last_attempt": "2026-11-05T01:03:50.478Z",
+      "error": "fetch failed"
     },
     "la_baguette": {
       "ok": true,
-      "count": 14,
+      "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-04T19:44:13.614Z",
-      "last_attempt": "2026-11-04T19:44:13.614Z",
+      "last_ok": "2026-11-05T01:04:00.584Z",
+      "last_attempt": "2026-11-05T01:04:00.584Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-04T19:44:14.457Z",
+      "last_attempt": "2026-11-05T01:04:02.109Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-28&end_date=2027-03-04"
     }
   },
@@ -3810,17 +3810,6 @@
         "craterian"
       ]
     },
-    "Rogue Theatre": {
-      "url": "https://www.roguetheatre.org/",
-      "city": "Grants Pass",
-      "notes": "",
-      "address": "",
-      "region": "GrantsPass",
-      "type": "Other",
-      "_sources": [
-        "rogue_theatre"
-      ]
-    },
     "The Talent Club": {
       "url": "https://talentclublive.com",
       "city": "Talent",
@@ -3830,6 +3819,17 @@
       "type": "Bar",
       "_sources": [
         "talent_club"
+      ]
+    },
+    "Rogue Valley Mall": {
+      "url": "https://events.sou.edu",
+      "city": "Ashland",
+      "notes": "",
+      "address": "",
+      "region": "Ashland",
+      "type": "Other",
+      "_sources": [
+        "sou_localist"
       ]
     }
   },
@@ -5149,26 +5149,6 @@
       "genres": []
     },
     {
-      "id": "520c75970633d1f7",
-      "date": "2026-11-04",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
-      ]
-    },
-    {
       "id": "32b866ce9c952acc",
       "date": "2026-11-05",
       "start_raw": "1700",
@@ -5281,6 +5261,26 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "b1b61a1ff61beba1",
+      "date": "2026-11-05",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     },
     {
       "id": "e7a76bbe39153b51",
@@ -5919,25 +5919,6 @@
       "genres": []
     },
     {
-      "id": "e2570cd2aac219dd",
-      "date": "2026-11-07",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Fan Halen: Van Halen Tribute",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/fan-halen-van-halen-tribute",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/fan-halen-van-halen-tribute",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "9c6fe79ef4556931",
       "date": "2026-11-07",
       "start_raw": "2100",
@@ -6278,6 +6259,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a2a816287a25a64d",
+      "date": "2026-11-11",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman & Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2",
       "genres": []
     },
     {
@@ -7221,6 +7219,25 @@
       "genres": []
     },
     {
+      "id": "4896101dd1dfcc01",
+      "date": "2026-11-18",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
       "id": "dd2de4ab5b760d72",
       "date": "2026-11-18",
       "start_raw": "1700",
@@ -8146,6 +8163,23 @@
       "genres": []
     },
     {
+      "id": "35eef7958b2d93a6",
+      "date": "2026-11-25",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman & Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-zjncd",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-zjncd",
+      "genres": []
+    },
+    {
       "id": "eee8df9d2f48bcfa",
       "date": "2026-11-25",
       "start_raw": "1800",
@@ -8850,21 +8884,40 @@
       "genres": []
     },
     {
-      "id": "27723964b7c0901f",
+      "id": "d02004f954fd8472",
       "date": "2026-12-01",
       "start_raw": "1930",
       "end_raw": "",
       "end_estimated": true,
-      "musician": "MUSIX Concert",
+      "musician": "MUSIX Concert at Rockafairy",
       "genre": "",
       "link": "",
       "link_name": "",
-      "venue": "SOU Music Recital Hall",
+      "venue": "Rogue Valley Mall",
       "notes": "MUSIX is SOU’s premiere house band. Students in MUSIX (both music majors and non-majors, undergrads and grads) write, perform, and record their own work for the band. Packed with diverse array of styl",
       "event_type": "Band",
       "source": "sou_localist",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "c434c90b28cf1ceb",
+      "date": "2026-12-02",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-wl7gc",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-wl7gc",
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "6b4d7f825f7700d9",
@@ -9290,6 +9343,23 @@
       "genres": []
     },
     {
+      "id": "40c2fdf80eb04615",
+      "date": "2026-12-09",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman & Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-4hshe",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-4hshe",
+      "genres": []
+    },
+    {
       "id": "009c9690d3df8d82",
       "date": "2026-12-10",
       "start_raw": "1800",
@@ -9394,23 +9464,6 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/garrison-keillor",
-      "genres": []
-    },
-    {
-      "id": "921ba60263af2c4f",
-      "date": "2026-12-11",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Pablo Cruise Live '26",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
       "genres": []
     },
     {
@@ -9564,22 +9617,22 @@
       "genres": []
     },
     {
-      "id": "92432b2187b0428a",
-      "date": "2026-12-15",
-      "start_raw": "1900",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "The Nutcracker: Symphony of Lights",
+      "id": "0c25a7cb07bc3545",
+      "date": "2026-12-16",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
       "genre": "",
-      "link": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-byz35",
       "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "Grand Kyiv returns to OCA for The Nutcracker!\n\n \n\nThe Nutcracker: Symphony of Lights brings the beloved holiday classic to life through classical ballet, Tchaikovsky’s iconic music, dazzling illuminat",
+      "venue": "La Baguette",
+      "notes": "",
       "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-byz35",
       "genres": [
-        "Classical"
+        "Country"
       ]
     },
     {
@@ -9900,6 +9953,23 @@
       "genres": []
     },
     {
+      "id": "6657f9c8cd48664d",
+      "date": "2026-12-23",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman & Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-57wkx",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-57wkx",
+      "genres": []
+    },
+    {
       "id": "f9a35e2427927285",
       "date": "2026-12-26",
       "start_raw": "1600",
@@ -10019,6 +10089,25 @@
       "genres": []
     },
     {
+      "id": "290958a16c1f8b67",
+      "date": "2026-12-30",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-w9mjb",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-w9mjb",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
       "id": "45b96ee5cf9a81fe",
       "date": "2026-12-31",
       "start_raw": "1500",
@@ -10103,6 +10192,23 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "ed48b7e255a24f02",
+      "date": "2027-01-06",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman & Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-mxees",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-mxees",
       "genres": []
     },
     {
@@ -10191,6 +10297,25 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
+    },
+    {
+      "id": "e58ceb809195832f",
+      "date": "2027-01-13",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-djjla",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-djjla",
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "c3eea8717063e62b",
@@ -10282,6 +10407,23 @@
       "genres": []
     },
     {
+      "id": "210284efd0a57ecc",
+      "date": "2027-01-20",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman & Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-j4ett",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2-j4ett",
+      "genres": []
+    },
+    {
       "id": "2372ab8f35c0676e",
       "date": "2027-01-23",
       "start_raw": "1630",
@@ -10350,6 +10492,25 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
+    },
+    {
+      "id": "60e75e7cab9a6705",
+      "date": "2027-01-27",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-7y7bg",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd-7y7bg",
+      "genres": [
+        "Country"
+      ]
     },
     {
       "id": "7f445f0f5908f230",
@@ -10772,23 +10933,6 @@
       "genres": []
     },
     {
-      "id": "0803bf9150b9d1bc",
-      "date": "2027-03-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Patrick Warburton Standup Comedy",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/patrick-warburton-standup-comedy",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/patrick-warburton-standup-comedy",
-      "genres": []
-    },
-    {
       "id": "8d8363ddeb814cc4",
       "date": "2027-04-03",
       "start_raw": "1900",
@@ -10823,25 +10967,6 @@
       "genres": []
     },
     {
-      "id": "c01b9707d2a42613",
-      "date": "2027-04-09",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "One Of These Nights: Eagles Tribute",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "d4db4fcdb6efd51e",
       "date": "2027-04-16",
       "start_raw": "1900",
@@ -10856,23 +10981,6 @@
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/take3-dancing-queens-an-abba-remix-party/",
-      "genres": []
-    },
-    {
-      "id": "4021d39ced9e1f1b",
-      "date": "2027-04-24",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Pigs On The Wing: Beyond Pompeii",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/pigs-on-the-wing-beyond-pompeii",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/pigs-on-the-wing-beyond-pompeii",
       "genres": []
     },
     {
@@ -10941,23 +11049,6 @@
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/peacherine-ragtime-society-orchestra/",
-      "genres": []
-    },
-    {
-      "id": "f23e71d82a53dd4b",
-      "date": "2027-05-22",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Wild Rumours: A Fleetwood Mac Experience",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/wild-rumours-a-fleetwood-mac-experience",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/wild-rumours-a-fleetwood-mac-experience",
       "genres": []
     }
   ]
