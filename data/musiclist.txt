@@ -1,5 +1,5 @@
 --timestamp
-11/05/2026 13:54
+11/07/2026 10:16
 --news
 * date | notes
 --musicians
@@ -515,7 +515,7 @@ Coleman Antonucci||||Area 61 Taphouse||11/07/26|1800|2100||Band|26/11/05 13:54PM
 BeEars||||Art Bop Beer Co||11/07/26|1800|2000||Band|26/11/05 13:54PM|1|
 Live Music||||Callahan's Lodge||11/07/26|1800|2100||Band|26/10/22 14:40PM|4|
 Due Tide||||Growler Guys Grants Pass||11/07/26|1800|2000||Band|26/11/05 13:54PM|1|
-Steely Dean||||Local Vines Wine Bar||11/07/26|1800|2000|A Steely Dan Tribute; Tickets: $16/$20|Solo|26/10/28 10:26AM|0|
+Steely Dean||||Local Vines Wine Bar||11/07/26|1800|2000|CANCELLED|Solo|26/11/07 10:16AM|3|
 Nicole Jasmine||||Moxie Brew||11/07/26|1800|2000||Band|26/11/05 13:54PM|2|
 Aaron Reed||||Bella Union||11/07/26|1900|2200||Band|26/10/28 10:26AM|0|
 Adam Gabriel||||Liquid Lounge||11/07/26|2000|2200|$5|Band|26/10/28 10:26AM|2|
@@ -572,7 +572,7 @@ Adam Gabriel||||Dunbar Farms||11/15/26|1400|1600||Band|26/10/28 10:26AM|0|
 J.R. “Old Dog” Stevens||||Sams Creek Cellars||11/15/26|1400|1600||Band|26/10/28 10:26AM|0|
 Chris Murphy||||Tiffany's Marketplace||11/15/26|1400|1600||Band|26/09/21 13:10PM|2|
 Jack Hopfinger||||Del Rio Vineyards||11/15/26|1500|1700||Band|26/10/28 10:26AM|0|
-Charles Guy||||Local Vines Wine Bar||11/15/26|1500|1700||Solo|26/10/28 10:26AM|0|
+Sonido Alegre||||Local Vines Wine Bar||11/15/26|1500|1700||Solo|26/11/07 08:57AM|3|
 Gary Dunsmoor||||Pebblestone Cellars||11/15/26|1500|1700||Band|26/11/03 07:18AM|3|
 Zarina Jensen||||Valley View Winery||11/15/26|1500|1700||Band|26/09/04 12:54PM|2|
 David Pinsky & Phil Newton|||David Pinsky|Rellik Winery||11/15/26|1600|1800||Band|26/10/28 10:26AM|0|
