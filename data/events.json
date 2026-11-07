@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-07T05:56:36.076Z",
+  "generated_at": "2026-11-07T14:54:33.907Z",
   "source_timestamp": "11/05/2026 13:54",
-  "content_hash": "2121a9a5c7e6b3fa",
+  "content_hash": "c581d516a0ac5917",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 228,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-07T05:55:14.369Z",
-      "last_attempt": "2026-11-07T05:55:14.369Z",
+      "last_ok": "2026-11-07T14:53:00.780Z",
+      "last_attempt": "2026-11-07T14:53:00.780Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 24,
+      "count": 22,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:55:14.640Z",
-      "last_attempt": "2026-11-07T05:55:14.640Z",
+      "last_ok": "2026-11-07T14:53:01.041Z",
+      "last_attempt": "2026-11-07T14:53:01.041Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:55:15.702Z",
-      "last_attempt": "2026-11-07T05:55:15.702Z",
+      "last_ok": "2026-11-07T14:53:02.159Z",
+      "last_attempt": "2026-11-07T14:53:02.159Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 5,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:55:15.990Z",
-      "last_attempt": "2026-11-07T05:55:15.990Z",
+      "last_ok": "2026-11-07T14:53:02.409Z",
+      "last_attempt": "2026-11-07T14:53:02.409Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:55:18.816Z",
-      "last_attempt": "2026-11-07T05:55:18.816Z",
+      "last_ok": "2026-11-07T14:53:04.962Z",
+      "last_attempt": "2026-11-07T14:53:04.962Z",
       "error": null
     },
     "mt_ashland": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:55:19.237Z",
-      "last_attempt": "2026-11-07T05:55:19.237Z",
+      "last_ok": "2026-11-07T14:53:05.563Z",
+      "last_attempt": "2026-11-07T14:53:05.563Z",
       "error": null
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:55:25.081Z",
-      "last_attempt": "2026-11-07T05:55:25.081Z",
+      "last_ok": "2026-11-07T14:53:13.886Z",
+      "last_attempt": "2026-11-07T14:53:13.886Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:55:25.830Z",
-      "last_attempt": "2026-11-07T05:55:25.830Z",
+      "last_ok": "2026-11-07T14:53:14.597Z",
+      "last_attempt": "2026-11-07T14:53:14.597Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:56:24.347Z",
-      "last_attempt": "2026-11-07T05:56:24.347Z",
+      "last_ok": "2026-11-07T14:54:22.768Z",
+      "last_attempt": "2026-11-07T14:54:22.768Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 81,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:56:24.739Z",
-      "last_attempt": "2026-11-07T05:56:24.739Z",
+      "last_ok": "2026-11-07T14:54:23.022Z",
+      "last_attempt": "2026-11-07T14:54:23.022Z",
       "error": null
     },
     "code4": {
       "ok": true,
-      "count": 11,
+      "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:56:30.096Z",
-      "last_attempt": "2026-11-07T05:56:30.096Z",
+      "last_ok": "2026-11-07T14:54:28.216Z",
+      "last_attempt": "2026-11-07T14:54:28.216Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:56:30.917Z",
-      "last_attempt": "2026-11-07T05:56:30.917Z",
+      "last_ok": "2026-11-07T14:54:29.086Z",
+      "last_attempt": "2026-11-07T14:54:29.086Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:56:31.880Z",
-      "last_attempt": "2026-11-07T05:56:31.880Z",
+      "last_ok": "2026-11-07T14:54:29.357Z",
+      "last_attempt": "2026-11-07T14:54:29.357Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:56:32.150Z",
-      "last_attempt": "2026-11-07T05:56:32.150Z",
+      "last_ok": "2026-11-07T14:54:29.702Z",
+      "last_attempt": "2026-11-07T14:54:29.702Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-07T05:56:34.681Z",
-      "last_attempt": "2026-11-07T05:56:34.681Z",
+      "last_ok": "2026-11-07T14:54:32.823Z",
+      "last_attempt": "2026-11-07T14:54:32.823Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-07T05:56:35.958Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-30&end_date=2027-03-06"
+      "last_attempt": "2026-11-07T14:54:33.799Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-10-31&end_date=2027-03-07"
     }
   },
   "venues": {
@@ -3959,61 +3959,6 @@
       "genres": []
     },
     {
-      "id": "1bf2a16f9200e625",
-      "date": "2026-10-30",
-      "start_raw": "1800",
-      "end_raw": "2100",
-      "end_estimated": false,
-      "musician": "Erica Rochelle Live",
-      "genre": "",
-      "link": "https://code4taphouse.com/event/erica-rochelle-live-2/",
-      "link_name": "",
-      "venue": "Code 4 Taphouse",
-      "notes": "Free",
-      "event_type": "Band",
-      "source": "code4",
-      "source_url": "https://code4taphouse.com/event/erica-rochelle-live-2/",
-      "genres": []
-    },
-    {
-      "id": "f138c474a3623a0a",
-      "date": "2026-10-30",
-      "start_raw": "2100",
-      "end_raw": "2355",
-      "end_estimated": false,
-      "musician": "Long Distance Runner",
-      "genre": "",
-      "link": "https://local31pub.ai/events/long-distance-runner-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Playing the music of Little Feet, The Band and The Dead! Ashland’s hottest band is back for a rocking night of excellent covers and high-flying solos!",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/long-distance-runner-2/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
-      "id": "2cb6bfc9919e9213",
-      "date": "2026-10-30",
-      "start_raw": "2100",
-      "end_raw": "2359",
-      "end_estimated": false,
-      "musician": "Lee Spivey & The Flavor",
-      "genre": "",
-      "link": "https://wonderbur.net/",
-      "link_name": "",
-      "venue": "The Wonder Bur Cafe",
-      "notes": "21+ No Cover",
-      "event_type": "Band",
-      "source": "venue_ics:wonderbur",
-      "source_url": "https://wonderbur.net/",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "a5b4534252d1b7a9",
       "date": "2026-10-31",
       "start_raw": "1030",
@@ -4345,26 +4290,6 @@
       "genres": []
     },
     {
-      "id": "a00ecf271f8ad756",
-      "date": "2026-11-06",
-      "start_raw": "0800",
-      "end_raw": "1700",
-      "musician": "Shabby Guys New Years' Eve Show",
-      "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-shabby-guys-new-years-eve-show/",
-      "link_name": "",
-      "venue": "Belle Fiore",
-      "notes": "Celebrate the incoming New Year with this wizardly four-piece instrumental band covering blues, jazz, R&B, and pop hits.",
-      "event_type": "Band",
-      "source": "tribe_ics:belle_fiore",
-      "source_url": "https://bellefiorewine.com/event/live-music-shabby-guys-new-years-eve-show/",
-      "genres": [
-        "Blues",
-        "Jazz",
-        "Funk / Soul"
-      ]
-    },
-    {
       "id": "45c5e88efcfc7040",
       "date": "2026-11-06",
       "start_raw": "1400",
@@ -4516,19 +4441,13 @@
       "end_raw": "1930",
       "musician": "Blue Lightning",
       "genre": "classic rock",
-      "link": "https://bellefiorewine.com/event/live-music-blue-lightning/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Cover Charge: Free for Members, $8 for Non-Members \nEstablished over 30 years ago in Ashland Oregon, Blue Lightning has evolved into a high energy dance band with tight grooves and lush vocal harmonie",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-blue-lightning/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "f1151b0c98f3e790"
-        }
-      ],
+      "source_url": null,
       "genres": [
         "Rock"
       ]
@@ -4758,25 +4677,6 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
-    },
-    {
-      "id": "2b479e30745ce95b",
-      "date": "2026-11-06",
-      "start_raw": "1930",
-      "end_raw": "2130",
-      "end_estimated": false,
-      "musician": "Chamber Music Concerts presents the Arcis Saxophone Quartett",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "The Arcis Saxophone Quartett (pronounced “Art-sis”) has emerged as one of the most vibrant and active classical ensembles globally. Whether on the highest pass in Ecuador, in the Saudi Arabian desert,",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical"
-      ]
     },
     {
       "id": "8e260bb947fb3830",
@@ -10292,6 +10192,40 @@
       "genres": [
         "Celtic"
       ]
+    },
+    {
+      "id": "bb5490e6d4914004",
+      "date": "2027-03-07",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "fefb1c1e00b3d675",
+      "date": "2027-03-07",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "end_estimated": false,
+      "musician": "Open Mic",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Open Mic",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
     },
     {
       "id": "638625de12b4efac",
