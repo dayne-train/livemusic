@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-09T18:46:50.470Z",
+  "generated_at": "2026-11-10T02:43:53.827Z",
   "source_timestamp": "11/07/2026 10:16",
-  "content_hash": "c5c67f338f16228b",
+  "content_hash": "5219617ba909ad1b",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 228,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-09T18:45:29.299Z",
-      "last_attempt": "2026-11-09T18:45:29.299Z",
+      "last_ok": "2026-11-10T02:43:09.916Z",
+      "last_attempt": "2026-11-10T02:43:09.916Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 18,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:45:29.466Z",
-      "last_attempt": "2026-11-09T18:45:29.466Z",
+      "last_ok": "2026-11-10T02:43:10.150Z",
+      "last_attempt": "2026-11-10T02:43:10.150Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:45:30.264Z",
-      "last_attempt": "2026-11-09T18:45:30.264Z",
+      "last_ok": "2026-11-10T02:43:11.109Z",
+      "last_attempt": "2026-11-10T02:43:11.109Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:45:30.687Z",
-      "last_attempt": "2026-11-09T18:45:30.687Z",
+      "last_ok": "2026-11-10T02:43:11.502Z",
+      "last_attempt": "2026-11-10T02:43:11.502Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:45:36.054Z",
-      "last_attempt": "2026-11-09T18:45:36.054Z",
+      "last_ok": "2026-11-10T02:43:13.817Z",
+      "last_attempt": "2026-11-10T02:43:13.817Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,79 +48,79 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-09T18:45:36.601Z",
+      "last_attempt": "2026-11-10T02:43:14.321Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:45:38.814Z",
-      "last_attempt": "2026-11-09T18:45:38.814Z",
+      "last_ok": "2026-11-10T02:43:14.489Z",
+      "last_attempt": "2026-11-10T02:43:14.489Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:45:39.822Z",
-      "last_attempt": "2026-11-09T18:45:39.822Z",
+      "last_ok": "2026-11-10T02:43:15.490Z",
+      "last_attempt": "2026-11-10T02:43:15.490Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:46:39.852Z",
-      "last_attempt": "2026-11-09T18:46:39.852Z",
+      "last_ok": "2026-11-10T02:43:43.066Z",
+      "last_attempt": "2026-11-10T02:43:43.066Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 76,
+      "count": 78,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:46:40.267Z",
-      "last_attempt": "2026-11-09T18:46:40.267Z",
+      "last_ok": "2026-11-10T02:43:43.450Z",
+      "last_attempt": "2026-11-10T02:43:43.450Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:46:45.608Z",
-      "last_attempt": "2026-11-09T18:46:45.608Z",
+      "last_ok": "2026-11-10T02:43:48.221Z",
+      "last_attempt": "2026-11-10T02:43:48.221Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:46:46.134Z",
-      "last_attempt": "2026-11-09T18:46:46.134Z",
+      "last_ok": "2026-11-10T02:43:48.789Z",
+      "last_attempt": "2026-11-10T02:43:48.789Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:46:46.631Z",
-      "last_attempt": "2026-11-09T18:46:46.631Z",
+      "last_ok": "2026-11-10T02:43:49.697Z",
+      "last_attempt": "2026-11-10T02:43:49.697Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:46:46.817Z",
-      "last_attempt": "2026-11-09T18:46:46.817Z",
+      "last_ok": "2026-11-10T02:43:50.016Z",
+      "last_attempt": "2026-11-10T02:43:50.016Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-09T18:46:48.826Z",
-      "last_attempt": "2026-11-09T18:46:48.826Z",
+      "last_ok": "2026-11-10T02:43:52.408Z",
+      "last_attempt": "2026-11-10T02:43:52.408Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-09T18:46:50.078Z",
+      "last_attempt": "2026-11-10T02:43:53.454Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-02&end_date=2027-03-09"
     }
   },
@@ -5171,8 +5171,24 @@
       "genres": []
     },
     {
-      "id": "58cec957f6e1d0b4",
-      "date": "2026-11-09",
+      "id": "090c70b104faf59b",
+      "date": "2026-11-10",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Live Music",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "<a href='https://www.eventbrite.com/e/music-for-a-cause-atrium-foundation-fundraiser-tickets-2002980121462'>Tickets</a> Music for a Cause, Atrium Foundation Fundraiser featuring Adam Gabriel, Sharaya Summers, and Jeff Kloetzel.",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d7e48761e644afe0",
+      "date": "2026-11-10",
       "start_raw": "2100",
       "end_raw": "2300",
       "end_estimated": true,
@@ -5189,22 +5205,6 @@
         "Bluegrass",
         "Celtic"
       ]
-    },
-    {
-      "id": "090c70b104faf59b",
-      "date": "2026-11-10",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Live Music",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "The Gold Room",
-      "notes": "<a href='https://www.eventbrite.com/e/music-for-a-cause-atrium-foundation-fundraiser-tickets-2002980121462'>Tickets</a> Music for a Cause, Atrium Foundation Fundraiser featuring Adam Gabriel, Sharaya Summers, and Jeff Kloetzel.",
-      "event_type": "Band",
-      "source": "musiclist_txt",
-      "source_url": null,
-      "genres": []
     },
     {
       "id": "a2a816287a25a64d",
@@ -5913,6 +5913,25 @@
       "source": "craterian",
       "source_url": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
       "genres": []
+    },
+    {
+      "id": "d01eaff7d6274014",
+      "date": "2026-11-14",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "DIE!",
+      "genre": "",
+      "link": "https://local31pub.ai/events/die/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Hard rock music that will get you on the floor! No cover charge for this show!",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/die/",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "8cb20edb841a7525",
@@ -6970,6 +6989,26 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/bretts-house-party/",
       "genres": []
+    },
+    {
+      "id": "a0015a6102af7206",
+      "date": "2026-11-21",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Eel Salad with Mixed Berries",
+      "genre": "",
+      "link": "https://local31pub.ai/events/eel-salad-with-mixed-berries/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Sounds delicious, we know, but wait until you hear them! You are going to have your mind blown! Eel Sallad can be best categorized as Pacific Northwest Americana Rock – with influences ranging from ro",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/eel-salad-with-mixed-berries/",
+      "genres": [
+        "Country",
+        "Rock"
+      ]
     },
     {
       "id": "225ccc306116e454",
