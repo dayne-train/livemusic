@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-10T12:37:08.435Z",
+  "generated_at": "2026-11-10T21:48:16.588Z",
   "source_timestamp": "11/07/2026 10:16",
-  "content_hash": "c7aa7add70ae0577",
+  "content_hash": "106df085dbb988f3",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 228,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-10T12:36:03.973Z",
-      "last_attempt": "2026-11-10T12:36:03.973Z",
+      "last_ok": "2026-11-10T21:47:16.267Z",
+      "last_attempt": "2026-11-10T21:47:16.267Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 18,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:36:04.251Z",
-      "last_attempt": "2026-11-10T12:36:04.251Z",
+      "last_ok": "2026-11-10T21:47:16.453Z",
+      "last_attempt": "2026-11-10T21:47:16.453Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
-      "count": 2,
+      "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:36:05.095Z",
-      "last_attempt": "2026-11-10T12:36:05.095Z",
+      "last_ok": "2026-11-10T21:47:17.302Z",
+      "last_attempt": "2026-11-10T21:47:17.302Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:36:05.511Z",
-      "last_attempt": "2026-11-10T12:36:05.511Z",
+      "last_ok": "2026-11-10T21:47:17.614Z",
+      "last_attempt": "2026-11-10T21:47:17.614Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:36:07.464Z",
-      "last_attempt": "2026-11-10T12:36:07.464Z",
+      "last_ok": "2026-11-10T21:47:19.735Z",
+      "last_attempt": "2026-11-10T21:47:19.735Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,79 +48,79 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-10T12:36:07.964Z",
+      "last_attempt": "2026-11-10T21:47:20.303Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:36:11.280Z",
-      "last_attempt": "2026-11-10T12:36:11.280Z",
+      "last_ok": "2026-11-10T21:47:22.701Z",
+      "last_attempt": "2026-11-10T21:47:22.701Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:36:12.670Z",
-      "last_attempt": "2026-11-10T12:36:12.670Z",
+      "last_ok": "2026-11-10T21:47:23.775Z",
+      "last_attempt": "2026-11-10T21:47:23.775Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:36:57.405Z",
-      "last_attempt": "2026-11-10T12:36:57.405Z",
+      "last_ok": "2026-11-10T21:48:07.055Z",
+      "last_attempt": "2026-11-10T21:48:07.055Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 78,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:36:57.692Z",
-      "last_attempt": "2026-11-10T12:36:57.692Z",
+      "last_ok": "2026-11-10T21:48:07.433Z",
+      "last_attempt": "2026-11-10T21:48:07.433Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:37:02.307Z",
-      "last_attempt": "2026-11-10T12:37:02.307Z",
+      "last_ok": "2026-11-10T21:48:12.168Z",
+      "last_attempt": "2026-11-10T21:48:12.168Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:37:03.127Z",
-      "last_attempt": "2026-11-10T12:37:03.127Z",
+      "last_ok": "2026-11-10T21:48:12.803Z",
+      "last_attempt": "2026-11-10T21:48:12.803Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:37:04.391Z",
-      "last_attempt": "2026-11-10T12:37:04.391Z",
+      "last_ok": "2026-11-10T21:48:13.313Z",
+      "last_attempt": "2026-11-10T21:48:13.313Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:37:04.654Z",
-      "last_attempt": "2026-11-10T12:37:04.654Z",
+      "last_ok": "2026-11-10T21:48:13.538Z",
+      "last_attempt": "2026-11-10T21:48:13.538Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-10T12:37:06.605Z",
-      "last_attempt": "2026-11-10T12:37:06.605Z",
+      "last_ok": "2026-11-10T21:48:15.141Z",
+      "last_attempt": "2026-11-10T21:48:15.141Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-10T12:37:08.048Z",
+      "last_attempt": "2026-11-10T21:48:16.457Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-03&end_date=2027-03-10"
     }
   },
@@ -5506,7 +5506,7 @@
       "link": "https://roxyann.com/event/music-wine-series-featuring-saucy-november-13/",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Saucy, a renowned local Southern Oregon musical group, joins us at RoxyAnn Winery for a Friday night of dancing and fun! Listen to some songs while sipping on some delicious & award-winning wines, or ",
+      "notes": "Saucy is a 5-piece Variety Dance Party Band booked in 4 states. Saucy has world traveled musicians experienced in casinos, cruise ships, and Vegas showrooms. They feature a vast range of hits and genr",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": "https://roxyann.com/event/music-wine-series-featuring-saucy-november-13/",
@@ -5517,7 +5517,8 @@
         }
       ],
       "genres": [
-        "Rock"
+        "Rock",
+        "World"
       ]
     },
     {
@@ -5878,6 +5879,23 @@
       "event_type": "Band",
       "source": "craterian",
       "source_url": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
+      "genres": []
+    },
+    {
+      "id": "b175a34de516df71",
+      "date": "2026-11-14",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Yak Attack",
+      "genre": "",
+      "link": "https://talentclublive.com/event/yak-attack/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/yak-attack/",
       "genres": []
     },
     {
@@ -7211,6 +7229,23 @@
       "genres": []
     },
     {
+      "id": "3fc5df222aade9bc",
+      "date": "2026-11-25",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Collin and COrtet w/ Friends pre-ThanksFriendsgiving, LionsCowboys, Indigenous PeoplesTurkey Day Party!!",
+      "genre": "",
+      "link": "https://talentclublive.com/event/collin-and-cortet-w-friends-pre-thanksfriendsgiving-lionscowboys-indigenous-peoplesturkey-day-party/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/collin-and-cortet-w-friends-pre-thanksfriendsgiving-lionscowboys-indigenous-peoplesturkey-day-party/",
+      "genres": []
+    },
+    {
       "id": "6c33e5c492f16c1c",
       "date": "2026-11-26",
       "start_raw": "1900",
@@ -7693,6 +7728,23 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "3bf1f7a06d48987e",
+      "date": "2026-11-28",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Smiley T and the Tall Trees",
+      "genre": "",
+      "link": "https://talentclublive.com/event/smiley-t-and-the-tall-trees/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/smiley-t-and-the-tall-trees/",
       "genres": []
     },
     {
@@ -8632,6 +8684,23 @@
       "genres": []
     },
     {
+      "id": "172751b19be81cd4",
+      "date": "2026-12-13",
+      "start_raw": "1930",
+      "end_raw": "2130",
+      "end_estimated": true,
+      "musician": "Erik Koskinen with special guest Jon Neufeld",
+      "genre": "",
+      "link": "https://talentclublive.com/event/erik-koskinen-with-special-guest-jon-neufeld/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/erik-koskinen-with-special-guest-jon-neufeld/",
+      "genres": []
+    },
+    {
       "id": "92432b2187b0428a",
       "date": "2026-12-15",
       "start_raw": "1900",
@@ -9509,6 +9578,23 @@
       "genres": []
     },
     {
+      "id": "ff4f459537848bad",
+      "date": "2027-01-22",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "Banshee Tree with Sean Mclean and The Vibetenders",
+      "genre": "",
+      "link": "https://talentclublive.com/event/banshee-tree-with-sean-mclean-and-the-vibetenders/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/banshee-tree-with-sean-mclean-and-the-vibetenders/",
+      "genres": []
+    },
+    {
       "id": "2372ab8f35c0676e",
       "date": "2027-01-23",
       "start_raw": "1630",
@@ -10054,6 +10140,40 @@
       "genres": []
     },
     {
+      "id": "e4733606332d0cb6",
+      "date": "2027-03-15",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "The Garcia Project (Night 1)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/the-garcia-project-night-1/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/the-garcia-project-night-1/",
+      "genres": []
+    },
+    {
+      "id": "a95f8116f368c704",
+      "date": "2027-03-16",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "The Garcia Project (Night 2)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/the-garcia-project-night-2/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/the-garcia-project-night-2/",
+      "genres": []
+    },
+    {
       "id": "638625de12b4efac",
       "date": "2027-03-17",
       "start_raw": "2000",
@@ -10068,6 +10188,23 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/bertha-grateful-drag",
+      "genres": []
+    },
+    {
+      "id": "330d4c91c9bd13a9",
+      "date": "2027-03-17",
+      "start_raw": "2000",
+      "end_raw": "2200",
+      "end_estimated": true,
+      "musician": "The Garcia Project (Night 3)",
+      "genre": "",
+      "link": "https://talentclublive.com/event/the-garcia-project-night-3/",
+      "link_name": "",
+      "venue": "The Talent Club",
+      "notes": "",
+      "event_type": "Band",
+      "source": "talent_club",
+      "source_url": "https://talentclublive.com/event/the-garcia-project-night-3/",
       "genres": []
     },
     {
