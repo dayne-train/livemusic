@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2288,
+  "event_count": 2291,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -1052,7 +1052,8 @@
       "region": "Medford",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt"
+        "musiclist_txt",
+        "tribe_ics"
       ]
     },
     "SOU Music Recital Hall": {
@@ -39184,6 +39185,55 @@
       "link_name": "",
       "venue": "The Gold Room",
       "notes": "<a href='https://www.eventbrite.com/e/music-for-a-cause-atrium-foundation-fundraiser-tickets-2002980121462'>Tickets</a> Music for a Cause, Atrium Foundation Fundraiser featuring Adam Gabriel, Sharaya Summers, and Jeff Kloetzel.",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "a2a816287a25a64d",
+      "date": "2026-11-11",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Chrisman & Smith",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2",
+      "genres": []
+    },
+    {
+      "id": "5ecb198bf24d4a45",
+      "date": "2026-11-11",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Bim Jeam & The Sadness",
+      "genre": "",
+      "link": "",
+      "link_name": "Bim Jeam and the Sadness",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "b5f348cfbe0da38d",
+      "date": "2026-11-11",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Jeff Kloetzel",
+      "genre": "Rhythmic Guitar",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "$18; Wine and Dine",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
