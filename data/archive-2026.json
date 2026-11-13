@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2291,
+  "event_count": 2294,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -38076,6 +38076,23 @@
       "genres": []
     },
     {
+      "id": "b7369e9fd2674a96",
+      "date": "2026-11-05",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "end_estimated": false,
+      "musician": "Craig Martin",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
       "id": "afdeed2dd610f177",
       "date": "2026-11-05",
       "start_raw": "1830",
@@ -38567,6 +38584,23 @@
       "event_type": "Band",
       "source": "venue_ics:local31",
       "source_url": "https://local31pub.ai/events/skyler-the-sketchy-kids-3/",
+      "genres": []
+    },
+    {
+      "id": "07ecd0796f18eb51",
+      "date": "2026-11-07",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "Jim Quinby and Julia Roupp",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/7/jim-quinby-and-julia-roupp",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/11/7/jim-quinby-and-julia-roupp",
       "genres": []
     },
     {
@@ -39073,6 +39107,23 @@
       "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "cf7abc1426efeee8",
+      "date": "2026-11-08",
+      "start_raw": "1700",
+      "end_raw": "1845",
+      "end_estimated": false,
+      "musician": "Jim Quinby",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
     },
