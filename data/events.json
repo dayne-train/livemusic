@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-11-13T01:04:12.159Z",
+  "generated_at": "2026-11-13T12:11:47.161Z",
   "source_timestamp": "11/12/2026 15:04",
-  "content_hash": "dde79e07cc61d43c",
+  "content_hash": "b005b5cb0826b497",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 199,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-13T01:02:58.114Z",
-      "last_attempt": "2026-11-13T01:02:58.114Z",
+      "last_ok": "2026-11-13T12:09:47.782Z",
+      "last_attempt": "2026-11-13T12:09:47.782Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 18,
+      "count": 17,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:02:58.381Z",
-      "last_attempt": "2026-11-13T01:02:58.381Z",
+      "last_ok": "2026-11-13T12:09:48.050Z",
+      "last_attempt": "2026-11-13T12:09:48.050Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:02:59.311Z",
-      "last_attempt": "2026-11-13T01:02:59.311Z",
+      "last_ok": "2026-11-13T12:09:49.066Z",
+      "last_attempt": "2026-11-13T12:09:49.066Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:02:59.649Z",
-      "last_attempt": "2026-11-13T01:02:59.649Z",
+      "last_ok": "2026-11-13T12:09:49.374Z",
+      "last_attempt": "2026-11-13T12:09:49.374Z",
       "error": null
     },
     "ashland_city": {
@@ -40,7 +40,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-12T16:47:08.311Z",
-      "last_attempt": "2026-11-13T01:03:02.071Z",
+      "last_attempt": "2026-11-13T12:09:51.515Z",
       "error": "fetch failed"
     },
     "mt_ashland": {
@@ -48,79 +48,79 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-13T01:03:12.559Z",
+      "last_attempt": "2026-11-13T12:10:02.004Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:03:16.767Z",
-      "last_attempt": "2026-11-13T01:03:16.767Z",
+      "last_ok": "2026-11-13T12:10:04.959Z",
+      "last_attempt": "2026-11-13T12:10:04.959Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:03:17.565Z",
-      "last_attempt": "2026-11-13T01:03:17.565Z",
+      "last_ok": "2026-11-13T12:10:05.745Z",
+      "last_attempt": "2026-11-13T12:10:05.745Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:04:00.381Z",
-      "last_attempt": "2026-11-13T01:04:00.381Z",
+      "last_ok": "2026-11-13T12:11:34.902Z",
+      "last_attempt": "2026-11-13T12:11:34.902Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 78,
+      "count": 77,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:04:02.346Z",
-      "last_attempt": "2026-11-13T01:04:02.346Z",
+      "last_ok": "2026-11-13T12:11:35.268Z",
+      "last_attempt": "2026-11-13T12:11:35.268Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:04:06.708Z",
-      "last_attempt": "2026-11-13T01:04:06.708Z",
+      "last_ok": "2026-11-13T12:11:41.010Z",
+      "last_attempt": "2026-11-13T12:11:41.010Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:04:07.415Z",
-      "last_attempt": "2026-11-13T01:04:07.415Z",
+      "last_ok": "2026-11-13T12:11:41.613Z",
+      "last_attempt": "2026-11-13T12:11:41.613Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:04:07.820Z",
-      "last_attempt": "2026-11-13T01:04:07.820Z",
+      "last_ok": "2026-11-13T12:11:42.679Z",
+      "last_attempt": "2026-11-13T12:11:42.679Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:04:08.110Z",
-      "last_attempt": "2026-11-13T01:04:08.110Z",
+      "last_ok": "2026-11-13T12:11:42.991Z",
+      "last_attempt": "2026-11-13T12:11:42.991Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-13T01:04:10.492Z",
-      "last_attempt": "2026-11-13T01:04:10.492Z",
+      "last_ok": "2026-11-13T12:11:45.361Z",
+      "last_attempt": "2026-11-13T12:11:45.361Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-13T01:04:11.723Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-05&end_date=2027-03-12"
+      "last_attempt": "2026-11-13T12:11:46.732Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-06&end_date=2027-03-13"
     }
   },
   "venues": {
@@ -3943,40 +3943,6 @@
       ]
     },
     {
-      "id": "b7369e9fd2674a96",
-      "date": "2026-11-05",
-      "start_raw": "1800",
-      "end_raw": "2030",
-      "end_estimated": false,
-      "musician": "Craig Martin",
-      "genre": "",
-      "link": "http://www.wildgoosecafe.com/events.html",
-      "link_name": "",
-      "venue": "Wild Goose Cafe",
-      "notes": "",
-      "event_type": "Band",
-      "source": "venue_ics:wildgoose",
-      "source_url": "http://www.wildgoosecafe.com/events.html",
-      "genres": []
-    },
-    {
-      "id": "afdeed2dd610f177",
-      "date": "2026-11-05",
-      "start_raw": "1830",
-      "end_raw": "1840",
-      "end_estimated": false,
-      "musician": "Roy Roger’s Resurrection Unveiling!",
-      "genre": "",
-      "link": "https://local31pub.ai/events/roy-rogers-resurrection-unveiling/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "On October 1st, someone stole our precious Roy Rogers cardboard cutout from the Pub. But you pitched in to get a new Roy for the Pub. Join us for the unveiling of our new Roy!",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/roy-rogers-resurrection-unveiling/",
-      "genres": []
-    },
-    {
       "id": "7ca21da3490744e6",
       "date": "2026-11-06",
       "start_raw": "1700",
@@ -4187,24 +4153,14 @@
       "end_raw": "1900",
       "musician": "Lisa and Dean",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-lisa-dean/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "The duo features Lisa Udall on lead vocals and Dean Angermeier on keyboard & vocals. The group plays a fun, eclectic mix of pop, jazz, blues, R&B, & country.",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-lisa-dean/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "88813bc492ed769b"
-        }
-      ],
-      "genres": [
-        "Country",
-        "Blues",
-        "Jazz"
-      ]
+      "source_url": null,
+      "genres": []
     },
     {
       "id": "e0e9a2e4b63a3987",
@@ -9722,6 +9678,25 @@
       "source_url": "https://hollytheatre.ticketspice.com/preservation-hall-jazz-band",
       "genres": [
         "Jazz"
+      ]
+    },
+    {
+      "id": "430e0b557aa71bcf",
+      "date": "2027-03-13",
+      "start_raw": "1630",
+      "end_raw": "1830",
+      "end_estimated": false,
+      "musician": "The Fluid Druids",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-fluid-druids/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
+      "genres": [
+        "Celtic"
       ]
     },
     {

@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2294,
+  "event_count": 2303,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -39289,6 +39289,157 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "82d01e5d9be586f7",
+      "date": "2026-11-12",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Lisa and Dean",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Belle Fiore",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "d7cd3208bc447da9",
+      "date": "2026-11-12",
+      "start_raw": "1730",
+      "end_raw": "2030",
+      "musician": "Booze, Booch & Vinyl Club",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Moxie Brew",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "e0e9a2e4b63a3987",
+      "date": "2026-11-12",
+      "start_raw": "1730",
+      "end_raw": "1930",
+      "musician": "Traditional Irish Music and Dancing",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Dunbar Farms",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Celtic"
+      ]
+    },
+    {
+      "id": "08e1afcce107f5c0",
+      "date": "2026-11-12",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "John Mazzei",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9fca0ba24adc865f",
+      "date": "2026-11-12",
+      "start_raw": "1800",
+      "end_raw": "2030",
+      "musician": "Sage Meadows Country Band",
+      "genre": "",
+      "link": "http://www.wildgoosecafe.com/events.html",
+      "link_name": "",
+      "venue": "Wild Goose Cafe",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "id": "b4028a3872cf8ec7",
+      "date": "2026-11-12",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Guitar Society",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Paschal Winery",
+      "notes": "",
+      "event_type": "Jam",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "29dad0195ba12f3c",
+      "date": "2026-11-12",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Alibi Tavern",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "2d8bc3780f84419a",
+      "date": "2026-11-12",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Mitchell Brothers",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Bella Union",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "4c8cdd5de0eab04c",
+      "date": "2026-11-12",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": false,
+      "musician": "Three for Silver",
+      "genre": "",
+      "link": "https://local31pub.ai/events/three-for-silver/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "On their Fall Tour, Three for Silver is an aggressively original band that is impervious to easy description. If asked what they sounds like, the most accurate answer would be, “They sound like Three ",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/three-for-silver/",
+      "genres": [
+        "Other"
+      ]
     }
   ]
 }
