@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-13T19:40:00.132Z",
+  "generated_at": "2026-11-14T00:53:55.269Z",
   "source_timestamp": "11/12/2026 15:04",
-  "content_hash": "781f393915dfeec4",
+  "content_hash": "18c8ab9c84163f5f",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 199,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-13T19:38:52.925Z",
-      "last_attempt": "2026-11-13T19:38:52.925Z",
+      "last_ok": "2026-11-14T00:52:29.872Z",
+      "last_attempt": "2026-11-14T00:52:29.872Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 17,
+      "count": 11,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:38:53.233Z",
-      "last_attempt": "2026-11-13T19:38:53.233Z",
-      "error": "travel_ashland: travel_ashland HTTP 403"
+      "last_ok": "2026-11-14T00:52:30.128Z",
+      "last_attempt": "2026-11-14T00:52:30.128Z",
+      "error": "roxyann: The operation was aborted due to timeout; travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:38:54.157Z",
-      "last_attempt": "2026-11-13T19:38:54.157Z",
+      "last_ok": "2026-11-14T00:52:55.130Z",
+      "last_attempt": "2026-11-14T00:52:55.130Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:38:54.311Z",
-      "last_attempt": "2026-11-13T19:38:54.311Z",
+      "last_ok": "2026-11-14T00:52:55.392Z",
+      "last_attempt": "2026-11-14T00:52:55.392Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:38:56.697Z",
-      "last_attempt": "2026-11-13T19:38:56.697Z",
+      "last_ok": "2026-11-14T00:52:58.168Z",
+      "last_attempt": "2026-11-14T00:52:58.168Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,79 +48,79 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-13T19:38:57.175Z",
+      "last_attempt": "2026-11-14T00:52:58.662Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:00.299Z",
-      "last_attempt": "2026-11-13T19:39:00.299Z",
+      "last_ok": "2026-11-14T00:52:58.820Z",
+      "last_attempt": "2026-11-14T00:52:58.820Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:02.575Z",
-      "last_attempt": "2026-11-13T19:39:02.575Z",
+      "last_ok": "2026-11-14T00:53:01.478Z",
+      "last_attempt": "2026-11-14T00:53:01.478Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:50.291Z",
-      "last_attempt": "2026-11-13T19:39:50.291Z",
+      "last_ok": "2026-11-14T00:53:45.256Z",
+      "last_attempt": "2026-11-14T00:53:45.256Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 77,
+      "count": 78,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:50.534Z",
-      "last_attempt": "2026-11-13T19:39:50.534Z",
+      "last_ok": "2026-11-14T00:53:45.628Z",
+      "last_attempt": "2026-11-14T00:53:45.628Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:55.584Z",
-      "last_attempt": "2026-11-13T19:39:55.584Z",
+      "last_ok": "2026-11-14T00:53:49.678Z",
+      "last_attempt": "2026-11-14T00:53:49.678Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:56.186Z",
-      "last_attempt": "2026-11-13T19:39:56.186Z",
+      "last_ok": "2026-11-14T00:53:50.383Z",
+      "last_attempt": "2026-11-14T00:53:50.383Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:56.285Z",
-      "last_attempt": "2026-11-13T19:39:56.285Z",
+      "last_ok": "2026-11-14T00:53:51.552Z",
+      "last_attempt": "2026-11-14T00:53:51.552Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:56.635Z",
-      "last_attempt": "2026-11-13T19:39:56.635Z",
+      "last_ok": "2026-11-14T00:53:51.726Z",
+      "last_attempt": "2026-11-14T00:53:51.726Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-11-13T19:39:58.716Z",
-      "last_attempt": "2026-11-13T19:39:58.716Z",
+      "last_ok": "2026-11-14T00:53:53.525Z",
+      "last_attempt": "2026-11-14T00:53:53.525Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-13T19:39:59.859Z",
+      "last_attempt": "2026-11-14T00:53:54.964Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-06&end_date=2027-03-13"
     }
   },
@@ -2679,8 +2679,7 @@
       "region": "Medford",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt",
-        "tribe_ics"
+        "musiclist_txt"
       ]
     },
     "Ruby's Restaurant": {
@@ -4562,22 +4561,15 @@
       "end_raw": "2000",
       "musician": "Saucy",
       "genre": "classic rock, variety",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-saucy-november-13/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Saucy is a 5-piece Variety Dance Party Band booked in 4 states. Saucy has world traveled musicians experienced in casinos, cruise ships, and Vegas showrooms. They feature a vast range of hits and genr",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-saucy-november-13/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "3cee77fac8d2dd28"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Rock",
-        "World"
+        "Rock"
       ]
     },
     {
@@ -4758,26 +4750,6 @@
       "source_url": "https://local31pub.ai/events/the-bouray-6/",
       "genres": [
         "Funk / Soul"
-      ]
-    },
-    {
-      "id": "2ca00ef6617e0b02",
-      "date": "2026-11-13",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
       ]
     },
     {
@@ -5122,6 +5094,26 @@
       ]
     },
     {
+      "id": "4e08275e29065103",
+      "date": "2026-11-14",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
+    },
+    {
       "id": "ec7837988a932e08",
       "date": "2026-11-15",
       "start_raw": "1300",
@@ -5272,19 +5264,13 @@
       "end_raw": "1800",
       "musician": "Jackalope Blue",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-jackalope-blue-november-15/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Jackalope Blue is a magical musical collaboration between Rogue Valley singer-songwriters Dave Brendlinger and Joan Campbell. With solid harmonies and multiple instruments in tow, they deliver a curat",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-jackalope-blue-november-15/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "ef50f75a2701305b"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -5786,25 +5772,6 @@
       ]
     },
     {
-      "id": "8c977a23bd56b71a",
-      "date": "2026-11-20",
-      "start_raw": "1800",
-      "end_raw": "2000",
-      "musician": "Robbie DeCosta",
-      "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-robbie-decosta-november-20/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "A guitarist and singer with a ba-zillion tunes and wide appeal, Robbie plays everything from R&B, rockabilly, ballads,- music from the 1950s through the 1970s.\n\nJoin us at RoxyAnn Winery for a Friday ",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-robbie-decosta-november-20/",
-      "genres": [
-        "Rockabilly",
-        "Funk / Soul"
-      ]
-    },
-    {
       "id": "cb245cb6c41d0702",
       "date": "2026-11-20",
       "start_raw": "1800",
@@ -5933,6 +5900,26 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/watkins-glen/",
       "genres": []
+    },
+    {
+      "id": "f87f398d0281c4de",
+      "date": "2026-11-20",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "Black Light Ritual and Jaded Honey",
+      "genre": "",
+      "link": "https://local31pub.ai/events/black-light-ritual-and-jaded-honey/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Black Light Ritual is a band that mixes elements of 90s style Alternative Rock, Dark Funk , Groove. https://www.facebook.com/profile.php?id=61581334625126 ( https://www.facebook.com/profile.php?id=615",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/black-light-ritual-and-jaded-honey/",
+      "genres": [
+        "Funk / Soul",
+        "Rock"
+      ]
     },
     {
       "id": "a0a7b3e0b07ba66a",
@@ -6411,22 +6398,6 @@
       "genres": []
     },
     {
-      "id": "b12be4097d04f3e2",
-      "date": "2026-11-22",
-      "start_raw": "1600",
-      "end_raw": "1800",
-      "musician": "FREE MUSIC + WINE SERIES FEATURING Tres Palomas",
-      "genre": "",
-      "link": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-november-22/",
-      "link_name": "",
-      "venue": "Roxy Ann Winery",
-      "notes": "Tres Palomas plays Bossa Nova and international classics. The trio – Mari Simone on vocals, Sean Chon on upright bass, and Jason Wolverton on guitar – performs in Portuguese, Spanish, French, and Engl",
-      "event_type": "Band",
-      "source": "tribe_ics:roxyann",
-      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-tres-palomas-november-22/",
-      "genres": []
-    },
-    {
       "id": "4386f7647bbfa0dc",
       "date": "2026-11-22",
       "start_raw": "1700",
@@ -6789,22 +6760,15 @@
       "end_raw": "2000",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-november-27/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "The Pozitronics are southern Oregon’s premier “all-you-can-dance” band playing a unique mix of classic rock, R&B, and funk, with love, positive vibes, and a whole lot of energy. You bring the dance mo",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-november-27/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "4969d1a26fd7c5ba"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Rock",
-        "Funk / Soul"
+        "Rock"
       ]
     },
     {
@@ -7234,19 +7198,13 @@
       "end_raw": "1800",
       "musician": "Natasha Neece and Peter Gross",
       "genre": "",
-      "link": "https://roxyann.com/event/free-music-wine-series-featuring-natasha-neece-peter-gross-november-29/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Natasha & Peter from Living Loving Led, present an afternoon of accoustic Led Zeppelin music. \nJoin us for a relaxing Sunday afternoon: listen to amazing music while sipping on some delicious & award-",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/free-music-wine-series-featuring-natasha-neece-peter-gross-november-29/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "fbb4444d521d3a03"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {

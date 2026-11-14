@@ -1052,8 +1052,7 @@
       "region": "Medford",
       "type": "Winery",
       "_sources": [
-        "musiclist_txt",
-        "tribe_ics"
+        "musiclist_txt"
       ]
     },
     "SOU Music Recital Hall": {
