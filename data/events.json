@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-15T21:02:21.868Z",
+  "generated_at": "2026-11-16T06:24:10.848Z",
   "source_timestamp": "11/14/2026 16:00",
-  "content_hash": "d220b2684ade4491",
+  "content_hash": "b82aaadbaef76f78",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 201,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-15T21:01:04.810Z",
-      "last_attempt": "2026-11-15T21:01:04.810Z",
+      "last_ok": "2026-11-16T06:23:07.701Z",
+      "last_attempt": "2026-11-16T06:23:07.701Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 14,
+      "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:01:05.098Z",
-      "last_attempt": "2026-11-15T21:01:05.098Z",
+      "last_ok": "2026-11-16T06:23:07.951Z",
+      "last_attempt": "2026-11-16T06:23:07.951Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 10,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:01:06.012Z",
-      "last_attempt": "2026-11-15T21:01:06.012Z",
+      "last_ok": "2026-11-16T06:23:09.073Z",
+      "last_attempt": "2026-11-16T06:23:09.073Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:01:06.192Z",
-      "last_attempt": "2026-11-15T21:01:06.192Z",
+      "last_ok": "2026-11-16T06:23:09.425Z",
+      "last_attempt": "2026-11-16T06:23:09.425Z",
       "error": null
     },
     "ashland_city": {
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "strategy": null,
-      "last_ok": "2026-11-15T15:38:29.040Z",
-      "last_attempt": "2026-11-15T21:01:09.390Z",
-      "error": "fetch failed"
+      "strategy": "live",
+      "last_ok": "2026-11-16T06:23:13.609Z",
+      "last_attempt": "2026-11-16T06:23:13.609Z",
+      "error": null
     },
     "mt_ashland": {
       "ok": false,
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-15T21:01:19.882Z",
+      "last_attempt": "2026-11-16T06:23:14.113Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:01:23.246Z",
-      "last_attempt": "2026-11-15T21:01:23.246Z",
+      "last_ok": "2026-11-16T06:23:16.836Z",
+      "last_attempt": "2026-11-16T06:23:16.836Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:01:23.929Z",
-      "last_attempt": "2026-11-15T21:01:23.929Z",
+      "last_ok": "2026-11-16T06:23:17.794Z",
+      "last_attempt": "2026-11-16T06:23:17.794Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:02:09.084Z",
-      "last_attempt": "2026-11-15T21:02:09.084Z",
+      "last_ok": "2026-11-16T06:23:59.514Z",
+      "last_attempt": "2026-11-16T06:23:59.514Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 77,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:02:09.588Z",
-      "last_attempt": "2026-11-15T21:02:09.588Z",
+      "last_ok": "2026-11-16T06:23:59.957Z",
+      "last_attempt": "2026-11-16T06:23:59.957Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:02:16.911Z",
-      "last_attempt": "2026-11-15T21:02:16.911Z",
+      "last_ok": "2026-11-16T06:24:05.443Z",
+      "last_attempt": "2026-11-16T06:24:05.443Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:02:17.596Z",
-      "last_attempt": "2026-11-15T21:02:17.596Z",
+      "last_ok": "2026-11-16T06:24:06.311Z",
+      "last_attempt": "2026-11-16T06:24:06.311Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:02:17.811Z",
-      "last_attempt": "2026-11-15T21:02:17.811Z",
+      "last_ok": "2026-11-16T06:24:06.735Z",
+      "last_attempt": "2026-11-16T06:24:06.735Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:02:18.148Z",
-      "last_attempt": "2026-11-15T21:02:18.148Z",
+      "last_ok": "2026-11-16T06:24:07.100Z",
+      "last_attempt": "2026-11-16T06:24:07.100Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-11-15T21:02:20.742Z",
-      "last_attempt": "2026-11-15T21:02:20.742Z",
+      "last_ok": "2026-11-16T06:24:09.322Z",
+      "last_attempt": "2026-11-16T06:24:09.322Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-15T21:02:21.688Z",
+      "last_attempt": "2026-11-16T06:24:10.595Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-08&end_date=2027-03-15"
     }
   },
@@ -5168,19 +5168,13 @@
       "end_raw": "1800",
       "musician": "Jackalope Blue",
       "genre": "",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-jackalope-blue-november-15/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "Jackalope Blue is a magical musical collaboration between Rogue Valley singer-songwriters Dave Brendlinger and Joan Campbell. With solid harmonies and multiple instruments in tow, they deliver a curat",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-jackalope-blue-november-15/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "ef50f75a2701305b"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -5265,26 +5259,6 @@
       "genres": []
     },
     {
-      "id": "6a01bdb43f84fdfa",
-      "date": "2026-11-15",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
-      ]
-    },
-    {
       "id": "52b00d8b526dd13c",
       "date": "2026-11-16",
       "start_raw": "1700",
@@ -5316,6 +5290,26 @@
       "source": "musiclist_txt",
       "source_url": null,
       "genres": []
+    },
+    {
+      "id": "8b65442117c775bd",
+      "date": "2026-11-16",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     },
     {
       "id": "9c5b241d23601e9a",
