@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2366,
+  "event_count": 2368,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -40472,6 +40472,39 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "9c5b241d23601e9a",
+      "date": "2026-11-17",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Taurus Moon",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "The Gold Room",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f25b2b09e646cc5d",
+      "date": "2026-11-17",
+      "start_raw": "1900",
+      "end_raw": "2330",
+      "end_estimated": false,
+      "musician": "The California Honeydrops",
+      "genre": "",
+      "link": "https://www.ticketweb.com/event/the-california-honeydrops-the-historic-ashland-armory-tickets/14990453&pl=jmax",
+      "link_name": "",
+      "venue": "Ashland Armory",
+      "notes": "$35 Pre-Sale / $40 at the Door. Doors 7:00 PM / Show 8 pm. All Ages",
+      "event_type": "Band",
+      "source": "armory",
+      "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/11/17/the-california-honeydrops",
       "genres": []
     }
   ]
