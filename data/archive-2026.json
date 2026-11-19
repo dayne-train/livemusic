@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2368,
+  "event_count": 2372,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -40505,6 +40505,75 @@
       "event_type": "Band",
       "source": "armory",
       "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/11/17/the-california-honeydrops",
+      "genres": []
+    },
+    {
+      "id": "4896101dd1dfcc01",
+      "date": "2026-11-18",
+      "start_raw": "1030",
+      "end_raw": "1230",
+      "end_estimated": false,
+      "musician": "House Country Band",
+      "genre": "",
+      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd",
+      "link_name": "",
+      "venue": "La Baguette",
+      "notes": "",
+      "event_type": "Band",
+      "source": "la_baguette",
+      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/17/house-country-band-53kda-3dx4t-a5lg5-j9wam-4p8mp-tt9m8-dbarh-stfrd",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "id": "dd2de4ab5b760d72",
+      "date": "2026-11-18",
+      "start_raw": "1700",
+      "end_raw": "1900",
+      "musician": "Billy Rock",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Local Vines Wine Bar",
+      "notes": "",
+      "event_type": "Solo",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "id": "ee177989183cc3ea",
+      "date": "2026-11-18",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Rick Edwards Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Weekend Beer Company",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
+      "id": "f12b53e0811b2e22",
+      "date": "2026-11-18",
+      "start_raw": "1800",
+      "end_raw": "2000",
+      "musician": "Nick Garrett-Powell",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "South Stage Cellars",
+      "notes": "$18; Wine and Dine",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     }
   ]
