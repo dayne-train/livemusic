@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-19T13:01:24.852Z",
-  "source_timestamp": "11/14/2026 16:00",
-  "content_hash": "381b2e77f131df25",
+  "generated_at": "2026-11-19T23:02:35.444Z",
+  "source_timestamp": "11/19/2026 11:06",
+  "content_hash": "0e38238cd3c2f52f",
   "sources": {
     "musiclist_txt": {
       "ok": true,
-      "count": 201,
+      "count": 205,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-19T12:59:59.776Z",
-      "last_attempt": "2026-11-19T12:59:59.776Z",
+      "last_ok": "2026-11-19T23:01:29.033Z",
+      "last_attempt": "2026-11-19T23:01:29.033Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 12,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:00:00.281Z",
-      "last_attempt": "2026-11-19T13:00:00.281Z",
+      "last_ok": "2026-11-19T23:01:29.239Z",
+      "last_attempt": "2026-11-19T23:01:29.239Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:00:01.212Z",
-      "last_attempt": "2026-11-19T13:00:01.212Z",
+      "last_ok": "2026-11-19T23:01:30.003Z",
+      "last_attempt": "2026-11-19T23:01:30.003Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:00:01.659Z",
-      "last_attempt": "2026-11-19T13:00:01.659Z",
+      "last_ok": "2026-11-19T23:01:30.295Z",
+      "last_attempt": "2026-11-19T23:01:30.295Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:00:04.408Z",
-      "last_attempt": "2026-11-19T13:00:04.408Z",
+      "last_ok": "2026-11-19T23:01:34.715Z",
+      "last_attempt": "2026-11-19T23:01:34.715Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,79 +48,79 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-19T13:00:04.932Z",
+      "last_attempt": "2026-11-19T23:01:35.257Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:00:06.748Z",
-      "last_attempt": "2026-11-19T13:00:06.748Z",
+      "last_ok": "2026-11-19T23:01:36.874Z",
+      "last_attempt": "2026-11-19T23:01:36.874Z",
       "error": null
     },
     "craterian": {
       "ok": true,
       "count": 13,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:00:07.822Z",
-      "last_attempt": "2026-11-19T13:00:07.822Z",
+      "last_ok": "2026-11-19T23:01:37.908Z",
+      "last_attempt": "2026-11-19T23:01:37.908Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 15,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:01:12.905Z",
-      "last_attempt": "2026-11-19T13:01:12.905Z",
+      "last_ok": "2026-11-19T23:02:25.514Z",
+      "last_attempt": "2026-11-19T23:02:25.514Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 76,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:01:13.235Z",
-      "last_attempt": "2026-11-19T13:01:13.235Z",
+      "last_ok": "2026-11-19T23:02:25.899Z",
+      "last_attempt": "2026-11-19T23:02:25.899Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:01:18.736Z",
-      "last_attempt": "2026-11-19T13:01:18.736Z",
+      "last_ok": "2026-11-19T23:02:30.386Z",
+      "last_attempt": "2026-11-19T23:02:30.386Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:01:19.419Z",
-      "last_attempt": "2026-11-19T13:01:19.419Z",
+      "last_ok": "2026-11-19T23:02:31.037Z",
+      "last_attempt": "2026-11-19T23:02:31.037Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:01:20.072Z",
-      "last_attempt": "2026-11-19T13:01:20.072Z",
+      "last_ok": "2026-11-19T23:02:31.979Z",
+      "last_attempt": "2026-11-19T23:02:31.979Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:01:20.340Z",
-      "last_attempt": "2026-11-19T13:01:20.340Z",
+      "last_ok": "2026-11-19T23:02:32.184Z",
+      "last_attempt": "2026-11-19T23:02:32.184Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 25,
       "strategy": "live",
-      "last_ok": "2026-11-19T13:01:22.398Z",
-      "last_attempt": "2026-11-19T13:01:22.398Z",
+      "last_ok": "2026-11-19T23:02:33.988Z",
+      "last_attempt": "2026-11-19T23:02:33.988Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-19T13:01:24.695Z",
+      "last_attempt": "2026-11-19T23:02:35.295Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-12&end_date=2027-03-19"
     }
   },
@@ -5930,11 +5930,11 @@
       "genres": []
     },
     {
-      "id": "aeadce9985a0890e",
+      "id": "bfa3fc840edc1c02",
       "date": "2026-11-21",
       "start_raw": "1700",
       "end_raw": "1900",
-      "musician": "Alissa Weaver",
+      "musician": "Alissa & the Side Effects",
       "genre": "",
       "link": "",
       "link_name": "",
@@ -7698,6 +7698,22 @@
       ]
     },
     {
+      "id": "58453e80317d145c",
+      "date": "2026-12-07",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "40c2fdf80eb04615",
       "date": "2026-12-09",
       "start_raw": "1030",
@@ -8035,6 +8051,22 @@
       "event_type": "Band",
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/erik-koskinen-with-special-guest-jon-neufeld/",
+      "genres": []
+    },
+    {
+      "id": "402877f0d318ac10",
+      "date": "2026-12-14",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
@@ -8444,6 +8476,22 @@
       "genres": []
     },
     {
+      "id": "fa151bbf83854dcd",
+      "date": "2026-12-21",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
+      "genres": []
+    },
+    {
       "id": "6657f9c8cd48664d",
       "date": "2026-12-23",
       "start_raw": "1030",
@@ -8577,6 +8625,22 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "589cc0d3afc714ca",
+      "date": "2026-12-28",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     },
     {
