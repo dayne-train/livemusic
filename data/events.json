@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-22T06:43:43.433Z",
+  "generated_at": "2026-11-22T16:16:09.038Z",
   "source_timestamp": "11/21/2026 10:03",
-  "content_hash": "71e55acba8405ae0",
+  "content_hash": "20f61e468d5870df",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 166,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-22T06:42:41.055Z",
-      "last_attempt": "2026-11-22T06:42:41.055Z",
+      "last_ok": "2026-11-22T16:14:45.991Z",
+      "last_attempt": "2026-11-22T16:14:45.991Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:42:41.325Z",
-      "last_attempt": "2026-11-22T06:42:41.325Z",
+      "last_ok": "2026-11-22T16:14:46.209Z",
+      "last_attempt": "2026-11-22T16:14:46.209Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:42:42.358Z",
-      "last_attempt": "2026-11-22T06:42:42.358Z",
+      "last_ok": "2026-11-22T16:14:46.939Z",
+      "last_attempt": "2026-11-22T16:14:46.939Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 13,
+      "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:42:42.606Z",
-      "last_attempt": "2026-11-22T06:42:42.606Z",
+      "last_ok": "2026-11-22T16:14:47.231Z",
+      "last_attempt": "2026-11-22T16:14:47.231Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:42:47.031Z",
-      "last_attempt": "2026-11-22T06:42:47.031Z",
+      "last_ok": "2026-11-22T16:14:49.447Z",
+      "last_attempt": "2026-11-22T16:14:49.447Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,79 +48,79 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-22T06:42:47.592Z",
+      "last_attempt": "2026-11-22T16:14:50.558Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:42:47.869Z",
-      "last_attempt": "2026-11-22T06:42:47.869Z",
+      "last_ok": "2026-11-22T16:14:52.536Z",
+      "last_attempt": "2026-11-22T16:14:52.536Z",
       "error": null
     },
     "craterian": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:42:48.701Z",
-      "last_attempt": "2026-11-22T06:42:48.701Z",
+      "last_ok": "2026-11-22T16:14:55.022Z",
+      "last_attempt": "2026-11-22T16:14:55.022Z",
       "error": null
     },
     "holly": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:43:33.163Z",
-      "last_attempt": "2026-11-22T06:43:33.163Z",
+      "last_ok": "2026-11-22T16:15:58.227Z",
+      "last_attempt": "2026-11-22T16:15:58.227Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 76,
+      "count": 74,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:43:33.532Z",
-      "last_attempt": "2026-11-22T06:43:33.532Z",
+      "last_ok": "2026-11-22T16:15:58.477Z",
+      "last_attempt": "2026-11-22T16:15:58.477Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:43:38.834Z",
-      "last_attempt": "2026-11-22T06:43:38.834Z",
+      "last_ok": "2026-11-22T16:16:04.175Z",
+      "last_attempt": "2026-11-22T16:16:04.175Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:43:39.504Z",
-      "last_attempt": "2026-11-22T06:43:39.504Z",
+      "last_ok": "2026-11-22T16:16:04.707Z",
+      "last_attempt": "2026-11-22T16:16:04.707Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:43:39.851Z",
-      "last_attempt": "2026-11-22T06:43:39.851Z",
+      "last_ok": "2026-11-22T16:16:05.230Z",
+      "last_attempt": "2026-11-22T16:16:05.230Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:43:40.164Z",
-      "last_attempt": "2026-11-22T06:43:40.164Z",
+      "last_ok": "2026-11-22T16:16:05.409Z",
+      "last_attempt": "2026-11-22T16:16:05.409Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-22T06:43:42.113Z",
-      "last_attempt": "2026-11-22T06:43:42.113Z",
+      "last_ok": "2026-11-22T16:16:07.347Z",
+      "last_attempt": "2026-11-22T16:16:07.347Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-22T06:43:43.277Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-14&end_date=2027-03-21"
+      "last_attempt": "2026-11-22T16:16:08.696Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-15&end_date=2027-03-22"
     }
   },
   "venues": {
@@ -3898,14 +3898,14 @@
       "id": "e74a8916284c9f8b",
       "date": "2026-10-24",
       "start_raw": "2000",
-      "end_raw": "2300",
-      "end_estimated": true,
+      "end_raw": "2330",
+      "end_estimated": false,
       "musician": "Squid Pisser w/ Locutus, Graveburner, Malum Veneficus",
       "genre": "",
       "link": "https://rockafairy.betterworld.org/events/squidpisser",
       "link_name": "",
       "venue": "Rockafairy",
-      "notes": "",
+      "notes": "$15 advance / $20 at the door. Doors 7:00PM, Music 8:00PM. All ages",
       "event_type": "Band",
       "source": "rockafairy",
       "source_url": "https://rockafairy.betterworld.org/events/squidpisser",
@@ -3963,61 +3963,6 @@
       "source": "la_baguette",
       "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2",
       "genres": []
-    },
-    {
-      "id": "a276d61fa92168aa",
-      "date": "2026-11-14",
-      "start_raw": "1630",
-      "end_raw": "1830",
-      "end_estimated": false,
-      "musician": "The Fluid Druids",
-      "genre": "",
-      "link": "https://local31pub.ai/events/the-fluid-druids/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Join us for a fine Irish music session from 4:30p.m. to 6:30p.m. with our house Irish band, The Fluid Druids! Enjoy a pint of Guinness with friends and listen to the sweet sounds of Irish music as if ",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/the-fluid-druids/",
-      "genres": [
-        "Celtic"
-      ]
-    },
-    {
-      "id": "31d56b8d26915bed",
-      "date": "2026-11-14",
-      "start_raw": "1930",
-      "end_raw": "2100",
-      "end_estimated": false,
-      "musician": "Youth Symphony of Southern Oregon Fall 2026",
-      "genre": "",
-      "link": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
-      "link_name": "",
-      "venue": "Craterian Theater",
-      "notes": "$14-$19 incl. fees",
-      "event_type": "Band",
-      "source": "craterian",
-      "source_url": "https://craterian.org/event/youth-symphony-of-southern-oregon-fall-2026/",
-      "genres": []
-    },
-    {
-      "id": "d01eaff7d6274014",
-      "date": "2026-11-14",
-      "start_raw": "2100",
-      "end_raw": "2355",
-      "end_estimated": false,
-      "musician": "DIE!",
-      "genre": "",
-      "link": "https://local31pub.ai/events/die/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Hard rock music that will get you on the floor! No cover charge for this show!",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/die/",
-      "genres": [
-        "Rock"
-      ]
     },
     {
       "id": "15553d0bf0a9e280",
@@ -4830,26 +4775,6 @@
       "genres": []
     },
     {
-      "id": "0b7045923603905c",
-      "date": "2026-11-21",
-      "start_raw": "1500",
-      "end_raw": "1700",
-      "end_estimated": false,
-      "musician": "Chamber Music Concerts presents the Jupiter Quartet",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "The Jupiter String Quartet is an intimately connected group — the members include two sisters and a spouse. Founded in 2001, the ensemble is firmly established as an important voice in the world of ch",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical",
-        "World"
-      ]
-    },
-    {
       "id": "87e98aa97e1beeed",
       "date": "2026-11-21",
       "start_raw": "1600",
@@ -4955,19 +4880,13 @@
       "end_raw": "1930",
       "musician": "Shae & Jenni",
       "genre": "",
-      "link": "https://bellefiorewine.com/event/live-music-shae-jenni/",
+      "link": "",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "Shae & Jenni present an alluring set of enchanting music, full of soulful harmonies and magical moments perfect for creating an amazing ambiance. Enjoy the vibes as they blend their voices in harmony ",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://bellefiorewine.com/event/live-music-shae-jenni/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "14262fad9ee6a948"
-        }
-      ],
+      "source_url": null,
       "genres": []
     },
     {
@@ -8960,6 +8879,44 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
+    },
+    {
+      "id": "4413b8d5043998a9",
+      "date": "2027-03-04",
+      "start_raw": "2000",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "The Threepenny Opera",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Main Stage Theatre",
+      "notes": "Murderous antihero Mackie Messer (a.k.a. Mack the Knife) slashes through Victorian London in The Threepenny Opera, Bertolt Brecht’s scandalous satire that electrified Weimar-era German audiences 400 t",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
+    },
+    {
+      "id": "c03019130e83e6ad",
+      "date": "2027-03-05",
+      "start_raw": "2000",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "The Threepenny Opera",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Main Stage Theatre",
+      "notes": "Murderous antihero Mackie Messer (a.k.a. Mack the Knife) slashes through Victorian London in The Threepenny Opera, Bertolt Brecht’s scandalous satire that electrified Weimar-era German audiences 400 t",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
     },
     {
       "id": "f571a0ee12b5e79c",
