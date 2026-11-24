@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-24T04:47:35.204Z",
+  "generated_at": "2026-11-24T19:29:47.284Z",
   "source_timestamp": "11/21/2026 10:03",
-  "content_hash": "2d57ea4b0f1c6501",
+  "content_hash": "361044eaf4181ea8",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 166,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-24T04:46:52.075Z",
-      "last_attempt": "2026-11-24T04:46:52.075Z",
+      "last_ok": "2026-11-24T19:29:17.142Z",
+      "last_attempt": "2026-11-24T19:29:17.142Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:46:52.316Z",
-      "last_attempt": "2026-11-24T04:46:52.316Z",
+      "last_ok": "2026-11-24T19:29:17.400Z",
+      "last_attempt": "2026-11-24T19:29:17.400Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:46:53.399Z",
-      "last_attempt": "2026-11-24T04:46:53.399Z",
+      "last_ok": "2026-11-24T19:29:18.428Z",
+      "last_attempt": "2026-11-24T19:29:18.428Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 8,
+      "count": 9,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:46:53.679Z",
-      "last_attempt": "2026-11-24T04:46:53.679Z",
+      "last_ok": "2026-11-24T19:29:18.747Z",
+      "last_attempt": "2026-11-24T19:29:18.747Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:46:57.487Z",
-      "last_attempt": "2026-11-24T04:46:57.487Z",
+      "last_ok": "2026-11-24T19:29:22.191Z",
+      "last_attempt": "2026-11-24T19:29:22.191Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,15 +48,15 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-24T04:46:57.875Z",
+      "last_attempt": "2026-11-24T19:29:22.627Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:47:02.765Z",
-      "last_attempt": "2026-11-24T04:47:02.765Z",
+      "last_ok": "2026-11-24T19:29:26.529Z",
+      "last_attempt": "2026-11-24T19:29:26.529Z",
       "error": null
     },
     "craterian": {
@@ -64,63 +64,63 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-23T20:11:19.728Z",
-      "last_attempt": "2026-11-24T04:47:03.657Z",
+      "last_attempt": "2026-11-24T19:29:27.236Z",
       "error": "fetch failed"
     },
     "holly": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:47:13.782Z",
-      "last_attempt": "2026-11-24T04:47:13.782Z",
+      "last_ok": "2026-11-24T19:29:37.520Z",
+      "last_attempt": "2026-11-24T19:29:37.520Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 78,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:47:14.257Z",
-      "last_attempt": "2026-11-24T04:47:14.257Z",
+      "last_ok": "2026-11-24T19:29:37.911Z",
+      "last_attempt": "2026-11-24T19:29:37.911Z",
       "error": null
     },
     "code4": {
       "ok": true,
-      "count": 5,
+      "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:47:29.552Z",
-      "last_attempt": "2026-11-24T04:47:29.552Z",
+      "last_ok": "2026-11-24T19:29:42.286Z",
+      "last_attempt": "2026-11-24T19:29:42.286Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 2,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:47:30.302Z",
-      "last_attempt": "2026-11-24T04:47:30.302Z",
+      "last_ok": "2026-11-24T19:29:43.006Z",
+      "last_attempt": "2026-11-24T19:29:43.006Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:47:31.485Z",
-      "last_attempt": "2026-11-24T04:47:31.485Z",
+      "last_ok": "2026-11-24T19:29:43.363Z",
+      "last_attempt": "2026-11-24T19:29:43.363Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:47:31.758Z",
-      "last_attempt": "2026-11-24T04:47:31.758Z",
+      "last_ok": "2026-11-24T19:29:43.723Z",
+      "last_attempt": "2026-11-24T19:29:43.723Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-24T04:47:33.718Z",
-      "last_attempt": "2026-11-24T04:47:33.718Z",
+      "last_ok": "2026-11-24T19:29:45.786Z",
+      "last_attempt": "2026-11-24T19:29:45.786Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-24T04:47:34.925Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-16&end_date=2027-03-23"
+      "last_attempt": "2026-11-24T19:29:46.999Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-17&end_date=2027-03-24"
     }
   },
   "venues": {
@@ -3856,40 +3856,6 @@
   },
   "events": [
     {
-      "id": "dbc9a4d13f9974f0",
-      "date": "2026-10-24",
-      "start_raw": "1030",
-      "end_raw": "1230",
-      "end_estimated": false,
-      "musician": "Mark Turnbull",
-      "genre": "",
-      "link": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
-      "link_name": "",
-      "venue": "La Baguette",
-      "notes": "",
-      "event_type": "Band",
-      "source": "la_baguette",
-      "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2026/10/24/mark-turnbull",
-      "genres": []
-    },
-    {
-      "id": "e74a8916284c9f8b",
-      "date": "2026-10-24",
-      "start_raw": "2000",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Squid Pisser w/ Locutus, Graveburner, Malum Veneficus",
-      "genre": "",
-      "link": "https://rockafairy.betterworld.org/events/squidpisser",
-      "link_name": "",
-      "venue": "Rockafairy",
-      "notes": "",
-      "event_type": "Band",
-      "source": "rockafairy",
-      "source_url": "https://rockafairy.betterworld.org/events/squidpisser",
-      "genres": []
-    },
-    {
       "id": "a5b4534252d1b7a9",
       "date": "2026-10-31",
       "start_raw": "1030",
@@ -3940,23 +3906,6 @@
       "event_type": "Band",
       "source": "la_baguette",
       "source_url": "https://www.labaguettemusiccafe.com/upcoming-events/2025/12/10/chrisman-amp-smith-dfhr3-8snb2",
-      "genres": []
-    },
-    {
-      "id": "52b00d8b526dd13c",
-      "date": "2026-11-16",
-      "start_raw": "1700",
-      "end_raw": "2000",
-      "end_estimated": false,
-      "musician": "Open Mic Night",
-      "genre": "",
-      "link": "https://code4taphouse.com/event/open-mic-night-31/",
-      "link_name": "",
-      "venue": "Code 4 Taphouse",
-      "notes": "Free",
-      "event_type": "Open Mic",
-      "source": "code4",
-      "source_url": "https://code4taphouse.com/event/open-mic-night-31/",
       "genres": []
     },
     {
@@ -8551,6 +8500,25 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
+    },
+    {
+      "id": "5c8a4f0f5f7448af",
+      "date": "2027-02-19",
+      "start_raw": "1930",
+      "end_raw": "",
+      "end_estimated": true,
+      "musician": "Rogue Valley Symphony Masterworks 4",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "SOU Music Recital Hall",
+      "notes": "OCA - Ashland Performance 2/19/27\n\nMasterworks 4\n\nFeaturing Marina Piccinini, flute\n\nProkofiev’s Symphony No. 1, written in the style of Haydn, combines classical clarity with modern harmonic language",
+      "event_type": "Band",
+      "source": "sou_localist",
+      "source_url": null,
+      "genres": [
+        "Classical"
+      ]
     },
     {
       "id": "e1d19cd59ce8626c",

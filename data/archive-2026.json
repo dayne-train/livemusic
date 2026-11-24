@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2450,
+  "event_count": 2452,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -41888,6 +41888,39 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
+      "genres": []
+    },
+    {
+      "id": "525bd061c35819c9",
+      "date": "2026-11-23",
+      "start_raw": "1700",
+      "end_raw": "2000",
+      "end_estimated": false,
+      "musician": "Open Mic Night",
+      "genre": "",
+      "link": "https://code4taphouse.com/event/open-mic-night-32/",
+      "link_name": "",
+      "venue": "Code 4 Taphouse",
+      "notes": "Free",
+      "event_type": "Open Mic",
+      "source": "code4",
+      "source_url": "https://code4taphouse.com/event/open-mic-night-32/",
+      "genres": []
+    },
+    {
+      "id": "9f8ecc9d871af0e5",
+      "date": "2026-11-23",
+      "start_raw": "1900",
+      "end_raw": "2100",
+      "musician": "Paul Schmeling Quartet",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Martino's Upstairs",
+      "notes": "Instrumentation is sax, bass, guitar and a female singer",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     }
   ]
