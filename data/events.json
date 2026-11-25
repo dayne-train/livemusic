@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-24T19:29:47.284Z",
+  "generated_at": "2026-11-25T03:31:25.641Z",
   "source_timestamp": "11/21/2026 10:03",
-  "content_hash": "361044eaf4181ea8",
+  "content_hash": "209b2ea1cc200d9e",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 166,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-24T19:29:17.142Z",
-      "last_attempt": "2026-11-24T19:29:17.142Z",
+      "last_ok": "2026-11-25T03:30:57.041Z",
+      "last_attempt": "2026-11-25T03:30:57.041Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
       "count": 9,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:17.400Z",
-      "last_attempt": "2026-11-24T19:29:17.400Z",
+      "last_ok": "2026-11-25T03:30:57.316Z",
+      "last_attempt": "2026-11-25T03:30:57.316Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
       "ok": true,
       "count": 7,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:18.428Z",
-      "last_attempt": "2026-11-24T19:29:18.428Z",
+      "last_ok": "2026-11-25T03:30:58.305Z",
+      "last_attempt": "2026-11-25T03:30:58.305Z",
       "error": null
     },
     "sou_localist": {
       "ok": true,
-      "count": 9,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:18.747Z",
-      "last_attempt": "2026-11-24T19:29:18.747Z",
+      "last_ok": "2026-11-25T03:30:58.838Z",
+      "last_attempt": "2026-11-25T03:30:58.838Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:22.191Z",
-      "last_attempt": "2026-11-24T19:29:22.191Z",
+      "last_ok": "2026-11-25T03:31:01.011Z",
+      "last_attempt": "2026-11-25T03:31:01.011Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,15 +48,15 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-24T19:29:22.627Z",
+      "last_attempt": "2026-11-25T03:31:01.795Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:26.529Z",
-      "last_attempt": "2026-11-24T19:29:26.529Z",
+      "last_ok": "2026-11-25T03:31:03.762Z",
+      "last_attempt": "2026-11-25T03:31:03.762Z",
       "error": null
     },
     "craterian": {
@@ -64,63 +64,63 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-23T20:11:19.728Z",
-      "last_attempt": "2026-11-24T19:29:27.236Z",
+      "last_attempt": "2026-11-25T03:31:04.628Z",
       "error": "fetch failed"
     },
     "holly": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:37.520Z",
-      "last_attempt": "2026-11-24T19:29:37.520Z",
+      "last_ok": "2026-11-25T03:31:14.754Z",
+      "last_attempt": "2026-11-25T03:31:14.754Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
-      "count": 78,
+      "count": 79,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:37.911Z",
-      "last_attempt": "2026-11-24T19:29:37.911Z",
+      "last_ok": "2026-11-25T03:31:15.223Z",
+      "last_attempt": "2026-11-25T03:31:15.223Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:42.286Z",
-      "last_attempt": "2026-11-24T19:29:42.286Z",
+      "last_ok": "2026-11-25T03:31:20.160Z",
+      "last_attempt": "2026-11-25T03:31:20.160Z",
       "error": null
     },
     "armory": {
       "ok": true,
-      "count": 2,
+      "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:43.006Z",
-      "last_attempt": "2026-11-24T19:29:43.006Z",
+      "last_ok": "2026-11-25T03:31:20.863Z",
+      "last_attempt": "2026-11-25T03:31:20.863Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:43.363Z",
-      "last_attempt": "2026-11-24T19:29:43.363Z",
+      "last_ok": "2026-11-25T03:31:21.252Z",
+      "last_attempt": "2026-11-25T03:31:21.252Z",
       "error": null
     },
     "rogue_theatre": {
       "ok": true,
       "count": 6,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:43.723Z",
-      "last_attempt": "2026-11-24T19:29:43.723Z",
+      "last_ok": "2026-11-25T03:31:21.530Z",
+      "last_attempt": "2026-11-25T03:31:21.530Z",
       "error": null
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-24T19:29:45.786Z",
-      "last_attempt": "2026-11-24T19:29:45.786Z",
+      "last_ok": "2026-11-25T03:31:24.025Z",
+      "last_attempt": "2026-11-25T03:31:24.025Z",
       "error": null
     },
     "ashland_news": {
@@ -128,7 +128,7 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-24T19:29:46.999Z",
+      "last_attempt": "2026-11-25T03:31:25.487Z",
       "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-17&end_date=2027-03-24"
     }
   },
@@ -3909,23 +3909,6 @@
       "genres": []
     },
     {
-      "id": "f25b2b09e646cc5d",
-      "date": "2026-11-17",
-      "start_raw": "1900",
-      "end_raw": "2330",
-      "end_estimated": false,
-      "musician": "The California Honeydrops",
-      "genre": "",
-      "link": "https://www.ticketweb.com/event/the-california-honeydrops-the-historic-ashland-armory-tickets/14990453&pl=jmax",
-      "link_name": "",
-      "venue": "Ashland Armory",
-      "notes": "$35 Pre-Sale / $40 at the Door. Doors 7:00 PM / Show 8 pm. All Ages",
-      "event_type": "Band",
-      "source": "armory",
-      "source_url": "https://www.liveatthearmory.com/calendar-of-events/2026/11/17/the-california-honeydrops",
-      "genres": []
-    },
-    {
       "id": "4896101dd1dfcc01",
       "date": "2026-11-18",
       "start_raw": "1030",
@@ -5199,26 +5182,6 @@
       "genres": []
     },
     {
-      "id": "d1ab8713dd242ce5",
-      "date": "2026-11-24",
-      "start_raw": "2100",
-      "end_raw": "2300",
-      "end_estimated": true,
-      "musician": "Broken Bows Fiddle Ensemble",
-      "genre": "",
-      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "link_name": "",
-      "venue": "Local 31 Pub",
-      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
-      "event_type": "Band",
-      "source": "venue_ics:local31",
-      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
-      "genres": [
-        "Bluegrass",
-        "Celtic"
-      ]
-    },
-    {
       "id": "35eef7958b2d93a6",
       "date": "2026-11-25",
       "start_raw": "1030",
@@ -5300,6 +5263,26 @@
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/collin-and-cortet-w-friends-pre-thanksfriendsgiving-lionscowboys-indigenous-peoplesturkey-day-party/",
       "genres": []
+    },
+    {
+      "id": "26c16fff4fa950f7",
+      "date": "2026-11-25",
+      "start_raw": "2100",
+      "end_raw": "2300",
+      "end_estimated": true,
+      "musician": "Broken Bows Fiddle Ensemble",
+      "genre": "",
+      "link": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Ashland’s own Creekside Fiddlers High School students get to strut their stuff on stage in front of a live audience. Expect lively Irish, Swedish, Old-time and Bluegrass fiddle tunes from these talent",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/broken-bows-fiddle-ensemble-2/",
+      "genres": [
+        "Bluegrass",
+        "Celtic"
+      ]
     },
     {
       "id": "e9b9f5ce7ba39e10",
@@ -6114,7 +6097,7 @@
       "link": "https://bellefiorewine.com/event/live-music-12-bars-deep-2/",
       "link_name": "",
       "venue": "Belle Fiore",
-      "notes": "12 Bars Deep is a good time-music dance band designed to rock the room. They cover Blues, R&B and Swing by some of the top artists you know and love. Decades of live performance by the band members cr",
+      "notes": "$8 cover charge for non-members \n12 Bars Deep is a good time-music dance band designed to rock the room. They cover Blues, R&B and Swing by some of the top artists you know and love. Decades of live p",
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": "https://bellefiorewine.com/event/live-music-12-bars-deep-2/",
@@ -6894,6 +6877,25 @@
       "source": "rogue_theatre",
       "source_url": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
       "genres": []
+    },
+    {
+      "id": "83b40a3440deaa62",
+      "date": "2026-12-11",
+      "start_raw": "2100",
+      "end_raw": "2355",
+      "end_estimated": false,
+      "musician": "The Collection",
+      "genre": "",
+      "link": "https://local31pub.ai/events/the-collection-2/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Original rock-n-roll featuring the talents of Chris von Chamier and Paul Deller. Always tasty! https://www.youtube.com/channel/UCeBBUDgyp-CoCkuzJ-M9PZg/videos ( https://www.youtube.com/channel/UCeBBUD",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/the-collection-2/",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "id": "add8dd4350cb775c",
@@ -8500,25 +8502,6 @@
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
       "genres": []
-    },
-    {
-      "id": "5c8a4f0f5f7448af",
-      "date": "2027-02-19",
-      "start_raw": "1930",
-      "end_raw": "",
-      "end_estimated": true,
-      "musician": "Rogue Valley Symphony Masterworks 4",
-      "genre": "",
-      "link": "",
-      "link_name": "",
-      "venue": "SOU Music Recital Hall",
-      "notes": "OCA - Ashland Performance 2/19/27\n\nMasterworks 4\n\nFeaturing Marina Piccinini, flute\n\nProkofiev’s Symphony No. 1, written in the style of Haydn, combines classical clarity with modern harmonic language",
-      "event_type": "Band",
-      "source": "sou_localist",
-      "source_url": null,
-      "genres": [
-        "Classical"
-      ]
     },
     {
       "id": "e1d19cd59ce8626c",
