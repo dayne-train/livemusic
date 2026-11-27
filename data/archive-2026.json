@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "event_count": 2458,
+  "event_count": 2460,
   "venues": {
     "Alibi Tavern": {
       "url": "https://www.facebook.com/Alibi-Tavern-195519737166550/",
@@ -42020,6 +42020,39 @@
       "event_type": "Band",
       "source": "talent_club",
       "source_url": "https://talentclublive.com/event/collin-and-cortet-w-friends-pre-thanksfriendsgiving-lionscowboys-indigenous-peoplesturkey-day-party/",
+      "genres": []
+    },
+    {
+      "id": "e9b9f5ce7ba39e10",
+      "date": "2026-11-26",
+      "start_raw": "1800",
+      "end_raw": "2300",
+      "end_estimated": false,
+      "musician": "Thanksgiving Eve",
+      "genre": "",
+      "link": "https://local31pub.ai/events/thanksgiving-eve/",
+      "link_name": "",
+      "venue": "Local 31 Pub",
+      "notes": "Come down to Local 31 and get away from the family or, what the heck, bring them all along for a drink! We’ll be open with limited hours.",
+      "event_type": "Band",
+      "source": "venue_ics:local31",
+      "source_url": "https://local31pub.ai/events/thanksgiving-eve/",
+      "genres": []
+    },
+    {
+      "id": "6c33e5c492f16c1c",
+      "date": "2026-11-26",
+      "start_raw": "1900",
+      "end_raw": "2200",
+      "musician": "Pandora Band",
+      "genre": "",
+      "link": "",
+      "link_name": "",
+      "venue": "Alibi Tavern",
+      "notes": "",
+      "event_type": "Band",
+      "source": "musiclist_txt",
+      "source_url": null,
       "genres": []
     }
   ]
