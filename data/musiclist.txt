@@ -1,5 +1,5 @@
 --timestamp
-11/21/2026 10:03
+11/26/2026 10:50
 --news
 * date | notes
 --musicians
@@ -224,6 +224,7 @@ Elks Lodge|https://www.elks.org/lodges/home.cfm?LodgeNumber=944|Ashland|N||Ashla
 Empire Room|https://www.facebook.com/empiremusichall/|Yreka|N||Ashland|Other||
 English Lavender Farm|https://www.englishlavenderfarm.com/|Applegate|N||Medford|Other||
 Farris Vineyards|https://www.farrisvineyards.com/|Gold Hill|N||Medford|Winery||
+Ferment & Fire|https://fermentnfire.com/|Central Point|N||Medford|Bar||
 First Presbyterian Church|https://pcusa.org/congregation/first-church-central-point-or|Central Point|N||Medford|Other||
 Flespy's Bar & Grill|https://www.facebook.com/flespysbarandgrill/|Grants Pass|N||GrantsPass|Bar||
 Food Studio|https://foodstudiogp.com/|Grants Pass|N||GrantsPass|Bar||
@@ -471,79 +472,22 @@ Yreka Golden City Days|https://www.yrekagoldencitydays.com/|Yreka|N||Ashland|Oth
 Zi Spice|https://www.zispice.com/|Ashland|N||Ashland|Other||
 --events
 * musician | genre | link | link name | venue | venuelink | date | time | end time | notes | event Type
+Papermoon Jazz||||Local Vines Wine Bar||01/06/27|1700|1900||Band|26/11/26 10:50AM|3|
 SOUP - Ukulele Jam||||Pebblestone Cellars||01/15/27|1400|1600||Jam|26/11/12 15:04PM|3|
-Billy Rock||||Local Vines Wine Bar||11/18/26|1700|1900||Solo|26/10/28 10:26AM|0|
-Nick Garrett-Powell||||South Stage Cellars||11/18/26|1800|2000|$18; Wine and Dine|Band|26/10/28 10:26AM|0|
-Rick Edwards Band||||Weekend Beer Company||11/18/26|1800|2000||Band|26/11/12 15:04PM|1|
-Rick Millward||||Belle Fiore||11/19/26|1700|1900||Band|26/08/24 16:02PM|6|
-Traditional Irish Music||||Dunbar Farms||11/19/26|1730|1930||Band|26/10/28 10:26AM|0|
-Dean Angermeier||||The Gold Room||11/19/26|1800|2000||Band|26/11/12 15:04PM|1|
-Pandora Band||||Alibi Tavern||11/19/26|1900|2200||Band|26/10/22 14:40PM|4|
-Seth Hansson||||Bella Union||11/19/26|1900|2100||Band|26/10/28 10:26AM|0|
-Canto Sol Trio|||Canto Sol|Rogue Valley Manor||11/19/26|1900|2000||Band|26/11/05 13:54PM|3|
-Lisa and Dean||||Dancin Vineyards||11/20/26|1700|1900||Band|26/09/29 11:51AM|0|
-Mark Hill Trio||||Pebblestone Cellars||11/20/26|1700|1900||Band|26/11/19 14:21PM|1|
-Rick Millward||||Rellik Winery||11/20/26|1700|1900||Band|26/08/24 16:02PM|6|
-David Pinsky & Phil Newton|||David Pinsky|Schmidt Vineyard||11/20/26|1700|2000||Band|26/11/19 14:21PM|1|
-JustaDuo||||South Stage Cellars||11/20/26|1700|1900||Band|26/10/28 10:26AM|0|
-Stillwater Road||||Tiffany's Marketplace||11/20/26|1700|1900||Band|26/09/21 13:10PM|2|
-Nathan Stone||||Trium Wines||11/20/26|1700|1900||Band|26/11/19 14:21PM|1|
-Jeff Kloetzel||||Belle Fiore||11/20/26|1730|1930||Band|26/10/28 10:26AM|0|
-Alissa & the Side Effects||||Dos Mariposas Vineyards||11/20/26|1730|1930||Band|26/10/28 10:26AM|0|
-Phoenix Sigalove||||Dunbar Farms||11/20/26|1730|1930||Band|26/10/28 10:26AM|0|
-Tres Palomas||||The Miner's Bazaar||11/20/26|1730|1930||Band|26/11/19 14:21PM|1|
-Jim Lesher and Barney Paul||||Area 61 Taphouse||11/20/26|1800|2100||Band|26/11/19 14:21PM|1|
-Liquid Violet||||Art Bop Beer Co||11/20/26|1800|2000||Band|26/11/19 14:21PM|1|
-Live Music||||Callahan's Lodge||11/20/26|1800|2100||Band|26/10/22 14:40PM|4|
-The Paper Flares||||Growler Guys Grants Pass||11/20/26|1800|2000||Band|26/11/19 14:21PM|1|
-Robbie Dacosta||||Roxy Ann Winery||11/20/26|1800|2000||Band|26/10/28 10:26AM|0|
-Bekkah McAlvage||||Skout Taphouse||11/20/26|1800|2000||Band|26/10/08 12:24PM|0|
-Jon Martin||||Talon Grill||11/20/26|1800|2000||Band|26/10/01 14:35PM|2|
-Jen Ambrose||||Tayor's Country Store||11/20/26|1800|2100||Band|26/11/19 14:21PM|1|
-David Kai||||The Gold Room||11/20/26|1800|2000||Band|26/11/12 15:04PM|2|
-The Rogue Runners||||Alibi Tavern||11/20/26|1900|2300||Band|26/11/19 14:21PM|1|
-Paul Jenny & Tom Freeman||||Bella Union||11/20/26|1900|2200||Band|26/10/28 10:26AM|0|
-The Scholer System||||Liquid Lounge||11/20/26|1900|2100||Band|26/10/28 10:26AM|2|
-Rogue Suspects Trio|||Rogue Suspects|Paschal Winery||11/20/26|1900|2100|Candlelight Concert, $20|Band|26/11/12 15:04PM|1|
-Mitchell Brothers||||Steelhead Tavern||11/20/26|1900|2200||Band|26/11/19 14:21PM|1|
-Shakedown||||Cedarwood Saloon||11/20/26|2000|2300||Band|26/11/19 14:21PM|1|
-SOUP - Ukulele Jam||||Pebblestone Cellars||11/21/26|1400|1600||Jam|26/10/11 10:50AM|3|
-Bim Jeam & The Sadness|||Bim Jeam and the Sadness|Two Rivers Vineyard||11/21/26|1400|1700||Band|26/11/12 15:04PM|1|
-Nick Garrett-Powell||||Naumes Suncrest Winery||11/21/26|1500|1700||Band|26/10/28 10:26AM|0|
-The Smokin' Gundersons||||Rellik Winery||11/21/26|1600|1800||Band|26/10/28 10:26AM|0|
-Jeff Kloetzel||||Remotion Wine||11/21/26|1700|1900||Band|26/09/29 11:51AM|2|
-Jared Gutridge||||Somar Family Vineyards||11/21/26|1700|1900||Band|26/11/19 14:21PM|1|
-Alissa & the Side Effects||||South Stage Cellars||11/21/26|1700|1900||Band|26/11/19 11:06AM|3|
-Shybo Torres||||Stone River Winery||11/21/26|1700|1900||Solo|26/11/19 14:21PM|1|
-Shae & Jenni||||Belle Fiore||11/21/26|1730|1930||Band|26/10/28 10:26AM|0|
-Steam Kettle Duo||||Dunbar Farms||11/21/26|1730|1930||Band|26/10/28 10:26AM|0|
-Tony Brussat & Lawrence Newcomb||||The Miner's Bazaar||11/21/26|1730|1930|songs of the golden age of jazz|Band|26/11/19 14:21PM|1|
-Mitchell Brothers||||Area 61 Taphouse||11/21/26|1800|2100||Band|26/11/19 14:21PM|1|
-Live Music||||Callahan's Lodge||11/21/26|1800|2100||Band|26/10/22 14:40PM|4|
-Mike Ehlers||||Growler Guys Grants Pass||11/21/26|1800|2100||Band|26/11/19 14:21PM|1|
-Calysta Cheyenne||||Resistance Wine Company||11/21/26|1800|2000||Band|26/11/12 15:04PM|1|
-Connor Reese||||The Gold Room||11/21/26|1800|2000||Band|26/11/12 15:04PM|2|
-Shabby Guys||||Bella Union||11/21/26|1900|2200||Band|26/10/28 10:26AM|0|
-The Torpedoes||||Corvette Bar & Grill||11/21/26|1900|2200||Band|26/11/19 14:21PM|1|
-Deluxe||||Rogue Pub-N-Putt||11/21/26|2000|1200||Band|26/11/19 14:21PM|1|
-Jeff Kloetzel||||The Miner's Bazaar||11/22/26|1400|1600||Band|26/11/19 14:21PM|1|
-Randy McCoy||||Del Rio Vineyards||11/22/26|1500|1700||Band|26/10/28 10:26AM|0|
-HopStone||||Dos Mariposas Vineyards||11/22/26|1500|1700||Band|26/10/28 10:26AM|0|
-Femme Fatale||||Local Vines Wine Bar||11/22/26|1500|1700||Band|26/11/12 15:04PM|1|
-Jared Gutridge||||Naumes Suncrest Winery||11/22/26|1500|1700||Band|26/10/28 10:26AM|0|
-Sterling 2||||Pebblestone Cellars||11/22/26|1500|1700||Band|26/11/19 14:21PM|1|
-Cathy Bolton||||Rellik Winery||11/22/26|1600|1800||Solo|26/10/14 10:43AM|3|
-Tres Palomas||||Roxy Ann Winery||11/22/26|1600|1800||Band|26/10/28 10:26AM|0|
-Grant Ruiz||||Belle Fiore||11/22/26|1700|1900||Band|26/11/05 13:54PM|3|
-Jim Quinby||||Wild Goose Cafe||11/22/26|1700|1900||Band|26/10/28 10:26AM|4|
-Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||11/22/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|26/10/22 14:40PM|4|
-Paul Schmeling Quartet||||Martino's Upstairs||11/23/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/10/16 10:53AM|4|
-Aaron Reed||||The Gold Room||11/24/26|1800|2000||Band|26/11/12 15:04PM|2|
+Commotion Band||||Gold Hill Moose Lodge||01/23/27|1900|2100||Band|26/11/26 10:50AM|3|
+Papermoon Jazz||||Rellik Winery||01/29/27|1700|1900||Band|26/11/26 10:50AM|3|
+Papermoon Jazz||||Rellik Winery||02/14/27|1700|1900||Band|26/11/26 10:50AM|3|
+Commotion Band||||Rellik Winery||03/13/27|1600|1800||Band|26/11/26 10:50AM|3|
+Papermoon Jazz||||Local Vines Wine Bar||03/21/27|1500|1700||Band|26/11/26 10:50AM|3|
+Commotion Band||||Gold Hill Moose Lodge||03/27/27|1900|2100||Band|26/11/26 10:50AM|3|
+Commotion Band||||Local Vines Wine Bar||04/14/27|1500|1700||Band|26/11/26 10:50AM|3|
+Papermoon Jazz||||Local Vines Wine Bar||05/23/27|1500|1700||Band|26/11/26 10:50AM|3|
+Commotion Band||||Local Vines Wine Bar||06/06/27|1500|1700||Band|26/11/26 10:50AM|3|
 Jeff Kloetzel||||South Stage Cellars||11/25/26|1800|2000|$5|Band|26/11/19 14:21PM|1|
-Mike Brons||||Weekend Beer Company||11/25/26|1800|2000||Band|26/11/12 15:04PM|1|
 Pandora Band||||Alibi Tavern||11/26/26|1900|2200||Band|26/10/22 14:40PM|4|
 Sterling Swing Jazz||||Valley View Winery||11/27/26|1500|1700||Band|26/11/19 14:21PM|1|
 Jared Gutridge||||Dancin Vineyards||11/27/26|1700|1900||Band|26/09/29 11:51AM|0|
+Live Music||||Pebblestone Cellars||11/27/26|1700|1900||Band|26/11/26 10:50AM|1|
 Dennis Konecny||||Rellik Winery||11/27/26|1700|1900||Band|26/10/28 10:26AM|0|
 Mike Brons||||Schmidt Vineyard||11/27/26|1700|2000||Band|26/11/19 14:21PM|1|
 Andy Wright||||Somar Family Vineyards||11/27/26|1700|1900||Band|26/11/19 14:21PM|1|
@@ -553,53 +497,74 @@ Bryce Pettyjohn||||Belle Fiore||11/27/26|1730|1930||Band|26/10/28 10:26AM|0|
 Jeff Kloetzel||||Dos Mariposas Vineyards||11/27/26|1730|1930||Band|26/10/28 10:26AM|0|
 John Johns||||Dunbar Farms||11/27/26|1730|1930||Band|26/10/28 10:26AM|0|
 Clayton Joseph Scott||||South Stage Cellars||11/27/26|1730|1930||Band|26/11/19 14:21PM|1|
+Holus Bolus||||Area 61 Taphouse||11/27/26|1800|2100||Band|26/11/26 10:50AM|1|
 Live Music||||Callahan's Lodge||11/27/26|1800|2100||Band|26/10/22 14:40PM|4|
 Pozitronics||||Roxy Ann Winery||11/27/26|1800|2000||Band|26/10/28 10:26AM|0|
 Dave Brendlinger||||Skout Taphouse||11/27/26|1800|2000||Band|26/10/08 12:24PM|0|
 David Pinsky & Phil Newton|||David Pinsky|Bella Union||11/27/26|1900|2200||Band|26/10/28 10:26AM|0|
 HopStone||||Growler Guys Grants Pass||11/27/26|1900|2100||Band|26/11/19 14:21PM|1|
 Robbie Dacosta||||Liquid Lounge||11/27/26|1900|2100||Band|26/10/28 10:26AM|2|
+Velvet Cheeta||||Steelhead Tavern||11/27/26|1900|2200||Band|26/11/26 10:50AM|1|
 Jeff Kloetzel||||Naumes Suncrest Winery||11/28/26|1500|1700||Band|26/10/28 10:26AM|0|
 J Brothers Quartet|||J Brothers|Dos Mariposas Vineyards||11/28/26|1600|1800||Band|26/10/28 10:26AM|0|
 Maurizio Nadalet||||Rellik Winery||11/28/26|1600|1800||Band|26/10/28 10:26AM|0|
 Teresa Jordan||||Remotion Wine||11/28/26|1600|1800||Band|26/09/29 11:51AM|2|
 Alissa & the Side Effects||||Tiffany's Marketplace||11/28/26|1600|1800||Band|26/10/26 12:36PM|2|
+Keenan Pruett||||South Stage Cellars||11/28/26|1700|1900||Band|26/11/26 10:50AM|1|
 Jared Gutridge Duo||||Stone River Winery||11/28/26|1700|1900||Solo|26/09/01 11:37AM|6|
 Allison Scull & Victor Martin|||Allison and Victor|Belle Fiore||11/28/26|1730|1930||Band|26/10/28 10:26AM|0|
 Mountaintop Sound||||The Miner's Bazaar||11/28/26|1730|1930||Band|26/10/08 18:23PM|3|
+Mo, Tar & Turnipseed Jazz||||Art Bop Beer Co||11/28/26|1800|2000||Band|26/11/26 10:50AM|1|
 Malinka||||Café Lumina||11/28/26|1800|2000|1-Year Anniversary Party|Band|26/11/14 16:00PM|3|
 Live Music||||Callahan's Lodge||11/28/26|1800|2100||Band|26/10/22 14:40PM|4|
+Mitchell Brothers||||Corvette Bar & Grill||11/28/26|1800|2100||Band|26/11/26 10:50AM|1|
 Dan & Zara||||Moxie Brew||11/28/26|1800|2000||Band|26/09/25 13:04PM|2|
 Adam Gabriel||||Resistance Wine Company||11/28/26|1800|2000||Band|26/11/12 15:04PM|1|
 Max Mackey||||The Gold Room||11/28/26|1800|2000||Band|26/11/12 15:04PM|2|
+Nathan Stone||||Ferment & Fire||11/28/26|1830|2000||Band|26/11/26 10:50AM|1|
 David Pinsky & Phil Newton||||Bella Union||11/28/26|1900|2200||Band|26/10/28 10:26AM|0|
 Aimee Barbuto||||Growler Guys Grants Pass||11/28/26|1900|2100||Band|26/11/19 14:21PM|1|
 Nick Garrett-Powell||||Paschal Winery||11/28/26|1900|2100|$15|Band|26/11/12 15:04PM|1|
 Jeff Kloetzel||||Del Rio Vineyards||11/29/26|1500|1700||Band|26/10/28 10:26AM|0|
-JustaDuo||||Local Vines Wine Bar||11/29/26|1500|1700||Band|26/11/12 15:04PM|1|
+Nathan Stone & Jack Hopfinger||||Local Vines Wine Bar||11/29/26|1500|1700||Band|26/11/26 10:50AM|1|
+Bekkah McAlvage||||Pebblestone Cellars||11/29/26|1500|1700||Band|26/11/26 10:50AM|1|
 Jared Gutridge||||Paschal Winery||11/29/26|1530|1730||Band|26/11/12 15:04PM|1|
 Sterling Duo||||Rellik Winery||11/29/26|1600|1800||Band|26/11/19 14:21PM|1|
-Natasha Neece and Peter Gross||||Roxy Ann Winery||11/29/26|1600|1800||Band|26/10/28 10:26AM|0|
+Natasha Neece and Peter Gross||||Roxy Ann Winery||11/29/26|1600|1800|acoustic Led Zepplin|Band|26/11/26 10:50AM|1|
+Colton Ort & Steve Swift||||Art Bop Beer Co||11/29/26|1700|1900||Band|26/11/26 10:50AM|1|
 12 Bars Deep||||Belle Fiore||11/29/26|1700|1900||Band|26/10/28 10:26AM|0|
 Jim Quinby||||Wild Goose Cafe||11/29/26|1700|1900||Band|26/10/28 10:26AM|4|
 Charlee Prayers or Robbie DaCosta||||Jefferson Spirits||11/29/26|1800|2100|Robbie DaCosta and Charlee Prayers alternate hosting|Open Mic|26/10/22 14:40PM|4|
 Taurus Moon||||Rellik Winery||11/30/26|1800|2000||Band|26/10/28 10:26AM|0|
 Paul Schmeling Quartet||||Martino's Upstairs||11/30/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/10/16 10:53AM|4|
+J Brothers||||Local Vines Wine Bar||12/02/26|1700|1900||Band|26/11/26 10:50AM|1|
+Jeff Kloetzel||||South Stage Cellars||12/02/26|1800|2000|$5|Band|26/11/26 10:50AM|1|
+Brothers Reed||||Weekend Beer Company||12/02/26|1800|2000||Band|26/11/26 10:50AM|1|
+John Johns||||Belle Fiore||12/03/26|1700|1900||Band|26/11/26 10:50AM|0|
+Traditional Irish Music||||Dunbar Farms||12/03/26|1730|1930||Band|26/11/26 10:50AM|1|
 Craig Martin||||Wild Goose Cafe||12/03/26|1800|2030||Band|26/10/28 10:26AM|0|
 Jared Gutridge||||Bella Union||12/03/26|1900|2100||Band|26/11/19 14:21PM|1|
 Carson Westfall||||Rellik Winery||12/04/26|1600|1800||Band|26/10/28 10:26AM|0|
 Jeff Kloetzel||||Dancin Vineyards||12/04/26|1700|1900||Band|26/10/28 10:26AM|0|
 Bim Jeam & The Sadness||||Rellik Winery||12/04/26|1700|1900||Band||6|
+Papermoon Jazz||||Rellik Winery||12/04/26|1700|1900||Band|26/11/26 10:50AM|3|
+Jared Gutridge||||Schmidt Vineyard||12/04/26|1700|2000||Band|26/11/26 10:50AM|1|
 Erica Rochel Band||||Tiffany's Marketplace||12/04/26|1700|1900||Band|26/09/21 13:10PM|2|
+Aaron Reed||||Dunbar Farms||12/04/26|1730|1930||Band|26/11/26 10:50AM|1|
 Malinka||||Skout Taphouse||12/04/26|1800|2000||Band|26/10/08 12:24PM|0|
 Phillip Reed||||Bella Union||12/04/26|1900|2200||Band|26/10/28 10:26AM|0|
 Joshua Paul||||Paschal Winery||12/05/26|1300|1500||Band|26/09/16 15:36PM|3|
+Mike Brons||||Area 61 Taphouse||12/05/26|1500|1700||Band|26/11/26 10:50AM|1|
 Rogue Suspects Trio|||Rogue Suspects|Rellik Winery||12/05/26|1600|1800||Band|26/10/28 10:26AM|0|
 Mercy Trio||||Tiffany's Marketplace||12/05/26|1600|1800|Christmas Show|Band|26/09/21 13:10PM|2|
 Robbie Dacosta||||Remotion Wine||12/05/26|1700|1900||Band|26/11/02 12:30PM|2|
 Lisa and Dean||||Stone River Winery||12/05/26|1700|1900||Solo|26/09/01 11:37AM|6|
+Tension Deficit||||Dunbar Farms||12/05/26|1730|1930||Band|26/11/26 10:50AM|1|
+Bekkah McAlvage||||Ferment & Fire||12/05/26|1830|2000||Band|26/11/26 10:50AM|1|
 Phillip Reed||||Bella Union||12/05/26|1900|2200||Band|26/10/28 10:26AM|0|
+John Dough Boys||||The Copper Plank||12/05/26|1900|2200|with Vinnie RIP and Step It UP & Go; $15 and toy drive|Band|26/11/26 10:50AM|1|
 Enoch and David||||Paschal Winery||12/06/26|1300|1500||Band||6|
+12 Bars Deep||||Dunbar Farms||12/06/26|1400|1600||Band|26/11/26 10:50AM|1|
 Erika Greisen||||Sams Creek Cellars||12/06/26|1400|1600||Band|26/11/19 14:21PM|1|
 Paul Schmeling Quartet||||Martino's Upstairs||12/07/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/11/19 11:06AM|4|
 Sage Meadows Country Band||||Wild Goose Cafe||12/10/26|1800|2030||Band|26/10/28 10:26AM|0|
@@ -607,6 +572,7 @@ Mitchell Brothers||||Bella Union||12/10/26|1900|2100||Band|26/10/28 10:26AM|0|
 Back Door Blues Band||||Tiffany's Marketplace||12/11/26|1700|1900||Band|26/09/21 13:10PM|2|
 Dave Brendlinger||||Skout Taphouse||12/11/26|1800|2000||Band|26/10/08 12:24PM|0|
 Mitchell Brothers||||Bella Union||12/11/26|1900|2200||Band|26/10/28 10:26AM|0|
+Ann Kelly & Mark Ross||||Liquid Lounge||12/11/26|1900|2100||Band|26/11/26 10:50AM|3|
 Malinka||||Medford Children's Museum||12/12/26|1300|1530|Annual Polar Express Event|Band|26/11/14 16:00PM|3|
 The Smokin' Gundersons||||Stone River Winery||12/12/26|1700|1900||Solo|26/09/01 11:37AM|6|
 Nick Garrett-Powell||||Resistance Wine Company||12/12/26|1800|2000||Band|26/11/12 15:04PM|1|
@@ -634,6 +600,7 @@ The Smokin' Gundersons||||Tiffany's Marketplace||12/26/26|1600|1800||Band|26/10/
 Rick Millward||||Belle Fiore||12/26/26|1730|1930||Band|26/08/24 16:02PM|6|
 Mountaintop Sound||||Art Bop Beer Co||12/26/26|1800|2000|after Christmas show|Band|26/10/08 18:23PM|3|
 Back Door Blues Band||||Bella Union||12/26/26|1900|2200||Band|26/10/28 10:26AM|0|
+Papermoon Jazz||||Pebblestone Cellars||12/27/26|1500|1700||Band|26/11/26 10:50AM|3|
 Paul Schmeling Quartet||||Martino's Upstairs||12/28/26|1900|2100|Instrumentation is sax, bass, guitar and a female singer|Band|26/11/19 11:06AM|4|
 Pozitronics||||Naumes Suncrest Winery||12/31/26|1500|1800|NYE party|Band||6|
 Bryan Oliver Trio||||Bella Union||12/31/26|2030|0030||Band|26/10/28 10:26AM|0|
