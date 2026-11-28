@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-28T00:01:49.351Z",
+  "generated_at": "2026-11-28T07:44:07.515Z",
   "source_timestamp": "11/26/2026 10:50",
-  "content_hash": "e6cabb0229837893",
+  "content_hash": "93d7aef29fabbc56",
   "sources": {
     "musiclist_txt": {
       "ok": true,
       "count": 132,
       "strategy": "snapshot-fallback",
-      "last_ok": "2026-11-28T00:01:22.073Z",
-      "last_attempt": "2026-11-28T00:01:22.073Z",
+      "last_ok": "2026-11-28T07:43:39.154Z",
+      "last_attempt": "2026-11-28T07:43:39.154Z",
       "error": null
     },
     "tribe_ics": {
       "ok": true,
-      "count": 9,
+      "count": 8,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:22.500Z",
-      "last_attempt": "2026-11-28T00:01:22.500Z",
+      "last_ok": "2026-11-28T07:43:39.382Z",
+      "last_attempt": "2026-11-28T07:43:39.382Z",
       "error": "travel_ashland: travel_ashland HTTP 403"
     },
     "talent_club": {
-      "ok": true,
-      "count": 6,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-11-28T00:01:23.667Z",
-      "last_attempt": "2026-11-28T00:01:23.667Z",
-      "error": null
+      "last_attempt": "2026-11-28T07:43:40.437Z",
+      "error": "page missing event blocks"
     },
     "sou_localist": {
       "ok": true,
       "count": 8,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:23.898Z",
-      "last_attempt": "2026-11-28T00:01:23.898Z",
+      "last_ok": "2026-11-28T07:43:40.722Z",
+      "last_attempt": "2026-11-28T07:43:40.722Z",
       "error": null
     },
     "ashland_city": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:26.404Z",
-      "last_attempt": "2026-11-28T00:01:26.404Z",
+      "last_ok": "2026-11-28T07:43:43.479Z",
+      "last_attempt": "2026-11-28T07:43:43.479Z",
       "error": null
     },
     "mt_ashland": {
@@ -48,15 +48,15 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-07T14:53:05.563Z",
-      "last_attempt": "2026-11-28T00:01:26.907Z",
+      "last_attempt": "2026-11-28T07:43:44.006Z",
       "error": "page missing event share blocks"
     },
     "rockafairy": {
       "ok": true,
       "count": 5,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:28.820Z",
-      "last_attempt": "2026-11-28T00:01:28.820Z",
+      "last_ok": "2026-11-28T07:43:45.957Z",
+      "last_attempt": "2026-11-28T07:43:45.957Z",
       "error": null
     },
     "craterian": {
@@ -64,63 +64,63 @@
       "count": 0,
       "strategy": null,
       "last_ok": "2026-11-26T13:52:06.011Z",
-      "last_attempt": "2026-11-28T00:01:29.736Z",
+      "last_attempt": "2026-11-28T07:43:46.634Z",
       "error": "fetch failed"
     },
     "holly": {
       "ok": true,
       "count": 14,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:39.809Z",
-      "last_attempt": "2026-11-28T00:01:39.809Z",
+      "last_ok": "2026-11-28T07:43:56.951Z",
+      "last_attempt": "2026-11-28T07:43:56.951Z",
       "error": null
     },
     "venue_ics": {
       "ok": true,
       "count": 81,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:40.004Z",
-      "last_attempt": "2026-11-28T00:01:40.004Z",
+      "last_ok": "2026-11-28T07:43:57.252Z",
+      "last_attempt": "2026-11-28T07:43:57.252Z",
       "error": null
     },
     "code4": {
       "ok": true,
       "count": 4,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:44.490Z",
-      "last_attempt": "2026-11-28T00:01:44.490Z",
+      "last_ok": "2026-11-28T07:44:03.626Z",
+      "last_attempt": "2026-11-28T07:44:03.626Z",
       "error": null
     },
     "armory": {
       "ok": true,
       "count": 1,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:45.473Z",
-      "last_attempt": "2026-11-28T00:01:45.473Z",
+      "last_ok": "2026-11-28T07:44:04.301Z",
+      "last_attempt": "2026-11-28T07:44:04.301Z",
       "error": null
     },
     "tap_and_vine": {
       "ok": true,
       "count": 0,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:45.675Z",
-      "last_attempt": "2026-11-28T00:01:45.675Z",
+      "last_ok": "2026-11-28T07:44:05.470Z",
+      "last_attempt": "2026-11-28T07:44:05.470Z",
       "error": null
     },
     "rogue_theatre": {
-      "ok": true,
-      "count": 6,
-      "strategy": "live",
+      "ok": false,
+      "count": 0,
+      "strategy": null,
       "last_ok": "2026-11-28T00:01:46.027Z",
-      "last_attempt": "2026-11-28T00:01:46.027Z",
-      "error": null
+      "last_attempt": "2026-11-28T07:44:05.772Z",
+      "error": "no show cards found"
     },
     "la_baguette": {
       "ok": true,
       "count": 26,
       "strategy": "live",
-      "last_ok": "2026-11-28T00:01:48.185Z",
-      "last_attempt": "2026-11-28T00:01:48.185Z",
+      "last_ok": "2026-11-28T07:44:06.134Z",
+      "last_attempt": "2026-11-28T07:44:06.134Z",
       "error": null
     },
     "ashland_news": {
@@ -128,8 +128,8 @@
       "count": 0,
       "strategy": null,
       "last_ok": null,
-      "last_attempt": "2026-11-28T00:01:49.157Z",
-      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-20&end_date=2027-03-27"
+      "last_attempt": "2026-11-28T07:44:07.357Z",
+      "error": "HTTP 403 for https://ashland.news/wp-json/tribe/events/v1/events?per_page=50&page=1&categories=music&start_date=2026-11-20&end_date=2027-03-28"
     }
   },
   "venues": {
@@ -3831,28 +3831,6 @@
         "musiclist_txt"
       ]
     },
-    "Rogue Theatre": {
-      "url": "https://www.roguetheatre.org/",
-      "city": "Grants Pass",
-      "notes": "",
-      "address": "",
-      "region": "GrantsPass",
-      "type": "Other",
-      "_sources": [
-        "rogue_theatre"
-      ]
-    },
-    "The Talent Club": {
-      "url": "https://talentclublive.com",
-      "city": "Talent",
-      "notes": "",
-      "address": "",
-      "region": "Ashland",
-      "type": "Bar",
-      "_sources": [
-        "talent_club"
-      ]
-    },
     "Rogue Valley Mall": {
       "url": "https://events.sou.edu",
       "city": "Ashland",
@@ -4442,22 +4420,15 @@
       "end_raw": "2000",
       "musician": "Pozitronics",
       "genre": "Rock variety",
-      "link": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-november-27/",
+      "link": "",
       "link_name": "",
       "venue": "Roxy Ann Winery",
-      "notes": "The Pozitronics are southern Oregon’s premier “all-you-can-dance” band playing a unique mix of classic rock, R&B, and funk, with love, positive vibes, and a whole lot of energy. You bring the dance mo",
+      "notes": "",
       "event_type": "Band",
       "source": "musiclist_txt",
-      "source_url": "https://roxyann.com/event/music-wine-series-featuring-pozitronics-november-27/",
-      "merged_from": [
-        {
-          "source": "tribe_ics",
-          "id": "4969d1a26fd7c5ba"
-        }
-      ],
+      "source_url": null,
       "genres": [
-        "Rock",
-        "Funk / Soul"
+        "Rock"
       ]
     },
     {
@@ -4963,23 +4934,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "3bf1f7a06d48987e",
-      "date": "2026-11-28",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Smiley T and the Tall Trees",
-      "genre": "",
-      "link": "https://talentclublive.com/event/smiley-t-and-the-tall-trees/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/smiley-t-and-the-tall-trees/",
       "genres": []
     },
     {
@@ -6174,23 +6128,6 @@
       "genres": []
     },
     {
-      "id": "921ba60263af2c4f",
-      "date": "2026-12-11",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Pablo Cruise Live '26",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/pablo-cruise-live-26",
-      "genres": []
-    },
-    {
       "id": "83b40a3440deaa62",
       "date": "2026-12-11",
       "start_raw": "2100",
@@ -6428,23 +6365,6 @@
       "event_type": "Open Mic",
       "source": "venue_ics:wildgoose",
       "source_url": "http://www.wildgoosecafe.com/events.html",
-      "genres": []
-    },
-    {
-      "id": "172751b19be81cd4",
-      "date": "2026-12-13",
-      "start_raw": "1930",
-      "end_raw": "2130",
-      "end_estimated": true,
-      "musician": "Erik Koskinen with special guest Jon Neufeld",
-      "genre": "",
-      "link": "https://talentclublive.com/event/erik-koskinen-with-special-guest-jon-neufeld/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/erik-koskinen-with-special-guest-jon-neufeld/",
       "genres": []
     },
     {
@@ -7496,23 +7416,6 @@
       "genres": []
     },
     {
-      "id": "ff4f459537848bad",
-      "date": "2027-01-22",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Banshee Tree with Sean Mclean and The Vibetenders",
-      "genre": "",
-      "link": "https://talentclublive.com/event/banshee-tree-with-sean-mclean-and-the-vibetenders/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/banshee-tree-with-sean-mclean-and-the-vibetenders/",
-      "genres": []
-    },
-    {
       "id": "2372ab8f35c0676e",
       "date": "2027-01-23",
       "start_raw": "1630",
@@ -8221,40 +8124,6 @@
       "genres": []
     },
     {
-      "id": "e4733606332d0cb6",
-      "date": "2027-03-15",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Garcia Project (Night 1)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-garcia-project-night-1/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-garcia-project-night-1/",
-      "genres": []
-    },
-    {
-      "id": "a95f8116f368c704",
-      "date": "2027-03-16",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Garcia Project (Night 2)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-garcia-project-night-2/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-garcia-project-night-2/",
-      "genres": []
-    },
-    {
       "id": "638625de12b4efac",
       "date": "2027-03-17",
       "start_raw": "2000",
@@ -8269,23 +8138,6 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/bertha-grateful-drag",
-      "genres": []
-    },
-    {
-      "id": "330d4c91c9bd13a9",
-      "date": "2027-03-17",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "The Garcia Project (Night 3)",
-      "genre": "",
-      "link": "https://talentclublive.com/event/the-garcia-project-night-3/",
-      "link_name": "",
-      "venue": "The Talent Club",
-      "notes": "",
-      "event_type": "Band",
-      "source": "talent_club",
-      "source_url": "https://talentclublive.com/event/the-garcia-project-night-3/",
       "genres": []
     },
     {
@@ -8306,23 +8158,6 @@
       "genres": [
         "Celtic"
       ]
-    },
-    {
-      "id": "0803bf9150b9d1bc",
-      "date": "2027-03-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Patrick Warburton Standup Comedy",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/patrick-warburton-standup-comedy",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/patrick-warburton-standup-comedy",
-      "genres": []
     },
     {
       "id": "5f02abe2983a0b11",
@@ -8446,25 +8281,6 @@
       "genres": []
     },
     {
-      "id": "c01b9707d2a42613",
-      "date": "2027-04-09",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "One Of These Nights: Eagles Tribute",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/one-of-these-nights-eagles-tribute",
-      "genres": [
-        "Other"
-      ]
-    },
-    {
       "id": "098700e2abebc40c",
       "date": "2027-04-14",
       "start_raw": "1500",
@@ -8478,23 +8294,6 @@
       "event_type": "Band",
       "source": "musiclist_txt",
       "source_url": null,
-      "genres": []
-    },
-    {
-      "id": "4021d39ced9e1f1b",
-      "date": "2027-04-24",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Pigs On The Wing: Beyond Pompeii",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/pigs-on-the-wing-beyond-pompeii",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/pigs-on-the-wing-beyond-pompeii",
       "genres": []
     },
     {
@@ -8529,40 +8328,6 @@
       "event_type": "Band",
       "source": "holly",
       "source_url": "https://hollytheatre.ticketspice.com/cal-acdc-highway-to-hell",
-      "genres": []
-    },
-    {
-      "id": "7c00ba31e2d0039f",
-      "date": "2027-05-20",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Christopher Titus: Raised By Wolves",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/christopher-titus-raised-by-wolves",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/christopher-titus-raised-by-wolves",
-      "genres": []
-    },
-    {
-      "id": "f23e71d82a53dd4b",
-      "date": "2027-05-22",
-      "start_raw": "2000",
-      "end_raw": "2200",
-      "end_estimated": true,
-      "musician": "Wild Rumours: A Fleetwood Mac Experience",
-      "genre": "",
-      "link": "https://theroguetheatre.ticketspice.com/wild-rumours-a-fleetwood-mac-experience",
-      "link_name": "",
-      "venue": "Rogue Theatre",
-      "notes": "Doors 7:00 PM",
-      "event_type": "Band",
-      "source": "rogue_theatre",
-      "source_url": "https://theroguetheatre.ticketspice.com/wild-rumours-a-fleetwood-mac-experience",
       "genres": []
     },
     {
